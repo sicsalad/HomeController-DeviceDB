@@ -272,7 +272,7 @@
         },
         {
           "name": "P_mode",
-          "canonical": "Custom8",
+          "canonical": "Mode",
           "type": "parsed",
           "address": "07 00 00 00",
           "command": "28 00 00 00"

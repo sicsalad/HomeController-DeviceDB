@@ -132,7 +132,7 @@
         },
         {
           "name": "Ch_previous",
-          "canonical": "ChannelDown",
+          "canonical": "PreviousChannel",
           "type": "parsed",
           "address": "A0 00 00 00",
           "command": "47 00 00 00"

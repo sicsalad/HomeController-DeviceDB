@@ -111,7 +111,7 @@
         },
         {
           "name": "Reader_mode",
-          "canonical": "Custom4",
+          "canonical": "Mode",
           "type": "parsed",
           "address": "04 F4 00 00",
           "command": "DB 24 00 00"

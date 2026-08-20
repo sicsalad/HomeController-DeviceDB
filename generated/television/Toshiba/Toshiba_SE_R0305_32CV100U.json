@@ -174,7 +174,7 @@
         },
         {
           "name": "Play_mode",
-          "canonical": "Custom8",
+          "canonical": "Mode",
           "type": "parsed",
           "address": "40 00 00 00",
           "command": "1D 00 00 00"

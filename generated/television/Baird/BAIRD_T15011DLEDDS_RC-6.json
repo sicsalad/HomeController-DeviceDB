@@ -125,14 +125,14 @@
         },
         {
           "name": "Pmode",
-          "canonical": "Custom2",
+          "canonical": "Mode",
           "type": "parsed",
           "address": "01 00 00 00",
           "command": "14 00 00 00"
         },
         {
           "name": "Smode",
-          "canonical": "Custom3",
+          "canonical": "Mode",
           "type": "parsed",
           "address": "01 00 00 00",
           "command": "18 00 00 00"

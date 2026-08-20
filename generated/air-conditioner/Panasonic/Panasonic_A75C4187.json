@@ -1639,7 +1639,7 @@
         },
         {
           "name": "Mode",
-          "canonical": "Custom7",
+          "canonical": "Mode",
           "type": "raw",
           "frequencyHz": 38000,
           "data": [

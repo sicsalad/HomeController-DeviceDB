@@ -1415,7 +1415,7 @@
         },
         {
           "name": "MODE",
-          "canonical": "Custom3",
+          "canonical": "Mode",
           "type": "raw",
           "frequencyHz": 38000,
           "data": [

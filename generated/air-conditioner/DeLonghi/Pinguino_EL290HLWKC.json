@@ -20,14 +20,14 @@
         },
         {
           "name": "Mode",
-          "canonical": "Custom1",
+          "canonical": "Mode",
           "type": "parsed",
           "address": "81 00 00 00",
           "command": "66 00 00 00"
         },
         {
           "name": "Quiet_Mode",
-          "canonical": "Custom2",
+          "canonical": "Mode",
           "type": "parsed",
           "address": "81 00 00 00",
           "command": "64 00 00 00"

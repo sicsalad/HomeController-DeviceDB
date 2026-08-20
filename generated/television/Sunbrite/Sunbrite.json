@@ -20,7 +20,7 @@
         },
         {
           "name": "Power_off",
-          "canonical": "Custom1",
+          "canonical": "PowerOff",
           "type": "parsed",
           "address": "04 00 00 00",
           "command": "08 00 00 00"

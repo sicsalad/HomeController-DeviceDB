@@ -2770,7 +2770,7 @@
         },
         {
           "name": "Av_mode",
-          "canonical": "Custom3",
+          "canonical": "Mode",
           "type": "raw",
           "frequencyHz": 38000,
           "data": [
@@ -3175,7 +3175,7 @@
         },
         {
           "name": "View_mode",
-          "canonical": "Custom5",
+          "canonical": "Mode",
           "type": "raw",
           "frequencyHz": 38000,
           "data": [
@@ -3445,7 +3445,7 @@
         },
         {
           "name": "Sound_mode",
-          "canonical": "Custom7",
+          "canonical": "Mode",
           "type": "raw",
           "frequencyHz": 38000,
           "data": [

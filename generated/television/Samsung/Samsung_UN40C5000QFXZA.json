@@ -265,7 +265,7 @@
         },
         {
           "name": "S Mode",
-          "canonical": "Custom4",
+          "canonical": "Mode",
           "type": "parsed",
           "address": "07 00 00 00",
           "command": "2B 00 00 00"
@@ -286,7 +286,7 @@
         },
         {
           "name": "P Mode",
-          "canonical": "Custom6",
+          "canonical": "Mode",
           "type": "parsed",
           "address": "07 00 00 00",
           "command": "28 00 00 00"

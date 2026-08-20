@@ -27,14 +27,14 @@
         },
         {
           "name": "P_mode",
-          "canonical": "Custom2",
+          "canonical": "Mode",
           "type": "parsed",
           "address": "02 7D 00 00",
           "command": "47 B8 00 00"
         },
         {
           "name": "S_mode",
-          "canonical": "Custom3",
+          "canonical": "Mode",
           "type": "parsed",
           "address": "02 7D 00 00",
           "command": "43 BC 00 00"

@@ -48,7 +48,7 @@
         },
         {
           "name": "Power_off",
-          "canonical": "Custom1",
+          "canonical": "PowerOff",
           "type": "parsed",
           "address": "07 00 00 00",
           "command": "98 00 00 00"
@@ -160,7 +160,7 @@
         },
         {
           "name": "Home",
-          "canonical": "Custom3",
+          "canonical": "Custom1",
           "type": "parsed",
           "address": "07 00 00 00",
           "command": "79 00 00 00"

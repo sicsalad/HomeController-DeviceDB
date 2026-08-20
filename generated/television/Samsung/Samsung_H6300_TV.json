@@ -265,7 +265,7 @@
         },
         {
           "name": "Soccer_mode",
-          "canonical": "Custom7",
+          "canonical": "Mode",
           "type": "parsed",
           "address": "07 00 00 00",
           "command": "B8 00 00 00"

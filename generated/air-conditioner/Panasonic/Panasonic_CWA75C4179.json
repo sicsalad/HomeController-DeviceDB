@@ -13,7 +13,7 @@
       "commands": [
         {
           "name": "Off",
-          "canonical": "Custom1",
+          "canonical": "PowerOff",
           "type": "raw",
           "frequencyHz": 38000,
           "data": [
@@ -460,7 +460,7 @@
         },
         {
           "name": "POWER_ON",
-          "canonical": "Custom2",
+          "canonical": "PowerOn",
           "type": "raw",
           "frequencyHz": 38000,
           "data": [
@@ -2343,7 +2343,7 @@
         },
         {
           "name": "MODE",
-          "canonical": "Custom6",
+          "canonical": "Mode",
           "type": "raw",
           "frequencyHz": 38000,
           "data": [

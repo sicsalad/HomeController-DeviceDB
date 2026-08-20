@@ -41,14 +41,14 @@
         },
         {
           "name": "P.MODE",
-          "canonical": "Custom2",
+          "canonical": "Mode",
           "type": "parsed",
           "address": "00 00 00 00",
           "command": "1A 00 00 00"
         },
         {
           "name": "S.MODE",
-          "canonical": "Custom3",
+          "canonical": "Mode",
           "type": "parsed",
           "address": "00 00 00 00",
           "command": "24 00 00 00"

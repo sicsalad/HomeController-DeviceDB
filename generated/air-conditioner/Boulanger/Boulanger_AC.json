@@ -55,14 +55,14 @@
         },
         {
           "name": "MODE",
-          "canonical": "Custom4",
+          "canonical": "Mode",
           "type": "parsed",
           "address": "81 00 00 00",
           "command": "66 00 00 00"
         },
         {
           "name": "Nightmode",
-          "canonical": "Custom5",
+          "canonical": "Mode",
           "type": "parsed",
           "address": "81 00 00 00",
           "command": "6A 00 00 00"

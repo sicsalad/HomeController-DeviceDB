@@ -548,7 +548,7 @@
         },
         {
           "name": "Picturemode",
-          "canonical": "Custom4",
+          "canonical": "Mode",
           "type": "raw",
           "frequencyHz": 38000,
           "data": [

@@ -83,14 +83,14 @@
         },
         {
           "name": "Gamemode",
-          "canonical": "Custom3",
+          "canonical": "Mode",
           "type": "parsed",
           "address": "04 00 00 00",
           "command": "30 00 00 00"
         },
         {
           "name": "Picturemode",
-          "canonical": "Custom4",
+          "canonical": "Mode",
           "type": "parsed",
           "address": "04 00 00 00",
           "command": "FC 00 00 00"

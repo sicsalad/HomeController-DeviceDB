@@ -76,7 +76,7 @@
         },
         {
           "name": "Home",
-          "canonical": "Custom2",
+          "canonical": "Custom1",
           "type": "parsed",
           "address": "86 05 00 00",
           "command": "14 EB 00 00"

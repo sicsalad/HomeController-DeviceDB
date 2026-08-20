@@ -245,7 +245,7 @@
         },
         {
           "name": "Screen_mode",
-          "canonical": "Custom7",
+          "canonical": "Mode",
           "type": "parsed",
           "address": "A4 00 00 00",
           "command": "3D 00 00 00"

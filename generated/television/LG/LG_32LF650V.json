@@ -188,7 +188,7 @@
         },
         {
           "name": "Home",
-          "canonical": "Custom7",
+          "canonical": "Custom1",
           "type": "parsed",
           "address": "04 00 00 00",
           "command": "7C 00 00 00"

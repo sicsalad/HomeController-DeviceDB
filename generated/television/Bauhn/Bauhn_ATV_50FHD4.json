@@ -209,14 +209,14 @@
         },
         {
           "name": "S.mode",
-          "canonical": "Custom5",
+          "canonical": "Mode",
           "type": "parsed",
           "address": "01 72 00 00",
           "command": "0B F4 00 00"
         },
         {
           "name": "P.mode",
-          "canonical": "Custom6",
+          "canonical": "Mode",
           "type": "parsed",
           "address": "01 72 00 00",
           "command": "0F F0 00 00"

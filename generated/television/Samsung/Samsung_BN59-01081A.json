@@ -20,14 +20,14 @@
         },
         {
           "name": "VOL +",
-          "canonical": "Custom1",
+          "canonical": "VolumeUp",
           "type": "parsed",
           "address": "07 00 00 00",
           "command": "07 00 00 00"
         },
         {
           "name": "VOL -",
-          "canonical": "Custom2",
+          "canonical": "VolumeDown",
           "type": "parsed",
           "address": "07 00 00 00",
           "command": "0B 00 00 00"
@@ -41,14 +41,14 @@
         },
         {
           "name": "P +",
-          "canonical": "Custom3",
+          "canonical": "ChannelUp",
           "type": "parsed",
           "address": "07 00 00 00",
           "command": "12 00 00 00"
         },
         {
           "name": "P -",
-          "canonical": "Custom4",
+          "canonical": "ChannelDown",
           "type": "parsed",
           "address": "07 00 00 00",
           "command": "10 00 00 00"

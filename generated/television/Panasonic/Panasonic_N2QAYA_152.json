@@ -139,7 +139,7 @@
         },
         {
           "name": "Home",
-          "canonical": "Custom7",
+          "canonical": "Custom1",
           "type": "parsed",
           "address": "89 02 20 02",
           "command": "50 01 00 00"

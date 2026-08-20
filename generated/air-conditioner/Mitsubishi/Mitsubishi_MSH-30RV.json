@@ -248,7 +248,7 @@
         },
         {
           "name": "Off",
-          "canonical": "Custom1",
+          "canonical": "PowerOff",
           "type": "raw",
           "frequencyHz": 38000,
           "data": [
@@ -953,7 +953,7 @@
         },
         {
           "name": "MODE",
-          "canonical": "Custom3",
+          "canonical": "Mode",
           "type": "raw",
           "frequencyHz": 38000,
           "data": [

@@ -41,7 +41,7 @@
         },
         {
           "name": "Mode",
-          "canonical": "Custom2",
+          "canonical": "Mode",
           "type": "parsed",
           "address": "00 00 00 00",
           "command": "08 00 00 00"

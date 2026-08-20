@@ -153,7 +153,7 @@
         },
         {
           "name": "Home",
-          "canonical": "Custom2",
+          "canonical": "Custom1",
           "type": "parsed",
           "address": "07 00 00 00",
           "command": "79 00 00 00"

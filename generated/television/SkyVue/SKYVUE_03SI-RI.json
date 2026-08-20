@@ -181,7 +181,7 @@
         },
         {
           "name": "View_mode",
-          "canonical": "Custom8",
+          "canonical": "Mode",
           "type": "parsed",
           "address": "20 00 00 00",
           "command": "51 00 00 00"

@@ -34,7 +34,7 @@
         },
         {
           "name": "MODE",
-          "canonical": "Custom2",
+          "canonical": "Mode",
           "type": "parsed",
           "address": "86 6B 00 00",
           "command": "02 FD 00 00"

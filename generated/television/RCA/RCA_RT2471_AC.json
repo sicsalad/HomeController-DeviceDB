@@ -146,7 +146,7 @@
         },
         {
           "name": "Mode",
-          "canonical": "Custom6",
+          "canonical": "Mode",
           "type": "parsed",
           "address": "A0 00 00 00",
           "command": "5A 00 00 00"

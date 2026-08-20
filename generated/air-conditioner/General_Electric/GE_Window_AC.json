@@ -41,7 +41,7 @@
         },
         {
           "name": "Mode",
-          "canonical": "Custom3",
+          "canonical": "Mode",
           "type": "parsed",
           "address": "98 6F 00 00",
           "command": "08 F7 00 00"

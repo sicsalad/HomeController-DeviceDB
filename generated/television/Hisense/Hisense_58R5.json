@@ -167,7 +167,7 @@
         },
         {
           "name": "Home",
-          "canonical": "Custom6",
+          "canonical": "Custom1",
           "type": "parsed",
           "address": "00 BF 00 00",
           "command": "20 DF 00 00"

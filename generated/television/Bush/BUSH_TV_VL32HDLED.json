@@ -209,14 +209,14 @@
         },
         {
           "name": "Pmode",
-          "canonical": "Custom4",
+          "canonical": "Mode",
           "type": "parsed",
           "address": "08 00 00 00",
           "command": "C2 00 00 00"
         },
         {
           "name": "Smode",
-          "canonical": "Custom5",
+          "canonical": "Mode",
           "type": "parsed",
           "address": "08 00 00 00",
           "command": "C1 00 00 00"

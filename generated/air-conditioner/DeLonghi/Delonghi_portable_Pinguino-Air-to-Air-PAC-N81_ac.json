@@ -41,7 +41,7 @@
         },
         {
           "name": "Mode",
-          "canonical": "Custom3",
+          "canonical": "Mode",
           "type": "parsed",
           "address": "48 44 00 00",
           "command": "88 08 00 00"
