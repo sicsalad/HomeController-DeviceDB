@@ -10,6 +10,8 @@ on:
       - 'tools/import_flipper.py'
       - 'tools/fix_generated_protocols.py'
       - 'tools/improve_canonicals.py'
+      - 'tools/normalize_manufacturers.py'
+      - 'tools/validate_db.py'
       - 'curated-database.json'
       - '.github/workflows/update-flipper.yml'
 
@@ -36,6 +38,8 @@ jobs:
           python3 db/tools/import_flipper.py --source flipper --output db
           python3 db/tools/fix_generated_protocols.py
           python3 db/tools/improve_canonicals.py
+          python3 db/tools/normalize_manufacturers.py
+          python3 db/tools/validate_db.py
 
       - name: Commit generated database
         working-directory: db
