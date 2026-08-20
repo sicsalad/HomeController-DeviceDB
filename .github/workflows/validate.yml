@@ -1,0 +1,28 @@
+name: Validate DeviceDB
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'database.json'
+      - 'devices/**'
+      - 'generated/**'
+      - 'protocols/**'
+      - 'schemas/**'
+      - 'tools/validate_db.py'
+      - '.github/workflows/validate.yml'
+  pull_request:
+    paths:
+      - 'database.json'
+      - 'devices/**'
+      - 'generated/**'
+      - 'protocols/**'
+      - 'schemas/**'
+      - 'tools/validate_db.py'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 tools/validate_db.py
