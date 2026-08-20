@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "WhirlpoolAc",
+  "transport": "infrared",
+  "controlModel": "stateful-climate",
+  "carrierFrequencyHz": 38000,
+  "runtimeEncoder": "WhirlpoolAc",
+  "stateBytes": 21,
+  "variants": ["DG11J1-3A", "DG11J1-91"],
+  "notes": "Whirlpool 21-byte stateful A/C family used by DG11J1 remotes. Device entries must select the known variant."
+}
