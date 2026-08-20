@@ -4,7 +4,10 @@ import json
 from pathlib import Path
 
 root = Path(__file__).resolve().parents[1]
-for path in (root / "generated").rglob("*.json") if (root / "generated").exists() else []:
+generated = root / "generated"
+paths = generated.rglob("*.json") if generated.exists() else []
+
+for path in paths:
     doc = json.loads(path.read_text(encoding="utf-8"))
     new_methods = []
     for method in doc.get("controlMethods", []):
@@ -18,7 +21,7 @@ for path in (root / "generated").rglob("*.json") if (root / "generated").exists(
             else:
                 key = ("parsed", cmd.get("protocol", ""), 0)
             groups.setdefault(key, []).append(cmd)
-        for (kind, protocol, frequency), commands in groups.items():
+        for (_, protocol, frequency), commands in groups.items():
             clean = []
             for cmd in commands:
                 c = dict(cmd)
