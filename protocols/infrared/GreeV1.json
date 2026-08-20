@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "GreeV1",
+  "transport": "infrared",
+  "controlModel": "stateful-climate",
+  "carrierFrequencyHz": 38000,
+  "runtimeEncoder": "GreeV1",
+  "stateBytes": 8,
+  "variants": ["generic", "YAW1F", "YBOFB", "YX1FSF", "YAAA1FB"],
+  "notes": "Standard 8-byte Gree family state protocol. Variant-specific behavior must be declared by the device entry when known."
+}
