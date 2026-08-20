@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "name": "HomeController DeviceDB curated entries",
+  "deviceTypes": [
+    {
+      "name": "Television",
+      "manufacturers": [
+        {"name":"Samsung","models":[
+          {"name":"UE32F4000AW","path":"devices/television/Samsung/UE32F4000AW.json"},
+          {"name":"UE48H6700","remoteModel":"BN59-01175N","path":"devices/television/Samsung/UE48H6700.json"}
+        ]},
+        {"name":"Hitachi","models":[
+          {"name":"32HB4T62","remoteModel":"49141","path":"devices/television/Hitachi/32HB4T62.json"},
+          {"name":"LE46H508","path":"devices/television/Hitachi/LE46H508.json"}
+        ]}
+      ]
+    },
+    {
+      "name": "Air Conditioner",
+      "manufacturers": [
+        {"name":"Gree","models":[
+          {"name":"GWH18ACD-K6DNA1D","remoteModel":"YAAA1FB","path":"devices/air-conditioner/Gree/GWH18ACD-K6DNA1D.json"}
+        ]},
+        {"name":"Whirlpool","models":[
+          {"name":"DG11J1-3A","remoteModel":"DG11J1-3A","path":"devices/air-conditioner/Whirlpool/DG11J1-3A.json"}
+        ]}
+      ]
+    }
+  ]
+}
