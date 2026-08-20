@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "id": "Samsung32",
+  "transport": "infrared",
+  "controlModel": "stateless-command",
+  "carrierFrequencyHz": 38000,
+  "runtimeEncoder": "Samsung32",
+  "notes": "32-bit Samsung TV command protocol. Device definitions provide address and command bytes."
+}
