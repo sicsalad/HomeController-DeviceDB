@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "deviceType": "Air Conditioner",
-  "manufacturer": "Arctic_King",
+  "manufacturer": "Arctic King",
   "model": "RG15B1",
   "verification": "community-capture",
   "controlMethods": [

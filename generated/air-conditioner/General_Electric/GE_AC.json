@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "deviceType": "Air Conditioner",
-  "manufacturer": "General_Electric",
+  "manufacturer": "General Electric",
   "model": "GE AC",
   "verification": "community-capture",
   "controlMethods": [
