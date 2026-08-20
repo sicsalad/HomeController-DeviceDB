@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Television",
+  "manufacturer": "Samsung",
+  "model": "AA59-00786A",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "Samsung32",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "Power",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "02 00 00 00"
+        },
+        {
+          "name": "Mute",
+          "canonical": "Mute",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "0F 00 00 00"
+        },
+        {
+          "name": "Vol_up",
+          "canonical": "VolumeUp",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "07 00 00 00"
+        },
+        {
+          "name": "Vol_dn",
+          "canonical": "VolumeDown",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "0B 00 00 00"
+        },
+        {
+          "name": "Ch_next",
+          "canonical": "ChannelUp",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "12 00 00 00"
+        },
+        {
+          "name": "Ch_prev",
+          "canonical": "ChannelDown",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "10 00 00 00"
+        },
+        {
+          "name": "Source",
+          "canonical": "Source",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "01 00 00 00"
+        },
+        {
+          "name": "Menu",
+          "canonical": "Menu",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "1A 00 00 00"
+        },
+        {
+          "name": "Smart_Hub",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "01 00 00 00"
+        },
+        {
+          "name": "Exit",
+          "canonical": "Exit",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "2D 00 00 00"
+        },
+        {
+          "name": "Info",
+          "canonical": "Info",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "2D 00 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "TVs/Samsung/Samsung_AA59-00786A.ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}

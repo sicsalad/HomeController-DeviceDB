@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Television",
+  "manufacturer": "Vitec",
+  "model": "Exterity IPTV",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "NECext",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "Power",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "AD ED 00 00",
+          "command": "B5 4A 00 00"
+        },
+        {
+          "name": "Tv",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "AD ED 00 00",
+          "command": "C9 36 00 00"
+        },
+        {
+          "name": "Home",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "AD ED 00 00",
+          "command": "CA 35 00 00"
+        },
+        {
+          "name": "Guide",
+          "canonical": "Guide",
+          "type": "parsed",
+          "address": "AD ED 00 00",
+          "command": "CB 34 00 00"
+        },
+        {
+          "name": "Text",
+          "canonical": "Custom3",
+          "type": "parsed",
+          "address": "AD ED 00 00",
+          "command": "AB 54 00 00"
+        },
+        {
+          "name": "Vol_up",
+          "canonical": "VolumeUp",
+          "type": "parsed",
+          "address": "AD ED 00 00",
+          "command": "BA 45 00 00"
+        },
+        {
+          "name": "Vol_dn",
+          "canonical": "VolumeDown",
+          "type": "parsed",
+          "address": "AD ED 00 00",
+          "command": "BB 44 00 00"
+        },
+        {
+          "name": "Ch_next",
+          "canonical": "ChannelUp",
+          "type": "parsed",
+          "address": "AD ED 00 00",
+          "command": "B0 4F 00 00"
+        },
+        {
+          "name": "Ch_prev",
+          "canonical": "ChannelDown",
+          "type": "parsed",
+          "address": "AD ED 00 00",
+          "command": "B1 4E 00 00"
+        },
+        {
+          "name": "Mute",
+          "canonical": "Mute",
+          "type": "parsed",
+          "address": "AD ED 00 00",
+          "command": "C5 3A 00 00"
+        },
+        {
+          "name": "Menu",
+          "canonical": "Menu",
+          "type": "parsed",
+          "address": "AD ED 00 00",
+          "command": "A5 5A 00 00"
+        },
+        {
+          "name": "Up",
+          "canonical": "Up",
+          "type": "parsed",
+          "address": "AD ED 00 00",
+          "command": "B2 4D 00 00"
+        },
+        {
+          "name": "Down",
+          "canonical": "Down",
+          "type": "parsed",
+          "address": "AD ED 00 00",
+          "command": "B4 4B 00 00"
+        },
+        {
+          "name": "Left",
+          "canonical": "Left",
+          "type": "parsed",
+          "address": "AD ED 00 00",
+          "command": "A9 56 00 00"
+        },
+        {
+          "name": "Right",
+          "canonical": "Right",
+          "type": "parsed",
+          "address": "AD ED 00 00",
+          "command": "BD 42 00 00"
+        },
+        {
+          "name": "Ok",
+          "canonical": "Ok",
+          "type": "parsed",
+          "address": "AD ED 00 00",
+          "command": "B3 4C 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "TVs/Vitec/Vitec_Exterity_IPTV.ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}

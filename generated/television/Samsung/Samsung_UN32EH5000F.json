@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Television",
+  "manufacturer": "Samsung",
+  "model": "UN32EH5000F",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "Samsung32",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "Power",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "02 00 00 00"
+        },
+        {
+          "name": "Mute",
+          "canonical": "Mute",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "0F 00 00 00"
+        },
+        {
+          "name": "Vol_up",
+          "canonical": "VolumeUp",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "07 00 00 00"
+        },
+        {
+          "name": "Vol_dn",
+          "canonical": "VolumeDown",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "0B 00 00 00"
+        },
+        {
+          "name": "Ch_next",
+          "canonical": "ChannelUp",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "12 00 00 00"
+        },
+        {
+          "name": "Ch_prev",
+          "canonical": "ChannelDown",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "10 00 00 00"
+        },
+        {
+          "name": "Source",
+          "canonical": "Source",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "01 00 00 00"
+        },
+        {
+          "name": "Sleep",
+          "canonical": "Sleep",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "03 00 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "TVs/Samsung/Samsung_UN32EH5000F.ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}

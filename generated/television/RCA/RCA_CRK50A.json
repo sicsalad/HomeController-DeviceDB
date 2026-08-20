@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Television",
+  "manufacturer": "RCA",
+  "model": "CRK50A",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "RCA",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "Power",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "54 00 00 00"
+        },
+        {
+          "name": "Ch_next",
+          "canonical": "ChannelUp",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "B4 00 00 00"
+        },
+        {
+          "name": "Ch_prev",
+          "canonical": "ChannelDown",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "34 00 00 00"
+        },
+        {
+          "name": "Vol_up",
+          "canonical": "VolumeUp",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "F4 00 00 00"
+        },
+        {
+          "name": "Vol_dn",
+          "canonical": "VolumeDown",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "74 00 00 00"
+        },
+        {
+          "name": "Mute",
+          "canonical": "Mute",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "FC 00 00 00"
+        },
+        {
+          "name": "Reset_(12)",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "48 00 00 00"
+        },
+        {
+          "name": "Setup_(18)",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "18 00 00 00"
+        },
+        {
+          "name": "Video_(e2)",
+          "canonical": "Custom3",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "47 00 00 00"
+        },
+        {
+          "name": "Audio_(e1)",
+          "canonical": "Custom4",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "87 00 00 00"
+        },
+        {
+          "name": "Menu+_(65)",
+          "canonical": "Custom5",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "A6 00 00 00"
+        },
+        {
+          "name": "Menu-_(64)",
+          "canonical": "Custom6",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "26 00 00 00"
+        },
+        {
+          "name": "Pc_chswap",
+          "canonical": "Custom7",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "E4 00 00 00"
+        },
+        {
+          "name": "Display",
+          "canonical": "Custom8",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "3C 00 00 00"
+        },
+        {
+          "name": "1",
+          "canonical": "Digit1",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "8C 00 00 00"
+        },
+        {
+          "name": "2",
+          "canonical": "Digit2",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "4C 00 00 00"
+        },
+        {
+          "name": "3",
+          "canonical": "Digit3",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "CC 00 00 00"
+        },
+        {
+          "name": "4",
+          "canonical": "Digit4",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "2C 00 00 00"
+        },
+        {
+          "name": "5",
+          "canonical": "Digit5",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "AC 00 00 00"
+        },
+        {
+          "name": "6",
+          "canonical": "Digit6",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "6C 00 00 00"
+        },
+        {
+          "name": "7",
+          "canonical": "Digit7",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "EC 00 00 00"
+        },
+        {
+          "name": "8",
+          "canonical": "Digit8",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "1C 00 00 00"
+        },
+        {
+          "name": "9",
+          "canonical": "Digit9",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "9C 00 00 00"
+        },
+        {
+          "name": "0",
+          "canonical": "Digit0",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "0C 00 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "TVs/RCA/RCA_CRK50A.ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}

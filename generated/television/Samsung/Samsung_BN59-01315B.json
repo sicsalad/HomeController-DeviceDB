@@ -1,0 +1,311 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Television",
+  "manufacturer": "Samsung",
+  "model": "BN59-01315B",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "Samsung32",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "Power",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "E6 00 00 00"
+        },
+        {
+          "name": "Up",
+          "canonical": "Up",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "60 00 00 00"
+        },
+        {
+          "name": "Down",
+          "canonical": "Down",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "61 00 00 00"
+        },
+        {
+          "name": "Right",
+          "canonical": "Right",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "62 00 00 00"
+        },
+        {
+          "name": "Left",
+          "canonical": "Left",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "65 00 00 00"
+        },
+        {
+          "name": "Ok",
+          "canonical": "Ok",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "68 00 00 00"
+        },
+        {
+          "name": "Exit",
+          "canonical": "Exit",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "2D 00 00 00"
+        },
+        {
+          "name": "Return",
+          "canonical": "Back",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "58 00 00 00"
+        },
+        {
+          "name": "Home",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "79 00 00 00"
+        },
+        {
+          "name": "Source",
+          "canonical": "Source",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "01 00 00 00"
+        },
+        {
+          "name": "Netflix",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "F3 00 00 00"
+        },
+        {
+          "name": "Prime",
+          "canonical": "Custom3",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "F4 00 00 00"
+        },
+        {
+          "name": "Vol_up",
+          "canonical": "VolumeUp",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "07 00 00 00"
+        },
+        {
+          "name": "Vol_dn",
+          "canonical": "VolumeDown",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "0B 00 00 00"
+        },
+        {
+          "name": "Mute",
+          "canonical": "Mute",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "0F 00 00 00"
+        },
+        {
+          "name": "Ch_next",
+          "canonical": "ChannelUp",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "12 00 00 00"
+        },
+        {
+          "name": "Ch_prev",
+          "canonical": "ChannelDown",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "10 00 00 00"
+        },
+        {
+          "name": "Ch_list",
+          "canonical": "ChannelList",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "6B 00 00 00"
+        },
+        {
+          "name": "1",
+          "canonical": "Digit1",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "04 00 00 00"
+        },
+        {
+          "name": "2",
+          "canonical": "Digit2",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "05 00 00 00"
+        },
+        {
+          "name": "3",
+          "canonical": "Digit3",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "06 00 00 00"
+        },
+        {
+          "name": "4",
+          "canonical": "Digit4",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "08 00 00 00"
+        },
+        {
+          "name": "5",
+          "canonical": "Digit5",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "09 00 00 00"
+        },
+        {
+          "name": "6",
+          "canonical": "Digit6",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "0A 00 00 00"
+        },
+        {
+          "name": "7",
+          "canonical": "Digit7",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "0C 00 00 00"
+        },
+        {
+          "name": "8",
+          "canonical": "Digit8",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "0D 00 00 00"
+        },
+        {
+          "name": "9",
+          "canonical": "Digit9",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "0E 00 00 00"
+        },
+        {
+          "name": "0",
+          "canonical": "Digit0",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "11 00 00 00"
+        },
+        {
+          "name": "Ttx_mix",
+          "canonical": "Custom4",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "2C 00 00 00"
+        },
+        {
+          "name": "Pre_ch",
+          "canonical": "PreviousChannel",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "13 00 00 00"
+        },
+        {
+          "name": "Red_a",
+          "canonical": "Custom5",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "6C 00 00 00"
+        },
+        {
+          "name": "Green_b",
+          "canonical": "Custom6",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "14 00 00 00"
+        },
+        {
+          "name": "Yellow_c",
+          "canonical": "Custom7",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "15 00 00 00"
+        },
+        {
+          "name": "Blue_d",
+          "canonical": "Custom8",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "16 00 00 00"
+        },
+        {
+          "name": "Guide",
+          "canonical": "Guide",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "4F 00 00 00"
+        },
+        {
+          "name": "Info",
+          "canonical": "Info",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "1F 00 00 00"
+        },
+        {
+          "name": "Play",
+          "canonical": "Play",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "47 00 00 00"
+        },
+        {
+          "name": "Pause",
+          "canonical": "Pause",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "4A 00 00 00"
+        },
+        {
+          "name": "Stop",
+          "canonical": "Stop",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "46 00 00 00"
+        },
+        {
+          "name": "Rewind",
+          "canonical": "Rewind",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "45 00 00 00"
+        },
+        {
+          "name": "Fast_fw",
+          "canonical": "FastForward",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "48 00 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "TVs/Samsung/Samsung_BN59-01315B.ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}

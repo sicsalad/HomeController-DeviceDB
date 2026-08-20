@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Television",
+  "manufacturer": "Samsung",
+  "model": "LE40R87BD",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "Samsung32",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "Power",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "02 00 00 00"
+        },
+        {
+          "name": "Source",
+          "canonical": "Source",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "01 00 00 00"
+        },
+        {
+          "name": "Vol_dn",
+          "canonical": "VolumeDown",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "0B 00 00 00"
+        },
+        {
+          "name": "Vol_up",
+          "canonical": "VolumeUp",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "07 00 00 00"
+        },
+        {
+          "name": "P_min",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "10 00 00 00"
+        },
+        {
+          "name": "P_max",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "12 00 00 00"
+        },
+        {
+          "name": "Num_1",
+          "canonical": "Custom3",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "04 00 00 00"
+        },
+        {
+          "name": "Num_2",
+          "canonical": "Custom4",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "05 00 00 00"
+        },
+        {
+          "name": "Num_3",
+          "canonical": "Custom5",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "06 00 00 00"
+        },
+        {
+          "name": "Num_4",
+          "canonical": "Custom6",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "08 00 00 00"
+        },
+        {
+          "name": "Num_5",
+          "canonical": "Custom7",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "09 00 00 00"
+        },
+        {
+          "name": "Num_6",
+          "canonical": "Custom8",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "0A 00 00 00"
+        },
+        {
+          "name": "Pre_ch",
+          "canonical": "PreviousChannel",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "13 00 00 00"
+        },
+        {
+          "name": "Mute",
+          "canonical": "Mute",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "0F 00 00 00"
+        },
+        {
+          "name": "Menu",
+          "canonical": "Menu",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "1A 00 00 00"
+        },
+        {
+          "name": "Exit",
+          "canonical": "Exit",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "2D 00 00 00"
+        },
+        {
+          "name": "Up",
+          "canonical": "Up",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "60 00 00 00"
+        },
+        {
+          "name": "Down",
+          "canonical": "Down",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "61 00 00 00"
+        },
+        {
+          "name": "Left",
+          "canonical": "Left",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "65 00 00 00"
+        },
+        {
+          "name": "Right",
+          "canonical": "Right",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "62 00 00 00"
+        },
+        {
+          "name": "Return",
+          "canonical": "Back",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "58 00 00 00"
+        },
+        {
+          "name": "Info",
+          "canonical": "Info",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "1F 00 00 00"
+        },
+        {
+          "name": "Ch_list",
+          "canonical": "ChannelList",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "6B 00 00 00"
+        },
+        {
+          "name": "Stop",
+          "canonical": "Stop",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "46 00 00 00"
+        },
+        {
+          "name": "Guide",
+          "canonical": "Guide",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "4F 00 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "TVs/Samsung/Samsung_LE40R87BD.ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}

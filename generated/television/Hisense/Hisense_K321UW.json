@@ -1,0 +1,258 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Television",
+  "manufacturer": "Hisense",
+  "model": "K321UW",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "NECext",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "Power",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "0D F2 00 00"
+        },
+        {
+          "name": "Input",
+          "canonical": "Source",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "12 ED 00 00"
+        },
+        {
+          "name": "Info",
+          "canonical": "Info",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "0C F3 00 00"
+        },
+        {
+          "name": "Back",
+          "canonical": "Back",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "48 B7 00 00"
+        },
+        {
+          "name": "Ok",
+          "canonical": "Ok",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "15 EA 00 00"
+        },
+        {
+          "name": "Up",
+          "canonical": "Up",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "16 E9 00 00"
+        },
+        {
+          "name": "Left",
+          "canonical": "Left",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "19 E6 00 00"
+        },
+        {
+          "name": "Right",
+          "canonical": "Right",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "18 E7 00 00"
+        },
+        {
+          "name": "Fast_fo",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "59 A6 00 00"
+        },
+        {
+          "name": "Fast_ba",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "58 A7 00 00"
+        },
+        {
+          "name": "Play_pa",
+          "canonical": "Custom3",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "A8 57 00 00"
+        },
+        {
+          "name": "Stop",
+          "canonical": "Stop",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "5A A5 00 00"
+        },
+        {
+          "name": "Mute",
+          "canonical": "Mute",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "0E F1 00 00"
+        },
+        {
+          "name": "Vol_up",
+          "canonical": "VolumeUp",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "44 BB 00 00"
+        },
+        {
+          "name": "Vol_dn",
+          "canonical": "VolumeDown",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "43 BC 00 00"
+        },
+        {
+          "name": "Ch_next",
+          "canonical": "ChannelUp",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "4A B5 00 00"
+        },
+        {
+          "name": "Ch_prev",
+          "canonical": "ChannelDown",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "4B B4 00 00"
+        },
+        {
+          "name": "YouTube",
+          "canonical": "Custom4",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "AA 55 00 00"
+        },
+        {
+          "name": "Netflix",
+          "canonical": "Custom5",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "47 B8 00 00"
+        },
+        {
+          "name": "Settings",
+          "canonical": "Custom6",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "14 EB 00 00"
+        },
+        {
+          "name": "Guide",
+          "canonical": "Guide",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "1D E2 00 00"
+        }
+      ]
+    },
+    {
+      "transport": "infrared",
+      "protocol": "",
+      "kind": "commands",
+      "frequencyHz": 38000,
+      "commands": [
+        {
+          "name": "Down",
+          "canonical": "Down",
+          "type": "raw",
+          "frequencyHz": 38000,
+          "data": [
+            8956,
+            4500,
+            592,
+            560,
+            564,
+            529,
+            595,
+            533,
+            591,
+            529,
+            595,
+            532,
+            592,
+            529,
+            595,
+            561,
+            563,
+            532,
+            592,
+            1671,
+            563,
+            1642,
+            592,
+            1642,
+            592,
+            1640,
+            594,
+            1641,
+            593,
+            1643,
+            591,
+            532,
+            592,
+            1642,
+            592,
+            1641,
+            593,
+            1640,
+            594,
+            1640,
+            594,
+            532,
+            592,
+            1642,
+            592,
+            532,
+            592,
+            532,
+            592,
+            531,
+            593,
+            531,
+            593,
+            530,
+            594,
+            530,
+            594,
+            1643,
+            591,
+            438,
+            686,
+            1641,
+            593,
+            1642,
+            592,
+            1642,
+            592,
+            41315,
+            8985,
+            2238,
+            593
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "TVs/Hisense/Hisense_K321UW.ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}

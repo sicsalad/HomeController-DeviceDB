@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Air Conditioner",
+  "manufacturer": "Midea",
+  "model": "MP12SVKBA3RCM",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "NECext",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "POWER",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "01 FF 00 00",
+          "command": "12 ED 00 00"
+        },
+        {
+          "name": "TEMP+",
+          "canonical": "TemperatureUp",
+          "type": "parsed",
+          "address": "01 FF 00 00",
+          "command": "1A E5 00 00"
+        },
+        {
+          "name": "TEMP-",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "01 FF 00 00",
+          "command": "13 EC 00 00"
+        },
+        {
+          "name": "MODE",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "01 FF 00 00",
+          "command": "02 FD 00 00"
+        },
+        {
+          "name": "SWING",
+          "canonical": "Swing",
+          "type": "parsed",
+          "address": "01 FF 00 00",
+          "command": "0F F0 00 00"
+        },
+        {
+          "name": "FAN_SPEED",
+          "canonical": "Custom3",
+          "type": "parsed",
+          "address": "01 FF 00 00",
+          "command": "0E F1 00 00"
+        },
+        {
+          "name": "CONT_FAN",
+          "canonical": "Custom4",
+          "type": "parsed",
+          "address": "01 FF 00 00",
+          "command": "4F B0 00 00"
+        },
+        {
+          "name": "TIMER",
+          "canonical": "Timer",
+          "type": "parsed",
+          "address": "01 FF 00 00",
+          "command": "1B E4 00 00"
+        },
+        {
+          "name": "SLEEP",
+          "canonical": "Sleep",
+          "type": "parsed",
+          "address": "01 FF 00 00",
+          "command": "0A F5 00 00"
+        },
+        {
+          "name": "LED_SOUND",
+          "canonical": "Custom5",
+          "type": "parsed",
+          "address": "01 FF 00 00",
+          "command": "66 99 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "ACs/Midea/Midea_MP12SVKBA3RCM.ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}

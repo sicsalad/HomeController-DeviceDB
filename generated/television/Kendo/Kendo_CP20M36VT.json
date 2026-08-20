@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Television",
+  "manufacturer": "Kendo",
+  "model": "CP20M36VT",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "RC5",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "Power",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "0C 00 00 00"
+        },
+        {
+          "name": "Mute",
+          "canonical": "Mute",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "0D 00 00 00"
+        },
+        {
+          "name": "P+/up",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "20 00 00 00"
+        },
+        {
+          "name": "P-/down",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "21 00 00 00"
+        },
+        {
+          "name": "Right",
+          "canonical": "Right",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "16 00 00 00"
+        },
+        {
+          "name": "Left",
+          "canonical": "Left",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "15 00 00 00"
+        },
+        {
+          "name": "Vol_dn",
+          "canonical": "VolumeDown",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "11 00 00 00"
+        },
+        {
+          "name": "Vol_up",
+          "canonical": "VolumeUp",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "10 00 00 00"
+        },
+        {
+          "name": "Tv",
+          "canonical": "Custom3",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "3F 00 00 00"
+        },
+        {
+          "name": "Av",
+          "canonical": "Custom4",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "38 00 00 00"
+        },
+        {
+          "name": "Menu",
+          "canonical": "Menu",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "30 00 00 00"
+        },
+        {
+          "name": "Info",
+          "canonical": "Info",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "12 00 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "TVs/Kendo/Kendo_CP20M36VT.ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}

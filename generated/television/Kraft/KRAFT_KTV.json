@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Television",
+  "manufacturer": "Kraft",
+  "model": "KTV",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "NECext",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "Power",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "01 3E 00 00",
+          "command": "0A F5 00 00"
+        },
+        {
+          "name": "Mute",
+          "canonical": "Mute",
+          "type": "parsed",
+          "address": "01 3E 00 00",
+          "command": "0B F4 00 00"
+        },
+        {
+          "name": "Vol_up",
+          "canonical": "VolumeUp",
+          "type": "parsed",
+          "address": "01 3E 00 00",
+          "command": "1E E1 00 00"
+        },
+        {
+          "name": "Vol_dn",
+          "canonical": "VolumeDown",
+          "type": "parsed",
+          "address": "01 3E 00 00",
+          "command": "5F A0 00 00"
+        },
+        {
+          "name": "Ch_next",
+          "canonical": "ChannelUp",
+          "type": "parsed",
+          "address": "01 3E 00 00",
+          "command": "1F E0 00 00"
+        },
+        {
+          "name": "Ch_prev",
+          "canonical": "ChannelDown",
+          "type": "parsed",
+          "address": "01 3E 00 00",
+          "command": "5C A3 00 00"
+        },
+        {
+          "name": "Ok",
+          "canonical": "Ok",
+          "type": "parsed",
+          "address": "01 3E 00 00",
+          "command": "5A A5 00 00"
+        },
+        {
+          "name": "Up",
+          "canonical": "Up",
+          "type": "parsed",
+          "address": "01 3E 00 00",
+          "command": "5E A1 00 00"
+        },
+        {
+          "name": "Down",
+          "canonical": "Down",
+          "type": "parsed",
+          "address": "01 3E 00 00",
+          "command": "56 A9 00 00"
+        },
+        {
+          "name": "Left",
+          "canonical": "Left",
+          "type": "parsed",
+          "address": "01 3E 00 00",
+          "command": "5B A4 00 00"
+        },
+        {
+          "name": "Right",
+          "canonical": "Right",
+          "type": "parsed",
+          "address": "01 3E 00 00",
+          "command": "58 A7 00 00"
+        },
+        {
+          "name": "Source",
+          "canonical": "Source",
+          "type": "parsed",
+          "address": "01 3E 00 00",
+          "command": "55 AA 00 00"
+        },
+        {
+          "name": "Menu",
+          "canonical": "Menu",
+          "type": "parsed",
+          "address": "01 3E 00 00",
+          "command": "57 A8 00 00"
+        },
+        {
+          "name": "Exit",
+          "canonical": "Exit",
+          "type": "parsed",
+          "address": "01 3E 00 00",
+          "command": "54 AB 00 00"
+        },
+        {
+          "name": "Home",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "01 3E 00 00",
+          "command": "59 A6 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "TVs/Kraft/KRAFT_KTV.ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}

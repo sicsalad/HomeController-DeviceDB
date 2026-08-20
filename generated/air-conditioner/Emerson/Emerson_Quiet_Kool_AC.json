@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Air Conditioner",
+  "manufacturer": "Emerson",
+  "model": "Quiet Kool AC",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "NEC",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "Power",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "81 00 00 00",
+          "command": "6B 00 00 00"
+        },
+        {
+          "name": "Timer",
+          "canonical": "Timer",
+          "type": "parsed",
+          "address": "81 00 00 00",
+          "command": "69 00 00 00"
+        },
+        {
+          "name": "Fan Speed",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "81 00 00 00",
+          "command": "64 00 00 00"
+        },
+        {
+          "name": "Temp+",
+          "canonical": "TemperatureUp",
+          "type": "parsed",
+          "address": "81 00 00 00",
+          "command": "65 00 00 00"
+        },
+        {
+          "name": "Temp-",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "81 00 00 00",
+          "command": "68 00 00 00"
+        },
+        {
+          "name": "Mode",
+          "canonical": "Custom3",
+          "type": "parsed",
+          "address": "81 00 00 00",
+          "command": "66 00 00 00"
+        },
+        {
+          "name": "Vent Angle",
+          "canonical": "Custom4",
+          "type": "parsed",
+          "address": "81 00 00 00",
+          "command": "67 00 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "ACs/Emerson/Emerson_Quiet_Kool_AC.ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}

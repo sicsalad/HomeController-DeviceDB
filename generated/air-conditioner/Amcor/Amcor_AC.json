@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Air Conditioner",
+  "manufacturer": "Amcor",
+  "model": "AC",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "NEC",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "Speed",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "80 00 00 00",
+          "command": "96 00 00 00"
+        },
+        {
+          "name": "Sleep",
+          "canonical": "Sleep",
+          "type": "parsed",
+          "address": "80 00 00 00",
+          "command": "9B 00 00 00"
+        },
+        {
+          "name": "Timer",
+          "canonical": "Timer",
+          "type": "parsed",
+          "address": "80 00 00 00",
+          "command": "9F 00 00 00"
+        },
+        {
+          "name": "Mode",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "80 00 00 00",
+          "command": "9D 00 00 00"
+        },
+        {
+          "name": "Up",
+          "canonical": "Up",
+          "type": "parsed",
+          "address": "80 00 00 00",
+          "command": "94 00 00 00"
+        },
+        {
+          "name": "Down",
+          "canonical": "Down",
+          "type": "parsed",
+          "address": "80 00 00 00",
+          "command": "95 00 00 00"
+        },
+        {
+          "name": "POWER",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "80 00 00 00",
+          "command": "9C 00 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "ACs/Amcor/Amcor_AC.ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}

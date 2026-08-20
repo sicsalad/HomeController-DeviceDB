@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Television",
+  "manufacturer": "Philips",
+  "model": "40HFL3010T12",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "RC6",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "Power",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "0C 00 00 00"
+        },
+        {
+          "name": "Ok",
+          "canonical": "Ok",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "5C 00 00 00"
+        },
+        {
+          "name": "Up",
+          "canonical": "Up",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "58 00 00 00"
+        },
+        {
+          "name": "Down",
+          "canonical": "Down",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "59 00 00 00"
+        },
+        {
+          "name": "Left",
+          "canonical": "Left",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "5A 00 00 00"
+        },
+        {
+          "name": "Right",
+          "canonical": "Right",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "5B 00 00 00"
+        },
+        {
+          "name": "Back",
+          "canonical": "Back",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "9F 00 00 00"
+        },
+        {
+          "name": "Mute",
+          "canonical": "Mute",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "0D 00 00 00"
+        },
+        {
+          "name": "Vol_up",
+          "canonical": "VolumeUp",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "10 00 00 00"
+        },
+        {
+          "name": "Vol_dn",
+          "canonical": "VolumeDown",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "11 00 00 00"
+        },
+        {
+          "name": "Ch_next",
+          "canonical": "ChannelUp",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "4C 00 00 00"
+        },
+        {
+          "name": "Ch_prev",
+          "canonical": "ChannelDown",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "4D 00 00 00"
+        },
+        {
+          "name": "TXT",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "3C 00 00 00"
+        },
+        {
+          "name": "EPG",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "CC 00 00 00"
+        },
+        {
+          "name": "Input",
+          "canonical": "Source",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "38 00 00 00"
+        },
+        {
+          "name": "1",
+          "canonical": "Digit1",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "01 00 00 00"
+        },
+        {
+          "name": "2",
+          "canonical": "Digit2",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "02 00 00 00"
+        },
+        {
+          "name": "3",
+          "canonical": "Digit3",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "03 00 00 00"
+        },
+        {
+          "name": "4",
+          "canonical": "Digit4",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "04 00 00 00"
+        },
+        {
+          "name": "5",
+          "canonical": "Digit5",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "05 00 00 00"
+        },
+        {
+          "name": "6",
+          "canonical": "Digit6",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "06 00 00 00"
+        },
+        {
+          "name": "7",
+          "canonical": "Digit7",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "07 00 00 00"
+        },
+        {
+          "name": "8",
+          "canonical": "Digit8",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "08 00 00 00"
+        },
+        {
+          "name": "9",
+          "canonical": "Digit9",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "09 00 00 00"
+        },
+        {
+          "name": "0",
+          "canonical": "Digit0",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "00 00 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "TVs/Philips/Philips_40HFL3010T12.ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}

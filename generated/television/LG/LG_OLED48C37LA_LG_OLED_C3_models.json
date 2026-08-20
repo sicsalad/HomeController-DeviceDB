@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Television",
+  "manufacturer": "LG",
+  "model": "OLED48C37LA (LG OLED C3 models)",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "NEC",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "Power",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "08 00 00 00"
+        },
+        {
+          "name": "Setup",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "43 00 00 00"
+        },
+        {
+          "name": "Input",
+          "canonical": "Source",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "0B 00 00 00"
+        },
+        {
+          "name": "Menu",
+          "canonical": "Menu",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "7C 00 00 00"
+        },
+        {
+          "name": "List",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "AB 00 00 00"
+        },
+        {
+          "name": "Back",
+          "canonical": "Back",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "28 00 00 00"
+        },
+        {
+          "name": "Ok",
+          "canonical": "Ok",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "44 00 00 00"
+        },
+        {
+          "name": "Up",
+          "canonical": "Up",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "40 00 00 00"
+        },
+        {
+          "name": "Down",
+          "canonical": "Down",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "41 00 00 00"
+        },
+        {
+          "name": "Left",
+          "canonical": "Left",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "07 00 00 00"
+        },
+        {
+          "name": "Right",
+          "canonical": "Right",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "06 00 00 00"
+        },
+        {
+          "name": "Mute",
+          "canonical": "Mute",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "09 00 00 00"
+        },
+        {
+          "name": "Vol_up",
+          "canonical": "VolumeUp",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "02 00 00 00"
+        },
+        {
+          "name": "Vol_dn",
+          "canonical": "VolumeDown",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "03 00 00 00"
+        },
+        {
+          "name": "Ch_next",
+          "canonical": "ChannelUp",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "00 00 00 00"
+        },
+        {
+          "name": "Ch_prev",
+          "canonical": "ChannelDown",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "01 00 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "TVs/LG/LG_OLED48C37LA (LG_OLED C3 models).ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}

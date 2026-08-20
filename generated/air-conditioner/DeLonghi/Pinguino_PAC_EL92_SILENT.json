@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Air Conditioner",
+  "manufacturer": "DeLonghi",
+  "model": "Pinguino PAC EL92 SILENT",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "NECext",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "POWER",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "1F FF 00 00",
+          "command": "83 7C 00 00"
+        },
+        {
+          "name": "SILENT",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "1F FF 00 00",
+          "command": "86 79 00 00"
+        },
+        {
+          "name": "MODE",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "1F FF 00 00",
+          "command": "C1 3E 00 00"
+        },
+        {
+          "name": "TEMP-",
+          "canonical": "Custom3",
+          "type": "parsed",
+          "address": "1F FF 00 00",
+          "command": "80 7F 00 00"
+        },
+        {
+          "name": "TEMP+",
+          "canonical": "TemperatureUp",
+          "type": "parsed",
+          "address": "1F FF 00 00",
+          "command": "84 7B 00 00"
+        },
+        {
+          "name": "FAN",
+          "canonical": "Custom4",
+          "type": "parsed",
+          "address": "1F FF 00 00",
+          "command": "C0 3F 00 00"
+        },
+        {
+          "name": "TIMER",
+          "canonical": "Timer",
+          "type": "parsed",
+          "address": "1F FF 00 00",
+          "command": "81 7E 00 00"
+        },
+        {
+          "name": "Swing",
+          "canonical": "Swing",
+          "type": "parsed",
+          "address": "1F FF 00 00",
+          "command": "85 7A 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "ACs/DeLonghi/Pinguino_PAC_EL92_SILENT.ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}

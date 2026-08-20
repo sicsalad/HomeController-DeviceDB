@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Television",
+  "manufacturer": "Tevion",
+  "model": "3221TS",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "NEC",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "Power",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "1C 00 00 00"
+        },
+        {
+          "name": "Vol_up",
+          "canonical": "VolumeUp",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "4B 00 00 00"
+        },
+        {
+          "name": "Vol_dn",
+          "canonical": "VolumeDown",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "4F 00 00 00"
+        },
+        {
+          "name": "Mute",
+          "canonical": "Mute",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "08 00 00 00"
+        },
+        {
+          "name": "Ch_up",
+          "canonical": "ChannelUp",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "09 00 00 00"
+        },
+        {
+          "name": "Ch_dn",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "05 00 00 00"
+        },
+        {
+          "name": "Ok",
+          "canonical": "Ok",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "06 00 00 00"
+        },
+        {
+          "name": "Up",
+          "canonical": "Up",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "1A 00 00 00"
+        },
+        {
+          "name": "Down",
+          "canonical": "Down",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "48 00 00 00"
+        },
+        {
+          "name": "Left",
+          "canonical": "Left",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "47 00 00 00"
+        },
+        {
+          "name": "Right",
+          "canonical": "Right",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "07 00 00 00"
+        },
+        {
+          "name": "Menu",
+          "canonical": "Menu",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "18 00 00 00"
+        },
+        {
+          "name": "Back",
+          "canonical": "Back",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "49 00 00 00"
+        },
+        {
+          "name": "Input",
+          "canonical": "Source",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "17 00 00 00"
+        },
+        {
+          "name": "Exit",
+          "canonical": "Exit",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "0A 00 00 00"
+        },
+        {
+          "name": "Subtitle",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "57 00 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "TVs/Tevion/Tevion_3221TS.ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}

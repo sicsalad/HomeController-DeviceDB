@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Television",
+  "manufacturer": "LG",
+  "model": "AKB76043102",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "NEC",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "Power",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "08 00 00 00"
+        },
+        {
+          "name": "1",
+          "canonical": "Digit1",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "11 00 00 00"
+        },
+        {
+          "name": "2",
+          "canonical": "Digit2",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "12 00 00 00"
+        },
+        {
+          "name": "3",
+          "canonical": "Digit3",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "13 00 00 00"
+        },
+        {
+          "name": "4",
+          "canonical": "Digit4",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "14 00 00 00"
+        },
+        {
+          "name": "5",
+          "canonical": "Digit5",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "15 00 00 00"
+        },
+        {
+          "name": "6",
+          "canonical": "Digit6",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "16 00 00 00"
+        },
+        {
+          "name": "7",
+          "canonical": "Digit7",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "17 00 00 00"
+        },
+        {
+          "name": "8",
+          "canonical": "Digit8",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "18 00 00 00"
+        },
+        {
+          "name": "9",
+          "canonical": "Digit9",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "19 00 00 00"
+        },
+        {
+          "name": "0",
+          "canonical": "Digit0",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "10 00 00 00"
+        },
+        {
+          "name": "Guide/d_",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "AB 00 00 00"
+        },
+        {
+          "name": "Vol_up",
+          "canonical": "VolumeUp",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "02 00 00 00"
+        },
+        {
+          "name": "Vol_dn",
+          "canonical": "VolumeDown",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "03 00 00 00"
+        },
+        {
+          "name": "Ch_next",
+          "canonical": "ChannelUp",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "00 00 00 00"
+        },
+        {
+          "name": "Ch_prev",
+          "canonical": "ChannelDown",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "01 00 00 00"
+        },
+        {
+          "name": "Mute",
+          "canonical": "Mute",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "09 00 00 00"
+        },
+        {
+          "name": "Home",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "7C 00 00 00"
+        },
+        {
+          "name": "Input",
+          "canonical": "Source",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "0B 00 00 00"
+        },
+        {
+          "name": "Up",
+          "canonical": "Up",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "40 00 00 00"
+        },
+        {
+          "name": "Down",
+          "canonical": "Down",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "41 00 00 00"
+        },
+        {
+          "name": "Left",
+          "canonical": "Left",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "07 00 00 00"
+        },
+        {
+          "name": "Right",
+          "canonical": "Right",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "06 00 00 00"
+        },
+        {
+          "name": "Enter",
+          "canonical": "Ok",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "44 00 00 00"
+        },
+        {
+          "name": "Back",
+          "canonical": "Back",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "28 00 00 00"
+        },
+        {
+          "name": "Settings",
+          "canonical": "Custom3",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "43 00 00 00"
+        },
+        {
+          "name": "Red",
+          "canonical": "Red",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "72 00 00 00"
+        },
+        {
+          "name": "Green",
+          "canonical": "Green",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "71 00 00 00"
+        },
+        {
+          "name": "Yellow",
+          "canonical": "Yellow",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "63 00 00 00"
+        },
+        {
+          "name": "Blue",
+          "canonical": "Blue",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "61 00 00 00"
+        },
+        {
+          "name": "Netflix",
+          "canonical": "Custom4",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "56 00 00 00"
+        },
+        {
+          "name": "Prime_Video",
+          "canonical": "Custom5",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "5C 00 00 00"
+        },
+        {
+          "name": "Disney_Plus",
+          "canonical": "Custom6",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "31 00 00 00"
+        },
+        {
+          "name": "LG_Channels",
+          "canonical": "Custom7",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "48 00 00 00"
+        },
+        {
+          "name": "Sling",
+          "canonical": "Custom8",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "6F 00 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "TVs/LG/LG_AKB76043102.ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Television",
+  "manufacturer": "Emerson",
+  "model": "32FNT004",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "NECext",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "Power",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "84 E0 00 00",
+          "command": "20 DF 00 00"
+        },
+        {
+          "name": "Source",
+          "canonical": "Source",
+          "type": "parsed",
+          "address": "84 E0 00 00",
+          "command": "40 BF 00 00"
+        },
+        {
+          "name": "Ch_next",
+          "canonical": "ChannelUp",
+          "type": "parsed",
+          "address": "84 E0 00 00",
+          "command": "50 AF 00 00"
+        },
+        {
+          "name": "Ch_prev",
+          "canonical": "ChannelDown",
+          "type": "parsed",
+          "address": "84 E0 00 00",
+          "command": "51 AE 00 00"
+        },
+        {
+          "name": "Vol_up",
+          "canonical": "VolumeUp",
+          "type": "parsed",
+          "address": "84 E0 00 00",
+          "command": "60 9F 00 00"
+        },
+        {
+          "name": "Vol_dn",
+          "canonical": "VolumeDown",
+          "type": "parsed",
+          "address": "84 E0 00 00",
+          "command": "61 9E 00 00"
+        },
+        {
+          "name": "Mute",
+          "canonical": "Mute",
+          "type": "parsed",
+          "address": "84 E0 00 00",
+          "command": "64 9B 00 00"
+        },
+        {
+          "name": "Menu",
+          "canonical": "Menu",
+          "type": "parsed",
+          "address": "84 E0 00 00",
+          "command": "70 8F 00 00"
+        },
+        {
+          "name": "Up",
+          "canonical": "Up",
+          "type": "parsed",
+          "address": "84 E0 00 00",
+          "command": "73 8C 00 00"
+        },
+        {
+          "name": "Down",
+          "canonical": "Down",
+          "type": "parsed",
+          "address": "84 E0 00 00",
+          "command": "74 8B 00 00"
+        },
+        {
+          "name": "Left",
+          "canonical": "Left",
+          "type": "parsed",
+          "address": "84 E0 00 00",
+          "command": "76 89 00 00"
+        },
+        {
+          "name": "Right",
+          "canonical": "Right",
+          "type": "parsed",
+          "address": "84 E0 00 00",
+          "command": "75 8A 00 00"
+        },
+        {
+          "name": "Ok",
+          "canonical": "Ok",
+          "type": "parsed",
+          "address": "84 E0 00 00",
+          "command": "77 88 00 00"
+        },
+        {
+          "name": "Back",
+          "canonical": "Back",
+          "type": "parsed",
+          "address": "84 E0 00 00",
+          "command": "78 87 00 00"
+        },
+        {
+          "name": "Info",
+          "canonical": "Info",
+          "type": "parsed",
+          "address": "84 E0 00 00",
+          "command": "9B 64 00 00"
+        },
+        {
+          "name": "Mode_picsound",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "84 E0 00 00",
+          "command": "83 7C 00 00"
+        },
+        {
+          "name": "Freeze",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "84 E0 00 00",
+          "command": "9E 61 00 00"
+        },
+        {
+          "name": "Picture_size",
+          "canonical": "Custom3",
+          "type": "parsed",
+          "address": "84 E0 00 00",
+          "command": "90 6F 00 00"
+        },
+        {
+          "name": "Sleep",
+          "canonical": "Sleep",
+          "type": "parsed",
+          "address": "84 E0 00 00",
+          "command": "22 DD 00 00"
+        },
+        {
+          "name": "Sap",
+          "canonical": "Custom4",
+          "type": "parsed",
+          "address": "84 E0 00 00",
+          "command": "65 9A 00 00"
+        },
+        {
+          "name": "Prev_ch",
+          "canonical": "Custom5",
+          "type": "parsed",
+          "address": "84 E0 00 00",
+          "command": "57 A8 00 00"
+        },
+        {
+          "name": "Dot",
+          "canonical": "Custom6",
+          "type": "parsed",
+          "address": "84 E0 00 00",
+          "command": "1B E4 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "TVs/Emerson/Emerson_32FNT004.ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}

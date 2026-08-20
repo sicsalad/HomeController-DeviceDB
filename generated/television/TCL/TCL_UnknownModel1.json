@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Television",
+  "manufacturer": "TCL",
+  "model": "UnknownModel1",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "RCA",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "Power",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "54 00 00 00"
+        },
+        {
+          "name": "Home",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "10 00 00 00"
+        },
+        {
+          "name": "Apps",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "37 00 00 00"
+        },
+        {
+          "name": "Up",
+          "canonical": "Up",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "9A 00 00 00"
+        },
+        {
+          "name": "Down",
+          "canonical": "Down",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "1A 00 00 00"
+        },
+        {
+          "name": "Left",
+          "canonical": "Left",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "6A 00 00 00"
+        },
+        {
+          "name": "Ok",
+          "canonical": "Ok",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "2F 00 00 00"
+        },
+        {
+          "name": "Settings",
+          "canonical": "Custom3",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "F3 00 00 00"
+        },
+        {
+          "name": "Back",
+          "canonical": "Back",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "E4 00 00 00"
+        },
+        {
+          "name": "Vol_up",
+          "canonical": "VolumeUp",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "F4 00 00 00"
+        },
+        {
+          "name": "Netflix",
+          "canonical": "Custom4",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "F7 00 00 00"
+        },
+        {
+          "name": "Youtube",
+          "canonical": "Custom5",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "47 00 00 00"
+        },
+        {
+          "name": "Ch_next",
+          "canonical": "ChannelUp",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "B4 00 00 00"
+        },
+        {
+          "name": "Ch_prev",
+          "canonical": "ChannelDown",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "34 00 00 00"
+        }
+      ]
+    },
+    {
+      "transport": "infrared",
+      "protocol": "",
+      "kind": "commands",
+      "frequencyHz": 38000,
+      "commands": [
+        {
+          "name": "Right",
+          "canonical": "Right",
+          "type": "raw",
+          "frequencyHz": 38000,
+          "data": [
+            4013,
+            3982,
+            515,
+            1984,
+            520,
+            1978,
+            515,
+            1983,
+            510,
+            1987,
+            517,
+            982,
+            520,
+            1978,
+            515,
+            983,
+            519,
+            1979,
+            514,
+            983,
+            519,
+            1980,
+            514,
+            1985,
+            519,
+            1979,
+            514,
+            984,
+            518,
+            981,
+            511,
+            988,
+            514,
+            984,
+            518,
+            1980,
+            513,
+            985,
+            517,
+            1981,
+            512,
+            986,
+            516,
+            1982,
+            511,
+            988,
+            514,
+            984,
+            518,
+            981,
+            511
+          ]
+        },
+        {
+          "name": "Vol_dn",
+          "canonical": "VolumeDown",
+          "type": "raw",
+          "frequencyHz": 38000,
+          "data": [
+            4012,
+            3982,
+            514,
+            1984,
+            519,
+            1979,
+            514,
+            1984,
+            519,
+            1979,
+            514,
+            983,
+            519,
+            980,
+            512,
+            1988,
+            516,
+            982,
+            520,
+            1979,
+            514,
+            1984,
+            519,
+            1978,
+            515,
+            983,
+            519,
+            980,
+            511,
+            987,
+            515,
+            983,
+            519,
+            980,
+            511,
+            1988,
+            516,
+            1982,
+            511,
+            987,
+            515,
+            1983,
+            521,
+            978,
+            514,
+            985,
+            517,
+            981,
+            521,
+            1978,
+            515
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "TVs/TCL/TCL_UnknownModel1.ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}

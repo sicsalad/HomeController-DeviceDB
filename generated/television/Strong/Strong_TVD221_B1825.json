@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Television",
+  "manufacturer": "Strong",
+  "model": "TVD221 B1825",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "NEC",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "Power",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "40 00 00 00",
+          "command": "12 00 00 00"
+        },
+        {
+          "name": "Mute",
+          "canonical": "Mute",
+          "type": "parsed",
+          "address": "40 00 00 00",
+          "command": "10 00 00 00"
+        },
+        {
+          "name": "Up",
+          "canonical": "Up",
+          "type": "parsed",
+          "address": "40 00 00 00",
+          "command": "19 00 00 00"
+        },
+        {
+          "name": "Down",
+          "canonical": "Down",
+          "type": "parsed",
+          "address": "40 00 00 00",
+          "command": "1D 00 00 00"
+        },
+        {
+          "name": "Left",
+          "canonical": "Left",
+          "type": "parsed",
+          "address": "40 00 00 00",
+          "command": "46 00 00 00"
+        },
+        {
+          "name": "Right",
+          "canonical": "Right",
+          "type": "parsed",
+          "address": "40 00 00 00",
+          "command": "47 00 00 00"
+        },
+        {
+          "name": "Home",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "40 00 00 00",
+          "command": "51 00 00 00"
+        },
+        {
+          "name": "Back",
+          "canonical": "Back",
+          "type": "parsed",
+          "address": "40 00 00 00",
+          "command": "40 00 00 00"
+        },
+        {
+          "name": "Settings",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "40 00 00 00",
+          "command": "0F 00 00 00"
+        },
+        {
+          "name": "Netflix",
+          "canonical": "Custom3",
+          "type": "parsed",
+          "address": "40 00 00 00",
+          "command": "58 00 00 00"
+        },
+        {
+          "name": "YouTube",
+          "canonical": "Custom4",
+          "type": "parsed",
+          "address": "40 00 00 00",
+          "command": "55 00 00 00"
+        },
+        {
+          "name": "Prime_Video",
+          "canonical": "Custom5",
+          "type": "parsed",
+          "address": "40 00 00 00",
+          "command": "50 00 00 00"
+        },
+        {
+          "name": "Google_Play",
+          "canonical": "Custom6",
+          "type": "parsed",
+          "address": "40 00 00 00",
+          "command": "82 00 00 00"
+        },
+        {
+          "name": "Minus",
+          "canonical": "Custom7",
+          "type": "parsed",
+          "address": "40 00 00 00",
+          "command": "1E 00 00 00"
+        },
+        {
+          "name": "Plus",
+          "canonical": "Custom8",
+          "type": "parsed",
+          "address": "40 00 00 00",
+          "command": "1A 00 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "TVs/Strong/Strong_TVD221_B1825.ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Television",
+  "manufacturer": "Samsung",
+  "model": "AA59-00714A",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "Samsung32",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "Power off",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "98 00 00 00"
+        },
+        {
+          "name": "Power on",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "02 00 00 00"
+        },
+        {
+          "name": "Volume up",
+          "canonical": "VolumeUp",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "07 00 00 00"
+        },
+        {
+          "name": "Volume down",
+          "canonical": "VolumeDown",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "0B 00 00 00"
+        },
+        {
+          "name": "Channel up",
+          "canonical": "ChannelUp",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "12 00 00 00"
+        },
+        {
+          "name": "Channel down",
+          "canonical": "ChannelDown",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "10 00 00 00"
+        },
+        {
+          "name": "Mute",
+          "canonical": "Mute",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "0F 00 00 00"
+        },
+        {
+          "name": "Source",
+          "canonical": "Source",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "01 00 00 00"
+        },
+        {
+          "name": "Menu",
+          "canonical": "Menu",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "1A 00 00 00"
+        },
+        {
+          "name": "Home",
+          "canonical": "Custom3",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "79 00 00 00"
+        },
+        {
+          "name": "MagicInfo Player I",
+          "canonical": "Custom4",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "30 00 00 00"
+        },
+        {
+          "name": "Tools",
+          "canonical": "Tools",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "4B 00 00 00"
+        },
+        {
+          "name": "Info",
+          "canonical": "Info",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "1F 00 00 00"
+        },
+        {
+          "name": "Return",
+          "canonical": "Back",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "58 00 00 00"
+        },
+        {
+          "name": "Exit",
+          "canonical": "Exit",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "2D 00 00 00"
+        },
+        {
+          "name": "A/Red",
+          "canonical": "Custom5",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "6C 00 00 00"
+        },
+        {
+          "name": "B/Green",
+          "canonical": "Custom6",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "14 00 00 00"
+        },
+        {
+          "name": "C/Yellow",
+          "canonical": "Custom7",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "15 00 00 00"
+        },
+        {
+          "name": "D/Blue",
+          "canonical": "Custom8",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "16 00 00 00"
+        },
+        {
+          "name": "Stop",
+          "canonical": "Stop",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "46 00 00 00"
+        },
+        {
+          "name": "Play",
+          "canonical": "Play",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "47 00 00 00"
+        },
+        {
+          "name": "Pause",
+          "canonical": "Pause",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "4A 00 00 00"
+        },
+        {
+          "name": "Ok",
+          "canonical": "Ok",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "68 00 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "TVs/Samsung/Samsung_AA59-00714A.ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}

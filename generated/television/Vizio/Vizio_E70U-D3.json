@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Television",
+  "manufacturer": "Vizio",
+  "model": "E70U-D3",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "NEC",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "Power",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "08 00 00 00"
+        },
+        {
+          "name": "Source",
+          "canonical": "Source",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "2F 00 00 00"
+        },
+        {
+          "name": "Link",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "63 00 00 00"
+        },
+        {
+          "name": "Image",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "77 00 00 00"
+        },
+        {
+          "name": "Vol_up",
+          "canonical": "VolumeUp",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "02 00 00 00"
+        },
+        {
+          "name": "Vol_dn",
+          "canonical": "VolumeDown",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "03 00 00 00"
+        },
+        {
+          "name": "Ch_next",
+          "canonical": "ChannelUp",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "00 00 00 00"
+        },
+        {
+          "name": "Ch_prev",
+          "canonical": "ChannelDown",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "01 00 00 00"
+        },
+        {
+          "name": "Play_pause",
+          "canonical": "Custom3",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "37 00 00 00"
+        },
+        {
+          "name": "Mute",
+          "canonical": "Mute",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "09 00 00 00"
+        },
+        {
+          "name": "Pic",
+          "canonical": "Custom4",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "67 00 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "TVs/Vizio/Vizio_E70U-D3.ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Television",
+  "manufacturer": "Samsung",
+  "model": "TV Full",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "Samsung32",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "Power",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "02 00 00 00"
+        },
+        {
+          "name": "Power",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "e6 00 00 00"
+        },
+        {
+          "name": "Power_off_only",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "98 00 00 00"
+        },
+        {
+          "name": "Smart_hub",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "46 00 00 00"
+        },
+        {
+          "name": "Smart_hub",
+          "canonical": "Custom3",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "76 00 00 00"
+        },
+        {
+          "name": "Smart_hub",
+          "canonical": "Custom4",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "79 00 00 00"
+        },
+        {
+          "name": "Up",
+          "canonical": "Up",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "60 00 00 00"
+        },
+        {
+          "name": "Down",
+          "canonical": "Down",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "61 00 00 00"
+        },
+        {
+          "name": "Right",
+          "canonical": "Right",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "62 00 00 00"
+        },
+        {
+          "name": "Left",
+          "canonical": "Left",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "65 00 00 00"
+        },
+        {
+          "name": "Select",
+          "canonical": "Ok",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "68 00 00 00"
+        },
+        {
+          "name": "Play",
+          "canonical": "Play",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "47 00 00 00"
+        },
+        {
+          "name": "Pause",
+          "canonical": "Pause",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "4a 00 00 00"
+        },
+        {
+          "name": "Play/pause",
+          "canonical": "Custom5",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "b9 00 00 00"
+        },
+        {
+          "name": "Rewind",
+          "canonical": "Rewind",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "45 00 00 00"
+        },
+        {
+          "name": "Fast_forward",
+          "canonical": "FastForward",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "48 00 00 00"
+        },
+        {
+          "name": "Return",
+          "canonical": "Back",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "58 00 00 00"
+        },
+        {
+          "name": "Ambient_mode",
+          "canonical": "Custom6",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "f6 00 00 00"
+        },
+        {
+          "name": "Vol_up",
+          "canonical": "VolumeUp",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "07 00 00 00"
+        },
+        {
+          "name": "Vol_dn",
+          "canonical": "VolumeDown",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "0b 00 00 00"
+        },
+        {
+          "name": "Mute",
+          "canonical": "Mute",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "0f 00 00 00"
+        },
+        {
+          "name": "Ch_next",
+          "canonical": "ChannelUp",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "12 00 00 00"
+        },
+        {
+          "name": "Ch_prev",
+          "canonical": "ChannelDown",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "10 00 00 00"
+        },
+        {
+          "name": "Netflix",
+          "canonical": "Custom7",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "f3 00 00 00"
+        },
+        {
+          "name": "Amazon",
+          "canonical": "Custom8",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "f4 00 00 00"
+        },
+        {
+          "name": "Source",
+          "canonical": "Source",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "01 00 00 00"
+        },
+        {
+          "name": "Source",
+          "canonical": "Source",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "8b 00 00 00"
+        },
+        {
+          "name": "Sleep",
+          "canonical": "Sleep",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "03 00 00 00"
+        },
+        {
+          "name": "Guide",
+          "canonical": "Guide",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "4f 00 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "TVs/Samsung/Samsung_TV_Full.ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Air Conditioner",
+  "manufacturer": "Eurom",
+  "model": "PAC 9.2",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "NEC",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "Power",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "04 00 00 00"
+        },
+        {
+          "name": "Speed",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "06 00 00 00"
+        },
+        {
+          "name": "Temp+",
+          "canonical": "TemperatureUp",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "05 00 00 00"
+        },
+        {
+          "name": "Temp-",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "01 00 00 00"
+        },
+        {
+          "name": "Mode",
+          "canonical": "Custom3",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "0D 00 00 00"
+        },
+        {
+          "name": "Timer",
+          "canonical": "Timer",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "00 00 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "ACs/Eurom/Eurom_PAC_9.2.ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}

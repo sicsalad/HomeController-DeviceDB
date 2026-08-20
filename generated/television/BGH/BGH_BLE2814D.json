@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Television",
+  "manufacturer": "BGH",
+  "model": "BLE2814D",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "NECext",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "Power",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "03 FC 00 00"
+        },
+        {
+          "name": "Mute",
+          "canonical": "Mute",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "15 EA 00 00"
+        },
+        {
+          "name": "Vol_up",
+          "canonical": "VolumeUp",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "16 E9 00 00"
+        },
+        {
+          "name": "Vol_dn",
+          "canonical": "VolumeDown",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "1A E5 00 00"
+        },
+        {
+          "name": "Source",
+          "canonical": "Source",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "1E E1 00 00"
+        },
+        {
+          "name": "Menu",
+          "canonical": "Menu",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "1C E3 00 00"
+        },
+        {
+          "name": "Display",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "46 B9 00 00"
+        },
+        {
+          "name": "1",
+          "canonical": "Digit1",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "00 FF 00 00"
+        },
+        {
+          "name": "2",
+          "canonical": "Digit2",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "01 FE 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "TVs/BGH/BGH_BLE2814D.ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}

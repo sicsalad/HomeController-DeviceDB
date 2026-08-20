@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Television",
+  "manufacturer": "Sony",
+  "model": "XBR",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "SIRC",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "Power",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "2E 00 00 00"
+        },
+        {
+          "name": "Power_off",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "2F 00 00 00"
+        },
+        {
+          "name": "Menu",
+          "canonical": "Menu",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "60 00 00 00"
+        },
+        {
+          "name": "Up",
+          "canonical": "Up",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "74 00 00 00"
+        },
+        {
+          "name": "Left",
+          "canonical": "Left",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "34 00 00 00"
+        },
+        {
+          "name": "Ok",
+          "canonical": "Ok",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "65 00 00 00"
+        },
+        {
+          "name": "Right",
+          "canonical": "Right",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "33 00 00 00"
+        },
+        {
+          "name": "Down",
+          "canonical": "Down",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "75 00 00 00"
+        },
+        {
+          "name": "Input",
+          "canonical": "Source",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "25 00 00 00"
+        },
+        {
+          "name": "Vol_up",
+          "canonical": "VolumeUp",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "12 00 00 00"
+        },
+        {
+          "name": "Vol_dn",
+          "canonical": "VolumeDown",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "13 00 00 00"
+        }
+      ]
+    },
+    {
+      "transport": "infrared",
+      "protocol": "SIRC15",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "Exit",
+          "canonical": "Exit",
+          "type": "parsed",
+          "address": "97 00 00 00",
+          "command": "23 00 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "TVs/Sony/Sony_XBR.ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Television",
+  "manufacturer": "Philips",
+  "model": "22IT TV Monitor",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "NECext",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "Power",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "00 BD 00 00",
+          "command": "01 FE 00 00"
+        },
+        {
+          "name": "Input",
+          "canonical": "Source",
+          "type": "parsed",
+          "address": "00 BD 00 00",
+          "command": "08 F7 00 00"
+        },
+        {
+          "name": "UP",
+          "canonical": "Up",
+          "type": "parsed",
+          "address": "00 BD 00 00",
+          "command": "0B F4 00 00"
+        },
+        {
+          "name": "DOWN",
+          "canonical": "Down",
+          "type": "parsed",
+          "address": "00 BD 00 00",
+          "command": "0F F0 00 00"
+        },
+        {
+          "name": "SX",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "00 BD 00 00",
+          "command": "49 B6 00 00"
+        },
+        {
+          "name": "DX",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "00 BD 00 00",
+          "command": "4A B5 00 00"
+        },
+        {
+          "name": "OK",
+          "canonical": "Ok",
+          "type": "parsed",
+          "address": "00 BD 00 00",
+          "command": "0D F2 00 00"
+        },
+        {
+          "name": "Vol_UP",
+          "canonical": "VolumeUp",
+          "type": "parsed",
+          "address": "00 BD 00 00",
+          "command": "0C F3 00 00"
+        },
+        {
+          "name": "Vol_Down",
+          "canonical": "VolumeDown",
+          "type": "parsed",
+          "address": "00 BD 00 00",
+          "command": "10 EF 00 00"
+        },
+        {
+          "name": "MENU",
+          "canonical": "Menu",
+          "type": "parsed",
+          "address": "00 BD 00 00",
+          "command": "0A F5 00 00"
+        },
+        {
+          "name": "Ch_Next",
+          "canonical": "ChannelUp",
+          "type": "parsed",
+          "address": "00 BD 00 00",
+          "command": "18 E7 00 00"
+        },
+        {
+          "name": "Ch_Prev",
+          "canonical": "ChannelDown",
+          "type": "parsed",
+          "address": "00 BD 00 00",
+          "command": "1C E3 00 00"
+        },
+        {
+          "name": "Mute",
+          "canonical": "Mute",
+          "type": "parsed",
+          "address": "00 BD 00 00",
+          "command": "04 FB 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "TVs/Philips/Philips_22IT_TV_Monitor.ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}

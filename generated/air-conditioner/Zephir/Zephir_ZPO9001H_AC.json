@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Air Conditioner",
+  "manufacturer": "Zephir",
+  "model": "ZPO9001H AC",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "NEC",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "POWER ON/OFF",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "80 00 00 00",
+          "command": "9C 00 00 00"
+        },
+        {
+          "name": "TEMP+",
+          "canonical": "TemperatureUp",
+          "type": "parsed",
+          "address": "80 00 00 00",
+          "command": "94 00 00 00"
+        },
+        {
+          "name": "TEMP-",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "80 00 00 00",
+          "command": "95 00 00 00"
+        },
+        {
+          "name": "FAN_SPEED",
+          "canonical": "Custom3",
+          "type": "parsed",
+          "address": "80 00 00 00",
+          "command": "96 00 00 00"
+        },
+        {
+          "name": "MODE",
+          "canonical": "Custom4",
+          "type": "parsed",
+          "address": "80 00 00 00",
+          "command": "9D 00 00 00"
+        },
+        {
+          "name": "SWING",
+          "canonical": "Swing",
+          "type": "parsed",
+          "address": "80 00 00 00",
+          "command": "92 00 00 00"
+        },
+        {
+          "name": "SLEEP",
+          "canonical": "Sleep",
+          "type": "parsed",
+          "address": "80 00 00 00",
+          "command": "9B 00 00 00"
+        },
+        {
+          "name": "TIMER",
+          "canonical": "Timer",
+          "type": "parsed",
+          "address": "80 00 00 00",
+          "command": "9F 00 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "ACs/Zephir/Zephir_ZPO9001H_AC.ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Television",
+  "manufacturer": "Philips",
+  "model": "14GX8510",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "RC5",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "Power",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "0C 00 00 00"
+        },
+        {
+          "name": "Guide",
+          "canonical": "Guide",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "3E 00 00 00"
+        },
+        {
+          "name": "Info",
+          "canonical": "Info",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "0F 00 00 00"
+        },
+        {
+          "name": "Exit",
+          "canonical": "Exit",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "0F 00 00 00"
+        },
+        {
+          "name": "Mute",
+          "canonical": "Mute",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "0D 00 00 00"
+        },
+        {
+          "name": "Input",
+          "canonical": "Source",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "38 00 00 00"
+        },
+        {
+          "name": "Vol_up",
+          "canonical": "VolumeUp",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "10 00 00 00"
+        },
+        {
+          "name": "Vol_down",
+          "canonical": "VolumeDown",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "11 00 00 00"
+        },
+        {
+          "name": "Channel_up",
+          "canonical": "ChannelUp",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "20 00 00 00"
+        },
+        {
+          "name": "Channel_down",
+          "canonical": "ChannelDown",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "21 00 00 00"
+        },
+        {
+          "name": "Prev_Channel",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "22 00 00 00"
+        },
+        {
+          "name": "OK",
+          "canonical": "Ok",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "2B 00 00 00"
+        },
+        {
+          "name": "1",
+          "canonical": "Digit1",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "01 00 00 00"
+        },
+        {
+          "name": "2",
+          "canonical": "Digit2",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "02 00 00 00"
+        },
+        {
+          "name": "3",
+          "canonical": "Digit3",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "03 00 00 00"
+        },
+        {
+          "name": "4",
+          "canonical": "Digit4",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "04 00 00 00"
+        },
+        {
+          "name": "5",
+          "canonical": "Digit5",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "05 00 00 00"
+        },
+        {
+          "name": "6",
+          "canonical": "Digit6",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "06 00 00 00"
+        },
+        {
+          "name": "7",
+          "canonical": "Digit7",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "07 00 00 00"
+        },
+        {
+          "name": "8",
+          "canonical": "Digit8",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "08 00 00 00"
+        },
+        {
+          "name": "9",
+          "canonical": "Digit9",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "09 00 00 00"
+        },
+        {
+          "name": "0",
+          "canonical": "Digit0",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "00 00 00 00"
+        }
+      ]
+    },
+    {
+      "transport": "infrared",
+      "protocol": "",
+      "kind": "commands",
+      "frequencyHz": 38000,
+      "commands": [
+        {
+          "name": "Menu",
+          "canonical": "Menu",
+          "type": "raw",
+          "frequencyHz": 38000,
+          "data": [
+            762,
+            983,
+            1673,
+            1001,
+            764,
+            947,
+            819,
+            975,
+            791,
+            974,
+            791,
+            973,
+            792,
+            1855,
+            1676,
+            1854,
+            792,
+            974,
+            792,
+            974,
+            1674,
+            89718,
+            762,
+            977,
+            1671,
+            1002,
+            763,
+            974,
+            791,
+            1002,
+            763,
+            1002,
+            763,
+            976,
+            790,
+            1884,
+            1646,
+            1856,
+            791,
+            1002,
+            763,
+            1003,
+            1646,
+            89745,
+            735,
+            1030,
+            1618,
+            1030,
+            735,
+            1004,
+            762,
+            1003,
+            762,
+            976,
+            790,
+            1003,
+            762,
+            1886,
+            1645,
+            1857,
+            790,
+            1004,
+            761,
+            976,
+            1672
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "TVs/Philips/Philips_14GX8510.ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}

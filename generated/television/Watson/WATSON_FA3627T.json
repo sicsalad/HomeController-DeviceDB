@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Television",
+  "manufacturer": "Watson",
+  "model": "FA3627T",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "RC5",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "Mute",
+          "canonical": "Mute",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "0D 00 00 00"
+        },
+        {
+          "name": "Ch_next",
+          "canonical": "ChannelUp",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "20 00 00 00"
+        },
+        {
+          "name": "Ch_prev",
+          "canonical": "ChannelDown",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "21 00 00 00"
+        },
+        {
+          "name": "Av",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "38 00 00 00"
+        },
+        {
+          "name": "Tv",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "3F 00 00 00"
+        },
+        {
+          "name": "Vol_up",
+          "canonical": "VolumeUp",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "10 00 00 00"
+        },
+        {
+          "name": "Vol_dn",
+          "canonical": "VolumeDown",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "11 00 00 00"
+        },
+        {
+          "name": "Power",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "0C 00 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "TVs/Watson/WATSON_FA3627T.ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Television",
+  "manufacturer": "Amazon",
+  "model": "FireTV Omni Series 4K",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "NECext",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "Power",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "02 7D 00 00",
+          "command": "46 B9 00 00"
+        },
+        {
+          "name": "Home",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "02 7D 00 00",
+          "command": "9f 60 00 00"
+        },
+        {
+          "name": "Menu",
+          "canonical": "Menu",
+          "type": "parsed",
+          "address": "02 7D 00 00",
+          "command": "45 BA 00 00"
+        },
+        {
+          "name": "Back",
+          "canonical": "Back",
+          "type": "parsed",
+          "address": "02 7D 00 00",
+          "command": "0D F2 00 00"
+        },
+        {
+          "name": "Vol_up",
+          "canonical": "VolumeUp",
+          "type": "parsed",
+          "address": "02 7D 00 00",
+          "command": "0C F3 00 00"
+        },
+        {
+          "name": "Vol_dn",
+          "canonical": "VolumeDown",
+          "type": "parsed",
+          "address": "02 7D 00 00",
+          "command": "19 E6 00 00"
+        },
+        {
+          "name": "Mute",
+          "canonical": "Mute",
+          "type": "parsed",
+          "address": "02 7D 00 00",
+          "command": "4C B3 00 00"
+        },
+        {
+          "name": "Up",
+          "canonical": "Up",
+          "type": "parsed",
+          "address": "02 7D 00 00",
+          "command": "48 b7 00 00"
+        },
+        {
+          "name": "Down",
+          "canonical": "Down",
+          "type": "parsed",
+          "address": "02 7D 00 00",
+          "command": "4D B2 00 00"
+        },
+        {
+          "name": "Left",
+          "canonical": "Left",
+          "type": "parsed",
+          "address": "02 7D 00 00",
+          "command": "4e b1 00 00"
+        },
+        {
+          "name": "Right",
+          "canonical": "Right",
+          "type": "parsed",
+          "address": "02 7D 00 00",
+          "command": "49 B6 00 00"
+        },
+        {
+          "name": "Select",
+          "canonical": "Ok",
+          "type": "parsed",
+          "address": "02 7D 00 00",
+          "command": "4a b5 00 00"
+        },
+        {
+          "name": "Rewind",
+          "canonical": "Rewind",
+          "type": "parsed",
+          "address": "02 7D 00 00",
+          "command": "16 E9 00 00"
+        },
+        {
+          "name": "Play_pause",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "02 7D 00 00",
+          "command": "5B A4 00 00"
+        },
+        {
+          "name": "Fast_forward",
+          "canonical": "FastForward",
+          "type": "parsed",
+          "address": "02 7D 00 00",
+          "command": "17 E8 00 00"
+        },
+        {
+          "name": "Guide",
+          "canonical": "Guide",
+          "type": "parsed",
+          "address": "02 7D 00 00",
+          "command": "14 EB 00 00"
+        },
+        {
+          "name": "Ch_next",
+          "canonical": "ChannelUp",
+          "type": "parsed",
+          "address": "02 7D 00 00",
+          "command": "0F F0 00 00"
+        },
+        {
+          "name": "Ch_prev",
+          "canonical": "ChannelDown",
+          "type": "parsed",
+          "address": "02 7D 00 00",
+          "command": "5A A5 00 00"
+        },
+        {
+          "name": "Recent_apps",
+          "canonical": "Custom3",
+          "type": "parsed",
+          "address": "02 7D 00 00",
+          "command": "b1 4e 00 00"
+        },
+        {
+          "name": "Disney_plus",
+          "canonical": "Custom4",
+          "type": "parsed",
+          "address": "02 7D 00 00",
+          "command": "a2 5d 00 00"
+        },
+        {
+          "name": "Freevie",
+          "canonical": "Custom5",
+          "type": "parsed",
+          "address": "02 7D 00 00",
+          "command": "d2 2d 00 00"
+        },
+        {
+          "name": "Netflix",
+          "canonical": "Custom6",
+          "type": "parsed",
+          "address": "02 7D 00 00",
+          "command": "5f a0 00 00"
+        },
+        {
+          "name": "Prime_video",
+          "canonical": "Custom7",
+          "type": "parsed",
+          "address": "02 7D 00 00",
+          "command": "a1 5e 00 00"
+        },
+        {
+          "name": "Hulu",
+          "canonical": "Custom8",
+          "type": "parsed",
+          "address": "02 7D 00 00",
+          "command": "a5 5a 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "TVs/Amazon/FireTV_Omni_Series_4K.ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}

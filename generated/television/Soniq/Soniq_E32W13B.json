@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Television",
+  "manufacturer": "Soniq",
+  "model": "E32W13B",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "NECext",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "Power",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "72 DD 00 00",
+          "command": "0E F1 00 00"
+        },
+        {
+          "name": "Menu",
+          "canonical": "Menu",
+          "type": "parsed",
+          "address": "72 DD 00 00",
+          "command": "03 FC 00 00"
+        },
+        {
+          "name": "List",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "72 DD 00 00",
+          "command": "00 FF 00 00"
+        },
+        {
+          "name": "Info",
+          "canonical": "Info",
+          "type": "parsed",
+          "address": "72 DD 00 00",
+          "command": "4C B3 00 00"
+        },
+        {
+          "name": "Prev",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "72 DD 00 00",
+          "command": "47 B8 00 00"
+        },
+        {
+          "name": "Ok",
+          "canonical": "Ok",
+          "type": "parsed",
+          "address": "72 DD 00 00",
+          "command": "5C A3 00 00"
+        },
+        {
+          "name": "Up",
+          "canonical": "Up",
+          "type": "parsed",
+          "address": "72 DD 00 00",
+          "command": "44 BB 00 00"
+        },
+        {
+          "name": "Down",
+          "canonical": "Down",
+          "type": "parsed",
+          "address": "72 DD 00 00",
+          "command": "1D E2 00 00"
+        },
+        {
+          "name": "Left",
+          "canonical": "Left",
+          "type": "parsed",
+          "address": "72 DD 00 00",
+          "command": "1C E3 00 00"
+        },
+        {
+          "name": "Right",
+          "canonical": "Right",
+          "type": "parsed",
+          "address": "72 DD 00 00",
+          "command": "48 B7 00 00"
+        },
+        {
+          "name": "Fast_fo",
+          "canonical": "Custom3",
+          "type": "parsed",
+          "address": "72 DD 00 00",
+          "command": "41 BE 00 00"
+        },
+        {
+          "name": "Fast_ba",
+          "canonical": "Custom4",
+          "type": "parsed",
+          "address": "72 DD 00 00",
+          "command": "5F A0 00 00"
+        },
+        {
+          "name": "Play",
+          "canonical": "Play",
+          "type": "parsed",
+          "address": "72 DD 00 00",
+          "command": "00 FF 00 00"
+        },
+        {
+          "name": "Pause",
+          "canonical": "Pause",
+          "type": "parsed",
+          "address": "72 DD 00 00",
+          "command": "57 A8 00 00"
+        },
+        {
+          "name": "Mute",
+          "canonical": "Mute",
+          "type": "parsed",
+          "address": "72 DD 00 00",
+          "command": "1A E5 00 00"
+        },
+        {
+          "name": "Vol_up",
+          "canonical": "VolumeUp",
+          "type": "parsed",
+          "address": "72 DD 00 00",
+          "command": "49 B6 00 00"
+        },
+        {
+          "name": "Vol_dn",
+          "canonical": "VolumeDown",
+          "type": "parsed",
+          "address": "72 DD 00 00",
+          "command": "43 BC 00 00"
+        },
+        {
+          "name": "Ch_next",
+          "canonical": "ChannelUp",
+          "type": "parsed",
+          "address": "72 DD 00 00",
+          "command": "51 AE 00 00"
+        },
+        {
+          "name": "Ch_prev",
+          "canonical": "ChannelDown",
+          "type": "parsed",
+          "address": "72 DD 00 00",
+          "command": "4D B2 00 00"
+        },
+        {
+          "name": "Guide",
+          "canonical": "Guide",
+          "type": "parsed",
+          "address": "72 DD 00 00",
+          "command": "1F E0 00 00"
+        },
+        {
+          "name": "Record",
+          "canonical": "Record",
+          "type": "parsed",
+          "address": "72 DD 00 00",
+          "command": "04 FB 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "TVs/Soniq/Soniq_E32W13B.ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}

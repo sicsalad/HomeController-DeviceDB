@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Air Conditioner",
+  "manufacturer": "Frigidaire",
+  "model": "AC",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "NECext",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "POWER",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "01 FF 00 00",
+          "command": "12 ED 00 00"
+        },
+        {
+          "name": "TEMP+",
+          "canonical": "TemperatureUp",
+          "type": "parsed",
+          "address": "01 FF 00 00",
+          "command": "1A E5 00 00"
+        },
+        {
+          "name": "TEMP-",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "01 FF 00 00",
+          "command": "13 EC 00 00"
+        },
+        {
+          "name": "FanFaster",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "01 FF 00 00",
+          "command": "0E F1 00 00"
+        },
+        {
+          "name": "FanSlower",
+          "canonical": "Custom3",
+          "type": "parsed",
+          "address": "01 FF 00 00",
+          "command": "4E B1 00 00"
+        },
+        {
+          "name": "Mode",
+          "canonical": "Custom4",
+          "type": "parsed",
+          "address": "01 FF 00 00",
+          "command": "02 FD 00 00"
+        },
+        {
+          "name": "Eco",
+          "canonical": "Economy",
+          "type": "parsed",
+          "address": "01 FF 00 00",
+          "command": "4F B0 00 00"
+        },
+        {
+          "name": "Light",
+          "canonical": "Light",
+          "type": "parsed",
+          "address": "01 FF 00 00",
+          "command": "66 99 00 00"
+        },
+        {
+          "name": "Sleep",
+          "canonical": "Sleep",
+          "type": "parsed",
+          "address": "01 FF 00 00",
+          "command": "0A F5 00 00"
+        },
+        {
+          "name": "Remote",
+          "canonical": "Custom5",
+          "type": "parsed",
+          "address": "01 0F 00 00",
+          "command": "6D 5B 00 00"
+        },
+        {
+          "name": "Timer",
+          "canonical": "Timer",
+          "type": "parsed",
+          "address": "01 FF 00 00",
+          "command": "1B E4 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "ACs/Frigidaire/Frigidaire_AC.ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}

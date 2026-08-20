@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Television",
+  "manufacturer": "Samsung",
+  "model": "TV 1",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "Samsung32",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "Power",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "E6 00 00 00"
+        },
+        {
+          "name": "Source",
+          "canonical": "Source",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "01 00 00 00"
+        },
+        {
+          "name": "Mute",
+          "canonical": "Mute",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "0F 00 00 00"
+        },
+        {
+          "name": "Vol_up",
+          "canonical": "VolumeUp",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "07 00 00 00"
+        },
+        {
+          "name": "Vol_dn",
+          "canonical": "VolumeDown",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "0B 00 00 00"
+        },
+        {
+          "name": "Menu_left",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "65 00 00 00"
+        },
+        {
+          "name": "Menu_up",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "60 00 00 00"
+        },
+        {
+          "name": "Menu_right",
+          "canonical": "Custom3",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "62 00 00 00"
+        },
+        {
+          "name": "Menu_down",
+          "canonical": "Custom4",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "61 00 00 00"
+        },
+        {
+          "name": "Menu_back",
+          "canonical": "Custom5",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "58 00 00 00"
+        },
+        {
+          "name": "Menu_home",
+          "canonical": "Custom6",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "79 00 00 00"
+        },
+        {
+          "name": "Menu_enter",
+          "canonical": "Custom7",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "68 00 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "TVs/Samsung/Samsung_TV_1.ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}

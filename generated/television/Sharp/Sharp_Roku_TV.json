@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Television",
+  "manufacturer": "Sharp",
+  "model": "Roku TV",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "NEC",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "Power",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "08 00 00 00"
+        },
+        {
+          "name": "Back",
+          "canonical": "Back",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "04 00 00 00"
+        },
+        {
+          "name": "Home",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "43 00 00 00"
+        },
+        {
+          "name": "Vol_up",
+          "canonical": "VolumeUp",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "02 00 00 00"
+        },
+        {
+          "name": "Vol_dn",
+          "canonical": "VolumeDown",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "03 00 00 00"
+        },
+        {
+          "name": "Mute",
+          "canonical": "Mute",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "09 00 00 00"
+        },
+        {
+          "name": "Up",
+          "canonical": "Up",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "56 00 00 00"
+        },
+        {
+          "name": "Down",
+          "canonical": "Down",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "57 00 00 00"
+        },
+        {
+          "name": "Left",
+          "canonical": "Left",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "58 00 00 00"
+        },
+        {
+          "name": "Right",
+          "canonical": "Right",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "59 00 00 00"
+        },
+        {
+          "name": "Ok",
+          "canonical": "Ok",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "5A 00 00 00"
+        },
+        {
+          "name": "Again",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "41 00 00 00"
+        },
+        {
+          "name": "Sleep",
+          "canonical": "Sleep",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "1A 00 00 00"
+        },
+        {
+          "name": "Star",
+          "canonical": "Custom3",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "0C 00 00 00"
+        },
+        {
+          "name": "Rewind",
+          "canonical": "Rewind",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "4F 00 00 00"
+        },
+        {
+          "name": "Play_pause",
+          "canonical": "Custom4",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "42 00 00 00"
+        },
+        {
+          "name": "Fast_forward",
+          "canonical": "FastForward",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "5B 00 00 00"
+        },
+        {
+          "name": "Netflix",
+          "canonical": "Custom5",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "4C 00 00 00"
+        },
+        {
+          "name": "Hulu",
+          "canonical": "Custom6",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "5C 00 00 00"
+        },
+        {
+          "name": "Sling",
+          "canonical": "Custom7",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "45 00 00 00"
+        },
+        {
+          "name": "Now",
+          "canonical": "Custom8",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "67 00 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "TVs/Sharp/Sharp_Roku_TV.ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}

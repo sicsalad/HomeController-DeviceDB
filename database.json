@@ -3,40 +3,2696 @@
   "name": "HomeController DeviceDB",
   "deviceTypes": [
     {
-      "name": "Television",
+      "name": "Air Conditioner",
       "manufacturers": [
         {
-          "name": "Samsung",
+          "name": "Admiral",
           "models": [
-            { "name": "UE32F4000AW", "path": "devices/television/Samsung/UE32F4000AW.json" },
-            { "name": "UE48H6700", "path": "devices/television/Samsung/UE48H6700.json" }
+            {
+              "name": "AC",
+              "path": "generated/air-conditioner/Admiral/Admiral_AC.json"
+            }
+          ]
+        },
+        {
+          "name": "Airmax",
+          "models": [
+            {
+              "name": "Airmax",
+              "path": "generated/air-conditioner/Airmax/Airmax.json"
+            }
+          ]
+        },
+        {
+          "name": "Airmet",
+          "models": [
+            {
+              "name": "ac",
+              "path": "generated/air-conditioner/Airmet/Airmet_ac.json"
+            }
+          ]
+        },
+        {
+          "name": "Airwell",
+          "models": [
+            {
+              "name": "Airwell",
+              "path": "generated/air-conditioner/Airwell/Airwell.json"
+            }
+          ]
+        },
+        {
+          "name": "Aldi",
+          "models": [
+            {
+              "name": "Easy Home Portable Air Cooler",
+              "path": "generated/air-conditioner/Aldi/Easy_Home_Portable_Air_Cooler.json"
+            }
+          ]
+        },
+        {
+          "name": "Amcor",
+          "models": [
+            {
+              "name": "AC",
+              "path": "generated/air-conditioner/Amcor/Amcor_AC.json"
+            }
+          ]
+        },
+        {
+          "name": "Arctic_King",
+          "models": [
+            {
+              "name": "RG15B1",
+              "path": "generated/air-conditioner/Arctic_King/Arctic_King_RG15B1.json"
+            }
+          ]
+        },
+        {
+          "name": "Beko",
+          "models": [
+            {
+              "name": "Beko",
+              "path": "generated/air-conditioner/Beko/Beko.json"
+            }
+          ]
+        },
+        {
+          "name": "Botti",
+          "models": [
+            {
+              "name": "BL-168DLR",
+              "path": "generated/air-conditioner/Botti/Botti_BL-168DLR.json"
+            }
+          ]
+        },
+        {
+          "name": "Boulanger",
+          "models": [
+            {
+              "name": "AC",
+              "path": "generated/air-conditioner/Boulanger/Boulanger_AC.json"
+            }
+          ]
+        },
+        {
+          "name": "Corlitec",
+          "models": [
+            {
+              "name": "Cortlitec portable ac",
+              "path": "generated/air-conditioner/Corlitec/Cortlitec_portable_ac.json"
+            }
+          ]
+        },
+        {
+          "name": "COTech",
+          "models": [
+            {
+              "name": "MPPH-08CRN7-QB6 AC",
+              "path": "generated/air-conditioner/COTech/COTech_MPPH-08CRN7-QB6_AC.json"
+            }
+          ]
+        },
+        {
+          "name": "Daikin",
+          "models": [
+            {
+              "name": "AC",
+              "path": "generated/air-conditioner/Daikin/Daikin_AC.json"
+            },
+            {
+              "name": "ARC480A41",
+              "path": "generated/air-conditioner/Daikin/Daikin_ARC480A41.json"
+            },
+            {
+              "name": "FTE35KV1",
+              "path": "generated/air-conditioner/Daikin/Daikin_FTE35KV1.json"
+            },
+            {
+              "name": "FTX50GV1B",
+              "path": "generated/air-conditioner/Daikin/Daikin_FTX50GV1B.json"
+            },
+            {
+              "name": "FTXM95PVMA",
+              "path": "generated/air-conditioner/Daikin/Daikin_FTXM95PVMA.json"
+            },
+            {
+              "name": "FTXS25KVMA",
+              "path": "generated/air-conditioner/Daikin/Daikin_FTXS25KVMA.json"
+            }
+          ]
+        },
+        {
+          "name": "DeLonghi",
+          "models": [
+            {
+              "name": "Pinguino EL290HLWKC",
+              "path": "generated/air-conditioner/DeLonghi/Pinguino_EL290HLWKC.json"
+            },
+            {
+              "name": "Pinguino PAC EL275HGRKC",
+              "path": "generated/air-conditioner/DeLonghi/Pinguino_PAC_EL275HGRKC.json"
+            },
+            {
+              "name": "Pinguino PAC EL92 SILENT",
+              "path": "generated/air-conditioner/DeLonghi/Pinguino_PAC_EL92_SILENT.json"
+            },
+            {
+              "name": "portable Pinguino-Air-to-Air-PAC-N81 ac",
+              "path": "generated/air-conditioner/DeLonghi/Delonghi_portable_Pinguino-Air-to-Air-PAC-N81_ac.json"
+            }
+          ]
+        },
+        {
+          "name": "Eberg",
+          "models": [
+            {
+              "name": "RIO R29E1",
+              "path": "generated/air-conditioner/Eberg/Eberg_RIO_R29E1.json"
+            }
+          ]
+        },
+        {
+          "name": "Ecofort",
+          "models": [
+            {
+              "name": "CoolAir 7+ EQCA7+2900824",
+              "path": "generated/air-conditioner/Ecofort/Ecofort_CoolAir_7__EQCA7_2900824.json"
+            }
+          ]
+        },
+        {
+          "name": "electriQ",
+          "models": [
+            {
+              "name": "P15C-V2",
+              "path": "generated/air-conditioner/electriQ/electriQ_P15C-V2.json"
+            }
+          ]
+        },
+        {
+          "name": "Electrolux",
+          "models": [
+            {
+              "name": "Electrol ESV09CRO B2I",
+              "path": "generated/air-conditioner/Electrolux/Electrol_ESV09CRO_B2I.json"
+            }
+          ]
+        },
+        {
+          "name": "Emerson",
+          "models": [
+            {
+              "name": "EARC8RE1 ac",
+              "path": "generated/air-conditioner/Emerson/Emerson_EARC8RE1_ac.json"
+            },
+            {
+              "name": "Quiet Kool AC",
+              "path": "generated/air-conditioner/Emerson/Emerson_Quiet_Kool_AC.json"
+            }
+          ]
+        },
+        {
+          "name": "Eurom",
+          "models": [
+            {
+              "name": "PAC 9.2",
+              "path": "generated/air-conditioner/Eurom/Eurom_PAC_9.2.json"
+            },
+            {
+              "name": "Tristar AC",
+              "path": "generated/air-conditioner/Eurom/Eurom_Tristar_AC.json"
+            }
+          ]
+        },
+        {
+          "name": "Firstline",
+          "models": [
+            {
+              "name": "AAS2500",
+              "path": "generated/air-conditioner/Firstline/Firstline_AAS2500.json"
+            }
+          ]
+        },
+        {
+          "name": "Friedrich",
+          "models": [
+            {
+              "name": "4235h",
+              "path": "generated/air-conditioner/Friedrich/Friedrich_4235h.json"
+            },
+            {
+              "name": "Friedrich",
+              "path": "generated/air-conditioner/Friedrich/Friedrich.json"
+            }
+          ]
+        },
+        {
+          "name": "Frigidaire",
+          "models": [
+            {
+              "name": "AC",
+              "path": "generated/air-conditioner/Frigidaire/Frigidaire_AC.json"
+            },
+            {
+              "name": "RG15D AC",
+              "path": "generated/air-conditioner/Frigidaire/Frigidaire_RG15D_AC.json"
+            }
+          ]
+        },
+        {
+          "name": "Fujidenzo",
+          "models": [
+            {
+              "name": "FEA5001 AC",
+              "path": "generated/air-conditioner/Fujidenzo/Fujidenzo_FEA5001_AC.json"
+            }
+          ]
+        },
+        {
+          "name": "Fujitsu",
+          "models": [
+            {
+              "name": "AC",
+              "path": "generated/air-conditioner/Fujitsu/Fujitsu_AC.json"
+            }
+          ]
+        },
+        {
+          "name": "General_Electric",
+          "models": [
+            {
+              "name": "GE AC",
+              "path": "generated/air-conditioner/General_Electric/GE_AC.json"
+            },
+            {
+              "name": "GE Window AC",
+              "path": "generated/air-conditioner/General_Electric/GE_Window_AC.json"
+            }
+          ]
+        },
+        {
+          "name": "Gree",
+          "models": [
+            {
+              "name": "airco",
+              "path": "generated/air-conditioner/GREE/Gree_airco.json"
+            },
+            {
+              "name": "airco lightoff",
+              "path": "generated/air-conditioner/GREE/Gree_airco_lightoff.json"
+            },
+            {
+              "name": "GWH18ACD-K6DNA1D",
+              "remoteModel": "YAAA1FB",
+              "path": "devices/air-conditioner/Gree/GWH18ACD-K6DNA1D.json"
+            },
+            {
+              "name": "YAPOF",
+              "path": "generated/air-conditioner/GREE/GREE_YAPOF.json"
+            }
+          ]
+        },
+        {
+          "name": "Haier",
+          "models": [
+            {
+              "name": "AC HPD10XCM-LW",
+              "path": "generated/air-conditioner/Haier/Haier_AC_HPD10XCM-LW.json"
+            },
+            {
+              "name": "AC HWE08XCR-L",
+              "path": "generated/air-conditioner/Haier/Haier_AC_HWE08XCR-L.json"
+            }
+          ]
+        },
+        {
+          "name": "Hisense",
+          "models": [
+            {
+              "name": "DG11J1-99 celsius",
+              "path": "generated/air-conditioner/Hisense/Hisense_DG11J1-99_celsius.json"
+            },
+            {
+              "name": "DG11J1-99 fahrenheit",
+              "path": "generated/air-conditioner/Hisense/Hisense_DG11J1-99_fahrenheit.json"
+            },
+            {
+              "name": "room AC",
+              "path": "generated/air-conditioner/Hisense/Hisense_room_AC.json"
+            },
+            {
+              "name": "window AC",
+              "path": "generated/air-conditioner/Hisense/Hisense_window_AC.json"
+            }
           ]
         },
         {
           "name": "Hitachi",
           "models": [
-            { "name": "32HB4T62", "remoteModel": "49141", "path": "devices/television/Hitachi/32HB4T62.json" },
-            { "name": "LE46H508", "path": "devices/television/Hitachi/LE46H508.json" }
+            {
+              "name": "RAK35",
+              "path": "generated/air-conditioner/Hitachi/Hitachi_RAK35.json"
+            }
           ]
-        }
-      ]
-    },
-    {
-      "name": "Air Conditioner",
-      "manufacturers": [
+        },
         {
-          "name": "Gree",
+          "name": "Honeywell",
           "models": [
-            { "name": "GWH18ACD-K6DNA1D", "remoteModel": "YAAA1FB", "path": "devices/air-conditioner/Gree/GWH18ACD-K6DNA1D.json" }
+            {
+              "name": "MN10CESS",
+              "path": "generated/air-conditioner/Honeywell/Honeywell_MN10CESS.json"
+            }
+          ]
+        },
+        {
+          "name": "Innova",
+          "models": [
+            {
+              "name": "2.0",
+              "path": "generated/air-conditioner/Innova/Innova_2.0.json"
+            }
+          ]
+        },
+        {
+          "name": "Insigna",
+          "models": [
+            {
+              "name": "AC NSRC2AC9",
+              "path": "generated/air-conditioner/Insigna/Insigna_AC_NSRC2AC9.json"
+            },
+            {
+              "name": "Insignia NS-AC8PWH9-C AC",
+              "path": "generated/air-conditioner/Insigna/Insignia_NS-AC8PWH9-C_AC.json"
+            }
+          ]
+        },
+        {
+          "name": "Inventum",
+          "models": [
+            {
+              "name": "AC",
+              "path": "generated/air-conditioner/Inventum/Inventum_AC.json"
+            }
+          ]
+        },
+        {
+          "name": "Kenmore",
+          "models": [
+            {
+              "name": "AC",
+              "path": "generated/air-conditioner/Kenmore/Kenmore_AC.json"
+            }
+          ]
+        },
+        {
+          "name": "Klarstein",
+          "models": [
+            {
+              "name": "Metrobreeze Miami",
+              "path": "generated/air-conditioner/Klarstein/Klarstein_Metrobreeze_Miami.json"
+            }
+          ]
+        },
+        {
+          "name": "Koldfront",
+          "models": [
+            {
+              "name": "WAC12001",
+              "path": "generated/air-conditioner/Koldfront/Koldfront_WAC12001.json"
+            }
+          ]
+        },
+        {
+          "name": "Lamborghini",
+          "models": [
+            {
+              "name": "Unknown Model 1",
+              "path": "generated/air-conditioner/Lamborghini/Unknown_Model_1.json"
+            }
+          ]
+        },
+        {
+          "name": "Lennox",
+          "models": [
+            {
+              "name": "AC",
+              "path": "generated/air-conditioner/Lennox/Lennox_AC.json"
+            }
+          ]
+        },
+        {
+          "name": "LG",
+          "models": [
+            {
+              "name": "AC",
+              "path": "generated/air-conditioner/LG/LG_AC.json"
+            },
+            {
+              "name": "COV30332906 AC",
+              "path": "generated/air-conditioner/LG/LG_COV30332906_AC.json"
+            },
+            {
+              "name": "LP0817WSR",
+              "path": "generated/air-conditioner/LG/LG_LP0817WSR.json"
+            },
+            {
+              "name": "LP1015WNR AC",
+              "path": "generated/air-conditioner/LG/LG_LP1015WNR_AC.json"
+            },
+            {
+              "name": "LP1417GSR AC",
+              "path": "generated/air-conditioner/LG/LG_LP1417GSR_AC.json"
+            },
+            {
+              "name": "LP1419IVSM",
+              "path": "generated/air-conditioner/LG/LG_LP1419IVSM.json"
+            }
+          ]
+        },
+        {
+          "name": "Logik",
+          "models": [
+            {
+              "name": "HLF-20R",
+              "path": "generated/air-conditioner/Logik/Logik_HLF-20R.json"
+            }
+          ]
+        },
+        {
+          "name": "MayTag",
+          "models": [
+            {
+              "name": "M6X06F2A",
+              "path": "generated/air-conditioner/MayTag/MayTag_M6X06F2A.json"
+            }
+          ]
+        },
+        {
+          "name": "Midea",
+          "models": [
+            {
+              "name": "AC MAW05R1WBL",
+              "path": "generated/air-conditioner/Midea/Midea_AC_MAW05R1WBL.json"
+            },
+            {
+              "name": "MP12SVKBA3RCM",
+              "path": "generated/air-conditioner/Midea/Midea_MP12SVKBA3RCM.json"
+            },
+            {
+              "name": "silent cool 26 pro",
+              "path": "generated/air-conditioner/Midea/Midea_silent_cool_26_pro.json"
+            },
+            {
+              "name": "WWK08CR81N",
+              "path": "generated/air-conditioner/Midea/Midea_WWK08CR81N.json"
+            }
+          ]
+        },
+        {
+          "name": "Mitsubishi",
+          "models": [
+            {
+              "name": "mitsubishi-MSY-GE10VA",
+              "path": "generated/air-conditioner/Mitsubishi/mitsubishi-MSY-GE10VA.json"
+            },
+            {
+              "name": "MSH GA71VB",
+              "path": "generated/air-conditioner/Mitsubishi/Mitsubishi_MSH_GA71VB.json"
+            },
+            {
+              "name": "MSH-30RV",
+              "path": "generated/air-conditioner/Mitsubishi/Mitsubishi_MSH-30RV.json"
+            },
+            {
+              "name": "SRK20ZJ-S",
+              "path": "generated/air-conditioner/Mitsubishi/Mitsubishi_SRK20ZJ-S.json"
+            },
+            {
+              "name": "SRK35ZS-W",
+              "path": "generated/air-conditioner/Mitsubishi/Mitsubishi_SRK35ZS-W.json"
+            }
+          ]
+        },
+        {
+          "name": "Moretti",
+          "models": [
+            {
+              "name": "Air Cooler",
+              "path": "generated/air-conditioner/Moretti/Moretti_Air_Cooler.json"
+            }
+          ]
+        },
+        {
+          "name": "Panasonic",
+          "models": [
+            {
+              "name": "A75C4187",
+              "path": "generated/air-conditioner/Panasonic/Panasonic_A75C4187.json"
+            },
+            {
+              "name": "Climate A75C2600",
+              "path": "generated/air-conditioner/Panasonic/Panasonic_Climate_A75C2600.json"
+            },
+            {
+              "name": "CS-UE12RKE",
+              "path": "generated/air-conditioner/Panasonic/Panasonic_CS-UE12RKE.json"
+            },
+            {
+              "name": "CWA75C4179",
+              "path": "generated/air-conditioner/Panasonic/Panasonic_CWA75C4179.json"
+            }
+          ]
+        },
+        {
+          "name": "Princess",
+          "models": [
+            {
+              "name": "AC",
+              "path": "generated/air-conditioner/Princess/Princess_AC.json"
+            }
+          ]
+        },
+        {
+          "name": "Remko",
+          "models": [
+            {
+              "name": "RKL",
+              "path": "generated/air-conditioner/Remko/Remko_RKL.json"
+            }
+          ]
+        },
+        {
+          "name": "Rinnai",
+          "models": [
+            {
+              "name": "AC",
+              "path": "generated/air-conditioner/Rinnai/Rinnai_AC.json"
+            }
+          ]
+        },
+        {
+          "name": "Samsung",
+          "models": [
+            {
+              "name": "AC AR12K",
+              "path": "generated/air-conditioner/Samsung/Samsung_AC_AR12K.json"
+            },
+            {
+              "name": "Wind-Free",
+              "path": "generated/air-conditioner/Samsung/Samsung_Wind-Free.json"
+            }
+          ]
+        },
+        {
+          "name": "SereneLife",
+          "models": [
+            {
+              "name": "SLPAC8",
+              "path": "generated/air-conditioner/SereneLife/SereneLife_SLPAC8.json"
+            }
+          ]
+        },
+        {
+          "name": "Sharp",
+          "models": [
+            {
+              "name": "AH X9VEW AC",
+              "path": "generated/air-conditioner/Sharp/Sharp_AH_X9VEW_AC.json"
+            },
+            {
+              "name": "Sharp AH-A9UCD",
+              "path": "generated/air-conditioner/Sharp/Sharp_AH-A9UCD.json"
+            }
+          ]
+        },
+        {
+          "name": "Sinclair",
+          "models": [
+            {
+              "name": "ASH13BIF2",
+              "path": "generated/air-conditioner/Sinclair/SINCLAIR_ASH13BIF2.json"
+            }
+          ]
+        },
+        {
+          "name": "SoleusAir",
+          "models": [
+            {
+              "name": "Portable",
+              "path": "generated/air-conditioner/SoleusAir/SoleusAir_Portable.json"
+            },
+            {
+              "name": "SoleusAir",
+              "path": "generated/air-conditioner/SoleusAir/SoleusAir.json"
+            }
+          ]
+        },
+        {
+          "name": "Suntec",
+          "models": [
+            {
+              "name": "Transform AC",
+              "path": "generated/air-conditioner/Suntec/Suntec_Transform_AC.json"
+            }
+          ]
+        },
+        {
+          "name": "TCL",
+          "models": [
+            {
+              "name": "Tcl",
+              "path": "generated/air-conditioner/TCL/Tcl.json"
+            }
+          ]
+        },
+        {
+          "name": "Toshiba",
+          "models": [
+            {
+              "name": "AC",
+              "path": "generated/air-conditioner/Toshiba/Toshiba_AC.json"
+            },
+            {
+              "name": "RAS13SKV2E",
+              "path": "generated/air-conditioner/Toshiba/Toshiba_RAS13SKV2E.json"
+            },
+            {
+              "name": "RASB10BKVG-E",
+              "path": "generated/air-conditioner/Toshiba/Toshiba_RASB10BKVG-E.json"
+            },
+            {
+              "name": "RG57H4",
+              "path": "generated/air-conditioner/Toshiba/Toshiba_RG57H4.json"
+            }
+          ]
+        },
+        {
+          "name": "Tropic",
+          "models": [
+            {
+              "name": "AC",
+              "path": "generated/air-conditioner/Tropic/Tropic_AC.json"
+            }
+          ]
+        },
+        {
+          "name": "Trotec",
+          "models": [
+            {
+              "name": "PAC2600X",
+              "path": "generated/air-conditioner/Trotec/Trotec_PAC2600X.json"
+            }
           ]
         },
         {
           "name": "Whirlpool",
           "models": [
-            { "name": "DG11J1-3A", "remoteModel": "DG11J1-3A", "path": "devices/air-conditioner/Whirlpool/DG11J1-3A.json" }
+            {
+              "name": "DG11J1-3A",
+              "remoteModel": "DG11J1-3A",
+              "path": "devices/air-conditioner/Whirlpool/DG11J1-3A.json"
+            }
+          ]
+        },
+        {
+          "name": "Whynter",
+          "models": [
+            {
+              "name": "AC",
+              "path": "generated/air-conditioner/Whynter/Whynter_AC.json"
+            }
+          ]
+        },
+        {
+          "name": "Xiaomi",
+          "models": [
+            {
+              "name": "AC",
+              "path": "generated/air-conditioner/Xiaomi/Xiaomi_AC.json"
+            }
+          ]
+        },
+        {
+          "name": "York",
+          "models": [
+            {
+              "name": "AC",
+              "path": "generated/air-conditioner/York/York_AC.json"
+            }
+          ]
+        },
+        {
+          "name": "Zenith",
+          "models": [
+            {
+              "name": "AC",
+              "path": "generated/air-conditioner/Zenith/Zenith_AC.json"
+            }
+          ]
+        },
+        {
+          "name": "Zephir",
+          "models": [
+            {
+              "name": "ZPO9001H AC",
+              "path": "generated/air-conditioner/Zephir/Zephir_ZPO9001H_AC.json"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Television",
+      "manufacturers": [
+        {
+          "name": "Akai",
+          "models": [
+            {
+              "name": "ATE 22Y604W",
+              "path": "generated/television/Akai/AKAI_ATE_22Y604W.json"
+            }
+          ]
+        },
+        {
+          "name": "Amazon",
+          "models": [
+            {
+              "name": "FireTV Omni Series 4K",
+              "path": "generated/television/Amazon/FireTV_Omni_Series_4K.json"
+            }
+          ]
+        },
+        {
+          "name": "AmazonBasics",
+          "models": [
+            {
+              "name": "TV Remote",
+              "path": "generated/television/AmazonBasics/AmazonBasics_TV_Remote.json"
+            }
+          ]
+        },
+        {
+          "name": "Android",
+          "models": [
+            {
+              "name": "TV MXQ",
+              "path": "generated/television/Android/Android_TV_MXQ.json"
+            }
+          ]
+        },
+        {
+          "name": "Apex",
+          "models": [
+            {
+              "name": "LE4643T",
+              "path": "generated/television/Apex/APEX_LE4643T.json"
+            }
+          ]
+        },
+        {
+          "name": "AWA",
+          "models": [
+            {
+              "name": "MSDV3268O5D0",
+              "path": "generated/television/AWA/AWA_MSDV3268O5D0.json"
+            }
+          ]
+        },
+        {
+          "name": "Baird",
+          "models": [
+            {
+              "name": "T15011DLEDDS RC-6",
+              "path": "generated/television/Baird/BAIRD_T15011DLEDDS_RC-6.json"
+            }
+          ]
+        },
+        {
+          "name": "Bauhn",
+          "models": [
+            {
+              "name": "ATV 50FHD4",
+              "path": "generated/television/Bauhn/Bauhn_ATV_50FHD4.json"
+            },
+            {
+              "name": "tv",
+              "path": "generated/television/Bauhn/Bauhn_tv.json"
+            }
+          ]
+        },
+        {
+          "name": "BBK",
+          "models": [
+            {
+              "name": "TV LEM-1071",
+              "path": "generated/television/BBK/BBK_TV_LEM-1071.json"
+            }
+          ]
+        },
+        {
+          "name": "BGH",
+          "models": [
+            {
+              "name": "BLE2814D",
+              "path": "generated/television/BGH/BGH_BLE2814D.json"
+            }
+          ]
+        },
+        {
+          "name": "Blaupunkt",
+          "models": [
+            {
+              "name": "Blaupunkt",
+              "path": "generated/television/Blaupunkt/Blaupunkt.json"
+            }
+          ]
+        },
+        {
+          "name": "Blitzwolf",
+          "models": [
+            {
+              "name": "BWPCM2",
+              "path": "generated/television/Blitzwolf/Blitzwolf_BWPCM2.json"
+            }
+          ]
+        },
+        {
+          "name": "Bolva",
+          "models": [
+            {
+              "name": "TV",
+              "path": "generated/television/Bolva/Bolva_TV.json"
+            }
+          ]
+        },
+        {
+          "name": "Boulanger",
+          "models": [
+            {
+              "name": "Essentiel B TV",
+              "path": "generated/television/Boulanger/Essentiel_B_TV.json"
+            }
+          ]
+        },
+        {
+          "name": "Brandt",
+          "models": [
+            {
+              "name": "B3228HD",
+              "path": "generated/television/Brandt/Brandt_B3228HD.json"
+            }
+          ]
+        },
+        {
+          "name": "Bush",
+          "models": [
+            {
+              "name": "Bush43QT24SB",
+              "path": "generated/television/Bush/Bush43QT24SB.json"
+            },
+            {
+              "name": "TV DLED32287HDCNTDFVP",
+              "path": "generated/television/Bush/BUSH_TV_DLED32287HDCNTDFVP.json"
+            },
+            {
+              "name": "TV VL32HDLED",
+              "path": "generated/television/Bush/BUSH_TV_VL32HDLED.json"
+            }
+          ]
+        },
+        {
+          "name": "Cadillac",
+          "models": [
+            {
+              "name": "Escalade TV",
+              "path": "generated/television/Cadillac/Escalade_TV.json"
+            }
+          ]
+        },
+        {
+          "name": "CCE",
+          "models": [
+            {
+              "name": "RC512 Remote",
+              "path": "generated/television/CCE/CCE_RC512_Remote.json"
+            }
+          ]
+        },
+        {
+          "name": "ContinentalEdison",
+          "models": [
+            {
+              "name": "CELD55SQLDV24B6",
+              "path": "generated/television/ContinentalEdison/ContinentalEdison_CELD55SQLDV24B6.json"
+            },
+            {
+              "name": "CELED32JBL7",
+              "path": "generated/television/ContinentalEdison/ContinentalEdison_CELED32JBL7.json"
+            },
+            {
+              "name": "CELED502723",
+              "path": "generated/television/ContinentalEdison/ContinentalEdison_CELED502723.json"
+            },
+            {
+              "name": "ContinentalEdison",
+              "path": "generated/television/ContinentalEdison/ContinentalEdison.json"
+            }
+          ]
+        },
+        {
+          "name": "Crown",
+          "models": [
+            {
+              "name": "22111",
+              "path": "generated/television/Crown/Crown_22111.json"
+            },
+            {
+              "name": "RC647340",
+              "path": "generated/television/Crown/Crown_RC647340.json"
+            }
+          ]
+        },
+        {
+          "name": "Denver",
+          "models": [
+            {
+              "name": "LED-3271",
+              "path": "generated/television/Denver/Denver_LED-3271.json"
+            }
+          ]
+        },
+        {
+          "name": "Devant",
+          "models": [
+            {
+              "name": "Unknown Model",
+              "path": "generated/television/Devant/Devant_Unknown_Model.json"
+            }
+          ]
+        },
+        {
+          "name": "Digihome",
+          "models": [
+            {
+              "name": "Butlins",
+              "path": "generated/television/Digihome/Butlins.json"
+            }
+          ]
+        },
+        {
+          "name": "Dual",
+          "models": [
+            {
+              "name": "DL-32HD-002",
+              "path": "generated/television/Dual/Dual_DL-32HD-002.json"
+            }
+          ]
+        },
+        {
+          "name": "Dynex",
+          "models": [
+            {
+              "name": "DX-RC01A-12",
+              "path": "generated/television/Dynex/Dynex_DX-RC01A-12.json"
+            },
+            {
+              "name": "EN21669D",
+              "path": "generated/television/Dynex/Dynex_EN21669D.json"
+            },
+            {
+              "name": "RC-701-0A",
+              "path": "generated/television/Dynex/Dynex_RC-701-0A.json"
+            }
+          ]
+        },
+        {
+          "name": "DYON",
+          "models": [
+            {
+              "name": "Movie Smart 32 XT",
+              "path": "generated/television/DYON/DYON_Movie_Smart_32_XT.json"
+            }
+          ]
+        },
+        {
+          "name": "EdenWood",
+          "models": [
+            {
+              "name": "TV",
+              "path": "generated/television/EdenWood/EdenWood_TV.json"
+            }
+          ]
+        },
+        {
+          "name": "Element",
+          "models": [
+            {
+              "name": "100-Series TV",
+              "path": "generated/television/Element/Element_100-Series_TV.json"
+            },
+            {
+              "name": "FullRemote",
+              "path": "generated/television/Element/Element_FullRemote.json"
+            },
+            {
+              "name": "TV",
+              "path": "generated/television/Element/Element_TV.json"
+            }
+          ]
+        },
+        {
+          "name": "Elements",
+          "models": [
+            {
+              "name": "TV",
+              "path": "generated/television/Elements/Elements_TV.json"
+            }
+          ]
+        },
+        {
+          "name": "Elitelux",
+          "models": [
+            {
+              "name": "L32HD1000",
+              "path": "generated/television/Elitelux/Elitelux_L32HD1000.json"
+            }
+          ]
+        },
+        {
+          "name": "Emerson",
+          "models": [
+            {
+              "name": "32FNT004",
+              "path": "generated/television/Emerson/Emerson_32FNT004.json"
+            },
+            {
+              "name": "EWC13D4",
+              "path": "generated/television/Emerson/Emerson_EWC13D4.json"
+            },
+            {
+              "name": "remote NH303UD",
+              "path": "generated/television/Emerson/Emerson_remote_NH303UD.json"
+            }
+          ]
+        },
+        {
+          "name": "Enseo",
+          "models": [
+            {
+              "name": "Enseo",
+              "path": "generated/television/Enseo/Enseo.json"
+            },
+            {
+              "name": "full",
+              "path": "generated/television/Enseo/Enseo_full.json"
+            }
+          ]
+        },
+        {
+          "name": "Erisson",
+          "models": [
+            {
+              "name": "AL52D B",
+              "path": "generated/television/Erisson/Erisson_AL52D_B.json"
+            }
+          ]
+        },
+        {
+          "name": "EssentielB",
+          "models": [
+            {
+              "name": "EssentielB",
+              "path": "generated/television/EssentielB/EssentielB.json"
+            }
+          ]
+        },
+        {
+          "name": "Fetch",
+          "models": [
+            {
+              "name": "TV Box AUS",
+              "path": "generated/television/Fetch/Fetch_TV_Box_AUS.json"
+            }
+          ]
+        },
+        {
+          "name": "Ffalcon",
+          "models": [
+            {
+              "name": "SF1 Smart TV",
+              "path": "generated/television/Ffalcon/Ffalcon_SF1_Smart_TV.json"
+            }
+          ]
+        },
+        {
+          "name": "FINLUX",
+          "models": [
+            {
+              "name": "FINLUX",
+              "path": "generated/television/FINLUX/FINLUX.json"
+            }
+          ]
+        },
+        {
+          "name": "Funai",
+          "models": [
+            {
+              "name": "Funai",
+              "path": "generated/television/Funai/Funai.json"
+            }
+          ]
+        },
+        {
+          "name": "Furrion",
+          "models": [
+            {
+              "name": "Furrion",
+              "path": "generated/television/Furrion/Furrion.json"
+            }
+          ]
+        },
+        {
+          "name": "Gogen",
+          "models": [
+            {
+              "name": "TVH24P266T",
+              "path": "generated/television/Gogen/Gogen_TVH24P266T.json"
+            }
+          ]
+        },
+        {
+          "name": "GPX",
+          "models": [
+            {
+              "name": "Gpx",
+              "path": "generated/television/GPX/Gpx.json"
+            }
+          ]
+        },
+        {
+          "name": "Grandin",
+          "models": [
+            {
+              "name": "Grandin",
+              "path": "generated/television/Grandin/Grandin.json"
+            },
+            {
+              "name": "Unknown Model",
+              "path": "generated/television/Grandin/Grandin_Unknown_Model.json"
+            }
+          ]
+        },
+        {
+          "name": "Grundig",
+          "models": [
+            {
+              "name": "2",
+              "path": "generated/television/Grundig/Grundig_2.json"
+            },
+            {
+              "name": "AndroidTV",
+              "path": "generated/television/Grundig/Grundig_AndroidTV.json"
+            },
+            {
+              "name": "GRUNDIG",
+              "path": "generated/television/Grundig/GRUNDIG.json"
+            },
+            {
+              "name": "TP750C",
+              "path": "generated/television/Grundig/Grundig_TP750C.json"
+            },
+            {
+              "name": "TP800",
+              "path": "generated/television/Grundig/Grundig_TP800.json"
+            },
+            {
+              "name": "UNKNOWN",
+              "path": "generated/television/Grundig/GRUNDIG_UNKNOWN.json"
+            }
+          ]
+        },
+        {
+          "name": "GuestTek",
+          "models": [
+            {
+              "name": "Marriot Hotel",
+              "path": "generated/television/GuestTek/GuestTek_Marriot_Hotel.json"
+            }
+          ]
+        },
+        {
+          "name": "GVA",
+          "models": [
+            {
+              "name": "GVA32M7D",
+              "path": "generated/television/GVA/GVA_GVA32M7D.json"
+            }
+          ]
+        },
+        {
+          "name": "Haier",
+          "models": [
+            {
+              "name": "L42C1180",
+              "path": "generated/television/Haier/Haier_L42C1180.json"
+            }
+          ]
+        },
+        {
+          "name": "Hisense",
+          "models": [
+            {
+              "name": "32A4HAU",
+              "path": "generated/television/Hisense/Hisense_32A4HAU.json"
+            },
+            {
+              "name": "55E7KQ",
+              "path": "generated/television/Hisense/Hisense_55E7KQ.json"
+            },
+            {
+              "name": "55K3201GUWUS",
+              "path": "generated/television/Hisense/Hisense_55K3201GUWUS.json"
+            },
+            {
+              "name": "55U6K",
+              "path": "generated/television/Hisense/Hisense_55U6K.json"
+            },
+            {
+              "name": "58R5",
+              "path": "generated/television/Hisense/Hisense_58R5.json"
+            },
+            {
+              "name": "65K3300UW",
+              "path": "generated/television/Hisense/Hisense_65K3300UW.json"
+            },
+            {
+              "name": "EN 33926A",
+              "path": "generated/television/Hisense/Hisense_EN_33926A.json"
+            },
+            {
+              "name": "EN3Y39H",
+              "path": "generated/television/Hisense/Hisense_EN3Y39H.json"
+            },
+            {
+              "name": "ER22601A",
+              "path": "generated/television/Hisense/Hisense_ER22601A.json"
+            },
+            {
+              "name": "K321UW",
+              "path": "generated/television/Hisense/Hisense_K321UW.json"
+            },
+            {
+              "name": "RokuTV",
+              "path": "generated/television/Hisense/Hisense_RokuTV.json"
+            },
+            {
+              "name": "TV ZDB2190126",
+              "path": "generated/television/Hisense/Hisense_TV_ZDB2190126.json"
+            },
+            {
+              "name": "U7G",
+              "path": "generated/television/Hisense/Hisense_U7G.json"
+            }
+          ]
+        },
+        {
+          "name": "Hitachi",
+          "models": [
+            {
+              "name": "32HB4T62",
+              "remoteModel": "49141",
+              "path": "devices/television/Hitachi/32HB4T62.json"
+            },
+            {
+              "name": "43140",
+              "path": "generated/television/Hitachi/Hitachi_43140.json"
+            },
+            {
+              "name": "49141",
+              "path": "generated/television/Hitachi/Hitachi_49141.json"
+            },
+            {
+              "name": "CLE-1031",
+              "path": "generated/television/Hitachi/Hitachi_CLE-1031.json"
+            },
+            {
+              "name": "LE46H508",
+              "path": "devices/television/Hitachi/LE46H508.json"
+            },
+            {
+              "name": "RC43140",
+              "path": "generated/television/Hitachi/Hitachi_RC43140.json"
+            },
+            {
+              "name": "SmartTV 43140",
+              "path": "generated/television/Hitachi/Hitachi_SmartTV_43140.json"
+            }
+          ]
+        },
+        {
+          "name": "Hotels",
+          "models": [
+            {
+              "name": "Hilton Connected Room Remote",
+              "path": "generated/television/Hotels/Hilton_Connected_Room_Remote.json"
+            },
+            {
+              "name": "Marriott-BONVoY Remote",
+              "path": "generated/television/Hotels/Marriott-BONVoY_Remote.json"
+            }
+          ]
+        },
+        {
+          "name": "Insignia",
+          "models": [
+            {
+              "name": "Insignia",
+              "path": "generated/television/Insignia/Insignia.json"
+            },
+            {
+              "name": "NS 40D510NA17",
+              "path": "generated/television/Insignia/Insignia_NS_40D510NA17.json"
+            },
+            {
+              "name": "NS RC9DNA-14",
+              "path": "generated/television/Insignia/Insignia_NS_RC9DNA-14.json"
+            }
+          ]
+        },
+        {
+          "name": "JVC",
+          "models": [
+            {
+              "name": "4KTV",
+              "path": "generated/television/JVC/JVC_4KTV.json"
+            },
+            {
+              "name": "LT-49HW97U",
+              "path": "generated/television/JVC/JVC_LT-49HW97U.json"
+            },
+            {
+              "name": "RMT-JR01",
+              "path": "generated/television/JVC/JVC_RMT-JR01.json"
+            }
+          ]
+        },
+        {
+          "name": "Kendo",
+          "models": [
+            {
+              "name": "CP20M36VT",
+              "path": "generated/television/Kendo/Kendo_CP20M36VT.json"
+            }
+          ]
+        },
+        {
+          "name": "Kogan",
+          "models": [
+            {
+              "name": "KALED50XU9210STB",
+              "path": "generated/television/Kogan/Kogan_KALED50XU9210STB.json"
+            }
+          ]
+        },
+        {
+          "name": "Kraft",
+          "models": [
+            {
+              "name": "KTV",
+              "path": "generated/television/Kraft/KRAFT_KTV.json"
+            }
+          ]
+        },
+        {
+          "name": "LG",
+          "models": [
+            {
+              "name": "24LJ4840",
+              "path": "generated/television/LG/LG_24LJ4840.json"
+            },
+            {
+              "name": "27GR95QE TV",
+              "path": "generated/television/LG/LG_27GR95QE_TV.json"
+            },
+            {
+              "name": "32LF650V",
+              "path": "generated/television/LG/LG_32LF650V.json"
+            },
+            {
+              "name": "32LN5406",
+              "path": "generated/television/LG/LG_32LN5406.json"
+            },
+            {
+              "name": "32LW4500",
+              "path": "generated/television/LG/LG_32LW4500.json"
+            },
+            {
+              "name": "43NANO779PA",
+              "path": "generated/television/LG/LG_43NANO779PA.json"
+            },
+            {
+              "name": "4K TV",
+              "path": "generated/television/LG/LG_4K_TV.json"
+            },
+            {
+              "name": "55LB870V ZA",
+              "path": "generated/television/LG/LG_55LB870V_ZA.json"
+            },
+            {
+              "name": "55UN7300AUD",
+              "path": "generated/television/LG/LG_55UN7300AUD.json"
+            },
+            {
+              "name": "75UJ6470",
+              "path": "generated/television/LG/LG_75UJ6470.json"
+            },
+            {
+              "name": "AKB33871403",
+              "path": "generated/television/LG/LG_AKB33871403.json"
+            },
+            {
+              "name": "AKB69680401",
+              "path": "generated/television/LG/LG_AKB69680401.json"
+            },
+            {
+              "name": "AKB72913118",
+              "path": "generated/television/LG/LG_AKB72913118.json"
+            },
+            {
+              "name": "AKB72914048",
+              "path": "generated/television/LG/LG_AKB72914048.json"
+            },
+            {
+              "name": "AKB72915206",
+              "path": "generated/television/LG/LG_AKB72915206.json"
+            },
+            {
+              "name": "AKB73275675",
+              "path": "generated/television/LG/LG_AKB73275675.json"
+            },
+            {
+              "name": "AKB74915305",
+              "path": "generated/television/LG/LG_AKB74915305.json"
+            },
+            {
+              "name": "AKB75095307",
+              "path": "generated/television/LG/LG_AKB75095307.json"
+            },
+            {
+              "name": "AKB75375608",
+              "path": "generated/television/LG/LG_AKB75375608.json"
+            },
+            {
+              "name": "AKB75675311",
+              "path": "generated/television/LG/LG_AKB75675311.json"
+            },
+            {
+              "name": "AKB75855501",
+              "path": "generated/television/LG/LG_AKB75855501.json"
+            },
+            {
+              "name": "AKB76043102",
+              "path": "generated/television/LG/LG_AKB76043102.json"
+            },
+            {
+              "name": "C1",
+              "path": "generated/television/LG/LG_C1.json"
+            },
+            {
+              "name": "C9 magic remote",
+              "path": "generated/television/LG/LG_C9_magic_remote.json"
+            },
+            {
+              "name": "Hotel tv",
+              "path": "generated/television/LG/LG_Hotel_tv.json"
+            },
+            {
+              "name": "Hotel TV Home2",
+              "path": "generated/television/LG/LG_Hotel_TV_Home2.json"
+            },
+            {
+              "name": "MKJ33981404",
+              "path": "generated/television/LG/LG_MKJ33981404.json"
+            },
+            {
+              "name": "MKJ39170828 Service",
+              "path": "generated/television/LG/LG_MKJ39170828_Service.json"
+            },
+            {
+              "name": "MR21GC Magic Remote",
+              "path": "generated/television/LG/LG_MR21GC_Magic_Remote.json"
+            },
+            {
+              "name": "OLED48C37LA (LG OLED C3 models)",
+              "path": "generated/television/LG/LG_OLED48C37LA_LG_OLED_C3_models.json"
+            },
+            {
+              "name": "OLED65C8PUA",
+              "path": "generated/television/LG/LG_OLED65C8PUA.json"
+            },
+            {
+              "name": "TV 42LF5800",
+              "path": "generated/television/LG/LG_TV_42LF5800.json"
+            },
+            {
+              "name": "TV AKB75375604",
+              "path": "generated/television/LG/LG_TV_AKB75375604.json"
+            }
+          ]
+        },
+        {
+          "name": "LodgeNet",
+          "models": [
+            {
+              "name": "lrc3220",
+              "path": "generated/television/LodgeNet/lodgenet_lrc3220.json"
+            }
+          ]
+        },
+        {
+          "name": "Magnavox",
+          "models": [
+            {
+              "name": "20MT1331 17",
+              "path": "generated/television/Magnavox/MAGNAVOX_20MT1331_17.json"
+            },
+            {
+              "name": "CD130MW8",
+              "path": "generated/television/Magnavox/MAGNAVOX_CD130MW8.json"
+            },
+            {
+              "name": "RD0946T102",
+              "path": "generated/television/Magnavox/MAGNAVOX_RD0946T102.json"
+            }
+          ]
+        },
+        {
+          "name": "Manta",
+          "models": [
+            {
+              "name": "TV",
+              "path": "generated/television/Manta/Manta_TV.json"
+            },
+            {
+              "name": "TV 2",
+              "path": "generated/television/Manta/Manta_TV_2.json"
+            }
+          ]
+        },
+        {
+          "name": "Medion",
+          "models": [
+            {
+              "name": "MD21302",
+              "path": "generated/television/Medion/Medion_MD21302.json"
+            },
+            {
+              "name": "MD31802",
+              "path": "generated/television/Medion/Medion_MD31802.json"
+            },
+            {
+              "name": "Medion",
+              "path": "generated/television/Medion/Medion.json"
+            }
+          ]
+        },
+        {
+          "name": "Mivar",
+          "models": [
+            {
+              "name": "LCD TV",
+              "path": "generated/television/Mivar/Mivar_LCD_TV.json"
+            }
+          ]
+        },
+        {
+          "name": "NEC",
+          "models": [
+            {
+              "name": "E425",
+              "path": "generated/television/NEC/NEC_E425.json"
+            },
+            {
+              "name": "NEC",
+              "path": "generated/television/NEC/NEC.json"
+            }
+          ]
+        },
+        {
+          "name": "Neo",
+          "models": [
+            {
+              "name": "TV",
+              "path": "generated/television/Neo/Neo_TV.json"
+            }
+          ]
+        },
+        {
+          "name": "Onn",
+          "models": [
+            {
+              "name": "Roku TV",
+              "path": "generated/television/Onn/Onn_Roku_TV.json"
+            }
+          ]
+        },
+        {
+          "name": "Panasonic",
+          "models": [
+            {
+              "name": "58JX800 Series",
+              "path": "generated/television/Panasonic/Panasonic_58JX800_Series.json"
+            },
+            {
+              "name": "N2QAYA 152",
+              "path": "generated/television/Panasonic/Panasonic_N2QAYA_152.json"
+            },
+            {
+              "name": "N2QAYB000352",
+              "path": "generated/television/Panasonic/Panasonic_N2QAYB000352.json"
+            },
+            {
+              "name": "N2QAYB000705",
+              "path": "generated/television/Panasonic/Panasonic_N2QAYB000705.json"
+            },
+            {
+              "name": "N2QAYB000715",
+              "path": "generated/television/Panasonic/Panasonic_N2QAYB000715.json"
+            },
+            {
+              "name": "N2QAYB000752 Full",
+              "path": "generated/television/Panasonic/Panasonic_N2QAYB000752_Full.json"
+            },
+            {
+              "name": "N2QAYB000926",
+              "path": "generated/television/Panasonic/Panasonic_N2QAYB000926.json"
+            },
+            {
+              "name": "N2QAYB001109 full",
+              "path": "generated/television/Panasonic/N2QAYB001109_full.json"
+            },
+            {
+              "name": "TC-P50S2",
+              "path": "generated/television/Panasonic/Panasonic_TC-P50S2.json"
+            },
+            {
+              "name": "TH-43HS550K",
+              "path": "generated/television/Panasonic/Panasonic_TH-43HS550K.json"
+            },
+            {
+              "name": "TX 42AS650E",
+              "path": "generated/television/Panasonic/Panasonic_TX_42AS650E.json"
+            },
+            {
+              "name": "TX 43GXW584",
+              "path": "generated/television/Panasonic/Panasonic_TX_43GXW584.json"
+            },
+            {
+              "name": "TX-40HX800B",
+              "path": "generated/television/Panasonic/Panasonic_TX-40HX800B.json"
+            },
+            {
+              "name": "TX29AS10C",
+              "path": "generated/television/Panasonic/Panasonic_TX29AS10C.json"
+            },
+            {
+              "name": "Unknown Full",
+              "path": "generated/television/Panasonic/Panasonic_Unknown_Full.json"
+            },
+            {
+              "name": "Viera",
+              "path": "generated/television/Panasonic/Panasonic_Viera.json"
+            }
+          ]
+        },
+        {
+          "name": "PDi",
+          "models": [
+            {
+              "name": "PD108-420",
+              "path": "generated/television/PDi/PD108-420.json"
+            }
+          ]
+        },
+        {
+          "name": "Philips",
+          "models": [
+            {
+              "name": "14GX8510",
+              "path": "generated/television/Philips/Philips_14GX8510.json"
+            },
+            {
+              "name": "14PT136B00",
+              "path": "generated/television/Philips/Philips_14PT136B00.json"
+            },
+            {
+              "name": "22IT TV Monitor",
+              "path": "generated/television/Philips/Philips_22IT_TV_Monitor.json"
+            },
+            {
+              "name": "32PFL4208T",
+              "path": "generated/television/Philips/Philips_32PFL4208T.json"
+            },
+            {
+              "name": "32PFL7403S",
+              "path": "generated/television/Philips/Philips_32PFL7403S.json"
+            },
+            {
+              "name": "32PFL7962D12",
+              "path": "generated/television/Philips/Philips_32PFL7962D12.json"
+            },
+            {
+              "name": "40HFL3010T12",
+              "path": "generated/television/Philips/Philips_40HFL3010T12.json"
+            },
+            {
+              "name": "40PFL6533 F7D",
+              "path": "generated/television/Philips/Philips_40PFL6533_F7D.json"
+            },
+            {
+              "name": "436M6VBPAB",
+              "path": "generated/television/Philips/Philips_436M6VBPAB.json"
+            },
+            {
+              "name": "50PUT6103 79",
+              "path": "generated/television/Philips/Philips_50PUT6103_79.json"
+            },
+            {
+              "name": "5766 Series",
+              "path": "generated/television/Philips/Philips_5766_Series.json"
+            },
+            {
+              "name": "PhilipsTV",
+              "path": "generated/television/Philips/PhilipsTV.json"
+            },
+            {
+              "name": "TV 14PV172 08",
+              "path": "generated/television/Philips/Philips_TV_14PV172_08.json"
+            },
+            {
+              "name": "TV 48OLED806",
+              "path": "generated/television/Philips/Philips_TV_48OLED806.json"
+            },
+            {
+              "name": "TV 7000LED 42PFL7695H",
+              "path": "generated/television/Philips/Philips_TV_7000LED_42PFL7695H.json"
+            },
+            {
+              "name": "TV 7956 Series",
+              "path": "generated/television/Philips/Philips_TV_7956_Series.json"
+            },
+            {
+              "name": "TV Universal",
+              "path": "generated/television/Philips/Philips_TV_Universal.json"
+            },
+            {
+              "name": "XXPFL9955H",
+              "path": "generated/television/Philips/Philips_XXPFL9955H.json"
+            }
+          ]
+        },
+        {
+          "name": "Platinum",
+          "models": [
+            {
+              "name": "PT2020LED",
+              "path": "generated/television/Platinum/Platinum_PT2020LED.json"
+            }
+          ]
+        },
+        {
+          "name": "PrismPlus",
+          "models": [
+            {
+              "name": "PrismPlus",
+              "path": "generated/television/PrismPlus/PrismPlus.json"
+            }
+          ]
+        },
+        {
+          "name": "RCA",
+          "models": [
+            {
+              "name": "24 Roku",
+              "path": "generated/television/RCA/RCA_24_Roku.json"
+            },
+            {
+              "name": "CRK50A",
+              "path": "generated/television/RCA/RCA_CRK50A.json"
+            },
+            {
+              "name": "P46731AT TV",
+              "path": "generated/television/RCA/RCA_P46731AT_TV.json"
+            },
+            {
+              "name": "RCR314WR  RCA313BR",
+              "path": "generated/television/RCA/RCA_RCR314WR__RCA313BR.json"
+            },
+            {
+              "name": "RLDED3258A-B",
+              "path": "generated/television/RCA/RCA_RLDED3258A-B.json"
+            },
+            {
+              "name": "RokuTV RTR4061-B-CA",
+              "path": "generated/television/RCA/RCA_RokuTV_RTR4061-B-CA.json"
+            },
+            {
+              "name": "RT2471 AC",
+              "path": "generated/television/RCA/RCA_RT2471_AC.json"
+            },
+            {
+              "name": "TV 2",
+              "path": "generated/television/RCA/RCA_TV_2.json"
+            }
+          ]
+        },
+        {
+          "name": "Samsung",
+          "models": [
+            {
+              "name": "AA-00721A",
+              "path": "generated/television/Samsung/Samsung_AA-00721A.json"
+            },
+            {
+              "name": "AA59",
+              "path": "generated/television/Samsung/Samsung_AA59.json"
+            },
+            {
+              "name": "AA59-00443A",
+              "path": "generated/television/Samsung/Samsung_AA59-00443A.json"
+            },
+            {
+              "name": "AA59-00484A",
+              "path": "generated/television/Samsung/Samsung_AA59-00484A.json"
+            },
+            {
+              "name": "AA59-00580A",
+              "path": "generated/television/Samsung/Samsung_AA59-00580A.json"
+            },
+            {
+              "name": "AA59-00714A",
+              "path": "generated/television/Samsung/Samsung_AA59-00714A.json"
+            },
+            {
+              "name": "AA59-00741A",
+              "path": "generated/television/Samsung/Samsung_AA59-00741A.json"
+            },
+            {
+              "name": "AA59-00786A",
+              "path": "generated/television/Samsung/Samsung_AA59-00786A.json"
+            },
+            {
+              "name": "AA81-00243A",
+              "path": "generated/television/Samsung/Samsung_AA81-00243A.json"
+            },
+            {
+              "name": "BN59",
+              "path": "generated/television/Samsung/Samsung_BN59.json"
+            },
+            {
+              "name": "BN59-00511A",
+              "path": "generated/television/Samsung/Samsung_BN59-00511A.json"
+            },
+            {
+              "name": "BN59-01081A",
+              "path": "generated/television/Samsung/Samsung_BN59-01081A.json"
+            },
+            {
+              "name": "BN59-01175N",
+              "path": "generated/television/Samsung/Samsung_BN59-01175N.json"
+            },
+            {
+              "name": "BN59-01180A",
+              "path": "generated/television/Samsung/Samsung_BN59-01180A.json"
+            },
+            {
+              "name": "BN59-01198 R",
+              "path": "generated/television/Samsung/Samsung_BN59-01198_R.json"
+            },
+            {
+              "name": "BN59-01247A",
+              "path": "generated/television/Samsung/Samsung_BN59-01247A.json"
+            },
+            {
+              "name": "BN59-01301A",
+              "path": "generated/television/Samsung/Samsung_BN59-01301A.json"
+            },
+            {
+              "name": "BN59-01303A",
+              "path": "generated/television/Samsung/Samsung_BN59-01303A.json"
+            },
+            {
+              "name": "BN59-01315B",
+              "path": "generated/television/Samsung/Samsung_BN59-01315B.json"
+            },
+            {
+              "name": "BN59-01315J",
+              "path": "generated/television/Samsung/Samsung_BN59-01315J.json"
+            },
+            {
+              "name": "BN59-01330C",
+              "path": "generated/television/Samsung/Samsung_BN59-01330C.json"
+            },
+            {
+              "name": "BN59-01358C",
+              "path": "generated/television/Samsung/Samsung_BN59-01358C.json"
+            },
+            {
+              "name": "BN59-01385C",
+              "path": "generated/television/Samsung/Samsung_BN59-01385C.json"
+            },
+            {
+              "name": "BN59-01388",
+              "path": "generated/television/Samsung/Samsung_BN59-01388.json"
+            },
+            {
+              "name": "BN59-01391A",
+              "path": "generated/television/Samsung/Samsung_BN59-01391A.json"
+            },
+            {
+              "name": "Broadband Hospitality",
+              "path": "generated/television/Samsung/Samsung_Broadband_Hospitality.json"
+            },
+            {
+              "name": "H6300 TV",
+              "path": "generated/television/Samsung/Samsung_H6300_TV.json"
+            },
+            {
+              "name": "HQ24ED470AK",
+              "path": "generated/television/Samsung/Samsung_HQ24ED470AK.json"
+            },
+            {
+              "name": "LE40R87BD",
+              "path": "generated/television/Samsung/Samsung_LE40R87BD.json"
+            },
+            {
+              "name": "LN32D403E2GCTC",
+              "path": "generated/television/Samsung/Samsung_LN32D403E2GCTC.json"
+            },
+            {
+              "name": "LN46C650L1F",
+              "path": "generated/television/Samsung/Samsung_LN46C650L1F.json"
+            },
+            {
+              "name": "LW17E34C",
+              "path": "generated/television/Samsung/Samsung_LW17E34C.json"
+            },
+            {
+              "name": "P2770HD",
+              "path": "generated/television/Samsung/Samsung_P2770HD.json"
+            },
+            {
+              "name": "QN43Q60AAF",
+              "path": "generated/television/Samsung/Samsung_QN43Q60AAF.json"
+            },
+            {
+              "name": "Royal Caribbean",
+              "path": "generated/television/Samsung/Samsung_Royal_Caribbean.json"
+            },
+            {
+              "name": "Samsung",
+              "path": "generated/television/Samsung/Samsung.json"
+            },
+            {
+              "name": "Smart Remote",
+              "path": "generated/television/Samsung/Samsung_Smart_Remote.json"
+            },
+            {
+              "name": "TV 1",
+              "path": "generated/television/Samsung/Samsung_TV_1.json"
+            },
+            {
+              "name": "TV 2",
+              "path": "generated/television/Samsung/Samsung_TV_2.json"
+            },
+            {
+              "name": "TV Full",
+              "path": "generated/television/Samsung/Samsung_TV_Full.json"
+            },
+            {
+              "name": "UE26C4000PW",
+              "path": "generated/television/Samsung/Samsung_UE26C4000PW.json"
+            },
+            {
+              "name": "UE32F4000",
+              "path": "generated/television/Samsung/Samsung_UE32F4000.json"
+            },
+            {
+              "name": "UE32F4000AW",
+              "path": "devices/television/Samsung/UE32F4000AW.json"
+            },
+            {
+              "name": "UE48H6700",
+              "remoteModel": "BN59-01175N",
+              "path": "devices/television/Samsung/UE48H6700.json"
+            },
+            {
+              "name": "UE48JU6490U",
+              "path": "generated/television/Samsung/Samsung_UE48JU6490U.json"
+            },
+            {
+              "name": "UN32EH5000F",
+              "path": "generated/television/Samsung/Samsung_UN32EH5000F.json"
+            },
+            {
+              "name": "UN40C5000QFXZA",
+              "path": "generated/television/Samsung/Samsung_UN40C5000QFXZA.json"
+            },
+            {
+              "name": "UN60JU6500",
+              "path": "generated/television/Samsung/Samsung_UN60JU6500.json"
+            },
+            {
+              "name": "Unknown Model",
+              "path": "generated/television/Samsung/Samsung_Unknown_Model.json"
+            }
+          ]
+        },
+        {
+          "name": "Sankey",
+          "models": [
+            {
+              "name": "TV",
+              "path": "generated/television/Sankey/Sankey_TV.json"
+            }
+          ]
+        },
+        {
+          "name": "Sanyo",
+          "models": [
+            {
+              "name": "DP26640",
+              "path": "generated/television/Sanyo/Sanyo_DP26640.json"
+            },
+            {
+              "name": "ds32224",
+              "path": "generated/television/Sanyo/Sanyo_ds32224.json"
+            },
+            {
+              "name": "FW40R49FC",
+              "path": "generated/television/Sanyo/Sanyo_FW40R49FC.json"
+            },
+            {
+              "name": "Sanyo UR77EC2703-3",
+              "path": "generated/television/Sanyo/Sanyo_UR77EC2703-3.json"
+            }
+          ]
+        },
+        {
+          "name": "Sceptre",
+          "models": [
+            {
+              "name": "8142026670003C",
+              "path": "generated/television/Sceptre/Sceptre_8142026670003C.json"
+            },
+            {
+              "name": "H24",
+              "path": "generated/television/Sceptre/Sceptre_H24.json"
+            },
+            {
+              "name": "X50 Series",
+              "path": "generated/television/Sceptre/Sceptre_X50_Series.json"
+            }
+          ]
+        },
+        {
+          "name": "SEG",
+          "models": [
+            {
+              "name": "MALTA",
+              "path": "generated/television/SEG/SEG_MALTA.json"
+            }
+          ]
+        },
+        {
+          "name": "Seiki",
+          "models": [
+            {
+              "name": "SE40FYP1T TV",
+              "path": "generated/television/Seiki/Seiki_SE40FYP1T_TV.json"
+            }
+          ]
+        },
+        {
+          "name": "Sencor",
+          "models": [
+            {
+              "name": "25801",
+              "path": "generated/television/Sencor/Sencor_25801.json"
+            }
+          ]
+        },
+        {
+          "name": "Sharp",
+          "models": [
+            {
+              "name": "13VT-L100",
+              "path": "generated/television/Sharp/Sharp_13VT-L100.json"
+            },
+            {
+              "name": "Aquos",
+              "path": "generated/television/Sharp/Aquos.json"
+            },
+            {
+              "name": "Aquos 32BG3E",
+              "path": "generated/television/Sharp/Sharp_Aquos_32BG3E.json"
+            },
+            {
+              "name": "Aquos JP",
+              "path": "generated/television/Sharp/Sharp_Aquos_JP.json"
+            },
+            {
+              "name": "g0684cesa NES TV",
+              "path": "generated/television/Sharp/Sharp_g0684cesa_NES_TV.json"
+            },
+            {
+              "name": "LC-RC1-16",
+              "path": "generated/television/Sharp/Sharp_LC-RC1-16.json"
+            },
+            {
+              "name": "Roku TV",
+              "path": "generated/television/Sharp/Sharp_Roku_TV.json"
+            },
+            {
+              "name": "TV2",
+              "path": "generated/television/Sharp/Sharp_TV2.json"
+            }
+          ]
+        },
+        {
+          "name": "Silver",
+          "models": [
+            {
+              "name": "LE410004",
+              "path": "generated/television/Silver/Silver_LE410004.json"
+            }
+          ]
+        },
+        {
+          "name": "SkyVue",
+          "models": [
+            {
+              "name": "03SI-RI",
+              "path": "generated/television/SkyVue/SKYVUE_03SI-RI.json"
+            }
+          ]
+        },
+        {
+          "name": "Soniq",
+          "models": [
+            {
+              "name": "E32W13B",
+              "path": "generated/television/Soniq/Soniq_E32W13B.json"
+            },
+            {
+              "name": "E55V13A",
+              "path": "generated/television/Soniq/Soniq_E55V13A.json"
+            },
+            {
+              "name": "QSP500TV6",
+              "path": "generated/television/Soniq/Soniq_QSP500TV6.json"
+            },
+            {
+              "name": "Z24Z15B",
+              "path": "generated/television/Soniq/Soniq_Z24Z15B.json"
+            }
+          ]
+        },
+        {
+          "name": "Sony",
+          "models": [
+            {
+              "name": "Bravia",
+              "path": "generated/television/Sony/Sony_Bravia.json"
+            },
+            {
+              "name": "Bravia KD-55XF80xx-49XF80xx-43XF80xx",
+              "path": "generated/television/Sony/Sony_Bravia_KD-55XF80xx-49XF80xx-43XF80xx.json"
+            },
+            {
+              "name": "Bravia KDL-46W905A",
+              "path": "generated/television/Sony/Sony_Bravia_KDL-46W905A.json"
+            },
+            {
+              "name": "FW 75BZ40H",
+              "path": "generated/television/Sony/Sony_FW_75BZ40H.json"
+            },
+            {
+              "name": "KD",
+              "path": "generated/television/Sony/Sony_KD.json"
+            },
+            {
+              "name": "KD-55X80CK",
+              "path": "generated/television/Sony/Sony_KD-55X80CK.json"
+            },
+            {
+              "name": "RM ED016",
+              "path": "generated/television/Sony/Sony_RM_ED016.json"
+            },
+            {
+              "name": "RM ED045",
+              "path": "generated/television/Sony/Sony_RM_ED045.json"
+            },
+            {
+              "name": "RM-GD014",
+              "path": "generated/television/Sony/Sony_RM-GD014.json"
+            },
+            {
+              "name": "RM-V310",
+              "path": "generated/television/Sony/Sony_RM-V310.json"
+            },
+            {
+              "name": "RM-YD017",
+              "path": "generated/television/Sony/Sony_RM-YD017.json"
+            },
+            {
+              "name": "RM-YD018",
+              "path": "generated/television/Sony/Sony_RM-YD018.json"
+            },
+            {
+              "name": "RM-YD028",
+              "path": "generated/television/Sony/Sony_RM-YD028.json"
+            },
+            {
+              "name": "RM-YD092",
+              "path": "generated/television/Sony/Sony_RM-YD092.json"
+            },
+            {
+              "name": "RMEA002",
+              "path": "generated/television/Sony/Sony_RMEA002.json"
+            },
+            {
+              "name": "RMF-TX500U",
+              "path": "generated/television/Sony/Sony_RMF-TX500U.json"
+            },
+            {
+              "name": "RMT TB400U",
+              "path": "generated/television/Sony/Sony_RMT_TB400U.json"
+            },
+            {
+              "name": "RMT TX100D",
+              "path": "generated/television/Sony/Sony_RMT_TX100D.json"
+            },
+            {
+              "name": "RMT TX200U",
+              "path": "generated/television/Sony/Sony_RMT_TX200U.json"
+            },
+            {
+              "name": "SFRTV5",
+              "path": "generated/television/Sony/Sony_SFRTV5.json"
+            },
+            {
+              "name": "SonyTV",
+              "path": "generated/television/Sony/SonyTV.json"
+            },
+            {
+              "name": "X2182U",
+              "path": "generated/television/Sony/Sony_X2182U.json"
+            },
+            {
+              "name": "XBR",
+              "path": "generated/television/Sony/Sony_XBR.json"
+            },
+            {
+              "name": "XBR RM-TD017",
+              "path": "generated/television/Sony/Sony_XBR_RM-TD017.json"
+            }
+          ]
+        },
+        {
+          "name": "Strong",
+          "models": [
+            {
+              "name": "32HX4003",
+              "path": "generated/television/Strong/Strong_32HX4003.json"
+            },
+            {
+              "name": "RCU-Z400N",
+              "path": "generated/television/Strong/Strong_RCU-Z400N.json"
+            },
+            {
+              "name": "TVD221 B1825",
+              "path": "generated/television/Strong/Strong_TVD221_B1825.json"
+            }
+          ]
+        },
+        {
+          "name": "Sunbrite",
+          "models": [
+            {
+              "name": "Sunbrite",
+              "path": "generated/television/Sunbrite/Sunbrite.json"
+            }
+          ]
+        },
+        {
+          "name": "Supra",
+          "models": [
+            {
+              "name": "STV LC32T880WL 1",
+              "path": "generated/television/Supra/Supra_STV_LC32T880WL_1.json"
+            }
+          ]
+        },
+        {
+          "name": "Symphonic",
+          "models": [
+            {
+              "name": "ST424FF",
+              "path": "generated/television/Symphonic/Symphonic_ST424FF.json"
+            }
+          ]
+        },
+        {
+          "name": "Syntax-Brillian",
+          "models": [
+            {
+              "name": "SyntaxBrillian Olevia232T",
+              "path": "generated/television/Syntax-Brillian/SyntaxBrillian_Olevia232T.json"
+            }
+          ]
+        },
+        {
+          "name": "TCL",
+          "models": [
+            {
+              "name": "32S327",
+              "path": "generated/television/TCL/TCL_32S327.json"
+            },
+            {
+              "name": "40S615",
+              "path": "generated/television/TCL/TCL_40S615.json"
+            },
+            {
+              "name": "43S446",
+              "path": "generated/television/TCL/TCL_43S446.json"
+            },
+            {
+              "name": "50S423",
+              "path": "generated/television/TCL/TCL_50S423.json"
+            },
+            {
+              "name": "65C635K",
+              "path": "generated/television/TCL/TCL_65C635K.json"
+            },
+            {
+              "name": "LED49D2930",
+              "path": "generated/television/TCL/TCL_LED49D2930.json"
+            },
+            {
+              "name": "Roku TV",
+              "path": "generated/television/TCL/TCL_Roku_TV.json"
+            },
+            {
+              "name": "Roku TV 55S405",
+              "path": "generated/television/TCL/TCL_Roku_TV_55S405.json"
+            },
+            {
+              "name": "ROKU US",
+              "path": "generated/television/TCL/TCL_ROKU_US.json"
+            },
+            {
+              "name": "UnknownModel1",
+              "path": "generated/television/TCL/TCL_UnknownModel1.json"
+            },
+            {
+              "name": "UnknownModel2",
+              "path": "generated/television/TCL/TCL_UnknownModel2.json"
+            },
+            {
+              "name": "UnknownModel3",
+              "path": "generated/television/TCL/TCL_UnknownModel3.json"
+            }
+          ]
+        },
+        {
+          "name": "Technika",
+          "models": [
+            {
+              "name": "22880",
+              "path": "generated/television/Technika/TECHNIKA_22880.json"
+            }
+          ]
+        },
+        {
+          "name": "Telefunken",
+          "models": [
+            {
+              "name": "d32f660x5cwi",
+              "path": "generated/television/Telefunken/Telefunken_d32f660x5cwi.json"
+            },
+            {
+              "name": "D40F294R4CW",
+              "path": "generated/television/Telefunken/Telefunken_D40F294R4CW.json"
+            },
+            {
+              "name": "L55U405B4CW",
+              "path": "generated/television/Telefunken/Telefunken_L55U405B4CW.json"
+            },
+            {
+              "name": "L65F249i3C",
+              "path": "generated/television/Telefunken/Telefunken_L65F249i3C.json"
+            },
+            {
+              "name": "TF-LED19S64T2",
+              "path": "generated/television/Telefunken/Telefunken_TF-LED19S64T2.json"
+            },
+            {
+              "name": "TF-LED32S54T2",
+              "path": "generated/television/Telefunken/Telefunken_TF-LED32S54T2.json"
+            }
+          ]
+        },
+        {
+          "name": "Telekom",
+          "models": [
+            {
+              "name": "Entertain",
+              "path": "generated/television/Telekom/Telekom_Entertain.json"
+            }
+          ]
+        },
+        {
+          "name": "Tevion",
+          "models": [
+            {
+              "name": "3221TS",
+              "path": "generated/television/Tevion/Tevion_3221TS.json"
+            }
+          ]
+        },
+        {
+          "name": "Thomson",
+          "models": [
+            {
+              "name": "40FS3003",
+              "path": "generated/television/Thomson/Thomson_40FS3003.json"
+            }
+          ]
+        },
+        {
+          "name": "Toshiba",
+          "models": [
+            {
+              "name": "50C350LC",
+              "path": "generated/television/Toshiba/Toshiba_50C350LC.json"
+            },
+            {
+              "name": "CT-32F2",
+              "path": "generated/television/Toshiba/Toshiba_CT-32F2.json"
+            },
+            {
+              "name": "Ct-8563",
+              "path": "generated/television/Toshiba/Toshiba_Ct-8563.json"
+            },
+            {
+              "name": "CT-90325",
+              "path": "generated/television/Toshiba/Toshiba_CT-90325.json"
+            },
+            {
+              "name": "CT-9922",
+              "path": "generated/television/Toshiba/Toshiba_CT-9922.json"
+            },
+            {
+              "name": "firetv v2",
+              "path": "generated/television/Toshiba/toshiba_firetv_v2.json"
+            },
+            {
+              "name": "SE R0305 32CV100U",
+              "path": "generated/television/Toshiba/Toshiba_SE_R0305_32CV100U.json"
+            },
+            {
+              "name": "Toshiba CT 8560",
+              "path": "generated/television/Toshiba/Toshiba_CT_8560.json"
+            }
+          ]
+        },
+        {
+          "name": "United",
+          "models": [
+            {
+              "name": "tv",
+              "path": "generated/television/United/United_tv.json"
+            }
+          ]
+        },
+        {
+          "name": "Viano",
+          "models": [
+            {
+              "name": "STV65UHD4K",
+              "path": "generated/television/Viano/Viano_STV65UHD4K.json"
+            }
+          ]
+        },
+        {
+          "name": "ViewSonic",
+          "models": [
+            {
+              "name": "A-00010219",
+              "path": "generated/television/ViewSonic/VIEWSONIC_A-00010219.json"
+            },
+            {
+              "name": "VT2645",
+              "path": "generated/television/ViewSonic/ViewSonic_VT2645.json"
+            }
+          ]
+        },
+        {
+          "name": "Viore",
+          "models": [
+            {
+              "name": "TV LC37VF72",
+              "path": "generated/television/Viore/Viore_TV_LC37VF72.json"
+            }
+          ]
+        },
+        {
+          "name": "Vitec",
+          "models": [
+            {
+              "name": "Exterity IPTV",
+              "path": "generated/television/Vitec/Vitec_Exterity_IPTV.json"
+            }
+          ]
+        },
+        {
+          "name": "Vizio",
+          "models": [
+            {
+              "name": "D32FM-K01",
+              "path": "generated/television/Vizio/Vizio_D32FM-K01.json"
+            },
+            {
+              "name": "D43-C1",
+              "path": "generated/television/Vizio/Vizio_D43-C1.json"
+            },
+            {
+              "name": "E190VA Razor",
+              "path": "generated/television/Vizio/Vizio_E190VA_Razor.json"
+            },
+            {
+              "name": "E70U-D3",
+              "path": "generated/television/Vizio/Vizio_E70U-D3.json"
+            },
+            {
+              "name": "M70Q6-J03",
+              "path": "generated/television/Vizio/Vizio_M70Q6-J03.json"
+            },
+            {
+              "name": "V405-H19",
+              "path": "generated/television/Vizio/Vizio_V405-H19.json"
+            },
+            {
+              "name": "V705-G1",
+              "path": "generated/television/Vizio/Vizio_V705-G1.json"
+            },
+            {
+              "name": "Vizio",
+              "path": "generated/television/Vizio/Vizio.json"
+            },
+            {
+              "name": "VX32L",
+              "path": "generated/television/Vizio/Vizio_VX32L.json"
+            },
+            {
+              "name": "XRT122",
+              "path": "generated/television/Vizio/Vizio_XRT122.json"
+            },
+            {
+              "name": "XRT135",
+              "path": "generated/television/Vizio/Vizio_XRT135.json"
+            },
+            {
+              "name": "XRT136",
+              "path": "generated/television/Vizio/Vizio_XRT136.json"
+            },
+            {
+              "name": "XRT140R",
+              "path": "generated/television/Vizio/Vizio_XRT140R.json"
+            },
+            {
+              "name": "XRT150",
+              "path": "generated/television/Vizio/Vizio_XRT150.json"
+            }
+          ]
+        },
+        {
+          "name": "Waltham",
+          "models": [
+            {
+              "name": "WTHD3214B",
+              "path": "generated/television/Waltham/Waltham_WTHD3214B.json"
+            }
+          ]
+        },
+        {
+          "name": "Watson",
+          "models": [
+            {
+              "name": "FA3627T",
+              "path": "generated/television/Watson/WATSON_FA3627T.json"
+            }
+          ]
+        },
+        {
+          "name": "Wbox",
+          "models": [
+            {
+              "name": "TV",
+              "path": "generated/television/Wbox/Wbox_TV.json"
+            }
+          ]
+        },
+        {
+          "name": "Westinghouse",
+          "models": [
+            {
+              "name": "RMT-13",
+              "path": "generated/television/Westinghouse/Westinghouse_RMT-13.json"
+            },
+            {
+              "name": "Westinghouse",
+              "path": "generated/television/Westinghouse/Westinghouse.json"
+            }
+          ]
+        },
+        {
+          "name": "Zenith",
+          "models": [
+            {
+              "name": "SC3492Z",
+              "path": "generated/television/Zenith/Zenith_SC3492Z.json"
+            },
+            {
+              "name": "tv",
+              "path": "generated/television/Zenith/Zenith_tv.json"
+            }
           ]
         }
       ]
     }
-  ]
+  ],
+  "generatedFrom": "Flipper-IRDB + curated HomeController definitions"
 }

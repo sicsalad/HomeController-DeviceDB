@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Television",
+  "manufacturer": "Panasonic",
+  "model": "Viera",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "Kaseikyo",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "On_off",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "80 02 20 00",
+          "command": "D0 03 00 00"
+        },
+        {
+          "name": "Sd_hc",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "89 02 20 02",
+          "command": "B0 02 00 00"
+        },
+        {
+          "name": "Viera_link",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "89 02 20 02",
+          "command": "10 03 00 00"
+        },
+        {
+          "name": "Sap",
+          "canonical": "Custom3",
+          "type": "parsed",
+          "address": "80 02 20 00",
+          "command": "30 03 00 00"
+        },
+        {
+          "name": "Menu",
+          "canonical": "Menu",
+          "type": "parsed",
+          "address": "80 02 20 01",
+          "command": "20 01 00 00"
+        },
+        {
+          "name": "Tv_video",
+          "canonical": "Custom4",
+          "type": "parsed",
+          "address": "80 02 20 00",
+          "command": "50 00 00 00"
+        },
+        {
+          "name": "Exit",
+          "canonical": "Exit",
+          "type": "parsed",
+          "address": "89 02 20 02",
+          "command": "A0 01 00 00"
+        },
+        {
+          "name": "Ok",
+          "canonical": "Ok",
+          "type": "parsed",
+          "address": "80 02 20 01",
+          "command": "90 00 00 00"
+        },
+        {
+          "name": "Arw_up",
+          "canonical": "Custom5",
+          "type": "parsed",
+          "address": "80 02 20 01",
+          "command": "A0 00 00 00"
+        },
+        {
+          "name": "Arw_left",
+          "canonical": "Custom6",
+          "type": "parsed",
+          "address": "80 02 20 01",
+          "command": "E0 00 00 00"
+        },
+        {
+          "name": "Arw_right",
+          "canonical": "Custom7",
+          "type": "parsed",
+          "address": "80 02 20 01",
+          "command": "F0 00 00 00"
+        },
+        {
+          "name": "Arw_down",
+          "canonical": "Custom8",
+          "type": "parsed",
+          "address": "80 02 20 01",
+          "command": "B0 00 00 00"
+        },
+        {
+          "name": "Return",
+          "canonical": "Back",
+          "type": "parsed",
+          "address": "80 02 20 03",
+          "command": "40 01 00 00"
+        },
+        {
+          "name": "Ch_up",
+          "canonical": "ChannelUp",
+          "type": "parsed",
+          "address": "80 02 20 00",
+          "command": "40 03 00 00"
+        },
+        {
+          "name": "Ch_down",
+          "canonical": "ChannelDown",
+          "type": "parsed",
+          "address": "80 02 20 00",
+          "command": "50 03 00 00"
+        },
+        {
+          "name": "Vol_up",
+          "canonical": "VolumeUp",
+          "type": "parsed",
+          "address": "80 02 20 00",
+          "command": "00 02 00 00"
+        },
+        {
+          "name": "Vol_down",
+          "canonical": "VolumeDown",
+          "type": "parsed",
+          "address": "80 02 20 00",
+          "command": "10 02 00 00"
+        },
+        {
+          "name": "Info",
+          "canonical": "Info",
+          "type": "parsed",
+          "address": "80 02 20 00",
+          "command": "90 03 00 00"
+        },
+        {
+          "name": "Mute",
+          "canonical": "Mute",
+          "type": "parsed",
+          "address": "80 02 20 00",
+          "command": "20 03 00 00"
+        },
+        {
+          "name": "1",
+          "canonical": "Digit1",
+          "type": "parsed",
+          "address": "80 02 20 00",
+          "command": "00 01 00 00"
+        },
+        {
+          "name": "2",
+          "canonical": "Digit2",
+          "type": "parsed",
+          "address": "80 02 20 00",
+          "command": "10 01 00 00"
+        },
+        {
+          "name": "3",
+          "canonical": "Digit3",
+          "type": "parsed",
+          "address": "80 02 20 00",
+          "command": "20 01 00 00"
+        },
+        {
+          "name": "4",
+          "canonical": "Digit4",
+          "type": "parsed",
+          "address": "80 02 20 00",
+          "command": "30 01 00 00"
+        },
+        {
+          "name": "5",
+          "canonical": "Digit5",
+          "type": "parsed",
+          "address": "80 02 20 00",
+          "command": "40 01 00 00"
+        },
+        {
+          "name": "6",
+          "canonical": "Digit6",
+          "type": "parsed",
+          "address": "80 02 20 00",
+          "command": "50 01 00 00"
+        },
+        {
+          "name": "7",
+          "canonical": "Digit7",
+          "type": "parsed",
+          "address": "80 02 20 00",
+          "command": "60 01 00 00"
+        },
+        {
+          "name": "8",
+          "canonical": "Digit8",
+          "type": "parsed",
+          "address": "80 02 20 00",
+          "command": "70 01 00 00"
+        },
+        {
+          "name": "9",
+          "canonical": "Digit9",
+          "type": "parsed",
+          "address": "80 02 20 00",
+          "command": "80 01 00 00"
+        },
+        {
+          "name": "0",
+          "canonical": "Digit0",
+          "type": "parsed",
+          "address": "80 02 20 00",
+          "command": "90 01 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "TVs/Panasonic/Panasonic_Viera.ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}

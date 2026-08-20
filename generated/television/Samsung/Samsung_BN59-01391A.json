@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Television",
+  "manufacturer": "Samsung",
+  "model": "BN59-01391A",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "Samsung32",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "Power",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "E6 00 00 00"
+        },
+        {
+          "name": "123",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "D2 00 00 00"
+        },
+        {
+          "name": "Mic",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "FD 00 00 00"
+        },
+        {
+          "name": "Up",
+          "canonical": "Up",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "60 00 00 00"
+        },
+        {
+          "name": "Right",
+          "canonical": "Right",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "62 00 00 00"
+        },
+        {
+          "name": "Down",
+          "canonical": "Down",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "61 00 00 00"
+        },
+        {
+          "name": "Left",
+          "canonical": "Left",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "65 00 00 00"
+        },
+        {
+          "name": "Select",
+          "canonical": "Ok",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "68 00 00 00"
+        },
+        {
+          "name": "Return",
+          "canonical": "Back",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "58 00 00 00"
+        },
+        {
+          "name": "Smart_hub",
+          "canonical": "Custom4",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "79 00 00 00"
+        },
+        {
+          "name": "Play_pause",
+          "canonical": "Custom5",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "B9 00 00 00"
+        },
+        {
+          "name": "Vol_up",
+          "canonical": "VolumeUp",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "07 00 00 00"
+        },
+        {
+          "name": "Vol_dn",
+          "canonical": "VolumeDown",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "0B 00 00 00"
+        },
+        {
+          "name": "Mute",
+          "canonical": "Mute",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "0F 00 00 00"
+        },
+        {
+          "name": "Ch_next",
+          "canonical": "ChannelUp",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "12 00 00 00"
+        },
+        {
+          "name": "Ch_prev",
+          "canonical": "ChannelDown",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "10 00 00 00"
+        },
+        {
+          "name": "Guide",
+          "canonical": "Guide",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "4F 00 00 00"
+        },
+        {
+          "name": "Samsung_tv_plus",
+          "canonical": "Custom6",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "B4 00 00 00"
+        },
+        {
+          "name": "Netflix",
+          "canonical": "Custom7",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "F3 00 00 00"
+        },
+        {
+          "name": "Prime",
+          "canonical": "Custom8",
+          "type": "parsed",
+          "address": "07 00 00 00",
+          "command": "F4 00 00 00"
+        }
+      ]
+    },
+    {
+      "transport": "infrared",
+      "protocol": "",
+      "kind": "commands",
+      "frequencyHz": 38000,
+      "commands": [
+        {
+          "name": "Multi_view",
+          "canonical": "Custom3",
+          "type": "raw",
+          "frequencyHz": 38000,
+          "data": [
+            1263,
+            1192,
+            418,
+            595,
+            416,
+            894,
+            462,
+            2399,
+            417,
+            592,
+            420,
+            1495,
+            440,
+            2699,
+            414,
+            2094,
+            417,
+            2694,
+            448,
+            597,
+            420,
+            1795,
+            416,
+            592,
+            420,
+            86023,
+            321,
+            935,
+            319,
+            382,
+            320,
+            658,
+            320
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "TVs/Samsung/Samsung_BN59-01391A.ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}

@@ -1,0 +1,355 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Television",
+  "manufacturer": "FINLUX",
+  "model": "FINLUX",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "RC5",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "Power",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "0C 00 00 00"
+        },
+        {
+          "name": "Source",
+          "canonical": "Source",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "38 00 00 00"
+        },
+        {
+          "name": "1",
+          "canonical": "Digit1",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "01 00 00 00"
+        },
+        {
+          "name": "2",
+          "canonical": "Digit2",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "02 00 00 00"
+        },
+        {
+          "name": "4",
+          "canonical": "Digit4",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "04 00 00 00"
+        },
+        {
+          "name": "5",
+          "canonical": "Digit5",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "05 00 00 00"
+        },
+        {
+          "name": "6",
+          "canonical": "Digit6",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "06 00 00 00"
+        },
+        {
+          "name": "7",
+          "canonical": "Digit7",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "07 00 00 00"
+        },
+        {
+          "name": "8",
+          "canonical": "Digit8",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "08 00 00 00"
+        },
+        {
+          "name": "9",
+          "canonical": "Digit9",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "09 00 00 00"
+        },
+        {
+          "name": "0",
+          "canonical": "Digit0",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "00 00 00 00"
+        },
+        {
+          "name": "Language",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "0F 00 00 00"
+        },
+        {
+          "name": "Txt",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "3C 00 00 00"
+        },
+        {
+          "name": "Vol_up",
+          "canonical": "VolumeUp",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "10 00 00 00"
+        },
+        {
+          "name": "Vol_dn",
+          "canonical": "VolumeDown",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "11 00 00 00"
+        },
+        {
+          "name": "Mute",
+          "canonical": "Mute",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "0D 00 00 00"
+        },
+        {
+          "name": "Home",
+          "canonical": "Custom3",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "30 00 00 00"
+        },
+        {
+          "name": "Ch_next",
+          "canonical": "ChannelUp",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "20 00 00 00"
+        },
+        {
+          "name": "Ch_prev",
+          "canonical": "ChannelDown",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "21 00 00 00"
+        },
+        {
+          "name": "Guide",
+          "canonical": "Guide",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "2F 00 00 00"
+        },
+        {
+          "name": "Info",
+          "canonical": "Info",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "12 00 00 00"
+        },
+        {
+          "name": "Up",
+          "canonical": "Up",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "14 00 00 00"
+        },
+        {
+          "name": "Left",
+          "canonical": "Left",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "15 00 00 00"
+        },
+        {
+          "name": "Right",
+          "canonical": "Right",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "16 00 00 00"
+        },
+        {
+          "name": "Down",
+          "canonical": "Down",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "13 00 00 00"
+        },
+        {
+          "name": "Ok",
+          "canonical": "Ok",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "35 00 00 00"
+        },
+        {
+          "name": "Back",
+          "canonical": "Back",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "0A 00 00 00"
+        },
+        {
+          "name": "Exit",
+          "canonical": "Exit",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "25 00 00 00"
+        },
+        {
+          "name": "Rew",
+          "canonical": "Custom4",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "1B 00 00 00"
+        },
+        {
+          "name": "Pause",
+          "canonical": "Pause",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "31 00 00 00"
+        },
+        {
+          "name": "Fw",
+          "canonical": "Custom5",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "1C 00 00 00"
+        },
+        {
+          "name": "Rec",
+          "canonical": "Custom6",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "33 00 00 00"
+        },
+        {
+          "name": "Play",
+          "canonical": "Play",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "19 00 00 00"
+        },
+        {
+          "name": "Stop",
+          "canonical": "Stop",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "18 00 00 00"
+        },
+        {
+          "name": "Red",
+          "canonical": "Red",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "37 00 00 00"
+        },
+        {
+          "name": "Green",
+          "canonical": "Green",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "36 00 00 00"
+        },
+        {
+          "name": "Yelow",
+          "canonical": "Custom7",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "32 00 00 00"
+        },
+        {
+          "name": "Blue",
+          "canonical": "Blue",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "34 00 00 00"
+        }
+      ]
+    },
+    {
+      "transport": "infrared",
+      "protocol": "",
+      "kind": "commands",
+      "frequencyHz": 38000,
+      "commands": [
+        {
+          "name": "3",
+          "canonical": "Digit3",
+          "type": "raw",
+          "frequencyHz": 38000,
+          "data": [
+            690,
+            894,
+            1771,
+            890,
+            921,
+            890,
+            890,
+            894,
+            896,
+            887,
+            893,
+            1826,
+            1714,
+            918,
+            892,
+            891,
+            889,
+            894,
+            896,
+            1824,
+            831,
+            893,
+            887,
+            89510,
+            608,
+            843,
+            1771,
+            918,
+            943,
+            839,
+            941,
+            842,
+            938,
+            844,
+            946,
+            1827,
+            1652,
+            926,
+            935,
+            847,
+            943,
+            839,
+            941,
+            1805,
+            799,
+            898,
+            882,
+            81235,
+            195
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "TVs/FINLUX/FINLUX.ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}

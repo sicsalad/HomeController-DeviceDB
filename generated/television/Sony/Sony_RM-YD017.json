@@ -1,0 +1,231 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Television",
+  "manufacturer": "Sony",
+  "model": "RM-YD017",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "SIRC",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "Power",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "15 00 00 00"
+        },
+        {
+          "name": "Vol_up",
+          "canonical": "VolumeUp",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "12 00 00 00"
+        },
+        {
+          "name": "Vol_dn",
+          "canonical": "VolumeDown",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "13 00 00 00"
+        },
+        {
+          "name": "Up_arrow",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "74 00 00 00"
+        },
+        {
+          "name": "Down_arrow",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "75 00 00 00"
+        },
+        {
+          "name": "Left_arrow",
+          "canonical": "Custom3",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "34 00 00 00"
+        },
+        {
+          "name": "Right_arrow",
+          "canonical": "Custom4",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "33 00 00 00"
+        },
+        {
+          "name": "Enter",
+          "canonical": "Ok",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "65 00 00 00"
+        },
+        {
+          "name": "Input",
+          "canonical": "Source",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "25 00 00 00"
+        },
+        {
+          "name": "Mute",
+          "canonical": "Mute",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "14 00 00 00"
+        }
+      ]
+    },
+    {
+      "transport": "infrared",
+      "protocol": "",
+      "kind": "commands",
+      "frequencyHz": 38000,
+      "commands": [
+        {
+          "name": "Ch_next",
+          "canonical": "ChannelUp",
+          "type": "raw",
+          "frequencyHz": 38000,
+          "data": [
+            8958,
+            4449,
+            510,
+            4475,
+            515,
+            4444,
+            515,
+            2213,
+            508,
+            4477,
+            513,
+            2215,
+            516,
+            2212,
+            509,
+            2219,
+            512,
+            2217,
+            514,
+            2214,
+            517,
+            2211,
+            540,
+            2214,
+            517,
+            2211,
+            510,
+            4449,
+            510,
+            2218,
+            513,
+            4472,
+            507,
+            2220,
+            511,
+            30572,
+            8960,
+            2218,
+            513,
+            87698,
+            8966,
+            2211,
+            510,
+            87701,
+            8963,
+            2214,
+            568
+          ]
+        },
+        {
+          "name": "Ch_prev",
+          "canonical": "ChannelDown",
+          "type": "raw",
+          "frequencyHz": 38000,
+          "data": [
+            8956,
+            4451,
+            508,
+            2220,
+            511,
+            2217,
+            514,
+            4470,
+            510,
+            4449,
+            510,
+            2218,
+            544,
+            2211,
+            510,
+            2218,
+            513,
+            2215,
+            516,
+            2212,
+            509,
+            2220,
+            511,
+            2217,
+            514,
+            2214,
+            517,
+            2211,
+            510,
+            2245,
+            517,
+            4441,
+            508,
+            2220,
+            511,
+            35049,
+            8961,
+            2215,
+            516,
+            87696,
+            8959,
+            2217,
+            514,
+            87698,
+            8956,
+            2220,
+            511,
+            87701,
+            8964,
+            2213,
+            508
+          ]
+        }
+      ]
+    },
+    {
+      "transport": "infrared",
+      "protocol": "SIRC15",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "Return",
+          "canonical": "Back",
+          "type": "parsed",
+          "address": "97 00 00 00",
+          "command": "23 00 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "TVs/Sony/Sony_RM-YD017.ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}

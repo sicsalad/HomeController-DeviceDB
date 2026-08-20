@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Air Conditioner",
+  "manufacturer": "MayTag",
+  "model": "M6X06F2A",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "NEC",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "Temp+",
+          "canonical": "TemperatureUp",
+          "type": "parsed",
+          "address": "20 00 00 00",
+          "command": "0A 00 00 00"
+        },
+        {
+          "name": "Temp-",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "20 00 00 00",
+          "command": "11 00 00 00"
+        },
+        {
+          "name": "Mode",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "20 00 00 00",
+          "command": "09 00 00 00"
+        },
+        {
+          "name": "Power",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "20 00 00 00",
+          "command": "02 00 00 00"
+        },
+        {
+          "name": "FanSpeed",
+          "canonical": "Custom3",
+          "type": "parsed",
+          "address": "20 00 00 00",
+          "command": "1A 00 00 00"
+        },
+        {
+          "name": "Timer",
+          "canonical": "Timer",
+          "type": "parsed",
+          "address": "20 00 00 00",
+          "command": "19 00 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "ACs/MayTag/MayTag_M6X06F2A.ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}

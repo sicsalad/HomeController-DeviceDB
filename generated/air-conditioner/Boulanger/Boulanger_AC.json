@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Air Conditioner",
+  "manufacturer": "Boulanger",
+  "model": "AC",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "NEC",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "POWER",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "81 00 00 00",
+          "command": "6B 00 00 00"
+        },
+        {
+          "name": "TEMP+",
+          "canonical": "TemperatureUp",
+          "type": "parsed",
+          "address": "81 00 00 00",
+          "command": "65 00 00 00"
+        },
+        {
+          "name": "TEMP-",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "81 00 00 00",
+          "command": "68 00 00 00"
+        },
+        {
+          "name": "Fanspeed",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "81 00 00 00",
+          "command": "64 00 00 00"
+        },
+        {
+          "name": "Openangle",
+          "canonical": "Custom3",
+          "type": "parsed",
+          "address": "81 00 00 00",
+          "command": "67 00 00 00"
+        },
+        {
+          "name": "Timer",
+          "canonical": "Timer",
+          "type": "parsed",
+          "address": "81 00 00 00",
+          "command": "69 00 00 00"
+        },
+        {
+          "name": "MODE",
+          "canonical": "Custom4",
+          "type": "parsed",
+          "address": "81 00 00 00",
+          "command": "66 00 00 00"
+        },
+        {
+          "name": "Nightmode",
+          "canonical": "Custom5",
+          "type": "parsed",
+          "address": "81 00 00 00",
+          "command": "6A 00 00 00"
+        },
+        {
+          "name": "Celsiufarenheight",
+          "canonical": "Custom6",
+          "type": "parsed",
+          "address": "81 00 00 00",
+          "command": "6C 00 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "ACs/Boulanger/Boulanger_AC.ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}

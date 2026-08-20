@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Television",
+  "manufacturer": "Cadillac",
+  "model": "Escalade TV",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "",
+      "kind": "commands",
+      "frequencyHz": 38000,
+      "commands": [
+        {
+          "name": "Escalade_tv_power",
+          "canonical": "Custom1",
+          "type": "raw",
+          "frequencyHz": 38000,
+          "data": [
+            176,
+            67152,
+            1091
+          ]
+        },
+        {
+          "name": "Play_pause",
+          "canonical": "Custom2",
+          "type": "raw",
+          "frequencyHz": 38000,
+          "data": [
+            415,
+            4426,
+            210
+          ]
+        },
+        {
+          "name": "Media",
+          "canonical": "Custom3",
+          "type": "raw",
+          "frequencyHz": 38000,
+          "data": [
+            1062,
+            135490,
+            388
+          ]
+        },
+        {
+          "name": "Skip_fwd",
+          "canonical": "Custom4",
+          "type": "raw",
+          "frequencyHz": 38000,
+          "data": [
+            181,
+            1120,
+            131,
+            1539,
+            561
+          ]
+        },
+        {
+          "name": "Skip_bck",
+          "canonical": "Custom5",
+          "type": "raw",
+          "frequencyHz": 38000,
+          "data": [
+            235,
+            132206,
+            1116
+          ]
+        },
+        {
+          "name": "Menu",
+          "canonical": "Menu",
+          "type": "raw",
+          "frequencyHz": 38000,
+          "data": [
+            330,
+            666,
+            288
+          ]
+        },
+        {
+          "name": "Back",
+          "canonical": "Back",
+          "type": "raw",
+          "frequencyHz": 38000,
+          "data": [
+            206,
+            3069,
+            232
+          ]
+        },
+        {
+          "name": "Down",
+          "canonical": "Down",
+          "type": "raw",
+          "frequencyHz": 38000,
+          "data": [
+            1061,
+            57464,
+            176
+          ]
+        }
+      ]
+    },
+    {
+      "transport": "infrared",
+      "protocol": "NEC",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "Enter",
+          "canonical": "Ok",
+          "type": "parsed",
+          "address": "45 00 00 00",
+          "command": "21 00 00 00"
+        },
+        {
+          "name": "Right",
+          "canonical": "Right",
+          "type": "parsed",
+          "address": "45 00 00 00",
+          "command": "4D 00 00 00"
+        },
+        {
+          "name": "Left",
+          "canonical": "Left",
+          "type": "parsed",
+          "address": "45 00 00 00",
+          "command": "51 00 00 00"
+        },
+        {
+          "name": "Up",
+          "canonical": "Up",
+          "type": "parsed",
+          "address": "45 00 00 00",
+          "command": "80 00 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "TVs/Cadillac/Escalade_TV.ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}

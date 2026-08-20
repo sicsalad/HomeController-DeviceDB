@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Air Conditioner",
+  "manufacturer": "DeLonghi",
+  "model": "Pinguino PAC EL275HGRKC",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "NEC",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "POWER",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "82 00 00 00",
+          "command": "6B 00 00 00"
+        },
+        {
+          "name": "MODE",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "82 00 00 00",
+          "command": "66 00 00 00"
+        },
+        {
+          "name": "TEMP+",
+          "canonical": "TemperatureUp",
+          "type": "parsed",
+          "address": "82 00 00 00",
+          "command": "65 00 00 00"
+        },
+        {
+          "name": "TEMP-",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "82 00 00 00",
+          "command": "68 00 00 00"
+        },
+        {
+          "name": "FAN+",
+          "canonical": "FanSpeedUp",
+          "type": "parsed",
+          "address": "82 00 00 00",
+          "command": "6C 00 00 00"
+        },
+        {
+          "name": "FAN-",
+          "canonical": "Custom3",
+          "type": "parsed",
+          "address": "82 00 00 00",
+          "command": "6A 00 00 00"
+        },
+        {
+          "name": "TIMER",
+          "canonical": "Timer",
+          "type": "parsed",
+          "address": "82 00 00 00",
+          "command": "69 00 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "ACs/DeLonghi/Pinguino_PAC_EL275HGRKC.ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}

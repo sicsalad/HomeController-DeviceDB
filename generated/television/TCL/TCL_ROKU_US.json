@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Television",
+  "manufacturer": "TCL",
+  "model": "ROKU US",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "NECext",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "Power_tcl",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "EA C7 00 00",
+          "command": "17 E8 00 00"
+        },
+        {
+          "name": "Back_tcl",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "EA C7 00 00",
+          "command": "66 99 00 00"
+        },
+        {
+          "name": "Home_tcl",
+          "canonical": "Custom3",
+          "type": "parsed",
+          "address": "EA C7 00 00",
+          "command": "03 FC 00 00"
+        },
+        {
+          "name": "Left_tcl",
+          "canonical": "Custom4",
+          "type": "parsed",
+          "address": "EA C7 00 00",
+          "command": "1E E1 00 00"
+        },
+        {
+          "name": "Up_tcl",
+          "canonical": "Custom5",
+          "type": "parsed",
+          "address": "EA C7 00 00",
+          "command": "19 E6 00 00"
+        },
+        {
+          "name": "Right_tcl",
+          "canonical": "Custom6",
+          "type": "parsed",
+          "address": "EA C7 00 00",
+          "command": "2D D2 00 00"
+        },
+        {
+          "name": "Down_tcl",
+          "canonical": "Custom7",
+          "type": "parsed",
+          "address": "EA C7 00 00",
+          "command": "33 CC 00 00"
+        },
+        {
+          "name": "Select_tcl",
+          "canonical": "Custom8",
+          "type": "parsed",
+          "address": "EA C7 00 00",
+          "command": "2A D5 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "TVs/TCL/TCL_ROKU_US.ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}

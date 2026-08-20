@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Air Conditioner",
+  "manufacturer": "DeLonghi",
+  "model": "portable Pinguino-Air-to-Air-PAC-N81 ac",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "NECext",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "POWER",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "48 12 00 00",
+          "command": "88 08 00 00"
+        },
+        {
+          "name": "TEMP+",
+          "canonical": "TemperatureUp",
+          "type": "parsed",
+          "address": "48 12 00 00",
+          "command": "88 09 00 00"
+        },
+        {
+          "name": "TEMP-",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "48 12 00 00",
+          "command": "88 08 00 00"
+        },
+        {
+          "name": "Fan_speed",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "48 14 00 00",
+          "command": "88 08 00 00"
+        },
+        {
+          "name": "Mode",
+          "canonical": "Custom3",
+          "type": "parsed",
+          "address": "48 44 00 00",
+          "command": "88 08 00 00"
+        },
+        {
+          "name": "Timer",
+          "canonical": "Timer",
+          "type": "parsed",
+          "address": "48 44 00 00",
+          "command": "C8 08 00 00"
+        },
+        {
+          "name": "Celsius_farenhait",
+          "canonical": "Custom4",
+          "type": "parsed",
+          "address": "48 12 00 00",
+          "command": "A8 4B 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "ACs/DeLonghi/Delonghi_portable_Pinguino-Air-to-Air-PAC-N81_ac.ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}

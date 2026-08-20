@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Television",
+  "manufacturer": "LG",
+  "model": "Hotel tv",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "NEC",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "Power",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "08 00 00 00"
+        },
+        {
+          "name": "Mute",
+          "canonical": "Mute",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "09 00 00 00"
+        },
+        {
+          "name": "Ok",
+          "canonical": "Ok",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "44 00 00 00"
+        },
+        {
+          "name": "Exit",
+          "canonical": "Exit",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "5B 00 00 00"
+        },
+        {
+          "name": "1",
+          "canonical": "Digit1",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "11 00 00 00"
+        },
+        {
+          "name": "2",
+          "canonical": "Digit2",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "12 00 00 00"
+        },
+        {
+          "name": "3",
+          "canonical": "Digit3",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "13 00 00 00"
+        },
+        {
+          "name": "4",
+          "canonical": "Digit4",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "14 00 00 00"
+        },
+        {
+          "name": "5",
+          "canonical": "Digit5",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "15 00 00 00"
+        },
+        {
+          "name": "6",
+          "canonical": "Digit6",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "16 00 00 00"
+        },
+        {
+          "name": "7",
+          "canonical": "Digit7",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "17 00 00 00"
+        },
+        {
+          "name": "8",
+          "canonical": "Digit8",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "18 00 00 00"
+        },
+        {
+          "name": "9",
+          "canonical": "Digit9",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "19 00 00 00"
+        },
+        {
+          "name": "0",
+          "canonical": "Digit0",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "10 00 00 00"
+        },
+        {
+          "name": "Back",
+          "canonical": "Back",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "28 00 00 00"
+        },
+        {
+          "name": "Txt",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "20 00 00 00"
+        },
+        {
+          "name": "Red",
+          "canonical": "Red",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "40 00 00 00"
+        },
+        {
+          "name": "Yelow",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "07 00 00 00"
+        },
+        {
+          "name": "Green",
+          "canonical": "Green",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "41 00 00 00"
+        },
+        {
+          "name": "Blue",
+          "canonical": "Blue",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "06 00 00 00"
+        },
+        {
+          "name": "Vol_up",
+          "canonical": "VolumeUp",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "02 00 00 00"
+        },
+        {
+          "name": "Vol_dn",
+          "canonical": "VolumeDown",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "03 00 00 00"
+        },
+        {
+          "name": "Ch_next",
+          "canonical": "ChannelUp",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "00 00 00 00"
+        },
+        {
+          "name": "Ch_prev",
+          "canonical": "ChannelDown",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "01 00 00 00"
+        },
+        {
+          "name": "I",
+          "canonical": "Custom3",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "AA 00 00 00"
+        },
+        {
+          "name": "Av",
+          "canonical": "Custom5",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "0B 00 00 00"
+        }
+      ]
+    },
+    {
+      "transport": "infrared",
+      "protocol": "",
+      "kind": "commands",
+      "frequencyHz": 38000,
+      "commands": [
+        {
+          "name": "Tv",
+          "canonical": "Custom4",
+          "type": "raw",
+          "frequencyHz": 38000,
+          "data": [
+            174,
+            119830,
+            169
+          ]
+        },
+        {
+          "name": "Dtt",
+          "canonical": "Custom6",
+          "type": "raw",
+          "frequencyHz": 38000,
+          "data": [
+            174,
+            39827,
+            177,
+            19824,
+            178,
+            19823,
+            168,
+            19830,
+            172,
+            39829,
+            175
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "TVs/LG/LG_Hotel_tv.ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}

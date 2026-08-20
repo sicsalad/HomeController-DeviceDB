@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Television",
+  "manufacturer": "TCL",
+  "model": "43S446",
+  "verification": "community-capture",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "RCA",
+      "kind": "commands",
+      "frequencyHz": 0,
+      "commands": [
+        {
+          "name": "Power",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "54 00 00 00"
+        },
+        {
+          "name": "Vol_up",
+          "canonical": "VolumeUp",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "F4 00 00 00"
+        },
+        {
+          "name": "Vol_dn",
+          "canonical": "VolumeDown",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "74 00 00 00"
+        },
+        {
+          "name": "Mute",
+          "canonical": "Mute",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "FC 00 00 00"
+        },
+        {
+          "name": "Settings",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "F3 00 00 00"
+        },
+        {
+          "name": "Home",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "10 00 00 00"
+        },
+        {
+          "name": "Up",
+          "canonical": "Up",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "9A 00 00 00"
+        },
+        {
+          "name": "Down",
+          "canonical": "Down",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "1A 00 00 00"
+        },
+        {
+          "name": "Left",
+          "canonical": "Left",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "6A 00 00 00"
+        },
+        {
+          "name": "Right",
+          "canonical": "Right",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "EA 00 00 00"
+        },
+        {
+          "name": "Select",
+          "canonical": "Ok",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "2F 00 00 00"
+        },
+        {
+          "name": "Back",
+          "canonical": "Back",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "E4 00 00 00"
+        },
+        {
+          "name": "Mystery",
+          "canonical": "Custom3",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "37 00 00 00"
+        },
+        {
+          "name": "Bookmark",
+          "canonical": "Custom4",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "86 00 00 00"
+        },
+        {
+          "name": "Tv",
+          "canonical": "Custom5",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "58 00 00 00"
+        },
+        {
+          "name": "Tv services",
+          "canonical": "Custom6",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "FE 00 00 00"
+        },
+        {
+          "name": "Recents",
+          "canonical": "Custom7",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "3E 00 00 00"
+        },
+        {
+          "name": "Keyboard",
+          "canonical": "Custom8",
+          "type": "parsed",
+          "address": "0F 00 00 00",
+          "command": "B3 00 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "Flipper-IRDB",
+      "path": "TVs/TCL/TCL_43S446.ir",
+      "license": "CC0-1.0"
+    }
+  ]
+}
