@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Television",
+  "manufacturer": "Hitachi",
+  "model": "32HB4T62",
+  "remoteModel": "49141",
+  "verification": "source-tested",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "RC5",
+      "kind": "commands",
+      "frequencyHz": 36000,
+      "commands": [
+        {"name":"Power","canonical":"Power","address":"03","command":"0C"},
+        {"name":"Vol_up","canonical":"VolumeUp","address":"03","command":"10"},
+        {"name":"Vol_down","canonical":"VolumeDown","address":"03","command":"11"},
+        {"name":"Ch_up","canonical":"ChannelUp","address":"03","command":"20"},
+        {"name":"Ch_down","canonical":"ChannelDown","address":"03","command":"21"},
+        {"name":"Mute","canonical":"Mute","address":"03","command":"0D"},
+        {"name":"Source","canonical":"Source","address":"03","command":"38"},
+        {"name":"Last_ch","canonical":"PreviousChannel","address":"03","command":"22"},
+        {"name":"Menu","canonical":"Menu","address":"03","command":"30"},
+        {"name":"Back","canonical":"Back","address":"03","command":"0A"},
+        {"name":"Exit","canonical":"Exit","address":"03","command":"25"},
+        {"name":"Up","canonical":"Up","address":"03","command":"14"},
+        {"name":"Down","canonical":"Down","address":"03","command":"13"},
+        {"name":"Right","canonical":"Right","address":"03","command":"16"},
+        {"name":"Left","canonical":"Left","address":"03","command":"15"},
+        {"name":"Info","canonical":"Info","address":"03","command":"12"},
+        {"name":"Guide","canonical":"Guide","address":"03","command":"2F"},
+        {"name":"Red","canonical":"Red","address":"03","command":"37"},
+        {"name":"Green","canonical":"Green","address":"03","command":"36"},
+        {"name":"Yellow","canonical":"Yellow","address":"03","command":"32"},
+        {"name":"Blue","canonical":"Blue","address":"03","command":"34"},
+        {"name":"Subtitles","canonical":"Subtitle","address":"03","command":"1F"},
+        {"name":"Pause","canonical":"Pause","address":"03","command":"31"},
+        {"name":"Play","canonical":"Play","address":"03","command":"19"},
+        {"name":"Stop","canonical":"Stop","address":"03","command":"18"},
+        {"name":"Record","canonical":"Record","address":"03","command":"33"},
+        {"name":"Fast_fw","canonical":"FastForward","address":"03","command":"1C"},
+        {"name":"Fast_back","canonical":"Rewind","address":"03","command":"1B"},
+        {"name":"1","canonical":"Digit1","address":"03","command":"01"},
+        {"name":"2","canonical":"Digit2","address":"03","command":"02"},
+        {"name":"3","canonical":"Digit3","address":"03","command":"03"},
+        {"name":"4","canonical":"Digit4","address":"03","command":"04"},
+        {"name":"5","canonical":"Digit5","address":"03","command":"05"},
+        {"name":"6","canonical":"Digit6","address":"03","command":"06"},
+        {"name":"7","canonical":"Digit7","address":"03","command":"07"},
+        {"name":"8","canonical":"Digit8","address":"03","command":"08"},
+        {"name":"9","canonical":"Digit9","address":"03","command":"09"},
+        {"name":"0","canonical":"Digit0","address":"03","command":"00"}
+      ]
+    }
+  ],
+  "sources": [
+    {"type":"Flipper-IRDB","path":"TVs/Hitachi/Hitachi_49141.ir","note":"File states it was tested on Hitachi Smart TV 32HB4T62."}
+  ]
+}
