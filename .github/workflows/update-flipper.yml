@@ -1,0 +1,49 @@
+name: Update Flipper imports
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 3 * * 1'
+  push:
+    branches: [ main ]
+    paths:
+      - 'tools/import_flipper.py'
+      - 'tools/fix_generated_protocols.py'
+      - 'curated-database.json'
+      - '.github/workflows/update-flipper.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  build-device-db:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout DeviceDB
+        uses: actions/checkout@v4
+        with:
+          path: db
+
+      - name: Checkout Flipper-IRDB
+        uses: actions/checkout@v4
+        with:
+          repository: Lucaslhm/Flipper-IRDB
+          path: flipper
+
+      - name: Generate compatible TV and AC entries
+        run: |
+          python3 db/tools/import_flipper.py --source flipper --output db
+          python3 db/tools/fix_generated_protocols.py
+
+      - name: Commit generated database
+        working-directory: db
+        run: |
+          git config user.name 'HomeController DeviceDB Bot'
+          git config user.email 'device-db-bot@users.noreply.github.com'
+          git add database.json generated
+          if git diff --cached --quiet; then
+            echo 'No DeviceDB changes.'
+          else
+            git commit -m 'Update generated Flipper TV and AC entries'
+            git push
+          fi
