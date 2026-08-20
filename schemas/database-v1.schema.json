@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/sicsalad/HomeController-DeviceDB/schemas/database-v1.schema.json",
+  "title": "HomeController DeviceDB index v1",
+  "type": "object",
+  "required": ["schemaVersion", "deviceTypes"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "name": { "type": "string" },
+    "generatedFrom": { "type": "string" },
+    "deviceTypes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "manufacturers"],
+        "properties": {
+          "name": { "type": "string" },
+          "manufacturers": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["name", "models"],
+              "properties": {
+                "name": { "type": "string" },
+                "models": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": ["name", "path"],
+                    "properties": {
+                      "name": { "type": "string" },
+                      "path": { "type": "string" },
+                      "remoteModel": { "type": ["string", "null"] },
+                      "protocol": { "type": ["string", "null"] },
+                      "controlModel": { "type": ["string", "null"] }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
