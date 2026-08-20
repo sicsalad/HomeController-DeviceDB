@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Air Conditioner",
+  "manufacturer": "Whirlpool",
+  "model": "DG11J1-3A",
+  "remoteModel": "DG11J1-3A",
+  "verification": "hardware-verified-in-HomeController",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "WhirlpoolAc",
+      "variant": "DG11J1-3A",
+      "kind": "stateful-climate",
+      "frequencyHz": 38000,
+      "capabilities": [
+        "Power","PowerOn","PowerOff","TemperatureUp","TemperatureDown",
+        "ModeAuto","ModeCool","ModeHeat","ModeDry","ModeFan",
+        "FanSpeedAuto","FanSpeedUp","FanSpeedDown","Swing","Sleep","Turbo","Powerful","Light"
+      ]
+    }
+  ],
+  "sources": [
+    {"type":"HomeController-local-definition","path":"LocalProtocols/Whirlpool_DG11J1-3A_unified.json"},
+    {"type":"IRremoteESP8266","path":"src/ir_Whirlpool.h"},
+    {"type":"IRremoteESP8266","path":"src/ir_Whirlpool.cpp"}
+  ]
+}
