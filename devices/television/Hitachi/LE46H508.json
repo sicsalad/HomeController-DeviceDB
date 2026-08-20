@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Television",
+  "manufacturer": "Hitachi",
+  "model": "LE46H508",
+  "verification": "source-model-labelled",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "NEC",
+      "kind": "commands",
+      "frequencyHz": 38000,
+      "commands": [
+        {"name":"Power","canonical":"Power","address":"50","command":"17"},
+        {"name":"Input","canonical":"Source","address":"50","command":"09"},
+        {"name":"Info","canonical":"Info","address":"50","command":"10"},
+        {"name":"Last_ch","canonical":"PreviousChannel","address":"50","command":"0A"},
+        {"name":"Menu","canonical":"Menu","address":"50","command":"53"},
+        {"name":"Exit","canonical":"Exit","address":"50","command":"64"},
+        {"name":"Up","canonical":"Up","address":"50","command":"70"},
+        {"name":"Down","canonical":"Down","address":"50","command":"71"},
+        {"name":"Left","canonical":"Left","address":"50","command":"73"},
+        {"name":"Right","canonical":"Right","address":"50","command":"72"},
+        {"name":"Select","canonical":"Ok","address":"50","command":"2E"},
+        {"name":"Mute","canonical":"Mute","address":"50","command":"0B"},
+        {"name":"Vol_up","canonical":"VolumeUp","address":"50","command":"12"},
+        {"name":"Vol_dn","canonical":"VolumeDown","address":"50","command":"15"},
+        {"name":"Ch_next","canonical":"ChannelUp","address":"50","command":"19"},
+        {"name":"Ch_prev","canonical":"ChannelDown","address":"50","command":"18"},
+        {"name":"Stop","canonical":"Stop","address":"50","command":"49"},
+        {"name":"Play","canonical":"Play","address":"50","command":"46"},
+        {"name":"Pause","canonical":"Pause","address":"50","command":"61"},
+        {"name":"Rewind","canonical":"Rewind","address":"50","command":"45"},
+        {"name":"FastForward","canonical":"FastForward","address":"50","command":"47"},
+        {"name":"1","canonical":"Digit1","address":"50","command":"0D"},
+        {"name":"2","canonical":"Digit2","address":"50","command":"0E"},
+        {"name":"3","canonical":"Digit3","address":"50","command":"0F"},
+        {"name":"4","canonical":"Digit4","address":"50","command":"1C"},
+        {"name":"5","canonical":"Digit5","address":"50","command":"1D"},
+        {"name":"6","canonical":"Digit6","address":"50","command":"1E"},
+        {"name":"7","canonical":"Digit7","address":"50","command":"1F"},
+        {"name":"8","canonical":"Digit8","address":"50","command":"04"},
+        {"name":"9","canonical":"Digit9","address":"50","command":"05"},
+        {"name":"0","canonical":"Digit0","address":"50","command":"0C"},
+        {"name":"Home","canonical":"Custom1","address":"50","command":"7E"},
+        {"name":"HDMI","canonical":"Custom2","address":"50","command":"3D"},
+        {"name":"USB","canonical":"Custom3","address":"50","command":"F8"}
+      ]
+    }
+  ],
+  "sources": [
+    {"type":"Flipper-IRDB","path":"TVs/Hitachi/Hitachi_LE46H508.ir","note":"Direct model-labelled capture."}
+  ]
+}
