@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "id": "RC5",
+  "transport": "infrared",
+  "controlModel": "stateless-command",
+  "carrierFrequencyHz": 36000,
+  "runtimeEncoder": "RC5",
+  "notes": "Philips RC5 Manchester-coded command protocol."
+}
