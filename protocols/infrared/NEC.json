@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "id": "NEC",
+  "transport": "infrared",
+  "controlModel": "stateless-command",
+  "carrierFrequencyHz": 38000,
+  "runtimeEncoder": "NEC",
+  "notes": "NEC-family pulse-distance command protocol. Device definitions provide address and command values."
+}
