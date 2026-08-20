@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "deviceType": "Air Conditioner",
+  "manufacturer": "Gree",
+  "model": "GWH18ACD-K6DNA1D",
+  "remoteModel": "YAAA1FB",
+  "verification": "hardware-verified-in-HomeController",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "GreeV1",
+      "variant": "YAAA1FB",
+      "kind": "stateful-climate",
+      "frequencyHz": 38000,
+      "capabilities": [
+        "Power","PowerOn","PowerOff","TemperatureUp","TemperatureDown",
+        "ModeAuto","ModeCool","ModeHeat","ModeDry","ModeFan",
+        "FanSpeedAuto","FanSpeedUp","FanSpeedDown","Swing","Sleep","Turbo",
+        "Light","XFanCleaning","IFeel","Wifi","Economy","Timer"
+      ]
+    }
+  ],
+  "sources": [
+    {"type":"HomeController-local-definition","path":"LocalProtocols/Gree_GWH18ACD-K6DNA1D_unified.json"},
+    {"type":"IRremoteESP8266","path":"src/ir_Gree.h"},
+    {"type":"IRremoteESP8266","path":"src/ir_Gree.cpp"}
+  ]
+}
