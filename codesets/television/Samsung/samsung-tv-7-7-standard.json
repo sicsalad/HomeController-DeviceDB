@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 2,
+  "codeSetId": "samsung-tv-7-7-standard",
+  "deviceType": "Television",
+  "manufacturer": "Samsung",
+  "verification": "multi-source-and-hardware",
+  "controlMethods": [{
+    "transport": "infrared", "protocol": "Samsung32", "kind": "commands", "frequencyHz": 38000,
+    "commands": [
+      {"name":"Power","canonical":"Power","address":"07","command":"02"},{"name":"Source","canonical":"Source","address":"07","command":"01"},
+      {"name":"VolumeUp","canonical":"VolumeUp","address":"07","command":"07"},{"name":"VolumeDown","canonical":"VolumeDown","address":"07","command":"0B"},{"name":"Mute","canonical":"Mute","address":"07","command":"0F"},
+      {"name":"ChannelUp","canonical":"ChannelUp","address":"07","command":"12"},{"name":"ChannelDown","canonical":"ChannelDown","address":"07","command":"10"},{"name":"PreviousChannel","canonical":"PreviousChannel","address":"07","command":"13"},
+      {"name":"Menu","canonical":"Menu","address":"07","command":"1A"},{"name":"Tools","canonical":"Tools","address":"07","command":"4B"},{"name":"Info","canonical":"Info","address":"07","command":"1F"},{"name":"Guide","canonical":"Guide","address":"07","command":"4F"},
+      {"name":"Up","canonical":"Up","address":"07","command":"60"},{"name":"Down","canonical":"Down","address":"07","command":"61"},{"name":"Left","canonical":"Left","address":"07","command":"65"},{"name":"Right","canonical":"Right","address":"07","command":"62"},{"name":"Ok","canonical":"Ok","address":"07","command":"68"},{"name":"Back","canonical":"Back","address":"07","command":"58"},{"name":"Exit","canonical":"Exit","address":"07","command":"2D"},
+      {"name":"Red","canonical":"Red","address":"07","command":"6C"},{"name":"Green","canonical":"Green","address":"07","command":"14"},{"name":"Yellow","canonical":"Yellow","address":"07","command":"15"},{"name":"Blue","canonical":"Blue","address":"07","command":"16"},
+      {"name":"Play","canonical":"Play","address":"07","command":"47"},{"name":"Pause","canonical":"Pause","address":"07","command":"4A"},{"name":"Stop","canonical":"Stop","address":"07","command":"46"},{"name":"Rewind","canonical":"Rewind","address":"07","command":"45"},{"name":"FastForward","canonical":"FastForward","address":"07","command":"48"},{"name":"Record","canonical":"Record","address":"07","command":"49"},
+      {"name":"1","canonical":"Digit1","address":"07","command":"04"},{"name":"2","canonical":"Digit2","address":"07","command":"05"},{"name":"3","canonical":"Digit3","address":"07","command":"06"},{"name":"4","canonical":"Digit4","address":"07","command":"08"},{"name":"5","canonical":"Digit5","address":"07","command":"09"},{"name":"6","canonical":"Digit6","address":"07","command":"0A"},{"name":"7","canonical":"Digit7","address":"07","command":"0C"},{"name":"8","canonical":"Digit8","address":"07","command":"0D"},{"name":"9","canonical":"Digit9","address":"07","command":"0E"},{"name":"0","canonical":"Digit0","address":"07","command":"11"}
+    ]
+  }],
+  "sources": ["HomeController hardware verification: UE48H6700 / BN59-01175N", "Flipper-IRDB Samsung UE32F4000AW and BN59-01175N", "IRDB Samsung 7,7", "IR-Remote-Code AA59-00741A"]
+}
