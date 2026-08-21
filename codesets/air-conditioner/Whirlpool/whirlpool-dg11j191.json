@@ -1,0 +1,6 @@
+{
+  "schemaVersion":2,"codeSetId":"whirlpool-dg11j191","deviceType":"Air Conditioner","manufacturer":"Whirlpool","verification":"upstream-verified",
+  "controlMethods":[{"transport":"infrared","protocol":"WhirlpoolAc","kind":"stateful-climate","variant":"DG11J191","frequencyHz":38000,
+    "capabilities":["Power","TemperatureUp","TemperatureDown","ModeAuto","ModeCool","ModeHeat","ModeDry","ModeFan","FanSpeedAuto","FanSpeedUp","FanSpeedDown","Swing","Sleep","Turbo","Light","Timer"]}],
+  "sources":["IRremoteESP8266 Whirlpool DG11J1-91 family"]
+}
