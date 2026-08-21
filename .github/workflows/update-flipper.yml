@@ -12,6 +12,7 @@ on:
       - 'tools/improve_canonicals.py'
       - 'tools/normalize_manufacturers.py'
       - 'tools/enrich_codeset_catalog.py'
+      - 'tools/generate_top_tv_codesets.py'
       - 'tools/validate_db.py'
       - 'curated-database.json'
       - '.github/workflows/update-flipper.yml'
@@ -76,6 +77,11 @@ jobs:
             code=$?
             if [ "$code" != "0" ]; then exit "$code"; fi
 
+            echo '=== generate_top_tv_codesets.py ==='
+            python3 db/tools/generate_top_tv_codesets.py
+            code=$?
+            if [ "$code" != "0" ]; then exit "$code"; fi
+
             echo '=== validate_db.py ==='
             python3 db/tools/validate_db.py
           } 2>&1 | tee device-db-update.log
@@ -118,7 +124,7 @@ jobs:
         run: |
           git config user.name 'HomeController DeviceDB Bot'
           git config user.email 'device-db-bot@users.noreply.github.com'
-          git add database.json generated catalog-v2.json
+          git add database.json generated catalog-v2.json codesets
           if git diff --cached --quiet; then
             echo 'No DeviceDB or CodeSet catalog changes.'
           else
