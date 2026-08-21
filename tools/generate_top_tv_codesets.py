@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """Generate reusable TV CodeSets for ten high-value TV brands from imported CC0 Flipper captures.
 
-The target list combines the largest current global brands with brands that are common in Europe and
-well represented by evidence-backed IR captures. Only parsed protocols already supported by HomeController
-are promoted. A CodeSet is a distinct full command signature, so models with the exact same IR command map
-share one CodeSet. We keep up to five generated CodeSets per target brand while preserving manually curated
-CodeSets and mappings in catalog-v2.json.
+The target list combines the largest current global brands with brands that are common in Europe/North
+America and well represented by evidence-backed IR captures. Only parsed protocols already supported by
+HomeController are promoted. A CodeSet is a distinct full command signature, so models with the exact same
+IR command map share one CodeSet. We keep up to five generated CodeSets per target brand while preserving
+manually curated CodeSets and mappings in catalog-v2.json.
 """
 from __future__ import annotations
 
@@ -20,12 +20,11 @@ CATALOG = ROOT / "catalog-v2.json"
 GENERATED_TV = ROOT / "generated" / "television"
 CODESET_ROOT = ROOT / "codesets" / "television"
 
-# Broad-coverage priority set for HomeController: global leaders plus major European legacy/current brands.
-# This intentionally favors brands for which we can publish multiple evidence-backed CodeSets today rather
-# than padding the database with synthetic entries for brands that currently have too little open IR data.
+# Broad-coverage priority set for HomeController. This favors brands for which we can publish several
+# evidence-backed CodeSets today instead of inventing synthetic entries where open IR data is too thin.
 TOP_BRANDS = [
     "Samsung", "LG", "TCL", "Hisense", "Sony",
-    "Philips", "Panasonic", "Toshiba", "Grundig", "Vizio",
+    "Philips", "Panasonic", "Toshiba", "RCA", "Vizio",
 ]
 
 SUPPORTED_PROTOCOLS = {
@@ -259,8 +258,6 @@ def main() -> int:
             insufficient.append((brand, total))
             print(f"WARNING: {brand} has fewer than 5 evidence-backed CodeSets; no synthetic CodeSets were invented.")
 
-    # Do not fail the full database update because open-source coverage can change upstream. The warning
-    # remains visible in CI and the UI will simply show the evidence-backed sets that actually exist.
     if insufficient:
         print("Coverage warning: " + ", ".join(f"{brand}={count}" for brand, count in insufficient))
     return 0
