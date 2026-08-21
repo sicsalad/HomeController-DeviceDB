@@ -6,58 +6,304 @@
       "deviceType": "Television",
       "name": "Samsung",
       "deviceModels": [
-        {"name":"UE32F4000AW","codeSetId":"samsung-tv-7-7-standard","confidence":"source-tested"},
-        {"name":"UE48H6700","codeSetId":"samsung-tv-7-7-standard","remoteModel":"BN59-01175N","confidence":"hardware-verified"}
+        {
+          "name": "AA-00721A",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "auto-signature-match"
+        },
+        {
+          "name": "BN59-01198 R",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "auto-signature-match"
+        },
+        {
+          "name": "H6300 TV",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "auto-signature-match"
+        },
+        {
+          "name": "LN32D403E2GCTC",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "auto-signature-match"
+        },
+        {
+          "name": "LN46C650L1F",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "auto-signature-match"
+        },
+        {
+          "name": "P2770HD",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "auto-signature-match"
+        },
+        {
+          "name": "UE26C4000PW",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "auto-signature-match"
+        },
+        {
+          "name": "UE32F4000",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "auto-signature-match"
+        },
+        {
+          "name": "UE32F4000AW",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "source-tested"
+        },
+        {
+          "name": "UE48H6700",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "remoteModel": "BN59-01175N",
+          "confidence": "hardware-verified"
+        },
+        {
+          "name": "UE48JU6490U",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "auto-signature-match"
+        },
+        {
+          "name": "UN32EH5000F",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "auto-signature-match"
+        },
+        {
+          "name": "UN40C5000QFXZA",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "auto-signature-match"
+        },
+        {
+          "name": "UN60JU6500",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "auto-signature-match"
+        },
+        {
+          "name": "Unknown Model",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "auto-signature-match"
+        }
       ],
       "remoteModels": [
-        {"name":"BN59-01175N","codeSetId":"samsung-tv-7-7-standard","confidence":"hardware-verified"},
-        {"name":"AA59-00741A","codeSetId":"samsung-tv-7-7-standard","confidence":"source-verified"},
-        {"name":"AA59-00685A","codeSetId":"samsung-tv-7-7-standard","confidence":"source-verified"}
+        {
+          "name": "AA59-00443A",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "auto-signature-match"
+        },
+        {
+          "name": "AA59-00484A",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "auto-signature-match"
+        },
+        {
+          "name": "AA59-00580A",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "auto-signature-match"
+        },
+        {
+          "name": "AA59-00685A",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "source-verified"
+        },
+        {
+          "name": "AA59-00741A",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "source-verified"
+        },
+        {
+          "name": "AA59-00786A",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "auto-signature-match"
+        },
+        {
+          "name": "BN59-01081A",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "auto-signature-match"
+        },
+        {
+          "name": "BN59-01175N",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "hardware-verified"
+        },
+        {
+          "name": "BN59-01180A",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "auto-signature-match"
+        },
+        {
+          "name": "BN59-01247A",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "auto-signature-match"
+        },
+        {
+          "name": "BN59-01301A",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "auto-signature-match"
+        },
+        {
+          "name": "BN59-01303A",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "auto-signature-match"
+        }
       ],
       "codeSets": [
-        {"id":"samsung-tv-7-7-standard","name":"Samsung TV 7,7 standard","path":"codesets/television/Samsung/samsung-tv-7-7-standard.json","testCommand":"Power"}
+        {
+          "id": "samsung-tv-7-7-standard",
+          "name": "Samsung TV 7,7 standard",
+          "path": "codesets/television/Samsung/samsung-tv-7-7-standard.json",
+          "testCommand": "Power"
+        }
       ]
     },
     {
       "deviceType": "Television",
       "name": "Hitachi",
       "deviceModels": [
-        {"name":"32HB4T62","codeSetId":"hitachi-tv-rc5-03","remoteModel":"49141","confidence":"source-tested"},
-        {"name":"LE46H508","codeSetId":"hitachi-tv-nec-50","confidence":"source-model-labelled"}
+        {
+          "name": "32HB4T62",
+          "codeSetId": "hitachi-tv-rc5-03",
+          "remoteModel": "49141",
+          "confidence": "source-tested"
+        },
+        {
+          "name": "LE46H508",
+          "codeSetId": "hitachi-tv-nec-50",
+          "confidence": "source-model-labelled"
+        },
+        {
+          "name": "RC43140",
+          "codeSetId": "hitachi-tv-rc5-03",
+          "confidence": "auto-signature-match"
+        },
+        {
+          "name": "SmartTV 43140",
+          "codeSetId": "hitachi-tv-rc5-03",
+          "confidence": "auto-signature-match"
+        }
       ],
       "remoteModels": [
-        {"name":"49141","codeSetId":"hitachi-tv-rc5-03","confidence":"source-tested"}
+        {
+          "name": "43140",
+          "codeSetId": "hitachi-tv-rc5-03",
+          "confidence": "auto-signature-match"
+        },
+        {
+          "name": "49141",
+          "codeSetId": "hitachi-tv-rc5-03",
+          "confidence": "source-tested"
+        }
       ],
       "codeSets": [
-        {"id":"hitachi-tv-rc5-03","name":"Hitachi TV RC5 address 03","path":"codesets/television/Hitachi/hitachi-tv-rc5-03.json","testCommand":"Power"},
-        {"id":"hitachi-tv-nec-50","name":"Hitachi TV NEC address 50","path":"codesets/television/Hitachi/hitachi-tv-nec-50.json","testCommand":"Power"}
+        {
+          "id": "hitachi-tv-rc5-03",
+          "name": "Hitachi TV RC5 address 03",
+          "path": "codesets/television/Hitachi/hitachi-tv-rc5-03.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "hitachi-tv-nec-50",
+          "name": "Hitachi TV NEC address 50",
+          "path": "codesets/television/Hitachi/hitachi-tv-nec-50.json",
+          "testCommand": "Power"
+        }
       ]
     },
     {
       "deviceType": "Air Conditioner",
       "name": "Gree",
       "deviceModels": [
-        {"name":"GWH18ACD-K6DNA1D","codeSetId":"gree-yaw1f","remoteModel":"YAAA1FB","confidence":"hardware-verified"},
-        {"name":"VIR09HP115V1AH","codeSetId":"gree-yaw1f","confidence":"upstream-supported"},
-        {"name":"VIR12HP230V1AH","codeSetId":"gree-yaw1f","confidence":"upstream-supported"}
+        {
+          "name": "GWH18ACD-K6DNA1D",
+          "codeSetId": "gree-yaw1f",
+          "remoteModel": "YAAA1FB",
+          "confidence": "hardware-verified"
+        },
+        {
+          "name": "VIR09HP115V1AH",
+          "codeSetId": "gree-yaw1f",
+          "confidence": "upstream-supported"
+        },
+        {
+          "name": "VIR12HP230V1AH",
+          "codeSetId": "gree-yaw1f",
+          "confidence": "upstream-supported"
+        }
       ],
       "remoteModels": [
-        {"name":"YAW1F","codeSetId":"gree-yaw1f","confidence":"upstream-verified"},
-        {"name":"YAA1FBF","codeSetId":"gree-yaw1f","confidence":"upstream-supported"},
-        {"name":"YAAA1FB","codeSetId":"gree-yaw1f","confidence":"hardware-verified"},
-        {"name":"YAN1F1","codeSetId":"gree-yaw1f","confidence":"upstream-supported"},
-        {"name":"YBOFB","codeSetId":"gree-ybofb","confidence":"upstream-verified"},
-        {"name":"YBOFB2","codeSetId":"gree-ybofb","confidence":"upstream-supported"},
-        {"name":"YAPOF3","codeSetId":"gree-ybofb","confidence":"upstream-supported"},
-        {"name":"YB1F2F","codeSetId":"gree-ybofb","confidence":"upstream-supported"},
-        {"name":"YX1FSF","codeSetId":"gree-yx1fsf","confidence":"upstream-verified"},
-        {"name":"YX1F2F","codeSetId":"gree-yx1fsf","confidence":"upstream-supported"},
-        {"name":"YX1FF","codeSetId":"gree-yx1fsf","confidence":"upstream-supported"}
+        {
+          "name": "YAW1F",
+          "codeSetId": "gree-yaw1f",
+          "confidence": "upstream-verified"
+        },
+        {
+          "name": "YAA1FBF",
+          "codeSetId": "gree-yaw1f",
+          "confidence": "upstream-supported"
+        },
+        {
+          "name": "YAAA1FB",
+          "codeSetId": "gree-yaw1f",
+          "confidence": "hardware-verified"
+        },
+        {
+          "name": "YAN1F1",
+          "codeSetId": "gree-yaw1f",
+          "confidence": "upstream-supported"
+        },
+        {
+          "name": "YBOFB",
+          "codeSetId": "gree-ybofb",
+          "confidence": "upstream-verified"
+        },
+        {
+          "name": "YBOFB2",
+          "codeSetId": "gree-ybofb",
+          "confidence": "upstream-supported"
+        },
+        {
+          "name": "YAPOF3",
+          "codeSetId": "gree-ybofb",
+          "confidence": "upstream-supported"
+        },
+        {
+          "name": "YB1F2F",
+          "codeSetId": "gree-ybofb",
+          "confidence": "upstream-supported"
+        },
+        {
+          "name": "YX1FSF",
+          "codeSetId": "gree-yx1fsf",
+          "confidence": "upstream-verified"
+        },
+        {
+          "name": "YX1F2F",
+          "codeSetId": "gree-yx1fsf",
+          "confidence": "upstream-supported"
+        },
+        {
+          "name": "YX1FF",
+          "codeSetId": "gree-yx1fsf",
+          "confidence": "upstream-supported"
+        }
       ],
       "codeSets": [
-        {"id":"gree-yaw1f","name":"Gree YAW1F family","path":"codesets/air-conditioner/Gree/gree-yaw1f.json","testCommand":"Power"},
-        {"id":"gree-ybofb","name":"Gree YBOFB family","path":"codesets/air-conditioner/Gree/gree-ybofb.json","testCommand":"Power"},
-        {"id":"gree-yx1fsf","name":"Gree YX1FSF / Energy Saver family","path":"codesets/air-conditioner/Gree/gree-yx1fsf.json","testCommand":"Power"}
+        {
+          "id": "gree-yaw1f",
+          "name": "Gree YAW1F family",
+          "path": "codesets/air-conditioner/Gree/gree-yaw1f.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "gree-ybofb",
+          "name": "Gree YBOFB family",
+          "path": "codesets/air-conditioner/Gree/gree-ybofb.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "gree-yx1fsf",
+          "name": "Gree YX1FSF / Energy Saver family",
+          "path": "codesets/air-conditioner/Gree/gree-yx1fsf.json",
+          "testCommand": "Power"
+        }
       ]
     },
     {
@@ -65,12 +311,32 @@
       "name": "Whirlpool",
       "deviceModels": [],
       "remoteModels": [
-        {"name":"DG11J1-3A","codeSetId":"whirlpool-dg11j13a","confidence":"hardware-verified"},
-        {"name":"DG11J1-04","codeSetId":"whirlpool-dg11j13a","confidence":"upstream-verified"}
+        {
+          "name": "DG11J1-3A",
+          "codeSetId": "whirlpool-dg11j13a",
+          "confidence": "hardware-verified"
+        },
+        {
+          "name": "DG11J1-04",
+          "codeSetId": "whirlpool-dg11j13a",
+          "confidence": "upstream-verified"
+        }
       ],
-      "knownDeviceFamilies": ["SPIS409L","SPIS412L","SPIW409L","SPIW412L","SPIW418L","DG11J1-91 (known upstream variant; encoder integration pending)"],
+      "knownDeviceFamilies": [
+        "SPIS409L",
+        "SPIS412L",
+        "SPIW409L",
+        "SPIW412L",
+        "SPIW418L",
+        "DG11J1-91 (known upstream variant; encoder integration pending)"
+      ],
       "codeSets": [
-        {"id":"whirlpool-dg11j13a","name":"Whirlpool DG11J1-3A / DG11J1-04","path":"codesets/air-conditioner/Whirlpool/whirlpool-dg11j13a.json","testCommand":"Power"}
+        {
+          "id": "whirlpool-dg11j13a",
+          "name": "Whirlpool DG11J1-3A / DG11J1-04",
+          "path": "codesets/air-conditioner/Whirlpool/whirlpool-dg11j13a.json",
+          "testCommand": "Power"
+        }
       ]
     }
   ]
