@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 2,
+  "codeSetId": "auto-tv-rca-5c4e79cf89",
+  "deviceType": "Television",
+  "manufacturer": "RCA",
+  "verification": "community-capture-derived",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "NECext",
+      "kind": "commands",
+      "frequencyHz": 38000,
+      "commands": [
+        {
+          "name": "Power",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "EA C7 00 00",
+          "command": "17 E8 00 00"
+        },
+        {
+          "name": "Home",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "EA C7 00 00",
+          "command": "03 FC 00 00"
+        },
+        {
+          "name": "Back",
+          "canonical": "Back",
+          "type": "parsed",
+          "address": "EA C7 00 00",
+          "command": "66 99 00 00"
+        },
+        {
+          "name": "Ok",
+          "canonical": "Ok",
+          "type": "parsed",
+          "address": "EA C7 00 00",
+          "command": "2A D5 00 00"
+        },
+        {
+          "name": "Up",
+          "canonical": "Up",
+          "type": "parsed",
+          "address": "EA C7 00 00",
+          "command": "19 E6 00 00"
+        },
+        {
+          "name": "Down",
+          "canonical": "Down",
+          "type": "parsed",
+          "address": "EA C7 00 00",
+          "command": "33 CC 00 00"
+        },
+        {
+          "name": "Left",
+          "canonical": "Left",
+          "type": "parsed",
+          "address": "EA C7 00 00",
+          "command": "1E E1 00 00"
+        },
+        {
+          "name": "Right",
+          "canonical": "Right",
+          "type": "parsed",
+          "address": "EA C7 00 00",
+          "command": "2D D2 00 00"
+        },
+        {
+          "name": "Play",
+          "canonical": "Play",
+          "type": "parsed",
+          "address": "EA C7 00 00",
+          "command": "4C B3 00 00"
+        },
+        {
+          "name": "Rewind",
+          "canonical": "Rewind",
+          "type": "parsed",
+          "address": "EA C7 00 00",
+          "command": "34 CB 00 00"
+        },
+        {
+          "name": "Forward",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "EA C7 00 00",
+          "command": "55 AA 00 00"
+        },
+        {
+          "name": "Options",
+          "canonical": "Custom3",
+          "type": "parsed",
+          "address": "EA C7 00 00",
+          "command": "61 9E 00 00"
+        },
+        {
+          "name": "Sleep",
+          "canonical": "Sleep",
+          "type": "parsed",
+          "address": "EA C7 00 00",
+          "command": "62 9D 00 00"
+        },
+        {
+          "name": "Netflix",
+          "canonical": "Custom4",
+          "type": "parsed",
+          "address": "EA C7 00 00",
+          "command": "52 AD 00 00"
+        },
+        {
+          "name": "Disney",
+          "canonical": "Custom5",
+          "type": "parsed",
+          "address": "EA C7 00 00",
+          "command": "0C F3 00 00"
+        },
+        {
+          "name": "Appletv",
+          "canonical": "Custom6",
+          "type": "parsed",
+          "address": "EA C7 00 00",
+          "command": "77 88 00 00"
+        },
+        {
+          "name": "Crave",
+          "canonical": "Custom7",
+          "type": "parsed",
+          "address": "EA C7 00 00",
+          "command": "79 86 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "HomeController-DeviceDB generated capture",
+      "path": "generated/television/RCA/RCA_24_Roku.json",
+      "license": "CC0-1.0 inherited from Flipper-IRDB import"
+    }
+  ],
+  "compatibleModels": [
+    "24 Roku"
+  ]
+}

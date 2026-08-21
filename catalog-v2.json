@@ -460,6 +460,70 @@
     },
     {
       "deviceType": "Television",
+      "name": "RCA",
+      "deviceModels": [
+        {
+          "name": "24 Roku",
+          "codeSetId": "auto-tv-rca-5c4e79cf89",
+          "confidence": "community-signature-group"
+        },
+        {
+          "name": "CRK50A",
+          "codeSetId": "auto-tv-rca-03401a4d6c",
+          "confidence": "community-signature-group"
+        },
+        {
+          "name": "RCR314WR  RCA313BR",
+          "codeSetId": "auto-tv-rca-7df944a430",
+          "confidence": "community-signature-group"
+        },
+        {
+          "name": "RLDED3258A-B",
+          "codeSetId": "auto-tv-rca-4eff80a99b",
+          "confidence": "community-signature-group"
+        },
+        {
+          "name": "RT2471 AC",
+          "codeSetId": "auto-tv-rca-0c2d22ec87",
+          "confidence": "community-signature-group"
+        }
+      ],
+      "remoteModels": [],
+      "codeSets": [
+        {
+          "id": "auto-tv-rca-0c2d22ec87",
+          "name": "RCA TV NEC 0C2D2",
+          "path": "codesets/television/RCA/auto-tv-rca-0c2d22ec87.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "auto-tv-rca-4eff80a99b",
+          "name": "RCA TV NEC 4EFF8",
+          "path": "codesets/television/RCA/auto-tv-rca-4eff80a99b.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "auto-tv-rca-5c4e79cf89",
+          "name": "RCA TV NECext 5C4E7",
+          "path": "codesets/television/RCA/auto-tv-rca-5c4e79cf89.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "auto-tv-rca-7df944a430",
+          "name": "RCA TV NECext 7DF94",
+          "path": "codesets/television/RCA/auto-tv-rca-7df944a430.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "auto-tv-rca-03401a4d6c",
+          "name": "RCA TV RCA 03401",
+          "path": "codesets/television/RCA/auto-tv-rca-03401a4d6c.json",
+          "testCommand": "Power"
+        }
+      ]
+    },
+    {
+      "deviceType": "Television",
       "name": "Samsung",
       "deviceModels": [
         {

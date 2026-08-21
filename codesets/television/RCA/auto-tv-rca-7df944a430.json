@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 2,
+  "codeSetId": "auto-tv-rca-7df944a430",
+  "deviceType": "Television",
+  "manufacturer": "RCA",
+  "verification": "community-capture-derived",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "NECext",
+      "kind": "commands",
+      "frequencyHz": 38000,
+      "commands": [
+        {
+          "name": "Power",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "86 05 00 00",
+          "command": "0F F0 00 00"
+        },
+        {
+          "name": "Ch_next",
+          "canonical": "ChannelUp",
+          "type": "parsed",
+          "address": "86 05 00 00",
+          "command": "0A F5 00 00"
+        },
+        {
+          "name": "Ch_prev",
+          "canonical": "ChannelDown",
+          "type": "parsed",
+          "address": "86 05 00 00",
+          "command": "0B F4 00 00"
+        },
+        {
+          "name": "Vol_up",
+          "canonical": "VolumeUp",
+          "type": "parsed",
+          "address": "86 05 00 00",
+          "command": "0C F3 00 00"
+        },
+        {
+          "name": "Vol_dn",
+          "canonical": "VolumeDown",
+          "type": "parsed",
+          "address": "86 05 00 00",
+          "command": "0D F2 00 00"
+        },
+        {
+          "name": "1",
+          "canonical": "Digit1",
+          "type": "parsed",
+          "address": "86 05 00 00",
+          "command": "00 FF 00 00"
+        },
+        {
+          "name": "2",
+          "canonical": "Digit2",
+          "type": "parsed",
+          "address": "86 05 00 00",
+          "command": "01 FE 00 00"
+        },
+        {
+          "name": "3",
+          "canonical": "Digit3",
+          "type": "parsed",
+          "address": "86 05 00 00",
+          "command": "02 FD 00 00"
+        },
+        {
+          "name": "4",
+          "canonical": "Digit4",
+          "type": "parsed",
+          "address": "86 05 00 00",
+          "command": "03 FC 00 00"
+        },
+        {
+          "name": "5",
+          "canonical": "Digit5",
+          "type": "parsed",
+          "address": "86 05 00 00",
+          "command": "04 FB 00 00"
+        },
+        {
+          "name": "6",
+          "canonical": "Digit6",
+          "type": "parsed",
+          "address": "86 05 00 00",
+          "command": "05 FA 00 00"
+        },
+        {
+          "name": "7",
+          "canonical": "Digit7",
+          "type": "parsed",
+          "address": "86 05 00 00",
+          "command": "06 F9 00 00"
+        },
+        {
+          "name": "8",
+          "canonical": "Digit8",
+          "type": "parsed",
+          "address": "86 05 00 00",
+          "command": "07 F8 00 00"
+        },
+        {
+          "name": "9",
+          "canonical": "Digit9",
+          "type": "parsed",
+          "address": "86 05 00 00",
+          "command": "08 F7 00 00"
+        },
+        {
+          "name": "0",
+          "canonical": "Digit0",
+          "type": "parsed",
+          "address": "86 05 00 00",
+          "command": "09 F6 00 00"
+        },
+        {
+          "name": "Mute",
+          "canonical": "Mute",
+          "type": "parsed",
+          "address": "86 05 00 00",
+          "command": "0E F1 00 00"
+        },
+        {
+          "name": "Info",
+          "canonical": "Info",
+          "type": "parsed",
+          "address": "86 05 00 00",
+          "command": "17 E8 00 00"
+        },
+        {
+          "name": "Menu",
+          "canonical": "Menu",
+          "type": "parsed",
+          "address": "86 05 00 00",
+          "command": "14 EB 00 00"
+        },
+        {
+          "name": "Guide_home",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "86 05 00 00",
+          "command": "45 BA 00 00"
+        },
+        {
+          "name": "Up",
+          "canonical": "Up",
+          "type": "parsed",
+          "address": "86 05 00 00",
+          "command": "42 BD 00 00"
+        },
+        {
+          "name": "Left",
+          "canonical": "Left",
+          "type": "parsed",
+          "address": "86 05 00 00",
+          "command": "16 E9 00 00"
+        },
+        {
+          "name": "Right",
+          "canonical": "Right",
+          "type": "parsed",
+          "address": "86 05 00 00",
+          "command": "15 EA 00 00"
+        },
+        {
+          "name": "Down",
+          "canonical": "Down",
+          "type": "parsed",
+          "address": "86 05 00 00",
+          "command": "43 BC 00 00"
+        },
+        {
+          "name": "Ok",
+          "canonical": "Ok",
+          "type": "parsed",
+          "address": "86 05 00 00",
+          "command": "18 E7 00 00"
+        },
+        {
+          "name": "Back",
+          "canonical": "Back",
+          "type": "parsed",
+          "address": "86 05 00 00",
+          "command": "10 EF 00 00"
+        },
+        {
+          "name": "Input",
+          "canonical": "Source",
+          "type": "parsed",
+          "address": "86 05 00 00",
+          "command": "1D E2 00 00"
+        },
+        {
+          "name": "Rev",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "86 05 00 00",
+          "command": "7E 81 00 00"
+        },
+        {
+          "name": "Play",
+          "canonical": "Play",
+          "type": "parsed",
+          "address": "86 05 00 00",
+          "command": "70 8F 00 00"
+        },
+        {
+          "name": "Fwd",
+          "canonical": "Custom3",
+          "type": "parsed",
+          "address": "86 05 00 00",
+          "command": "7D 82 00 00"
+        },
+        {
+          "name": "Stop",
+          "canonical": "Stop",
+          "type": "parsed",
+          "address": "86 05 00 00",
+          "command": "71 8E 00 00"
+        },
+        {
+          "name": "Pause",
+          "canonical": "Pause",
+          "type": "parsed",
+          "address": "86 05 00 00",
+          "command": "81 7E 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "HomeController-DeviceDB generated capture",
+      "path": "generated/television/RCA/RCA_RCR314WR__RCA313BR.json",
+      "license": "CC0-1.0 inherited from Flipper-IRDB import"
+    }
+  ],
+  "compatibleModels": [
+    "RCR314WR  RCA313BR"
+  ]
+}
