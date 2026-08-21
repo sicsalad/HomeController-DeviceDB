@@ -65,14 +65,12 @@
       "name": "Whirlpool",
       "deviceModels": [],
       "remoteModels": [
-        {"name":"DG11J1-3A","codeSetId":"whirlpool-dg11j13a","confidence":"upstream-verified"},
-        {"name":"DG11J1-04","codeSetId":"whirlpool-dg11j13a","confidence":"upstream-verified"},
-        {"name":"DG11J1-91","codeSetId":"whirlpool-dg11j191","confidence":"upstream-verified"}
+        {"name":"DG11J1-3A","codeSetId":"whirlpool-dg11j13a","confidence":"hardware-verified"},
+        {"name":"DG11J1-04","codeSetId":"whirlpool-dg11j13a","confidence":"upstream-verified"}
       ],
-      "knownDeviceFamilies": ["SPIS409L","SPIS412L","SPIW409L","SPIW412L","SPIW418L"],
+      "knownDeviceFamilies": ["SPIS409L","SPIS412L","SPIW409L","SPIW412L","SPIW418L","DG11J1-91 (known upstream variant; encoder integration pending)"],
       "codeSets": [
-        {"id":"whirlpool-dg11j13a","name":"Whirlpool DG11J1-3A / DG11J1-04","path":"codesets/air-conditioner/Whirlpool/whirlpool-dg11j13a.json","testCommand":"Power"},
-        {"id":"whirlpool-dg11j191","name":"Whirlpool DG11J1-91","path":"codesets/air-conditioner/Whirlpool/whirlpool-dg11j191.json","testCommand":"Power"}
+        {"id":"whirlpool-dg11j13a","name":"Whirlpool DG11J1-3A / DG11J1-04","path":"codesets/air-conditioner/Whirlpool/whirlpool-dg11j13a.json","testCommand":"Power"}
       ]
     }
   ]
