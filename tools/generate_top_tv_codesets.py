@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-"""Generate reusable TV CodeSets for major global TV brands from imported CC0 Flipper captures.
+"""Generate reusable TV CodeSets for ten high-value TV brands from imported CC0 Flipper captures.
 
-The generator is deliberately conservative about signal transport: only parsed protocols already
-supported by HomeController are promoted. A CodeSet is a distinct full command signature, so models
-with the exact same IR command map share one CodeSet. We keep up to five generated CodeSets per brand,
-while preserving manually curated CodeSets and mappings in catalog-v2.json.
+The target list combines the largest current global brands with brands that are common in Europe and
+well represented by evidence-backed IR captures. Only parsed protocols already supported by HomeController
+are promoted. A CodeSet is a distinct full command signature, so models with the exact same IR command map
+share one CodeSet. We keep up to five generated CodeSets per target brand while preserving manually curated
+CodeSets and mappings in catalog-v2.json.
 """
 from __future__ import annotations
 
@@ -19,10 +20,12 @@ CATALOG = ROOT / "catalog-v2.json"
 GENERATED_TV = ROOT / "generated" / "television"
 CODESET_ROOT = ROOT / "codesets" / "television"
 
-# 2025 global shipment top ten used by HomeController's broad-coverage TV catalog.
+# Broad-coverage priority set for HomeController: global leaders plus major European legacy/current brands.
+# This intentionally favors brands for which we can publish multiple evidence-backed CodeSets today rather
+# than padding the database with synthetic entries for brands that currently have too little open IR data.
 TOP_BRANDS = [
-    "Samsung", "TCL", "Hisense", "LG", "Xiaomi",
-    "Skyworth", "Philips", "Sony", "Sharp", "Vizio",
+    "Samsung", "LG", "TCL", "Hisense", "Sony",
+    "Philips", "Panasonic", "Toshiba", "Grundig", "Vizio",
 ]
 
 SUPPORTED_PROTOCOLS = {
@@ -103,8 +106,6 @@ def extract_method(doc: dict) -> dict | None:
         if not any(c["canonical"].casefold() in {"power", "poweron"} for c in commands):
             continue
 
-        # Keep only one entry per canonical command in the generated CodeSet. When a capture contains
-        # aliases, the first one is the stable representative and the model still maps to this signature.
         unique: dict[str, dict] = {}
         for c in commands:
             unique.setdefault(c["canonical"].casefold(), c)
@@ -165,7 +166,6 @@ def remove_previous_auto(node: dict) -> None:
 
 
 def create_codeset(brand: str, group: list[dict]) -> tuple[dict, str]:
-    # Prefer the richest capture as the CodeSet representative.
     representative = max(group, key=lambda x: len(x["method"]["commands"]))
     sig_hash = hashlib.sha256(representative["signature"].encode("utf-8")).hexdigest()[:10]
     code_set_id = f"{AUTO_PREFIX}{slug(brand)}-{sig_hash}"
@@ -218,8 +218,6 @@ def main() -> int:
         for capture in captures:
             grouped[capture["signature"]].append(capture)
 
-        # Prefer signatures used by multiple models, then richer remotes. Five distinct signatures are
-        # enough to give users a useful manual choice without flooding the UI.
         groups = sorted(
             grouped.values(),
             key=lambda g: (len(g), max(len(x["method"]["commands"]) for x in g)),
@@ -254,10 +252,17 @@ def main() -> int:
     )
     CATALOG.write_text(json.dumps(catalog, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
+    insufficient = []
     for brand, captures, unique, generated, total in report:
         print(f"{brand}: captures={captures}, distinct-signatures={unique}, generated={generated}, total-codesets={total}")
-        if generated < 5 and total < 5:
+        if total < 5:
+            insufficient.append((brand, total))
             print(f"WARNING: {brand} has fewer than 5 evidence-backed CodeSets; no synthetic CodeSets were invented.")
+
+    # Do not fail the full database update because open-source coverage can change upstream. The warning
+    # remains visible in CI and the UI will simply show the evidence-backed sets that actually exist.
+    if insufficient:
+        print("Coverage warning: " + ", ".join(f"{brand}={count}" for brand, count in insufficient))
     return 0
 
 
