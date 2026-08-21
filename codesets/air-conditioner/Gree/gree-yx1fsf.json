@@ -1,0 +1,6 @@
+{
+  "schemaVersion":2,"codeSetId":"gree-yx1fsf","deviceType":"Air Conditioner","manufacturer":"Gree","verification":"upstream-verified",
+  "controlMethods":[{"transport":"infrared","protocol":"GreeV1","kind":"stateful-climate","variant":"YX1FSF","frequencyHz":38000,
+    "capabilities":["Power","TemperatureUp","TemperatureDown","ModeAuto","ModeCool","ModeHeat","ModeDry","ModeFan","FanSpeedAuto","FanSpeedUp","FanSpeedDown","Swing","Sleep","Turbo","Light","XFanCleaning","IFeel","Wifi","Economy","Timer"]}],
+  "sources":["IRremoteESP8266 Gree YX1FSF / Energy Saver family"]
+}
