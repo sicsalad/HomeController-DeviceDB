@@ -1,0 +1,6 @@
+{
+  "schemaVersion":2,"codeSetId":"whirlpool-dg11j13a","deviceType":"Air Conditioner","manufacturer":"Whirlpool","verification":"upstream-and-hardware",
+  "controlMethods":[{"transport":"infrared","protocol":"WhirlpoolAc","kind":"stateful-climate","variant":"DG11J13A","frequencyHz":38000,
+    "capabilities":["Power","TemperatureUp","TemperatureDown","ModeAuto","ModeCool","ModeHeat","ModeDry","ModeFan","FanSpeedAuto","FanSpeedUp","FanSpeedDown","Swing","Sleep","Turbo","Light","Timer"]}],
+  "sources":["IRremoteESP8266 Whirlpool DG11J1-3A / DG11J1-04 family","HomeController DG11J1-3A hardware test"]
+}
