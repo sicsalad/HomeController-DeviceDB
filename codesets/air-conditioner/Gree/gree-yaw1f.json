@@ -1,0 +1,6 @@
+{
+  "schemaVersion":2,"codeSetId":"gree-yaw1f","deviceType":"Air Conditioner","manufacturer":"Gree","verification":"upstream-and-hardware",
+  "controlMethods":[{"transport":"infrared","protocol":"GreeV1","kind":"stateful-climate","variant":"YAW1F","frequencyHz":38000,
+    "capabilities":["Power","TemperatureUp","TemperatureDown","ModeAuto","ModeCool","ModeHeat","ModeDry","ModeFan","FanSpeedAuto","FanSpeedUp","FanSpeedDown","Swing","Sleep","Turbo","Light","XFanCleaning","IFeel","Wifi","Timer"]}],
+  "sources":["IRremoteESP8266 Gree YAW1F family","HomeController hardware verification GWH18ACD-K6DNA1D / YAAA1FB"]
+}
