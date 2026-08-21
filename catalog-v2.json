@@ -136,6 +136,26 @@
     },
     {
       "deviceType": "Television",
+      "name": "Grundig",
+      "deviceModels": [
+        {
+          "name": "GRUNDIG",
+          "codeSetId": "auto-tv-grundig-a30333656c",
+          "confidence": "community-signature-group"
+        }
+      ],
+      "remoteModels": [],
+      "codeSets": [
+        {
+          "id": "auto-tv-grundig-a30333656c",
+          "name": "Grundig TV RC5 A3033",
+          "path": "codesets/television/Grundig/auto-tv-grundig-a30333656c.json",
+          "testCommand": "Power"
+        }
+      ]
+    },
+    {
+      "deviceType": "Television",
       "name": "Hisense",
       "deviceModels": [
         {
@@ -306,6 +326,70 @@
           "id": "auto-tv-lg-cf0e3ab1a5",
           "name": "LG TV NEC CF0E3",
           "path": "codesets/television/LG/auto-tv-lg-cf0e3ab1a5.json",
+          "testCommand": "Power"
+        }
+      ]
+    },
+    {
+      "deviceType": "Television",
+      "name": "Panasonic",
+      "deviceModels": [
+        {
+          "name": "N2QAYB000705",
+          "codeSetId": "auto-tv-panasonic-08eed04a7e",
+          "confidence": "community-signature-group"
+        },
+        {
+          "name": "N2QAYB001109 full",
+          "codeSetId": "auto-tv-panasonic-db28fe488f",
+          "confidence": "community-signature-group"
+        },
+        {
+          "name": "TC-P50S2",
+          "codeSetId": "auto-tv-panasonic-ae5231d18d",
+          "confidence": "community-signature-group"
+        },
+        {
+          "name": "TX 42AS650E",
+          "codeSetId": "auto-tv-panasonic-ea84784935",
+          "confidence": "community-signature-group"
+        },
+        {
+          "name": "Unknown Full",
+          "codeSetId": "auto-tv-panasonic-fd2dcf50ae",
+          "confidence": "community-signature-group"
+        }
+      ],
+      "remoteModels": [],
+      "codeSets": [
+        {
+          "id": "auto-tv-panasonic-08eed04a7e",
+          "name": "Panasonic TV Kaseikyo 08EED",
+          "path": "codesets/television/Panasonic/auto-tv-panasonic-08eed04a7e.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "auto-tv-panasonic-ae5231d18d",
+          "name": "Panasonic TV Kaseikyo AE523",
+          "path": "codesets/television/Panasonic/auto-tv-panasonic-ae5231d18d.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "auto-tv-panasonic-db28fe488f",
+          "name": "Panasonic TV Kaseikyo DB28F",
+          "path": "codesets/television/Panasonic/auto-tv-panasonic-db28fe488f.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "auto-tv-panasonic-ea84784935",
+          "name": "Panasonic TV Kaseikyo EA847",
+          "path": "codesets/television/Panasonic/auto-tv-panasonic-ea84784935.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "auto-tv-panasonic-fd2dcf50ae",
+          "name": "Panasonic TV Kaseikyo FD2DC",
+          "path": "codesets/television/Panasonic/auto-tv-panasonic-fd2dcf50ae.json",
           "testCommand": "Power"
         }
       ]
@@ -760,6 +844,70 @@
           "id": "auto-tv-tcl-e72975ca52",
           "name": "TCL TV RCA E7297",
           "path": "codesets/television/TCL/auto-tv-tcl-e72975ca52.json",
+          "testCommand": "Power"
+        }
+      ]
+    },
+    {
+      "deviceType": "Television",
+      "name": "Toshiba",
+      "deviceModels": [
+        {
+          "name": "CT-32F2",
+          "codeSetId": "auto-tv-toshiba-41329921f6",
+          "confidence": "community-signature-group"
+        },
+        {
+          "name": "Ct-8563",
+          "codeSetId": "auto-tv-toshiba-7a25babc61",
+          "confidence": "community-signature-group"
+        },
+        {
+          "name": "CT-90325",
+          "codeSetId": "auto-tv-toshiba-97f6fbc8fa",
+          "confidence": "community-signature-group"
+        },
+        {
+          "name": "CT-9922",
+          "codeSetId": "auto-tv-toshiba-b172d0b5ed",
+          "confidence": "community-signature-group"
+        },
+        {
+          "name": "SE R0305 32CV100U",
+          "codeSetId": "auto-tv-toshiba-3175da156f",
+          "confidence": "community-signature-group"
+        }
+      ],
+      "remoteModels": [],
+      "codeSets": [
+        {
+          "id": "auto-tv-toshiba-3175da156f",
+          "name": "Toshiba TV NEC 3175D",
+          "path": "codesets/television/Toshiba/auto-tv-toshiba-3175da156f.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "auto-tv-toshiba-41329921f6",
+          "name": "Toshiba TV NEC 41329",
+          "path": "codesets/television/Toshiba/auto-tv-toshiba-41329921f6.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "auto-tv-toshiba-97f6fbc8fa",
+          "name": "Toshiba TV NEC 97F6F",
+          "path": "codesets/television/Toshiba/auto-tv-toshiba-97f6fbc8fa.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "auto-tv-toshiba-b172d0b5ed",
+          "name": "Toshiba TV NEC B172D",
+          "path": "codesets/television/Toshiba/auto-tv-toshiba-b172d0b5ed.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "auto-tv-toshiba-7a25babc61",
+          "name": "Toshiba TV RC5 7A25B",
+          "path": "codesets/television/Toshiba/auto-tv-toshiba-7a25babc61.json",
           "testCommand": "Power"
         }
       ]

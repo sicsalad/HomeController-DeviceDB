@@ -1,0 +1,258 @@
+{
+  "schemaVersion": 2,
+  "codeSetId": "auto-tv-toshiba-3175da156f",
+  "deviceType": "Television",
+  "manufacturer": "Toshiba",
+  "verification": "community-capture-derived",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "NEC",
+      "kind": "commands",
+      "frequencyHz": 38000,
+      "commands": [
+        {
+          "name": "Power",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "40 00 00 00",
+          "command": "12 00 00 00"
+        },
+        {
+          "name": "Sleep",
+          "canonical": "Sleep",
+          "type": "parsed",
+          "address": "40 00 00 00",
+          "command": "15 00 00 00"
+        },
+        {
+          "name": "Eject",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "45 00 00 00",
+          "command": "F5 00 00 00"
+        },
+        {
+          "name": "1",
+          "canonical": "Digit1",
+          "type": "parsed",
+          "address": "40 00 00 00",
+          "command": "01 00 00 00"
+        },
+        {
+          "name": "2",
+          "canonical": "Digit2",
+          "type": "parsed",
+          "address": "40 00 00 00",
+          "command": "02 00 00 00"
+        },
+        {
+          "name": "3",
+          "canonical": "Digit3",
+          "type": "parsed",
+          "address": "40 00 00 00",
+          "command": "03 00 00 00"
+        },
+        {
+          "name": "4",
+          "canonical": "Digit4",
+          "type": "parsed",
+          "address": "40 00 00 00",
+          "command": "04 00 00 00"
+        },
+        {
+          "name": "5",
+          "canonical": "Digit5",
+          "type": "parsed",
+          "address": "40 00 00 00",
+          "command": "05 00 00 00"
+        },
+        {
+          "name": "6",
+          "canonical": "Digit6",
+          "type": "parsed",
+          "address": "40 00 00 00",
+          "command": "06 00 00 00"
+        },
+        {
+          "name": "7",
+          "canonical": "Digit7",
+          "type": "parsed",
+          "address": "40 00 00 00",
+          "command": "07 00 00 00"
+        },
+        {
+          "name": "8",
+          "canonical": "Digit8",
+          "type": "parsed",
+          "address": "40 00 00 00",
+          "command": "08 00 00 00"
+        },
+        {
+          "name": "9",
+          "canonical": "Digit9",
+          "type": "parsed",
+          "address": "40 00 00 00",
+          "command": "09 00 00 00"
+        },
+        {
+          "name": "0",
+          "canonical": "Digit0",
+          "type": "parsed",
+          "address": "40 00 00 00",
+          "command": "00 00 00 00"
+        },
+        {
+          "name": "Display",
+          "canonical": "Custom3",
+          "type": "parsed",
+          "address": "40 00 00 00",
+          "command": "1C 00 00 00"
+        },
+        {
+          "name": "Jump",
+          "canonical": "Custom4",
+          "type": "parsed",
+          "address": "44 00 00 00",
+          "command": "9B 00 00 00"
+        },
+        {
+          "name": "Subtitle",
+          "canonical": "Custom5",
+          "type": "parsed",
+          "address": "44 00 00 00",
+          "command": "87 00 00 00"
+        },
+        {
+          "name": "Input_zoom",
+          "canonical": "Custom6",
+          "type": "parsed",
+          "address": "40 00 00 00",
+          "command": "0F 00 00 00"
+        },
+        {
+          "name": "Audio_select",
+          "canonical": "Custom7",
+          "type": "parsed",
+          "address": "44 00 00 00",
+          "command": "53 00 00 00"
+        },
+        {
+          "name": "Mute",
+          "canonical": "Mute",
+          "type": "parsed",
+          "address": "40 00 00 00",
+          "command": "10 00 00 00"
+        },
+        {
+          "name": "Ch_next",
+          "canonical": "ChannelUp",
+          "type": "parsed",
+          "address": "40 00 00 00",
+          "command": "1B 00 00 00"
+        },
+        {
+          "name": "Ch_prev",
+          "canonical": "ChannelDown",
+          "type": "parsed",
+          "address": "40 00 00 00",
+          "command": "1F 00 00 00"
+        },
+        {
+          "name": "Vol_up",
+          "canonical": "VolumeUp",
+          "type": "parsed",
+          "address": "40 00 00 00",
+          "command": "1A 00 00 00"
+        },
+        {
+          "name": "Vol_dn",
+          "canonical": "VolumeDown",
+          "type": "parsed",
+          "address": "40 00 00 00",
+          "command": "1E 00 00 00"
+        },
+        {
+          "name": "Play_mode",
+          "canonical": "Mode",
+          "type": "parsed",
+          "address": "40 00 00 00",
+          "command": "1D 00 00 00"
+        },
+        {
+          "name": "Up",
+          "canonical": "Up",
+          "type": "parsed",
+          "address": "44 00 00 00",
+          "command": "80 00 00 00"
+        },
+        {
+          "name": "Left",
+          "canonical": "Left",
+          "type": "parsed",
+          "address": "44 00 00 00",
+          "command": "51 00 00 00"
+        },
+        {
+          "name": "Right",
+          "canonical": "Right",
+          "type": "parsed",
+          "address": "44 00 00 00",
+          "command": "4D 00 00 00"
+        },
+        {
+          "name": "Down",
+          "canonical": "Down",
+          "type": "parsed",
+          "address": "44 00 00 00",
+          "command": "81 00 00 00"
+        },
+        {
+          "name": "Enter",
+          "canonical": "Ok",
+          "type": "parsed",
+          "address": "44 00 00 00",
+          "command": "4E 00 00 00"
+        },
+        {
+          "name": "Pause",
+          "canonical": "Pause",
+          "type": "parsed",
+          "address": "44 00 00 00",
+          "command": "10 00 00 00"
+        },
+        {
+          "name": "Play",
+          "canonical": "Play",
+          "type": "parsed",
+          "address": "44 00 00 00",
+          "command": "15 00 00 00"
+        },
+        {
+          "name": "Stop",
+          "canonical": "Stop",
+          "type": "parsed",
+          "address": "44 00 00 00",
+          "command": "14 00 00 00"
+        },
+        {
+          "name": "Return",
+          "canonical": "Back",
+          "type": "parsed",
+          "address": "44 00 00 00",
+          "command": "5D 00 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "HomeController-DeviceDB generated capture",
+      "path": "generated/television/Toshiba/Toshiba_SE_R0305_32CV100U.json",
+      "license": "CC0-1.0 inherited from Flipper-IRDB import"
+    }
+  ],
+  "compatibleModels": [
+    "SE R0305 32CV100U"
+  ]
+}
