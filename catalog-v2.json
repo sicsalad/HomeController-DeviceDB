@@ -223,10 +223,178 @@
       "name": "Hitachi",
       "deviceModels": [
         {
+          "name": "24HE2000",
+          "codeSetId": "hitachi-tv-rc5-03",
+          "remoteModel": "RC43140",
+          "confidence": "source-model-labelled"
+        },
+        {
+          "name": "24HE2001",
+          "codeSetId": "hitachi-tv-rc5-03",
+          "remoteModel": "RC43140",
+          "confidence": "source-model-labelled"
+        },
+        {
           "name": "32HB4T62",
           "codeSetId": "hitachi-tv-rc5-03",
           "remoteModel": "49141",
           "confidence": "source-tested"
+        },
+        {
+          "name": "32HE2000",
+          "codeSetId": "hitachi-tv-rc5-03",
+          "remoteModel": "RC43140",
+          "confidence": "source-model-labelled"
+        },
+        {
+          "name": "32HE4000",
+          "codeSetId": "hitachi-tv-rc5-03",
+          "remoteModel": "RC43140",
+          "confidence": "source-model-labelled"
+        },
+        {
+          "name": "32HE4500",
+          "codeSetId": "hitachi-tv-rc5-03",
+          "remoteModel": "RC43140",
+          "confidence": "source-model-labelled"
+        },
+        {
+          "name": "32HE4500K",
+          "codeSetId": "hitachi-tv-rc5-03",
+          "remoteModel": "RC43140",
+          "confidence": "source-model-labelled"
+        },
+        {
+          "name": "40HE4000",
+          "codeSetId": "hitachi-tv-rc5-03",
+          "remoteModel": "RC43140",
+          "confidence": "source-model-labelled"
+        },
+        {
+          "name": "40HE4001",
+          "codeSetId": "hitachi-tv-rc5-03",
+          "remoteModel": "RC43140",
+          "confidence": "source-model-labelled"
+        },
+        {
+          "name": "43F501HK6000",
+          "codeSetId": "hitachi-tv-rc5-03",
+          "remoteModel": "RC43140",
+          "confidence": "source-model-labelled"
+        },
+        {
+          "name": "43HE4000",
+          "codeSetId": "hitachi-tv-rc5-03",
+          "remoteModel": "RC43140",
+          "confidence": "source-model-labelled"
+        },
+        {
+          "name": "43HK6000",
+          "codeSetId": "hitachi-tv-rc5-03",
+          "remoteModel": "RC43140",
+          "confidence": "source-model-labelled"
+        },
+        {
+          "name": "43HK6001",
+          "codeSetId": "hitachi-tv-rc5-03",
+          "remoteModel": "RC43140",
+          "confidence": "source-model-labelled"
+        },
+        {
+          "name": "43HK6500",
+          "codeSetId": "hitachi-tv-rc5-03",
+          "remoteModel": "RC43140",
+          "confidence": "source-model-labelled"
+        },
+        {
+          "name": "43HL8000",
+          "codeSetId": "hitachi-tv-rc5-03",
+          "remoteModel": "RC43140",
+          "confidence": "source-model-labelled"
+        },
+        {
+          "name": "43HL8000K",
+          "codeSetId": "hitachi-tv-rc5-03",
+          "remoteModel": "RC43140",
+          "confidence": "source-model-labelled"
+        },
+        {
+          "name": "49HE4000",
+          "codeSetId": "hitachi-tv-rc5-03",
+          "remoteModel": "RC43140",
+          "confidence": "source-model-labelled"
+        },
+        {
+          "name": "49HK6000",
+          "codeSetId": "hitachi-tv-rc5-03",
+          "remoteModel": "RC43140",
+          "confidence": "source-model-labelled"
+        },
+        {
+          "name": "49HK6500",
+          "codeSetId": "hitachi-tv-rc5-03",
+          "remoteModel": "RC43140",
+          "confidence": "source-model-labelled"
+        },
+        {
+          "name": "49HL7000",
+          "codeSetId": "hitachi-tv-rc5-03",
+          "remoteModel": "RC43140",
+          "confidence": "source-model-labelled"
+        },
+        {
+          "name": "49HL8000",
+          "codeSetId": "hitachi-tv-rc5-03",
+          "remoteModel": "RC43140",
+          "confidence": "source-model-labelled"
+        },
+        {
+          "name": "55HK6000",
+          "codeSetId": "hitachi-tv-rc5-03",
+          "remoteModel": "RC43140",
+          "confidence": "source-model-labelled"
+        },
+        {
+          "name": "55HK6500",
+          "codeSetId": "hitachi-tv-rc5-03",
+          "remoteModel": "RC43140",
+          "confidence": "source-model-labelled"
+        },
+        {
+          "name": "55HL7000",
+          "codeSetId": "hitachi-tv-rc5-03",
+          "remoteModel": "RC43140",
+          "confidence": "source-model-labelled"
+        },
+        {
+          "name": "55HL8000",
+          "codeSetId": "hitachi-tv-rc5-03",
+          "remoteModel": "RC43140",
+          "confidence": "source-model-labelled"
+        },
+        {
+          "name": "55HL8000K",
+          "codeSetId": "hitachi-tv-rc5-03",
+          "remoteModel": "RC43140",
+          "confidence": "source-model-labelled"
+        },
+        {
+          "name": "55HL9000G",
+          "codeSetId": "hitachi-tv-rc5-03",
+          "remoteModel": "RC43140",
+          "confidence": "source-model-labelled"
+        },
+        {
+          "name": "65HL7000",
+          "codeSetId": "hitachi-tv-rc5-03",
+          "remoteModel": "RC43140",
+          "confidence": "source-model-labelled"
+        },
+        {
+          "name": "65HL8000",
+          "codeSetId": "hitachi-tv-rc5-03",
+          "remoteModel": "RC43140",
+          "confidence": "source-model-labelled"
         },
         {
           "name": "LE46H508",
@@ -249,6 +417,11 @@
           "name": "RC43140",
           "codeSetId": "hitachi-tv-rc5-03",
           "confidence": "auto-signature-match"
+        },
+        {
+          "name": "RC43141",
+          "codeSetId": "hitachi-tv-rc5-03",
+          "confidence": "replacement-compatible"
         }
       ],
       "codeSets": [
