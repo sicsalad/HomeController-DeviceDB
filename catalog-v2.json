@@ -12,12 +12,7 @@
           "confidence": "auto-signature-match"
         },
         {
-          "name": "BN59-01198 R",
-          "codeSetId": "samsung-tv-7-7-standard",
-          "confidence": "auto-signature-match"
-        },
-        {
-          "name": "H6300 TV",
+          "name": "AA59",
           "codeSetId": "samsung-tv-7-7-standard",
           "confidence": "auto-signature-match"
         },
@@ -76,11 +71,6 @@
           "name": "UN60JU6500",
           "codeSetId": "samsung-tv-7-7-standard",
           "confidence": "auto-signature-match"
-        },
-        {
-          "name": "Unknown Model",
-          "codeSetId": "samsung-tv-7-7-standard",
-          "confidence": "auto-signature-match"
         }
       ],
       "remoteModels": [
@@ -130,6 +120,11 @@
           "confidence": "auto-signature-match"
         },
         {
+          "name": "BN59-01198R",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "auto-signature-match"
+        },
+        {
           "name": "BN59-01247A",
           "codeSetId": "samsung-tv-7-7-standard",
           "confidence": "auto-signature-match"
@@ -168,16 +163,6 @@
           "name": "LE46H508",
           "codeSetId": "hitachi-tv-nec-50",
           "confidence": "source-model-labelled"
-        },
-        {
-          "name": "RC43140",
-          "codeSetId": "hitachi-tv-rc5-03",
-          "confidence": "auto-signature-match"
-        },
-        {
-          "name": "SmartTV 43140",
-          "codeSetId": "hitachi-tv-rc5-03",
-          "confidence": "auto-signature-match"
         }
       ],
       "remoteModels": [
@@ -190,6 +175,11 @@
           "name": "49141",
           "codeSetId": "hitachi-tv-rc5-03",
           "confidence": "source-tested"
+        },
+        {
+          "name": "RC43140",
+          "codeSetId": "hitachi-tv-rc5-03",
+          "confidence": "auto-signature-match"
         }
       ],
       "codeSets": [
