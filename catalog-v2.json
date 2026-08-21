@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 2,
+  "description": "Device/remote model -> reusable CodeSet mappings. Exact mappings are listed separately from fallback CodeSets used by compatibility testing.",
+  "manufacturers": [
+    {
+      "deviceType": "Television",
+      "name": "Samsung",
+      "deviceModels": [
+        {"name":"UE32F4000AW","codeSetId":"samsung-tv-7-7-standard","confidence":"source-tested"},
+        {"name":"UE48H6700","codeSetId":"samsung-tv-7-7-standard","remoteModel":"BN59-01175N","confidence":"hardware-verified"}
+      ],
+      "remoteModels": [
+        {"name":"BN59-01175N","codeSetId":"samsung-tv-7-7-standard","confidence":"hardware-verified"},
+        {"name":"AA59-00741A","codeSetId":"samsung-tv-7-7-standard","confidence":"source-verified"},
+        {"name":"AA59-00685A","codeSetId":"samsung-tv-7-7-standard","confidence":"source-verified"}
+      ],
+      "codeSets": [
+        {"id":"samsung-tv-7-7-standard","name":"Samsung TV 7,7 standard","path":"codesets/television/Samsung/samsung-tv-7-7-standard.json","testCommand":"Power"}
+      ]
+    },
+    {
+      "deviceType": "Television",
+      "name": "Hitachi",
+      "deviceModels": [
+        {"name":"32HB4T62","codeSetId":"hitachi-tv-rc5-03","remoteModel":"49141","confidence":"source-tested"},
+        {"name":"LE46H508","codeSetId":"hitachi-tv-nec-50","confidence":"source-model-labelled"}
+      ],
+      "remoteModels": [
+        {"name":"49141","codeSetId":"hitachi-tv-rc5-03","confidence":"source-tested"}
+      ],
+      "codeSets": [
+        {"id":"hitachi-tv-rc5-03","name":"Hitachi TV RC5 address 03","path":"codesets/television/Hitachi/hitachi-tv-rc5-03.json","testCommand":"Power"},
+        {"id":"hitachi-tv-nec-50","name":"Hitachi TV NEC address 50","path":"codesets/television/Hitachi/hitachi-tv-nec-50.json","testCommand":"Power"}
+      ]
+    },
+    {
+      "deviceType": "Air Conditioner",
+      "name": "Gree",
+      "deviceModels": [
+        {"name":"GWH18ACD-K6DNA1D","codeSetId":"gree-yaw1f","remoteModel":"YAAA1FB","confidence":"hardware-verified"},
+        {"name":"VIR09HP115V1AH","codeSetId":"gree-yaw1f","confidence":"upstream-supported"},
+        {"name":"VIR12HP230V1AH","codeSetId":"gree-yaw1f","confidence":"upstream-supported"}
+      ],
+      "remoteModels": [
+        {"name":"YAW1F","codeSetId":"gree-yaw1f","confidence":"upstream-verified"},
+        {"name":"YAA1FBF","codeSetId":"gree-yaw1f","confidence":"upstream-supported"},
+        {"name":"YAAA1FB","codeSetId":"gree-yaw1f","confidence":"hardware-verified"},
+        {"name":"YAN1F1","codeSetId":"gree-yaw1f","confidence":"upstream-supported"},
+        {"name":"YBOFB","codeSetId":"gree-ybofb","confidence":"upstream-verified"},
+        {"name":"YBOFB2","codeSetId":"gree-ybofb","confidence":"upstream-supported"},
+        {"name":"YAPOF3","codeSetId":"gree-ybofb","confidence":"upstream-supported"},
+        {"name":"YB1F2F","codeSetId":"gree-ybofb","confidence":"upstream-supported"},
+        {"name":"YX1FSF","codeSetId":"gree-yx1fsf","confidence":"upstream-verified"},
+        {"name":"YX1F2F","codeSetId":"gree-yx1fsf","confidence":"upstream-supported"},
+        {"name":"YX1FF","codeSetId":"gree-yx1fsf","confidence":"upstream-supported"}
+      ],
+      "codeSets": [
+        {"id":"gree-yaw1f","name":"Gree YAW1F family","path":"codesets/air-conditioner/Gree/gree-yaw1f.json","testCommand":"Power"},
+        {"id":"gree-ybofb","name":"Gree YBOFB family","path":"codesets/air-conditioner/Gree/gree-ybofb.json","testCommand":"Power"},
+        {"id":"gree-yx1fsf","name":"Gree YX1FSF / Energy Saver family","path":"codesets/air-conditioner/Gree/gree-yx1fsf.json","testCommand":"Power"}
+      ]
+    },
+    {
+      "deviceType": "Air Conditioner",
+      "name": "Whirlpool",
+      "deviceModels": [],
+      "remoteModels": [
+        {"name":"DG11J1-3A","codeSetId":"whirlpool-dg11j13a","confidence":"upstream-verified"},
+        {"name":"DG11J1-04","codeSetId":"whirlpool-dg11j13a","confidence":"upstream-verified"},
+        {"name":"DG11J1-91","codeSetId":"whirlpool-dg11j191","confidence":"upstream-verified"}
+      ],
+      "knownDeviceFamilies": ["SPIS409L","SPIS412L","SPIW409L","SPIW412L","SPIW418L"],
+      "codeSets": [
+        {"id":"whirlpool-dg11j13a","name":"Whirlpool DG11J1-3A / DG11J1-04","path":"codesets/air-conditioner/Whirlpool/whirlpool-dg11j13a.json","testCommand":"Power"},
+        {"id":"whirlpool-dg11j191","name":"Whirlpool DG11J1-91","path":"codesets/air-conditioner/Whirlpool/whirlpool-dg11j191.json","testCommand":"Power"}
+      ]
+    }
+  ]
+}
