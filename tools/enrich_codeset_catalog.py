@@ -96,9 +96,15 @@ def classify_name(manufacturer: str, raw_model: str) -> tuple[str, str] | None:
     if len(model) < 4 or any(word in lowered for word in SKIP_WORDS):
         return None
 
-    if manufacturer == "Samsung" and SAMSUNG_REMOTE_RE.match(model):
-        # Captures occasionally contain a cosmetic space before the last suffix letter.
-        return "remote", model.replace(" ", "").upper()
+    if manufacturer == "Samsung":
+        if SAMSUNG_REMOTE_RE.match(model):
+            # Captures occasionally contain a cosmetic space before the last suffix letter.
+            return "remote", model.replace(" ", "").upper()
+        # AA*/BN* labels that do not match a real remote-model pattern are too ambiguous
+        # to publish as exact TV device models.
+        if model.upper().startswith(("AA", "BN")):
+            return None
+
     if manufacturer == "Hitachi" and HITACHI_REMOTE_RE.match(model):
         return "remote", model.upper()
 
