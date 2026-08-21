@@ -7,16 +7,6 @@
       "name": "Samsung",
       "deviceModels": [
         {
-          "name": "AA-00721A",
-          "codeSetId": "samsung-tv-7-7-standard",
-          "confidence": "auto-signature-match"
-        },
-        {
-          "name": "AA59",
-          "codeSetId": "samsung-tv-7-7-standard",
-          "confidence": "auto-signature-match"
-        },
-        {
           "name": "LN32D403E2GCTC",
           "codeSetId": "samsung-tv-7-7-standard",
           "confidence": "auto-signature-match"
