@@ -1,0 +1,6 @@
+{
+  "schemaVersion":2,"codeSetId":"gree-ybofb","deviceType":"Air Conditioner","manufacturer":"Gree","verification":"upstream-verified",
+  "controlMethods":[{"transport":"infrared","protocol":"GreeV1","kind":"stateful-climate","variant":"YBOFB","frequencyHz":38000,
+    "capabilities":["Power","TemperatureUp","TemperatureDown","ModeAuto","ModeCool","ModeHeat","ModeDry","ModeFan","FanSpeedAuto","FanSpeedUp","FanSpeedDown","Swing","Sleep","Turbo","Light","XFanCleaning","IFeel","Wifi","Timer"]}],
+  "sources":["IRremoteESP8266 Gree YBOFB/YBOFB2/YAPOF3 family"]
+}
