@@ -11,6 +11,7 @@ on:
       - 'tools/fix_generated_protocols.py'
       - 'tools/improve_canonicals.py'
       - 'tools/normalize_manufacturers.py'
+      - 'tools/enrich_codeset_catalog.py'
       - 'tools/validate_db.py'
       - 'curated-database.json'
       - '.github/workflows/update-flipper.yml'
@@ -70,6 +71,11 @@ jobs:
             code=$?
             if [ "$code" != "0" ]; then exit "$code"; fi
 
+            echo '=== enrich_codeset_catalog.py ==='
+            python3 db/tools/enrich_codeset_catalog.py
+            code=$?
+            if [ "$code" != "0" ]; then exit "$code"; fi
+
             echo '=== validate_db.py ==='
             python3 db/tools/validate_db.py
           } 2>&1 | tee device-db-update.log
@@ -105,18 +111,18 @@ jobs:
             git push
           fi
 
-      - name: Commit generated database
+      - name: Commit generated database and CodeSet mappings
         if: steps.generate.outputs.exit_code == '0'
         working-directory: db
         shell: bash
         run: |
           git config user.name 'HomeController DeviceDB Bot'
           git config user.email 'device-db-bot@users.noreply.github.com'
-          git add database.json generated
+          git add database.json generated catalog-v2.json
           if git diff --cached --quiet; then
-            echo 'No DeviceDB changes.'
+            echo 'No DeviceDB or CodeSet catalog changes.'
           else
-            git commit -m 'Update generated Flipper TV and AC entries'
+            git commit -m 'Update generated TV/AC entries and CodeSet mappings'
             git push
           fi
 
