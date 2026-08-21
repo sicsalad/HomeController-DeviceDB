@@ -3,191 +3,6 @@
   "description": "Device/remote model -> reusable CodeSet mappings. Exact mappings are listed separately from fallback CodeSets used by compatibility testing.",
   "manufacturers": [
     {
-      "deviceType": "Television",
-      "name": "Samsung",
-      "deviceModels": [
-        {
-          "name": "LN32D403E2GCTC",
-          "codeSetId": "samsung-tv-7-7-standard",
-          "confidence": "auto-signature-match"
-        },
-        {
-          "name": "LN46C650L1F",
-          "codeSetId": "samsung-tv-7-7-standard",
-          "confidence": "auto-signature-match"
-        },
-        {
-          "name": "P2770HD",
-          "codeSetId": "samsung-tv-7-7-standard",
-          "confidence": "auto-signature-match"
-        },
-        {
-          "name": "UE26C4000PW",
-          "codeSetId": "samsung-tv-7-7-standard",
-          "confidence": "auto-signature-match"
-        },
-        {
-          "name": "UE32F4000",
-          "codeSetId": "samsung-tv-7-7-standard",
-          "confidence": "auto-signature-match"
-        },
-        {
-          "name": "UE32F4000AW",
-          "codeSetId": "samsung-tv-7-7-standard",
-          "confidence": "source-tested"
-        },
-        {
-          "name": "UE48H6700",
-          "codeSetId": "samsung-tv-7-7-standard",
-          "remoteModel": "BN59-01175N",
-          "confidence": "hardware-verified"
-        },
-        {
-          "name": "UE48JU6490U",
-          "codeSetId": "samsung-tv-7-7-standard",
-          "confidence": "auto-signature-match"
-        },
-        {
-          "name": "UN32EH5000F",
-          "codeSetId": "samsung-tv-7-7-standard",
-          "confidence": "auto-signature-match"
-        },
-        {
-          "name": "UN40C5000QFXZA",
-          "codeSetId": "samsung-tv-7-7-standard",
-          "confidence": "auto-signature-match"
-        },
-        {
-          "name": "UN60JU6500",
-          "codeSetId": "samsung-tv-7-7-standard",
-          "confidence": "auto-signature-match"
-        }
-      ],
-      "remoteModels": [
-        {
-          "name": "AA59-00443A",
-          "codeSetId": "samsung-tv-7-7-standard",
-          "confidence": "auto-signature-match"
-        },
-        {
-          "name": "AA59-00484A",
-          "codeSetId": "samsung-tv-7-7-standard",
-          "confidence": "auto-signature-match"
-        },
-        {
-          "name": "AA59-00580A",
-          "codeSetId": "samsung-tv-7-7-standard",
-          "confidence": "auto-signature-match"
-        },
-        {
-          "name": "AA59-00685A",
-          "codeSetId": "samsung-tv-7-7-standard",
-          "confidence": "source-verified"
-        },
-        {
-          "name": "AA59-00741A",
-          "codeSetId": "samsung-tv-7-7-standard",
-          "confidence": "source-verified"
-        },
-        {
-          "name": "AA59-00786A",
-          "codeSetId": "samsung-tv-7-7-standard",
-          "confidence": "auto-signature-match"
-        },
-        {
-          "name": "BN59-01081A",
-          "codeSetId": "samsung-tv-7-7-standard",
-          "confidence": "auto-signature-match"
-        },
-        {
-          "name": "BN59-01175N",
-          "codeSetId": "samsung-tv-7-7-standard",
-          "confidence": "hardware-verified"
-        },
-        {
-          "name": "BN59-01180A",
-          "codeSetId": "samsung-tv-7-7-standard",
-          "confidence": "auto-signature-match"
-        },
-        {
-          "name": "BN59-01198R",
-          "codeSetId": "samsung-tv-7-7-standard",
-          "confidence": "auto-signature-match"
-        },
-        {
-          "name": "BN59-01247A",
-          "codeSetId": "samsung-tv-7-7-standard",
-          "confidence": "auto-signature-match"
-        },
-        {
-          "name": "BN59-01301A",
-          "codeSetId": "samsung-tv-7-7-standard",
-          "confidence": "auto-signature-match"
-        },
-        {
-          "name": "BN59-01303A",
-          "codeSetId": "samsung-tv-7-7-standard",
-          "confidence": "auto-signature-match"
-        }
-      ],
-      "codeSets": [
-        {
-          "id": "samsung-tv-7-7-standard",
-          "name": "Samsung TV 7,7 standard",
-          "path": "codesets/television/Samsung/samsung-tv-7-7-standard.json",
-          "testCommand": "Power"
-        }
-      ]
-    },
-    {
-      "deviceType": "Television",
-      "name": "Hitachi",
-      "deviceModels": [
-        {
-          "name": "32HB4T62",
-          "codeSetId": "hitachi-tv-rc5-03",
-          "remoteModel": "49141",
-          "confidence": "source-tested"
-        },
-        {
-          "name": "LE46H508",
-          "codeSetId": "hitachi-tv-nec-50",
-          "confidence": "source-model-labelled"
-        }
-      ],
-      "remoteModels": [
-        {
-          "name": "43140",
-          "codeSetId": "hitachi-tv-rc5-03",
-          "confidence": "auto-signature-match"
-        },
-        {
-          "name": "49141",
-          "codeSetId": "hitachi-tv-rc5-03",
-          "confidence": "source-tested"
-        },
-        {
-          "name": "RC43140",
-          "codeSetId": "hitachi-tv-rc5-03",
-          "confidence": "auto-signature-match"
-        }
-      ],
-      "codeSets": [
-        {
-          "id": "hitachi-tv-rc5-03",
-          "name": "Hitachi TV RC5 address 03",
-          "path": "codesets/television/Hitachi/hitachi-tv-rc5-03.json",
-          "testCommand": "Power"
-        },
-        {
-          "id": "hitachi-tv-nec-50",
-          "name": "Hitachi TV NEC address 50",
-          "path": "codesets/television/Hitachi/hitachi-tv-nec-50.json",
-          "testCommand": "Power"
-        }
-      ]
-    },
-    {
       "deviceType": "Air Conditioner",
       "name": "Gree",
       "deviceModels": [
@@ -318,6 +133,707 @@
           "testCommand": "Power"
         }
       ]
+    },
+    {
+      "deviceType": "Television",
+      "name": "Hisense",
+      "deviceModels": [
+        {
+          "name": "32A4HAU",
+          "codeSetId": "auto-tv-hisense-5e1ca61a57",
+          "confidence": "community-signature-group"
+        },
+        {
+          "name": "55E7KQ",
+          "codeSetId": "auto-tv-hisense-f346aa63b8",
+          "confidence": "community-signature-group"
+        },
+        {
+          "name": "55K3201GUWUS",
+          "codeSetId": "auto-tv-hisense-1b65bc51d4",
+          "confidence": "community-signature-group"
+        },
+        {
+          "name": "65K3300UW",
+          "codeSetId": "auto-tv-hisense-8ad2a0ce3e",
+          "confidence": "community-signature-group"
+        },
+        {
+          "name": "U7G",
+          "codeSetId": "auto-tv-hisense-67cc2ee25d",
+          "confidence": "community-signature-group"
+        }
+      ],
+      "remoteModels": [],
+      "codeSets": [
+        {
+          "id": "auto-tv-hisense-1b65bc51d4",
+          "name": "Hisense TV NEC 1B65B",
+          "path": "codesets/television/Hisense/auto-tv-hisense-1b65bc51d4.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "auto-tv-hisense-67cc2ee25d",
+          "name": "Hisense TV NEC 67CC2",
+          "path": "codesets/television/Hisense/auto-tv-hisense-67cc2ee25d.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "auto-tv-hisense-5e1ca61a57",
+          "name": "Hisense TV NECext 5E1CA",
+          "path": "codesets/television/Hisense/auto-tv-hisense-5e1ca61a57.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "auto-tv-hisense-8ad2a0ce3e",
+          "name": "Hisense TV NECext 8AD2A",
+          "path": "codesets/television/Hisense/auto-tv-hisense-8ad2a0ce3e.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "auto-tv-hisense-f346aa63b8",
+          "name": "Hisense TV NECext F346A",
+          "path": "codesets/television/Hisense/auto-tv-hisense-f346aa63b8.json",
+          "testCommand": "Power"
+        }
+      ]
+    },
+    {
+      "deviceType": "Television",
+      "name": "Hitachi",
+      "deviceModels": [
+        {
+          "name": "32HB4T62",
+          "codeSetId": "hitachi-tv-rc5-03",
+          "remoteModel": "49141",
+          "confidence": "source-tested"
+        },
+        {
+          "name": "LE46H508",
+          "codeSetId": "hitachi-tv-nec-50",
+          "confidence": "source-model-labelled"
+        }
+      ],
+      "remoteModels": [
+        {
+          "name": "43140",
+          "codeSetId": "hitachi-tv-rc5-03",
+          "confidence": "auto-signature-match"
+        },
+        {
+          "name": "49141",
+          "codeSetId": "hitachi-tv-rc5-03",
+          "confidence": "source-tested"
+        },
+        {
+          "name": "RC43140",
+          "codeSetId": "hitachi-tv-rc5-03",
+          "confidence": "auto-signature-match"
+        }
+      ],
+      "codeSets": [
+        {
+          "id": "hitachi-tv-rc5-03",
+          "name": "Hitachi TV RC5 address 03",
+          "path": "codesets/television/Hitachi/hitachi-tv-rc5-03.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "hitachi-tv-nec-50",
+          "name": "Hitachi TV NEC address 50",
+          "path": "codesets/television/Hitachi/hitachi-tv-nec-50.json",
+          "testCommand": "Power"
+        }
+      ]
+    },
+    {
+      "deviceType": "Television",
+      "name": "LG",
+      "deviceModels": [
+        {
+          "name": "24LJ4840",
+          "codeSetId": "auto-tv-lg-7c475186e2",
+          "confidence": "community-signature-group"
+        },
+        {
+          "name": "32LF650V",
+          "codeSetId": "auto-tv-lg-3246924d0d",
+          "confidence": "community-signature-group"
+        },
+        {
+          "name": "75UJ6470",
+          "codeSetId": "auto-tv-lg-cf0e3ab1a5",
+          "confidence": "community-signature-group"
+        },
+        {
+          "name": "AKB72915206",
+          "codeSetId": "auto-tv-lg-0015e271ec",
+          "confidence": "community-signature-group"
+        },
+        {
+          "name": "AKB73275675",
+          "codeSetId": "auto-tv-lg-c32e1eb923",
+          "confidence": "community-signature-group"
+        }
+      ],
+      "remoteModels": [],
+      "codeSets": [
+        {
+          "id": "auto-tv-lg-0015e271ec",
+          "name": "LG TV NEC 0015E",
+          "path": "codesets/television/LG/auto-tv-lg-0015e271ec.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "auto-tv-lg-3246924d0d",
+          "name": "LG TV NEC 32469",
+          "path": "codesets/television/LG/auto-tv-lg-3246924d0d.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "auto-tv-lg-7c475186e2",
+          "name": "LG TV NEC 7C475",
+          "path": "codesets/television/LG/auto-tv-lg-7c475186e2.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "auto-tv-lg-c32e1eb923",
+          "name": "LG TV NEC C32E1",
+          "path": "codesets/television/LG/auto-tv-lg-c32e1eb923.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "auto-tv-lg-cf0e3ab1a5",
+          "name": "LG TV NEC CF0E3",
+          "path": "codesets/television/LG/auto-tv-lg-cf0e3ab1a5.json",
+          "testCommand": "Power"
+        }
+      ]
+    },
+    {
+      "deviceType": "Television",
+      "name": "Philips",
+      "deviceModels": [
+        {
+          "name": "32PFL4208T",
+          "codeSetId": "auto-tv-philips-75afa2d3a3",
+          "confidence": "community-signature-group"
+        },
+        {
+          "name": "50PUT6103 79",
+          "codeSetId": "auto-tv-philips-a2f6116531",
+          "confidence": "community-signature-group"
+        },
+        {
+          "name": "TV 48OLED806",
+          "codeSetId": "auto-tv-philips-8bbff2fa4d",
+          "confidence": "community-signature-group"
+        },
+        {
+          "name": "TV 7956 Series",
+          "codeSetId": "auto-tv-philips-3e6fb2c04d",
+          "confidence": "community-signature-group"
+        },
+        {
+          "name": "TV Universal",
+          "codeSetId": "auto-tv-philips-3b99dcadb9",
+          "confidence": "community-signature-group"
+        }
+      ],
+      "remoteModels": [],
+      "codeSets": [
+        {
+          "id": "auto-tv-philips-3b99dcadb9",
+          "name": "Philips TV RC6 3B99D",
+          "path": "codesets/television/Philips/auto-tv-philips-3b99dcadb9.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "auto-tv-philips-3e6fb2c04d",
+          "name": "Philips TV RC6 3E6FB",
+          "path": "codesets/television/Philips/auto-tv-philips-3e6fb2c04d.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "auto-tv-philips-75afa2d3a3",
+          "name": "Philips TV RC6 75AFA",
+          "path": "codesets/television/Philips/auto-tv-philips-75afa2d3a3.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "auto-tv-philips-8bbff2fa4d",
+          "name": "Philips TV RC6 8BBFF",
+          "path": "codesets/television/Philips/auto-tv-philips-8bbff2fa4d.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "auto-tv-philips-a2f6116531",
+          "name": "Philips TV RC6 A2F61",
+          "path": "codesets/television/Philips/auto-tv-philips-a2f6116531.json",
+          "testCommand": "Power"
+        }
+      ]
+    },
+    {
+      "deviceType": "Television",
+      "name": "Samsung",
+      "deviceModels": [
+        {
+          "name": "AA-00721A",
+          "codeSetId": "auto-tv-samsung-9d71dab3cc",
+          "confidence": "community-signature-group"
+        },
+        {
+          "name": "AA59-00484A",
+          "codeSetId": "auto-tv-samsung-a42012bd32",
+          "confidence": "community-signature-group"
+        },
+        {
+          "name": "BN59-01358C",
+          "codeSetId": "auto-tv-samsung-880b5fb6a8",
+          "confidence": "community-signature-group"
+        },
+        {
+          "name": "BN59-01385C",
+          "codeSetId": "auto-tv-samsung-880b5fb6a8",
+          "confidence": "community-signature-group"
+        },
+        {
+          "name": "LN32D403E2GCTC",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "auto-signature-match"
+        },
+        {
+          "name": "LN46C650L1F",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "auto-signature-match"
+        },
+        {
+          "name": "P2770HD",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "auto-signature-match"
+        },
+        {
+          "name": "UE26C4000PW",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "auto-signature-match"
+        },
+        {
+          "name": "UE32F4000",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "auto-signature-match"
+        },
+        {
+          "name": "UE32F4000AW",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "source-tested"
+        },
+        {
+          "name": "UE48H6700",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "remoteModel": "BN59-01175N",
+          "confidence": "hardware-verified"
+        },
+        {
+          "name": "UE48JU6490U",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "auto-signature-match"
+        },
+        {
+          "name": "UN32EH5000F",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "auto-signature-match"
+        },
+        {
+          "name": "UN40C5000QFXZA",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "auto-signature-match"
+        },
+        {
+          "name": "UN60JU6500",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "auto-signature-match"
+        }
+      ],
+      "remoteModels": [
+        {
+          "name": "AA59-00443A",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "auto-signature-match"
+        },
+        {
+          "name": "AA59-00484A",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "auto-signature-match"
+        },
+        {
+          "name": "AA59-00580A",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "auto-signature-match"
+        },
+        {
+          "name": "AA59-00685A",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "source-verified"
+        },
+        {
+          "name": "AA59-00741A",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "source-verified"
+        },
+        {
+          "name": "AA59-00786A",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "auto-signature-match"
+        },
+        {
+          "name": "BN59-01081A",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "auto-signature-match"
+        },
+        {
+          "name": "BN59-01175N",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "hardware-verified"
+        },
+        {
+          "name": "BN59-01180A",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "auto-signature-match"
+        },
+        {
+          "name": "BN59-01198R",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "auto-signature-match"
+        },
+        {
+          "name": "BN59-01247A",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "auto-signature-match"
+        },
+        {
+          "name": "BN59-01301A",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "auto-signature-match"
+        },
+        {
+          "name": "BN59-01303A",
+          "codeSetId": "samsung-tv-7-7-standard",
+          "confidence": "auto-signature-match"
+        }
+      ],
+      "codeSets": [
+        {
+          "id": "samsung-tv-7-7-standard",
+          "name": "Samsung TV 7,7 standard",
+          "path": "codesets/television/Samsung/samsung-tv-7-7-standard.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "auto-tv-samsung-2af65d63e9",
+          "name": "Samsung TV Samsung32 2AF65",
+          "path": "codesets/television/Samsung/auto-tv-samsung-2af65d63e9.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "auto-tv-samsung-880b5fb6a8",
+          "name": "Samsung TV Samsung32 880B5",
+          "path": "codesets/television/Samsung/auto-tv-samsung-880b5fb6a8.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "auto-tv-samsung-9d71dab3cc",
+          "name": "Samsung TV Samsung32 9D71D",
+          "path": "codesets/television/Samsung/auto-tv-samsung-9d71dab3cc.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "auto-tv-samsung-a42012bd32",
+          "name": "Samsung TV Samsung32 A4201",
+          "path": "codesets/television/Samsung/auto-tv-samsung-a42012bd32.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "auto-tv-samsung-e079384ad4",
+          "name": "Samsung TV Samsung32 E0793",
+          "path": "codesets/television/Samsung/auto-tv-samsung-e079384ad4.json",
+          "testCommand": "Power"
+        }
+      ]
+    },
+    {
+      "deviceType": "Television",
+      "name": "Sharp",
+      "deviceModels": [
+        {
+          "name": "Aquos",
+          "codeSetId": "auto-tv-sharp-5d694e3418",
+          "confidence": "community-signature-group"
+        },
+        {
+          "name": "Aquos 32BG3E",
+          "codeSetId": "auto-tv-sharp-6ebd6daf71",
+          "confidence": "community-signature-group"
+        },
+        {
+          "name": "g0684cesa NES TV",
+          "codeSetId": "auto-tv-sharp-7a6dcce45a",
+          "confidence": "community-signature-group"
+        },
+        {
+          "name": "Roku TV",
+          "codeSetId": "auto-tv-sharp-93af0fa44b",
+          "confidence": "community-signature-group"
+        }
+      ],
+      "remoteModels": [],
+      "codeSets": [
+        {
+          "id": "auto-tv-sharp-7a6dcce45a",
+          "name": "Sharp TV NEC 7A6DC",
+          "path": "codesets/television/Sharp/auto-tv-sharp-7a6dcce45a.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "auto-tv-sharp-93af0fa44b",
+          "name": "Sharp TV NEC 93AF0",
+          "path": "codesets/television/Sharp/auto-tv-sharp-93af0fa44b.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "auto-tv-sharp-5d694e3418",
+          "name": "Sharp TV NECext 5D694",
+          "path": "codesets/television/Sharp/auto-tv-sharp-5d694e3418.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "auto-tv-sharp-6ebd6daf71",
+          "name": "Sharp TV NECext 6EBD6",
+          "path": "codesets/television/Sharp/auto-tv-sharp-6ebd6daf71.json",
+          "testCommand": "Power"
+        }
+      ]
+    },
+    {
+      "deviceType": "Television",
+      "name": "Skyworth",
+      "deviceModels": [],
+      "remoteModels": [],
+      "codeSets": []
+    },
+    {
+      "deviceType": "Television",
+      "name": "Sony",
+      "deviceModels": [
+        {
+          "name": "Bravia",
+          "codeSetId": "auto-tv-sony-00dac09e54",
+          "confidence": "community-signature-group"
+        },
+        {
+          "name": "KD-55X80CK",
+          "codeSetId": "auto-tv-sony-6db5613033",
+          "confidence": "community-signature-group"
+        },
+        {
+          "name": "RM-GD014",
+          "codeSetId": "auto-tv-sony-644af7c2b1",
+          "confidence": "community-signature-group"
+        },
+        {
+          "name": "RM-YD017",
+          "codeSetId": "auto-tv-sony-00dac09e54",
+          "confidence": "community-signature-group"
+        },
+        {
+          "name": "RM-YD092",
+          "codeSetId": "auto-tv-sony-6db5613033",
+          "confidence": "community-signature-group"
+        },
+        {
+          "name": "RMEA002",
+          "codeSetId": "auto-tv-sony-81fb4a6503",
+          "confidence": "community-signature-group"
+        },
+        {
+          "name": "X2182U",
+          "codeSetId": "auto-tv-sony-dba271b5c7",
+          "confidence": "community-signature-group"
+        }
+      ],
+      "remoteModels": [],
+      "codeSets": [
+        {
+          "id": "auto-tv-sony-00dac09e54",
+          "name": "Sony TV SIRC 00DAC",
+          "path": "codesets/television/Sony/auto-tv-sony-00dac09e54.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "auto-tv-sony-644af7c2b1",
+          "name": "Sony TV SIRC 644AF",
+          "path": "codesets/television/Sony/auto-tv-sony-644af7c2b1.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "auto-tv-sony-6db5613033",
+          "name": "Sony TV SIRC 6DB56",
+          "path": "codesets/television/Sony/auto-tv-sony-6db5613033.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "auto-tv-sony-81fb4a6503",
+          "name": "Sony TV SIRC 81FB4",
+          "path": "codesets/television/Sony/auto-tv-sony-81fb4a6503.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "auto-tv-sony-dba271b5c7",
+          "name": "Sony TV SIRC DBA27",
+          "path": "codesets/television/Sony/auto-tv-sony-dba271b5c7.json",
+          "testCommand": "Power"
+        }
+      ]
+    },
+    {
+      "deviceType": "Television",
+      "name": "TCL",
+      "deviceModels": [
+        {
+          "name": "40S615",
+          "codeSetId": "auto-tv-tcl-e6e5b580fa",
+          "confidence": "community-signature-group"
+        },
+        {
+          "name": "50S423",
+          "codeSetId": "auto-tv-tcl-faf3167f1f",
+          "confidence": "community-signature-group"
+        },
+        {
+          "name": "65C635K",
+          "codeSetId": "auto-tv-tcl-e72975ca52",
+          "confidence": "community-signature-group"
+        },
+        {
+          "name": "LED49D2930",
+          "codeSetId": "auto-tv-tcl-8dd8fce931",
+          "confidence": "community-signature-group"
+        },
+        {
+          "name": "UnknownModel2",
+          "codeSetId": "auto-tv-tcl-daeb30b969",
+          "confidence": "community-signature-group"
+        },
+        {
+          "name": "UnknownModel3",
+          "codeSetId": "auto-tv-tcl-daeb30b969",
+          "confidence": "community-signature-group"
+        }
+      ],
+      "remoteModels": [],
+      "codeSets": [
+        {
+          "id": "auto-tv-tcl-daeb30b969",
+          "name": "TCL TV NECext DAEB3",
+          "path": "codesets/television/TCL/auto-tv-tcl-daeb30b969.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "auto-tv-tcl-faf3167f1f",
+          "name": "TCL TV NECext FAF31",
+          "path": "codesets/television/TCL/auto-tv-tcl-faf3167f1f.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "auto-tv-tcl-8dd8fce931",
+          "name": "TCL TV RCA 8DD8F",
+          "path": "codesets/television/TCL/auto-tv-tcl-8dd8fce931.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "auto-tv-tcl-e6e5b580fa",
+          "name": "TCL TV RCA E6E5B",
+          "path": "codesets/television/TCL/auto-tv-tcl-e6e5b580fa.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "auto-tv-tcl-e72975ca52",
+          "name": "TCL TV RCA E7297",
+          "path": "codesets/television/TCL/auto-tv-tcl-e72975ca52.json",
+          "testCommand": "Power"
+        }
+      ]
+    },
+    {
+      "deviceType": "Television",
+      "name": "Vizio",
+      "deviceModels": [
+        {
+          "name": "E190VA Razor",
+          "codeSetId": "auto-tv-vizio-4c93cc1b39",
+          "confidence": "community-signature-group"
+        },
+        {
+          "name": "V705-G1",
+          "codeSetId": "auto-tv-vizio-a6fbe948b0",
+          "confidence": "community-signature-group"
+        },
+        {
+          "name": "Vizio",
+          "codeSetId": "auto-tv-vizio-0e08822a91",
+          "confidence": "community-signature-group"
+        },
+        {
+          "name": "XRT122",
+          "codeSetId": "auto-tv-vizio-0a44578caa",
+          "confidence": "community-signature-group"
+        },
+        {
+          "name": "XRT136",
+          "codeSetId": "auto-tv-vizio-66853da2f8",
+          "confidence": "community-signature-group"
+        }
+      ],
+      "remoteModels": [],
+      "codeSets": [
+        {
+          "id": "auto-tv-vizio-0a44578caa",
+          "name": "Vizio TV NEC 0A445",
+          "path": "codesets/television/Vizio/auto-tv-vizio-0a44578caa.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "auto-tv-vizio-0e08822a91",
+          "name": "Vizio TV NEC 0E088",
+          "path": "codesets/television/Vizio/auto-tv-vizio-0e08822a91.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "auto-tv-vizio-4c93cc1b39",
+          "name": "Vizio TV NEC 4C93C",
+          "path": "codesets/television/Vizio/auto-tv-vizio-4c93cc1b39.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "auto-tv-vizio-66853da2f8",
+          "name": "Vizio TV NEC 66853",
+          "path": "codesets/television/Vizio/auto-tv-vizio-66853da2f8.json",
+          "testCommand": "Power"
+        },
+        {
+          "id": "auto-tv-vizio-a6fbe948b0",
+          "name": "Vizio TV NEC A6FBE",
+          "path": "codesets/television/Vizio/auto-tv-vizio-a6fbe948b0.json",
+          "testCommand": "Power"
+        }
+      ]
+    },
+    {
+      "deviceType": "Television",
+      "name": "Xiaomi",
+      "deviceModels": [],
+      "remoteModels": [],
+      "codeSets": []
     }
   ]
 }

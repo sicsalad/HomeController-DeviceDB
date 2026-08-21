@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 2,
+  "codeSetId": "auto-tv-hisense-f346aa63b8",
+  "deviceType": "Television",
+  "manufacturer": "Hisense",
+  "verification": "community-capture-derived",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "NECext",
+      "kind": "commands",
+      "frequencyHz": 38000,
+      "commands": [
+        {
+          "name": "Power",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "0D F2 00 00"
+        },
+        {
+          "name": "Source",
+          "canonical": "Source",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "12 ED 00 00"
+        },
+        {
+          "name": "Menu",
+          "canonical": "Menu",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "14 EB 00 00"
+        },
+        {
+          "name": "Exit",
+          "canonical": "Exit",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "48 B7 00 00"
+        },
+        {
+          "name": "Ok",
+          "canonical": "Ok",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "15 EA 00 00"
+        },
+        {
+          "name": "Up",
+          "canonical": "Up",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "16 E9 00 00"
+        },
+        {
+          "name": "Down",
+          "canonical": "Down",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "17 E8 00 00"
+        },
+        {
+          "name": "Left",
+          "canonical": "Left",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "19 E6 00 00"
+        },
+        {
+          "name": "Right",
+          "canonical": "Right",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "18 E7 00 00"
+        },
+        {
+          "name": "Fast_fo",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "59 A6 00 00"
+        },
+        {
+          "name": "Fast_ba",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "58 A7 00 00"
+        },
+        {
+          "name": "Pause",
+          "canonical": "Pause",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "A9 56 00 00"
+        },
+        {
+          "name": "Play",
+          "canonical": "Play",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "A8 57 00 00"
+        },
+        {
+          "name": "Stop",
+          "canonical": "Stop",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "5A A5 00 00"
+        },
+        {
+          "name": "Mute",
+          "canonical": "Mute",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "0E F1 00 00"
+        },
+        {
+          "name": "Vol_up",
+          "canonical": "VolumeUp",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "44 BB 00 00"
+        },
+        {
+          "name": "Vol_dn",
+          "canonical": "VolumeDown",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "43 BC 00 00"
+        },
+        {
+          "name": "Ch_next",
+          "canonical": "ChannelUp",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "4A B5 00 00"
+        },
+        {
+          "name": "Ch_prev",
+          "canonical": "ChannelDown",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "4B B4 00 00"
+        },
+        {
+          "name": "Subtitle",
+          "canonical": "Custom3",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "1F E0 00 00"
+        },
+        {
+          "name": "YouTube",
+          "canonical": "Custom4",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "AA 55 00 00"
+        },
+        {
+          "name": "Netflix",
+          "canonical": "Custom5",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "2D D2 00 00"
+        },
+        {
+          "name": "Guide",
+          "canonical": "Guide",
+          "type": "parsed",
+          "address": "00 BF 00 00",
+          "command": "1D E2 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "HomeController-DeviceDB generated capture",
+      "path": "generated/television/Hisense/Hisense_55E7KQ.json",
+      "license": "CC0-1.0 inherited from Flipper-IRDB import"
+    }
+  ],
+  "compatibleModels": [
+    "55E7KQ"
+  ]
+}

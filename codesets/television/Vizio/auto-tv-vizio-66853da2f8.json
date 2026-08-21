@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 2,
+  "codeSetId": "auto-tv-vizio-66853da2f8",
+  "deviceType": "Television",
+  "manufacturer": "Vizio",
+  "verification": "community-capture-derived",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "NEC",
+      "kind": "commands",
+      "frequencyHz": 38000,
+      "commands": [
+        {
+          "name": "Power",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "08 00 00 00"
+        },
+        {
+          "name": "Input",
+          "canonical": "Source",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "2F 00 00 00"
+        },
+        {
+          "name": "Ch_next",
+          "canonical": "ChannelUp",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "00 00 00 00"
+        },
+        {
+          "name": "Ch_prev",
+          "canonical": "ChannelDown",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "01 00 00 00"
+        },
+        {
+          "name": "Vol_up",
+          "canonical": "VolumeUp",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "02 00 00 00"
+        },
+        {
+          "name": "Vol_dn",
+          "canonical": "VolumeDown",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "03 00 00 00"
+        },
+        {
+          "name": "Menu",
+          "canonical": "Menu",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "4F 00 00 00"
+        },
+        {
+          "name": "Up",
+          "canonical": "Up",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "45 00 00 00"
+        },
+        {
+          "name": "Down",
+          "canonical": "Down",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "46 00 00 00"
+        },
+        {
+          "name": "Left",
+          "canonical": "Left",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "47 00 00 00"
+        },
+        {
+          "name": "Right",
+          "canonical": "Right",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "48 00 00 00"
+        },
+        {
+          "name": "Ok",
+          "canonical": "Ok",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "44 00 00 00"
+        },
+        {
+          "name": "Back",
+          "canonical": "Back",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "4A 00 00 00"
+        },
+        {
+          "name": "Info",
+          "canonical": "Info",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "1B 00 00 00"
+        },
+        {
+          "name": "Exit",
+          "canonical": "Exit",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "49 00 00 00"
+        },
+        {
+          "name": "Mute",
+          "canonical": "Mute",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "09 00 00 00"
+        },
+        {
+          "name": "Prev_ch",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "1A 00 00 00"
+        },
+        {
+          "name": "Cc",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "39 00 00 00"
+        },
+        {
+          "name": "1",
+          "canonical": "Digit1",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "11 00 00 00"
+        },
+        {
+          "name": "2",
+          "canonical": "Digit2",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "12 00 00 00"
+        },
+        {
+          "name": "3",
+          "canonical": "Digit3",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "13 00 00 00"
+        },
+        {
+          "name": "4",
+          "canonical": "Digit4",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "14 00 00 00"
+        },
+        {
+          "name": "5",
+          "canonical": "Digit5",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "15 00 00 00"
+        },
+        {
+          "name": "6",
+          "canonical": "Digit6",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "16 00 00 00"
+        },
+        {
+          "name": "7",
+          "canonical": "Digit7",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "17 00 00 00"
+        },
+        {
+          "name": "8",
+          "canonical": "Digit8",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "18 00 00 00"
+        },
+        {
+          "name": "9",
+          "canonical": "Digit9",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "19 00 00 00"
+        },
+        {
+          "name": "0",
+          "canonical": "Digit0",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "10 00 00 00"
+        },
+        {
+          "name": "_",
+          "canonical": "Custom3",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "FF 00 00 00"
+        },
+        {
+          "name": "Picture_mode",
+          "canonical": "Mode",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "67 00 00 00"
+        },
+        {
+          "name": "Aspect_ratio",
+          "canonical": "Custom5",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "77 00 00 00"
+        },
+        {
+          "name": "Smartcast_home",
+          "canonical": "Custom6",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "2D 00 00 00"
+        },
+        {
+          "name": "Vudu",
+          "canonical": "Custom7",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "EC 00 00 00"
+        },
+        {
+          "name": "Netflix",
+          "canonical": "Custom8",
+          "type": "parsed",
+          "address": "04 00 00 00",
+          "command": "EB 00 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "HomeController-DeviceDB generated capture",
+      "path": "generated/television/Vizio/Vizio_XRT136.json",
+      "license": "CC0-1.0 inherited from Flipper-IRDB import"
+    }
+  ],
+  "compatibleModels": [
+    "XRT136"
+  ]
+}

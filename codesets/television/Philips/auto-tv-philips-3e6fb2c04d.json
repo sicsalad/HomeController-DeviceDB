@@ -1,0 +1,321 @@
+{
+  "schemaVersion": 2,
+  "codeSetId": "auto-tv-philips-3e6fb2c04d",
+  "deviceType": "Television",
+  "manufacturer": "Philips",
+  "verification": "community-capture-derived",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "RC6",
+      "kind": "commands",
+      "frequencyHz": 36000,
+      "commands": [
+        {
+          "name": "Power",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "0C 00 00 00"
+        },
+        {
+          "name": "Ambilight",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "8F 00 00 00"
+        },
+        {
+          "name": "Prime_video",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "BA 00 00 00"
+        },
+        {
+          "name": "Youtube",
+          "canonical": "Custom3",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "79 00 00 00"
+        },
+        {
+          "name": "Netflix",
+          "canonical": "Custom4",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "76 00 00 00"
+        },
+        {
+          "name": "Rakuter_tv",
+          "canonical": "Custom5",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "22 00 00 00"
+        },
+        {
+          "name": "Info",
+          "canonical": "Info",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "0F 00 00 00"
+        },
+        {
+          "name": "Search",
+          "canonical": "Custom6",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "B4 00 00 00"
+        },
+        {
+          "name": "Sources",
+          "canonical": "Custom7",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "38 00 00 00"
+        },
+        {
+          "name": "Ok",
+          "canonical": "Ok",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "5C 00 00 00"
+        },
+        {
+          "name": "Up",
+          "canonical": "Up",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "58 00 00 00"
+        },
+        {
+          "name": "Down",
+          "canonical": "Down",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "59 00 00 00"
+        },
+        {
+          "name": "Left",
+          "canonical": "Left",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "5A 00 00 00"
+        },
+        {
+          "name": "Right",
+          "canonical": "Right",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "5B 00 00 00"
+        },
+        {
+          "name": "Back",
+          "canonical": "Back",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "0A 00 00 00"
+        },
+        {
+          "name": "Rewind",
+          "canonical": "Rewind",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "2B 00 00 00"
+        },
+        {
+          "name": "Play",
+          "canonical": "Play",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "2C 00 00 00"
+        },
+        {
+          "name": "Fast_forward",
+          "canonical": "FastForward",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "28 00 00 00"
+        },
+        {
+          "name": "Stop",
+          "canonical": "Stop",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "31 00 00 00"
+        },
+        {
+          "name": "Pause",
+          "canonical": "Pause",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "30 00 00 00"
+        },
+        {
+          "name": "Record",
+          "canonical": "Record",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "37 00 00 00"
+        },
+        {
+          "name": "Red",
+          "canonical": "Red",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "6D 00 00 00"
+        },
+        {
+          "name": "Green",
+          "canonical": "Green",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "6E 00 00 00"
+        },
+        {
+          "name": "Yellow",
+          "canonical": "Yellow",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "6F 00 00 00"
+        },
+        {
+          "name": "Blue",
+          "canonical": "Blue",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "70 00 00 00"
+        },
+        {
+          "name": "Exit",
+          "canonical": "Exit",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "9F 00 00 00"
+        },
+        {
+          "name": "Vol_up",
+          "canonical": "VolumeUp",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "10 00 00 00"
+        },
+        {
+          "name": "Vol_dn",
+          "canonical": "VolumeDown",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "11 00 00 00"
+        },
+        {
+          "name": "Mute",
+          "canonical": "Mute",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "0D 00 00 00"
+        },
+        {
+          "name": "Ch_next",
+          "canonical": "ChannelUp",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "20 00 00 00"
+        },
+        {
+          "name": "Ch_prev",
+          "canonical": "ChannelDown",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "21 00 00 00"
+        },
+        {
+          "name": "1",
+          "canonical": "Digit1",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "01 00 00 00"
+        },
+        {
+          "name": "2",
+          "canonical": "Digit2",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "02 00 00 00"
+        },
+        {
+          "name": "3",
+          "canonical": "Digit3",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "03 00 00 00"
+        },
+        {
+          "name": "4",
+          "canonical": "Digit4",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "04 00 00 00"
+        },
+        {
+          "name": "5",
+          "canonical": "Digit5",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "05 00 00 00"
+        },
+        {
+          "name": "6",
+          "canonical": "Digit6",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "06 00 00 00"
+        },
+        {
+          "name": "7",
+          "canonical": "Digit7",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "07 00 00 00"
+        },
+        {
+          "name": "8",
+          "canonical": "Digit8",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "08 00 00 00"
+        },
+        {
+          "name": "9",
+          "canonical": "Digit9",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "09 00 00 00"
+        },
+        {
+          "name": "0",
+          "canonical": "Digit0",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "00 00 00 00"
+        },
+        {
+          "name": "Menu",
+          "canonical": "Menu",
+          "type": "parsed",
+          "address": "00 00 00 00",
+          "command": "BF 00 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "HomeController-DeviceDB generated capture",
+      "path": "generated/television/Philips/Philips_TV_7956_Series.json",
+      "license": "CC0-1.0 inherited from Flipper-IRDB import"
+    }
+  ],
+  "compatibleModels": [
+    "TV 7956 Series"
+  ]
+}

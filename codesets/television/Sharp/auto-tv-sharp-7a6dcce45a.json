@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 2,
+  "codeSetId": "auto-tv-sharp-7a6dcce45a",
+  "deviceType": "Television",
+  "manufacturer": "Sharp",
+  "verification": "community-capture-derived",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "NEC",
+      "kind": "commands",
+      "frequencyHz": 38000,
+      "commands": [
+        {
+          "name": "Power",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "28 00 00 00",
+          "command": "0B 00 00 00"
+        },
+        {
+          "name": "Game_on/off",
+          "canonical": "Custom1",
+          "type": "parsed",
+          "address": "28 00 00 00",
+          "command": "14 00 00 00"
+        },
+        {
+          "name": "Ch_next",
+          "canonical": "ChannelUp",
+          "type": "parsed",
+          "address": "28 00 00 00",
+          "command": "0C 00 00 00"
+        },
+        {
+          "name": "Ch_prev",
+          "canonical": "ChannelDown",
+          "type": "parsed",
+          "address": "28 00 00 00",
+          "command": "0D 00 00 00"
+        },
+        {
+          "name": "Vol_up",
+          "canonical": "VolumeUp",
+          "type": "parsed",
+          "address": "28 00 00 00",
+          "command": "0E 00 00 00"
+        },
+        {
+          "name": "Vol_dn",
+          "canonical": "VolumeDown",
+          "type": "parsed",
+          "address": "28 00 00 00",
+          "command": "0F 00 00 00"
+        },
+        {
+          "name": "Mute",
+          "canonical": "Mute",
+          "type": "parsed",
+          "address": "28 00 00 00",
+          "command": "10 00 00 00"
+        },
+        {
+          "name": "Memory",
+          "canonical": "Custom2",
+          "type": "parsed",
+          "address": "28 00 00 00",
+          "command": "18 00 00 00"
+        },
+        {
+          "name": "Add",
+          "canonical": "Custom3",
+          "type": "parsed",
+          "address": "28 00 00 00",
+          "command": "19 00 00 00"
+        },
+        {
+          "name": "Erase",
+          "canonical": "Custom4",
+          "type": "parsed",
+          "address": "28 00 00 00",
+          "command": "1A 00 00 00"
+        },
+        {
+          "name": "Sleep",
+          "canonical": "Sleep",
+          "type": "parsed",
+          "address": "28 00 00 00",
+          "command": "11 00 00 00"
+        },
+        {
+          "name": "Sleepcall",
+          "canonical": "Custom5",
+          "type": "parsed",
+          "address": "28 00 00 00",
+          "command": "1D 00 00 00"
+        },
+        {
+          "name": "Flashback",
+          "canonical": "Custom6",
+          "type": "parsed",
+          "address": "28 00 00 00",
+          "command": "13 00 00 00"
+        },
+        {
+          "name": "1",
+          "canonical": "Digit1",
+          "type": "parsed",
+          "address": "28 00 00 00",
+          "command": "00 00 00 00"
+        },
+        {
+          "name": "2",
+          "canonical": "Digit2",
+          "type": "parsed",
+          "address": "28 00 00 00",
+          "command": "01 00 00 00"
+        },
+        {
+          "name": "3",
+          "canonical": "Digit3",
+          "type": "parsed",
+          "address": "28 00 00 00",
+          "command": "02 00 00 00"
+        },
+        {
+          "name": "4",
+          "canonical": "Digit4",
+          "type": "parsed",
+          "address": "28 00 00 00",
+          "command": "03 00 00 00"
+        },
+        {
+          "name": "5",
+          "canonical": "Digit5",
+          "type": "parsed",
+          "address": "28 00 00 00",
+          "command": "04 00 00 00"
+        },
+        {
+          "name": "6",
+          "canonical": "Digit6",
+          "type": "parsed",
+          "address": "28 00 00 00",
+          "command": "05 00 00 00"
+        },
+        {
+          "name": "7",
+          "canonical": "Digit7",
+          "type": "parsed",
+          "address": "28 00 00 00",
+          "command": "06 00 00 00"
+        },
+        {
+          "name": "8",
+          "canonical": "Digit8",
+          "type": "parsed",
+          "address": "28 00 00 00",
+          "command": "07 00 00 00"
+        },
+        {
+          "name": "9",
+          "canonical": "Digit9",
+          "type": "parsed",
+          "address": "28 00 00 00",
+          "command": "08 00 00 00"
+        },
+        {
+          "name": "0",
+          "canonical": "Digit0",
+          "type": "parsed",
+          "address": "28 00 00 00",
+          "command": "09 00 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "HomeController-DeviceDB generated capture",
+      "path": "generated/television/Sharp/Sharp_g0684cesa_NES_TV.json",
+      "license": "CC0-1.0 inherited from Flipper-IRDB import"
+    }
+  ],
+  "compatibleModels": [
+    "g0684cesa NES TV"
+  ]
+}

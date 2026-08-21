@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 2,
+  "codeSetId": "auto-tv-sony-6db5613033",
+  "deviceType": "Television",
+  "manufacturer": "Sony",
+  "verification": "community-capture-derived",
+  "controlMethods": [
+    {
+      "transport": "infrared",
+      "protocol": "SIRC",
+      "kind": "commands",
+      "frequencyHz": 40000,
+      "commands": [
+        {
+          "name": "Power",
+          "canonical": "Power",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "15 00 00 00"
+        },
+        {
+          "name": "Mute",
+          "canonical": "Mute",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "14 00 00 00"
+        },
+        {
+          "name": "Vol_up",
+          "canonical": "VolumeUp",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "12 00 00 00"
+        },
+        {
+          "name": "Ch_next",
+          "canonical": "ChannelUp",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "10 00 00 00"
+        },
+        {
+          "name": "Vol_dn",
+          "canonical": "VolumeDown",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "13 00 00 00"
+        },
+        {
+          "name": "Ch_prev",
+          "canonical": "ChannelDown",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "11 00 00 00"
+        },
+        {
+          "name": "Input",
+          "canonical": "Source",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "25 00 00 00"
+        },
+        {
+          "name": "Enter",
+          "canonical": "Ok",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "65 00 00 00"
+        },
+        {
+          "name": "Left",
+          "canonical": "Left",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "34 00 00 00"
+        },
+        {
+          "name": "Right",
+          "canonical": "Right",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "33 00 00 00"
+        },
+        {
+          "name": "Up",
+          "canonical": "Up",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "74 00 00 00"
+        },
+        {
+          "name": "Down",
+          "canonical": "Down",
+          "type": "parsed",
+          "address": "01 00 00 00",
+          "command": "75 00 00 00"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "type": "HomeController-DeviceDB generated capture",
+      "path": "generated/television/Sony/Sony_KD-55X80CK.json",
+      "license": "CC0-1.0 inherited from Flipper-IRDB import"
+    }
+  ],
+  "compatibleModels": [
+    "KD-55X80CK",
+    "RM-YD092"
+  ]
+}
