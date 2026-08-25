@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "lg-thinq-climate",
+  "version": 1,
+  "minimumRuntimeVersion": 1,
+  "status": "experimental",
+  "deviceTypes": ["AirConditioner"],
+  "requiredPrimitives": ["https", "json", "template"],
+  "discovery": [],
+  "operations": {
+    "getState": {
+      "transport": "https",
+      "method": "GET",
+      "path": "https://api.thinqconnect.io/v1/devices/{{deviceId}}/state",
+      "headers": { "Authorization": "@secret:authorization" },
+      "stateMap": {
+        "power": "json:response.power",
+        "currentTemperature": "json:response.temperature.current",
+        "targetTemperature": "json:response.temperature.target",
+        "mode": "json:response.mode",
+        "fanSpeed": "json:response.fanSpeed"
+      }
+    },
+    "setState": {
+      "transport": "https",
+      "method": "POST",
+      "path": "https://api.thinqconnect.io/v1/devices/{{deviceId}}/control",
+      "headers": { "Authorization": "@secret:authorization" },
+      "request": "{{thinQCommandJson}}"
+    }
+  }
+}
