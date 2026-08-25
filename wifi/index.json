@@ -8,7 +8,8 @@
     { "id": "panasonic-comfort-cloud", "version": 1, "path": "protocols/panasonic-comfort-cloud.json", "sha256": "", "status": "experimental" },
     { "id": "fujitsu-fglair", "version": 1, "path": "protocols/fujitsu-fglair.json", "sha256": "", "status": "experimental" },
     { "id": "tuya-cloud-generic", "version": 1, "path": "protocols/tuya-cloud-generic.json", "sha256": "", "status": "experimental" },
-    { "id": "samsung-tizen-tv", "version": 1, "path": "protocols/samsung-tizen-tv.json", "sha256": "", "status": "experimental" }
+    { "id": "samsung-tizen-tv", "version": 1, "path": "protocols/samsung-tizen-tv.json", "sha256": "", "status": "experimental" },
+    { "id": "roku-ecp-tv", "version": 1, "path": "protocols/roku-ecp-tv.json", "sha256": "", "status": "stable" }
   ],
   "profiles": [
     { "id": "gree-generic-lan", "path": "devices/climate/gree/generic-lan.json", "sha256": "" },
@@ -18,6 +19,8 @@
     { "id": "panasonic-comfort-cloud-generic", "path": "devices/climate/panasonic/comfort-cloud-generic.json", "sha256": "" },
     { "id": "fujitsu-fglair-generic", "path": "devices/climate/fujitsu/fglair-generic.json", "sha256": "" },
     { "id": "tcl-tuya-climate-generic", "path": "devices/climate/tcl/tuya-generic.json", "sha256": "" },
-    { "id": "samsung-tizen-tv-generic", "path": "devices/television/samsung/tizen-generic.json", "sha256": "" }
+    { "id": "samsung-tizen-tv-generic", "path": "devices/television/samsung/tizen-generic.json", "sha256": "" },
+    { "id": "tcl-tuya-tv-generic", "path": "devices/television/tcl/tuya-generic.json", "sha256": "" },
+    { "id": "roku-ecp-tv-generic", "path": "devices/television/roku/roku-ecp-generic.json", "sha256": "" }
   ]
 }
