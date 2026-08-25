@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "tcl-tuya-tv-generic",
+  "deviceType": "Television",
+  "manufacturer": "TCL / Tuya",
+  "model": "Tuya Smart TV",
+  "driverId": "tuya-cloud-generic",
+  "match": {
+    "brand": ["TCL", "Tuya"],
+    "modelPatterns": ["*TCL*", "*Tuya*", "*Smart TV*"]
+  },
+  "tvCapabilities": {
+    "power": true,
+    "volume": true,
+    "mute": true,
+    "channel": true,
+    "input": true,
+    "navigation": true,
+    "appLaunch": false,
+    "mediaControl": true,
+    "stateQuery": true
+  },
+  "metadata": {
+    "auth": "Tuya Cloud credentials/device id",
+    "status": "experimental",
+    "setup": "cloud"
+  }
+}
