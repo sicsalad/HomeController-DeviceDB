@@ -1,0 +1,10 @@
+{
+  "schemaVersion":1,
+  "id":"ir-ac-default",
+  "name":"Infrared climate remote",
+  "deviceTypeId":"air-conditioner",
+  "connections":["infrared"],
+  "renderer":"builtin-ir-ac",
+  "columns":3,
+  "sections":[]
+}
