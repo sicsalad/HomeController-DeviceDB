@@ -1,36 +1,43 @@
 {
   "schemaVersion":1,
   "id":"wifi-ac-modern",
-  "name":"Modern Dark Wi-Fi AC",
+  "name":"Modern Climate · Midnight",
   "deviceTypeId":"air-conditioner",
   "connections":["wifi"],
   "renderer":"declarative",
   "columns":4,
-  "backgroundColor":"#10171C",
-  "foregroundColor":"#F3F7FA",
-  "buttonColor":"#243039",
-  "buttonTextColor":"#FFFFFF",
-  "borderColor":"#4E616E",
-  "buttonCornerRadius":6,
+  "backgroundColor":"#0A1015",
+  "foregroundColor":"#F4F8FB",
+  "mutedTextColor":"#8CA0AF",
+  "surfaceColor":"#121B22",
+  "accentColor":"#73D2F6",
+  "buttonColor":"#1B2933",
+  "buttonTextColor":"#F7FAFC",
+  "borderColor":"#2C414E",
+  "buttonCornerRadius":10,
+  "sectionCornerRadius":16,
+  "buttonHeight":58,
+  "buttonFontSize":11,
+  "iconFontSize":24,
   "sections":[
-    {"controls":[
-      {"type":"toggle","label":"POWER","command":"power","icon":"⏻","columnSpan":2},
+    {"subtitle":"Climate control","controls":[
+      {"type":"toggle","label":"POWER","command":"power","icon":"⏻","backgroundColor":"#17384A","borderColor":"#2F718F","columnSpan":2},
       {"type":"picker","label":"MODE","command":"mode","options":["Auto","Cool","Heat","Dry","Fan"],"columnSpan":2}
     ]},
-    {"title":"Temperature","controls":[
-      {"type":"stepper","label":"TARGET °C","command":"targetTemperature","minimum":16,"maximum":30,"step":1,"value":24,"columnSpan":4}
+    {"title":"TEMPERATURE","subtitle":"Target temperature","backgroundColor":"#101A22","controls":[
+      {"type":"stepper","label":"SET TEMPERATURE","command":"targetTemperature","minimum":16,"maximum":30,"step":1,"value":24,"columnSpan":4}
     ]},
-    {"title":"Fan / Air flow","controls":[
-      {"type":"picker","label":"FAN SPEED","command":"fanSpeed","options":["0","1","2","3","4","5"],"columnSpan":2},
-      {"type":"picker","label":"VERTICAL SWING","command":"swingVertical","options":["0","1","2","3","4","5"],"columnSpan":2},
-      {"type":"picker","label":"HORIZONTAL SWING","command":"swingHorizontal","options":["0","1","2","3","4","5"],"columnSpan":4}
+    {"title":"AIR FLOW","controls":[
+      {"type":"picker","label":"FAN SPEED","command":"fanSpeed","options":["Auto","Low","Medium","High","Turbo"],"columnSpan":2},
+      {"type":"picker","label":"VERTICAL SWING","command":"swingVertical","options":["Off","Auto","Up","Middle","Down"],"columnSpan":2},
+      {"type":"picker","label":"HORIZONTAL SWING","command":"swingHorizontal","options":["Off","Auto","Left","Middle","Right"],"columnSpan":4}
     ]},
-    {"title":"Comfort / Energy","controls":[
-      {"type":"toggle","label":"TURBO","command":"turbo","icon":"🚀"},
-      {"type":"toggle","label":"QUIET","command":"quiet","icon":"♩"},
-      {"type":"toggle","label":"ECO","command":"economy","icon":"⌁"},
+    {"title":"COMFORT","controls":[
+      {"type":"toggle","label":"TURBO","command":"turbo","icon":"⚡","backgroundColor":"#2D2717"},
+      {"type":"toggle","label":"QUIET","command":"quiet","icon":"◔"},
+      {"type":"toggle","label":"ECO","command":"economy","icon":"♧","backgroundColor":"#173126"},
       {"type":"toggle","label":"SLEEP","command":"sleep","icon":"☾"},
-      {"type":"toggle","label":"LIGHT","command":"display","icon":"☀","columnSpan":2},
+      {"type":"toggle","label":"DISPLAY","command":"display","icon":"☼","columnSpan":2},
       {"type":"toggle","label":"HEALTH","command":"health","icon":"✦","columnSpan":2}
     ]}
   ]
