@@ -9,7 +9,9 @@ on:
       - 'generated/**'
       - 'protocols/**'
       - 'schemas/**'
+      - 'wifi/**'
       - 'tools/validate_db.py'
+      - 'tools/validate_wifi.py'
       - '.github/workflows/validate.yml'
   pull_request:
     paths:
@@ -18,11 +20,16 @@ on:
       - 'generated/**'
       - 'protocols/**'
       - 'schemas/**'
+      - 'wifi/**'
       - 'tools/validate_db.py'
+      - 'tools/validate_wifi.py'
 
 jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: python3 tools/validate_db.py
+      - name: Validate main DeviceDB
+        run: python3 tools/validate_db.py
+      - name: Validate dynamic Wi-Fi drivers
+        run: python3 tools/validate_wifi.py
