@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "sony-bravia-tv-generic",
+  "deviceType": "Television",
+  "manufacturer": "Sony",
+  "model": "BRAVIA (IP Control)",
+  "driverId": "sony-bravia-tv",
+  "match": { "brand": ["Sony", "BRAVIA"], "modelPatterns": ["KD-*", "KDL-*", "XR-*", "FW-*"] },
+  "tvCapabilities": { "power": true, "wake": false, "volume": true, "mute": true, "channel": true, "input": true, "navigation": true, "appLaunch": false, "mediaControl": true, "stateQuery": true },
+  "metadata": { "auth": "psk", "credential": "apiKey", "setup": "local-ip-psk", "port": "80", "status": "stable", "notes": "Enable IP control on the TV and configure the same Pre-Shared Key in HomeController." }
+}
