@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "roku-ecp-tv",
+  "version": 1,
+  "minimumRuntimeVersion": 1,
+  "status": "stable",
+  "deviceTypes": ["Television"],
+  "requiredPrimitives": ["http"],
+  "discovery": [],
+  "operations": {
+    "power": { "transport": "http", "method": "POST", "port": 8060, "path": "/keypress/Power" },
+    "home": { "transport": "http", "method": "POST", "port": 8060, "path": "/keypress/Home" },
+    "back": { "transport": "http", "method": "POST", "port": 8060, "path": "/keypress/Back" },
+    "up": { "transport": "http", "method": "POST", "port": 8060, "path": "/keypress/Up" },
+    "down": { "transport": "http", "method": "POST", "port": 8060, "path": "/keypress/Down" },
+    "left": { "transport": "http", "method": "POST", "port": 8060, "path": "/keypress/Left" },
+    "right": { "transport": "http", "method": "POST", "port": 8060, "path": "/keypress/Right" },
+    "ok": { "transport": "http", "method": "POST", "port": 8060, "path": "/keypress/Select" },
+    "volumeUp": { "transport": "http", "method": "POST", "port": 8060, "path": "/keypress/VolumeUp" },
+    "volumeDown": { "transport": "http", "method": "POST", "port": 8060, "path": "/keypress/VolumeDown" },
+    "mute": { "transport": "http", "method": "POST", "port": 8060, "path": "/keypress/VolumeMute" },
+    "play": { "transport": "http", "method": "POST", "port": 8060, "path": "/keypress/Play" },
+    "pause": { "transport": "http", "method": "POST", "port": 8060, "path": "/keypress/Play" },
+    "rewind": { "transport": "http", "method": "POST", "port": 8060, "path": "/keypress/Rev" },
+    "fastForward": { "transport": "http", "method": "POST", "port": 8060, "path": "/keypress/Fwd" },
+    "info": { "transport": "http", "method": "POST", "port": 8060, "path": "/keypress/Info" }
+  }
+}
