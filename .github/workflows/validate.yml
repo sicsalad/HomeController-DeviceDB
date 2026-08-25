@@ -10,8 +10,11 @@ on:
       - 'protocols/**'
       - 'schemas/**'
       - 'wifi/**'
+      - 'device-types.json'
+      - 'ui-templates/**'
       - 'tools/validate_db.py'
       - 'tools/validate_wifi.py'
+      - 'tools/validate_device_catalog.py'
       - '.github/workflows/validate.yml'
   pull_request:
     paths:
@@ -21,8 +24,11 @@ on:
       - 'protocols/**'
       - 'schemas/**'
       - 'wifi/**'
+      - 'device-types.json'
+      - 'ui-templates/**'
       - 'tools/validate_db.py'
       - 'tools/validate_wifi.py'
+      - 'tools/validate_device_catalog.py'
 
 jobs:
   validate:
@@ -33,3 +39,5 @@ jobs:
         run: python3 tools/validate_db.py
       - name: Validate dynamic Wi-Fi drivers
         run: python3 tools/validate_wifi.py
+      - name: Validate dynamic device types and UI templates
+        run: python3 tools/validate_device_catalog.py
