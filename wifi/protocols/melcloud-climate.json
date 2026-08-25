@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "melcloud-climate",
+  "version": 1,
+  "minimumRuntimeVersion": 1,
+  "status": "experimental",
+  "deviceTypes": ["AirConditioner"],
+  "requiredPrimitives": ["https", "json", "template"],
+  "discovery": [],
+  "operations": {
+    "getState": {
+      "transport": "https",
+      "method": "GET",
+      "path": "{{getStateUrl}}",
+      "headers": { "Authorization": "@secret:authorization" },
+      "stateMap": {
+        "power": "json:Power",
+        "currentTemperature": "json:RoomTemperature",
+        "targetTemperature": "json:SetTemperature",
+        "mode": "json:OperationMode",
+        "fanSpeed": "json:FanSpeed"
+      }
+    },
+    "setState": {
+      "transport": "https",
+      "method": "POST",
+      "path": "{{setStateUrl}}",
+      "headers": { "Authorization": "@secret:authorization" },
+      "request": "{{melCloudCommandJson}}"
+    }
+  }
+}
