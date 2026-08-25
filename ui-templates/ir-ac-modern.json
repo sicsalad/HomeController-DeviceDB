@@ -1,0 +1,53 @@
+{
+  "schemaVersion":1,
+  "id":"ir-ac-modern",
+  "name":"Modern Dark AC",
+  "deviceTypeId":"air-conditioner",
+  "connections":["infrared"],
+  "renderer":"declarative",
+  "columns":4,
+  "backgroundColor":"#10171C",
+  "foregroundColor":"#F3F7FA",
+  "buttonColor":"#243039",
+  "buttonTextColor":"#FFFFFF",
+  "borderColor":"#4E616E",
+  "buttonCornerRadius":6,
+  "sections":[
+    {"controls":[
+      {"label":"POWER","command":"Power","icon":"⏻","backgroundColor":"#214656","columnSpan":2},
+      {"label":"MODE","command":"Mode","icon":"▦"},
+      {"label":"FAN","command":"FanSpeed","icon":"✣"}
+    ]},
+    {"title":"Temperature","controls":[
+      {"label":"TEMP −","command":"TemperatureDown","icon":"−","columnSpan":2},
+      {"label":"TEMP +","command":"TemperatureUp","icon":"＋","columnSpan":2}
+    ]},
+    {"title":"Mode","controls":[
+      {"label":"AUTO","command":"ModeAuto"},
+      {"label":"COOL","command":"ModeCool","icon":"❄"},
+      {"label":"HEAT","command":"ModeHeat","icon":"☀"},
+      {"label":"DRY","command":"ModeDry","icon":"◌"},
+      {"label":"FAN","command":"ModeFan","icon":"✣","columnSpan":2},
+      {"label":"FAN AUTO","command":"FanSpeedAuto","columnSpan":2}
+    ]},
+    {"title":"Air flow","controls":[
+      {"label":"FAN −","command":"FanSpeedDown"},
+      {"label":"FAN +","command":"FanSpeedUp"},
+      {"label":"SWING","command":"Swing","icon":"↕","columnSpan":2}
+    ]},
+    {"title":"Comfort / Energy","controls":[
+      {"label":"TURBO","command":"Turbo","icon":"🚀"},
+      {"label":"QUIET","command":"Quiet","icon":"♩"},
+      {"label":"ECO","command":"Economy","icon":"⌁"},
+      {"label":"SLEEP","command":"Sleep","icon":"☾"},
+      {"label":"POWER SAVE","command":"PowerSave","columnSpan":2},
+      {"label":"LIGHT","command":"Light","icon":"☀","columnSpan":2}
+    ]},
+    {"title":"Maintenance / Other","controls":[
+      {"label":"SELF CLEAN","command":"SelfClean","columnSpan":2},
+      {"label":"X-FAN","command":"XFanCleaning","columnSpan":2},
+      {"label":"I FEEL","command":"IFeel","columnSpan":2},
+      {"label":"TIMER","command":"Timer","icon":"◷","columnSpan":2}
+    ]}
+  ]
+}
