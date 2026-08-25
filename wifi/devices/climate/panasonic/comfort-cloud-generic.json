@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "panasonic-comfort-cloud-generic",
+  "deviceType": "AirConditioner",
+  "manufacturer": "Panasonic",
+  "model": "Comfort Cloud climate",
+  "driverId": "panasonic-comfort-cloud",
+  "match": { "brand": ["Panasonic"], "modelPatterns": ["*Etherea*", "TZ*", "FZ*"] },
+  "climateCapabilities": {
+    "power": true,
+    "targetTemperature": { "min": 16, "max": 30, "step": 0.5 },
+    "modes": ["auto", "cool", "heat", "dry", "fan"],
+    "fan": true,
+    "swingVertical": true,
+    "swingHorizontal": true,
+    "quiet": true,
+    "turbo": true,
+    "economy": true,
+    "sleep": true
+  },
+  "metadata": { "auth": "Comfort Cloud token/session", "status": "experimental" }
+}
