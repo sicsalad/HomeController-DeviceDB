@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "lg-thinq-generic",
+  "deviceType": "AirConditioner",
+  "manufacturer": "LG",
+  "model": "ThinQ climate",
+  "driverId": "lg-thinq-climate",
+  "match": { "brand": ["LG"], "modelPatterns": ["S12ET", "S09EQ", "PC12SQ", "*ThinQ*"] },
+  "climateCapabilities": {
+    "power": true,
+    "targetTemperature": { "min": 16, "max": 30, "step": 1 },
+    "modes": ["auto", "cool", "heat", "dry", "fan"],
+    "fan": true,
+    "swingVertical": true,
+    "quiet": true,
+    "turbo": true,
+    "economy": true,
+    "sleep": true,
+    "display": true
+  },
+  "metadata": { "auth": "ThinQ Connect token", "status": "experimental" }
+}
