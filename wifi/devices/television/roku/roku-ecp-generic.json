@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "roku-ecp-tv-generic",
+  "deviceType": "Television",
+  "manufacturer": "Roku",
+  "model": "Roku TV / Player",
+  "driverId": "roku-ecp-tv",
+  "match": {
+    "brand": ["Roku"],
+    "modelPatterns": ["*Roku*"]
+  },
+  "tvCapabilities": {
+    "power": true,
+    "wake": false,
+    "volume": true,
+    "mute": true,
+    "channel": false,
+    "input": false,
+    "navigation": true,
+    "appLaunch": false,
+    "mediaControl": true,
+    "stateQuery": false
+  },
+  "metadata": {
+    "auth": "none",
+    "status": "stable",
+    "setup": "local-ip",
+    "port": "8060"
+  }
+}
