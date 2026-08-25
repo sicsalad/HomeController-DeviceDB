@@ -1,0 +1,10 @@
+{
+  "schemaVersion":1,
+  "id":"ir-tv-default",
+  "name":"Infrared TV remote",
+  "deviceTypeId":"television",
+  "connections":["infrared"],
+  "renderer":"builtin-ir-tv",
+  "columns":3,
+  "sections":[]
+}
