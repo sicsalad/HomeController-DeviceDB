@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "mitsubishi-melcloud-generic",
+  "deviceType": "AirConditioner",
+  "manufacturer": "Mitsubishi Electric",
+  "model": "MELCloud climate",
+  "driverId": "melcloud-climate",
+  "match": { "brand": ["Mitsubishi Electric"], "modelPatterns": ["MSZ-HR*", "MSZ-AP*", "MSZ-EF*"] },
+  "climateCapabilities": {
+    "power": true,
+    "targetTemperature": { "min": 16, "max": 31, "step": 0.5 },
+    "modes": ["auto", "cool", "heat", "dry", "fan"],
+    "fan": true,
+    "swingVertical": true,
+    "swingHorizontal": true,
+    "quiet": true,
+    "economy": true
+  },
+  "metadata": { "auth": "MELCloud session/token", "status": "experimental" }
+}
