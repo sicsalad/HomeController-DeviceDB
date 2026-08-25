@@ -1,0 +1,59 @@
+{
+  "schemaVersion":1,
+  "id":"ir-tv-modern",
+  "name":"Modern Dark TV",
+  "deviceTypeId":"television",
+  "connections":["infrared"],
+  "renderer":"declarative",
+  "columns":4,
+  "backgroundColor":"#111417",
+  "foregroundColor":"#F4F6F8",
+  "buttonColor":"#242A30",
+  "buttonTextColor":"#FFFFFF",
+  "borderColor":"#505861",
+  "buttonCornerRadius":6,
+  "sections":[
+    {"controls":[
+      {"label":"POWER","command":"Power","icon":"⏻","backgroundColor":"#3A2525","columnSpan":1},
+      {"label":"MENU","command":"Menu","icon":"☰","columnSpan":2},
+      {"label":"MUTE","command":"Mute","icon":"🔇"},
+      {"label":"SRC","command":"Source","icon":"↪"},
+      {"label":"INFO","command":"Info","icon":"ⓘ","columnSpan":2},
+      {"label":"GUIDE","command":"Guide","icon":"▤"}
+    ]},
+    {"title":"Volume / Navigation / Channel","controls":[
+      {"label":"VOL +","command":"VolumeUp","icon":"＋"},
+      {"label":"▲","command":"Up","columnSpan":2},
+      {"label":"CH +","command":"ChannelUp","icon":"＋"},
+      {"label":"VOL −","command":"VolumeDown","icon":"−"},
+      {"label":"◀","command":"Left"},
+      {"label":"OK","command":"Ok"},
+      {"label":"▶","command":"Right"},
+      {"label":"BACK","command":"Back","icon":"↩"},
+      {"label":"▼","command":"Down","columnSpan":2},
+      {"label":"CH −","command":"ChannelDown","icon":"−"}
+    ]},
+    {"title":"Colour keys","controls":[
+      {"label":"RED","command":"Red","backgroundColor":"#8E2F2F"},
+      {"label":"GREEN","command":"Green","backgroundColor":"#286E3A"},
+      {"label":"YELLOW","command":"Yellow","backgroundColor":"#8A6D16"},
+      {"label":"BLUE","command":"Blue","backgroundColor":"#28558C"}
+    ]},
+    {"title":"Functions","controls":[
+      {"label":"CHANNEL LIST","command":"ChannelList","icon":"☷","columnSpan":2},
+      {"label":"EXIT","command":"Exit","icon":"↪","columnSpan":2},
+      {"label":"TOOLS","command":"Tools","icon":"⚙","columnSpan":2},
+      {"label":"SUBTITLE","command":"Subtitle","icon":"▱","columnSpan":2},
+      {"label":"TEXT","command":"TeletextMix","icon":"▤","columnSpan":2},
+      {"label":"SMART HUB","command":"SmartHub","icon":"⌂","columnSpan":2}
+    ]},
+    {"title":"Media","controls":[
+      {"label":"⏪","command":"Rewind"},
+      {"label":"▶","command":"Play"},
+      {"label":"Ⅱ","command":"Pause"},
+      {"label":"⏩","command":"FastForward"},
+      {"label":"● REC","command":"Record","backgroundColor":"#4A2525","columnSpan":2},
+      {"label":"■ STOP","command":"Stop","columnSpan":2}
+    ]}
+  ]
+}
