@@ -1,0 +1,37 @@
+{
+  "schemaVersion":1,
+  "id":"wifi-ac-modern",
+  "name":"Modern Dark Wi-Fi AC",
+  "deviceTypeId":"air-conditioner",
+  "connections":["wifi"],
+  "renderer":"declarative",
+  "columns":4,
+  "backgroundColor":"#10171C",
+  "foregroundColor":"#F3F7FA",
+  "buttonColor":"#243039",
+  "buttonTextColor":"#FFFFFF",
+  "borderColor":"#4E616E",
+  "buttonCornerRadius":6,
+  "sections":[
+    {"controls":[
+      {"type":"toggle","label":"POWER","command":"power","icon":"⏻","columnSpan":2},
+      {"type":"picker","label":"MODE","command":"mode","options":["Auto","Cool","Heat","Dry","Fan"],"columnSpan":2}
+    ]},
+    {"title":"Temperature","controls":[
+      {"type":"stepper","label":"TARGET °C","command":"targetTemperature","minimum":16,"maximum":30,"step":1,"value":24,"columnSpan":4}
+    ]},
+    {"title":"Fan / Air flow","controls":[
+      {"type":"picker","label":"FAN SPEED","command":"fanSpeed","options":["0","1","2","3","4","5"],"columnSpan":2},
+      {"type":"picker","label":"VERTICAL SWING","command":"swingVertical","options":["0","1","2","3","4","5"],"columnSpan":2},
+      {"type":"picker","label":"HORIZONTAL SWING","command":"swingHorizontal","options":["0","1","2","3","4","5"],"columnSpan":4}
+    ]},
+    {"title":"Comfort / Energy","controls":[
+      {"type":"toggle","label":"TURBO","command":"turbo","icon":"🚀"},
+      {"type":"toggle","label":"QUIET","command":"quiet","icon":"♩"},
+      {"type":"toggle","label":"ECO","command":"economy","icon":"⌁"},
+      {"type":"toggle","label":"SLEEP","command":"sleep","icon":"☾"},
+      {"type":"toggle","label":"LIGHT","command":"display","icon":"☀","columnSpan":2},
+      {"type":"toggle","label":"HEALTH","command":"health","icon":"✦","columnSpan":2}
+    ]}
+  ]
+}
