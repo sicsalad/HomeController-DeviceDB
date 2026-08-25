@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "stateTests": [
+    {"driverId":"samsung-smartthings-climate","name":"on-cool","operation":"getState","response":{"components":{"main":{"switch":{"switch":{"value":"on"}},"thermostatCoolingSetpoint":{"coolingSetpoint":{"value":23}},"temperatureMeasurement":{"temperature":{"value":24.5}},"airConditionerMode":{"airConditionerMode":{"value":"cool"}},"airConditionerFanMode":{"fanMode":{"value":"auto"}}}}},"expected":{"power":"on","targetTemperature":23,"currentTemperature":24.5,"mode":"cool","fanSpeed":"auto"}},
+    {"driverId":"samsung-smartthings-climate","name":"off-heat","operation":"getState","response":{"components":{"main":{"switch":{"switch":{"value":"off"}},"thermostatCoolingSetpoint":{"coolingSetpoint":{"value":21}},"temperatureMeasurement":{"temperature":{"value":20}},"airConditionerMode":{"airConditionerMode":{"value":"heat"}},"airConditionerFanMode":{"fanMode":{"value":"low"}}}}},"expected":{"power":"off","targetTemperature":21,"currentTemperature":20,"mode":"heat","fanSpeed":"low"}},
+    {"driverId":"lg-thinq-climate","name":"on-cool","operation":"getState","response":{"response":{"power":true,"temperature":{"current":24,"target":22},"mode":"cool","fanSpeed":"medium"}},"expected":{"power":true,"currentTemperature":24,"targetTemperature":22,"mode":"cool","fanSpeed":"medium"}},
+    {"driverId":"lg-thinq-climate","name":"off-dry","operation":"getState","response":{"response":{"power":false,"temperature":{"current":25.5,"target":24},"mode":"dry","fanSpeed":"low"}},"expected":{"power":false,"currentTemperature":25.5,"targetTemperature":24,"mode":"dry","fanSpeed":"low"}},
+    {"driverId":"melcloud-climate","name":"heat","operation":"getState","response":{"Power":true,"RoomTemperature":23.5,"SetTemperature":21.5,"OperationMode":"heat","FanSpeed":3},"expected":{"power":true,"currentTemperature":23.5,"targetTemperature":21.5,"mode":"heat","fanSpeed":3}},
+    {"driverId":"panasonic-comfort-cloud","name":"cool","operation":"getState","response":{"power":true,"insideTemperature":25,"temperatureSet":24,"operationMode":"cool","fanSpeed":"auto"},"expected":{"power":true,"currentTemperature":25,"targetTemperature":24,"mode":"cool","fanSpeed":"auto"}},
+    {"driverId":"fujitsu-fglair","name":"heat","operation":"getState","response":{"power":true,"currentTemperature":22,"targetTemperature":21,"mode":"heat","fanSpeed":"low"},"expected":{"power":true,"currentTemperature":22,"targetTemperature":21,"mode":"heat","fanSpeed":"low"}},
+    {"driverId":"tuya-cloud-generic","name":"cool","operation":"getState","response":{"result":{"power":true,"currentTemperature":24,"targetTemperature":23,"mode":"cool","fanSpeed":"2"}},"expected":{"power":true,"currentTemperature":24,"targetTemperature":23,"mode":"cool","fanSpeed":"2"}}
+  ],
+  "commandTests": [
+    {"driverId":"samsung-smartthings-climate","operation":"setState","variables":{"smartThingsCommandJson":"{\"commands\":[{\"component\":\"main\",\"capability\":\"switch\",\"command\":\"on\"}]}"},"expectedRequestContains":["\"command\":\"on\""]},
+    {"driverId":"lg-thinq-climate","operation":"setState","variables":{"thinQCommandJson":"{\"power\":true,\"targetTemperature\":23}"},"expectedRequestContains":["\"power\":true","23"]},
+    {"driverId":"melcloud-climate","operation":"setState","variables":{"melCloudCommandJson":"{\"Power\":true,\"SetTemperature\":22}"},"expectedRequestContains":["\"Power\":true","22"]},
+    {"driverId":"panasonic-comfort-cloud","operation":"setState","variables":{"panasonicCommandJson":"{\"power\":true,\"temperatureSet\":23}"},"expectedRequestContains":["temperatureSet","23"]},
+    {"driverId":"fujitsu-fglair","operation":"setState","variables":{"fujitsuCommandJson":"{\"power\":true,\"targetTemperature\":22}"},"expectedRequestContains":["targetTemperature","22"]},
+    {"driverId":"tuya-cloud-generic","operation":"setState","variables":{"tuyaCommandJson":"{\"commands\":[{\"code\":\"switch\",\"value\":true}]}"},"expectedRequestContains":["\"switch\"","true"]},
+    {"driverId":"samsung-tizen-tv","operation":"volumeUp","variables":{},"expectedRequestContains":["KEY_VOLUP","ms.remote.control"]},
+    {"driverId":"samsung-tizen-tv","operation":"home","variables":{},"expectedRequestContains":["KEY_HOME","ms.remote.control"]}
+  ],
+  "negativeTests": [
+    {"name":"missing-state-field","driverId":"lg-thinq-climate","operation":"getState","response":{"response":{"power":true}},"missingExpected":["currentTemperature","targetTemperature","mode","fanSpeed"]},
+    {"name":"bad-json-shape","driverId":"tuya-cloud-generic","operation":"getState","response":{"unexpected":true},"missingExpected":["power","targetTemperature","currentTemperature","mode","fanSpeed"]}
+  ],
+  "profileSelectionTests": [
+    {"deviceType":"AirConditioner","brand":"LG","model":"S12ET","expectedProfileId":"lg-thinq-generic"},
+    {"deviceType":"AirConditioner","brand":"Samsung","model":"AR12TXFCAWK Wind-Free","expectedProfileId":"samsung-smartthings-generic"},
+    {"deviceType":"AirConditioner","brand":"Mitsubishi Electric","model":"MSZ-AP35VG","expectedProfileId":"mitsubishi-melcloud-generic"},
+    {"deviceType":"AirConditioner","brand":"Panasonic","model":"Etherea Z35-TKE","expectedProfileId":"panasonic-comfort-cloud-generic"},
+    {"deviceType":"AirConditioner","brand":"Fujitsu","model":"ASYG12KMTA","expectedProfileId":"fujitsu-fglair-generic"},
+    {"deviceType":"AirConditioner","brand":"TCL","model":"TAC-12CHSD","expectedProfileId":"tcl-tuya-climate-generic"},
+    {"deviceType":"Television","brand":"Samsung","model":"UE55CU7172","expectedProfileId":"samsung-tizen-tv-generic"}
+  ],
+  "regressionBaseline": {
+    "requiredDriverIds":["gree-native-v1","samsung-smartthings-climate","lg-thinq-climate","melcloud-climate","panasonic-comfort-cloud","fujitsu-fglair","tuya-cloud-generic","samsung-tizen-tv"],
+    "requiredProfileIds":["gree-generic-lan","samsung-smartthings-generic","lg-thinq-generic","mitsubishi-melcloud-generic","panasonic-comfort-cloud-generic","fujitsu-fglair-generic","tcl-tuya-climate-generic","samsung-tizen-tv-generic"]
+  }
+}
