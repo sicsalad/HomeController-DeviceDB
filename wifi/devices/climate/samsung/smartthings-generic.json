@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "samsung-smartthings-generic",
+  "deviceType": "AirConditioner",
+  "manufacturer": "Samsung",
+  "model": "SmartThings climate",
+  "driverId": "samsung-smartthings-climate",
+  "match": { "brand": ["Samsung"], "modelPatterns": ["*Wind-Free*", "*AR12*", "*Luzon*"] },
+  "climateCapabilities": {
+    "power": true,
+    "targetTemperature": { "min": 16, "max": 30, "step": 1 },
+    "modes": ["auto", "cool", "heat", "dry", "fan"],
+    "fan": true,
+    "swingVertical": true,
+    "quiet": true,
+    "turbo": true,
+    "economy": true,
+    "sleep": true
+  },
+  "metadata": { "auth": "SmartThings PAT/OAuth", "status": "experimental" }
+}
