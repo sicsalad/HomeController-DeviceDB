@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "templates": [
+    {"id":"ir-ac-default","path":"ir-ac-default.json","status":"stable"},
+    {"id":"ir-tv-default","path":"ir-tv-default.json","status":"stable"},
+    {"id":"hubitat-default","path":"hubitat-default.json","status":"stable"},
+    {"id":"wifi-ac-default","path":"wifi-ac-default.json","status":"stable"},
+    {"id":"wifi-tv-default","path":"wifi-tv-default.json","status":"stable"}
+  ]
+}
