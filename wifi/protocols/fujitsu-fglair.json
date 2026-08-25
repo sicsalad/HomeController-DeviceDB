@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "fujitsu-fglair",
+  "version": 1,
+  "minimumRuntimeVersion": 1,
+  "status": "experimental",
+  "deviceTypes": ["AirConditioner"],
+  "requiredPrimitives": ["https", "json", "template"],
+  "discovery": [],
+  "operations": {
+    "getState": {
+      "transport": "https",
+      "method": "GET",
+      "path": "{{getStateUrl}}",
+      "headers": { "Authorization": "@secret:authorization" },
+      "stateMap": {
+        "power": "json:power",
+        "currentTemperature": "json:currentTemperature",
+        "targetTemperature": "json:targetTemperature",
+        "mode": "json:mode",
+        "fanSpeed": "json:fanSpeed"
+      }
+    },
+    "setState": {
+      "transport": "https",
+      "method": "POST",
+      "path": "{{setStateUrl}}",
+      "headers": { "Authorization": "@secret:authorization" },
+      "request": "{{fujitsuCommandJson}}"
+    }
+  }
+}
