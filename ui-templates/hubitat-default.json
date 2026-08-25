@@ -1,0 +1,10 @@
+{
+  "schemaVersion":1,
+  "id":"hubitat-default",
+  "name":"Hubitat devices",
+  "deviceTypeId":"hubitat",
+  "connections":["wifi"],
+  "renderer":"builtin-hubitat",
+  "columns":1,
+  "sections":[]
+}
