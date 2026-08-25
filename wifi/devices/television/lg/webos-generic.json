@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "lg-webos-tv-generic",
+  "deviceType": "Television",
+  "manufacturer": "LG",
+  "model": "webOS Smart TV",
+  "driverId": "lg-webos-tv",
+  "match": { "brand": ["LG", "webOS"], "modelPatterns": ["OLED*", "*QNED*", "*NANO*", "*UN*", "*UP*", "*UR*", "*UT*"] },
+  "tvCapabilities": { "power": true, "wake": false, "volume": true, "mute": true, "channel": true, "input": true, "navigation": true, "appLaunch": true, "mediaControl": true, "stateQuery": true },
+  "metadata": { "auth": "on-screen-pairing", "credential": "pairingToken", "setup": "local-ip-pair", "ports": "3000,3001", "status": "stable", "notes": "First connection shows an approval prompt on the TV. The returned client-key is stored securely and reused." }
+}
