@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "tcl-tuya-climate-generic",
+  "deviceType": "AirConditioner",
+  "manufacturer": "TCL",
+  "model": "Tuya climate",
+  "driverId": "tuya-cloud-generic",
+  "match": { "brand": ["TCL", "Tuya"], "modelPatterns": ["TAC-*", "*Miracle*", "*Ocarina*"] },
+  "climateCapabilities": {
+    "power": true,
+    "targetTemperature": { "min": 16, "max": 30, "step": 1 },
+    "modes": ["auto", "cool", "heat", "dry", "fan"],
+    "fan": true,
+    "swingVertical": true,
+    "quiet": true,
+    "turbo": true,
+    "economy": true,
+    "sleep": true
+  },
+  "metadata": { "platform": "Tuya", "dpMapping": "profile-specific", "status": "experimental" }
+}
