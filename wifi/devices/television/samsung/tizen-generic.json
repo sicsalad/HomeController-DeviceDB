@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "samsung-tizen-tv-generic",
+  "deviceType": "Television",
+  "manufacturer": "Samsung",
+  "model": "Tizen TV",
+  "driverId": "samsung-tizen-tv",
+  "match": { "brand": ["Samsung"], "modelPatterns": ["UE*", "QE*", "Q*", "The Frame*"] },
+  "tvCapabilities": {
+    "power": true,
+    "wake": true,
+    "volume": true,
+    "mute": true,
+    "channel": true,
+    "input": true,
+    "navigation": true,
+    "appLaunch": false,
+    "mediaControl": true,
+    "stateQuery": false
+  },
+  "metadata": { "pairing": "Tizen WebSocket", "ports": "8001/8002", "status": "experimental" }
+}
