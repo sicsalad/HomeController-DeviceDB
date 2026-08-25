@@ -1,0 +1,57 @@
+{
+  "schemaVersion":1,
+  "id":"wifi-tv-modern",
+  "name":"Modern Dark Wi-Fi TV",
+  "deviceTypeId":"television",
+  "connections":["wifi"],
+  "renderer":"declarative",
+  "columns":4,
+  "backgroundColor":"#111417",
+  "foregroundColor":"#F4F6F8",
+  "buttonColor":"#242A30",
+  "buttonTextColor":"#FFFFFF",
+  "borderColor":"#505861",
+  "buttonCornerRadius":6,
+  "sections":[
+    {"controls":[
+      {"label":"POWER","command":"power","icon":"⏻","backgroundColor":"#3A2525"},
+      {"label":"MENU","command":"menu","icon":"☰","columnSpan":2},
+      {"label":"MUTE","command":"mute","icon":"🔇"},
+      {"label":"SRC","command":"source","icon":"↪"},
+      {"label":"INFO","command":"info","icon":"ⓘ","columnSpan":2},
+      {"label":"GUIDE","command":"guide","icon":"▤"}
+    ]},
+    {"title":"Volume / Navigation / Channel","controls":[
+      {"label":"VOL +","command":"volumeUp","icon":"＋"},
+      {"label":"▲","command":"up","columnSpan":2},
+      {"label":"CH +","command":"channelUp","icon":"＋"},
+      {"label":"VOL −","command":"volumeDown","icon":"−"},
+      {"label":"◀","command":"left"},
+      {"label":"OK","command":"ok"},
+      {"label":"▶","command":"right"},
+      {"label":"BACK","command":"back","icon":"↩"},
+      {"label":"▼","command":"down","columnSpan":2},
+      {"label":"CH −","command":"channelDown","icon":"−"}
+    ]},
+    {"title":"Colour keys","controls":[
+      {"label":"RED","command":"red","backgroundColor":"#8E2F2F"},
+      {"label":"GREEN","command":"green","backgroundColor":"#286E3A"},
+      {"label":"YELLOW","command":"yellow","backgroundColor":"#8A6D16"},
+      {"label":"BLUE","command":"blue","backgroundColor":"#28558C"}
+    ]},
+    {"title":"Functions","controls":[
+      {"label":"CHANNEL LIST","command":"channelList","icon":"☷","columnSpan":2},
+      {"label":"HOME","command":"home","icon":"⌂","columnSpan":2},
+      {"label":"EXIT","command":"exit","icon":"↪","columnSpan":2},
+      {"label":"SUBTITLE","command":"subtitle","icon":"▱","columnSpan":2}
+    ]},
+    {"title":"Media","controls":[
+      {"label":"⏪","command":"rewind"},
+      {"label":"▶","command":"play"},
+      {"label":"Ⅱ","command":"pause"},
+      {"label":"⏩","command":"fastForward"},
+      {"label":"● REC","command":"record","backgroundColor":"#4A2525","columnSpan":2},
+      {"label":"■ STOP","command":"stop","columnSpan":2}
+    ]}
+  ]
+}
