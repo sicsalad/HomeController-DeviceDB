@@ -1,53 +1,60 @@
 {
   "schemaVersion":1,
   "id":"ir-ac-modern",
-  "name":"Modern Dark AC",
+  "name":"Modern Climate · Midnight",
   "deviceTypeId":"air-conditioner",
   "connections":["infrared"],
   "renderer":"declarative",
   "columns":4,
-  "backgroundColor":"#10171C",
-  "foregroundColor":"#F3F7FA",
-  "buttonColor":"#243039",
-  "buttonTextColor":"#FFFFFF",
-  "borderColor":"#4E616E",
-  "buttonCornerRadius":6,
+  "backgroundColor":"#0A1015",
+  "foregroundColor":"#F4F8FB",
+  "mutedTextColor":"#8CA0AF",
+  "surfaceColor":"#121B22",
+  "accentColor":"#73D2F6",
+  "buttonColor":"#1B2933",
+  "buttonTextColor":"#F7FAFC",
+  "borderColor":"#2C414E",
+  "buttonCornerRadius":10,
+  "sectionCornerRadius":16,
+  "buttonHeight":58,
+  "buttonFontSize":11,
+  "iconFontSize":24,
   "sections":[
-    {"controls":[
-      {"label":"POWER","command":"Power","icon":"⏻","backgroundColor":"#214656","columnSpan":2},
-      {"label":"MODE","command":"Mode","icon":"▦"},
-      {"label":"FAN","command":"FanSpeed","icon":"✣"}
+    {"subtitle":"Climate control","controls":[
+      {"type":"tile","label":"POWER","command":"Power","icon":"⏻","backgroundColor":"#17384A","borderColor":"#2F718F","columnSpan":2},
+      {"type":"tile","label":"MODE","command":"Mode","icon":"◫"},
+      {"type":"tile","label":"FAN","command":"FanSpeed","icon":"✣"}
     ]},
-    {"title":"Temperature","controls":[
-      {"label":"TEMP −","command":"TemperatureDown","icon":"−","columnSpan":2},
-      {"label":"TEMP +","command":"TemperatureUp","icon":"＋","columnSpan":2}
+    {"title":"TEMPERATURE","backgroundColor":"#101A22","controls":[
+      {"type":"tile","label":"COOLER","command":"TemperatureDown","icon":"−","columnSpan":2,"height":70,"iconSize":31},
+      {"type":"tile","label":"WARMER","command":"TemperatureUp","icon":"＋","columnSpan":2,"height":70,"iconSize":31}
     ]},
-    {"title":"Mode","controls":[
-      {"label":"AUTO","command":"ModeAuto"},
-      {"label":"COOL","command":"ModeCool","icon":"❄"},
-      {"label":"HEAT","command":"ModeHeat","icon":"☀"},
-      {"label":"DRY","command":"ModeDry","icon":"◌"},
-      {"label":"FAN","command":"ModeFan","icon":"✣","columnSpan":2},
-      {"label":"FAN AUTO","command":"FanSpeedAuto","columnSpan":2}
+    {"title":"MODE","controls":[
+      {"type":"tile","label":"AUTO","command":"ModeAuto","icon":"A"},
+      {"type":"tile","label":"COOL","command":"ModeCool","icon":"❄","backgroundColor":"#153447"},
+      {"type":"tile","label":"HEAT","command":"ModeHeat","icon":"☀","backgroundColor":"#3A291B"},
+      {"type":"tile","label":"DRY","command":"ModeDry","icon":"◌"},
+      {"type":"tile","label":"FAN","command":"ModeFan","icon":"✣","columnSpan":2},
+      {"type":"tile","label":"FAN AUTO","command":"FanSpeedAuto","icon":"◎","columnSpan":2}
     ]},
-    {"title":"Air flow","controls":[
-      {"label":"FAN −","command":"FanSpeedDown"},
-      {"label":"FAN +","command":"FanSpeedUp"},
-      {"label":"SWING","command":"Swing","icon":"↕","columnSpan":2}
+    {"title":"AIR FLOW","controls":[
+      {"type":"tile","label":"FAN −","command":"FanSpeedDown","icon":"−"},
+      {"type":"tile","label":"FAN +","command":"FanSpeedUp","icon":"＋"},
+      {"type":"tile","label":"SWING","command":"Swing","icon":"↕","columnSpan":2}
     ]},
-    {"title":"Comfort / Energy","controls":[
-      {"label":"TURBO","command":"Turbo","icon":"🚀"},
-      {"label":"QUIET","command":"Quiet","icon":"♩"},
-      {"label":"ECO","command":"Economy","icon":"⌁"},
-      {"label":"SLEEP","command":"Sleep","icon":"☾"},
-      {"label":"POWER SAVE","command":"PowerSave","columnSpan":2},
-      {"label":"LIGHT","command":"Light","icon":"☀","columnSpan":2}
+    {"title":"COMFORT & ENERGY","controls":[
+      {"type":"tile","label":"TURBO","command":"Turbo","icon":"⚡","backgroundColor":"#2D2717"},
+      {"type":"tile","label":"QUIET","command":"Quiet","icon":"◔"},
+      {"type":"tile","label":"ECO","command":"Economy","icon":"♧","backgroundColor":"#173126"},
+      {"type":"tile","label":"SLEEP","command":"Sleep","icon":"☾"},
+      {"type":"tile","label":"POWER SAVE","command":"PowerSave","icon":"◒","columnSpan":2},
+      {"type":"tile","label":"LIGHT","command":"Light","icon":"☼","columnSpan":2}
     ]},
-    {"title":"Maintenance / Other","controls":[
-      {"label":"SELF CLEAN","command":"SelfClean","columnSpan":2},
-      {"label":"X-FAN","command":"XFanCleaning","columnSpan":2},
-      {"label":"I FEEL","command":"IFeel","columnSpan":2},
-      {"label":"TIMER","command":"Timer","icon":"◷","columnSpan":2}
+    {"title":"MORE","controls":[
+      {"type":"tile","label":"SELF CLEAN","command":"SelfClean","icon":"✦","columnSpan":2},
+      {"type":"tile","label":"X-FAN","command":"XFanCleaning","icon":"≈","columnSpan":2},
+      {"type":"tile","label":"I FEEL","command":"IFeel","icon":"⌖","columnSpan":2},
+      {"type":"tile","label":"TIMER","command":"Timer","icon":"◷","columnSpan":2}
     ]}
   ]
 }
