@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "lg-webos-tv",
+  "version": 1,
+  "minimumRuntimeVersion": 2,
+  "status": "stable",
+  "deviceTypes": ["Television"],
+  "requiredPrimitives": ["webos-ssap"],
+  "discovery": [],
+  "operations": {
+    "power": { "transport": "webos-ssap", "path": "ssap://system/turnOff" },
+    "getState": { "transport": "webos-ssap", "path": "ssap://audio/getVolume", "stateMap": { "volume": "json:payload.volume", "muted": "json:payload.muted" } },
+    "volumeUp": { "transport": "webos-ssap", "path": "ssap://audio/volumeUp" },
+    "volumeDown": { "transport": "webos-ssap", "path": "ssap://audio/volumeDown" },
+    "mute": { "transport": "webos-ssap", "path": "ssap://audio/setMute", "request": "{\"mute\":true}" },
+    "channelUp": { "transport": "webos-ssap", "path": "ssap://tv/channelUp" },
+    "channelDown": { "transport": "webos-ssap", "path": "ssap://tv/channelDown" },
+    "play": { "transport": "webos-ssap", "path": "ssap://media.controls/play" },
+    "pause": { "transport": "webos-ssap", "path": "ssap://media.controls/pause" },
+    "stop": { "transport": "webos-ssap", "path": "ssap://media.controls/stop" },
+    "rewind": { "transport": "webos-ssap", "path": "ssap://media.controls/rewind" },
+    "fastForward": { "transport": "webos-ssap", "path": "ssap://media.controls/fastForward" },
+    "home": { "transport": "webos-ssap-button", "request": "HOME" },
+    "back": { "transport": "webos-ssap-button", "request": "BACK" },
+    "up": { "transport": "webos-ssap-button", "request": "UP" },
+    "down": { "transport": "webos-ssap-button", "request": "DOWN" },
+    "left": { "transport": "webos-ssap-button", "request": "LEFT" },
+    "right": { "transport": "webos-ssap-button", "request": "RIGHT" },
+    "ok": { "transport": "webos-ssap-button", "request": "ENTER" }
+  }
+}
