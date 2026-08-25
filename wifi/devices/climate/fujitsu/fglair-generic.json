@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "fujitsu-fglair-generic",
+  "deviceType": "AirConditioner",
+  "manufacturer": "Fujitsu",
+  "model": "FGLair climate",
+  "driverId": "fujitsu-fglair",
+  "match": { "brand": ["Fujitsu"], "modelPatterns": ["ASYG*"] },
+  "climateCapabilities": {
+    "power": true,
+    "targetTemperature": { "min": 16, "max": 30, "step": 0.5 },
+    "modes": ["auto", "cool", "heat", "dry", "fan"],
+    "fan": true,
+    "swingVertical": true,
+    "quiet": true,
+    "economy": true
+  },
+  "metadata": { "auth": "FGLair token/session", "status": "experimental" }
+}
