@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "tests": [
+    {
+      "driverId": "samsung-smartthings-climate",
+      "operation": "getState",
+      "response": {
+        "components": {"main": {
+          "switch": {"switch": {"value": "on"}},
+          "thermostatCoolingSetpoint": {"coolingSetpoint": {"value": 23}},
+          "temperatureMeasurement": {"temperature": {"value": 24.5}},
+          "airConditionerMode": {"airConditionerMode": {"value": "cool"}},
+          "airConditionerFanMode": {"fanMode": {"value": "auto"}}
+        }}
+      },
+      "expected": {"power":"on","targetTemperature":23,"currentTemperature":24.5,"mode":"cool","fanSpeed":"auto"}
+    },
+    {
+      "driverId": "lg-thinq-climate",
+      "operation": "getState",
+      "response": {"response":{"power":true,"temperature":{"current":24,"target":22},"mode":"cool","fanSpeed":"medium"}},
+      "expected": {"power":true,"currentTemperature":24,"targetTemperature":22,"mode":"cool","fanSpeed":"medium"}
+    },
+    {
+      "driverId": "melcloud-climate",
+      "operation": "getState",
+      "response": {"Power":true,"RoomTemperature":23.5,"SetTemperature":21.5,"OperationMode":"heat","FanSpeed":3},
+      "expected": {"power":true,"currentTemperature":23.5,"targetTemperature":21.5,"mode":"heat","fanSpeed":3}
+    },
+    {
+      "driverId": "panasonic-comfort-cloud",
+      "operation": "getState",
+      "response": {"power":true,"insideTemperature":25,"temperatureSet":24,"operationMode":"cool","fanSpeed":"auto"},
+      "expected": {"power":true,"currentTemperature":25,"targetTemperature":24,"mode":"cool","fanSpeed":"auto"}
+    },
+    {
+      "driverId": "fujitsu-fglair",
+      "operation": "getState",
+      "response": {"power":true,"currentTemperature":22,"targetTemperature":21,"mode":"heat","fanSpeed":"low"},
+      "expected": {"power":true,"currentTemperature":22,"targetTemperature":21,"mode":"heat","fanSpeed":"low"}
+    },
+    {
+      "driverId": "tuya-cloud-generic",
+      "operation": "getState",
+      "response": {"result":{"power":true,"currentTemperature":24,"targetTemperature":23,"mode":"cool","fanSpeed":"2"}},
+      "expected": {"power":true,"currentTemperature":24,"targetTemperature":23,"mode":"cool","fanSpeed":"2"}
+    }
+  ]
+}
