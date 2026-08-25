@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "samsung-tizen-tv",
+  "version": 1,
+  "minimumRuntimeVersion": 1,
+  "status": "experimental",
+  "deviceTypes": ["Television"],
+  "requiredPrimitives": ["websocket", "template", "base64"],
+  "discovery": [],
+  "operations": {
+    "power": { "transport": "websocket-secure", "port": 8002, "path": "/api/v2/channels/samsung.remote.control?name=SG9tZUNvbnRyb2xsZXI=", "request": "{\"method\":\"ms.remote.control\",\"params\":{\"Cmd\":\"Click\",\"DataOfCmd\":\"KEY_POWER\",\"Option\":\"false\",\"TypeOfRemote\":\"SendRemoteKey\"}}" },
+    "volumeUp": { "transport": "websocket-secure", "port": 8002, "path": "/api/v2/channels/samsung.remote.control?name=SG9tZUNvbnRyb2xsZXI=", "request": "{\"method\":\"ms.remote.control\",\"params\":{\"Cmd\":\"Click\",\"DataOfCmd\":\"KEY_VOLUP\",\"Option\":\"false\",\"TypeOfRemote\":\"SendRemoteKey\"}}" },
+    "volumeDown": { "transport": "websocket-secure", "port": 8002, "path": "/api/v2/channels/samsung.remote.control?name=SG9tZUNvbnRyb2xsZXI=", "request": "{\"method\":\"ms.remote.control\",\"params\":{\"Cmd\":\"Click\",\"DataOfCmd\":\"KEY_VOLDOWN\",\"Option\":\"false\",\"TypeOfRemote\":\"SendRemoteKey\"}}" },
+    "mute": { "transport": "websocket-secure", "port": 8002, "path": "/api/v2/channels/samsung.remote.control?name=SG9tZUNvbnRyb2xsZXI=", "request": "{\"method\":\"ms.remote.control\",\"params\":{\"Cmd\":\"Click\",\"DataOfCmd\":\"KEY_MUTE\",\"Option\":\"false\",\"TypeOfRemote\":\"SendRemoteKey\"}}" },
+    "up": { "transport": "websocket-secure", "port": 8002, "path": "/api/v2/channels/samsung.remote.control?name=SG9tZUNvbnRyb2xsZXI=", "request": "{\"method\":\"ms.remote.control\",\"params\":{\"Cmd\":\"Click\",\"DataOfCmd\":\"KEY_UP\",\"Option\":\"false\",\"TypeOfRemote\":\"SendRemoteKey\"}}" },
+    "down": { "transport": "websocket-secure", "port": 8002, "path": "/api/v2/channels/samsung.remote.control?name=SG9tZUNvbnRyb2xsZXI=", "request": "{\"method\":\"ms.remote.control\",\"params\":{\"Cmd\":\"Click\",\"DataOfCmd\":\"KEY_DOWN\",\"Option\":\"false\",\"TypeOfRemote\":\"SendRemoteKey\"}}" },
+    "left": { "transport": "websocket-secure", "port": 8002, "path": "/api/v2/channels/samsung.remote.control?name=SG9tZUNvbnRyb2xsZXI=", "request": "{\"method\":\"ms.remote.control\",\"params\":{\"Cmd\":\"Click\",\"DataOfCmd\":\"KEY_LEFT\",\"Option\":\"false\",\"TypeOfRemote\":\"SendRemoteKey\"}}" },
+    "right": { "transport": "websocket-secure", "port": 8002, "path": "/api/v2/channels/samsung.remote.control?name=SG9tZUNvbnRyb2xsZXI=", "request": "{\"method\":\"ms.remote.control\",\"params\":{\"Cmd\":\"Click\",\"DataOfCmd\":\"KEY_RIGHT\",\"Option\":\"false\",\"TypeOfRemote\":\"SendRemoteKey\"}}" },
+    "ok": { "transport": "websocket-secure", "port": 8002, "path": "/api/v2/channels/samsung.remote.control?name=SG9tZUNvbnRyb2xsZXI=", "request": "{\"method\":\"ms.remote.control\",\"params\":{\"Cmd\":\"Click\",\"DataOfCmd\":\"KEY_ENTER\",\"Option\":\"false\",\"TypeOfRemote\":\"SendRemoteKey\"}}" },
+    "back": { "transport": "websocket-secure", "port": 8002, "path": "/api/v2/channels/samsung.remote.control?name=SG9tZUNvbnRyb2xsZXI=", "request": "{\"method\":\"ms.remote.control\",\"params\":{\"Cmd\":\"Click\",\"DataOfCmd\":\"KEY_RETURN\",\"Option\":\"false\",\"TypeOfRemote\":\"SendRemoteKey\"}}" },
+    "home": { "transport": "websocket-secure", "port": 8002, "path": "/api/v2/channels/samsung.remote.control?name=SG9tZUNvbnRyb2xsZXI=", "request": "{\"method\":\"ms.remote.control\",\"params\":{\"Cmd\":\"Click\",\"DataOfCmd\":\"KEY_HOME\",\"Option\":\"false\",\"TypeOfRemote\":\"SendRemoteKey\"}}" }
+  }
+}
