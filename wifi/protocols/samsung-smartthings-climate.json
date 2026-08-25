@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "samsung-smartthings-climate",
+  "version": 1,
+  "minimumRuntimeVersion": 1,
+  "status": "experimental",
+  "deviceTypes": ["AirConditioner"],
+  "requiredPrimitives": ["https", "json", "template"],
+  "discovery": [],
+  "operations": {
+    "getState": {
+      "transport": "https",
+      "method": "GET",
+      "path": "https://api.smartthings.com/v1/devices/{{deviceId}}/status",
+      "headers": { "Authorization": "@secret:authorization" },
+      "stateMap": {
+        "power": "json:components.main.switch.switch.value",
+        "targetTemperature": "json:components.main.thermostatCoolingSetpoint.coolingSetpoint.value",
+        "currentTemperature": "json:components.main.temperatureMeasurement.temperature.value",
+        "mode": "json:components.main.airConditionerMode.airConditionerMode.value",
+        "fanSpeed": "json:components.main.airConditionerFanMode.fanMode.value"
+      }
+    },
+    "setState": {
+      "transport": "https",
+      "method": "POST",
+      "path": "https://api.smartthings.com/v1/devices/{{deviceId}}/commands",
+      "headers": { "Authorization": "@secret:authorization" },
+      "request": "{{smartThingsCommandJson}}"
+    }
+  }
+}
