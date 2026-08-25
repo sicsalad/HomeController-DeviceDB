@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "deviceTypes": [
+    {
+      "id": "air-conditioner",
+      "displayName": "Air Conditioner",
+      "icon": "❄️",
+      "connections": ["infrared", "wifi"],
+      "databaseTypeNames": ["Air Conditioner", "AirConditioner", "AC"],
+      "sourcePathHints": ["Air Conditioner", "AirConditioner", "/AC/", "climate"],
+      "defaultUiTemplates": { "infrared": "ir-ac-default", "wifi": "wifi-ac-default" }
+    },
+    {
+      "id": "television",
+      "displayName": "Television",
+      "icon": "📺",
+      "connections": ["infrared", "wifi"],
+      "databaseTypeNames": ["Television", "TV"],
+      "sourcePathHints": ["Television", "/TV/", "television"],
+      "defaultUiTemplates": { "infrared": "ir-tv-default", "wifi": "wifi-tv-default" }
+    },
+    {
+      "id": "hubitat",
+      "displayName": "Hubitat",
+      "icon": "🏠",
+      "connections": ["wifi"],
+      "databaseTypeNames": [],
+      "sourcePathHints": ["HubitatMakerApi"],
+      "defaultUiTemplates": { "wifi": "hubitat-default" }
+    },
+    {
+      "id": "general",
+      "displayName": "General",
+      "icon": "🎛️",
+      "connections": ["infrared", "wifi"],
+      "databaseTypeNames": ["General"],
+      "sourcePathHints": [],
+      "defaultUiTemplates": {}
+    }
+  ]
+}
