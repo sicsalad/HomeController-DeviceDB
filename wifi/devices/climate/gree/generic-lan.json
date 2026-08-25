@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "gree-generic-lan",
+  "deviceType": "AirConditioner",
+  "manufacturer": "Gree",
+  "model": "Gree Wi-Fi LAN family",
+  "driverId": "gree-native-v1",
+  "match": { "brand": ["gree"], "modelPatterns": ["*GWH*", "*Gree*"] },
+  "climateCapabilities": {
+    "power": true,
+    "targetTemperature": { "min": 16, "max": 30, "step": 0.5 },
+    "modes": ["auto", "cool", "dry", "fan", "heat"],
+    "fan": true, "swingVertical": true, "swingHorizontal": true,
+    "quiet": true, "turbo": true, "economy": true, "sleep": true,
+    "display": true, "health": true
+  },
+  "metadata": { "implementation": "native-fallback", "protocolGeneration": "v1-v2-auto-bind" }
+}
