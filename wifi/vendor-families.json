@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "families": [
+    {"manufacturer":"Midea","drivers":["midea-lan-v1","midea-lan-v2","midea-lan-v3"],"models":["Blanc","Mission","All Easy Pro","Midea OEM"],"selection":"Wi-Fi module/protocol fingerprint, never IR protocol name"},
+    {"manufacturer":"Daikin","drivers":["daikin-local-legacy","daikin-airbase","daikin-dsiot-http","daikin-dsiot-https"],"models":["Perfera","Comfora","Stylish"],"selection":"discovery fingerprint"},
+    {"manufacturer":"LG","drivers":["lg-thinq-cloud","lg-thinq-local"],"selection":"ThinQ provider; local driver only when verified"},
+    {"manufacturer":"Samsung","drivers":["samsung-smartthings-cloud","samsung-tv-websocket"],"deviceTypes":["AirConditioner","Television"],"selection":"SmartThings capabilities or LAN fingerprint"},
+    {"manufacturer":"Mitsubishi Electric","drivers":["melcloud-cloud","mitsubishi-local-adapter"],"models":["MSZ-HR","MSZ-AP","MSZ-EF"],"selection":"Wi-Fi adapter/platform"},
+    {"manufacturer":"Panasonic","drivers":["panasonic-comfort-cloud","panasonic-local-adapter"],"models":["Etherea","TZ","FZ"],"selection":"provider/adapter fingerprint"},
+    {"manufacturer":"Tuya / OEM","drivers":["tuya-local","tuya-cloud"],"selection":"product fingerprint plus downloadable DP mapping"}
+  ],
+  "rule":"Family entries are architecture/catalog declarations, not a claim that an unverified protocol is operational. Activate a driver in wifi/index.json only after its protocol manifest is implemented and verified."
+}
