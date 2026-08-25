@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "gree-native-v1",
+  "version": 1,
+  "minimumRuntimeVersion": 1,
+  "status": "stable",
+  "deviceTypes": ["AirConditioner"],
+  "requiredPrimitives": [],
+  "discovery": [],
+  "operations": {},
+  "notes": "Reference bridge to the proven Gree LAN implementation. The app facade falls back to the native Gree adapter until encrypted bind/state/control can be expressed completely by declarative primitives."
+}
