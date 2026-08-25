@@ -1,57 +1,64 @@
 {
   "schemaVersion":1,
   "id":"wifi-tv-modern",
-  "name":"Modern Dark Wi-Fi TV",
+  "name":"Modern TV · Midnight",
   "deviceTypeId":"television",
   "connections":["wifi"],
   "renderer":"declarative",
   "columns":4,
-  "backgroundColor":"#111417",
-  "foregroundColor":"#F4F6F8",
-  "buttonColor":"#242A30",
-  "buttonTextColor":"#FFFFFF",
-  "borderColor":"#505861",
-  "buttonCornerRadius":6,
+  "backgroundColor":"#0B0F14",
+  "foregroundColor":"#F5F7FA",
+  "mutedTextColor":"#8E9AA8",
+  "surfaceColor":"#141A22",
+  "accentColor":"#72C7F2",
+  "buttonColor":"#1D2631",
+  "buttonTextColor":"#F7FAFC",
+  "borderColor":"#2D3947",
+  "buttonCornerRadius":10,
+  "sectionCornerRadius":16,
+  "buttonHeight":58,
+  "buttonFontSize":11,
+  "iconFontSize":25,
   "sections":[
-    {"controls":[
-      {"label":"POWER","command":"power","icon":"⏻","backgroundColor":"#3A2525"},
-      {"label":"MENU","command":"menu","icon":"☰","columnSpan":2},
-      {"label":"MUTE","command":"mute","icon":"🔇"},
-      {"label":"SRC","command":"source","icon":"↪"},
-      {"label":"INFO","command":"info","icon":"ⓘ","columnSpan":2},
-      {"label":"GUIDE","command":"guide","icon":"▤"}
+    {"subtitle":"Quick controls","controls":[
+      {"type":"tile","label":"POWER","command":"power","icon":"⏻","backgroundColor":"#352024","borderColor":"#6A343C"},
+      {"type":"tile","label":"MENU","command":"menu","icon":"☰"},
+      {"type":"tile","label":"INFO","command":"info","icon":"ⓘ"},
+      {"type":"tile","label":"MUTE","command":"mute","icon":"🔇"},
+      {"type":"tile","label":"SOURCE","command":"source","icon":"▣","columnSpan":2},
+      {"type":"tile","label":"GUIDE","command":"guide","icon":"▤","columnSpan":2}
     ]},
-    {"title":"Volume / Navigation / Channel","controls":[
-      {"label":"VOL +","command":"volumeUp","icon":"＋"},
-      {"label":"▲","command":"up","columnSpan":2},
-      {"label":"CH +","command":"channelUp","icon":"＋"},
-      {"label":"VOL −","command":"volumeDown","icon":"−"},
-      {"label":"◀","command":"left"},
-      {"label":"OK","command":"ok"},
-      {"label":"▶","command":"right"},
-      {"label":"BACK","command":"back","icon":"↩"},
-      {"label":"▼","command":"down","columnSpan":2},
-      {"label":"CH −","command":"channelDown","icon":"−"}
+    {"title":"NAVIGATION","subtitle":"Volume · direction · channel","backgroundColor":"#111820","controls":[
+      {"type":"tile","label":"VOL +","command":"volumeUp","icon":"＋","height":64},
+      {"type":"tile","label":"","command":"up","icon":"▲","iconOnly":true,"iconSize":29,"columnSpan":2,"height":64},
+      {"type":"tile","label":"CH +","command":"channelUp","icon":"＋","height":64},
+      {"type":"tile","label":"VOL −","command":"volumeDown","icon":"−","height":64},
+      {"type":"tile","label":"","command":"left","icon":"◀","iconOnly":true,"iconSize":28,"height":64},
+      {"type":"tile","label":"OK","command":"ok","icon":"●","backgroundColor":"#173E52","borderColor":"#397C9D","iconSize":17,"height":64},
+      {"type":"tile","label":"","command":"right","icon":"▶","iconOnly":true,"iconSize":28,"height":64},
+      {"type":"tile","label":"BACK","command":"back","icon":"↩","height":64},
+      {"type":"tile","label":"","command":"down","icon":"▼","iconOnly":true,"iconSize":29,"columnSpan":2,"height":64},
+      {"type":"tile","label":"CH −","command":"channelDown","icon":"−","height":64}
     ]},
-    {"title":"Colour keys","controls":[
-      {"label":"RED","command":"red","backgroundColor":"#8E2F2F"},
-      {"label":"GREEN","command":"green","backgroundColor":"#286E3A"},
-      {"label":"YELLOW","command":"yellow","backgroundColor":"#8A6D16"},
-      {"label":"BLUE","command":"blue","backgroundColor":"#28558C"}
+    {"title":"COLOUR KEYS","controls":[
+      {"type":"tile","label":"RED","command":"red","icon":"●","backgroundColor":"#3B2027","borderColor":"#7D3C49"},
+      {"type":"tile","label":"GREEN","command":"green","icon":"●","backgroundColor":"#18372B","borderColor":"#347356"},
+      {"type":"tile","label":"YELLOW","command":"yellow","icon":"●","backgroundColor":"#3A321A","borderColor":"#7D6B32"},
+      {"type":"tile","label":"BLUE","command":"blue","icon":"●","backgroundColor":"#172F48","borderColor":"#356895"}
     ]},
-    {"title":"Functions","controls":[
-      {"label":"CHANNEL LIST","command":"channelList","icon":"☷","columnSpan":2},
-      {"label":"HOME","command":"home","icon":"⌂","columnSpan":2},
-      {"label":"EXIT","command":"exit","icon":"↪","columnSpan":2},
-      {"label":"SUBTITLE","command":"subtitle","icon":"▱","columnSpan":2}
+    {"title":"TV","controls":[
+      {"type":"tile","label":"CHANNEL LIST","command":"channelList","icon":"☷","columnSpan":2},
+      {"type":"tile","label":"HOME","command":"home","icon":"⌂","columnSpan":2},
+      {"type":"tile","label":"EXIT","command":"exit","icon":"↪","columnSpan":2},
+      {"type":"tile","label":"SUBTITLE","command":"subtitle","icon":"▱","columnSpan":2}
     ]},
-    {"title":"Media","controls":[
-      {"label":"⏪","command":"rewind"},
-      {"label":"▶","command":"play"},
-      {"label":"Ⅱ","command":"pause"},
-      {"label":"⏩","command":"fastForward"},
-      {"label":"● REC","command":"record","backgroundColor":"#4A2525","columnSpan":2},
-      {"label":"■ STOP","command":"stop","columnSpan":2}
+    {"title":"MEDIA","controls":[
+      {"type":"tile","label":"","command":"rewind","icon":"⏪","iconOnly":true},
+      {"type":"tile","label":"","command":"play","icon":"▶","iconOnly":true},
+      {"type":"tile","label":"","command":"pause","icon":"Ⅱ","iconOnly":true},
+      {"type":"tile","label":"","command":"fastForward","icon":"⏩","iconOnly":true},
+      {"type":"tile","label":"STOP","command":"stop","icon":"■","columnSpan":2},
+      {"type":"tile","label":"OPTIONS","command":"tools","icon":"⚙","columnSpan":2}
     ]}
   ]
 }
