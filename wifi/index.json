@@ -1,5 +1,9 @@
 {
   "schemaVersion": 1,
-  "drivers": [],
-  "profiles": []
+  "drivers": [
+    { "id": "gree-native-v1", "version": 1, "path": "protocols/gree-native-v1.json", "sha256": "", "status": "stable" }
+  ],
+  "profiles": [
+    { "id": "gree-generic-lan", "path": "devices/climate/gree/generic-lan.json", "sha256": "" }
+  ]
 }
