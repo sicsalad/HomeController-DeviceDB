@@ -33,6 +33,7 @@ jobs:
           PUBLISHED_UTC="$(date -u +'%Y-%m-%dT%H:%M:%SZ')"
           PATCH_NOTE="$(git log -1 --pretty=%B | sed '/^[[:space:]]*$/d' | head -c 1500)"
           if [ -z "$PATCH_NOTE" ]; then PATCH_NOTE="DeviceDB content updated."; fi
+          export PATCH_NOTE
 
           python3 - <<PY
           import json, os
