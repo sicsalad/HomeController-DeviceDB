@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "default",
+  "name": "Default",
+  "mode": "light",
+  "minimumRuntimeVersion": 1,
+  "colors": {
+    "Primary": "#4CAF50", "PrimaryDark": "#388E3C", "PrimaryLight": "#A5D6A7", "PrimaryDarkText": "#1B5E20",
+    "Secondary": "#E8F5E9", "SecondaryDarkText": "#2E7D32", "Tertiary": "#1B5E20",
+    "White": "#FFFFFF", "Black": "#000000", "Gray100": "#E1E1E1", "Gray200": "#C8C8C8", "Gray300": "#ACACAC",
+    "Gray400": "#919191", "Gray500": "#6E6E6E", "Gray600": "#404040", "Gray900": "#212121", "Gray950": "#141414",
+    "BlueEyePrimary": "#0084D0", "BlueEyePrimaryDark": "#005A96", "BlueEyePrimaryLight": "#4DB8FF",
+    "BlueEyeDarkBg": "#0D1B2A", "BlueEyeSurface": "#132F4C", "BlueEyeAccent": "#0084D0"
+  }
+}
