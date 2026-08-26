@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.9",
-  "versionCode": 1787780527,
-  "publishedUtc": "2026-08-26T21:42:07Z",
-  "commit": "2cf4359e1784bb0967e1b207d5182307e4b8b39e",
-  "patchNotes": "Register Hubitat and Philips Hue DeviceDB UI themes"
+  "version": "1.0.10",
+  "versionCode": 1787780537,
+  "publishedUtc": "2026-08-26T21:42:17Z",
+  "commit": "07b3faefece993032af73580eb8e5cb9eadc24d9",
+  "patchNotes": "Refine Red Eye to muted black red magenta palette"
 }
