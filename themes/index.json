@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "themes": [
+    { "id": "default", "name": "Default", "file": "default.json", "minimumRuntimeVersion": 1 },
+    { "id": "blue-eye", "name": "Blue Eye", "file": "blue-eye.json", "minimumRuntimeVersion": 1 },
+    { "id": "red-eye", "name": "Red Eye", "file": "red-eye.json", "minimumRuntimeVersion": 1 }
+  ]
+}
