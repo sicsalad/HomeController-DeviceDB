@@ -12,6 +12,12 @@
       "versionCode": 1787780475,
       "publishedUtc": "2026-08-26T21:41:15Z",
       "notes": "Add Philips Hue default DeviceDB UI template"
+    },
+    {
+      "version": "1.0.6",
+      "versionCode": 1787780491,
+      "publishedUtc": "2026-08-26T21:41:31Z",
+      "notes": "Add Red Eye Hubitat DeviceDB UI template"
     }
   ]
 }
