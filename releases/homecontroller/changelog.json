@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "releases": [
+    {
+      "version": "1.0.339",
+      "versionCode": 1787755850,
+      "publishedUtc": "2026-08-26T14:54:45Z",
+      "notes": "Android signing fingerprint reporting and UltimateHomeApps package identity preparation."
+    }
+  ]
+}
