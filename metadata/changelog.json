@@ -84,6 +84,12 @@
       "versionCode": 1787787390,
       "publishedUtc": "2026-08-26T23:36:30Z",
       "notes": "Separate app themes from device UI layouts"
+    },
+    {
+      "version": "1.0.22",
+      "versionCode": 1787787428,
+      "publishedUtc": "2026-08-26T23:37:08Z",
+      "notes": "Remove app-theme-specific Hue UI template"
     }
   ]
 }
