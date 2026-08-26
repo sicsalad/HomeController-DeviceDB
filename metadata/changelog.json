@@ -72,6 +72,12 @@
       "versionCode": 1787787361,
       "publishedUtc": "2026-08-26T23:36:01Z",
       "notes": "Add grid Philips Hue UI layout"
+    },
+    {
+      "version": "1.0.17",
+      "versionCode": 1787787378,
+      "publishedUtc": "2026-08-26T23:36:18Z",
+      "notes": "Add round button TV remote UI"
     }
   ]
 }
