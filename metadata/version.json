@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.23",
-  "versionCode": 1787787492,
-  "publishedUtc": "2026-08-26T23:38:12Z",
-  "commit": "2e0d1dddc7754b52b912d3d06e32323155643ed2",
-  "patchNotes": "Document item-type layouts and round DeviceDB controls"
+  "version": "1.0.24",
+  "versionCode": 1787787569,
+  "publishedUtc": "2026-08-26T23:39:29Z",
+  "commit": "4797aecf32df7acdef0a37499a51ab7249f35056",
+  "patchNotes": "Add round button Wi-Fi TV remote UI"
 }

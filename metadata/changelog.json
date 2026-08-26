@@ -96,6 +96,12 @@
       "versionCode": 1787787492,
       "publishedUtc": "2026-08-26T23:38:12Z",
       "notes": "Document item-type layouts and round DeviceDB controls"
+    },
+    {
+      "version": "1.0.24",
+      "versionCode": 1787787569,
+      "publishedUtc": "2026-08-26T23:39:29Z",
+      "notes": "Add round button Wi-Fi TV remote UI"
     }
   ]
 }
