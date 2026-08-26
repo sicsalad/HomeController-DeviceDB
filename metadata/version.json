@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.7",
-  "versionCode": 1787780499,
-  "publishedUtc": "2026-08-26T21:41:39Z",
-  "commit": "0d422575e23ab8a732c7560c3343fd6e189d7ec4",
-  "patchNotes": "Add Blue Eye Philips Hue DeviceDB UI template"
+  "version": "1.0.8",
+  "versionCode": 1787780516,
+  "publishedUtc": "2026-08-26T21:41:56Z",
+  "commit": "2a4b63125ee15dfa014d4e14f1f77b528938da25",
+  "patchNotes": "Add Red Eye Philips Hue DeviceDB UI template"
 }
