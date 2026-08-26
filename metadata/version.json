@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.15",
-  "versionCode": 1787787349,
-  "publishedUtc": "2026-08-26T23:35:49Z",
-  "commit": "53b55ab9d986e94e85dbaad3c96a4d31090e2dbc",
-  "patchNotes": "Add compact Hubitat UI layout"
+  "version": "1.0.16",
+  "versionCode": 1787787361,
+  "publishedUtc": "2026-08-26T23:36:01Z",
+  "commit": "ed7ba7ee3b313214db3ad851676504763b011f26",
+  "patchNotes": "Add grid Philips Hue UI layout"
 }
