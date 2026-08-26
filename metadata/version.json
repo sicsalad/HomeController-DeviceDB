@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.8",
-  "versionCode": 1787780516,
-  "publishedUtc": "2026-08-26T21:41:56Z",
-  "commit": "2a4b63125ee15dfa014d4e14f1f77b528938da25",
-  "patchNotes": "Add Red Eye Philips Hue DeviceDB UI template"
+  "version": "1.0.9",
+  "versionCode": 1787780527,
+  "publishedUtc": "2026-08-26T21:42:07Z",
+  "commit": "2cf4359e1784bb0967e1b207d5182307e4b8b39e",
+  "patchNotes": "Register Hubitat and Philips Hue DeviceDB UI themes"
 }
