@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "releases": [
+    {
+      "version": "1.0.1",
+      "versionCode": 1,
+      "publishedUtc": "2026-08-26T15:25:00Z",
+      "notes": "Initial versioned DeviceDB metadata and patch-note channel."
+    }
+  ]
+}
