@@ -48,6 +48,12 @@
       "versionCode": 1787780588,
       "publishedUtc": "2026-08-26T21:43:08Z",
       "notes": "Document HomeController themes and DeviceDB UI templates"
+    },
+    {
+      "version": "1.0.12",
+      "versionCode": 1787780602,
+      "publishedUtc": "2026-08-26T21:43:22Z",
+      "notes": "Link theme and UI template documentation"
     }
   ]
 }

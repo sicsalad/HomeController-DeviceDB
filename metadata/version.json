@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.11",
-  "versionCode": 1787780588,
-  "publishedUtc": "2026-08-26T21:43:08Z",
-  "commit": "c51f9830eb6af1f1423904f85118c44a5f3f7526",
-  "patchNotes": "Document HomeController themes and DeviceDB UI templates"
+  "version": "1.0.12",
+  "versionCode": 1787780602,
+  "publishedUtc": "2026-08-26T21:43:22Z",
+  "commit": "53f376a9349f244f798525cae97bd3d1963f9180",
+  "patchNotes": "Link theme and UI template documentation"
 }
