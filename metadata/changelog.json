@@ -18,6 +18,12 @@
       "versionCode": 1787780491,
       "publishedUtc": "2026-08-26T21:41:31Z",
       "notes": "Add Red Eye Hubitat DeviceDB UI template"
+    },
+    {
+      "version": "1.0.7",
+      "versionCode": 1787780499,
+      "publishedUtc": "2026-08-26T21:41:39Z",
+      "notes": "Add Blue Eye Philips Hue DeviceDB UI template"
     }
   ]
 }
