@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.22",
-  "versionCode": 1787787428,
-  "publishedUtc": "2026-08-26T23:37:08Z",
-  "commit": "b78f770cdb29f4e3dcd2164f26581efd21af0298",
-  "patchNotes": "Remove app-theme-specific Hue UI template"
+  "version": "1.0.23",
+  "versionCode": 1787787492,
+  "publishedUtc": "2026-08-26T23:38:12Z",
+  "commit": "2e0d1dddc7754b52b912d3d06e32323155643ed2",
+  "patchNotes": "Document item-type layouts and round DeviceDB controls"
 }

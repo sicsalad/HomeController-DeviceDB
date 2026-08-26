@@ -90,6 +90,12 @@
       "versionCode": 1787787428,
       "publishedUtc": "2026-08-26T23:37:08Z",
       "notes": "Remove app-theme-specific Hue UI template"
+    },
+    {
+      "version": "1.0.23",
+      "versionCode": 1787787492,
+      "publishedUtc": "2026-08-26T23:38:12Z",
+      "notes": "Document item-type layouts and round DeviceDB controls"
     }
   ]
 }
