@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.17",
-  "versionCode": 1787787378,
-  "publishedUtc": "2026-08-26T23:36:18Z",
-  "commit": "140000db72a4a9e228d876f022924c5ab855e003",
-  "patchNotes": "Add round button TV remote UI"
+  "version": "1.0.18",
+  "versionCode": 1787787390,
+  "publishedUtc": "2026-08-26T23:36:30Z",
+  "commit": "942c12b5269a48b252fe2f0efcbda31f53171210",
+  "patchNotes": "Separate app themes from device UI layouts"
 }
