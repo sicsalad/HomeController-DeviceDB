@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.1",
-  "versionCode": 1,
-  "publishedUtc": "2026-08-26T15:25:00Z",
-  "commit": "f2291cb529d20e8a65b87454fb81e52ed5c8ae52",
-  "patchNotes": "Initial versioned DeviceDB metadata and patch-note channel."
+  "version": "1.0.4",
+  "versionCode": 1787780475,
+  "publishedUtc": "2026-08-26T21:41:15Z",
+  "commit": "c7ea2a909093f696e05b4a5bed454930d8818234",
+  "patchNotes": "Add Philips Hue default DeviceDB UI template"
 }
