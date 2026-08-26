@@ -2,7 +2,7 @@
 
 `HomeController-DeviceDB` is the public, app-independent registry used by HomeController.
 
-The database is deliberately broader than infrared. A device may eventually expose IR, LAN/Wi-Fi, Bluetooth, Matter, Zigbee, MQTT or other control methods. The v1 runtime starts with infrared.
+The database is deliberately broader than infrared. A device may expose IR, LAN/Wi-Fi, Bluetooth, Matter, Zigbee, MQTT or other control methods. The current runtime includes infrared plus selected local integrations such as Hubitat and Philips Hue.
 
 ## Structure
 
@@ -11,14 +11,28 @@ The database is deliberately broader than infrared. A device may eventually expo
 - `devices/` – curated model definitions.
 - `generated/` – automatically normalized community captures.
 - `protocols/` – reusable protocol metadata.
-- `schemas/` – schema documentation.
+- `device-types.json` – DeviceType registry and default UI-template mapping.
+- `ui-templates/` – DeviceDB-driven device UI definitions and visual themes.
+- `themes/` – application-wide color themes.
+- `schemas/` – schema and JSON authoring documentation.
 - `tools/` – import/normalization tools.
+
+## Theme and Device UI authoring
+
+See [`schemas/THEMES_AND_UI_TEMPLATES.md`](schemas/THEMES_AND_UI_TEMPLATES.md) for the complete English reference for:
+
+- application color-theme JSON,
+- DeviceType JSON fields,
+- declarative Device UI templates and controls,
+- Hubitat and Philips Hue DeviceDB UI templates,
+- the device UI switcher styling fields,
+- premium custom-source `index.json` files containing `themes`, `templates` and `deviceTypes`.
 
 ## Updating the open database
 
 A GitHub Actions workflow imports useful TV and A/C captures from `Lucaslhm/Flipper-IRDB`, normalizes only protocols the HomeController runtime can actually transmit, rejects very sparse captures, merges the result with curated entries, and publishes the generated model JSON files plus a new `database.json`.
 
-Because the app reads this repository at runtime, a new model that uses an already supported protocol can become available without publishing a new APK.
+Because the app reads this repository at runtime, a new model that uses an already supported protocol can become available without publishing a new APK. Device UI templates and application themes can likewise be added to the public catalogs without hard-coding their visual values into the app when the runtime already supports the renderer/fields they use.
 
 ## Runtime protocol coverage in HomeController v1
 
