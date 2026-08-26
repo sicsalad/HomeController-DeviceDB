@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "codes": [
+    {
+      "guid": "5b03d0d1-0177-453c-9b7e-5063865db764",
+      "type": "days",
+      "value": 30,
+      "maxActivations": 1,
+      "description": "Initial HomeController premium test code"
+    }
+  ]
+}
