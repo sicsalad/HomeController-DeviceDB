@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.10",
-  "versionCode": 1787780537,
-  "publishedUtc": "2026-08-26T21:42:17Z",
-  "commit": "07b3faefece993032af73580eb8e5cb9eadc24d9",
-  "patchNotes": "Refine Red Eye to muted black red magenta palette"
+  "version": "1.0.11",
+  "versionCode": 1787780588,
+  "publishedUtc": "2026-08-26T21:43:08Z",
+  "commit": "c51f9830eb6af1f1423904f85118c44a5f3f7526",
+  "patchNotes": "Document HomeController themes and DeviceDB UI templates"
 }
