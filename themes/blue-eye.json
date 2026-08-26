@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "blue-eye",
+  "name": "Blue Eye",
+  "mode": "dark",
+  "minimumRuntimeVersion": 1,
+  "colors": {
+    "Primary": "#0084D0", "PrimaryDark": "#005A96", "PrimaryLight": "#4DB8FF", "PrimaryDarkText": "#D9F1FF",
+    "Secondary": "#132F4C", "SecondaryDarkText": "#B8E4FF", "Tertiary": "#17D9E6",
+    "White": "#FFFFFF", "Black": "#07111D", "Gray100": "#E1E1E1", "Gray200": "#C8C8C8", "Gray300": "#ACACAC",
+    "Gray400": "#919191", "Gray500": "#55708B", "Gray600": "#38516B", "Gray900": "#102235", "Gray950": "#0B1725",
+    "BlueEyePrimary": "#0084D0", "BlueEyePrimaryDark": "#005A96", "BlueEyePrimaryLight": "#4DB8FF",
+    "BlueEyeDarkBg": "#0D1B2A", "BlueEyeSurface": "#132F4C", "BlueEyeAccent": "#0084D0"
+  }
+}
