@@ -25,9 +25,19 @@
       "icon": "🏠",
       "connections": ["wifi"],
       "databaseTypeNames": [],
-      "sourcePathHints": ["HubitatMakerApi"],
+      "sourcePathHints": ["HubitatMakerApi", "Hubitat"],
       "defaultUiTemplates": { "wifi": "hubitat-default" },
       "setupHandler": "hubitat"
+    },
+    {
+      "id": "philips-hue",
+      "displayName": "Philips Hue",
+      "icon": "💡",
+      "connections": ["wifi"],
+      "databaseTypeNames": [],
+      "sourcePathHints": ["PhilipsHueV2", "Philips Hue", "Hue"],
+      "defaultUiTemplates": { "wifi": "hue-default" },
+      "setupHandler": "philips-hue"
     },
     {
       "id": "general",
