@@ -60,6 +60,12 @@
       "versionCode": 1787787326,
       "publishedUtc": "2026-08-26T23:35:26Z",
       "notes": "Define neutral Hue DeviceDB layout defaults"
+    },
+    {
+      "version": "1.0.15",
+      "versionCode": 1787787349,
+      "publishedUtc": "2026-08-26T23:35:49Z",
+      "notes": "Add compact Hubitat UI layout"
     }
   ]
 }

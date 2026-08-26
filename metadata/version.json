@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.14",
-  "versionCode": 1787787326,
-  "publishedUtc": "2026-08-26T23:35:26Z",
-  "commit": "def4201e0eaddc6dbdd4e4b1741a342eb0ed97fb",
-  "patchNotes": "Define neutral Hue DeviceDB layout defaults"
+  "version": "1.0.15",
+  "versionCode": 1787787349,
+  "publishedUtc": "2026-08-26T23:35:49Z",
+  "commit": "53b55ab9d986e94e85dbaad3c96a4d31090e2dbc",
+  "patchNotes": "Add compact Hubitat UI layout"
 }
