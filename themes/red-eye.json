@@ -5,11 +5,11 @@
   "mode": "dark",
   "minimumRuntimeVersion": 1,
   "colors": {
-    "Primary": "#8F2333", "PrimaryDark": "#5B111C", "PrimaryLight": "#B64B59", "PrimaryDarkText": "#F1D6D6",
-    "Secondary": "#2B1518", "SecondaryDarkText": "#D7A4A8", "Tertiary": "#7A1F2C",
-    "White": "#E9D7D7", "Black": "#100707", "Gray100": "#D6C2C2", "Gray200": "#BFA6A6", "Gray300": "#9C8080",
-    "Gray400": "#806363", "Gray500": "#674A4A", "Gray600": "#4B3030", "Gray900": "#211010", "Gray950": "#160A0A",
-    "BlueEyePrimary": "#8F2333", "BlueEyePrimaryDark": "#5B111C", "BlueEyePrimaryLight": "#B64B59",
-    "BlueEyeDarkBg": "#160A0A", "BlueEyeSurface": "#2B1518", "BlueEyeAccent": "#7A1F2C"
+    "Primary": "#722536", "PrimaryDark": "#44141F", "PrimaryLight": "#91405A", "PrimaryDarkText": "#FFFFFF",
+    "Secondary": "#211217", "SecondaryDarkText": "#C59AA8", "Tertiary": "#672044",
+    "White": "#EFE6E9", "Black": "#090708", "Gray100": "#D2C5C9", "Gray200": "#B7A4AA", "Gray300": "#958087",
+    "Gray400": "#786168", "Gray500": "#60484F", "Gray600": "#433036", "Gray900": "#1A1215", "Gray950": "#0D0A0B",
+    "BlueEyePrimary": "#722536", "BlueEyePrimaryDark": "#44141F", "BlueEyePrimaryLight": "#91405A",
+    "BlueEyeDarkBg": "#0D0A0B", "BlueEyeSurface": "#1A1215", "BlueEyeAccent": "#672044"
   }
 }
