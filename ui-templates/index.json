@@ -10,6 +10,7 @@
     {"id":"hue-grid","path":"hue-grid.json","status":"stable"},
     {"id":"wifi-ac-default","path":"wifi-ac-default.json","status":"stable"},
     {"id":"wifi-tv-default","path":"wifi-tv-default.json","status":"stable"},
+    {"id":"wifi-tv-round","path":"wifi-tv-round.json","status":"stable"},
     {"id":"ir-ac-modern","path":"ir-ac-modern.json","status":"stable"},
     {"id":"wifi-ac-modern","path":"wifi-ac-modern.json","status":"stable"},
     {"id":"ir-tv-modern","path":"ir-tv-modern.json","status":"stable"},
