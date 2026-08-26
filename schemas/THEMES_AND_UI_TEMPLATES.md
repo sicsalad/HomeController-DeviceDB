@@ -1,23 +1,23 @@
 # HomeController themes and Device UI templates
 
-This document describes the JSON files understood by the HomeController theme and DeviceDB UI-template runtime.
+This document describes the JSON customization formats supported by HomeController.
 
-There are two independent customization layers:
+## 1. Application themes and Device UI templates are separate
 
-1. **Application themes** (`themes/*.json`) change application-wide resource colors such as Primary, surfaces and gray shades.
-2. **Device UI templates** (`ui-templates/*.json`) control the appearance and, for declarative devices, the layout and controls of a specific device type.
+HomeController has two independent customization layers:
 
-A user can also configure a premium custom source URL in HomeController Settings. That URL must point to an `index.json`. Custom sources are additive: the built-in public DeviceDB remains available. Custom sources require an actively enabled Premium entitlement; the Premium grace period does not enable this feature.
+- **Application themes** (`themes/*.json`) change application-wide colors and light/dark mode. `Default`, `Blue Eye` and `Red Eye` belong here.
+- **Device UI templates** (`ui-templates/*.json`) define the layout and presentation of one device type. Device UI choices should describe layouts such as `Default`, `Compact`, `Grid`, `Modern` or `Round`; they are not copies of the application color themes.
 
-## 1. Application theme JSON
+Changing an application theme must not change which Device UI template is selected. A Device UI template may omit colors entirely so that it follows the current application theme/fallback appearance.
 
-Example:
+## 2. Application theme JSON
 
 ```json
 {
   "schemaVersion": 1,
-  "id": "my-dark-theme",
-  "name": "My Dark Theme",
+  "id": "my-theme",
+  "name": "My Theme",
   "mode": "dark",
   "minimumRuntimeVersion": 1,
   "colors": {
@@ -37,63 +37,27 @@ Example:
     "Gray500": "#6E6E6E",
     "Gray600": "#404040",
     "Gray900": "#212121",
-    "Gray950": "#141414",
-    "BlueEyePrimary": "#365E91",
-    "BlueEyePrimaryDark": "#243E60",
-    "BlueEyePrimaryLight": "#769BC7",
-    "BlueEyeDarkBg": "#0E141B",
-    "BlueEyeSurface": "#18212B",
-    "BlueEyeAccent": "#557FAF"
+    "Gray950": "#141414"
   }
 }
 ```
 
-### Application-theme fields
+Theme fields:
 
 | Field | Type | Meaning |
 | --- | --- | --- |
-| `schemaVersion` | integer | Must currently be `1`. |
-| `id` | string | Stable unique theme identifier. The file selected from the catalog must contain the same ID. |
-| `name` | string | User-visible theme name. |
-| `mode` | string | `light` or `dark`. Controls the MAUI application theme mode. |
-| `minimumRuntimeVersion` | integer | Theme is offered only when the HomeController runtime is at least this version. Current runtime version is 1. |
-| `colors` | object | Resource-name to color-value map. Values must be valid MAUI/ARGB colors, normally `#RRGGBB` or `#AARRGGBB`. |
+| `schemaVersion` | integer | Currently `1`. |
+| `id` | string | Stable unique ID. |
+| `name` | string | User-visible name. |
+| `mode` | string | `light` or `dark`. |
+| `minimumRuntimeVersion` | integer | Minimum compatible HomeController runtime. |
+| `colors` | object | Application resource name to MAUI color value. `#RRGGBB` or `#AARRGGBB` is recommended. |
 
-The runtime applies every entry in `colors` to `Application.Current.Resources`, so custom themes may override additional existing color resources. For compatibility, custom themes should at least provide the standard keys used by the built-in themes:
+The theme catalog is `themes/index.json` and contains `id`, `name`, `file` and `minimumRuntimeVersion` for each application theme.
 
-- `Primary`, `PrimaryDark`, `PrimaryLight`, `PrimaryDarkText`
-- `Secondary`, `SecondaryDarkText`, `Tertiary`
-- `White`, `Black`
-- `Gray100`, `Gray200`, `Gray300`, `Gray400`, `Gray500`, `Gray600`, `Gray900`, `Gray950`
-- `BlueEyePrimary`, `BlueEyePrimaryDark`, `BlueEyePrimaryLight`, `BlueEyeDarkBg`, `BlueEyeSurface`, `BlueEyeAccent`
-
-If `PrimaryDark` is present, HomeController automatically derives a high-contrast `PrimaryDarkText` at runtime. Dark backgrounds therefore receive white text when needed.
-
-### Application theme catalog
-
-The built-in catalog is `themes/index.json`:
-
-```json
-{
-  "schemaVersion": 1,
-  "themes": [
-    {
-      "id": "my-dark-theme",
-      "name": "My Dark Theme",
-      "file": "my-dark-theme.json",
-      "minimumRuntimeVersion": 1
-    }
-  ]
-}
-```
-
-`file` is resolved relative to the catalog's base URL.
-
-## 2. Device type JSON
+## 3. Device types
 
 Device types are registered in `device-types.json`.
-
-Example:
 
 ```json
 {
@@ -103,201 +67,295 @@ Example:
   "connections": ["wifi"],
   "databaseTypeNames": [],
   "sourcePathHints": ["PhilipsHueV2", "Philips Hue", "Hue"],
-  "defaultUiTemplates": {
-    "wifi": "hue-default"
-  },
+  "defaultUiTemplates": { "wifi": "hue-default" },
   "setupHandler": "philips-hue"
 }
 ```
 
-### Device-type fields
+| Field | Meaning |
+| --- | --- |
+| `id` | Stable device type ID used by UI templates. |
+| `displayName` | User-visible type name. |
+| `icon` | Emoji/text icon. |
+| `connections` | Supported connection names: normally `infrared`, `wifi`, `bluetooth`. |
+| `databaseTypeNames` | Device-database category aliases. May be empty for integrations. |
+| `sourcePathHints` | Hints for identifying older saved devices. |
+| `defaultUiTemplates` | Connection name to default UI-template ID. |
+| `setupHandler` | Optional built-in setup flow. |
 
-| Field | Type | Meaning |
-| --- | --- | --- |
-| `id` | string | Stable DeviceType ID used by templates. |
-| `displayName` | string | User-visible type name. |
-| `icon` | string | Emoji/text icon displayed by the application. |
-| `connections` | string[] | Supported connections. Currently commonly `infrared`, `wifi`, or `bluetooth`. |
-| `databaseTypeNames` | string[] | Names used when mapping the type to device-database categories. May be empty for integrations such as Hubitat and Hue. |
-| `sourcePathHints` | string[] | Case-insensitive hints used to resolve older/saved devices to this DeviceType. |
-| `defaultUiTemplates` | object | Connection name to default UI-template ID. Example: `{ "wifi": "hubitat-default" }`. |
-| `setupHandler` | string | Optional built-in setup-flow identifier. |
+For built-in integrations, driver identity can also be authoritative. For example, `PhilipsHueV2` resolves to `philips-hue` and `HubitatMakerApi` resolves to `hubitat`, including devices saved by older HomeController versions as `general`.
 
-## 3. Device UI template JSON
+## 4. Device UI template top-level fields
+
+```json
+{
+  "schemaVersion": 1,
+  "id": "hue-grid",
+  "name": "Philips Hue Grid",
+  "deviceTypeId": "philips-hue",
+  "connections": ["wifi"],
+  "renderer": "builtin-hue",
+  "columns": 2,
+  "buttonCornerRadius": 12,
+  "sectionCornerRadius": 12,
+  "buttonHeight": 48,
+  "buttonFontSize": 12,
+  "iconFontSize": 20,
+  "itemDefaults": { "columns": 2, "displayMode": "card" },
+  "itemStyles": {
+    "scene": { "columns": 3, "displayMode": "compact" }
+  },
+  "sections": []
+}
+```
+
+Supported top-level fields:
+
+| Field | Meaning |
+| --- | --- |
+| `schemaVersion` | Currently `1`. |
+| `id` | Stable unique template ID. |
+| `name` | Name shown by the device `UI` selector. |
+| `deviceTypeId` | Target device type, e.g. `television`, `air-conditioner`, `hubitat`, `philips-hue`. |
+| `connections` | Connections for which the template is selectable. |
+| `renderer` | Rendering engine. See below. |
+| `columns` | General grid column count. |
+| `backgroundColor` | Optional page background. |
+| `foregroundColor` | Optional primary text color. |
+| `mutedTextColor` | Optional secondary/status text color. |
+| `surfaceColor` | Optional cards/sections background. |
+| `accentColor` | Optional active/selected color. |
+| `buttonColor` | Optional default control background. |
+| `buttonTextColor` | Optional control text color. When omitted, supported renderers choose black or white from background luminance. |
+| `borderColor` | Optional border color. |
+| `themeSwitcherBackgroundColor` | Optional background for the small `UI` selector beside the device title. |
+| `themeSwitcherTextColor` | Optional selector text color. |
+| `themeSwitcherBorderColor` | Optional selector border color. |
+| `themeSwitcherText` | Selector caption; default `UI`. |
+| `themeSwitcherOpacity` | Selector opacity. |
+| `buttonCornerRadius` | Default control corner radius. |
+| `sectionCornerRadius` | Default card/section corner radius. |
+| `buttonHeight` | Default control height. |
+| `buttonFontSize` | Default control text size. |
+| `iconFontSize` | Default icon size. |
+| `itemDefaults` | General style/layout for dynamically discovered Hue/Hubitat items. |
+| `itemStyles` | Item-type/category-specific overrides. |
+| `sections` | Declarative sections and controls. |
+
+All visual colors are optional. Omitting them is recommended for a neutral/default Device UI that follows the normal HomeController appearance.
+
+### Renderers
+
+- `declarative`: controls and layout come from JSON.
+- `builtin-ir-tv`: legacy built-in infrared TV page.
+- `builtin-ir-ac`: legacy built-in infrared A/C page.
+- `builtin-wifi-ac`: supported built-in Wi-Fi A/C page.
+- `builtin-hubitat`: Hubitat integration with DeviceDB layout/style configuration.
+- `builtin-hue`: Philips Hue integration with DeviceDB layout/style configuration.
+- `builtin-dashboard`: dashboard page.
+
+## 5. Dynamic item layout: `itemDefaults` and `itemStyles`
+
+Hue and Hubitat contain resources discovered at runtime, so their individual cards cannot be listed in advance like TV remote buttons. Instead, templates use two levels:
+
+1. `itemDefaults` is applied to every discovered item.
+2. If `itemStyles` contains a matching item type/category, its non-null fields override `itemDefaults`.
 
 Example:
 
 ```json
 {
-  "schemaVersion": 1,
-  "id": "hubitat-my-dark",
-  "name": "Hubitat My Dark",
-  "deviceTypeId": "hubitat",
-  "connections": ["wifi"],
-  "renderer": "builtin-hubitat",
-  "columns": 2,
-  "backgroundColor": "#0D0F12",
-  "foregroundColor": "#F4F4F4",
-  "mutedTextColor": "#A5AAB0",
-  "surfaceColor": "#171A1F",
-  "accentColor": "#7B3247",
-  "buttonColor": "#3D2029",
-  "buttonTextColor": "#FFFFFF",
-  "borderColor": "#383D44",
-  "themeSwitcherBackgroundColor": "#171A1F",
-  "themeSwitcherTextColor": "#C4C8CD",
-  "themeSwitcherBorderColor": "#383D44",
-  "themeSwitcherText": "UI",
-  "themeSwitcherOpacity": 0.72,
-  "buttonCornerRadius": 8,
-  "sectionCornerRadius": 11,
-  "buttonHeight": 54,
-  "buttonFontSize": 13,
-  "iconFontSize": 22,
-  "sections": []
+  "columns": 3,
+  "itemDefaults": {
+    "columns": 3,
+    "displayMode": "compact",
+    "showName": true,
+    "showType": false,
+    "showState": true
+  },
+  "itemStyles": {
+    "light": {
+      "columns": 2,
+      "displayMode": "card",
+      "showType": true
+    },
+    "temperature": {
+      "columns": 3,
+      "displayMode": "compact"
+    }
+  }
 }
 ```
 
-### Top-level UI-template fields
+### `DeviceUiItemStyle` fields
 
 | Field | Type | Meaning |
 | --- | --- | --- |
-| `schemaVersion` | integer | Currently `1`. |
-| `id` | string | Stable unique template ID. |
-| `name` | string | Name shown in the device UI selector. |
-| `deviceTypeId` | string | Device type this template belongs to, e.g. `hubitat`, `philips-hue`, `television`, `air-conditioner`. |
-| `connections` | string[] | Connections for which the template is selectable. |
-| `renderer` | string | Rendering engine. See renderer table below. |
-| `columns` | integer | Declarative grid column count. The Hubitat built-in renderer also uses it for the device-card grid and clamps it to 1-4. |
-| `backgroundColor` | color/null | Page background. Omit to preserve the renderer/application default. |
-| `foregroundColor` | color/null | Main text color. |
-| `mutedTextColor` | color/null | Secondary/status text color. |
-| `surfaceColor` | color/null | Cards/sections/surfaces. |
-| `accentColor` | color/null | Active/selected/accent controls. Hubitat uses it for selected categories and ON-state actions. |
-| `buttonColor` | color/null | Default button/control background. |
-| `buttonTextColor` | color/null | Explicit button text color. If omitted, supported renderers calculate black/white text from button luminance. |
-| `borderColor` | color/null | Card/button/control borders. |
-| `themeSwitcherBackgroundColor` | color/null | Background of the small device UI selector beside the device name. |
-| `themeSwitcherTextColor` | color/null | Text color of the device UI selector. |
-| `themeSwitcherBorderColor` | color/null | Border color of the device UI selector. |
-| `themeSwitcherText` | string | Selector caption. Defaults to `UI`. |
-| `themeSwitcherOpacity` | number | Selector opacity. Built-in pages clamp it to a readable range. |
-| `buttonCornerRadius` | integer | Button corner radius. |
-| `sectionCornerRadius` | integer | Section/card corner radius. |
-| `buttonHeight` | number | Default button height used by declarative and supported built-in controls. |
-| `buttonFontSize` | number | Default button/compact text size. |
-| `iconFontSize` | number | Default icon size. |
-| `sections` | array | Declarative sections. Built-in integration renderers keep their functional layout and use the visual fields above. |
+| `columns` | integer/null | Desired number of items per row for this type. The renderer derives the required column span from the section's base grid. |
+| `columnSpan` | integer/null | Explicit base-grid column span. If present, it overrides the span derived from `columns`. |
+| `displayMode` | string/null | `card`, `compact`, or `hidden`. `hidden` removes this type from the rendered list. |
+| `shape` | string/null | `rounded`, `circle`, `pill`, or `square` where the renderer supports shaped cards/actions. |
+| `backgroundColor` | color/null | Item/card/control background. |
+| `textColor` | color/null | Main item text. |
+| `mutedTextColor` | color/null | Secondary item text. |
+| `borderColor` | color/null | Border. |
+| `accentColor` | color/null | Active/accent action. |
+| `cornerRadius` | integer/null | Explicit corner radius when `shape` does not determine it. |
+| `height` | number/null | Requested item/control height. |
+| `width` | number/null | Requested fixed width. |
+| `fontSize` | number/null | Main item/control text size. |
+| `iconSize` | number/null | Icon size. |
+| `showIcon` | boolean/null | Show/hide item icon when available. |
+| `showName` | boolean/null | Show/hide item name. |
+| `showType` | boolean/null | Show/hide resource/category type text. |
+| `showState` | boolean/null | Show/hide state details. |
 
-All color fields are optional. Omitting a visual field means “use the existing renderer/application fallback”. This is how `hubitat-default` and `hue-default` preserve the original HomeController appearance.
+Per-type matching is case-insensitive. The runtime also tries a normalized key where spaces and underscores become hyphens.
 
-### Renderer values
+## 6. Philips Hue item type keys
 
-| Renderer | Device/use |
+Hue `itemStyles` can target the resource types returned by the Bridge. Common supported keys include:
+
+- `light`
+- `grouped-light` (`grouped_light` also matches exactly)
+- `scene`
+- `motion`
+- `temperature`
+- `light-level`
+- `contact`
+- `button`
+- `relative-rotary`
+- `switch-input-configuration`
+- `device-power`
+- `zigbee-connectivity`
+- `room`
+- `zone`
+- `bridge`
+- `bridge-home`
+- `entertainment-configuration`
+
+Example:
+
+```json
+"itemDefaults": {
+  "columns": 2,
+  "displayMode": "card"
+},
+"itemStyles": {
+  "scene": {
+    "columns": 3,
+    "displayMode": "compact",
+    "showType": false,
+    "showState": false
+  },
+  "temperature": {
+    "columns": 3,
+    "displayMode": "compact"
+  }
+}
+```
+
+The built-in Hue renderer keeps protocol behavior such as ON/OFF, brightness, color temperature, color presets, grouped lights and scene recall; the DeviceDB template changes their layout/presentation.
+
+## 7. Hubitat category keys
+
+Hubitat `itemStyles` keys match the category produced by HomeController's Maker API classifier. Matching is case-insensitive and also supports normalized names with spaces/underscores replaced by hyphens.
+
+Typical examples are `switch`, `dimmer`, `light`, `motion`, `contact`, `temperature` and other categories returned by the classifier. Unknown/new categories automatically fall back to `itemDefaults`, so a template remains forward compatible.
+
+Example:
+
+```json
+"itemDefaults": {
+  "columns": 3,
+  "displayMode": "compact",
+  "showType": false
+},
+"itemStyles": {
+  "dimmer": {
+    "columns": 2,
+    "displayMode": "card",
+    "showType": true
+  }
+}
+```
+
+The selected Hubitat template is carried into the detailed child-device page as well.
+
+## 8. Declarative remote sections and controls
+
+A declarative template contains sections with `title`, `subtitle`, optional `backgroundColor`, and `controls`.
+
+Supported control types currently include `button`, `tile`, `toggle`, `stepper`, `slider`, and `picker`.
+
+Control fields:
+
+| Field | Meaning |
 | --- | --- |
-| `declarative` | JSON-defined controls and sections. |
-| `builtin-ir-tv` | Existing infrared TV page. |
-| `builtin-ir-ac` | Existing infrared A/C page. |
-| `builtin-wifi-ac` | Existing supported Wi-Fi A/C page. |
-| `builtin-hubitat` | Hubitat device list and Hubitat child-device control pages. Visual styling comes from this template. |
-| `builtin-hue` | Philips Hue resources/control page. Visual styling comes from this template. |
-| `builtin-dashboard` | Dashboard page. |
+| `type` | Control type. |
+| `label` | Caption. |
+| `command` | Command dispatcher identifier. |
+| `value` | Optional fixed command value. |
+| `icon` | Optional emoji/text icon. |
+| `shape` | `rounded`, `circle`, `pill`, or `square` for buttons/tiles. |
+| `columnSpan` | Grid columns occupied. |
+| `minimum`, `maximum`, `step` | Range settings for stepper/slider controls. |
+| `stateField` | Optional associated state field. |
+| `options` | Picker options. |
+| `backgroundColor`, `textColor`, `borderColor` | Per-control visual overrides. |
+| `height` | Per-control height. For a `circle`, height defines its diameter when no separate sizing is needed. |
+| `width` | Optional fixed width. |
+| `fontSize` | Per-control text size. |
+| `iconSize` | Per-control icon size. |
+| `iconOnly` | Hide label and emphasize the icon where supported. |
 
-Built-in renderers intentionally own protocol-specific behavior. A theme changes their appearance without replacing Hubitat/Hue command logic.
-
-## 4. Declarative sections and controls
-
-A declarative template may contain:
+### Round remote example
 
 ```json
 {
-  "title": "Power",
-  "subtitle": "Main controls",
-  "backgroundColor": "#171A1F",
-  "controls": [
-    {
-      "type": "button",
-      "label": "Power",
-      "command": "power",
-      "value": null,
-      "icon": "⏻",
-      "columnSpan": 1,
-      "backgroundColor": "#3D2029",
-      "textColor": "#FFFFFF",
-      "borderColor": "#56313C",
-      "height": 54,
-      "fontSize": 13,
-      "iconSize": 22,
-      "iconOnly": false
-    }
-  ]
+  "type": "tile",
+  "label": "",
+  "command": "Power",
+  "icon": "⏻",
+  "iconOnly": true,
+  "shape": "circle",
+  "height": 60
 }
 ```
 
-### Section fields
+A pill-shaped action:
 
-- `title`: optional section heading.
-- `subtitle`: optional secondary heading.
-- `backgroundColor`: optional section-specific surface color.
-- `controls`: array of controls.
+```json
+{
+  "type": "tile",
+  "label": "BACK",
+  "command": "Back",
+  "shape": "pill",
+  "height": 54
+}
+```
 
-### Control fields
+This makes it possible to create remote layouts with circular navigation/media buttons without hard-coding a specific third-party remote design.
 
-| Field | Type | Meaning |
-| --- | --- | --- |
-| `type` | string | Control type. Defaults to `button`. Renderer support depends on the declarative runtime. |
-| `label` | string | Visible caption. |
-| `command` | string | Command identifier sent by the device command dispatcher. |
-| `value` | any/null | Optional fixed command value. |
-| `icon` | string/null | Optional icon/emoji. |
-| `columnSpan` | integer | Number of grid columns occupied. |
-| `minimum` | number/null | Minimum value for ranged controls. |
-| `maximum` | number/null | Maximum value for ranged controls. |
-| `step` | number/null | Step for ranged controls. |
-| `stateField` | string/null | Device state field associated with the control. |
-| `options` | string[] | Options for choice controls. |
-| `backgroundColor` | color/null | Per-control background override. |
-| `textColor` | color/null | Per-control text override. |
-| `borderColor` | color/null | Per-control border override. |
-| `height` | number/null | Per-control height override. |
-| `fontSize` | number/null | Per-control font-size override. |
-| `iconSize` | number/null | Per-control icon-size override. |
-| `iconOnly` | boolean | Render primarily as an icon control when supported. |
+## 9. UI-template index
 
-Per-control values override the top-level template defaults. On dark button backgrounds, HomeController can derive white text automatically when no explicit text color is supplied.
-
-## 5. UI template index
-
-The public DeviceDB uses `ui-templates/index.json`:
+`ui-templates/index.json` registers selectable Device UI templates:
 
 ```json
 {
   "schemaVersion": 1,
   "templates": [
-    {
-      "id": "hubitat-my-dark",
-      "path": "hubitat-my-dark.json",
-      "status": "stable"
-    }
+    { "id": "hue-default", "path": "hue-default.json", "status": "stable" },
+    { "id": "hue-grid", "path": "hue-grid.json", "status": "stable" }
   ]
 }
 ```
 
-The application currently uses `id` and `path`; `status` is repository metadata and defaults to `stable` in the model.
+The application uses `id` and `path`; `status` is repository metadata.
 
-## 6. Premium custom source `index.json`
+## 10. Premium custom source `index.json`
 
-A custom source can expose application themes, Device UI templates and additional/replacement DeviceTypes from one URL.
-
-Example custom source root:
-
-```text
-https://example.com/homecontroller/index.json
-https://example.com/homecontroller/themes/night.json
-https://example.com/homecontroller/ui/hubitat-night.json
-```
-
-Example `index.json`:
+A custom source URL configured in Settings must point to an `index.json`. It requires **actively enabled Premium**; the Premium grace period does not unlock it.
 
 ```json
 {
@@ -312,8 +370,8 @@ Example `index.json`:
   ],
   "templates": [
     {
-      "id": "hubitat-night",
-      "path": "ui/hubitat-night.json",
+      "id": "my-hue-layout",
+      "path": "ui/my-hue-layout.json",
       "status": "stable"
     }
   ],
@@ -321,51 +379,25 @@ Example `index.json`:
 }
 ```
 
-Paths are resolved relative to the directory containing the custom `index.json`. The application merges custom data with the public DeviceDB. If a custom theme/template/DeviceType uses an existing ID, the custom entry replaces that ID in the merged runtime catalog; other public entries remain available.
+Paths are relative to the directory containing `index.json`. Custom data is merged with the public DeviceDB. A matching ID replaces that ID in the merged runtime catalog; unrelated built-in entries remain available. Invalid/unreachable custom sources are ignored rather than disabling the built-in DeviceDB.
 
-For a custom theme, `file` should normally be supplied. If omitted, the app falls back to `themes/<id>.json` for a custom source. For a custom UI template, `path` must be supplied.
+## 11. Refreshing local UI data
 
-Invalid/unreachable custom sources are ignored without disabling the built-in DeviceDB.
+HomeController Settings contains a **Refresh themes and device UI templates** action. It:
 
-## 7. Hubitat templates
+- deletes the local application-theme cache,
+- forces fresh DeviceDB theme/template downloads,
+- re-resolves saved device type IDs,
+- refreshes each saved device's `UiTemplateSnapshotJson` from the currently selected template or its default fallback.
 
-Hubitat templates use:
+It does **not** delete or reset non-UI device configuration such as IP addresses, pairing data, drivers, IR commands, dashboard URLs, device names, hardware IDs or protocol configuration.
 
-```json
-"deviceTypeId": "hubitat",
-"connections": ["wifi"],
-"renderer": "builtin-hubitat"
-```
+## 12. Compatibility recommendations
 
-The selected template applies to both:
-
-- the Hubitat device/card list,
-- room/category filtering,
-- quick ON/OFF controls,
-- the detailed child-device state page,
-- detailed child-device commands,
-- the device UI selector beside the Hubitat name.
-
-`columns` controls the Hubitat device-card grid (1-4). `accentColor` is used for selected categories and active/ON actions. `buttonColor` is used for inactive/default actions. `surfaceColor`, `borderColor`, foreground and muted colors theme cards and state text.
-
-## 8. Philips Hue templates
-
-Philips Hue templates use:
-
-```json
-"deviceTypeId": "philips-hue",
-"connections": ["wifi"],
-"renderer": "builtin-hue"
-```
-
-The built-in Hue renderer retains Hue-specific behavior (lights, grouped lights, scenes, sensors, switches/controllers, power/connectivity and system resources), while the template controls page, text, card, button, border and UI-selector styling.
-
-## 9. Compatibility recommendations
-
-- Keep `schemaVersion` at `1` until the runtime explicitly adds a new schema.
-- Use unique lowercase IDs with hyphens.
-- Prefer `#RRGGBB`/`#AARRGGBB` color strings.
-- Treat unknown future fields as optional; HomeController's JSON deserializer ignores unknown properties.
-- Do not remove required identity/routing fields (`id`, `deviceTypeId`, `connections`, `renderer`) from a UI template.
-- Keep a Default template with omitted visual overrides when exact backward-compatible appearance is important.
-- Test both light/dark application modes if a Device UI template intentionally leaves colors unspecified.
+- Keep `schemaVersion` at `1` until a newer runtime schema is explicitly introduced.
+- Use stable lowercase IDs with hyphens.
+- Prefer `#RRGGBB`/`#AARRGGBB` colors.
+- Keep identity/routing fields (`id`, `deviceTypeId`, `connections`, `renderer`).
+- Omit device-template colors when the layout should follow the application theme/default appearance.
+- Put broad behavior in `itemDefaults`, then override only exceptional resource/category types in `itemStyles`.
+- Unknown JSON fields are ignored by the current deserializer, allowing forward-compatible additions.
