@@ -3,7 +3,7 @@ import json, pathlib, re, sys
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 WIFI = ROOT / "wifi"
-ALLOWED_TRANSPORTS = {"udp","udp-unicast","udp-broadcast","tcp","http","https","websocket","websocket-secure"}
+ALLOWED_TRANSPORTS = {"udp","udp-unicast","udp-broadcast","tcp","http","https","websocket","websocket-secure","wss","webos-ssap","webos-ssap-button"}
 ALLOWED_STATUS = {"stable","experimental","software-validated"}
 FORBIDDEN_KEYS = {"script","javascript","csharp","assembly","eval","exec","nativeLibrary"}
 errors=[]
