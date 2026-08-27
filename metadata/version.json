@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.60",
-  "versionCode": 1787820315,
-  "publishedUtc": "2026-08-27T08:45:15Z",
-  "commit": "b39f35cd0574609367f65d57fd87cdb3b440f10e",
-  "patchNotes": "Attach schema to default Wi-Fi TV template"
+  "version": "1.0.61",
+  "versionCode": 1787820334,
+  "publishedUtc": "2026-08-27T08:45:34Z",
+  "commit": "a6474a70cdc5839a6ae9f85b2ef6f80e13a05bbb",
+  "patchNotes": "Attach schema to default Wi-Fi climate template"
 }
