@@ -1,0 +1,76 @@
+name: Refine device UI localization terminology
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/refine-device-ui-localization.yml']
+permissions:
+  contents: write
+jobs:
+  refine:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - name: Refine terminology
+        shell: python
+        run: |
+          import json
+          from pathlib import Path
+
+          # These are remote-control / appliance UI terms, not prose translations.
+          # Keep internationally familiar abbreviations where they are clearer on a physical remote.
+          terms={
+            'hu': {'Power':'BE/KI','Volume':'Hangerő','Vol':'Vol','Vol +':'Vol +','Vol -':'Vol -','VOL +':'VOL +','VOL −':'VOL −','Guide':'Műsorújság','Play':'Lejátszás','RED':'PIROS','GREEN':'ZÖLD','YELLOW':'SÁRGA','BLUE':'KÉK','Temp':'TEMP','Temp +':'TEMP +','Temp -':'TEMP -','Temperature':'Hőmérséklet'},
+            'de': {'Power':'EIN/AUS','Volume':'Lautstärke','Vol':'Vol','Vol +':'Vol +','Vol -':'Vol -','VOL +':'VOL +','VOL −':'VOL −','Guide':'EPG','Play':'Play','RED':'ROT','GREEN':'GRÜN','YELLOW':'GELB','BLUE':'BLAU','Temp':'TEMP','Temp +':'TEMP +','Temp -':'TEMP -','Temperature':'Temperatur'},
+            'fr': {'Power':'MARCHE/ARRÊT','Volume':'Volume','Vol':'Vol','Vol +':'Vol +','Vol -':'Vol -','VOL +':'VOL +','VOL −':'VOL −','Guide':'Guide TV','Play':'Lecture','RED':'ROUGE','GREEN':'VERT','YELLOW':'JAUNE','BLUE':'BLEU','Temp':'TEMP','Temp +':'TEMP +','Temp -':'TEMP -','Temperature':'Température'},
+            'ru': {'Power':'ВКЛ/ВЫКЛ','Volume':'Громкость','Vol':'Vol','Vol +':'Vol +','Vol -':'Vol -','VOL +':'VOL +','VOL −':'VOL −','Guide':'Телегид','Play':'Воспроизв.','RED':'КРАСНЫЙ','GREEN':'ЗЕЛЁНЫЙ','YELLOW':'ЖЁЛТЫЙ','BLUE':'СИНИЙ','Temp':'TEMP','Temp +':'TEMP +','Temp -':'TEMP -','Temperature':'Температура'}
+          }
+          # Correct app localization keys too, because built-in device pages are localized from these packages.
+          for lang,m in terms.items():
+            p=Path(f'localization/{lang}.json')
+            d=json.loads(p.read_text(encoding='utf-8-sig'))
+            st=d['strings']
+            for k,v in m.items():
+              if k in st: st[k]=v
+            # Product name is invariant in every locale.
+            for k in ('Home Controller','HomeController'):
+              if k in st: st[k]=k
+            p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+
+          # Template-specific wording. Preserve command IDs; only human-facing text is changed.
+          replacements={
+            'hu': {'HATALOM':'BE/KI','Hatalom':'BE/KI','KÖTET':'VOL','Kötet':'Vol','ÚTMUTATÓ':'MŰSORÚJSÁG','Útmutató':'Műsorújság','JÁTÉK':'PLAY','Játék':'Play','PIRO':'PIROS','TEMP.':'TEMP','Temp':'TEMP'},
+            'de': {'LEISTUNG':'EIN/AUS','Macht':'EIN/AUS'},
+            'fr': {'PUISSANCE':'MARCHE/ARRÊT','Pouvoir':'MARCHE/ARRÊT'},
+            'ru': {'ВЛАСТЬ':'ВКЛ/ВЫКЛ'}
+          }
+          for p in Path('ui-templates').glob('*.json'):
+            if p.name=='index.json': continue
+            lang=next((x for x in terms if p.stem.endswith('-'+x)),None)
+            if not lang: continue
+            d=json.loads(p.read_text(encoding='utf-8-sig'))
+            def walk(x):
+              if isinstance(x,dict):
+                for k,v in x.items():
+                  if k in ('label','title','subtitle','name','themeSwitcherText') and isinstance(v,str):
+                    v=replacements.get(lang,{}).get(v,v)
+                    # Standard remote abbreviations are intentionally kept compact.
+                    if v in ('Vol +','VOL +'): v='VOL +'
+                    elif v in ('Vol -','Vol −','VOL -','VOL −'): v='VOL −'
+                    elif v in ('Temp +','TEMP +'): v='TEMP +'
+                    elif v in ('Temp -','Temp −','TEMP -','TEMP −'): v='TEMP −'
+                    elif v=='Temp': v='TEMP'
+                    x[k]=v
+                  else: walk(v)
+              elif isinstance(x,list):
+                for v in x: walk(v)
+            walk(d)
+            p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+      - name: Commit
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add localization ui-templates
+          git commit -m "Refine device UI terminology by locale"
+          git pull --rebase origin main
+          git push origin main
