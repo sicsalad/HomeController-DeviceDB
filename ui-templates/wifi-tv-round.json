@@ -1,4 +1,5 @@
 {
+  "$schema": "../schemas/device-ui-template-v1.schema.json",
   "schemaVersion": 1,
   "id": "wifi-tv-round",
   "name": "Round TV Remote",
@@ -6,38 +7,37 @@
   "connections": ["wifi"],
   "renderer": "declarative",
   "columns": 5,
-  "backgroundColor": "#101214",
-  "foregroundColor": "#F2F4F5",
-  "mutedTextColor": "#9AA1A8",
-  "surfaceColor": "#171A1D",
-  "accentColor": "#D97732",
-  "buttonColor": "#292D31",
-  "buttonTextColor": "#F7F8F8",
-  "borderColor": "#40454A",
+  "useFullWidth": true,
   "buttonCornerRadius": 16,
   "sectionCornerRadius": 18,
   "buttonHeight": 58,
   "buttonFontSize": 11,
   "iconFontSize": 24,
   "sections": [
-    {"subtitle":"Power and quick actions","controls":[
-      {"type":"tile","label":"","command":"power","icon":"⏻","iconOnly":true,"shape":"circle","height":60,"backgroundColor":"#713337","borderColor":"#9A4A4F"},
-      {"type":"tile","label":"MUTE","command":"mute","icon":"🔇","shape":"circle","height":60},
-      {"type":"tile","label":"MENU","command":"menu","icon":"☰","shape":"circle","height":60},
-      {"type":"tile","label":"SOURCE","command":"source","icon":"▣","shape":"circle","height":60,"columnSpan":2}
-    ]},
-    {"title":"NAVIGATION","controls":[
-      {"type":"tile","label":"VOL +","command":"volumeUp","icon":"＋","shape":"pill","height":58},
-      {"type":"tile","label":"","command":"up","icon":"▲","iconOnly":true,"shape":"circle","height":62,"columnSpan":3,"backgroundColor":"#71401F","borderColor":"#9B5A2A"},
-      {"type":"tile","label":"CH +","command":"channelUp","icon":"＋","shape":"pill","height":58},
-      {"type":"tile","label":"VOL −","command":"volumeDown","icon":"−","shape":"pill","height":58},
-      {"type":"tile","label":"","command":"left","icon":"◀","iconOnly":true,"shape":"circle","height":62,"backgroundColor":"#71401F","borderColor":"#9B5A2A"},
-      {"type":"tile","label":"OK","command":"ok","shape":"circle","height":68,"backgroundColor":"#3A3F44","borderColor":"#777F87"},
-      {"type":"tile","label":"","command":"right","icon":"▶","iconOnly":true,"shape":"circle","height":62,"backgroundColor":"#71401F","borderColor":"#9B5A2A"},
-      {"type":"tile","label":"CH −","command":"channelDown","icon":"−","shape":"pill","height":58},
-      {"type":"tile","label":"BACK","command":"back","icon":"↩","shape":"pill","height":54},
-      {"type":"tile","label":"","command":"down","icon":"▼","iconOnly":true,"shape":"circle","height":62,"columnSpan":3,"backgroundColor":"#71401F","borderColor":"#9B5A2A"},
-      {"type":"tile","label":"HOME","command":"home","icon":"⌂","shape":"pill","height":54}
-    ]}
+    {
+      "subtitle": "Power and quick actions",
+      "controls": [
+        {"type":"tile","label":"","command":"power","icon":"⏻","iconOnly":true,"shape":"circle","height":60},
+        {"type":"tile","label":"MUTE","command":"mute","icon":"🔇","shape":"circle","height":60},
+        {"type":"tile","label":"MENU","command":"menu","icon":"☰","shape":"circle","height":60},
+        {"type":"tile","label":"SOURCE","command":"source","icon":"▣","shape":"circle","height":60,"columnSpan":2}
+      ]
+    },
+    {
+      "title": "NAVIGATION",
+      "controls": [
+        {"type":"tile","label":"VOL +","command":"volumeUp","icon":"＋","shape":"pill","height":58},
+        {"type":"tile","label":"","command":"up","icon":"▲","iconOnly":true,"shape":"circle","height":62,"columnSpan":3},
+        {"type":"tile","label":"CH +","command":"channelUp","icon":"＋","shape":"pill","height":58},
+        {"type":"tile","label":"VOL −","command":"volumeDown","icon":"−","shape":"pill","height":58},
+        {"type":"tile","label":"","command":"left","icon":"◀","iconOnly":true,"shape":"circle","height":62},
+        {"type":"tile","label":"OK","command":"ok","shape":"circle","height":68},
+        {"type":"tile","label":"","command":"right","icon":"▶","iconOnly":true,"shape":"circle","height":62},
+        {"type":"tile","label":"CH −","command":"channelDown","icon":"−","shape":"pill","height":58},
+        {"type":"tile","label":"BACK","command":"back","icon":"↩","shape":"pill","height":54},
+        {"type":"tile","label":"","command":"down","icon":"▼","iconOnly":true,"shape":"circle","height":62,"columnSpan":3},
+        {"type":"tile","label":"HOME","command":"home","icon":"⌂","shape":"pill","height":54}
+      ]
+    }
   ]
 }
