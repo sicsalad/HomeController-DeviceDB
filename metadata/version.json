@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.78",
-  "versionCode": 1787865376,
-  "publishedUtc": "2026-08-27T21:16:16Z",
-  "commit": "346fef42535e27746afadd6e1fe7b75447d93b36",
-  "patchNotes": "Handle concurrent DeviceDB version commits during localization install"
+  "version": "1.0.82",
+  "versionCode": 1787865463,
+  "publishedUtc": "2026-08-27T21:17:43Z",
+  "commit": "149865dfcf14d51b057d32f1e323360075e66a0e",
+  "patchNotes": "Remove temporary localization installer"
 }
