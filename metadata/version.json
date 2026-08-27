@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.48",
-  "versionCode": 1787819861,
-  "publishedUtc": "2026-08-27T08:37:41Z",
-  "commit": "b0938e2c7039373ddbc5a5bb46de2110744a73fe",
-  "patchNotes": "Attach schema to device type catalog"
+  "version": "1.0.49",
+  "versionCode": 1787819920,
+  "publishedUtc": "2026-08-27T08:38:40Z",
+  "commit": "dad423bdce5ffcd83ecbce74d8dec474e3d8e816",
+  "patchNotes": "Document all theme and UI validation schemas"
 }
