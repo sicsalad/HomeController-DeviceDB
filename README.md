@@ -12,21 +12,23 @@ The database is deliberately broader than infrared. A device may expose IR, LAN/
 - `generated/` – automatically normalized community captures.
 - `protocols/` – reusable protocol metadata.
 - `device-types.json` – DeviceType registry and default UI-template mapping.
-- `ui-templates/` – DeviceDB-driven device UI definitions and visual themes.
+- `ui-templates/` – DeviceDB-driven device UI definitions and layout templates.
 - `themes/` – application-wide color themes.
-- `schemas/` – schema and JSON authoring documentation.
+- `schemas/` – JSON schemas and authoring documentation.
 - `tools/` – import/normalization tools.
 
 ## Theme and Device UI authoring
 
-See [`schemas/THEMES_AND_UI_TEMPLATES.md`](schemas/THEMES_AND_UI_TEMPLATES.md) for the complete English reference for:
+See [`schemas/THEMES_AND_UI_TEMPLATES.md`](schemas/THEMES_AND_UI_TEMPLATES.md) for the complete English reference. It documents the canonical semantic application color resources, every current Device UI/template/item/control field, renderer behavior, responsive layout, Hue/Hubitat item overrides, compatibility aliases and the premium custom source format.
 
-- application color-theme JSON,
-- DeviceType JSON fields,
-- declarative Device UI templates and controls,
-- Hubitat and Philips Hue DeviceDB UI templates,
-- the device UI switcher styling fields,
-- premium custom-source `index.json` files containing `themes`, `templates` and `deviceTypes`.
+Machine-readable validation schemas:
+
+- [`schemas/app-theme-v1.schema.json`](schemas/app-theme-v1.schema.json)
+- [`schemas/device-ui-template-v1.schema.json`](schemas/device-ui-template-v1.schema.json)
+- [`schemas/device-types-v1.schema.json`](schemas/device-types-v1.schema.json)
+- [`schemas/custom-source-index-v1.schema.json`](schemas/custom-source-index-v1.schema.json)
+
+Application color themes and Device UI templates are deliberately separate. `Default`, `Blue Eye` and `Red Eye` are application themes; Device UI names should describe layouts such as `Default`, `Modern`, `Compact`, `Grid` or `Round`.
 
 ## Updating the open database
 
