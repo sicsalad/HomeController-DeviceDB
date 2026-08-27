@@ -270,6 +270,12 @@
       "versionCode": 1787820084,
       "publishedUtc": "2026-08-27T08:41:24Z",
       "notes": "Normalize Philips Hue default UI template"
+    },
+    {
+      "version": "1.0.53",
+      "versionCode": 1787820103,
+      "publishedUtc": "2026-08-27T08:41:43Z",
+      "notes": "Normalize Philips Hue grid UI template"
     }
   ]
 }

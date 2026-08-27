@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.52",
-  "versionCode": 1787820084,
-  "publishedUtc": "2026-08-27T08:41:24Z",
-  "commit": "592dfc63429994ee70f20b726406ca583b68ee6c",
-  "patchNotes": "Normalize Philips Hue default UI template"
+  "version": "1.0.53",
+  "versionCode": 1787820103,
+  "publishedUtc": "2026-08-27T08:41:43Z",
+  "commit": "f8a1d0fd0964b47c8aefe1ca9ea66d4f9985b81f",
+  "patchNotes": "Normalize Philips Hue grid UI template"
 }
