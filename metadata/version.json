@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.62",
-  "versionCode": 1787820352,
-  "publishedUtc": "2026-08-27T08:45:52Z",
-  "commit": "9a374671ae0144ad254fddcafe53b9b2049dcaee",
-  "patchNotes": "Make Round IR TV layout theme-neutral"
+  "version": "1.0.63",
+  "versionCode": 1787820627,
+  "publishedUtc": "2026-08-27T08:50:27Z",
+  "commit": "9a240ee1673cbb89b659437a33dbde0280c1b870",
+  "patchNotes": "Normalize Wi-Fi round TV UI template"
 }

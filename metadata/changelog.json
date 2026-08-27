@@ -330,6 +330,12 @@
       "versionCode": 1787820352,
       "publishedUtc": "2026-08-27T08:45:52Z",
       "notes": "Make Round IR TV layout theme-neutral"
+    },
+    {
+      "version": "1.0.63",
+      "versionCode": 1787820627,
+      "publishedUtc": "2026-08-27T08:50:27Z",
+      "notes": "Normalize Wi-Fi round TV UI template"
     }
   ]
 }
