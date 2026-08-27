@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Download validated localization artifact
         env:
           PACKAGE_URL: "https://sdmntprpolandcentral.oaiusercontent.com/files/00000000-6818-820a-a1e9-a2b40fcd1183/raw?se=2026-08-27T21%3A19%3A13Z&sp=r&sv=2026-02-06&sr=b&scid=ba265c68-6024-59fa-919c-21e0b0b8bf4e&skoid=061609b8-1cdb-4a5b-9e68-c7ab9a523a8f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-08-27T06%3A11%3A17Z&ske=2026-08-28T06%3A11%3A17Z&sks=b&skv=2026-02-06&sig=2cg9OFZgh/e6Mp0BGrpjgtPRjm1J%2BtAD9klo6APXEGk%3D"
@@ -45,4 +47,5 @@ jobs:
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git add localization/en.json localization/hu.json localization/de.json localization/fr.json localization/ru.json
           git commit -m "Complete app localization for en hu de fr ru"
-          git push
+          git pull --rebase origin main
+          git push origin HEAD:main
