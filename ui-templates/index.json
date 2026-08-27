@@ -1,4 +1,5 @@
 {
+  "$schema": "../schemas/ui-template-index-v1.schema.json",
   "schemaVersion": 1,
   "templates": [
     {"id":"ir-ac-default","path":"ir-ac-default.json","status":"stable"},
