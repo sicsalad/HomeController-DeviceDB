@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.44",
-  "versionCode": 1787819806,
-  "publishedUtc": "2026-08-27T08:36:46Z",
-  "commit": "8621d4691918c290d1437bc22f90e7a3932941a2",
-  "patchNotes": "Make optional device type fields match runtime model"
+  "version": "1.0.45",
+  "versionCode": 1787819825,
+  "publishedUtc": "2026-08-27T08:37:05Z",
+  "commit": "29311e3584482aceba15df4e52885f7705600eea",
+  "patchNotes": "Align custom device types with runtime defaults"
 }
