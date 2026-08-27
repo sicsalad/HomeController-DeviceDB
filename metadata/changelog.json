@@ -114,6 +114,12 @@
       "versionCode": 1787819031,
       "publishedUtc": "2026-08-27T08:23:51Z",
       "notes": "Normalize default application theme schema"
+    },
+    {
+      "version": "1.0.27",
+      "versionCode": 1787819049,
+      "publishedUtc": "2026-08-27T08:24:09Z",
+      "notes": "Normalize Blue Eye application theme schema"
     }
   ]
 }
