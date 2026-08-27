@@ -1,0 +1,49 @@
+name: Normalize semantic device labels
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/semantic-device-labels.yml']
+permissions:
+  contents: write
+jobs:
+  normalize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - name: Normalize by command semantics
+        shell: python
+        run: |
+          import json
+          from pathlib import Path
+          # Labels chosen as appliance/remote-control terminology, not dictionary translations.
+          M={
+          'hu':{
+          'Power':'BE/KI','power':'BE/KI','Source':'FORRÁS','source':'FORRÁS','Mute':'NÉMÍTÁS','mute':'NÉMÍTÁS','Guide':'MŰSORÚJSÁG','Menu':'MENÜ','Info':'INFÓ','Back':'VISSZA','ChannelList':'CSATORNALISTA','VolumeUp':'VOL +','volumeUp':'VOL +','VolumeDown':'VOL −','volumeDown':'VOL −','ChannelUp':'CH +','ChannelDown':'CH −','Play':'PLAY','Pause':'PAUSE','Stop':'STOP','Subtitle':'FELIRAT','Red':'PIROS','Green':'ZÖLD','Yellow':'SÁRGA','Blue':'KÉK','TemperatureUp':'TEMP +','TemperatureDown':'TEMP −','Mode':'ÜZEMMÓD','FanSpeed':'FAN','ModeAuto':'AUTO','ModeCool':'HŰTÉS','ModeHeat':'FŰTÉS','ModeDry':'SZÁRÍTÁS','ModeFan':'FAN','FanSpeedAuto':'FAN AUTO','FanSpeedUp':'FAN +','FanSpeedDown':'FAN −','Swing':'SWING','Turbo':'TURBO','Quiet':'CSENDES','Economy':'ECO','Sleep':'ALVÁS','PowerSave':'ECO','Light':'FÉNY','SelfClean':'ÖNTISZTÍTÁS','Timer':'IDŐZÍTŐ'},
+          'de':{
+          'Power':'EIN/AUS','power':'EIN/AUS','Source':'QUELLE','source':'QUELLE','Mute':'STUMM','mute':'STUMM','Guide':'EPG','Menu':'MENÜ','Info':'INFO','Back':'ZURÜCK','ChannelList':'SENDERLISTE','VolumeUp':'VOL +','volumeUp':'VOL +','VolumeDown':'VOL −','volumeDown':'VOL −','ChannelUp':'CH +','ChannelDown':'CH −','Play':'PLAY','Pause':'PAUSE','Stop':'STOP','Subtitle':'UNTERTITEL','Red':'ROT','Green':'GRÜN','Yellow':'GELB','Blue':'BLAU','TemperatureUp':'TEMP +','TemperatureDown':'TEMP −','Mode':'MODUS','FanSpeed':'LÜFTER','ModeAuto':'AUTO','ModeCool':'KÜHLEN','ModeHeat':'HEIZEN','ModeDry':'TROCKNEN','ModeFan':'LÜFTER','FanSpeedAuto':'LÜFTER AUTO','FanSpeedUp':'LÜFTER +','FanSpeedDown':'LÜFTER −','Swing':'SWING','Turbo':'TURBO','Quiet':'LEISE','Economy':'ECO','Sleep':'SLEEP','PowerSave':'ECO','Light':'LICHT','SelfClean':'SELBSTREINIGUNG','Timer':'TIMER'},
+          'fr':{
+          'Power':'MARCHE/ARRÊT','power':'MARCHE/ARRÊT','Source':'SOURCE','source':'SOURCE','Mute':'MUET','mute':'MUET','Guide':'GUIDE TV','Menu':'MENU','Info':'INFO','Back':'RETOUR','ChannelList':'LISTE CH','VolumeUp':'VOL +','volumeUp':'VOL +','VolumeDown':'VOL −','volumeDown':'VOL −','ChannelUp':'CH +','ChannelDown':'CH −','Play':'PLAY','Pause':'PAUSE','Stop':'STOP','Subtitle':'SOUS-TITRES','Red':'ROUGE','Green':'VERT','Yellow':'JAUNE','Blue':'BLEU','TemperatureUp':'TEMP +','TemperatureDown':'TEMP −','Mode':'MODE','FanSpeed':'VENTIL.','ModeAuto':'AUTO','ModeCool':'FROID','ModeHeat':'CHAUD','ModeDry':'DRY','ModeFan':'VENTIL.','FanSpeedAuto':'VENTIL. AUTO','FanSpeedUp':'VENTIL. +','FanSpeedDown':'VENTIL. −','Swing':'SWING','Turbo':'TURBO','Quiet':'SILENCE','Economy':'ECO','Sleep':'SLEEP','PowerSave':'ECO','Light':'LUMIÈRE','SelfClean':'AUTO-NETTOYAGE','Timer':'TIMER'},
+          'ru':{
+          'Power':'ВКЛ/ВЫКЛ','power':'ВКЛ/ВЫКЛ','Source':'ИСТОЧНИК','source':'ИСТОЧНИК','Mute':'БЕЗ ЗВУКА','mute':'БЕЗ ЗВУКА','Guide':'ТЕЛЕГИД','Menu':'МЕНЮ','Info':'ИНФО','Back':'НАЗАД','ChannelList':'КАНАЛЫ','VolumeUp':'VOL +','volumeUp':'VOL +','VolumeDown':'VOL −','volumeDown':'VOL −','ChannelUp':'CH +','ChannelDown':'CH −','Play':'PLAY','Pause':'PAUSE','Stop':'STOP','Subtitle':'СУБТИТРЫ','Red':'КРАСНЫЙ','Green':'ЗЕЛЁНЫЙ','Yellow':'ЖЁЛТЫЙ','Blue':'СИНИЙ','TemperatureUp':'TEMP +','TemperatureDown':'TEMP −','Mode':'РЕЖИМ','FanSpeed':'ВЕНТ.','ModeAuto':'AUTO','ModeCool':'ОХЛАЖД.','ModeHeat':'ОБОГРЕВ','ModeDry':'DRY','ModeFan':'ВЕНТ.','FanSpeedAuto':'ВЕНТ. AUTO','FanSpeedUp':'ВЕНТ. +','FanSpeedDown':'ВЕНТ. −','Swing':'SWING','Turbo':'TURBO','Quiet':'ТИХО','Economy':'ECO','Sleep':'SLEEP','PowerSave':'ECO','Light':'СВЕТ','SelfClean':'САМООЧИСТКА','Timer':'TIMER'} }
+          for p in Path('ui-templates').glob('*.json'):
+            lang=next((l for l in M if p.stem.endswith('-'+l)),None)
+            if not lang: continue
+            d=json.loads(p.read_text(encoding='utf-8-sig'))
+            def walk(x):
+              if isinstance(x,dict):
+                cmd=x.get('command')
+                if cmd in M[lang] and 'label' in x and x.get('label')!='': x['label']=M[lang][cmd]
+                for v in x.values(): walk(v)
+              elif isinstance(x,list):
+                for v in x: walk(v)
+            walk(d)
+            p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+      - name: Commit
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add ui-templates
+          git commit -m "Normalize device labels by command semantics" || exit 0
+          git pull --rebase origin main
+          git push origin main
