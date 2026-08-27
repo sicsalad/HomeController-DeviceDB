@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.43",
-  "versionCode": 1787819763,
-  "publishedUtc": "2026-08-27T08:36:03Z",
-  "commit": "218101c27bdc2f7b083373288d3c9bcbc9f2fdce",
-  "patchNotes": "Add Device UI template index schema"
+  "version": "1.0.44",
+  "versionCode": 1787819806,
+  "publishedUtc": "2026-08-27T08:36:46Z",
+  "commit": "8621d4691918c290d1437bc22f90e7a3932941a2",
+  "patchNotes": "Make optional device type fields match runtime model"
 }
