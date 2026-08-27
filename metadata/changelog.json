@@ -204,6 +204,12 @@
       "versionCode": 1787819689,
       "publishedUtc": "2026-08-27T08:34:49Z",
       "notes": "Attach schema to Red Eye theme"
+    },
+    {
+      "version": "1.0.42",
+      "versionCode": 1787819749,
+      "publishedUtc": "2026-08-27T08:35:49Z",
+      "notes": "Add application theme catalog schema"
     }
   ]
 }

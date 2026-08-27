@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.41",
-  "versionCode": 1787819689,
-  "publishedUtc": "2026-08-27T08:34:49Z",
-  "commit": "de51ee9244e29dc7be52e0d26cec45693ba3d630",
-  "patchNotes": "Attach schema to Red Eye theme"
+  "version": "1.0.42",
+  "versionCode": 1787819749,
+  "publishedUtc": "2026-08-27T08:35:49Z",
+  "commit": "767a41443f6cc8459b304fd8af49e3f0f26cc010",
+  "patchNotes": "Add application theme catalog schema"
 }
