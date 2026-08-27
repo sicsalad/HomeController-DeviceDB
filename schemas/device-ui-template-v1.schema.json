@@ -30,8 +30,10 @@
     "sections": { "type": "array", "items": { "$ref": "#/$defs/section" } }
   },
   "$defs": {
-    "color": { "type": "string", "pattern": "^#(?:[0-9A-Fa-f]{6}|[0-9A-Fa-f]{8})$" },
-    "colorOrNull": { "anyOf": [{ "$ref": "#/$defs/color" }, { "type": "null" }] },
+    "literalColor": { "type": "string", "pattern": "^#(?:[0-9A-Fa-f]{6}|[0-9A-Fa-f]{8})$" },
+    "themeColorRef": { "type": "string", "pattern": "^\\$[A-Za-z][A-Za-z0-9._-]*$", "description": "Reference to an application-theme color resource, for example $Accent or $PageBackground." },
+    "colorValue": { "anyOf": [{ "$ref": "#/$defs/literalColor" }, { "$ref": "#/$defs/themeColorRef" }] },
+    "colorOrNull": { "anyOf": [{ "$ref": "#/$defs/colorValue" }, { "type": "null" }] },
     "itemStyle": {
       "type": "object", "additionalProperties": false,
       "properties": {
