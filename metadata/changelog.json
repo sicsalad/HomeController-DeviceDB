@@ -390,6 +390,12 @@
       "versionCode": 1787865463,
       "publishedUtc": "2026-08-27T21:17:43Z",
       "notes": "Remove temporary localization installer"
+    },
+    {
+      "version": "1.0.85",
+      "versionCode": 1787871134,
+      "publishedUtc": "2026-08-27T22:52:14Z",
+      "notes": "Add semantic device label normalization workflow"
     }
   ]
 }

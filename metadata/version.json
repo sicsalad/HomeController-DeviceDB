@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.82",
-  "versionCode": 1787865463,
-  "publishedUtc": "2026-08-27T21:17:43Z",
-  "commit": "149865dfcf14d51b057d32f1e323360075e66a0e",
-  "patchNotes": "Remove temporary localization installer"
+  "version": "1.0.85",
+  "versionCode": 1787871134,
+  "publishedUtc": "2026-08-27T22:52:14Z",
+  "commit": "c5966faee7a9263f261d29d5b71eb7e7315387c4",
+  "patchNotes": "Add semantic device label normalization workflow"
 }
