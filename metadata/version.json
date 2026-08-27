@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.64",
-  "versionCode": 1787824478,
-  "publishedUtc": "2026-08-27T09:54:38Z",
-  "commit": "de7feec55559507f6386532509859fe5968cb6bd",
-  "patchNotes": "Allow app theme color references in device UI templates"
+  "version": "1.0.65",
+  "versionCode": 1787824839,
+  "publishedUtc": "2026-08-27T10:00:39Z",
+  "commit": "3b9662260f9e250e8d7bb044088bef2bd07d2b03",
+  "patchNotes": "Document theme references in device UI templates"
 }
