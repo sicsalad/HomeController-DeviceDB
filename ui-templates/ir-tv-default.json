@@ -1,10 +1,12 @@
 {
+  "$schema":"../schemas/device-ui-template-v1.schema.json",
   "schemaVersion":1,
   "id":"ir-tv-default",
-  "name":"Infrared TV remote",
+  "name":"Infrared TV Default",
   "deviceTypeId":"television",
   "connections":["infrared"],
   "renderer":"builtin-ir-tv",
   "columns":3,
+  "useFullWidth":true,
   "sections":[]
 }
