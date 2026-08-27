@@ -7,6 +7,13 @@
       "value": 30,
       "maxActivations": 1,
       "description": "Initial HomeController premium test code"
+    },
+    {
+      "guid": "ad9a318c-2a54-491e-b288-680eaacbf883",
+      "type": "permanent",
+      "value": 0,
+      "maxActivations": 1,
+      "description": "Permanent HomeController premium code"
     }
   ]
 }
