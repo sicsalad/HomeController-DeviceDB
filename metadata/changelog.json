@@ -378,6 +378,12 @@
       "versionCode": 1787865335,
       "publishedUtc": "2026-08-27T21:15:35Z",
       "notes": "Install complete five-language localization packages"
+    },
+    {
+      "version": "1.0.78",
+      "versionCode": 1787865376,
+      "publishedUtc": "2026-08-27T21:16:16Z",
+      "notes": "Handle concurrent DeviceDB version commits during localization install"
     }
   ]
 }

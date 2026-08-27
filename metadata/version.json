@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.77",
-  "versionCode": 1787865335,
-  "publishedUtc": "2026-08-27T21:15:35Z",
-  "commit": "6c8d3214632f79e4a6ea464fac140154cc08849d",
-  "patchNotes": "Install complete five-language localization packages"
+  "version": "1.0.78",
+  "versionCode": 1787865376,
+  "publishedUtc": "2026-08-27T21:16:16Z",
+  "commit": "346fef42535e27746afadd6e1fe7b75447d93b36",
+  "patchNotes": "Handle concurrent DeviceDB version commits during localization install"
 }
