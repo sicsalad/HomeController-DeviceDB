@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.42",
-  "versionCode": 1787819749,
-  "publishedUtc": "2026-08-27T08:35:49Z",
-  "commit": "767a41443f6cc8459b304fd8af49e3f0f26cc010",
-  "patchNotes": "Add application theme catalog schema"
+  "version": "1.0.43",
+  "versionCode": 1787819763,
+  "publishedUtc": "2026-08-27T08:36:03Z",
+  "commit": "218101c27bdc2f7b083373288d3c9bcbc9f2fdce",
+  "patchNotes": "Add Device UI template index schema"
 }

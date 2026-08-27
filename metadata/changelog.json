@@ -210,6 +210,12 @@
       "versionCode": 1787819749,
       "publishedUtc": "2026-08-27T08:35:49Z",
       "notes": "Add application theme catalog schema"
+    },
+    {
+      "version": "1.0.43",
+      "versionCode": 1787819763,
+      "publishedUtc": "2026-08-27T08:36:03Z",
+      "notes": "Add Device UI template index schema"
     }
   ]
 }
