@@ -252,6 +252,12 @@
       "versionCode": 1787819920,
       "publishedUtc": "2026-08-27T08:38:40Z",
       "notes": "Document all theme and UI validation schemas"
+    },
+    {
+      "version": "1.0.50",
+      "versionCode": 1787820041,
+      "publishedUtc": "2026-08-27T08:40:41Z",
+      "notes": "Normalize Hubitat default UI template"
     }
   ]
 }
