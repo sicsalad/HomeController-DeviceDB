@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.29",
-  "versionCode": 1787819119,
-  "publishedUtc": "2026-08-27T08:25:19Z",
-  "commit": "27fd3ccb36f4f0d4f1b0cb05a105087189ebd175",
-  "patchNotes": "Add application theme JSON schema"
+  "version": "1.0.30",
+  "versionCode": 1787819147,
+  "publishedUtc": "2026-08-27T08:25:47Z",
+  "commit": "6cc29f261ac90318875bdb937106bb4654bde366",
+  "patchNotes": "Add Device UI template JSON schema"
 }
