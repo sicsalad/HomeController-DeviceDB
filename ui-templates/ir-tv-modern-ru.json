@@ -153,7 +153,6 @@
           "type": "tile",
           "label": "КРАСНЫЙ",
           "command": "Red",
-          "icon": "●",
           "backgroundColor": "#8A3542",
           "textColor": "#FFFFFF"
         },
@@ -161,7 +160,6 @@
           "type": "tile",
           "label": "ЗЕЛЁНЫЙ",
           "command": "Green",
-          "icon": "●",
           "backgroundColor": "#2F6C4E",
           "textColor": "#FFFFFF"
         },
@@ -169,7 +167,6 @@
           "type": "tile",
           "label": "ЖЁЛТЫЙ",
           "command": "Yellow",
-          "icon": "●",
           "backgroundColor": "#806B24",
           "textColor": "#FFFFFF"
         },
@@ -177,7 +174,6 @@
           "type": "tile",
           "label": "СИНИЙ",
           "command": "Blue",
-          "icon": "●",
           "backgroundColor": "#315F8C",
           "textColor": "#FFFFFF"
         }
