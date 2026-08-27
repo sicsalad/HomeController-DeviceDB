@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.50",
-  "versionCode": 1787820041,
-  "publishedUtc": "2026-08-27T08:40:41Z",
-  "commit": "0216ea0919f0725161d36ed3dc2f5344feb0dca1",
-  "patchNotes": "Normalize Hubitat default UI template"
+  "version": "1.0.51",
+  "versionCode": 1787820055,
+  "publishedUtc": "2026-08-27T08:40:55Z",
+  "commit": "a9fc54b9661c8cc0f08a460ec02d4b9aaf8a34db",
+  "patchNotes": "Normalize Hubitat compact UI template"
 }
