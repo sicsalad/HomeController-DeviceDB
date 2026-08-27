@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.38",
-  "versionCode": 1787819613,
-  "publishedUtc": "2026-08-27T08:33:33Z",
-  "commit": "cdd254b32fd090e056c6b4d716bdd4cf9bcfc198",
-  "patchNotes": "Allow schema declaration in device type catalog"
+  "version": "1.0.39",
+  "versionCode": 1787819658,
+  "publishedUtc": "2026-08-27T08:34:18Z",
+  "commit": "d285c704f4cdb4602163a3ce466f53c88e8a75cb",
+  "patchNotes": "Attach schema to default theme"
 }
