@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.28",
-  "versionCode": 1787819066,
-  "publishedUtc": "2026-08-27T08:24:26Z",
-  "commit": "1ff9bf0cc2007f4bd24e5db53b4f511c3c5c9472",
-  "patchNotes": "Normalize Red Eye application theme schema"
+  "version": "1.0.29",
+  "versionCode": 1787819119,
+  "publishedUtc": "2026-08-27T08:25:19Z",
+  "commit": "27fd3ccb36f4f0d4f1b0cb05a105087189ebd175",
+  "patchNotes": "Add application theme JSON schema"
 }
