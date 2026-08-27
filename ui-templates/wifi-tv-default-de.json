@@ -2,7 +2,7 @@
   "$schema": "../schemas/device-ui-template-v1.schema.json",
   "schemaVersion": 1,
   "id": "wifi-tv-default",
-  "name": "Alapértelmezett Wi-Fi TV",
+  "name": "WLAN-TV Standard",
   "deviceTypeId": "television",
   "connections": [
     "wifi"
@@ -12,11 +12,11 @@
   "useFullWidth": true,
   "sections": [
     {
-      "title": "Bekapcsolás / Hangerő",
+      "title": "Ein/Aus / Lautstärke",
       "controls": [
         {
           "type": "button",
-          "label": "Bekapcsolás",
+          "label": "Ein/Aus",
           "command": "power",
           "icon": "⏻"
         },
@@ -32,24 +32,24 @@
         },
         {
           "type": "button",
-          "label": "Némítás",
+          "label": "Stumm",
           "command": "mute"
         }
       ]
     },
     {
-      "title": "Navigáció",
+      "title": "Navigation",
       "controls": [
         {
           "type": "button",
-          "label": "Fel",
+          "label": "Hoch",
           "command": "up",
           "icon": "▲",
           "iconOnly": true
         },
         {
           "type": "button",
-          "label": "Bal",
+          "label": "Links",
           "command": "left",
           "icon": "◀",
           "iconOnly": true
@@ -61,31 +61,31 @@
         },
         {
           "type": "button",
-          "label": "Jobb",
+          "label": "Rechts",
           "command": "right",
           "icon": "▶",
           "iconOnly": true
         },
         {
           "type": "button",
-          "label": "Le",
+          "label": "Runter",
           "command": "down",
           "icon": "▼",
           "iconOnly": true
         },
         {
           "type": "button",
-          "label": "Vissza",
+          "label": "Zurück",
           "command": "back"
         },
         {
           "type": "button",
-          "label": "Kezdőlap",
+          "label": "Start",
           "command": "home"
         },
         {
           "type": "button",
-          "label": "Forrás",
+          "label": "Quelle",
           "command": "source"
         }
       ]

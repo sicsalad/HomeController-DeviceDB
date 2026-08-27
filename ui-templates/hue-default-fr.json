@@ -1,0 +1,27 @@
+{
+  "$schema": "../schemas/device-ui-template-v1.schema.json",
+  "schemaVersion": 1,
+  "id": "hue-default",
+  "name": "Philips Hue par défaut",
+  "deviceTypeId": "philips-hue",
+  "connections": [
+    "wifi"
+  ],
+  "renderer": "builtin-hue",
+  "columns": 1,
+  "useFullWidth": true,
+  "buttonCornerRadius": 8,
+  "sectionCornerRadius": 10,
+  "buttonHeight": 54,
+  "buttonFontSize": 13,
+  "iconFontSize": 22,
+  "itemDefaults": {
+    "columns": 1,
+    "displayMode": "card",
+    "showName": true,
+    "showType": true,
+    "showState": true
+  },
+  "itemStyles": {},
+  "sections": []
+}

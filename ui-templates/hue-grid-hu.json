@@ -1,0 +1,85 @@
+{
+  "$schema": "../schemas/device-ui-template-v1.schema.json",
+  "schemaVersion": 1,
+  "id": "hue-grid",
+  "name": "Philips Hue rács",
+  "deviceTypeId": "philips-hue",
+  "connections": [
+    "wifi"
+  ],
+  "renderer": "builtin-hue",
+  "columns": 2,
+  "useFullWidth": true,
+  "buttonCornerRadius": 12,
+  "sectionCornerRadius": 12,
+  "buttonHeight": 48,
+  "buttonFontSize": 12,
+  "iconFontSize": 20,
+  "itemDefaults": {
+    "columns": 2,
+    "displayMode": "card",
+    "showName": true,
+    "showType": false,
+    "showState": true,
+    "cornerRadius": 12
+  },
+  "itemStyles": {
+    "light": {
+      "columns": 2,
+      "displayMode": "card",
+      "showType": true
+    },
+    "grouped-light": {
+      "columns": 2,
+      "displayMode": "card",
+      "showType": true
+    },
+    "scene": {
+      "columns": 3,
+      "displayMode": "compact",
+      "showType": false,
+      "showState": false
+    },
+    "motion": {
+      "columns": 3,
+      "displayMode": "compact",
+      "showType": false
+    },
+    "temperature": {
+      "columns": 3,
+      "displayMode": "compact",
+      "showType": false
+    },
+    "light-level": {
+      "columns": 3,
+      "displayMode": "compact",
+      "showType": false
+    },
+    "contact": {
+      "columns": 3,
+      "displayMode": "compact",
+      "showType": false
+    },
+    "device-power": {
+      "columns": 3,
+      "displayMode": "compact",
+      "showType": false
+    },
+    "zigbee-connectivity": {
+      "columns": 3,
+      "displayMode": "compact",
+      "showType": false
+    },
+    "bridge": {
+      "columns": 2,
+      "displayMode": "compact",
+      "showType": false
+    },
+    "bridge-home": {
+      "columns": 2,
+      "displayMode": "compact",
+      "showType": false
+    }
+  },
+  "sections": []
+}

@@ -1,0 +1,267 @@
+{
+  "$schema": "../schemas/device-ui-template-v1.schema.json",
+  "schemaVersion": 1,
+  "id": "ir-tv-modern",
+  "name": "Современный ТВ",
+  "deviceTypeId": "television",
+  "connections": [
+    "infrared"
+  ],
+  "renderer": "declarative",
+  "columns": 4,
+  "useFullWidth": true,
+  "buttonCornerRadius": 10,
+  "sectionCornerRadius": 16,
+  "buttonHeight": 58,
+  "buttonFontSize": 11,
+  "iconFontSize": 25,
+  "sections": [
+    {
+      "subtitle": "Быстрое управление",
+      "controls": [
+        {
+          "type": "tile",
+          "label": "ПИТАНИЕ",
+          "command": "Power",
+          "icon": "⏻"
+        },
+        {
+          "type": "tile",
+          "label": "МЕНЮ",
+          "command": "Menu",
+          "icon": "☰"
+        },
+        {
+          "type": "tile",
+          "label": "ИНФО",
+          "command": "Info",
+          "icon": "ⓘ"
+        },
+        {
+          "type": "tile",
+          "label": "БЕЗ ЗВУКА",
+          "command": "Mute",
+          "icon": "🔇"
+        },
+        {
+          "type": "tile",
+          "label": "ИСТОЧНИК",
+          "command": "Source",
+          "icon": "▣",
+          "columnSpan": 2
+        },
+        {
+          "type": "tile",
+          "label": "ТЕЛЕГИД",
+          "command": "Guide",
+          "icon": "▤",
+          "columnSpan": 2
+        }
+      ]
+    },
+    {
+      "title": "НАВИГАЦИЯ",
+      "subtitle": "Громкость · направление · канал",
+      "controls": [
+        {
+          "type": "tile",
+          "label": "VOL +",
+          "command": "VolumeUp",
+          "icon": "＋",
+          "height": 64
+        },
+        {
+          "type": "tile",
+          "label": "",
+          "command": "Up",
+          "icon": "▲",
+          "iconOnly": true,
+          "iconSize": 29,
+          "columnSpan": 2,
+          "height": 64
+        },
+        {
+          "type": "tile",
+          "label": "CH +",
+          "command": "ChannelUp",
+          "icon": "＋",
+          "height": 64
+        },
+        {
+          "type": "tile",
+          "label": "VOL −",
+          "command": "VolumeDown",
+          "icon": "−",
+          "height": 64
+        },
+        {
+          "type": "tile",
+          "label": "",
+          "command": "Left",
+          "icon": "◀",
+          "iconOnly": true,
+          "iconSize": 28,
+          "height": 64
+        },
+        {
+          "type": "tile",
+          "label": "OK",
+          "command": "Ok",
+          "icon": "●",
+          "iconSize": 17,
+          "height": 64
+        },
+        {
+          "type": "tile",
+          "label": "",
+          "command": "Right",
+          "icon": "▶",
+          "iconOnly": true,
+          "iconSize": 28,
+          "height": 64
+        },
+        {
+          "type": "tile",
+          "label": "BACK",
+          "command": "Back",
+          "icon": "↩",
+          "height": 64
+        },
+        {
+          "type": "tile",
+          "label": "",
+          "command": "Down",
+          "icon": "▼",
+          "iconOnly": true,
+          "iconSize": 29,
+          "columnSpan": 2,
+          "height": 64
+        },
+        {
+          "type": "tile",
+          "label": "CH −",
+          "command": "ChannelDown",
+          "icon": "−",
+          "height": 64
+        }
+      ]
+    },
+    {
+      "title": "ЦВЕТНЫЕ КНОПКИ",
+      "controls": [
+        {
+          "type": "tile",
+          "label": "КРАСНЫЙ",
+          "command": "Red",
+          "icon": "●",
+          "backgroundColor": "#8A3542",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "type": "tile",
+          "label": "ЗЕЛЁНЫЙ",
+          "command": "Green",
+          "icon": "●",
+          "backgroundColor": "#2F6C4E",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "type": "tile",
+          "label": "ЖЁЛТЫЙ",
+          "command": "Yellow",
+          "icon": "●",
+          "backgroundColor": "#806B24",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "type": "tile",
+          "label": "СИНИЙ",
+          "command": "Blue",
+          "icon": "●",
+          "backgroundColor": "#315F8C",
+          "textColor": "#FFFFFF"
+        }
+      ]
+    },
+    {
+      "title": "TV",
+      "controls": [
+        {
+          "type": "tile",
+          "label": "СПИСОК КАНАЛОВ",
+          "command": "ChannelList",
+          "icon": "☷",
+          "columnSpan": 2
+        },
+        {
+          "type": "tile",
+          "label": "SMART HUB",
+          "command": "SmartHub",
+          "icon": "⌂",
+          "columnSpan": 2
+        },
+        {
+          "type": "tile",
+          "label": "ИНСТРУМЕНТЫ",
+          "command": "Tools",
+          "icon": "⚙",
+          "columnSpan": 2
+        },
+        {
+          "type": "tile",
+          "label": "ТЕКСТ",
+          "command": "TeletextMix",
+          "icon": "▤",
+          "columnSpan": 2
+        }
+      ]
+    },
+    {
+      "title": "МЕДИА",
+      "controls": [
+        {
+          "type": "tile",
+          "label": "",
+          "command": "Rewind",
+          "icon": "⏪",
+          "iconOnly": true
+        },
+        {
+          "type": "tile",
+          "label": "",
+          "command": "Play",
+          "icon": "▶",
+          "iconOnly": true
+        },
+        {
+          "type": "tile",
+          "label": "",
+          "command": "Pause",
+          "icon": "Ⅱ",
+          "iconOnly": true
+        },
+        {
+          "type": "tile",
+          "label": "",
+          "command": "FastForward",
+          "icon": "⏩",
+          "iconOnly": true
+        },
+        {
+          "type": "tile",
+          "label": "СТОП",
+          "command": "Stop",
+          "icon": "■",
+          "columnSpan": 2
+        },
+        {
+          "type": "tile",
+          "label": "СУБТИТРЫ",
+          "command": "Subtitle",
+          "icon": "▱",
+          "columnSpan": 2
+        }
+      ]
+    }
+  ]
+}

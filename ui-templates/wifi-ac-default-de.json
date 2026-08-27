@@ -1,0 +1,115 @@
+{
+  "$schema": "../schemas/device-ui-template-v1.schema.json",
+  "schemaVersion": 1,
+  "id": "wifi-ac-default",
+  "name": "WLAN-Klima Standard",
+  "deviceTypeId": "air-conditioner",
+  "connections": [
+    "wifi"
+  ],
+  "renderer": "builtin-wifi-ac",
+  "columns": 3,
+  "useFullWidth": true,
+  "sections": [
+    {
+      "title": "Ein/Aus",
+      "controls": [
+        {
+          "type": "button",
+          "label": "Ein",
+          "command": "power",
+          "value": true,
+          "icon": "⏻"
+        },
+        {
+          "type": "button",
+          "label": "Aus",
+          "command": "power",
+          "value": false,
+          "icon": "⏻"
+        }
+      ]
+    },
+    {
+      "title": "Temperatur",
+      "controls": [
+        {
+          "type": "stepper",
+          "label": "Ziel °C",
+          "command": "targetTemperature",
+          "columnSpan": 3
+        }
+      ]
+    },
+    {
+      "title": "Modus",
+      "controls": [
+        {
+          "type": "button",
+          "label": "Auto",
+          "command": "mode",
+          "value": "auto"
+        },
+        {
+          "type": "button",
+          "label": "Kühlen",
+          "command": "mode",
+          "value": "cool"
+        },
+        {
+          "type": "button",
+          "label": "Heizen",
+          "command": "mode",
+          "value": "heat"
+        },
+        {
+          "type": "button",
+          "label": "Trocknen",
+          "command": "mode",
+          "value": "dry"
+        },
+        {
+          "type": "button",
+          "label": "Lüfter",
+          "command": "mode",
+          "value": "fan"
+        }
+      ]
+    },
+    {
+      "title": "Funktionen",
+      "controls": [
+        {
+          "type": "toggle",
+          "label": "Leise",
+          "command": "quiet"
+        },
+        {
+          "type": "toggle",
+          "label": "Turbo",
+          "command": "turbo"
+        },
+        {
+          "type": "toggle",
+          "label": "Eco",
+          "command": "economy"
+        },
+        {
+          "type": "toggle",
+          "label": "Schlaf",
+          "command": "sleep"
+        },
+        {
+          "type": "toggle",
+          "label": "Anzeige",
+          "command": "display"
+        },
+        {
+          "type": "toggle",
+          "label": "Gesundheit",
+          "command": "health"
+        }
+      ]
+    }
+  ]
+}

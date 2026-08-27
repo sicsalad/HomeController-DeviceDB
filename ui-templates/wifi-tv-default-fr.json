@@ -2,7 +2,7 @@
   "$schema": "../schemas/device-ui-template-v1.schema.json",
   "schemaVersion": 1,
   "id": "wifi-tv-default",
-  "name": "Alapértelmezett Wi-Fi TV",
+  "name": "TV Wi-Fi par défaut",
   "deviceTypeId": "television",
   "connections": [
     "wifi"
@@ -12,11 +12,11 @@
   "useFullWidth": true,
   "sections": [
     {
-      "title": "Bekapcsolás / Hangerő",
+      "title": "Alimentation / Volume",
       "controls": [
         {
           "type": "button",
-          "label": "Bekapcsolás",
+          "label": "Alimentation",
           "command": "power",
           "icon": "⏻"
         },
@@ -32,24 +32,24 @@
         },
         {
           "type": "button",
-          "label": "Némítás",
+          "label": "Muet",
           "command": "mute"
         }
       ]
     },
     {
-      "title": "Navigáció",
+      "title": "Navigation",
       "controls": [
         {
           "type": "button",
-          "label": "Fel",
+          "label": "Haut",
           "command": "up",
           "icon": "▲",
           "iconOnly": true
         },
         {
           "type": "button",
-          "label": "Bal",
+          "label": "Gauche",
           "command": "left",
           "icon": "◀",
           "iconOnly": true
@@ -61,31 +61,31 @@
         },
         {
           "type": "button",
-          "label": "Jobb",
+          "label": "Droite",
           "command": "right",
           "icon": "▶",
           "iconOnly": true
         },
         {
           "type": "button",
-          "label": "Le",
+          "label": "Bas",
           "command": "down",
           "icon": "▼",
           "iconOnly": true
         },
         {
           "type": "button",
-          "label": "Vissza",
+          "label": "Retour",
           "command": "back"
         },
         {
           "type": "button",
-          "label": "Kezdőlap",
+          "label": "Accueil",
           "command": "home"
         },
         {
           "type": "button",
-          "label": "Forrás",
+          "label": "Source",
           "command": "source"
         }
       ]

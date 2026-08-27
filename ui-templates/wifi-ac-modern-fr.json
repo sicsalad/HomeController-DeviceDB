@@ -1,0 +1,148 @@
+{
+  "$schema": "../schemas/device-ui-template-v1.schema.json",
+  "schemaVersion": 1,
+  "id": "wifi-ac-modern",
+  "name": "Climatisation moderne",
+  "deviceTypeId": "air-conditioner",
+  "connections": [
+    "wifi"
+  ],
+  "renderer": "declarative",
+  "columns": 4,
+  "useFullWidth": true,
+  "buttonCornerRadius": 10,
+  "sectionCornerRadius": 16,
+  "buttonHeight": 58,
+  "buttonFontSize": 11,
+  "iconFontSize": 24,
+  "sections": [
+    {
+      "subtitle": "Commande de climatisation",
+      "controls": [
+        {
+          "type": "toggle",
+          "label": "ALIMENTATION",
+          "command": "power",
+          "icon": "⏻",
+          "columnSpan": 2
+        },
+        {
+          "type": "picker",
+          "label": "MODE",
+          "command": "mode",
+          "options": [
+            "Auto",
+            "Cool",
+            "Heat",
+            "Dry",
+            "Fan"
+          ],
+          "columnSpan": 2
+        }
+      ]
+    },
+    {
+      "title": "TEMPÉRATURE",
+      "subtitle": "Température cible",
+      "controls": [
+        {
+          "type": "stepper",
+          "label": "RÉGLER LA TEMPÉRATURE",
+          "command": "targetTemperature",
+          "minimum": 16,
+          "maximum": 30,
+          "step": 1,
+          "value": 24,
+          "columnSpan": 4
+        }
+      ]
+    },
+    {
+      "title": "FLUX D’AIR",
+      "controls": [
+        {
+          "type": "picker",
+          "label": "VITESSE VENTILATEUR",
+          "command": "fanSpeed",
+          "options": [
+            "Auto",
+            "Low",
+            "Medium",
+            "High",
+            "Turbo"
+          ],
+          "columnSpan": 2
+        },
+        {
+          "type": "picker",
+          "label": "OSCILLATION VERTICALE",
+          "command": "swingVertical",
+          "options": [
+            "Off",
+            "Auto",
+            "Up",
+            "Middle",
+            "Down"
+          ],
+          "columnSpan": 2
+        },
+        {
+          "type": "picker",
+          "label": "OSCILLATION HORIZONTALE",
+          "command": "swingHorizontal",
+          "options": [
+            "Off",
+            "Auto",
+            "Left",
+            "Middle",
+            "Right"
+          ],
+          "columnSpan": 4
+        }
+      ]
+    },
+    {
+      "title": "CONFORT",
+      "controls": [
+        {
+          "type": "toggle",
+          "label": "TURBO",
+          "command": "turbo",
+          "icon": "⚡"
+        },
+        {
+          "type": "toggle",
+          "label": "SILENCIEUX",
+          "command": "quiet",
+          "icon": "◔"
+        },
+        {
+          "type": "toggle",
+          "label": "ÉCO",
+          "command": "economy",
+          "icon": "♧"
+        },
+        {
+          "type": "toggle",
+          "label": "SOMMEIL",
+          "command": "sleep",
+          "icon": "☾"
+        },
+        {
+          "type": "toggle",
+          "label": "AFFICHAGE",
+          "command": "display",
+          "icon": "☼",
+          "columnSpan": 2
+        },
+        {
+          "type": "toggle",
+          "label": "SANTÉ",
+          "command": "health",
+          "icon": "✦",
+          "columnSpan": 2
+        }
+      ]
+    }
+  ]
+}

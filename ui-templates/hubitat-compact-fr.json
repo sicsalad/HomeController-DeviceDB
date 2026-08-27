@@ -1,0 +1,56 @@
+{
+  "$schema": "../schemas/device-ui-template-v1.schema.json",
+  "schemaVersion": 1,
+  "id": "hubitat-compact",
+  "name": "Hubitat compact",
+  "deviceTypeId": "hubitat",
+  "connections": [
+    "wifi"
+  ],
+  "renderer": "builtin-hubitat",
+  "columns": 3,
+  "useFullWidth": true,
+  "buttonCornerRadius": 12,
+  "sectionCornerRadius": 12,
+  "buttonHeight": 44,
+  "buttonFontSize": 12,
+  "iconFontSize": 20,
+  "itemDefaults": {
+    "columns": 3,
+    "displayMode": "compact",
+    "showIcon": true,
+    "showName": true,
+    "showType": false,
+    "showState": true,
+    "cornerRadius": 12
+  },
+  "itemStyles": {
+    "switch": {
+      "columns": 3,
+      "showState": true
+    },
+    "dimmer": {
+      "columns": 2,
+      "displayMode": "card",
+      "showType": true
+    },
+    "light": {
+      "columns": 2,
+      "displayMode": "card",
+      "showType": true
+    },
+    "temperature": {
+      "columns": 3,
+      "showType": false
+    },
+    "motion": {
+      "columns": 3,
+      "showType": false
+    },
+    "contact": {
+      "columns": 3,
+      "showType": false
+    }
+  },
+  "sections": []
+}

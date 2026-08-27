@@ -2,7 +2,7 @@
   "$schema": "../schemas/device-ui-template-v1.schema.json",
   "schemaVersion": 1,
   "id": "wifi-tv-default",
-  "name": "Alapértelmezett Wi-Fi TV",
+  "name": "Wi-Fi ТВ по умолчанию",
   "deviceTypeId": "television",
   "connections": [
     "wifi"
@@ -12,11 +12,11 @@
   "useFullWidth": true,
   "sections": [
     {
-      "title": "Bekapcsolás / Hangerő",
+      "title": "Питание / Громкость",
       "controls": [
         {
           "type": "button",
-          "label": "Bekapcsolás",
+          "label": "Питание",
           "command": "power",
           "icon": "⏻"
         },
@@ -32,24 +32,24 @@
         },
         {
           "type": "button",
-          "label": "Némítás",
+          "label": "Без звука",
           "command": "mute"
         }
       ]
     },
     {
-      "title": "Navigáció",
+      "title": "Навигация",
       "controls": [
         {
           "type": "button",
-          "label": "Fel",
+          "label": "Вверх",
           "command": "up",
           "icon": "▲",
           "iconOnly": true
         },
         {
           "type": "button",
-          "label": "Bal",
+          "label": "Влево",
           "command": "left",
           "icon": "◀",
           "iconOnly": true
@@ -61,31 +61,31 @@
         },
         {
           "type": "button",
-          "label": "Jobb",
+          "label": "Вправо",
           "command": "right",
           "icon": "▶",
           "iconOnly": true
         },
         {
           "type": "button",
-          "label": "Le",
+          "label": "Вниз",
           "command": "down",
           "icon": "▼",
           "iconOnly": true
         },
         {
           "type": "button",
-          "label": "Vissza",
+          "label": "Назад",
           "command": "back"
         },
         {
           "type": "button",
-          "label": "Kezdőlap",
+          "label": "Главная",
           "command": "home"
         },
         {
           "type": "button",
-          "label": "Forrás",
+          "label": "Источник",
           "command": "source"
         }
       ]

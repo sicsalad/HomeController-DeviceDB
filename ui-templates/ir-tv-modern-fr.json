@@ -1,0 +1,267 @@
+{
+  "$schema": "../schemas/device-ui-template-v1.schema.json",
+  "schemaVersion": 1,
+  "id": "ir-tv-modern",
+  "name": "TV moderne",
+  "deviceTypeId": "television",
+  "connections": [
+    "infrared"
+  ],
+  "renderer": "declarative",
+  "columns": 4,
+  "useFullWidth": true,
+  "buttonCornerRadius": 10,
+  "sectionCornerRadius": 16,
+  "buttonHeight": 58,
+  "buttonFontSize": 11,
+  "iconFontSize": 25,
+  "sections": [
+    {
+      "subtitle": "Commandes rapides",
+      "controls": [
+        {
+          "type": "tile",
+          "label": "ALIMENTATION",
+          "command": "Power",
+          "icon": "⏻"
+        },
+        {
+          "type": "tile",
+          "label": "MENU",
+          "command": "Menu",
+          "icon": "☰"
+        },
+        {
+          "type": "tile",
+          "label": "INFO",
+          "command": "Info",
+          "icon": "ⓘ"
+        },
+        {
+          "type": "tile",
+          "label": "MUET",
+          "command": "Mute",
+          "icon": "🔇"
+        },
+        {
+          "type": "tile",
+          "label": "SOURCE",
+          "command": "Source",
+          "icon": "▣",
+          "columnSpan": 2
+        },
+        {
+          "type": "tile",
+          "label": "GUIDE",
+          "command": "Guide",
+          "icon": "▤",
+          "columnSpan": 2
+        }
+      ]
+    },
+    {
+      "title": "NAVIGATION",
+      "subtitle": "Volume · direction · chaîne",
+      "controls": [
+        {
+          "type": "tile",
+          "label": "VOL +",
+          "command": "VolumeUp",
+          "icon": "＋",
+          "height": 64
+        },
+        {
+          "type": "tile",
+          "label": "",
+          "command": "Up",
+          "icon": "▲",
+          "iconOnly": true,
+          "iconSize": 29,
+          "columnSpan": 2,
+          "height": 64
+        },
+        {
+          "type": "tile",
+          "label": "CH +",
+          "command": "ChannelUp",
+          "icon": "＋",
+          "height": 64
+        },
+        {
+          "type": "tile",
+          "label": "VOL −",
+          "command": "VolumeDown",
+          "icon": "−",
+          "height": 64
+        },
+        {
+          "type": "tile",
+          "label": "",
+          "command": "Left",
+          "icon": "◀",
+          "iconOnly": true,
+          "iconSize": 28,
+          "height": 64
+        },
+        {
+          "type": "tile",
+          "label": "OK",
+          "command": "Ok",
+          "icon": "●",
+          "iconSize": 17,
+          "height": 64
+        },
+        {
+          "type": "tile",
+          "label": "",
+          "command": "Right",
+          "icon": "▶",
+          "iconOnly": true,
+          "iconSize": 28,
+          "height": 64
+        },
+        {
+          "type": "tile",
+          "label": "BACK",
+          "command": "Back",
+          "icon": "↩",
+          "height": 64
+        },
+        {
+          "type": "tile",
+          "label": "",
+          "command": "Down",
+          "icon": "▼",
+          "iconOnly": true,
+          "iconSize": 29,
+          "columnSpan": 2,
+          "height": 64
+        },
+        {
+          "type": "tile",
+          "label": "CH −",
+          "command": "ChannelDown",
+          "icon": "−",
+          "height": 64
+        }
+      ]
+    },
+    {
+      "title": "TOUCHES COULEUR",
+      "controls": [
+        {
+          "type": "tile",
+          "label": "ROUGE",
+          "command": "Red",
+          "icon": "●",
+          "backgroundColor": "#8A3542",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "type": "tile",
+          "label": "VERT",
+          "command": "Green",
+          "icon": "●",
+          "backgroundColor": "#2F6C4E",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "type": "tile",
+          "label": "JAUNE",
+          "command": "Yellow",
+          "icon": "●",
+          "backgroundColor": "#806B24",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "type": "tile",
+          "label": "BLEU",
+          "command": "Blue",
+          "icon": "●",
+          "backgroundColor": "#315F8C",
+          "textColor": "#FFFFFF"
+        }
+      ]
+    },
+    {
+      "title": "TV",
+      "controls": [
+        {
+          "type": "tile",
+          "label": "LISTE CHAÎNES",
+          "command": "ChannelList",
+          "icon": "☷",
+          "columnSpan": 2
+        },
+        {
+          "type": "tile",
+          "label": "SMART HUB",
+          "command": "SmartHub",
+          "icon": "⌂",
+          "columnSpan": 2
+        },
+        {
+          "type": "tile",
+          "label": "OUTILS",
+          "command": "Tools",
+          "icon": "⚙",
+          "columnSpan": 2
+        },
+        {
+          "type": "tile",
+          "label": "TEXTE",
+          "command": "TeletextMix",
+          "icon": "▤",
+          "columnSpan": 2
+        }
+      ]
+    },
+    {
+      "title": "MÉDIA",
+      "controls": [
+        {
+          "type": "tile",
+          "label": "",
+          "command": "Rewind",
+          "icon": "⏪",
+          "iconOnly": true
+        },
+        {
+          "type": "tile",
+          "label": "",
+          "command": "Play",
+          "icon": "▶",
+          "iconOnly": true
+        },
+        {
+          "type": "tile",
+          "label": "",
+          "command": "Pause",
+          "icon": "Ⅱ",
+          "iconOnly": true
+        },
+        {
+          "type": "tile",
+          "label": "",
+          "command": "FastForward",
+          "icon": "⏩",
+          "iconOnly": true
+        },
+        {
+          "type": "tile",
+          "label": "STOP",
+          "command": "Stop",
+          "icon": "■",
+          "columnSpan": 2
+        },
+        {
+          "type": "tile",
+          "label": "SOUS-TITRES",
+          "command": "Subtitle",
+          "icon": "▱",
+          "columnSpan": 2
+        }
+      ]
+    }
+  ]
+}

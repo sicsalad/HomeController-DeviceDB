@@ -1,0 +1,115 @@
+{
+  "$schema": "../schemas/device-ui-template-v1.schema.json",
+  "schemaVersion": 1,
+  "id": "wifi-ac-default",
+  "name": "Climatisation Wi-Fi par défaut",
+  "deviceTypeId": "air-conditioner",
+  "connections": [
+    "wifi"
+  ],
+  "renderer": "builtin-wifi-ac",
+  "columns": 3,
+  "useFullWidth": true,
+  "sections": [
+    {
+      "title": "Alimentation",
+      "controls": [
+        {
+          "type": "button",
+          "label": "Marche",
+          "command": "power",
+          "value": true,
+          "icon": "⏻"
+        },
+        {
+          "type": "button",
+          "label": "Arrêt",
+          "command": "power",
+          "value": false,
+          "icon": "⏻"
+        }
+      ]
+    },
+    {
+      "title": "Température",
+      "controls": [
+        {
+          "type": "stepper",
+          "label": "Cible °C",
+          "command": "targetTemperature",
+          "columnSpan": 3
+        }
+      ]
+    },
+    {
+      "title": "Mode",
+      "controls": [
+        {
+          "type": "button",
+          "label": "Auto",
+          "command": "mode",
+          "value": "auto"
+        },
+        {
+          "type": "button",
+          "label": "Froid",
+          "command": "mode",
+          "value": "cool"
+        },
+        {
+          "type": "button",
+          "label": "Chauffage",
+          "command": "mode",
+          "value": "heat"
+        },
+        {
+          "type": "button",
+          "label": "Déshumidification",
+          "command": "mode",
+          "value": "dry"
+        },
+        {
+          "type": "button",
+          "label": "Ventilateur",
+          "command": "mode",
+          "value": "fan"
+        }
+      ]
+    },
+    {
+      "title": "Fonctions",
+      "controls": [
+        {
+          "type": "toggle",
+          "label": "Silencieux",
+          "command": "quiet"
+        },
+        {
+          "type": "toggle",
+          "label": "Turbo",
+          "command": "turbo"
+        },
+        {
+          "type": "toggle",
+          "label": "Éco",
+          "command": "economy"
+        },
+        {
+          "type": "toggle",
+          "label": "Sommeil",
+          "command": "sleep"
+        },
+        {
+          "type": "toggle",
+          "label": "Affichage",
+          "command": "display"
+        },
+        {
+          "type": "toggle",
+          "label": "Santé",
+          "command": "health"
+        }
+      ]
+    }
+  ]
+}

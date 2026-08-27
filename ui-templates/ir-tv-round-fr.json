@@ -1,0 +1,270 @@
+{
+  "$schema": "../schemas/device-ui-template-v1.schema.json",
+  "schemaVersion": 1,
+  "id": "ir-tv-round",
+  "name": "TV ronde",
+  "deviceTypeId": "television",
+  "connections": [
+    "infrared"
+  ],
+  "renderer": "declarative",
+  "columns": 5,
+  "useFullWidth": true,
+  "buttonCornerRadius": 16,
+  "sectionCornerRadius": 18,
+  "buttonHeight": 58,
+  "buttonFontSize": 11,
+  "iconFontSize": 24,
+  "sections": [
+    {
+      "subtitle": "Alimentation et actions rapides",
+      "controls": [
+        {
+          "type": "tile",
+          "label": "",
+          "command": "Power",
+          "icon": "⏻",
+          "iconOnly": true,
+          "shape": "circle",
+          "height": 60
+        },
+        {
+          "type": "tile",
+          "label": "MUET",
+          "command": "Mute",
+          "icon": "🔇",
+          "shape": "circle",
+          "height": 60
+        },
+        {
+          "type": "tile",
+          "label": "INFO",
+          "command": "Info",
+          "icon": "ⓘ",
+          "shape": "circle",
+          "height": 60
+        },
+        {
+          "type": "tile",
+          "label": "MENU",
+          "command": "Menu",
+          "icon": "☰",
+          "shape": "circle",
+          "height": 60
+        },
+        {
+          "type": "tile",
+          "label": "SOURCE",
+          "command": "Source",
+          "icon": "▣",
+          "shape": "circle",
+          "height": 60
+        }
+      ]
+    },
+    {
+      "title": "NAVIGATION",
+      "controls": [
+        {
+          "type": "tile",
+          "label": "VOL +",
+          "command": "VolumeUp",
+          "icon": "＋",
+          "shape": "pill",
+          "height": 58
+        },
+        {
+          "type": "tile",
+          "label": "",
+          "command": "Up",
+          "icon": "▲",
+          "iconOnly": true,
+          "shape": "circle",
+          "height": 62,
+          "columnSpan": 3
+        },
+        {
+          "type": "tile",
+          "label": "CH +",
+          "command": "ChannelUp",
+          "icon": "＋",
+          "shape": "pill",
+          "height": 58
+        },
+        {
+          "type": "tile",
+          "label": "VOL −",
+          "command": "VolumeDown",
+          "icon": "−",
+          "shape": "pill",
+          "height": 58
+        },
+        {
+          "type": "tile",
+          "label": "",
+          "command": "Left",
+          "icon": "◀",
+          "iconOnly": true,
+          "shape": "circle",
+          "height": 62
+        },
+        {
+          "type": "tile",
+          "label": "OK",
+          "command": "Ok",
+          "shape": "circle",
+          "height": 68
+        },
+        {
+          "type": "tile",
+          "label": "",
+          "command": "Right",
+          "icon": "▶",
+          "iconOnly": true,
+          "shape": "circle",
+          "height": 62
+        },
+        {
+          "type": "tile",
+          "label": "CH −",
+          "command": "ChannelDown",
+          "icon": "−",
+          "shape": "pill",
+          "height": 58
+        },
+        {
+          "type": "tile",
+          "label": "LISTE CHAÎNES",
+          "command": "ChannelList",
+          "icon": "☷",
+          "shape": "pill",
+          "height": 54
+        },
+        {
+          "type": "tile",
+          "label": "",
+          "command": "Down",
+          "icon": "▼",
+          "iconOnly": true,
+          "shape": "circle",
+          "height": 62,
+          "columnSpan": 3
+        },
+        {
+          "type": "tile",
+          "label": "GUIDE",
+          "command": "Guide",
+          "icon": "▤",
+          "shape": "pill",
+          "height": 54
+        }
+      ]
+    },
+    {
+      "title": "TOUCHES COULEUR",
+      "controls": [
+        {
+          "type": "tile",
+          "label": "",
+          "command": "Red",
+          "icon": "●",
+          "iconOnly": true,
+          "shape": "circle",
+          "height": 48,
+          "backgroundColor": "#8A3542",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "type": "tile",
+          "label": "",
+          "command": "Green",
+          "icon": "●",
+          "iconOnly": true,
+          "shape": "circle",
+          "height": 48,
+          "backgroundColor": "#2F6C4E",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "type": "tile",
+          "label": "",
+          "command": "Yellow",
+          "icon": "●",
+          "iconOnly": true,
+          "shape": "circle",
+          "height": 48,
+          "backgroundColor": "#806B24",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "type": "tile",
+          "label": "",
+          "command": "Blue",
+          "icon": "●",
+          "iconOnly": true,
+          "shape": "circle",
+          "height": 48,
+          "backgroundColor": "#315F8C",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "type": "tile",
+          "label": "OUTILS",
+          "command": "Tools",
+          "icon": "⚙",
+          "shape": "circle",
+          "height": 48
+        }
+      ]
+    },
+    {
+      "title": "MÉDIA",
+      "controls": [
+        {
+          "type": "tile",
+          "label": "",
+          "command": "Rewind",
+          "icon": "⏪",
+          "iconOnly": true,
+          "shape": "circle",
+          "height": 52
+        },
+        {
+          "type": "tile",
+          "label": "",
+          "command": "Play",
+          "icon": "▶",
+          "iconOnly": true,
+          "shape": "circle",
+          "height": 52
+        },
+        {
+          "type": "tile",
+          "label": "",
+          "command": "Pause",
+          "icon": "Ⅱ",
+          "iconOnly": true,
+          "shape": "circle",
+          "height": 52
+        },
+        {
+          "type": "tile",
+          "label": "",
+          "command": "FastForward",
+          "icon": "⏩",
+          "iconOnly": true,
+          "shape": "circle",
+          "height": 52
+        },
+        {
+          "type": "tile",
+          "label": "STOP",
+          "command": "Stop",
+          "icon": "■",
+          "shape": "circle",
+          "height": 52
+        }
+      ]
+    }
+  ]
+}

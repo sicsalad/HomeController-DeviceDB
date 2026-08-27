@@ -1,0 +1,115 @@
+{
+  "$schema": "../schemas/device-ui-template-v1.schema.json",
+  "schemaVersion": 1,
+  "id": "wifi-ac-default",
+  "name": "Alapértelmezett Wi-Fi klíma",
+  "deviceTypeId": "air-conditioner",
+  "connections": [
+    "wifi"
+  ],
+  "renderer": "builtin-wifi-ac",
+  "columns": 3,
+  "useFullWidth": true,
+  "sections": [
+    {
+      "title": "Bekapcsolás",
+      "controls": [
+        {
+          "type": "button",
+          "label": "Be",
+          "command": "power",
+          "value": true,
+          "icon": "⏻"
+        },
+        {
+          "type": "button",
+          "label": "Ki",
+          "command": "power",
+          "value": false,
+          "icon": "⏻"
+        }
+      ]
+    },
+    {
+      "title": "Hőmérséklet",
+      "controls": [
+        {
+          "type": "stepper",
+          "label": "Cél °C",
+          "command": "targetTemperature",
+          "columnSpan": 3
+        }
+      ]
+    },
+    {
+      "title": "Üzemmód",
+      "controls": [
+        {
+          "type": "button",
+          "label": "Auto",
+          "command": "mode",
+          "value": "auto"
+        },
+        {
+          "type": "button",
+          "label": "Hűtés",
+          "command": "mode",
+          "value": "cool"
+        },
+        {
+          "type": "button",
+          "label": "Fűtés",
+          "command": "mode",
+          "value": "heat"
+        },
+        {
+          "type": "button",
+          "label": "Szárítás",
+          "command": "mode",
+          "value": "dry"
+        },
+        {
+          "type": "button",
+          "label": "Ventilátor",
+          "command": "mode",
+          "value": "fan"
+        }
+      ]
+    },
+    {
+      "title": "Funkciók",
+      "controls": [
+        {
+          "type": "toggle",
+          "label": "Csendes",
+          "command": "quiet"
+        },
+        {
+          "type": "toggle",
+          "label": "Turbo",
+          "command": "turbo"
+        },
+        {
+          "type": "toggle",
+          "label": "Takarékos",
+          "command": "economy"
+        },
+        {
+          "type": "toggle",
+          "label": "Alvás",
+          "command": "sleep"
+        },
+        {
+          "type": "toggle",
+          "label": "Kijelző",
+          "command": "display"
+        },
+        {
+          "type": "toggle",
+          "label": "Egészség",
+          "command": "health"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "$schema": "../schemas/device-ui-template-v1.schema.json",
+  "schemaVersion": 1,
+  "id": "wifi-ac-default",
+  "name": "Wi-Fi климат по умолчанию",
+  "deviceTypeId": "air-conditioner",
+  "connections": [
+    "wifi"
+  ],
+  "renderer": "builtin-wifi-ac",
+  "columns": 3,
+  "useFullWidth": true,
+  "sections": [
+    {
+      "title": "Питание",
+      "controls": [
+        {
+          "type": "button",
+          "label": "Вкл.",
+          "command": "power",
+          "value": true,
+          "icon": "⏻"
+        },
+        {
+          "type": "button",
+          "label": "Выкл.",
+          "command": "power",
+          "value": false,
+          "icon": "⏻"
+        }
+      ]
+    },
+    {
+      "title": "Температура",
+      "controls": [
+        {
+          "type": "stepper",
+          "label": "Цель °C",
+          "command": "targetTemperature",
+          "columnSpan": 3
+        }
+      ]
+    },
+    {
+      "title": "Режим",
+      "controls": [
+        {
+          "type": "button",
+          "label": "Авто",
+          "command": "mode",
+          "value": "auto"
+        },
+        {
+          "type": "button",
+          "label": "Охлаждение",
+          "command": "mode",
+          "value": "cool"
+        },
+        {
+          "type": "button",
+          "label": "Обогрев",
+          "command": "mode",
+          "value": "heat"
+        },
+        {
+          "type": "button",
+          "label": "Осушение",
+          "command": "mode",
+          "value": "dry"
+        },
+        {
+          "type": "button",
+          "label": "Вентилятор",
+          "command": "mode",
+          "value": "fan"
+        }
+      ]
+    },
+    {
+      "title": "Функции",
+      "controls": [
+        {
+          "type": "toggle",
+          "label": "Тихо",
+          "command": "quiet"
+        },
+        {
+          "type": "toggle",
+          "label": "Турбо",
+          "command": "turbo"
+        },
+        {
+          "type": "toggle",
+          "label": "Эко",
+          "command": "economy"
+        },
+        {
+          "type": "toggle",
+          "label": "Сон",
+          "command": "sleep"
+        },
+        {
+          "type": "toggle",
+          "label": "Дисплей",
+          "command": "display"
+        },
+        {
+          "type": "toggle",
+          "label": "Здоровье",
+          "command": "health"
+        }
+      ]
+    }
+  ]
+}
