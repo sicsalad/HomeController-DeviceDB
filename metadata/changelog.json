@@ -294,6 +294,12 @@
       "versionCode": 1787820241,
       "publishedUtc": "2026-08-27T08:44:01Z",
       "notes": "Make Modern IR climate layout theme-neutral"
+    },
+    {
+      "version": "1.0.57",
+      "versionCode": 1787820257,
+      "publishedUtc": "2026-08-27T08:44:17Z",
+      "notes": "Make Modern Wi-Fi climate layout theme-neutral"
     }
   ]
 }
