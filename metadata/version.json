@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.47",
-  "versionCode": 1787819849,
-  "publishedUtc": "2026-08-27T08:37:29Z",
-  "commit": "e0cb7294812aa9b9b7dbf19569bf54a644ecd9bd",
-  "patchNotes": "Attach schema to Device UI template index"
+  "version": "1.0.48",
+  "versionCode": 1787819861,
+  "publishedUtc": "2026-08-27T08:37:41Z",
+  "commit": "b0938e2c7039373ddbc5a5bb46de2110744a73fe",
+  "patchNotes": "Attach schema to device type catalog"
 }
