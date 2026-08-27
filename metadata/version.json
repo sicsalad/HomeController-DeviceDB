@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.39",
-  "versionCode": 1787819658,
-  "publishedUtc": "2026-08-27T08:34:18Z",
-  "commit": "d285c704f4cdb4602163a3ce466f53c88e8a75cb",
-  "patchNotes": "Attach schema to default theme"
+  "version": "1.0.40",
+  "versionCode": 1787819672,
+  "publishedUtc": "2026-08-27T08:34:32Z",
+  "commit": "ab05621cfcc28f148b29c09acbfbd2bb01f58f92",
+  "patchNotes": "Attach schema to Blue Eye theme"
 }
