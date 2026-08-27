@@ -138,6 +138,12 @@
       "versionCode": 1787819147,
       "publishedUtc": "2026-08-27T08:25:47Z",
       "notes": "Add Device UI template JSON schema"
+    },
+    {
+      "version": "1.0.31",
+      "versionCode": 1787819158,
+      "publishedUtc": "2026-08-27T08:25:58Z",
+      "notes": "Add device type catalog JSON schema"
     }
   ]
 }
