@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.34",
-  "versionCode": 1787819383,
-  "publishedUtc": "2026-08-27T08:29:43Z",
-  "commit": "dac3cc1a9c79ca39977214cf7fa6c22f20542dfe",
-  "patchNotes": "Link machine-readable theme and UI schemas"
+  "version": "1.0.35",
+  "versionCode": 1787819557,
+  "publishedUtc": "2026-08-27T08:32:37Z",
+  "commit": "f804c9850602ceb06979e734f511029ce8e3767f",
+  "patchNotes": "Allow schema declaration in application themes"
 }
