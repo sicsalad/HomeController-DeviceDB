@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/sicsalad/HomeController-DeviceDB/schemas/theme-catalog-v1.schema.json",
+  "title": "HomeController application theme catalog v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "themes"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "schemaVersion": { "const": 1 },
+    "themes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "name", "file", "minimumRuntimeVersion"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "name": { "type": "string", "minLength": 1 },
+          "file": { "type": "string", "minLength": 1 },
+          "minimumRuntimeVersion": { "type": "integer", "minimum": 1 }
+        }
+      }
+    }
+  }
+}
