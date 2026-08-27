@@ -354,6 +354,12 @@
       "versionCode": 1787828421,
       "publishedUtc": "2026-08-27T11:00:21Z",
       "notes": "Add permanent premium activation code"
+    },
+    {
+      "version": "1.0.73",
+      "versionCode": 1787855365,
+      "publishedUtc": "2026-08-27T18:29:25Z",
+      "notes": "Add English Wi-Fi TV UI localization"
     }
   ]
 }

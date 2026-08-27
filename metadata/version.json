@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.66",
-  "versionCode": 1787828421,
-  "publishedUtc": "2026-08-27T11:00:21Z",
-  "commit": "8890eddbca5bff0a278362eb1530a378ab86a751",
-  "patchNotes": "Add permanent premium activation code"
+  "version": "1.0.73",
+  "versionCode": 1787855365,
+  "publishedUtc": "2026-08-27T18:29:25Z",
+  "commit": "17a61679fc954fcf672a25e0d9a3d3914d67ba47",
+  "patchNotes": "Add English Wi-Fi TV UI localization"
 }
