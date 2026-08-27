@@ -16,7 +16,7 @@
       "controls": [
         {
           "type": "button",
-          "label": "Alimentation",
+          "label": "MARCHE/ARRÊT",
           "command": "power",
           "icon": "⏻"
         },
@@ -32,7 +32,7 @@
         },
         {
           "type": "button",
-          "label": "Muet",
+          "label": "MUET",
           "command": "mute"
         }
       ]
@@ -85,7 +85,7 @@
         },
         {
           "type": "button",
-          "label": "Source",
+          "label": "SOURCE",
           "command": "source"
         }
       ]

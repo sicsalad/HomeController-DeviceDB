@@ -16,14 +16,14 @@
       "controls": [
         {
           "type": "button",
-          "label": "Ein",
+          "label": "EIN/AUS",
           "command": "power",
           "value": true,
           "icon": "⏻"
         },
         {
           "type": "button",
-          "label": "Aus",
+          "label": "EIN/AUS",
           "command": "power",
           "value": false,
           "icon": "⏻"

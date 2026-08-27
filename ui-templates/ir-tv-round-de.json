@@ -152,7 +152,7 @@
         },
         {
           "type": "tile",
-          "label": "PROGRAMM",
+          "label": "EPG",
           "command": "Guide",
           "icon": "▤",
           "shape": "pill",

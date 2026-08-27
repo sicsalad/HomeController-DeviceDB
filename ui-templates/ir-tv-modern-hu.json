@@ -122,7 +122,7 @@
         },
         {
           "type": "tile",
-          "label": "BACK",
+          "label": "VISSZA",
           "command": "Back",
           "icon": "↩",
           "height": 64

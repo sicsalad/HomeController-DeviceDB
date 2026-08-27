@@ -134,7 +134,7 @@
         },
         {
           "type": "tile",
-          "label": "LISTE CHAÎNES",
+          "label": "LISTE CH",
           "command": "ChannelList",
           "icon": "☷",
           "shape": "pill",
@@ -152,7 +152,7 @@
         },
         {
           "type": "tile",
-          "label": "GUIDE",
+          "label": "GUIDE TV",
           "command": "Guide",
           "icon": "▤",
           "shape": "pill",

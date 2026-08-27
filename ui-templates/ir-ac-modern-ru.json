@@ -21,7 +21,7 @@
       "controls": [
         {
           "type": "tile",
-          "label": "ПИТАНИЕ",
+          "label": "ВКЛ/ВЫКЛ",
           "command": "Power",
           "icon": "⏻",
           "columnSpan": 2
@@ -34,7 +34,7 @@
         },
         {
           "type": "tile",
-          "label": "ВЕНТИЛЯТОР",
+          "label": "ВЕНТ.",
           "command": "FanSpeed",
           "icon": "✣"
         }
@@ -45,7 +45,7 @@
       "controls": [
         {
           "type": "tile",
-          "label": "ХОЛОДНЕЕ",
+          "label": "TEMP −",
           "command": "TemperatureDown",
           "icon": "−",
           "columnSpan": 2,
@@ -54,7 +54,7 @@
         },
         {
           "type": "tile",
-          "label": "ТЕПЛЕЕ",
+          "label": "TEMP +",
           "command": "TemperatureUp",
           "icon": "＋",
           "columnSpan": 2,
@@ -68,13 +68,13 @@
       "controls": [
         {
           "type": "tile",
-          "label": "АВТО",
+          "label": "AUTO",
           "command": "ModeAuto",
           "icon": "A"
         },
         {
           "type": "tile",
-          "label": "ОХЛАЖДЕНИЕ",
+          "label": "ОХЛАЖД.",
           "command": "ModeCool",
           "icon": "❄"
         },
@@ -86,20 +86,20 @@
         },
         {
           "type": "tile",
-          "label": "ОСУШЕНИЕ",
+          "label": "DRY",
           "command": "ModeDry",
           "icon": "◌"
         },
         {
           "type": "tile",
-          "label": "ВЕНТИЛЯТОР",
+          "label": "ВЕНТ.",
           "command": "ModeFan",
           "icon": "✣",
           "columnSpan": 2
         },
         {
           "type": "tile",
-          "label": "ВЕНТИЛЯТОР АВТО",
+          "label": "ВЕНТ. AUTO",
           "command": "FanSpeedAuto",
           "icon": "◎",
           "columnSpan": 2
@@ -111,19 +111,19 @@
       "controls": [
         {
           "type": "tile",
-          "label": "FAN −",
+          "label": "ВЕНТ. −",
           "command": "FanSpeedDown",
           "icon": "−"
         },
         {
           "type": "tile",
-          "label": "FAN +",
+          "label": "ВЕНТ. +",
           "command": "FanSpeedUp",
           "icon": "＋"
         },
         {
           "type": "tile",
-          "label": "КАЧАНИЕ",
+          "label": "SWING",
           "command": "Swing",
           "icon": "↕",
           "columnSpan": 2
@@ -135,7 +135,7 @@
       "controls": [
         {
           "type": "tile",
-          "label": "ТУРБО",
+          "label": "TURBO",
           "command": "Turbo",
           "icon": "⚡"
         },
@@ -147,19 +147,19 @@
         },
         {
           "type": "tile",
-          "label": "ЭКО",
+          "label": "ECO",
           "command": "Economy",
           "icon": "♧"
         },
         {
           "type": "tile",
-          "label": "СОН",
+          "label": "SLEEP",
           "command": "Sleep",
           "icon": "☾"
         },
         {
           "type": "tile",
-          "label": "ЭНЕРГОСБЕРЕЖЕНИЕ",
+          "label": "ECO",
           "command": "PowerSave",
           "icon": "◒",
           "columnSpan": 2
@@ -199,7 +199,7 @@
         },
         {
           "type": "tile",
-          "label": "ТАЙМЕР",
+          "label": "TIMER",
           "command": "Timer",
           "icon": "◷",
           "columnSpan": 2

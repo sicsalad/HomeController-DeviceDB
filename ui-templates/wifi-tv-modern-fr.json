@@ -21,7 +21,7 @@
       "controls": [
         {
           "type": "tile",
-          "label": "ALIMENTATION",
+          "label": "MARCHE/ARRÊT",
           "command": "power",
           "icon": "⏻"
         },

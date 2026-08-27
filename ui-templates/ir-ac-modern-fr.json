@@ -21,7 +21,7 @@
       "controls": [
         {
           "type": "tile",
-          "label": "ALIMENTATION",
+          "label": "MARCHE/ARRÊT",
           "command": "Power",
           "icon": "⏻",
           "columnSpan": 2
@@ -34,7 +34,7 @@
         },
         {
           "type": "tile",
-          "label": "VENTILATEUR",
+          "label": "VENTIL.",
           "command": "FanSpeed",
           "icon": "✣"
         }
@@ -45,7 +45,7 @@
       "controls": [
         {
           "type": "tile",
-          "label": "PLUS FROID",
+          "label": "TEMP −",
           "command": "TemperatureDown",
           "icon": "−",
           "columnSpan": 2,
@@ -54,7 +54,7 @@
         },
         {
           "type": "tile",
-          "label": "PLUS CHAUD",
+          "label": "TEMP +",
           "command": "TemperatureUp",
           "icon": "＋",
           "columnSpan": 2,
@@ -80,26 +80,26 @@
         },
         {
           "type": "tile",
-          "label": "CHAUFFAGE",
+          "label": "CHAUD",
           "command": "ModeHeat",
           "icon": "☀"
         },
         {
           "type": "tile",
-          "label": "DÉSHUMIDIFICATION",
+          "label": "DRY",
           "command": "ModeDry",
           "icon": "◌"
         },
         {
           "type": "tile",
-          "label": "VENTILATEUR",
+          "label": "VENTIL.",
           "command": "ModeFan",
           "icon": "✣",
           "columnSpan": 2
         },
         {
           "type": "tile",
-          "label": "VENTILATEUR AUTO",
+          "label": "VENTIL. AUTO",
           "command": "FanSpeedAuto",
           "icon": "◎",
           "columnSpan": 2
@@ -111,19 +111,19 @@
       "controls": [
         {
           "type": "tile",
-          "label": "FAN −",
+          "label": "VENTIL. −",
           "command": "FanSpeedDown",
           "icon": "−"
         },
         {
           "type": "tile",
-          "label": "FAN +",
+          "label": "VENTIL. +",
           "command": "FanSpeedUp",
           "icon": "＋"
         },
         {
           "type": "tile",
-          "label": "OSCILLATION",
+          "label": "SWING",
           "command": "Swing",
           "icon": "↕",
           "columnSpan": 2
@@ -141,25 +141,25 @@
         },
         {
           "type": "tile",
-          "label": "SILENCIEUX",
+          "label": "SILENCE",
           "command": "Quiet",
           "icon": "◔"
         },
         {
           "type": "tile",
-          "label": "ÉCO",
+          "label": "ECO",
           "command": "Economy",
           "icon": "♧"
         },
         {
           "type": "tile",
-          "label": "SOMMEIL",
+          "label": "SLEEP",
           "command": "Sleep",
           "icon": "☾"
         },
         {
           "type": "tile",
-          "label": "ÉCONOMIE D’ÉNERGIE",
+          "label": "ECO",
           "command": "PowerSave",
           "icon": "◒",
           "columnSpan": 2
@@ -199,7 +199,7 @@
         },
         {
           "type": "tile",
-          "label": "MINUTERIE",
+          "label": "TIMER",
           "command": "Timer",
           "icon": "◷",
           "columnSpan": 2

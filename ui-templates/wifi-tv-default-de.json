@@ -16,7 +16,7 @@
       "controls": [
         {
           "type": "button",
-          "label": "Ein/Aus",
+          "label": "EIN/AUS",
           "command": "power",
           "icon": "⏻"
         },
@@ -32,7 +32,7 @@
         },
         {
           "type": "button",
-          "label": "Stumm",
+          "label": "STUMM",
           "command": "mute"
         }
       ]
@@ -85,7 +85,7 @@
         },
         {
           "type": "button",
-          "label": "Quelle",
+          "label": "QUELLE",
           "command": "source"
         }
       ]

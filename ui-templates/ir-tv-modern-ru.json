@@ -21,7 +21,7 @@
       "controls": [
         {
           "type": "tile",
-          "label": "ПИТАНИЕ",
+          "label": "ВКЛ/ВЫКЛ",
           "command": "Power",
           "icon": "⏻"
         },
@@ -122,7 +122,7 @@
         },
         {
           "type": "tile",
-          "label": "BACK",
+          "label": "НАЗАД",
           "command": "Back",
           "icon": "↩",
           "height": 64
@@ -188,7 +188,7 @@
       "controls": [
         {
           "type": "tile",
-          "label": "СПИСОК КАНАЛОВ",
+          "label": "КАНАЛЫ",
           "command": "ChannelList",
           "icon": "☷",
           "columnSpan": 2
@@ -249,7 +249,7 @@
         },
         {
           "type": "tile",
-          "label": "СТОП",
+          "label": "STOP",
           "command": "Stop",
           "icon": "■",
           "columnSpan": 2

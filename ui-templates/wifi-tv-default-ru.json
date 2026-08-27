@@ -16,7 +16,7 @@
       "controls": [
         {
           "type": "button",
-          "label": "Питание",
+          "label": "ВКЛ/ВЫКЛ",
           "command": "power",
           "icon": "⏻"
         },
@@ -32,7 +32,7 @@
         },
         {
           "type": "button",
-          "label": "Без звука",
+          "label": "БЕЗ ЗВУКА",
           "command": "mute"
         }
       ]
@@ -85,7 +85,7 @@
         },
         {
           "type": "button",
-          "label": "Источник",
+          "label": "ИСТОЧНИК",
           "command": "source"
         }
       ]

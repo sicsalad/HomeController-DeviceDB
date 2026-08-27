@@ -21,7 +21,7 @@
       "controls": [
         {
           "type": "toggle",
-          "label": "ПИТАНИЕ",
+          "label": "ВКЛ/ВЫКЛ",
           "command": "power",
           "icon": "⏻",
           "columnSpan": 2

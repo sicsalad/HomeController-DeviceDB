@@ -21,7 +21,7 @@
       "controls": [
         {
           "type": "tile",
-          "label": "ALIMENTATION",
+          "label": "MARCHE/ARRÊT",
           "command": "Power",
           "icon": "⏻"
         },
@@ -52,7 +52,7 @@
         },
         {
           "type": "tile",
-          "label": "GUIDE",
+          "label": "GUIDE TV",
           "command": "Guide",
           "icon": "▤",
           "columnSpan": 2
@@ -122,7 +122,7 @@
         },
         {
           "type": "tile",
-          "label": "BACK",
+          "label": "RETOUR",
           "command": "Back",
           "icon": "↩",
           "height": 64
@@ -188,7 +188,7 @@
       "controls": [
         {
           "type": "tile",
-          "label": "LISTE CHAÎNES",
+          "label": "LISTE CH",
           "command": "ChannelList",
           "icon": "☷",
           "columnSpan": 2

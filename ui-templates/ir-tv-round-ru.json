@@ -134,7 +134,7 @@
         },
         {
           "type": "tile",
-          "label": "СПИСОК КАНАЛОВ",
+          "label": "КАНАЛЫ",
           "command": "ChannelList",
           "icon": "☷",
           "shape": "pill",
@@ -258,7 +258,7 @@
         },
         {
           "type": "tile",
-          "label": "СТОП",
+          "label": "STOP",
           "command": "Stop",
           "icon": "■",
           "shape": "circle",

@@ -16,14 +16,14 @@
       "controls": [
         {
           "type": "button",
-          "label": "Вкл.",
+          "label": "ВКЛ/ВЫКЛ",
           "command": "power",
           "value": true,
           "icon": "⏻"
         },
         {
           "type": "button",
-          "label": "Выкл.",
+          "label": "ВКЛ/ВЫКЛ",
           "command": "power",
           "value": false,
           "icon": "⏻"

@@ -16,14 +16,14 @@
       "controls": [
         {
           "type": "button",
-          "label": "Marche",
+          "label": "MARCHE/ARRÊT",
           "command": "power",
           "value": true,
           "icon": "⏻"
         },
         {
           "type": "button",
-          "label": "Arrêt",
+          "label": "MARCHE/ARRÊT",
           "command": "power",
           "value": false,
           "icon": "⏻"

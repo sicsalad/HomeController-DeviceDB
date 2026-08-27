@@ -16,7 +16,7 @@
       "controls": [
         {
           "type": "button",
-          "label": "Bekapcsolás",
+          "label": "BE/KI",
           "command": "power",
           "icon": "⏻"
         },
@@ -32,7 +32,7 @@
         },
         {
           "type": "button",
-          "label": "Némítás",
+          "label": "NÉMÍTÁS",
           "command": "mute"
         }
       ]
@@ -85,7 +85,7 @@
         },
         {
           "type": "button",
-          "label": "Forrás",
+          "label": "FORRÁS",
           "command": "source"
         }
       ]

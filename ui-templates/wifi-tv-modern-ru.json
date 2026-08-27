@@ -21,7 +21,7 @@
       "controls": [
         {
           "type": "tile",
-          "label": "ПИТАНИЕ",
+          "label": "ВКЛ/ВЫКЛ",
           "command": "power",
           "icon": "⏻"
         },
