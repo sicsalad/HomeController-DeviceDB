@@ -1,11 +1,13 @@
 {
+  "$schema":"../schemas/device-ui-template-v1.schema.json",
   "schemaVersion":1,
   "id":"wifi-ac-default",
-  "name":"Wi-Fi climate remote",
+  "name":"Wi-Fi Climate Default",
   "deviceTypeId":"air-conditioner",
   "connections":["wifi"],
   "renderer":"builtin-wifi-ac",
   "columns":3,
+  "useFullWidth":true,
   "sections":[
     {"title":"Power","controls":[
       {"type":"button","label":"On","command":"power","value":true,"icon":"⏻"},
