@@ -1,0 +1,17 @@
+name: UI template localization audit
+on:
+  push:
+    branches: [ main ]
+permissions:
+  contents: read
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/upload-artifact@v4
+        with:
+          name: device-db-ui-templates
+          path: |
+            ui-templates/*.json
+            localization/*.json
