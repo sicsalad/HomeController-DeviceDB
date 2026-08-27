@@ -324,6 +324,12 @@
       "versionCode": 1787820334,
       "publishedUtc": "2026-08-27T08:45:34Z",
       "notes": "Attach schema to default Wi-Fi climate template"
+    },
+    {
+      "version": "1.0.62",
+      "versionCode": 1787820352,
+      "publishedUtc": "2026-08-27T08:45:52Z",
+      "notes": "Make Round IR TV layout theme-neutral"
     }
   ]
 }
