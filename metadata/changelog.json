@@ -360,6 +360,12 @@
       "versionCode": 1787855365,
       "publishedUtc": "2026-08-27T18:29:25Z",
       "notes": "Add English Wi-Fi TV UI localization"
+    },
+    {
+      "version": "1.0.74",
+      "versionCode": 1787862854,
+      "publishedUtc": "2026-08-27T20:34:14Z",
+      "notes": "Add temporary UI template localization audit"
     }
   ]
 }

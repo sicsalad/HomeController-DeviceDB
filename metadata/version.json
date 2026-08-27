@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.73",
-  "versionCode": 1787855365,
-  "publishedUtc": "2026-08-27T18:29:25Z",
-  "commit": "17a61679fc954fcf672a25e0d9a3d3914d67ba47",
-  "patchNotes": "Add English Wi-Fi TV UI localization"
+  "version": "1.0.74",
+  "versionCode": 1787862854,
+  "publishedUtc": "2026-08-27T20:34:14Z",
+  "commit": "4d597ee7b4c92c1fa089c8ed7c3ad51549a1c6d1",
+  "patchNotes": "Add temporary UI template localization audit"
 }
