@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.54",
-  "versionCode": 1787820203,
-  "publishedUtc": "2026-08-27T08:43:23Z",
-  "commit": "7f282b539e29811962919efc661e6dbd2175a1a2",
-  "patchNotes": "Make Modern IR TV layout theme-neutral"
+  "version": "1.0.55",
+  "versionCode": 1787820225,
+  "publishedUtc": "2026-08-27T08:43:45Z",
+  "commit": "9b36c4833592289eb31925c55ce639646208e169",
+  "patchNotes": "Make Modern Wi-Fi TV layout theme-neutral"
 }

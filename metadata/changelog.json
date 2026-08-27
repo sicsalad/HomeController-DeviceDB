@@ -282,6 +282,12 @@
       "versionCode": 1787820203,
       "publishedUtc": "2026-08-27T08:43:23Z",
       "notes": "Make Modern IR TV layout theme-neutral"
+    },
+    {
+      "version": "1.0.55",
+      "versionCode": 1787820225,
+      "publishedUtc": "2026-08-27T08:43:45Z",
+      "notes": "Make Modern Wi-Fi TV layout theme-neutral"
     }
   ]
 }
