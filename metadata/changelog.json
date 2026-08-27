@@ -144,6 +144,12 @@
       "versionCode": 1787819158,
       "publishedUtc": "2026-08-27T08:25:58Z",
       "notes": "Add device type catalog JSON schema"
+    },
+    {
+      "version": "1.0.32",
+      "versionCode": 1787819175,
+      "publishedUtc": "2026-08-27T08:26:15Z",
+      "notes": "Add custom source index JSON schema"
     }
   ]
 }

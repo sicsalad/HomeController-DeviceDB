@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.31",
-  "versionCode": 1787819158,
-  "publishedUtc": "2026-08-27T08:25:58Z",
-  "commit": "b20e990f73a7e6943c6294e94f0421e9bb2cacc8",
-  "patchNotes": "Add device type catalog JSON schema"
+  "version": "1.0.32",
+  "versionCode": 1787819175,
+  "publishedUtc": "2026-08-27T08:26:15Z",
+  "commit": "2f66f4dd4150f4a77a5e33170324317984f75f19",
+  "patchNotes": "Add custom source index JSON schema"
 }
