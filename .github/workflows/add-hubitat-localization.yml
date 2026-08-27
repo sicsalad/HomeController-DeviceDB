@@ -1,0 +1,52 @@
+name: Add Hubitat localization vocabulary
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/add-hubitat-localization.yml']
+permissions:
+  contents: write
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Add Hubitat translations
+        shell: python
+        run: |
+          import json
+          from pathlib import Path
+          translations = {
+            'en': {
+              'Aktuális állapot':'Current state','Vezérlés':'Controls','Nincs visszaadott állapotadat.':'No state data returned.','Kikapcsolás':'Turn off','Bekapcsolás':'Turn on','Fényerő: {0}%':'Brightness: {0}%','Fényerő beállítása':'Set brightness','Érték:':'Value:','Hubitat frissítés':'Hubitat refresh','Kapcsoló':'Switch','Fényerő':'Brightness','Hőmérséklet':'Temperature','Páratartalom':'Humidity','Akkumulátor':'Battery','Mozgás':'Motion','Ajtó/ablak':'Door/window','Jelenlét':'Presence','Zár':'Lock','BE':'ON','KI':'OFF','Nyitás':'Open','Zárás':'Close','Bezárás':'Lock','Feloldás':'Unlock','Eszköz frissítése':'Refresh device','Hubitat eszközök':'Hubitat devices','Típus szűrő':'Type filter','Helyiség':'Room','↻ Frissítés':'↻ Refresh','{0} eszköz · mentett állapot':'{0} devices · cached state','Hubitat eszközök lekérése...':'Loading Hubitat devices...','{0} eszköz · frissítve {1}':'{0} devices · refreshed {1}','Hubitat kommunikációs hiba':'Hubitat communication error','Összes helyiség':'All rooms','Nincs ilyen eszköz.':'No matching device.','{0}: kész':'{0}: done','Hubitat parancs':'Hubitat command','Nincs helyiség':'No room','Egyéb':'Other','Termosztát':'Thermostat','Lámpa':'Light','Hő/Pára':'Temp/Humidity','Hőmérő':'Thermometer','Páramérő':'Humidity sensor','Szenzor':'Sensor','Név, pl. Otthoni Hubitat':'Name, e.g. Home Hubitat','Hub címe, pl. 192.168.100.64':'Hub address, e.g. 192.168.100.64','Hubitat hozzáadása':'Add Hubitat','Kapcsolat tesztelése':'Test connection','Hubitat mentése':'Save Hubitat','Kapcsolódás...':'Connecting...','Kapcsolat rendben. {0} engedélyezett Hubitat eszköz található.':'Connection OK. {0} authorized Hubitat devices found.','Kapcsolati hiba':'Connection error','Hiányos beállítás.':'Incomplete setup.','Mentve. {0} eszköz érhető el.':'Saved. {0} devices available.'
+            },
+            'hu': {},
+            'de': {
+              'Aktuális állapot':'Aktueller Status','Vezérlés':'Steuerung','Nincs visszaadott állapotadat.':'Keine Statusdaten zurückgegeben.','Kikapcsolás':'Ausschalten','Bekapcsolás':'Einschalten','Fényerő: {0}%':'Helligkeit: {0}%','Fényerő beállítása':'Helligkeit einstellen','Érték:':'Wert:','Hubitat frissítés':'Hubitat aktualisieren','Kapcsoló':'Schalter','Fényerő':'Helligkeit','Hőmérséklet':'Temperatur','Páratartalom':'Luftfeuchtigkeit','Akkumulátor':'Batterie','Mozgás':'Bewegung','Ajtó/ablak':'Tür/Fenster','Jelenlét':'Anwesenheit','Zár':'Schloss','BE':'EIN','KI':'AUS','Nyitás':'Öffnen','Zárás':'Schließen','Bezárás':'Verriegeln','Feloldás':'Entriegeln','Eszköz frissítése':'Gerät aktualisieren','Hubitat eszközök':'Hubitat-Geräte','Típus szűrő':'Typfilter','Helyiség':'Raum','↻ Frissítés':'↻ Aktualisieren','{0} eszköz · mentett állapot':'{0} Geräte · gespeicherter Status','Hubitat eszközök lekérése...':'Hubitat-Geräte werden geladen...','{0} eszköz · frissítve {1}':'{0} Geräte · aktualisiert {1}','Hubitat kommunikációs hiba':'Hubitat-Kommunikationsfehler','Összes helyiség':'Alle Räume','Nincs ilyen eszköz.':'Kein passendes Gerät.','{0}: kész':'{0}: fertig','Hubitat parancs':'Hubitat-Befehl','Nincs helyiség':'Kein Raum','Egyéb':'Sonstiges','Termosztát':'Thermostat','Lámpa':'Lampe','Hő/Pára':'Temp./Feuchte','Hőmérő':'Thermometer','Páramérő':'Feuchtigkeitssensor','Szenzor':'Sensor','Név, pl. Otthoni Hubitat':'Name, z. B. Home Hubitat','Hub címe, pl. 192.168.100.64':'Hub-Adresse, z. B. 192.168.100.64','Hubitat hozzáadása':'Hubitat hinzufügen','Kapcsolat tesztelése':'Verbindung testen','Hubitat mentése':'Hubitat speichern','Kapcsolódás...':'Verbindung wird hergestellt...','Kapcsolat rendben. {0} engedélyezett Hubitat eszköz található.':'Verbindung OK. {0} freigegebene Hubitat-Geräte gefunden.','Kapcsolati hiba':'Verbindungsfehler','Hiányos beállítás.':'Unvollständige Einrichtung.','Mentve. {0} eszköz érhető el.':'Gespeichert. {0} Geräte verfügbar.'
+            },
+            'fr': {
+              'Aktuális állapot':'État actuel','Vezérlés':'Commandes','Nincs visszaadott állapotadat.':'Aucune donnée d’état renvoyée.','Kikapcsolás':'Éteindre','Bekapcsolás':'Allumer','Fényerő: {0}%':'Luminosité : {0}%','Fényerő beállítása':'Régler la luminosité','Érték:':'Valeur :','Hubitat frissítés':'Actualisation Hubitat','Kapcsoló':'Interrupteur','Fényerő':'Luminosité','Hőmérséklet':'Température','Páratartalom':'Humidité','Akkumulátor':'Batterie','Mozgás':'Mouvement','Ajtó/ablak':'Porte/fenêtre','Jelenlét':'Présence','Zár':'Serrure','BE':'ON','KI':'OFF','Nyitás':'Ouvrir','Zárás':'Fermer','Bezárás':'Verrouiller','Feloldás':'Déverrouiller','Eszköz frissítése':'Actualiser l’appareil','Hubitat eszközök':'Appareils Hubitat','Típus szűrő':'Filtre de type','Helyiség':'Pièce','↻ Frissítés':'↻ Actualiser','{0} eszköz · mentett állapot':'{0} appareils · état en cache','Hubitat eszközök lekérése...':'Chargement des appareils Hubitat...','{0} eszköz · frissítve {1}':'{0} appareils · actualisé {1}','Hubitat kommunikációs hiba':'Erreur de communication Hubitat','Összes helyiség':'Toutes les pièces','Nincs ilyen eszköz.':'Aucun appareil correspondant.','{0}: kész':'{0} : terminé','Hubitat parancs':'Commande Hubitat','Nincs helyiség':'Aucune pièce','Egyéb':'Autre','Termosztát':'Thermostat','Lámpa':'Lampe','Hő/Pára':'Temp./Humidité','Hőmérő':'Thermomètre','Páramérő':'Capteur d’humidité','Szenzor':'Capteur','Név, pl. Otthoni Hubitat':'Nom, ex. Hubitat maison','Hub címe, pl. 192.168.100.64':'Adresse du hub, ex. 192.168.100.64','Hubitat hozzáadása':'Ajouter Hubitat','Kapcsolat tesztelése':'Tester la connexion','Hubitat mentése':'Enregistrer Hubitat','Kapcsolódás...':'Connexion...','Kapcsolat rendben. {0} engedélyezett Hubitat eszköz található.':'Connexion OK. {0} appareils Hubitat autorisés trouvés.','Kapcsolati hiba':'Erreur de connexion','Hiányos beállítás.':'Configuration incomplète.','Mentve. {0} eszköz érhető el.':'Enregistré. {0} appareils disponibles.'
+            },
+            'ru': {
+              'Aktuális állapot':'Текущее состояние','Vezérlés':'Управление','Nincs visszaadott állapotadat.':'Данные состояния не получены.','Kikapcsolás':'Выключить','Bekapcsolás':'Включить','Fényerő: {0}%':'Яркость: {0}%','Fényerő beállítása':'Установить яркость','Érték:':'Значение:','Hubitat frissítés':'Обновление Hubitat','Kapcsoló':'Переключатель','Fényerő':'Яркость','Hőmérséklet':'Температура','Páratartalom':'Влажность','Akkumulátor':'Батарея','Mozgás':'Движение','Ajtó/ablak':'Дверь/окно','Jelenlét':'Присутствие','Zár':'Замок','BE':'ВКЛ','KI':'ВЫКЛ','Nyitás':'Открыть','Zárás':'Закрыть','Bezárás':'Заблокировать','Feloldás':'Разблокировать','Eszköz frissítése':'Обновить устройство','Hubitat eszközök':'Устройства Hubitat','Típus szűrő':'Фильтр типа','Helyiség':'Комната','↻ Frissítés':'↻ Обновить','{0} eszköz · mentett állapot':'{0} устройств · сохранённое состояние','Hubitat eszközök lekérése...':'Загрузка устройств Hubitat...','{0} eszköz · frissítve {1}':'{0} устройств · обновлено {1}','Hubitat kommunikációs hiba':'Ошибка связи с Hubitat','Összes helyiség':'Все комнаты','Nincs ilyen eszköz.':'Нет подходящих устройств.','{0}: kész':'{0}: готово','Hubitat parancs':'Команда Hubitat','Nincs helyiség':'Без комнаты','Egyéb':'Другое','Termosztát':'Термостат','Lámpa':'Лампа','Hő/Pára':'Темп./влажность','Hőmérő':'Термометр','Páramérő':'Датчик влажности','Szenzor':'Датчик','Név, pl. Otthoni Hubitat':'Имя, напр. Домашний Hubitat','Hub címe, pl. 192.168.100.64':'Адрес хаба, напр. 192.168.100.64','Hubitat hozzáadása':'Добавить Hubitat','Kapcsolat tesztelése':'Проверить соединение','Hubitat mentése':'Сохранить Hubitat','Kapcsolódás...':'Подключение...','Kapcsolat rendben. {0} engedélyezett Hubitat eszköz található.':'Соединение установлено. Найдено устройств Hubitat: {0}.','Kapcsolati hiba':'Ошибка соединения','Hiányos beállítás.':'Настройка не завершена.','Mentve. {0} eszköz érhető el.':'Сохранено. Доступно устройств: {0}.'
+            }
+          }
+          for code, vals in translations.items():
+              p=Path(f'localization/{code}.json')
+              data=json.loads(p.read_text(encoding='utf-8'))
+              strings=data.setdefault('strings',{})
+              if code=='hu':
+                  for key in translations['en']:
+                      strings[key]=key
+              else:
+                  strings.update(vals)
+              data['strings']=dict(sorted(strings.items(), key=lambda kv: kv[0].casefold()))
+              p.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+      - name: Commit and remove one-shot workflow
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm .github/workflows/add-hubitat-localization.yml
+          git add localization/*.json
+          git commit -m "Complete Hubitat localization vocabulary"
+          git pull --rebase origin main
+          git push origin HEAD:main
