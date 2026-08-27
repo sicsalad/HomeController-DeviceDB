@@ -108,6 +108,12 @@
       "versionCode": 1787787586,
       "publishedUtc": "2026-08-26T23:39:46Z",
       "notes": "Register round Wi-Fi TV remote UI"
+    },
+    {
+      "version": "1.0.26",
+      "versionCode": 1787819031,
+      "publishedUtc": "2026-08-27T08:23:51Z",
+      "notes": "Normalize default application theme schema"
     }
   ]
 }
