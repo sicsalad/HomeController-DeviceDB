@@ -312,6 +312,12 @@
       "versionCode": 1787820303,
       "publishedUtc": "2026-08-27T08:45:03Z",
       "notes": "Attach schema to default IR TV template"
+    },
+    {
+      "version": "1.0.60",
+      "versionCode": 1787820315,
+      "publishedUtc": "2026-08-27T08:45:15Z",
+      "notes": "Attach schema to default Wi-Fi TV template"
     }
   ]
 }

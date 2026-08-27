@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.59",
-  "versionCode": 1787820303,
-  "publishedUtc": "2026-08-27T08:45:03Z",
-  "commit": "03321920b9450066c9d6a6d8cd2ca16ba319c428",
-  "patchNotes": "Attach schema to default IR TV template"
+  "version": "1.0.60",
+  "versionCode": 1787820315,
+  "publishedUtc": "2026-08-27T08:45:15Z",
+  "commit": "b39f35cd0574609367f65d57fd87cdb3b440f10e",
+  "patchNotes": "Attach schema to default Wi-Fi TV template"
 }
