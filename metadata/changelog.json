@@ -156,6 +156,12 @@
       "versionCode": 1787819308,
       "publishedUtc": "2026-08-27T08:28:28Z",
       "notes": "Rewrite complete theme and Device UI schema reference"
+    },
+    {
+      "version": "1.0.34",
+      "versionCode": 1787819383,
+      "publishedUtc": "2026-08-27T08:29:43Z",
+      "notes": "Link machine-readable theme and UI schemas"
     }
   ]
 }

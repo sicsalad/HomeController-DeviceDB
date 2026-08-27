@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.33",
-  "versionCode": 1787819308,
-  "publishedUtc": "2026-08-27T08:28:28Z",
-  "commit": "b41c1cbf63207ab69ec9e7793f520ffdab08f829",
-  "patchNotes": "Rewrite complete theme and Device UI schema reference"
+  "version": "1.0.34",
+  "versionCode": 1787819383,
+  "publishedUtc": "2026-08-27T08:29:43Z",
+  "commit": "dac3cc1a9c79ca39977214cf7fa6c22f20542dfe",
+  "patchNotes": "Link machine-readable theme and UI schemas"
 }
