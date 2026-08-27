@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.35",
-  "versionCode": 1787819557,
-  "publishedUtc": "2026-08-27T08:32:37Z",
-  "commit": "f804c9850602ceb06979e734f511029ce8e3767f",
-  "patchNotes": "Allow schema declaration in application themes"
+  "version": "1.0.36",
+  "versionCode": 1787819584,
+  "publishedUtc": "2026-08-27T08:33:04Z",
+  "commit": "a41e445ddffdc46998c2d047ab6254d6b29b5e36",
+  "patchNotes": "Align Device UI schema with documented examples"
 }
