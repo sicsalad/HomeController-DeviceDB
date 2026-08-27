@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.51",
-  "versionCode": 1787820055,
-  "publishedUtc": "2026-08-27T08:40:55Z",
-  "commit": "a9fc54b9661c8cc0f08a460ec02d4b9aaf8a34db",
-  "patchNotes": "Normalize Hubitat compact UI template"
+  "version": "1.0.52",
+  "versionCode": 1787820084,
+  "publishedUtc": "2026-08-27T08:41:24Z",
+  "commit": "592dfc63429994ee70f20b726406ca583b68ee6c",
+  "patchNotes": "Normalize Philips Hue default UI template"
 }
