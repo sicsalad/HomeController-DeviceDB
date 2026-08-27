@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/sicsalad/HomeController-DeviceDB/schemas/custom-source-index-v1.schema.json",
+  "title": "HomeController custom DeviceDB source index v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "themes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "name", "file", "minimumRuntimeVersion"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "name": { "type": "string", "minLength": 1 },
+          "file": { "type": "string", "minLength": 1 },
+          "minimumRuntimeVersion": { "type": "integer", "minimum": 1 }
+        }
+      }
+    },
+    "templates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "path"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "path": { "type": "string", "minLength": 1 },
+          "status": { "type": "string", "default": "stable" }
+        }
+      }
+    },
+    "deviceTypes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "displayName", "icon", "connections", "databaseTypeNames", "sourcePathHints", "defaultUiTemplates", "setupHandler"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "displayName": { "type": "string", "minLength": 1 },
+          "icon": { "type": "string" },
+          "connections": { "type": "array", "items": { "enum": ["infrared", "wifi", "bluetooth"] } },
+          "databaseTypeNames": { "type": "array", "items": { "type": "string" } },
+          "sourcePathHints": { "type": "array", "items": { "type": "string" } },
+          "defaultUiTemplates": { "type": "object", "additionalProperties": { "type": "string" } },
+          "setupHandler": { "type": "string" }
+        }
+      }
+    }
+  }
+}
