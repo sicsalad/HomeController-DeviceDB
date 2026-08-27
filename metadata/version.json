@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.58",
-  "versionCode": 1787820291,
-  "publishedUtc": "2026-08-27T08:44:51Z",
-  "commit": "c899d517e547fa0d68a0a6cb53c59d4abc3bc4f9",
-  "patchNotes": "Attach schema to default IR climate template"
+  "version": "1.0.59",
+  "versionCode": 1787820303,
+  "publishedUtc": "2026-08-27T08:45:03Z",
+  "commit": "03321920b9450066c9d6a6d8cd2ca16ba319c428",
+  "patchNotes": "Attach schema to default IR TV template"
 }

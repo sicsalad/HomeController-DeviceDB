@@ -306,6 +306,12 @@
       "versionCode": 1787820291,
       "publishedUtc": "2026-08-27T08:44:51Z",
       "notes": "Attach schema to default IR climate template"
+    },
+    {
+      "version": "1.0.59",
+      "versionCode": 1787820303,
+      "publishedUtc": "2026-08-27T08:45:03Z",
+      "notes": "Attach schema to default IR TV template"
     }
   ]
 }
