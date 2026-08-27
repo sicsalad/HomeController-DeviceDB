@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.57",
-  "versionCode": 1787820257,
-  "publishedUtc": "2026-08-27T08:44:17Z",
-  "commit": "6a9fa3d7caa5caf166a6ad8bd957d459419083af",
-  "patchNotes": "Make Modern Wi-Fi climate layout theme-neutral"
+  "version": "1.0.58",
+  "versionCode": 1787820291,
+  "publishedUtc": "2026-08-27T08:44:51Z",
+  "commit": "c899d517e547fa0d68a0a6cb53c59d4abc3bc4f9",
+  "patchNotes": "Attach schema to default IR climate template"
 }
