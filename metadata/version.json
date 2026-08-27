@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.85",
-  "versionCode": 1787871134,
-  "publishedUtc": "2026-08-27T22:52:14Z",
-  "commit": "c5966faee7a9263f261d29d5b71eb7e7315387c4",
-  "patchNotes": "Add semantic device label normalization workflow"
+  "version": "1.0.87",
+  "versionCode": 1787871245,
+  "publishedUtc": "2026-08-27T22:54:05Z",
+  "commit": "74e3ed45343e81229fbe33a8db2078454b704f21",
+  "patchNotes": "Complete device terminology review"
 }

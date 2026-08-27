@@ -396,6 +396,12 @@
       "versionCode": 1787871134,
       "publishedUtc": "2026-08-27T22:52:14Z",
       "notes": "Add semantic device label normalization workflow"
+    },
+    {
+      "version": "1.0.87",
+      "versionCode": 1787871245,
+      "publishedUtc": "2026-08-27T22:54:05Z",
+      "notes": "Complete device terminology review"
     }
   ]
 }
