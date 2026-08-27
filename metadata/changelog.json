@@ -348,6 +348,12 @@
       "versionCode": 1787824839,
       "publishedUtc": "2026-08-27T10:00:39Z",
       "notes": "Document theme references in device UI templates"
+    },
+    {
+      "version": "1.0.66",
+      "versionCode": 1787828421,
+      "publishedUtc": "2026-08-27T11:00:21Z",
+      "notes": "Add permanent premium activation code"
     }
   ]
 }

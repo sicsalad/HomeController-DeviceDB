@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.65",
-  "versionCode": 1787824839,
-  "publishedUtc": "2026-08-27T10:00:39Z",
-  "commit": "3b9662260f9e250e8d7bb044088bef2bd07d2b03",
-  "patchNotes": "Document theme references in device UI templates"
+  "version": "1.0.66",
+  "versionCode": 1787828421,
+  "publishedUtc": "2026-08-27T11:00:21Z",
+  "commit": "8890eddbca5bff0a278362eb1530a378ab86a751",
+  "patchNotes": "Add permanent premium activation code"
 }
