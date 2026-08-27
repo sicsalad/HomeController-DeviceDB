@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.75",
-  "versionCode": 1787862960,
-  "publishedUtc": "2026-08-27T20:36:00Z",
-  "commit": "86da66204ffe772e9eeb956ed295fdc462fa39d0",
-  "patchNotes": "Add temporary localized UI template generator"
+  "version": "1.0.77",
+  "versionCode": 1787865335,
+  "publishedUtc": "2026-08-27T21:15:35Z",
+  "commit": "6c8d3214632f79e4a6ea464fac140154cc08849d",
+  "patchNotes": "Install complete five-language localization packages"
 }

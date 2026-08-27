@@ -372,6 +372,12 @@
       "versionCode": 1787862960,
       "publishedUtc": "2026-08-27T20:36:00Z",
       "notes": "Add temporary localized UI template generator"
+    },
+    {
+      "version": "1.0.77",
+      "versionCode": 1787865335,
+      "publishedUtc": "2026-08-27T21:15:35Z",
+      "notes": "Install complete five-language localization packages"
     }
   ]
 }
