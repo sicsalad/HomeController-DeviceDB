@@ -1,19 +1,13 @@
 {
+  "$schema":"../schemas/device-ui-template-v1.schema.json",
   "schemaVersion":1,
   "id":"wifi-ac-modern",
-  "name":"Modern Climate · Midnight",
+  "name":"Modern Climate",
   "deviceTypeId":"air-conditioner",
   "connections":["wifi"],
   "renderer":"declarative",
   "columns":4,
-  "backgroundColor":"#0A1015",
-  "foregroundColor":"#F4F8FB",
-  "mutedTextColor":"#8CA0AF",
-  "surfaceColor":"#121B22",
-  "accentColor":"#73D2F6",
-  "buttonColor":"#1B2933",
-  "buttonTextColor":"#F7FAFC",
-  "borderColor":"#2C414E",
+  "useFullWidth":true,
   "buttonCornerRadius":10,
   "sectionCornerRadius":16,
   "buttonHeight":58,
@@ -21,10 +15,10 @@
   "iconFontSize":24,
   "sections":[
     {"subtitle":"Climate control","controls":[
-      {"type":"toggle","label":"POWER","command":"power","icon":"⏻","backgroundColor":"#17384A","borderColor":"#2F718F","columnSpan":2},
+      {"type":"toggle","label":"POWER","command":"power","icon":"⏻","columnSpan":2},
       {"type":"picker","label":"MODE","command":"mode","options":["Auto","Cool","Heat","Dry","Fan"],"columnSpan":2}
     ]},
-    {"title":"TEMPERATURE","subtitle":"Target temperature","backgroundColor":"#101A22","controls":[
+    {"title":"TEMPERATURE","subtitle":"Target temperature","controls":[
       {"type":"stepper","label":"SET TEMPERATURE","command":"targetTemperature","minimum":16,"maximum":30,"step":1,"value":24,"columnSpan":4}
     ]},
     {"title":"AIR FLOW","controls":[
@@ -33,9 +27,9 @@
       {"type":"picker","label":"HORIZONTAL SWING","command":"swingHorizontal","options":["Off","Auto","Left","Middle","Right"],"columnSpan":4}
     ]},
     {"title":"COMFORT","controls":[
-      {"type":"toggle","label":"TURBO","command":"turbo","icon":"⚡","backgroundColor":"#2D2717"},
+      {"type":"toggle","label":"TURBO","command":"turbo","icon":"⚡"},
       {"type":"toggle","label":"QUIET","command":"quiet","icon":"◔"},
-      {"type":"toggle","label":"ECO","command":"economy","icon":"♧","backgroundColor":"#173126"},
+      {"type":"toggle","label":"ECO","command":"economy","icon":"♧"},
       {"type":"toggle","label":"SLEEP","command":"sleep","icon":"☾"},
       {"type":"toggle","label":"DISPLAY","command":"display","icon":"☼","columnSpan":2},
       {"type":"toggle","label":"HEALTH","command":"health","icon":"✦","columnSpan":2}
