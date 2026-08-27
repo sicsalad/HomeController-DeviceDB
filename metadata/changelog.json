@@ -366,6 +366,12 @@
       "versionCode": 1787862854,
       "publishedUtc": "2026-08-27T20:34:14Z",
       "notes": "Add temporary UI template localization audit"
+    },
+    {
+      "version": "1.0.75",
+      "versionCode": 1787862960,
+      "publishedUtc": "2026-08-27T20:36:00Z",
+      "notes": "Add temporary localized UI template generator"
     }
   ]
 }

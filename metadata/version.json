@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.74",
-  "versionCode": 1787862854,
-  "publishedUtc": "2026-08-27T20:34:14Z",
-  "commit": "4d597ee7b4c92c1fa089c8ed7c3ad51549a1c6d1",
-  "patchNotes": "Add temporary UI template localization audit"
+  "version": "1.0.75",
+  "versionCode": 1787862960,
+  "publishedUtc": "2026-08-27T20:36:00Z",
+  "commit": "86da66204ffe772e9eeb956ed295fdc462fa39d0",
+  "patchNotes": "Add temporary localized UI template generator"
 }
