@@ -1,4 +1,5 @@
 {
+  "$schema": "../schemas/device-ui-template-v1.schema.json",
   "schemaVersion": 1,
   "id": "hue-grid",
   "name": "Philips Hue Grid",
@@ -6,8 +7,7 @@
   "connections": ["wifi"],
   "renderer": "builtin-hue",
   "columns": 2,
-  "themeSwitcherText": "UI",
-  "themeSwitcherOpacity": 0.72,
+  "useFullWidth": true,
   "buttonCornerRadius": 12,
   "sectionCornerRadius": 12,
   "buttonHeight": 48,
