@@ -180,6 +180,12 @@
       "versionCode": 1787819601,
       "publishedUtc": "2026-08-27T08:33:21Z",
       "notes": "Allow schema declaration in custom source index"
+    },
+    {
+      "version": "1.0.38",
+      "versionCode": 1787819613,
+      "publishedUtc": "2026-08-27T08:33:33Z",
+      "notes": "Allow schema declaration in device type catalog"
     }
   ]
 }

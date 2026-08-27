@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.37",
-  "versionCode": 1787819601,
-  "publishedUtc": "2026-08-27T08:33:21Z",
-  "commit": "9378072fa48ca31b1a695a039b61e82c95f71abf",
-  "patchNotes": "Allow schema declaration in custom source index"
+  "version": "1.0.38",
+  "versionCode": 1787819613,
+  "publishedUtc": "2026-08-27T08:33:33Z",
+  "commit": "cdd254b32fd090e056c6b4d716bdd4cf9bcfc198",
+  "patchNotes": "Allow schema declaration in device type catalog"
 }
