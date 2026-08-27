@@ -13,16 +13,16 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["id", "displayName", "icon", "connections", "databaseTypeNames", "sourcePathHints", "defaultUiTemplates", "setupHandler"],
+        "required": ["id", "displayName", "connections", "defaultUiTemplates"],
         "properties": {
           "id": { "type": "string", "minLength": 1 },
           "displayName": { "type": "string", "minLength": 1 },
-          "icon": { "type": "string" },
+          "icon": { "type": "string", "default": "🎛️" },
           "connections": { "type": "array", "items": { "enum": ["infrared", "wifi", "bluetooth"] }, "uniqueItems": true },
-          "databaseTypeNames": { "type": "array", "items": { "type": "string" } },
-          "sourcePathHints": { "type": "array", "items": { "type": "string" } },
+          "databaseTypeNames": { "type": "array", "items": { "type": "string" }, "default": [] },
+          "sourcePathHints": { "type": "array", "items": { "type": "string" }, "default": [] },
           "defaultUiTemplates": { "type": "object", "additionalProperties": { "type": "string", "minLength": 1 } },
-          "setupHandler": { "type": "string" }
+          "setupHandler": { "type": "string", "default": "" }
         }
       }
     }
