@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.32",
-  "versionCode": 1787819175,
-  "publishedUtc": "2026-08-27T08:26:15Z",
-  "commit": "2f66f4dd4150f4a77a5e33170324317984f75f19",
-  "patchNotes": "Add custom source index JSON schema"
+  "version": "1.0.33",
+  "versionCode": 1787819308,
+  "publishedUtc": "2026-08-27T08:28:28Z",
+  "commit": "b41c1cbf63207ab69ec9e7793f520ffdab08f829",
+  "patchNotes": "Rewrite complete theme and Device UI schema reference"
 }
