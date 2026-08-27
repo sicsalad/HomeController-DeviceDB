@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.36",
-  "versionCode": 1787819584,
-  "publishedUtc": "2026-08-27T08:33:04Z",
-  "commit": "a41e445ddffdc46998c2d047ab6254d6b29b5e36",
-  "patchNotes": "Align Device UI schema with documented examples"
+  "version": "1.0.37",
+  "versionCode": 1787819601,
+  "publishedUtc": "2026-08-27T08:33:21Z",
+  "commit": "9378072fa48ca31b1a695a039b61e82c95f71abf",
+  "patchNotes": "Allow schema declaration in custom source index"
 }
