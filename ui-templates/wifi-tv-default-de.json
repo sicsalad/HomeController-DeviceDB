@@ -22,12 +22,12 @@
         },
         {
           "type": "button",
-          "label": "Vol +",
+          "label": "VOL +",
           "command": "volumeUp"
         },
         {
           "type": "button",
-          "label": "Vol -",
+          "label": "VOL −",
           "command": "volumeDown"
         },
         {
