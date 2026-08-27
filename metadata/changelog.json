@@ -336,6 +336,12 @@
       "versionCode": 1787820627,
       "publishedUtc": "2026-08-27T08:50:27Z",
       "notes": "Normalize Wi-Fi round TV UI template"
+    },
+    {
+      "version": "1.0.64",
+      "versionCode": 1787824478,
+      "publishedUtc": "2026-08-27T09:54:38Z",
+      "notes": "Allow app theme color references in device UI templates"
     }
   ]
 }
