@@ -23,12 +23,14 @@ See [`schemas/THEMES_AND_UI_TEMPLATES.md`](schemas/THEMES_AND_UI_TEMPLATES.md) f
 
 Machine-readable validation schemas:
 
-- [`schemas/app-theme-v1.schema.json`](schemas/app-theme-v1.schema.json)
-- [`schemas/device-ui-template-v1.schema.json`](schemas/device-ui-template-v1.schema.json)
-- [`schemas/device-types-v1.schema.json`](schemas/device-types-v1.schema.json)
-- [`schemas/custom-source-index-v1.schema.json`](schemas/custom-source-index-v1.schema.json)
+- [`schemas/app-theme-v1.schema.json`](schemas/app-theme-v1.schema.json) – one application theme file.
+- [`schemas/theme-catalog-v1.schema.json`](schemas/theme-catalog-v1.schema.json) – `themes/index.json`.
+- [`schemas/device-ui-template-v1.schema.json`](schemas/device-ui-template-v1.schema.json) – one Device UI template.
+- [`schemas/ui-template-index-v1.schema.json`](schemas/ui-template-index-v1.schema.json) – `ui-templates/index.json`.
+- [`schemas/device-types-v1.schema.json`](schemas/device-types-v1.schema.json) – `device-types.json`.
+- [`schemas/custom-source-index-v1.schema.json`](schemas/custom-source-index-v1.schema.json) – Premium custom source `index.json`.
 
-Application color themes and Device UI templates are deliberately separate. `Default`, `Blue Eye` and `Red Eye` are application themes; Device UI names should describe layouts such as `Default`, `Modern`, `Compact`, `Grid` or `Round`.
+The built-in JSON catalogs and application themes include `$schema` references so schema-aware editors can validate them directly. Application color themes and Device UI templates are deliberately separate. `Default`, `Blue Eye` and `Red Eye` are application themes; Device UI names should describe layouts such as `Default`, `Modern`, `Compact`, `Grid` or `Round`.
 
 ## Updating the open database
 
