@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.27",
-  "versionCode": 1787819049,
-  "publishedUtc": "2026-08-27T08:24:09Z",
-  "commit": "430e1cff804132b6ef5f03444be686f5519a29fd",
-  "patchNotes": "Normalize Blue Eye application theme schema"
+  "version": "1.0.28",
+  "versionCode": 1787819066,
+  "publishedUtc": "2026-08-27T08:24:26Z",
+  "commit": "1ff9bf0cc2007f4bd24e5db53b4f511c3c5c9472",
+  "patchNotes": "Normalize Red Eye application theme schema"
 }
