@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/sicsalad/HomeController-DeviceDB/schemas/device-types-v1.schema.json",
+  "title": "HomeController device type catalog v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "deviceTypes"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "deviceTypes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "displayName", "icon", "connections", "databaseTypeNames", "sourcePathHints", "defaultUiTemplates", "setupHandler"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "displayName": { "type": "string", "minLength": 1 },
+          "icon": { "type": "string" },
+          "connections": { "type": "array", "items": { "enum": ["infrared", "wifi", "bluetooth"] }, "uniqueItems": true },
+          "databaseTypeNames": { "type": "array", "items": { "type": "string" } },
+          "sourcePathHints": { "type": "array", "items": { "type": "string" } },
+          "defaultUiTemplates": { "type": "object", "additionalProperties": { "type": "string", "minLength": 1 } },
+          "setupHandler": { "type": "string" }
+        }
+      }
+    }
+  }
+}
