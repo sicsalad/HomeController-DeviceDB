@@ -234,6 +234,12 @@
       "versionCode": 1787819834,
       "publishedUtc": "2026-08-27T08:37:14Z",
       "notes": "Attach schema to theme catalog"
+    },
+    {
+      "version": "1.0.47",
+      "versionCode": 1787819849,
+      "publishedUtc": "2026-08-27T08:37:29Z",
+      "notes": "Attach schema to Device UI template index"
     }
   ]
 }
