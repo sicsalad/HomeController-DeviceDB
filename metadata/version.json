@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.97",
-  "versionCode": 1787926097,
-  "publishedUtc": "2026-08-28T14:08:17Z",
-  "commit": "f95036b173632c371db229f8d6d427aeaf62d243",
-  "patchNotes": "Add premium access metadata to UI templates"
+  "version": "1.0.98",
+  "versionCode": 1787926454,
+  "publishedUtc": "2026-08-28T14:14:14Z",
+  "commit": "0b8965116b5a23f417f8c0ae5cd05e8e7ae3dcf5",
+  "patchNotes": "Add premium access tier translations"
 }

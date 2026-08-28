@@ -462,6 +462,12 @@
       "versionCode": 1787926097,
       "publishedUtc": "2026-08-28T14:08:17Z",
       "notes": "Add premium access metadata to UI templates"
+    },
+    {
+      "version": "1.0.98",
+      "versionCode": 1787926454,
+      "publishedUtc": "2026-08-28T14:14:14Z",
+      "notes": "Add premium access tier translations"
     }
   ]
 }
