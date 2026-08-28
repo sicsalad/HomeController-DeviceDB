@@ -450,6 +450,12 @@
       "versionCode": 1787924844,
       "publishedUtc": "2026-08-28T13:47:24Z",
       "notes": "themes"
+    },
+    {
+      "version": "1.0.96",
+      "versionCode": 1787926082,
+      "publishedUtc": "2026-08-28T14:08:02Z",
+      "notes": "Add premium access metadata to themes"
     }
   ]
 }

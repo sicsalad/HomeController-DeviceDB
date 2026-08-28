@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.95",
-  "versionCode": 1787924844,
-  "publishedUtc": "2026-08-28T13:47:24Z",
-  "commit": "95dca8c675a493333b24aeeb4f76e3ab909ad524",
-  "patchNotes": "themes"
+  "version": "1.0.96",
+  "versionCode": 1787926082,
+  "publishedUtc": "2026-08-28T14:08:02Z",
+  "commit": "faaea4b43b1261714b463d3c9459a52ef524cd96",
+  "patchNotes": "Add premium access metadata to themes"
 }
