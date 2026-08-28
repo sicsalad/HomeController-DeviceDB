@@ -1,10 +1,13 @@
-[
-  "default",
-  "blue-eye",
-  "red-eye",
-  "vintage-radio",
-  "matrix-digital",
-  "nordic-cozy",
-  "midnight-relax",
-  "forest-zen"
-]
+{
+  "schemaVersion": 1,
+  "themes": [
+    {"id":"default","name":"Default","file":"default.json","minimumRuntimeVersion":1,"access":"free"},
+    {"id":"blue-eye","name":"Blue Eye","file":"blue-eye.json","minimumRuntimeVersion":1,"access":"free"},
+    {"id":"red-eye","name":"Red Eye","file":"red-eye.json","minimumRuntimeVersion":1,"access":"premium"},
+    {"id":"vintage-radio","name":"Vintage Radio","file":"vintage-radio.json","minimumRuntimeVersion":1,"access":"premium"},
+    {"id":"matrix-digital","name":"Matrix Digital","file":"matrix-digital.json","minimumRuntimeVersion":1,"access":"premium"},
+    {"id":"nordic-cozy","name":"Nordic Cozy","file":"nordic-cozy.json","minimumRuntimeVersion":1,"access":"premium"},
+    {"id":"midnight-relax","name":"Midnight Relax","file":"midnight-relax.json","minimumRuntimeVersion":1,"access":"premium"},
+    {"id":"forest-zen","name":"Forest Zen","file":"forest-zen.json","minimumRuntimeVersion":1,"access":"premium"}
+  ]
+}
