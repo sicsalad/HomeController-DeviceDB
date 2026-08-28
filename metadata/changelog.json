@@ -408,6 +408,12 @@
       "versionCode": 1787876428,
       "publishedUtc": "2026-08-28T00:20:28Z",
       "notes": "Use semantic IDs for application localization"
+    },
+    {
+      "version": "1.0.89",
+      "versionCode": 1787905193,
+      "publishedUtc": "2026-08-28T08:19:53Z",
+      "notes": "Use semantic localization IDs"
     }
   ]
 }

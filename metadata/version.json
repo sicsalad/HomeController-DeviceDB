@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.88",
-  "versionCode": 1787876428,
-  "publishedUtc": "2026-08-28T00:20:28Z",
-  "commit": "db104bf1105c9d5b71bed513dfa7a907d767d50e",
-  "patchNotes": "Use semantic IDs for application localization"
+  "version": "1.0.89",
+  "versionCode": 1787905193,
+  "publishedUtc": "2026-08-28T08:19:53Z",
+  "commit": "81e9ee932bda489440433f8605b1ba256f9abada",
+  "patchNotes": "Use semantic localization IDs"
 }
