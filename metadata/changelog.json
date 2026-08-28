@@ -426,6 +426,12 @@
       "versionCode": 1787905965,
       "publishedUtc": "2026-08-28T08:32:45Z",
       "notes": "Add remaining semantic localization entries"
+    },
+    {
+      "version": "1.0.92",
+      "versionCode": 1787906208,
+      "publishedUtc": "2026-08-28T08:36:48Z",
+      "notes": "Fix malformed localization values"
     }
   ]
 }
