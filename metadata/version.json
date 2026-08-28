@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.87",
-  "versionCode": 1787871245,
-  "publishedUtc": "2026-08-27T22:54:05Z",
-  "commit": "74e3ed45343e81229fbe33a8db2078454b704f21",
-  "patchNotes": "Complete device terminology review"
+  "version": "1.0.88",
+  "versionCode": 1787876428,
+  "publishedUtc": "2026-08-28T00:20:28Z",
+  "commit": "db104bf1105c9d5b71bed513dfa7a907d767d50e",
+  "patchNotes": "Use semantic IDs for application localization"
 }
