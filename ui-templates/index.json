@@ -2,19 +2,19 @@
   "$schema": "../schemas/ui-template-index-v1.schema.json",
   "schemaVersion": 1,
   "templates": [
-    {"id":"ir-ac-default","path":"ir-ac-default.json","status":"stable"},
-    {"id":"ir-tv-default","path":"ir-tv-default.json","status":"stable"},
-    {"id":"ir-tv-round","path":"ir-tv-round.json","status":"stable"},
-    {"id":"hubitat-default","path":"hubitat-default.json","status":"stable"},
-    {"id":"hubitat-compact","path":"hubitat-compact.json","status":"stable"},
-    {"id":"hue-default","path":"hue-default.json","status":"stable"},
-    {"id":"hue-grid","path":"hue-grid.json","status":"stable"},
-    {"id":"wifi-ac-default","path":"wifi-ac-default.json","status":"stable"},
-    {"id":"wifi-tv-default","path":"wifi-tv-default.json","status":"stable"},
-    {"id":"wifi-tv-round","path":"wifi-tv-round.json","status":"stable"},
-    {"id":"ir-ac-modern","path":"ir-ac-modern.json","status":"stable"},
-    {"id":"wifi-ac-modern","path":"wifi-ac-modern.json","status":"stable"},
-    {"id":"ir-tv-modern","path":"ir-tv-modern.json","status":"stable"},
-    {"id":"wifi-tv-modern","path":"wifi-tv-modern.json","status":"stable"}
+    {"id":"ir-ac-default","path":"ir-ac-default.json","status":"stable","access":"free"},
+    {"id":"ir-tv-default","path":"ir-tv-default.json","status":"stable","access":"free"},
+    {"id":"ir-tv-round","path":"ir-tv-round.json","status":"stable","access":"premium"},
+    {"id":"hubitat-default","path":"hubitat-default.json","status":"stable","access":"free"},
+    {"id":"hubitat-compact","path":"hubitat-compact.json","status":"stable","access":"premium"},
+    {"id":"hue-default","path":"hue-default.json","status":"stable","access":"free"},
+    {"id":"hue-grid","path":"hue-grid.json","status":"stable","access":"premium"},
+    {"id":"wifi-ac-default","path":"wifi-ac-default.json","status":"stable","access":"free"},
+    {"id":"wifi-tv-default","path":"wifi-tv-default.json","status":"stable","access":"free"},
+    {"id":"wifi-tv-round","path":"wifi-tv-round.json","status":"stable","access":"premium"},
+    {"id":"ir-ac-modern","path":"ir-ac-modern.json","status":"stable","access":"free"},
+    {"id":"wifi-ac-modern","path":"wifi-ac-modern.json","status":"stable","access":"free"},
+    {"id":"ir-tv-modern","path":"ir-tv-modern.json","status":"stable","access":"free"},
+    {"id":"wifi-tv-modern","path":"wifi-tv-modern.json","status":"stable","access":"free"}
   ]
 }
