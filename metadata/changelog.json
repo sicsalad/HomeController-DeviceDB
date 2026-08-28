@@ -456,6 +456,12 @@
       "versionCode": 1787926082,
       "publishedUtc": "2026-08-28T14:08:02Z",
       "notes": "Add premium access metadata to themes"
+    },
+    {
+      "version": "1.0.97",
+      "versionCode": 1787926097,
+      "publishedUtc": "2026-08-28T14:08:17Z",
+      "notes": "Add premium access metadata to UI templates"
     }
   ]
 }
