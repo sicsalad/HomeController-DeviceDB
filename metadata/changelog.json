@@ -414,6 +414,12 @@
       "versionCode": 1787905193,
       "publishedUtc": "2026-08-28T08:19:53Z",
       "notes": "Use semantic localization IDs"
+    },
+    {
+      "version": "1.0.90",
+      "versionCode": 1787905624,
+      "publishedUtc": "2026-08-28T08:27:04Z",
+      "notes": "Finalize semantic localization catalog"
     }
   ]
 }
