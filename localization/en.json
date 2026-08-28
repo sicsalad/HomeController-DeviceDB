@@ -660,6 +660,14 @@
     "wifi.msg_supported_wi_fi": "Supported Wi-Fi drivers come from DeviceDB. You can search for local devices and configure cloud/LAN drivers directly.",
     "wifi.msg_there_no_published": "There is no published Wi-Fi driver for this model yet.",
     "wifi.msg_wi_fi_search": "Wi-Fi search",
-    "wifi.select_choose_supported_wi": "Choose the supported Wi-Fi air conditioning manufacturer."
+    "wifi.select_choose_supported_wi": "Choose the supported Wi-Fi air conditioning manufacturer.",
+    "premium.theme_locked": "This theme requires an active Premium membership.",
+    "premium.ui_locked": "This UI template requires an active Premium membership.",
+    "premium.grace_days_left": "Grace period: {0} days remaining.",
+    "premium.grace_expired": "The grace period has ended.",
+    "premium.only_title": "Premium only",
+    "premium.grace_title": "Available during grace period",
+    "premium.features_only": "Premium themes • Premium UI templates • Custom themes and template sources • Ad-free use",
+    "premium.features_grace": "Hubitat • Philips Hue"
   }
 }

@@ -660,6 +660,14 @@
     "wifi.msg_supported_wi_fi": "Поддерживаемые драйверы Wi-Fi взяты из DeviceDB. Вы можете искать локальные устройства и напрямую настраивать драйверы облака/LAN.",
     "wifi.msg_there_no_published": "Для этой модели еще не опубликован драйвер Wi-Fi.",
     "wifi.msg_wi_fi_search": "Поиск Wi-Fi",
-    "wifi.select_choose_supported_wi": "Выберите поддерживаемого производителя кондиционера с поддержкой Wi-Fi."
+    "wifi.select_choose_supported_wi": "Выберите поддерживаемого производителя кондиционера с поддержкой Wi-Fi.",
+    "premium.theme_locked": "Для этой темы требуется активная подписка Premium.",
+    "premium.ui_locked": "Для этого шаблона интерфейса требуется активная подписка Premium.",
+    "premium.grace_days_left": "Льготный период: осталось {0} дн.",
+    "premium.grace_expired": "Льготный период закончился.",
+    "premium.only_title": "Только Premium",
+    "premium.grace_title": "Доступно в льготный период",
+    "premium.features_only": "Premium-темы • Premium-шаблоны интерфейса • Пользовательские темы и источники шаблонов • Без рекламы",
+    "premium.features_grace": "Hubitat • Philips Hue"
   }
 }

@@ -660,6 +660,14 @@
     "wifi.msg_supported_wi_fi": "Les pilotes Wi-Fi pris en charge proviennent de DeviceDB. Vous pouvez rechercher des appareils locaux et configurer directement les pilotes cloud/LAN.",
     "wifi.msg_there_no_published": "Il n’existe pas encore de pilote Wi-Fi publié pour ce modèle.",
     "wifi.msg_wi_fi_search": "Recherche Wi-Fi",
-    "wifi.select_choose_supported_wi": "Choisissez le fabricant de climatisation Wi-Fi pris en charge."
+    "wifi.select_choose_supported_wi": "Choisissez le fabricant de climatisation Wi-Fi pris en charge.",
+    "premium.theme_locked": "Ce thème nécessite un abonnement Premium actif.",
+    "premium.ui_locked": "Ce modèle d’interface nécessite un abonnement Premium actif.",
+    "premium.grace_days_left": "Période de grâce : encore {0} jours.",
+    "premium.grace_expired": "La période de grâce est terminée.",
+    "premium.only_title": "Premium uniquement",
+    "premium.grace_title": "Disponible pendant la période de grâce",
+    "premium.features_only": "Thèmes Premium • Modèles d’interface Premium • Thèmes et sources personnalisés • Utilisation sans publicité",
+    "premium.features_grace": "Hubitat • Philips Hue"
   }
 }

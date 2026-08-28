@@ -660,6 +660,14 @@
     "wifi.msg_supported_wi_fi": "A támogatott Wi-Fi driverek a DeviceDB-ből érkeznek. A helyi eszközöket keresheted, a cloud/LAN drivereket pedig közvetlenül konfigurálhatod.",
     "wifi.msg_there_no_published": "Ehhez a típushoz még nincs publikált Wi-Fi driver.",
     "wifi.msg_wi_fi_search": "Wi-Fi keresés",
-    "wifi.select_choose_supported_wi": "Válaszd ki a támogatott Wi-Fi klímagyártót."
+    "wifi.select_choose_supported_wi": "Válaszd ki a támogatott Wi-Fi klímagyártót.",
+    "premium.theme_locked": "Ehhez a témához aktív Premium tagság szükséges.",
+    "premium.ui_locked": "Ehhez a UI-sablonhoz aktív Premium tagság szükséges.",
+    "premium.grace_days_left": "Türelmi idő: még {0} nap van hátra.",
+    "premium.grace_expired": "A türelmi idő lejárt.",
+    "premium.only_title": "Csak Premium",
+    "premium.grace_title": "Türelmi időben is használható",
+    "premium.features_only": "Premium témák • Premium UI-sablonok • Saját témák és sablonforrások • Reklámmentes használat",
+    "premium.features_grace": "Hubitat • Philips Hue"
   }
 }

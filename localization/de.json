@@ -660,6 +660,14 @@
     "wifi.msg_supported_wi_fi": "Unterstützte WLAN-Treiber stammen von DeviceDB. Sie können nach lokalen Geräten suchen und Cloud-/LAN-Treiber direkt konfigurieren.",
     "wifi.msg_there_no_published": "Für dieses Modell gibt es noch keinen veröffentlichten WLAN-Treiber.",
     "wifi.msg_wi_fi_search": "WLAN-Suche",
-    "wifi.select_choose_supported_wi": "Wählen Sie den Hersteller der unterstützten WLAN-Klimaanlage."
+    "wifi.select_choose_supported_wi": "Wählen Sie den Hersteller der unterstützten WLAN-Klimaanlage.",
+    "premium.theme_locked": "Für dieses Design ist eine aktive Premium-Mitgliedschaft erforderlich.",
+    "premium.ui_locked": "Für diese UI-Vorlage ist eine aktive Premium-Mitgliedschaft erforderlich.",
+    "premium.grace_days_left": "Kulanzzeit: noch {0} Tage.",
+    "premium.grace_expired": "Die Kulanzzeit ist abgelaufen.",
+    "premium.only_title": "Nur Premium",
+    "premium.grace_title": "Während der Kulanzzeit verfügbar",
+    "premium.features_only": "Premium-Designs • Premium-UI-Vorlagen • Eigene Designs und Vorlagenquellen • Werbefreie Nutzung",
+    "premium.features_grace": "Hubitat • Philips Hue"
   }
 }
