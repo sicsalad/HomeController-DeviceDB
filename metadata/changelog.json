@@ -432,6 +432,12 @@
       "versionCode": 1787906208,
       "publishedUtc": "2026-08-28T08:36:48Z",
       "notes": "Fix malformed localization values"
+    },
+    {
+      "version": "1.0.93",
+      "versionCode": 1787910032,
+      "publishedUtc": "2026-08-28T09:40:32Z",
+      "notes": "Localize Hubitat and Hue dynamic controls"
     }
   ]
 }

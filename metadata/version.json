@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.92",
-  "versionCode": 1787906208,
-  "publishedUtc": "2026-08-28T08:36:48Z",
-  "commit": "3bfe473c40f206c3fb4a614e353cb0fb3c7289b8",
-  "patchNotes": "Fix malformed localization values"
+  "version": "1.0.93",
+  "versionCode": 1787910032,
+  "publishedUtc": "2026-08-28T09:40:32Z",
+  "commit": "401c44a3da8e6d8dc2fb152a0941000dd6f1d630",
+  "patchNotes": "Localize Hubitat and Hue dynamic controls"
 }
