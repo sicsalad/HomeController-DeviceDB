@@ -330,7 +330,7 @@
     "ui.msg_send_bug_report": "Send a bug report, driver request or idea.",
     "ui.msg_send_command_value": "📶 Send command: {0}...",
     "ui.msg_share_log_value": "Share current log: {0} · {1}",
-    "ui.msg_successful_pairing_connection": "Successful pairing/connection. Volume: {state.Volume?.ToString()??",
+    "ui.msg_successful_pairing_connection": "Successful pairing/connection. Volume: {0}",
     "ui.msg_title_description_required": "Title and description are required.",
     "ui.msg_touch_drag_finger": "Touch or drag your finger on the palette. The color shade changes from left to right, from top to bottom, from a light shade to a pure color to a dark one.",
     "ui.msg_tv_did_respond": "The TV did not respond or the PSK is faulty.",

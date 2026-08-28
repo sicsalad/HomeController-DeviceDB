@@ -330,7 +330,7 @@
     "ui.msg_send_bug_report": "Senden Sie einen Fehlerbericht, eine Treiberanfrage oder eine Idee.",
     "ui.msg_send_command_value": "📶 Befehl senden: {0}...",
     "ui.msg_share_log_value": "Aktuelles Protokoll teilen: {0} · {1}",
-    "ui.msg_successful_pairing_connection": "Erfolgreiche Kopplung/Verbindung. Volumen: {state.Volume?.ToString()??",
+    "ui.msg_successful_pairing_connection": "Erfolgreiche Kopplung/Verbindung. Lautstärke: {0}",
     "ui.msg_title_description_required": "Titel und Beschreibung sind erforderlich.",
     "ui.msg_touch_drag_finger": "Berühren oder ziehen Sie Ihren Finger auf der Palette. Der Farbton verändert sich von links nach rechts, von oben nach unten, von einem hellen Farbton über eine reine Farbe bis hin zu einer dunklen.",
     "ui.msg_tv_did_respond": "Der Fernseher hat nicht reagiert oder der PSK ist fehlerhaft.",

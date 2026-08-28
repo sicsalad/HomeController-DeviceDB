@@ -330,7 +330,7 @@
     "ui.msg_send_bug_report": "Отправьте отчет об ошибке, запрос драйвера или идею.",
     "ui.msg_send_command_value": "📶 Отправьте команду: {0}...",
     "ui.msg_share_log_value": "Поделиться текущим журналом: {0} · {1}",
-    "ui.msg_successful_pairing_connection": "Успешное сопряжение/подключение. Том: {state.Volume?.ToString()??",
+    "ui.msg_successful_pairing_connection": "Сопряжение/подключение успешно. Громкость: {0}",
     "ui.msg_title_description_required": "Необходимо указать заголовок и описание.",
     "ui.msg_touch_drag_finger": "Коснитесь или проведите пальцем по палитре. Цветовой оттенок меняется слева направо, сверху вниз, от светлого оттенка к чистому цвету и к темному.",
     "ui.msg_tv_did_respond": "Телевизор не ответил или неисправен PSK.",
