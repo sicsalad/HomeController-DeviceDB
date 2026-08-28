@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.90",
-  "versionCode": 1787905624,
-  "publishedUtc": "2026-08-28T08:27:04Z",
-  "commit": "4f6136338ff9b77a9cc3cc76b3bb2a8f15df7407",
-  "patchNotes": "Finalize semantic localization catalog"
+  "version": "1.0.91",
+  "versionCode": 1787905965,
+  "publishedUtc": "2026-08-28T08:32:45Z",
+  "commit": "98654fd199f47764c15bcc0eb47c87eee885d424",
+  "patchNotes": "Add remaining semantic localization entries"
 }
