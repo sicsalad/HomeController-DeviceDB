@@ -444,6 +444,12 @@
       "versionCode": 1787923664,
       "publishedUtc": "2026-08-28T13:27:44Z",
       "notes": "themes"
+    },
+    {
+      "version": "1.0.95",
+      "versionCode": 1787924844,
+      "publishedUtc": "2026-08-28T13:47:24Z",
+      "notes": "themes"
     }
   ]
 }

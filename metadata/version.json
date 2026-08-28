@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.94",
-  "versionCode": 1787923664,
-  "publishedUtc": "2026-08-28T13:27:44Z",
-  "commit": "74d4a22425cd352a75b548d52f67d7061c98001d",
+  "version": "1.0.95",
+  "versionCode": 1787924844,
+  "publishedUtc": "2026-08-28T13:47:24Z",
+  "commit": "95dca8c675a493333b24aeeb4f76e3ab909ad524",
   "patchNotes": "themes"
 }
