@@ -468,6 +468,12 @@
       "versionCode": 1787926454,
       "publishedUtc": "2026-08-28T14:14:14Z",
       "notes": "Add premium access tier translations"
+    },
+    {
+      "version": "1.0.99",
+      "versionCode": 1788000565,
+      "publishedUtc": "2026-08-29T10:49:25Z",
+      "notes": "Add default infrared fan UI template"
     }
   ]
 }

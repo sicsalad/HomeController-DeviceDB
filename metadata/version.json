@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.98",
-  "versionCode": 1787926454,
-  "publishedUtc": "2026-08-28T14:14:14Z",
-  "commit": "0b8965116b5a23f417f8c0ae5cd05e8e7ae3dcf5",
-  "patchNotes": "Add premium access tier translations"
+  "version": "1.0.99",
+  "versionCode": 1788000565,
+  "publishedUtc": "2026-08-29T10:49:25Z",
+  "commit": "bfcec3a316e0fae67d1401cb154bbbcac8b65ee4",
+  "patchNotes": "Add default infrared fan UI template"
 }
