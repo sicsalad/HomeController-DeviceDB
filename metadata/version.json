@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.99",
-  "versionCode": 1788000565,
-  "publishedUtc": "2026-08-29T10:49:25Z",
-  "commit": "bfcec3a316e0fae67d1401cb154bbbcac8b65ee4",
-  "patchNotes": "Add default infrared fan UI template"
+  "version": "1.0.100",
+  "versionCode": 1788000592,
+  "publishedUtc": "2026-08-29T10:49:52Z",
+  "commit": "65102daa817e19fa7f82b0dcec418d8447ab5cc1",
+  "patchNotes": "Add SilverCrest SSVS 85 A1 IR fan"
 }

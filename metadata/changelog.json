@@ -474,6 +474,12 @@
       "versionCode": 1788000565,
       "publishedUtc": "2026-08-29T10:49:25Z",
       "notes": "Add default infrared fan UI template"
+    },
+    {
+      "version": "1.0.100",
+      "versionCode": 1788000592,
+      "publishedUtc": "2026-08-29T10:49:52Z",
+      "notes": "Add SilverCrest SSVS 85 A1 IR fan"
     }
   ]
 }
