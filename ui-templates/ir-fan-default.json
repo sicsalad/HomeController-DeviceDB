@@ -1,0 +1,28 @@
+{
+  "$schema": "../schemas/device-ui-template-v1.schema.json",
+  "schemaVersion": 1,
+  "id": "ir-fan-default",
+  "name": "Infrared Fan Default",
+  "deviceTypeId": "fan",
+  "connections": ["infrared"],
+  "renderer": "declarative",
+  "columns": 2,
+  "useFullWidth": true,
+  "buttonCornerRadius": 12,
+  "sectionCornerRadius": 14,
+  "buttonHeight": 58,
+  "iconFontSize": 24,
+  "sections": [
+    {
+      "title": "FAN",
+      "controls": [
+        {"type":"tile","label":"POWER","command":"Power","icon":"⏻","columnSpan":2},
+        {"type":"tile","label":"SPEED","command":"Custom1","icon":"💨"},
+        {"type":"tile","label":"MODE","command":"Mode","icon":"◉"},
+        {"type":"tile","label":"TIMER","command":"Custom3","icon":"⏱"},
+        {"type":"tile","label":"OSC","command":"Custom4","icon":"↔"},
+        {"type":"tile","label":"MIST","command":"Custom2","icon":"💧","columnSpan":2}
+      ]
+    }
+  ]
+}
