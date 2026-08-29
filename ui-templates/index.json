@@ -5,6 +5,7 @@
     {"id":"ir-ac-default","path":"ir-ac-default.json","status":"stable","access":"free"},
     {"id":"ir-tv-default","path":"ir-tv-default.json","status":"stable","access":"free"},
     {"id":"ir-tv-round","path":"ir-tv-round.json","status":"stable","access":"premium"},
+    {"id":"ir-fan-default","path":"ir-fan-default.json","status":"stable","access":"free"},
     {"id":"hubitat-default","path":"hubitat-default.json","status":"stable","access":"free"},
     {"id":"hubitat-compact","path":"hubitat-compact.json","status":"stable","access":"premium"},
     {"id":"hue-default","path":"hue-default.json","status":"stable","access":"free"},
