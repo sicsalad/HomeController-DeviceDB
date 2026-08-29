@@ -492,6 +492,12 @@
       "versionCode": 1788000631,
       "publishedUtc": "2026-08-29T10:50:31Z",
       "notes": "Register infrared fan UI template"
+    },
+    {
+      "version": "1.0.104",
+      "versionCode": 1788002089,
+      "publishedUtc": "2026-08-29T11:14:49Z",
+      "notes": "Add SilverCrest SSVS 85 A1 fan IR codeset"
     }
   ]
 }
