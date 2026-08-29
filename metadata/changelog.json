@@ -480,6 +480,12 @@
       "versionCode": 1788000592,
       "publishedUtc": "2026-08-29T10:49:52Z",
       "notes": "Add SilverCrest SSVS 85 A1 IR fan"
+    },
+    {
+      "version": "1.0.102",
+      "versionCode": 1788000617,
+      "publishedUtc": "2026-08-29T10:50:17Z",
+      "notes": "Add SilverCrest fan to curated database"
     }
   ]
 }

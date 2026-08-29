@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.100",
-  "versionCode": 1788000592,
-  "publishedUtc": "2026-08-29T10:49:52Z",
-  "commit": "65102daa817e19fa7f82b0dcec418d8447ab5cc1",
-  "patchNotes": "Add SilverCrest SSVS 85 A1 IR fan"
+  "version": "1.0.102",
+  "versionCode": 1788000617,
+  "publishedUtc": "2026-08-29T10:50:17Z",
+  "commit": "5992a3f3e6491c691672624d645c5bef9f500109",
+  "patchNotes": "Add SilverCrest fan to curated database"
 }
