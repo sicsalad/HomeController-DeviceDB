@@ -1219,6 +1219,26 @@
       "deviceModels": [],
       "remoteModels": [],
       "codeSets": []
+    },
+    {
+      "deviceType": "Fan",
+      "name": "SilverCrest",
+      "deviceModels": [
+        {
+          "name": "SSVS 85 A1",
+          "codeSetId": "silvercrest-ssvs-85-a1",
+          "confidence": "source-tested"
+        }
+      ],
+      "remoteModels": [],
+      "codeSets": [
+        {
+          "id": "silvercrest-ssvs-85-a1",
+          "name": "SilverCrest SSVS 85 A1",
+          "path": "codesets/fan/SilverCrest/silvercrest-ssvs-85-a1.json",
+          "testCommand": "Power"
+        }
+      ]
     }
   ]
 }
