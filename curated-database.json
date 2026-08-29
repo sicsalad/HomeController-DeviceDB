@@ -25,6 +25,14 @@
           {"name":"DG11J1-3A","remoteModel":"DG11J1-3A","path":"devices/air-conditioner/Whirlpool/DG11J1-3A.json"}
         ]}
       ]
+    },
+    {
+      "name": "Fan",
+      "manufacturers": [
+        {"name":"SilverCrest","models":[
+          {"name":"SSVS 85 A1","path":"devices/fan/SilverCrest/SSVS_85_A1.json"}
+        ]}
+      ]
     }
   ]
 }
