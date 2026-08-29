@@ -486,6 +486,12 @@
       "versionCode": 1788000617,
       "publishedUtc": "2026-08-29T10:50:17Z",
       "notes": "Add SilverCrest fan to curated database"
+    },
+    {
+      "version": "1.0.103",
+      "versionCode": 1788000631,
+      "publishedUtc": "2026-08-29T10:50:31Z",
+      "notes": "Register infrared fan UI template"
     }
   ]
 }

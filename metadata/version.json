@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.102",
-  "versionCode": 1788000617,
-  "publishedUtc": "2026-08-29T10:50:17Z",
-  "commit": "5992a3f3e6491c691672624d645c5bef9f500109",
-  "patchNotes": "Add SilverCrest fan to curated database"
+  "version": "1.0.103",
+  "versionCode": 1788000631,
+  "publishedUtc": "2026-08-29T10:50:31Z",
+  "commit": "c79c60814c8509a571bacde9248dec778661e9e2",
+  "patchNotes": "Register infrared fan UI template"
 }
