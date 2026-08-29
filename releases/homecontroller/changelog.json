@@ -12,6 +12,12 @@
       "versionCode": 1788045630,
       "publishedUtc": "2026-08-29T23:24:04Z",
       "notes": "Trigger CI after billing update"
+    },
+    {
+      "version": "1.0.577",
+      "versionCode": 1788046699,
+      "publishedUtc": "2026-08-29T23:42:21Z",
+      "notes": "Fall back automatically to open IR models"
     }
   ]
 }
