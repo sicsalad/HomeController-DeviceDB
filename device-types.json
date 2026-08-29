@@ -17,6 +17,13 @@
       "defaultUiTemplates": { "infrared": "ir-tv-default", "wifi": "wifi-tv-default" }
     },
     {
+      "id": "fan", "displayName": "Fan", "icon": "🌀",
+      "connections": ["infrared"],
+      "databaseTypeNames": ["Fan", "Ceiling Fan", "Pedestal Fan", "Tower Fan"],
+      "sourcePathHints": ["Fan", "fan"],
+      "defaultUiTemplates": { "infrared": "ir-fan-default" }
+    },
+    {
       "id": "hubitat", "displayName": "Hubitat", "icon": "🏠", "connections": ["wifi"],
       "databaseTypeNames": [], "sourcePathHints": ["HubitatMakerApi", "Hubitat"],
       "defaultUiTemplates": { "wifi": "hubitat-default" }, "setupHandler": "hubitat"
