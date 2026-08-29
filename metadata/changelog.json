@@ -498,6 +498,12 @@
       "versionCode": 1788002089,
       "publishedUtc": "2026-08-29T11:14:49Z",
       "notes": "Add SilverCrest SSVS 85 A1 fan IR codeset"
+    },
+    {
+      "version": "1.0.105",
+      "versionCode": 1788002228,
+      "publishedUtc": "2026-08-29T11:17:08Z",
+      "notes": "Register SilverCrest fan codeset in IR catalog"
     }
   ]
 }
