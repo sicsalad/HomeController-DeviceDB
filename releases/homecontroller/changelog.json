@@ -30,6 +30,12 @@
       "versionCode": 1788048011,
       "publishedUtc": "2026-08-30T00:04:04Z",
       "notes": "Fix Flipper provider startup crash with shared HttpClient"
+    },
+    {
+      "version": "1.0.581",
+      "versionCode": 1788049236,
+      "publishedUtc": "2026-08-30T00:23:33Z",
+      "notes": "Show all open IR device categories"
     }
   ]
 }
