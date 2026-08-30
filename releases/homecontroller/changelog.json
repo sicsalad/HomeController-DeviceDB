@@ -24,6 +24,12 @@
       "versionCode": 1788047341,
       "publishedUtc": "2026-08-29T23:53:14Z",
       "notes": "Persist Flipper IR catalog by upstream commit"
+    },
+    {
+      "version": "1.0.579",
+      "versionCode": 1788048011,
+      "publishedUtc": "2026-08-30T00:04:04Z",
+      "notes": "Fix Flipper provider startup crash with shared HttpClient"
     }
   ]
 }
