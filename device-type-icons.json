@@ -4,6 +4,7 @@
     "television": { "glyph": "📺", "backgroundColor": "#173B63", "foregroundColor": "#FFFFFF", "accentColor": "#8ED6FF" },
     "air-conditioner": { "glyph": "❄️", "backgroundColor": "#0F607C", "foregroundColor": "#FFFFFF", "accentColor": "#B7F0FF" },
     "fan": { "glyph": "🌀", "backgroundColor": "#35658A", "foregroundColor": "#FFFFFF", "accentColor": "#E7F2F8" },
+    "ir-transceiver": { "glyph": "📡", "backgroundColor": "#174E63", "foregroundColor": "#FFFFFF", "accentColor": "#64D8CB" },
     "set-top-box": { "glyph": "📡", "backgroundColor": "#3B4168", "foregroundColor": "#FFFFFF", "accentColor": "#F6B17A" },
     "av-receiver": { "glyph": "🎚️", "backgroundColor": "#383A50", "foregroundColor": "#FFFFFF", "accentColor": "#F2E9E4" },
     "audio": { "glyph": "🔊", "backgroundColor": "#273A52", "foregroundColor": "#FFFFFF", "accentColor": "#93C5FD" },
