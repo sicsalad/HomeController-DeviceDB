@@ -516,6 +516,12 @@
       "versionCode": 1788200711,
       "publishedUtc": "2026-08-31T18:25:11Z",
       "notes": "refactor: use portable device type icon glyphs"
+    },
+    {
+      "version": "1.0.108",
+      "versionCode": 1788201287,
+      "publishedUtc": "2026-08-31T18:34:47Z",
+      "notes": "feat: add full visual device type tile styles"
     }
   ]
 }
