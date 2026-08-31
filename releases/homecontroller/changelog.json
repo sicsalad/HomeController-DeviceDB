@@ -66,6 +66,12 @@
       "versionCode": 1788212658,
       "publishedUtc": "2026-08-31T21:48:23Z",
       "notes": "Use DeviceDB as the only infrared device type source"
+    },
+    {
+      "version": "1.0.624",
+      "versionCode": 1788215868,
+      "publishedUtc": "2026-08-31T22:41:46Z",
+      "notes": "Fix Hubitat websocket receive compatibility"
     }
   ]
 }
