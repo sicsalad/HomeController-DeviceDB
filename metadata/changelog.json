@@ -528,6 +528,12 @@
       "versionCode": 1788203135,
       "publishedUtc": "2026-08-31T19:05:35Z",
       "notes": "feat: define interactive test commands by device type"
+    },
+    {
+      "version": "1.0.110",
+      "versionCode": 1788203354,
+      "publishedUtc": "2026-08-31T19:09:14Z",
+      "notes": "feat: allow per-device interactive test command list"
     }
   ]
 }

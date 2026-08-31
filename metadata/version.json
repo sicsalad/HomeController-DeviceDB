@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.109",
-  "versionCode": 1788203135,
-  "publishedUtc": "2026-08-31T19:05:35Z",
-  "commit": "dfdaf977c1e2ad79c51391ad3071d65baec0837e",
-  "patchNotes": "feat: define interactive test commands by device type"
+  "version": "1.0.110",
+  "versionCode": 1788203354,
+  "publishedUtc": "2026-08-31T19:09:14Z",
+  "commit": "8a48e6efc44980696b007ab46f456cc4a596bf1d",
+  "patchNotes": "feat: allow per-device interactive test command list"
 }
