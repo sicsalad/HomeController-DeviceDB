@@ -54,6 +54,12 @@
       "versionCode": 1788203399,
       "publishedUtc": "2026-08-31T19:13:54Z",
       "notes": "fix: finalize shared interactive test layout"
+    },
+    {
+      "version": "1.0.611",
+      "versionCode": 1788209228,
+      "publishedUtc": "2026-08-31T20:51:02Z",
+      "notes": "fix: resolve DeviceType ambiguity in Hubitat IR pinning"
     }
   ]
 }
