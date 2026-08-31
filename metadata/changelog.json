@@ -510,6 +510,12 @@
       "versionCode": 1788200589,
       "publishedUtc": "2026-08-31T18:23:09Z",
       "notes": "feat: add device type vector icon pack"
+    },
+    {
+      "version": "1.0.107",
+      "versionCode": 1788200711,
+      "publishedUtc": "2026-08-31T18:25:11Z",
+      "notes": "refactor: use portable device type icon glyphs"
     }
   ]
 }

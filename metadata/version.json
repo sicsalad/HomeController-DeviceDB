@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.106",
-  "versionCode": 1788200589,
-  "publishedUtc": "2026-08-31T18:23:09Z",
-  "commit": "737aba1ceff096896196473d5d7ebdfc6a4fbc2c",
-  "patchNotes": "feat: add device type vector icon pack"
+  "version": "1.0.107",
+  "versionCode": 1788200711,
+  "publishedUtc": "2026-08-31T18:25:11Z",
+  "commit": "ca57b36439a539d563d0303a78d8fc2fe09f1f3a",
+  "patchNotes": "refactor: use portable device type icon glyphs"
 }
