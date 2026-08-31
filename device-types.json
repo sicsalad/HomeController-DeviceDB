@@ -7,35 +7,41 @@
       "connections": ["infrared", "wifi"],
       "databaseTypeNames": ["Air Conditioner", "AirConditioner", "AC"],
       "sourcePathHints": ["Air Conditioner", "AirConditioner", "/AC/", "climate"],
-      "defaultUiTemplates": { "infrared": "ir-ac-default", "wifi": "wifi-ac-default" }
+      "defaultUiTemplates": { "infrared": "ir-ac-default", "wifi": "wifi-ac-default" },
+      "testCommands": ["Power", "TemperatureUp", "Mode", "FanSpeed", "Swing"]
     },
     {
       "id": "television", "displayName": "Television", "icon": "📺",
       "connections": ["infrared", "wifi"],
       "databaseTypeNames": ["Television", "TV"],
       "sourcePathHints": ["Television", "/TV/", "television"],
-      "defaultUiTemplates": { "infrared": "ir-tv-default", "wifi": "wifi-tv-default" }
+      "defaultUiTemplates": { "infrared": "ir-tv-default", "wifi": "wifi-tv-default" },
+      "testCommands": ["Power", "VolumeUp", "Mute", "ChannelUp", "Source"]
     },
     {
       "id": "fan", "displayName": "Fan", "icon": "🌀",
       "connections": ["infrared"],
       "databaseTypeNames": ["Fan", "Ceiling Fan", "Pedestal Fan", "Tower Fan"],
       "sourcePathHints": ["Fan", "fan"],
-      "defaultUiTemplates": { "infrared": "ir-fan-default" }
+      "defaultUiTemplates": { "infrared": "ir-fan-default" },
+      "testCommands": ["Power", "FanSpeed", "Swing", "Timer"]
     },
     {
       "id": "hubitat", "displayName": "Hubitat", "icon": "🏠", "connections": ["wifi"],
       "databaseTypeNames": [], "sourcePathHints": ["HubitatMakerApi", "Hubitat"],
-      "defaultUiTemplates": { "wifi": "hubitat-default" }, "setupHandler": "hubitat"
+      "defaultUiTemplates": { "wifi": "hubitat-default" }, "setupHandler": "hubitat",
+      "testCommands": ["Power"]
     },
     {
       "id": "philips-hue", "displayName": "Philips Hue", "icon": "💡", "connections": ["wifi"],
       "databaseTypeNames": [], "sourcePathHints": ["PhilipsHueV2", "Philips Hue", "Hue"],
-      "defaultUiTemplates": { "wifi": "hue-default" }, "setupHandler": "philips-hue"
+      "defaultUiTemplates": { "wifi": "hue-default" }, "setupHandler": "philips-hue",
+      "testCommands": ["Power"]
     },
     {
       "id": "general", "displayName": "General", "icon": "🎛️", "connections": ["infrared", "wifi"],
-      "databaseTypeNames": ["General"], "sourcePathHints": [], "defaultUiTemplates": {}
+      "databaseTypeNames": ["General"], "sourcePathHints": [], "defaultUiTemplates": {},
+      "testCommands": ["Power"]
     }
   ]
 }
