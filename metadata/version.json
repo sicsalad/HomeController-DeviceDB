@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.114",
-  "versionCode": 1788212408,
-  "publishedUtc": "2026-08-31T21:40:08Z",
-  "commit": "00efc800dba741322b4fb482155f582b7a27a8fa",
-  "patchNotes": "Add automatic Open IR device type synchronization"
+  "version": "1.0.115",
+  "versionCode": 1788212423,
+  "publishedUtc": "2026-08-31T21:40:23Z",
+  "commit": "9d13af72e7f040e439ace28f255c32cc69a49afc",
+  "patchNotes": "Synchronize DeviceDB device types from Open IR data"
 }
