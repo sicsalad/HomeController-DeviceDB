@@ -42,6 +42,12 @@
       "versionCode": 1788199988,
       "publishedUtc": "2026-08-31T18:17:15Z",
       "notes": "docs: add HomeController future feature backlog"
+    },
+    {
+      "version": "1.0.594",
+      "versionCode": 1788201444,
+      "publishedUtc": "2026-08-31T18:41:19Z",
+      "notes": "feat: render device types as full visual square tiles"
     }
   ]
 }
