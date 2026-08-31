@@ -540,6 +540,12 @@
       "versionCode": 1788207202,
       "publishedUtc": "2026-08-31T20:13:22Z",
       "notes": "feat: allow hidden device types in catalog"
+    },
+    {
+      "version": "1.0.113",
+      "versionCode": 1788207216,
+      "publishedUtc": "2026-08-31T20:13:36Z",
+      "notes": "feat: add IR transceiver visual"
     }
   ]
 }

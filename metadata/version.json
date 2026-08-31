@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.112",
-  "versionCode": 1788207202,
-  "publishedUtc": "2026-08-31T20:13:22Z",
-  "commit": "60c737420aee312614dbe757af52b464efa10838",
-  "patchNotes": "feat: allow hidden device types in catalog"
+  "version": "1.0.113",
+  "versionCode": 1788207216,
+  "publishedUtc": "2026-08-31T20:13:36Z",
+  "commit": "99fb0c6ba3460b2aae4a09f92b0bd0df0343224e",
+  "patchNotes": "feat: add IR transceiver visual"
 }
