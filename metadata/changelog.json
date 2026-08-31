@@ -546,6 +546,12 @@
       "versionCode": 1788207216,
       "publishedUtc": "2026-08-31T20:13:36Z",
       "notes": "feat: add IR transceiver visual"
+    },
+    {
+      "version": "1.0.114",
+      "versionCode": 1788212408,
+      "publishedUtc": "2026-08-31T21:40:08Z",
+      "notes": "Add automatic Open IR device type synchronization"
     }
   ]
 }

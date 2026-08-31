@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.113",
-  "versionCode": 1788207216,
-  "publishedUtc": "2026-08-31T20:13:36Z",
-  "commit": "99fb0c6ba3460b2aae4a09f92b0bd0df0343224e",
-  "patchNotes": "feat: add IR transceiver visual"
+  "version": "1.0.114",
+  "versionCode": 1788212408,
+  "publishedUtc": "2026-08-31T21:40:08Z",
+  "commit": "00efc800dba741322b4fb482155f582b7a27a8fa",
+  "patchNotes": "Add automatic Open IR device type synchronization"
 }
