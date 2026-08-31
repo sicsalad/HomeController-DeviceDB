@@ -2,6 +2,7 @@
   "$schema": "../schemas/ui-template-index-v1.schema.json",
   "schemaVersion": 1,
   "templates": [
+    {"id":"ir-simple","path":"ir-simple.json","status":"stable","access":"free"},
     {"id":"ir-ac-default","path":"ir-ac-default.json","status":"stable","access":"free"},
     {"id":"ir-tv-default","path":"ir-tv-default.json","status":"stable","access":"free"},
     {"id":"ir-tv-round","path":"ir-tv-round.json","status":"stable","access":"premium"},
