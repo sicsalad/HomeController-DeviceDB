@@ -763,6 +763,20 @@
       ]
     },
     {
+      "name": "Fan",
+      "manufacturers": [
+        {
+          "name": "SilverCrest",
+          "models": [
+            {
+              "name": "SSVS 85 A1",
+              "path": "devices/fan/SilverCrest/SSVS_85_A1.json"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "Television",
       "manufacturers": [
         {
