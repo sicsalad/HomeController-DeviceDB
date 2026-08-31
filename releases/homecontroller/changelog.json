@@ -72,6 +72,12 @@
       "versionCode": 1788215868,
       "publishedUtc": "2026-08-31T22:41:46Z",
       "notes": "Fix Hubitat websocket receive compatibility"
+    },
+    {
+      "version": "1.0.632",
+      "versionCode": 1788218624,
+      "publishedUtc": "2026-08-31T23:28:00Z",
+      "notes": "Avoid rebuilding Hubitat dashboard on back navigation"
     }
   ]
 }
