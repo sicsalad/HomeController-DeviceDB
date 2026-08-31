@@ -3,52 +3,1332 @@
   "schemaVersion": 1,
   "deviceTypes": [
     {
-      "id": "air-conditioner", "displayName": "Air Conditioner", "icon": "❄️",
-      "connections": ["infrared", "wifi"],
-      "databaseTypeNames": ["Air Conditioner", "AirConditioner", "AC"],
-      "sourcePathHints": ["Air Conditioner", "AirConditioner", "/AC/", "climate"],
-      "defaultUiTemplates": { "infrared": "ir-ac-default", "wifi": "wifi-ac-default" },
-      "testCommands": ["Power", "TemperatureUp", "Mode", "FanSpeed", "Swing"]
+      "id": "air-conditioner",
+      "displayName": "Air Conditioner",
+      "icon": "❄️",
+      "connections": [
+        "infrared",
+        "wifi"
+      ],
+      "databaseTypeNames": [
+        "Air Conditioner",
+        "AirConditioner",
+        "AC",
+        "ACs"
+      ],
+      "sourcePathHints": [
+        "Air Conditioner",
+        "AirConditioner",
+        "/AC/",
+        "climate",
+        "ACs"
+      ],
+      "defaultUiTemplates": {
+        "infrared": "ir-ac-default",
+        "wifi": "wifi-ac-default"
+      },
+      "testCommands": [
+        "Power",
+        "TemperatureUp",
+        "Mode",
+        "FanSpeed",
+        "Swing"
+      ],
+      "displayNames": {
+        "en": "Air Conditioner",
+        "hu": "Légkondicionáló",
+        "de": "Klimaanlage",
+        "fr": "Climatiseur",
+        "ru": "Кондиционер"
+      }
     },
     {
-      "id": "television", "displayName": "Television", "icon": "📺",
-      "connections": ["infrared", "wifi"],
-      "databaseTypeNames": ["Television", "TV"],
-      "sourcePathHints": ["Television", "/TV/", "television"],
-      "defaultUiTemplates": { "infrared": "ir-tv-default", "wifi": "wifi-tv-default" },
-      "testCommands": ["Power", "VolumeUp", "Mute", "ChannelUp", "Source"]
+      "id": "air-purifier",
+      "displayName": "Air Purifier",
+      "displayNames": {
+        "en": "Air Purifier",
+        "hu": "Légtisztító",
+        "de": "Luftreiniger",
+        "fr": "Purificateur d’air",
+        "ru": "Очиститель воздуха"
+      },
+      "icon": "🌬️",
+      "connections": [
+        "infrared"
+      ],
+      "databaseTypeNames": [
+        "Air_Purifiers"
+      ],
+      "sourcePathHints": [
+        "Air_Purifiers"
+      ],
+      "defaultUiTemplates": {},
+      "testCommands": [
+        "Power"
+      ]
     },
     {
-      "id": "fan", "displayName": "Fan", "icon": "🌀",
-      "connections": ["infrared"],
-      "databaseTypeNames": ["Fan", "Ceiling Fan", "Pedestal Fan", "Tower Fan"],
-      "sourcePathHints": ["Fan", "fan"],
-      "defaultUiTemplates": { "infrared": "ir-fan-default" },
-      "testCommands": ["Power", "FanSpeed", "Swing", "Timer"]
+      "id": "av-receiver",
+      "displayName": "AV Receiver",
+      "displayNames": {
+        "en": "AV Receiver",
+        "hu": "AV-erősítő",
+        "de": "AV-Receiver",
+        "fr": "Ampli-tuner AV",
+        "ru": "AV-ресивер"
+      },
+      "icon": "🎚️",
+      "connections": [
+        "infrared"
+      ],
+      "databaseTypeNames": [
+        "Audio_and_Video_Receivers"
+      ],
+      "sourcePathHints": [
+        "Audio_and_Video_Receivers"
+      ],
+      "defaultUiTemplates": {},
+      "testCommands": [
+        "Power",
+        "VolumeUp",
+        "Mute",
+        "Source"
+      ]
     },
     {
-      "id": "ir-transceiver", "displayName": "IR Transceiver", "icon": "📡",
-      "connections": ["wifi"], "selectable": false,
-      "databaseTypeNames": [], "sourcePathHints": ["HubitatIrTransceiver", "Tuya Zigbee IR Remote Control", "UFO-R11"],
-      "defaultUiTemplates": {}, "setupHandler": "hubitat-ir-transceiver",
-      "testCommands": []
+      "id": "bidet",
+      "displayName": "Bidet",
+      "displayNames": {
+        "en": "Bidet",
+        "hu": "Bidé",
+        "de": "Bidet",
+        "fr": "Bidet",
+        "ru": "Биде"
+      },
+      "icon": "🎛️",
+      "connections": [
+        "infrared"
+      ],
+      "databaseTypeNames": [
+        "Bidet"
+      ],
+      "sourcePathHints": [
+        "Bidet"
+      ],
+      "defaultUiTemplates": {},
+      "testCommands": [
+        "Power"
+      ]
     },
     {
-      "id": "hubitat", "displayName": "Hubitat", "icon": "🏠", "connections": ["wifi"],
-      "databaseTypeNames": [], "sourcePathHints": ["HubitatMakerApi", "Hubitat"],
-      "defaultUiTemplates": { "wifi": "hubitat-default" }, "setupHandler": "hubitat",
-      "testCommands": ["Power"]
+      "id": "blu-ray-player",
+      "displayName": "Blu-ray Player",
+      "displayNames": {
+        "en": "Blu-ray Player",
+        "hu": "Blu-ray lejátszó",
+        "de": "Blu-ray-Player",
+        "fr": "Lecteur Blu-ray",
+        "ru": "Blu-ray проигрыватель"
+      },
+      "icon": "💿",
+      "connections": [
+        "infrared"
+      ],
+      "databaseTypeNames": [
+        "Blu-Ray"
+      ],
+      "sourcePathHints": [
+        "Blu-Ray"
+      ],
+      "defaultUiTemplates": {},
+      "testCommands": [
+        "Power"
+      ]
     },
     {
-      "id": "philips-hue", "displayName": "Philips Hue", "icon": "💡", "connections": ["wifi"],
-      "databaseTypeNames": [], "sourcePathHints": ["PhilipsHueV2", "Philips Hue", "Hue"],
-      "defaultUiTemplates": { "wifi": "hue-default" }, "setupHandler": "philips-hue",
-      "testCommands": ["Power"]
+      "id": "cameras",
+      "displayName": "Camera",
+      "displayNames": {
+        "en": "Camera",
+        "hu": "Kamera",
+        "de": "Kamera",
+        "fr": "Caméra",
+        "ru": "Камера"
+      },
+      "icon": "📷",
+      "connections": [
+        "infrared"
+      ],
+      "databaseTypeNames": [
+        "Cameras"
+      ],
+      "sourcePathHints": [
+        "Cameras"
+      ],
+      "defaultUiTemplates": {},
+      "testCommands": [
+        "Power"
+      ]
     },
     {
-      "id": "general", "displayName": "General", "icon": "🎛️", "connections": ["infrared", "wifi"],
-      "databaseTypeNames": ["General"], "sourcePathHints": [], "defaultUiTemplates": {},
-      "testCommands": ["Power"]
+      "id": "car-multimedia",
+      "displayName": "Car Multimedia",
+      "displayNames": {
+        "en": "Car Multimedia",
+        "hu": "Autós multimédia",
+        "de": "Auto-Multimedia",
+        "fr": "Multimédia automobile",
+        "ru": "Автомультимедиа"
+      },
+      "icon": "🎛️",
+      "connections": [
+        "infrared"
+      ],
+      "databaseTypeNames": [
+        "Car_Multimedia"
+      ],
+      "sourcePathHints": [
+        "Car_Multimedia"
+      ],
+      "defaultUiTemplates": {},
+      "testCommands": [
+        "Power"
+      ]
+    },
+    {
+      "id": "cctv",
+      "displayName": "CCTV",
+      "displayNames": {
+        "en": "CCTV",
+        "hu": "Biztonsági kamera",
+        "de": "Überwachungskamera",
+        "fr": "Vidéosurveillance",
+        "ru": "Видеонаблюдение"
+      },
+      "icon": "📹",
+      "connections": [
+        "infrared"
+      ],
+      "databaseTypeNames": [
+        "CCTV"
+      ],
+      "sourcePathHints": [
+        "CCTV"
+      ],
+      "defaultUiTemplates": {},
+      "testCommands": [
+        "Power"
+      ]
+    },
+    {
+      "id": "cd-player",
+      "displayName": "CD Player",
+      "displayNames": {
+        "en": "CD Player",
+        "hu": "CD-lejátszó",
+        "de": "CD-Player",
+        "fr": "Lecteur CD",
+        "ru": "CD-проигрыватель"
+      },
+      "icon": "💿",
+      "connections": [
+        "infrared"
+      ],
+      "databaseTypeNames": [
+        "CD_Players"
+      ],
+      "sourcePathHints": [
+        "CD_Players"
+      ],
+      "defaultUiTemplates": {},
+      "testCommands": [
+        "Power"
+      ]
+    },
+    {
+      "id": "ceiling-lift",
+      "displayName": "Ceiling Lift",
+      "displayNames": {
+        "en": "Ceiling Lift",
+        "hu": "Mennyezeti emelő",
+        "de": "Deckenlift",
+        "fr": "Lève-personne plafonnier",
+        "ru": "Потолочный подъёмник"
+      },
+      "icon": "🎛️",
+      "connections": [
+        "infrared"
+      ],
+      "databaseTypeNames": [
+        "Handicap_Ceiling_Lifts"
+      ],
+      "sourcePathHints": [
+        "Handicap_Ceiling_Lifts"
+      ],
+      "defaultUiTemplates": {},
+      "testCommands": [
+        "Power"
+      ]
+    },
+    {
+      "id": "clocks",
+      "displayName": "Clock",
+      "displayNames": {
+        "en": "Clock",
+        "hu": "Óra",
+        "de": "Uhr",
+        "fr": "Horloge",
+        "ru": "Часы"
+      },
+      "icon": "🕒",
+      "connections": [
+        "infrared"
+      ],
+      "databaseTypeNames": [
+        "Clocks"
+      ],
+      "sourcePathHints": [
+        "Clocks"
+      ],
+      "defaultUiTemplates": {},
+      "testCommands": [
+        "Power"
+      ]
+    },
+    {
+      "id": "computers",
+      "displayName": "Computer",
+      "displayNames": {
+        "en": "Computer",
+        "hu": "Számítógép",
+        "de": "Computer",
+        "fr": "Ordinateur",
+        "ru": "Компьютер"
+      },
+      "icon": "💻",
+      "connections": [
+        "infrared"
+      ],
+      "databaseTypeNames": [
+        "Computers"
+      ],
+      "sourcePathHints": [
+        "Computers"
+      ],
+      "defaultUiTemplates": {},
+      "testCommands": [
+        "Power"
+      ]
+    },
+    {
+      "id": "converted",
+      "displayName": "Converted",
+      "displayNames": {
+        "en": "Converted",
+        "hu": "Converted",
+        "de": "Converted",
+        "fr": "Converted",
+        "ru": "Converted"
+      },
+      "icon": "🎛️",
+      "connections": [
+        "infrared"
+      ],
+      "databaseTypeNames": [
+        "_Converted_"
+      ],
+      "sourcePathHints": [
+        "_Converted_"
+      ],
+      "defaultUiTemplates": {},
+      "testCommands": [
+        "Power"
+      ]
+    },
+    {
+      "id": "converters",
+      "displayName": "Converter",
+      "displayNames": {
+        "en": "Converter",
+        "hu": "Átalakító",
+        "de": "Konverter",
+        "fr": "Convertisseur",
+        "ru": "Преобразователь"
+      },
+      "icon": "🎛️",
+      "connections": [
+        "infrared"
+      ],
+      "databaseTypeNames": [
+        "Converters"
+      ],
+      "sourcePathHints": [
+        "Converters"
+      ],
+      "defaultUiTemplates": {},
+      "testCommands": [
+        "Power"
+      ]
+    },
+    {
+      "id": "digital-picture-frame",
+      "displayName": "Digital Picture Frame",
+      "displayNames": {
+        "en": "Digital Picture Frame",
+        "hu": "Digitális képkeret",
+        "de": "Digitaler Bilderrahmen",
+        "fr": "Cadre photo numérique",
+        "ru": "Цифровая фоторамка"
+      },
+      "icon": "🎛️",
+      "connections": [
+        "infrared"
+      ],
+      "databaseTypeNames": [
+        "Picture_Frames"
+      ],
+      "sourcePathHints": [
+        "Picture_Frames"
+      ],
+      "defaultUiTemplates": {},
+      "testCommands": [
+        "Power"
+      ]
+    },
+    {
+      "id": "digital-sign",
+      "displayName": "Digital Sign",
+      "displayNames": {
+        "en": "Digital Sign",
+        "hu": "Digitális kijelző",
+        "de": "Digital Signage",
+        "fr": "Affichage numérique",
+        "ru": "Цифровая вывеска"
+      },
+      "icon": "🎛️",
+      "connections": [
+        "infrared"
+      ],
+      "databaseTypeNames": [
+        "Digital_Signs"
+      ],
+      "sourcePathHints": [
+        "Digital_Signs"
+      ],
+      "defaultUiTemplates": {},
+      "testCommands": [
+        "Power"
+      ]
+    },
+    {
+      "id": "dust-collector",
+      "displayName": "Dust Collector",
+      "displayNames": {
+        "en": "Dust Collector",
+        "hu": "Porelszívó",
+        "de": "Staubabscheider",
+        "fr": "Collecteur de poussière",
+        "ru": "Пылеуловитель"
+      },
+      "icon": "🎛️",
+      "connections": [
+        "infrared"
+      ],
+      "databaseTypeNames": [
+        "Dust_Collectors"
+      ],
+      "sourcePathHints": [
+        "Dust_Collectors"
+      ],
+      "defaultUiTemplates": {},
+      "testCommands": [
+        "Power"
+      ]
+    },
+    {
+      "id": "dvb-t",
+      "displayName": "DVB-T Receiver",
+      "displayNames": {
+        "en": "DVB-T Receiver",
+        "hu": "DVB-T vevő",
+        "de": "DVB-T-Empfänger",
+        "fr": "Récepteur DVB-T",
+        "ru": "DVB-T ресивер"
+      },
+      "icon": "🎛️",
+      "connections": [
+        "infrared"
+      ],
+      "databaseTypeNames": [
+        "DVB-T"
+      ],
+      "sourcePathHints": [
+        "DVB-T"
+      ],
+      "defaultUiTemplates": {},
+      "testCommands": [
+        "Power"
+      ]
+    },
+    {
+      "id": "dvd-player",
+      "displayName": "DVD Player",
+      "displayNames": {
+        "en": "DVD Player",
+        "hu": "DVD-lejátszó",
+        "de": "DVD-Player",
+        "fr": "Lecteur DVD",
+        "ru": "DVD-проигрыватель"
+      },
+      "icon": "💿",
+      "connections": [
+        "infrared"
+      ],
+      "databaseTypeNames": [
+        "DVD_Players"
+      ],
+      "sourcePathHints": [
+        "DVD_Players"
+      ],
+      "defaultUiTemplates": {},
+      "testCommands": [
+        "Power"
+      ]
+    },
+    {
+      "id": "fan",
+      "displayName": "Fan",
+      "icon": "🌀",
+      "connections": [
+        "infrared"
+      ],
+      "databaseTypeNames": [
+        "Fan",
+        "Ceiling Fan",
+        "Pedestal Fan",
+        "Tower Fan",
+        "Fans"
+      ],
+      "sourcePathHints": [
+        "Fan",
+        "fan",
+        "Fans"
+      ],
+      "defaultUiTemplates": {
+        "infrared": "ir-fan-default"
+      },
+      "testCommands": [
+        "Power",
+        "FanSpeed",
+        "Swing",
+        "Timer"
+      ],
+      "displayNames": {
+        "en": "Fan",
+        "hu": "Ventilátor",
+        "de": "Ventilator",
+        "fr": "Ventilateur",
+        "ru": "Вентилятор"
+      }
+    },
+    {
+      "id": "fireplaces",
+      "displayName": "Fireplace",
+      "displayNames": {
+        "en": "Fireplace",
+        "hu": "Kandalló",
+        "de": "Kamin",
+        "fr": "Cheminée",
+        "ru": "Камин"
+      },
+      "icon": "🔥",
+      "connections": [
+        "infrared"
+      ],
+      "databaseTypeNames": [
+        "Fireplaces"
+      ],
+      "sourcePathHints": [
+        "Fireplaces"
+      ],
+      "defaultUiTemplates": {},
+      "testCommands": [
+        "Power"
+      ]
+    },
+    {
+      "id": "consoles",
+      "displayName": "Game Console",
+      "displayNames": {
+        "en": "Game Console",
+        "hu": "Játékkonzol",
+        "de": "Spielkonsole",
+        "fr": "Console de jeux",
+        "ru": "Игровая приставка"
+      },
+      "icon": "🎮",
+      "connections": [
+        "infrared"
+      ],
+      "databaseTypeNames": [
+        "Consoles"
+      ],
+      "sourcePathHints": [
+        "Consoles"
+      ],
+      "defaultUiTemplates": {},
+      "testCommands": [
+        "Power"
+      ]
+    },
+    {
+      "id": "general",
+      "displayName": "General",
+      "icon": "🎛️",
+      "connections": [
+        "infrared",
+        "wifi"
+      ],
+      "databaseTypeNames": [
+        "General"
+      ],
+      "sourcePathHints": [],
+      "defaultUiTemplates": {},
+      "testCommands": [
+        "Power"
+      ],
+      "displayNames": {
+        "en": "General",
+        "hu": "General",
+        "de": "General",
+        "fr": "General",
+        "ru": "General"
+      }
+    },
+    {
+      "id": "head-unit",
+      "displayName": "Head Unit",
+      "displayNames": {
+        "en": "Head Unit",
+        "hu": "Autórádió / fejegység",
+        "de": "Autoradio",
+        "fr": "Autoradio",
+        "ru": "Автомагнитола"
+      },
+      "icon": "🎛️",
+      "connections": [
+        "infrared"
+      ],
+      "databaseTypeNames": [
+        "Head_Units"
+      ],
+      "sourcePathHints": [
+        "Head_Units"
+      ],
+      "defaultUiTemplates": {},
+      "testCommands": [
+        "Power"
+      ]
+    },
+    {
+      "id": "heater",
+      "displayName": "Heater",
+      "displayNames": {
+        "en": "Heater",
+        "hu": "Fűtőberendezés",
+        "de": "Heizgerät",
+        "fr": "Chauffage",
+        "ru": "Обогреватель"
+      },
+      "icon": "♨️",
+      "connections": [
+        "infrared"
+      ],
+      "databaseTypeNames": [
+        "Heaters"
+      ],
+      "sourcePathHints": [
+        "Heaters"
+      ],
+      "defaultUiTemplates": {},
+      "testCommands": [
+        "Power"
+      ]
+    },
+    {
+      "id": "hubitat",
+      "displayName": "Hubitat",
+      "icon": "🏠",
+      "connections": [
+        "wifi"
+      ],
+      "databaseTypeNames": [],
+      "sourcePathHints": [
+        "HubitatMakerApi",
+        "Hubitat"
+      ],
+      "defaultUiTemplates": {
+        "wifi": "hubitat-default"
+      },
+      "setupHandler": "hubitat",
+      "testCommands": [
+        "Power"
+      ],
+      "displayNames": {
+        "en": "Hubitat",
+        "hu": "Hubitat",
+        "de": "Hubitat",
+        "fr": "Hubitat",
+        "ru": "Hubitat"
+      }
+    },
+    {
+      "id": "humidifier",
+      "displayName": "Humidifier",
+      "displayNames": {
+        "en": "Humidifier",
+        "hu": "Párásító",
+        "de": "Luftbefeuchter",
+        "fr": "Humidificateur",
+        "ru": "Увлажнитель воздуха"
+      },
+      "icon": "💧",
+      "connections": [
+        "infrared"
+      ],
+      "databaseTypeNames": [
+        "Humidifiers"
+      ],
+      "sourcePathHints": [
+        "Humidifiers"
+      ],
+      "defaultUiTemplates": {},
+      "testCommands": [
+        "Power"
+      ]
+    },
+    {
+      "id": "ir-transceiver",
+      "displayName": "IR Transceiver",
+      "icon": "📡",
+      "connections": [
+        "wifi"
+      ],
+      "selectable": false,
+      "databaseTypeNames": [],
+      "sourcePathHints": [
+        "HubitatIrTransceiver",
+        "Tuya Zigbee IR Remote Control",
+        "UFO-R11"
+      ],
+      "defaultUiTemplates": {},
+      "setupHandler": "hubitat-ir-transceiver",
+      "testCommands": [],
+      "displayNames": {
+        "en": "IR Transceiver",
+        "hu": "IR Transceiver",
+        "de": "IR Transceiver",
+        "fr": "IR Transceiver",
+        "ru": "IR Transceiver"
+      }
+    },
+    {
+      "id": "kvm",
+      "displayName": "KVM Switch",
+      "displayNames": {
+        "en": "KVM Switch",
+        "hu": "KVM kapcsoló",
+        "de": "KVM-Switch",
+        "fr": "Commutateur KVM",
+        "ru": "KVM-переключатель"
+      },
+      "icon": "🎛️",
+      "connections": [
+        "infrared"
+      ],
+      "databaseTypeNames": [
+        "KVM"
+      ],
+      "sourcePathHints": [
+        "KVM"
+      ],
+      "defaultUiTemplates": {},
+      "testCommands": [
+        "Power"
+      ]
+    },
+    {
+      "id": "laserdisc",
+      "displayName": "LaserDisc Player",
+      "displayNames": {
+        "en": "LaserDisc Player",
+        "hu": "LaserDisc lejátszó",
+        "de": "LaserDisc-Player",
+        "fr": "Lecteur LaserDisc",
+        "ru": "LaserDisc-проигрыватель"
+      },
+      "icon": "💿",
+      "connections": [
+        "infrared"
+      ],
+      "databaseTypeNames": [
+        "Laserdisc"
+      ],
+      "sourcePathHints": [
+        "Laserdisc"
+      ],
+      "defaultUiTemplates": {},
+      "testCommands": [
+        "Power"
+      ]
+    },
+    {
+      "id": "light",
+      "displayName": "LED Lighting",
+      "displayNames": {
+        "en": "LED Lighting",
+        "hu": "LED világítás",
+        "de": "LED-Beleuchtung",
+        "fr": "Éclairage LED",
+        "ru": "LED-освещение"
+      },
+      "icon": "💡",
+      "connections": [
+        "infrared"
+      ],
+      "databaseTypeNames": [
+        "LED_Lighting"
+      ],
+      "sourcePathHints": [
+        "LED_Lighting"
+      ],
+      "defaultUiTemplates": {},
+      "testCommands": [
+        "Power",
+        "BrightnessUp",
+        "BrightnessDown"
+      ]
+    },
+    {
+      "id": "minidisc",
+      "displayName": "MiniDisc Player",
+      "displayNames": {
+        "en": "MiniDisc Player",
+        "hu": "MiniDisc lejátszó",
+        "de": "MiniDisc-Player",
+        "fr": "Lecteur MiniDisc",
+        "ru": "MiniDisc-проигрыватель"
+      },
+      "icon": "💿",
+      "connections": [
+        "infrared"
+      ],
+      "databaseTypeNames": [
+        "MiniDisc"
+      ],
+      "sourcePathHints": [
+        "MiniDisc"
+      ],
+      "defaultUiTemplates": {},
+      "testCommands": [
+        "Power"
+      ]
+    },
+    {
+      "id": "monitors",
+      "displayName": "Monitor",
+      "displayNames": {
+        "en": "Monitor",
+        "hu": "Monitor",
+        "de": "Monitor",
+        "fr": "Moniteur",
+        "ru": "Монитор"
+      },
+      "icon": "🖥️",
+      "connections": [
+        "infrared"
+      ],
+      "databaseTypeNames": [
+        "Monitors"
+      ],
+      "sourcePathHints": [
+        "Monitors"
+      ],
+      "defaultUiTemplates": {},
+      "testCommands": [
+        "Power"
+      ]
+    },
+    {
+      "id": "multimedia",
+      "displayName": "Multimedia",
+      "displayNames": {
+        "en": "Multimedia",
+        "hu": "Multimédia",
+        "de": "Multimedia",
+        "fr": "Multimédia",
+        "ru": "Мультимедиа"
+      },
+      "icon": "🎛️",
+      "connections": [
+        "infrared"
+      ],
+      "databaseTypeNames": [
+        "Multimedia"
+      ],
+      "sourcePathHints": [
+        "Multimedia"
+      ],
+      "defaultUiTemplates": {},
+      "testCommands": [
+        "Power"
+      ]
+    },
+    {
+      "id": "miscellaneous",
+      "displayName": "Other IR Device",
+      "displayNames": {
+        "en": "Other IR Device",
+        "hu": "Egyéb infrás eszköz",
+        "de": "Sonstiges IR-Gerät",
+        "fr": "Autre appareil IR",
+        "ru": "Другое ИК-устройство"
+      },
+      "icon": "🎛️",
+      "connections": [
+        "infrared"
+      ],
+      "databaseTypeNames": [
+        "Miscellaneous"
+      ],
+      "sourcePathHints": [
+        "Miscellaneous"
+      ],
+      "defaultUiTemplates": {},
+      "testCommands": [
+        "Power"
+      ]
+    },
+    {
+      "id": "philips-hue",
+      "displayName": "Philips Hue",
+      "icon": "💡",
+      "connections": [
+        "wifi"
+      ],
+      "databaseTypeNames": [],
+      "sourcePathHints": [
+        "PhilipsHueV2",
+        "Philips Hue",
+        "Hue"
+      ],
+      "defaultUiTemplates": {
+        "wifi": "hue-default"
+      },
+      "setupHandler": "philips-hue",
+      "testCommands": [
+        "Power"
+      ],
+      "displayNames": {
+        "en": "Philips Hue",
+        "hu": "Philips Hue",
+        "de": "Philips Hue",
+        "fr": "Philips Hue",
+        "ru": "Philips Hue"
+      }
+    },
+    {
+      "id": "projector",
+      "displayName": "Projector",
+      "displayNames": {
+        "en": "Projector",
+        "hu": "Projektor",
+        "de": "Projektor",
+        "fr": "Projecteur",
+        "ru": "Проектор"
+      },
+      "icon": "📽️",
+      "connections": [
+        "infrared"
+      ],
+      "databaseTypeNames": [
+        "Projectors"
+      ],
+      "sourcePathHints": [
+        "Projectors"
+      ],
+      "defaultUiTemplates": {},
+      "testCommands": [
+        "Power",
+        "Source",
+        "Menu"
+      ]
+    },
+    {
+      "id": "set-top-box",
+      "displayName": "Set-top Box",
+      "displayNames": {
+        "en": "Set-top Box",
+        "hu": "Beltéri egység",
+        "de": "Set-Top-Box",
+        "fr": "Décodeur TV",
+        "ru": "ТВ-приставка"
+      },
+      "icon": "📦",
+      "connections": [
+        "infrared"
+      ],
+      "databaseTypeNames": [
+        "Cable_Boxes"
+      ],
+      "sourcePathHints": [
+        "Cable_Boxes"
+      ],
+      "defaultUiTemplates": {},
+      "testCommands": [
+        "Power"
+      ]
+    },
+    {
+      "id": "soundbar",
+      "displayName": "Soundbar",
+      "displayNames": {
+        "en": "Soundbar",
+        "hu": "Hangprojektor",
+        "de": "Soundbar",
+        "fr": "Barre de son",
+        "ru": "Саундбар"
+      },
+      "icon": "🔊",
+      "connections": [
+        "infrared"
+      ],
+      "databaseTypeNames": [
+        "SoundBars"
+      ],
+      "sourcePathHints": [
+        "SoundBars"
+      ],
+      "defaultUiTemplates": {},
+      "testCommands": [
+        "Power",
+        "VolumeUp",
+        "Mute",
+        "Source"
+      ]
+    },
+    {
+      "id": "speakers",
+      "displayName": "Speaker",
+      "displayNames": {
+        "en": "Speaker",
+        "hu": "Hangszóró",
+        "de": "Lautsprecher",
+        "fr": "Enceinte",
+        "ru": "Колонка"
+      },
+      "icon": "🔊",
+      "connections": [
+        "infrared"
+      ],
+      "databaseTypeNames": [
+        "Speakers"
+      ],
+      "sourcePathHints": [
+        "Speakers"
+      ],
+      "defaultUiTemplates": {},
+      "testCommands": [
+        "Power"
+      ]
+    },
+    {
+      "id": "streaming-device",
+      "displayName": "Streaming Device",
+      "displayNames": {
+        "en": "Streaming Device",
+        "hu": "Streaming eszköz",
+        "de": "Streaming-Gerät",
+        "fr": "Appareil de streaming",
+        "ru": "Стриминговое устройство"
+      },
+      "icon": "📺",
+      "connections": [
+        "infrared"
+      ],
+      "databaseTypeNames": [
+        "Streaming_Devices"
+      ],
+      "sourcePathHints": [
+        "Streaming_Devices"
+      ],
+      "defaultUiTemplates": {},
+      "testCommands": [
+        "Power"
+      ]
+    },
+    {
+      "id": "television",
+      "displayName": "Television",
+      "icon": "📺",
+      "connections": [
+        "infrared",
+        "wifi"
+      ],
+      "databaseTypeNames": [
+        "Television",
+        "TV",
+        "TVs"
+      ],
+      "sourcePathHints": [
+        "Television",
+        "/TV/",
+        "television",
+        "TVs"
+      ],
+      "defaultUiTemplates": {
+        "infrared": "ir-tv-default",
+        "wifi": "wifi-tv-default"
+      },
+      "testCommands": [
+        "Power",
+        "VolumeUp",
+        "Mute",
+        "ChannelUp",
+        "Source"
+      ],
+      "displayNames": {
+        "en": "Television",
+        "hu": "Televízió",
+        "de": "Fernseher",
+        "fr": "Téléviseur",
+        "ru": "Телевизор"
+      }
+    },
+    {
+      "id": "touchscreen-displays",
+      "displayName": "Touchscreen Displays",
+      "displayNames": {
+        "en": "Touchscreen Displays",
+        "hu": "Touchscreen Displays",
+        "de": "Touchscreen Displays",
+        "fr": "Touchscreen Displays",
+        "ru": "Touchscreen Displays"
+      },
+      "icon": "🎛️",
+      "connections": [
+        "infrared"
+      ],
+      "databaseTypeNames": [
+        "Touchscreen_Displays"
+      ],
+      "sourcePathHints": [
+        "Touchscreen_Displays"
+      ],
+      "defaultUiTemplates": {},
+      "testCommands": [
+        "Power"
+      ]
+    },
+    {
+      "id": "toys",
+      "displayName": "Toys",
+      "displayNames": {
+        "en": "Toys",
+        "hu": "Toys",
+        "de": "Toys",
+        "fr": "Toys",
+        "ru": "Toys"
+      },
+      "icon": "🎛️",
+      "connections": [
+        "infrared"
+      ],
+      "databaseTypeNames": [
+        "Toys"
+      ],
+      "sourcePathHints": [
+        "Toys"
+      ],
+      "defaultUiTemplates": {},
+      "testCommands": [
+        "Power"
+      ]
+    },
+    {
+      "id": "tv-tuner",
+      "displayName": "TV Tuner",
+      "displayNames": {
+        "en": "TV Tuner",
+        "hu": "TV tuner",
+        "de": "TV-Tuner",
+        "fr": "Tuner TV",
+        "ru": "ТВ-тюнер"
+      },
+      "icon": "📡",
+      "connections": [
+        "infrared"
+      ],
+      "databaseTypeNames": [
+        "TV_Tuner"
+      ],
+      "sourcePathHints": [
+        "TV_Tuner"
+      ],
+      "defaultUiTemplates": {},
+      "testCommands": [
+        "Power"
+      ]
+    },
+    {
+      "id": "universal-tv-remotes",
+      "displayName": "Universal Tv Remotes",
+      "displayNames": {
+        "en": "Universal Tv Remotes",
+        "hu": "Universal Tv Remotes",
+        "de": "Universal Tv Remotes",
+        "fr": "Universal Tv Remotes",
+        "ru": "Universal Tv Remotes"
+      },
+      "icon": "🎛️",
+      "connections": [
+        "infrared"
+      ],
+      "databaseTypeNames": [
+        "Universal_TV_Remotes"
+      ],
+      "sourcePathHints": [
+        "Universal_TV_Remotes"
+      ],
+      "defaultUiTemplates": {},
+      "testCommands": [
+        "Power"
+      ]
+    },
+    {
+      "id": "vacuum-cleaners",
+      "displayName": "Vacuum Cleaners",
+      "displayNames": {
+        "en": "Vacuum Cleaners",
+        "hu": "Vacuum Cleaners",
+        "de": "Vacuum Cleaners",
+        "fr": "Vacuum Cleaners",
+        "ru": "Vacuum Cleaners"
+      },
+      "icon": "🎛️",
+      "connections": [
+        "infrared"
+      ],
+      "databaseTypeNames": [
+        "Vacuum_Cleaners"
+      ],
+      "sourcePathHints": [
+        "Vacuum_Cleaners"
+      ],
+      "defaultUiTemplates": {},
+      "testCommands": [
+        "Power"
+      ]
+    },
+    {
+      "id": "vcr",
+      "displayName": "Vcr",
+      "displayNames": {
+        "en": "Vcr",
+        "hu": "Vcr",
+        "de": "Vcr",
+        "fr": "Vcr",
+        "ru": "Vcr"
+      },
+      "icon": "🎛️",
+      "connections": [
+        "infrared"
+      ],
+      "databaseTypeNames": [
+        "VCR"
+      ],
+      "sourcePathHints": [
+        "VCR"
+      ],
+      "defaultUiTemplates": {},
+      "testCommands": [
+        "Power"
+      ]
+    },
+    {
+      "id": "videoconferencing",
+      "displayName": "Videoconferencing",
+      "displayNames": {
+        "en": "Videoconferencing",
+        "hu": "Videoconferencing",
+        "de": "Videoconferencing",
+        "fr": "Videoconferencing",
+        "ru": "Videoconferencing"
+      },
+      "icon": "🎛️",
+      "connections": [
+        "infrared"
+      ],
+      "databaseTypeNames": [
+        "Videoconferencing"
+      ],
+      "sourcePathHints": [
+        "Videoconferencing"
+      ],
+      "defaultUiTemplates": {},
+      "testCommands": [
+        "Power"
+      ]
+    },
+    {
+      "id": "whiteboards",
+      "displayName": "Whiteboards",
+      "displayNames": {
+        "en": "Whiteboards",
+        "hu": "Whiteboards",
+        "de": "Whiteboards",
+        "fr": "Whiteboards",
+        "ru": "Whiteboards"
+      },
+      "icon": "🎛️",
+      "connections": [
+        "infrared"
+      ],
+      "databaseTypeNames": [
+        "Whiteboards"
+      ],
+      "sourcePathHints": [
+        "Whiteboards"
+      ],
+      "defaultUiTemplates": {},
+      "testCommands": [
+        "Power"
+      ]
+    },
+    {
+      "id": "window-cleaners",
+      "displayName": "Window Cleaners",
+      "displayNames": {
+        "en": "Window Cleaners",
+        "hu": "Window Cleaners",
+        "de": "Window Cleaners",
+        "fr": "Window Cleaners",
+        "ru": "Window Cleaners"
+      },
+      "icon": "🎛️",
+      "connections": [
+        "infrared"
+      ],
+      "databaseTypeNames": [
+        "Window_cleaners"
+      ],
+      "sourcePathHints": [
+        "Window_cleaners"
+      ],
+      "defaultUiTemplates": {},
+      "testCommands": [
+        "Power"
+      ]
     }
   ]
 }
