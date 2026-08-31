@@ -8,6 +8,7 @@ on:
     branches: [ main ]
     paths:
       - 'tools/import_flipper.py'
+      - 'tools/sync_device_types.py'
       - 'tools/fix_generated_protocols.py'
       - 'tools/improve_canonicals.py'
       - 'tools/normalize_manufacturers.py'
@@ -52,6 +53,11 @@ jobs:
           set +e
           set -o pipefail
           {
+            echo '=== sync_device_types.py ==='
+            python3 db/tools/sync_device_types.py --source flipper --output db
+            code=$?
+            if [ "$code" != "0" ]; then exit "$code"; fi
+
             echo '=== import_flipper.py ==='
             python3 db/tools/import_flipper.py --source flipper --output db
             code=$?
@@ -124,11 +130,11 @@ jobs:
         run: |
           git config user.name 'HomeController DeviceDB Bot'
           git config user.email 'device-db-bot@users.noreply.github.com'
-          git add database.json generated catalog-v2.json codesets
+          git add device-types.json database.json generated catalog-v2.json codesets
           if git diff --cached --quiet; then
             echo 'No DeviceDB or CodeSet catalog changes.'
           else
-            git commit -m 'Update generated TV/AC entries and CodeSet mappings'
+            git commit -m 'Update generated DeviceDB types and CodeSet mappings'
             git push
           fi
 
