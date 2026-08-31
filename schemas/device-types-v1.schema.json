@@ -23,7 +23,8 @@
           "sourcePathHints": { "type": "array", "items": { "type": "string" }, "default": [] },
           "defaultUiTemplates": { "type": "object", "additionalProperties": { "type": "string", "minLength": 1 } },
           "testCommands": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true, "default": [] },
-          "setupHandler": { "type": "string", "default": "" }
+          "setupHandler": { "type": "string", "default": "" },
+          "selectable": { "type": "boolean", "default": true }
         }
       }
     }
