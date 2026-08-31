@@ -534,6 +534,12 @@
       "versionCode": 1788203354,
       "publishedUtc": "2026-08-31T19:09:14Z",
       "notes": "feat: allow per-device interactive test command list"
+    },
+    {
+      "version": "1.0.112",
+      "versionCode": 1788207202,
+      "publishedUtc": "2026-08-31T20:13:22Z",
+      "notes": "feat: allow hidden device types in catalog"
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.110",
-  "versionCode": 1788203354,
-  "publishedUtc": "2026-08-31T19:09:14Z",
-  "commit": "8a48e6efc44980696b007ab46f456cc4a596bf1d",
-  "patchNotes": "feat: allow per-device interactive test command list"
+  "version": "1.0.112",
+  "versionCode": 1788207202,
+  "publishedUtc": "2026-08-31T20:13:22Z",
+  "commit": "60c737420aee312614dbe757af52b464efa10838",
+  "patchNotes": "feat: allow hidden device types in catalog"
 }
