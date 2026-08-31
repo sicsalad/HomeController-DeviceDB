@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.116",
-  "versionCode": 1788212476,
-  "publishedUtc": "2026-08-31T21:41:16Z",
-  "commit": "3280082a3911fef4c1156f6e4944bc31f064384e",
-  "patchNotes": "Make DeviceDB update workflow resilient to concurrent version pushes"
+  "version": "1.0.118",
+  "versionCode": 1788220784,
+  "publishedUtc": "2026-08-31T23:59:44Z",
+  "commit": "6d094f35bf6225bd250207e1d77b7e59b1283978",
+  "patchNotes": "Register universal simple infrared template"
 }
