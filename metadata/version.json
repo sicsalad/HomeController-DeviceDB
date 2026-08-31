@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.115",
-  "versionCode": 1788212423,
-  "publishedUtc": "2026-08-31T21:40:23Z",
-  "commit": "9d13af72e7f040e439ace28f255c32cc69a49afc",
-  "patchNotes": "Synchronize DeviceDB device types from Open IR data"
+  "version": "1.0.116",
+  "versionCode": 1788212476,
+  "publishedUtc": "2026-08-31T21:41:16Z",
+  "commit": "3280082a3911fef4c1156f6e4944bc31f064384e",
+  "patchNotes": "Make DeviceDB update workflow resilient to concurrent version pushes"
 }

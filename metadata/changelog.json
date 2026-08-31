@@ -558,6 +558,12 @@
       "versionCode": 1788212423,
       "publishedUtc": "2026-08-31T21:40:23Z",
       "notes": "Synchronize DeviceDB device types from Open IR data"
+    },
+    {
+      "version": "1.0.116",
+      "versionCode": 1788212476,
+      "publishedUtc": "2026-08-31T21:41:16Z",
+      "notes": "Make DeviceDB update workflow resilient to concurrent version pushes"
     }
   ]
 }
