@@ -1,23 +1,23 @@
 {
-  "schemaVersion": 1,
-  "icons": {
-    "television": "📺",
-    "air-conditioner": "❄️",
-    "fan": "🌀",
-    "set-top-box": "📡",
-    "av-receiver": "🎚️",
-    "audio": "🔊",
-    "soundbar": "🔉",
-    "projector": "📽️",
-    "dvd-bluray": "💿",
-    "air-purifier": "🍃",
-    "dehumidifier": "💧",
-    "humidifier": "🌫️",
-    "heater": "♨️",
-    "robot-vacuum": "🤖",
-    "light": "💡",
-    "hubitat": "🏠",
-    "philips-hue": "💡",
-    "general": "🎛️"
+  "schemaVersion": 2,
+  "tiles": {
+    "television": { "glyph": "📺", "backgroundColor": "#173B63", "foregroundColor": "#FFFFFF", "accentColor": "#8ED6FF" },
+    "air-conditioner": { "glyph": "❄️", "backgroundColor": "#0F607C", "foregroundColor": "#FFFFFF", "accentColor": "#B7F0FF" },
+    "fan": { "glyph": "🌀", "backgroundColor": "#35658A", "foregroundColor": "#FFFFFF", "accentColor": "#E7F2F8" },
+    "set-top-box": { "glyph": "📡", "backgroundColor": "#3B4168", "foregroundColor": "#FFFFFF", "accentColor": "#F6B17A" },
+    "av-receiver": { "glyph": "🎚️", "backgroundColor": "#383A50", "foregroundColor": "#FFFFFF", "accentColor": "#F2E9E4" },
+    "audio": { "glyph": "🔊", "backgroundColor": "#273A52", "foregroundColor": "#FFFFFF", "accentColor": "#93C5FD" },
+    "soundbar": { "glyph": "🔉", "backgroundColor": "#31385F", "foregroundColor": "#FFFFFF", "accentColor": "#EEBBC3" },
+    "projector": { "glyph": "📽️", "backgroundColor": "#1D6462", "foregroundColor": "#FFFFFF", "accentColor": "#DEF2F1" },
+    "dvd-bluray": { "glyph": "💿", "backgroundColor": "#584396", "foregroundColor": "#FFFFFF", "accentColor": "#FCE38A" },
+    "air-purifier": { "glyph": "🍃", "backgroundColor": "#2E6A4B", "foregroundColor": "#FFFFFF", "accentColor": "#B7E4C7" },
+    "dehumidifier": { "glyph": "💧", "backgroundColor": "#286486", "foregroundColor": "#FFFFFF", "accentColor": "#D9F0FF" },
+    "humidifier": { "glyph": "🌫️", "backgroundColor": "#506D86", "foregroundColor": "#FFFFFF", "accentColor": "#CDE7F0" },
+    "heater": { "glyph": "♨️", "backgroundColor": "#864040", "foregroundColor": "#FFFFFF", "accentColor": "#FFD6A5" },
+    "robot-vacuum": { "glyph": "🤖", "backgroundColor": "#455A64", "foregroundColor": "#FFFFFF", "accentColor": "#CFD8DC" },
+    "light": { "glyph": "💡", "backgroundColor": "#70533F", "foregroundColor": "#FFFFFF", "accentColor": "#FFE08A" },
+    "hubitat": { "glyph": "🏠", "backgroundColor": "#356C8A", "foregroundColor": "#FFFFFF", "accentColor": "#A8DADC" },
+    "philips-hue": { "glyph": "💡", "backgroundColor": "#625180", "foregroundColor": "#FFFFFF", "accentColor": "#F9D65C" },
+    "general": { "glyph": "🎛️", "backgroundColor": "#495057", "foregroundColor": "#FFFFFF", "accentColor": "#CED4DA" }
   }
 }
