@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.105",
-  "versionCode": 1788002228,
-  "publishedUtc": "2026-08-29T11:17:08Z",
-  "commit": "e49e72fc4b5609dbb5358471119e799928220582",
-  "patchNotes": "Register SilverCrest fan codeset in IR catalog"
+  "version": "1.0.106",
+  "versionCode": 1788200589,
+  "publishedUtc": "2026-08-31T18:23:09Z",
+  "commit": "737aba1ceff096896196473d5d7ebdfc6a4fbc2c",
+  "patchNotes": "feat: add device type vector icon pack"
 }
