@@ -22,6 +22,7 @@
           "databaseTypeNames": { "type": "array", "items": { "type": "string" }, "default": [] },
           "sourcePathHints": { "type": "array", "items": { "type": "string" }, "default": [] },
           "defaultUiTemplates": { "type": "object", "additionalProperties": { "type": "string", "minLength": 1 } },
+          "testCommands": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true, "default": [] },
           "setupHandler": { "type": "string", "default": "" }
         }
       }
