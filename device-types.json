@@ -27,6 +27,13 @@
       "testCommands": ["Power", "FanSpeed", "Swing", "Timer"]
     },
     {
+      "id": "ir-transceiver", "displayName": "IR Transceiver", "icon": "📡",
+      "connections": ["wifi"], "selectable": false,
+      "databaseTypeNames": [], "sourcePathHints": ["HubitatIrTransceiver", "Tuya Zigbee IR Remote Control", "UFO-R11"],
+      "defaultUiTemplates": {}, "setupHandler": "hubitat-ir-transceiver",
+      "testCommands": []
+    },
+    {
       "id": "hubitat", "displayName": "Hubitat", "icon": "🏠", "connections": ["wifi"],
       "databaseTypeNames": [], "sourcePathHints": ["HubitatMakerApi", "Hubitat"],
       "defaultUiTemplates": { "wifi": "hubitat-default" }, "setupHandler": "hubitat",
