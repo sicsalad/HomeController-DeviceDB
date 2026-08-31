@@ -60,6 +60,12 @@
       "versionCode": 1788209228,
       "publishedUtc": "2026-08-31T20:51:02Z",
       "notes": "fix: resolve DeviceType ambiguity in Hubitat IR pinning"
+    },
+    {
+      "version": "1.0.616",
+      "versionCode": 1788212658,
+      "publishedUtc": "2026-08-31T21:48:23Z",
+      "notes": "Use DeviceDB as the only infrared device type source"
     }
   ]
 }
