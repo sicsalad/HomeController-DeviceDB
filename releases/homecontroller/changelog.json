@@ -48,6 +48,12 @@
       "versionCode": 1788201444,
       "publishedUtc": "2026-08-31T18:41:19Z",
       "notes": "feat: render device types as full visual square tiles"
+    },
+    {
+      "version": "1.0.599",
+      "versionCode": 1788203399,
+      "publishedUtc": "2026-08-31T19:13:54Z",
+      "notes": "fix: finalize shared interactive test layout"
     }
   ]
 }
