@@ -522,6 +522,12 @@
       "versionCode": 1788201287,
       "publishedUtc": "2026-08-31T18:34:47Z",
       "notes": "feat: add full visual device type tile styles"
+    },
+    {
+      "version": "1.0.109",
+      "versionCode": 1788203135,
+      "publishedUtc": "2026-08-31T19:05:35Z",
+      "notes": "feat: define interactive test commands by device type"
     }
   ]
 }
