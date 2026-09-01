@@ -108,6 +108,12 @@
       "versionCode": 1788273746,
       "publishedUtc": "2026-09-01T14:46:31Z",
       "notes": "Finalize UI Design System V2 documentation"
+    },
+    {
+      "version": "1.0.691",
+      "versionCode": 1788276745,
+      "publishedUtc": "2026-09-01T15:36:35Z",
+      "notes": "Fix MAUI drag data property type"
     }
   ]
 }
