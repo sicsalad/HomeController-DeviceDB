@@ -582,6 +582,12 @@
       "versionCode": 1788220834,
       "publishedUtc": "2026-09-01T00:00:34Z",
       "notes": "Allow simple IR template renderer"
+    },
+    {
+      "version": "1.0.121",
+      "versionCode": 1788220962,
+      "publishedUtc": "2026-09-01T00:02:42Z",
+      "notes": "Validate universal simple IR template as general type"
     }
   ]
 }
