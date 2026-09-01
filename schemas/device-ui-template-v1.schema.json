@@ -12,7 +12,7 @@
     "name": { "type": "string", "minLength": 1 },
     "deviceTypeId": { "type": "string", "minLength": 1 },
     "connections": { "type": "array", "items": { "enum": ["infrared", "wifi", "bluetooth"] }, "uniqueItems": true },
-    "renderer": { "enum": ["declarative", "builtin-ir-tv", "builtin-ir-ac", "builtin-wifi-ac", "builtin-hubitat", "builtin-hue", "builtin-dashboard"] },
+    "renderer": { "enum": ["declarative", "builtin-ir-tv", "builtin-ir-ac", "builtin-ir-simple", "builtin-wifi-ac", "builtin-hubitat", "builtin-hue", "builtin-dashboard"] },
     "columns": { "type": "integer", "minimum": 1 },
     "useFullWidth": { "type": "boolean", "default": true },
     "backgroundColor": { "$ref": "#/$defs/colorOrNull" }, "foregroundColor": { "$ref": "#/$defs/colorOrNull" }, "mutedTextColor": { "$ref": "#/$defs/colorOrNull" },
