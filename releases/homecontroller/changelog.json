@@ -120,6 +120,12 @@
       "versionCode": 1788278119,
       "publishedUtc": "2026-09-01T15:59:35Z",
       "notes": "Prevent Home background tap and drag conflicts"
+    },
+    {
+      "version": "1.0.699",
+      "versionCode": 1788279652,
+      "publishedUtc": "2026-09-01T16:25:17Z",
+      "notes": "Fix inline UI selection and drag drop gestures"
     }
   ]
 }
