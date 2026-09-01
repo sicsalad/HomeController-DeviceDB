@@ -186,6 +186,12 @@
       "versionCode": 1788304509,
       "publishedUtc": "2026-09-01T23:19:26Z",
       "notes": "Use spans for Home device appearance"
+    },
+    {
+      "version": "1.0.728",
+      "versionCode": 1788305357,
+      "publishedUtc": "2026-09-01T23:32:57Z",
+      "notes": "Render Home cards with declarative spans"
     }
   ]
 }
