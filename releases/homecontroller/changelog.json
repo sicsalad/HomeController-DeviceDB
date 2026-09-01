@@ -132,6 +132,12 @@
       "versionCode": 1788289915,
       "publishedUtc": "2026-09-01T19:14:47Z",
       "notes": "Use theme color picker in UI editor"
+    },
+    {
+      "version": "1.0.704",
+      "versionCode": 1788290566,
+      "publishedUtc": "2026-09-01T19:26:53Z",
+      "notes": "Use DeviceDB image catalog in UI editor"
     }
   ]
 }
