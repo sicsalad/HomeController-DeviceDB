@@ -594,6 +594,12 @@
       "versionCode": 1788220975,
       "publishedUtc": "2026-09-01T00:02:55Z",
       "notes": "Validate Hue and simple IR renderers"
+    },
+    {
+      "version": "1.0.128",
+      "versionCode": 1788290398,
+      "publishedUtc": "2026-09-01T19:19:58Z",
+      "notes": "Add television image 02"
     }
   ]
 }

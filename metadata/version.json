@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.122",
-  "versionCode": 1788220975,
-  "publishedUtc": "2026-09-01T00:02:55Z",
-  "commit": "03a351d22889305dfed86305554ba5090332c200",
-  "patchNotes": "Validate Hue and simple IR renderers"
+  "version": "1.0.128",
+  "versionCode": 1788290398,
+  "publishedUtc": "2026-09-01T19:19:58Z",
+  "commit": "517dd0bab6a5a926b7d3bf2ae125836a86c26e60",
+  "patchNotes": "Add television image 02"
 }
