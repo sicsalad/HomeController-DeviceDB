@@ -102,6 +102,12 @@
       "versionCode": 1788271816,
       "publishedUtc": "2026-09-01T14:13:46Z",
       "notes": "Document unified UI design system v2"
+    },
+    {
+      "version": "1.0.681",
+      "versionCode": 1788273746,
+      "publishedUtc": "2026-09-01T14:46:31Z",
+      "notes": "Finalize UI Design System V2 documentation"
     }
   ]
 }
