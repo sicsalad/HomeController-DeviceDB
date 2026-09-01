@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.119",
-  "versionCode": 1788220815,
-  "publishedUtc": "2026-09-01T00:00:15Z",
-  "commit": "b4184014ce21faeb95e0a514dc9da42b07dd9bbf",
-  "patchNotes": "Fix simple IR template schema"
+  "version": "1.0.120",
+  "versionCode": 1788220834,
+  "publishedUtc": "2026-09-01T00:00:34Z",
+  "commit": "6b02d394d03c15ecdb66e8d76b99288579a3fa03",
+  "patchNotes": "Allow simple IR template renderer"
 }

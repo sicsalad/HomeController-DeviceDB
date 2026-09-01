@@ -576,6 +576,12 @@
       "versionCode": 1788220815,
       "publishedUtc": "2026-09-01T00:00:15Z",
       "notes": "Fix simple IR template schema"
+    },
+    {
+      "version": "1.0.120",
+      "versionCode": 1788220834,
+      "publishedUtc": "2026-09-01T00:00:34Z",
+      "notes": "Allow simple IR template renderer"
     }
   ]
 }
