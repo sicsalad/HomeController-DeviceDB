@@ -84,6 +84,12 @@
       "versionCode": 1788220955,
       "publishedUtc": "2026-09-01T00:06:01Z",
       "notes": "Fix Tuya decoder command mapper reference"
+    },
+    {
+      "version": "1.0.642",
+      "versionCode": 1788222767,
+      "publishedUtc": "2026-09-01T00:36:49Z",
+      "notes": "Make large IR feedback submissions robust"
     }
   ]
 }
