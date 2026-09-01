@@ -78,6 +78,12 @@
       "versionCode": 1788218624,
       "publishedUtc": "2026-08-31T23:28:00Z",
       "notes": "Avoid rebuilding Hubitat dashboard on back navigation"
+    },
+    {
+      "version": "1.0.638",
+      "versionCode": 1788220955,
+      "publishedUtc": "2026-09-01T00:06:01Z",
+      "notes": "Fix Tuya decoder command mapper reference"
     }
   ]
 }
