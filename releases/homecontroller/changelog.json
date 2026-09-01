@@ -162,6 +162,12 @@
       "versionCode": 1788300266,
       "publishedUtc": "2026-09-01T22:08:38Z",
       "notes": "Stabilize multi-select drag edit mode"
+    },
+    {
+      "version": "1.0.720",
+      "versionCode": 1788301326,
+      "publishedUtc": "2026-09-01T22:26:14Z",
+      "notes": "Fix Home multi-select and drag gesture crash"
     }
   ]
 }
