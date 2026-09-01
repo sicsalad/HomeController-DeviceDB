@@ -144,6 +144,12 @@
       "versionCode": 1788296147,
       "publishedUtc": "2026-09-01T21:00:05Z",
       "notes": "Compact device UI edit mode and keep edit icon state"
+    },
+    {
+      "version": "1.0.715",
+      "versionCode": 1788298326,
+      "publishedUtc": "2026-09-01T21:36:07Z",
+      "notes": "Add batch property editing and spacing limits"
     }
   ]
 }
