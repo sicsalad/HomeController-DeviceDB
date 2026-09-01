@@ -96,6 +96,12 @@
       "versionCode": 1788270237,
       "publishedUtc": "2026-09-01T13:48:11Z",
       "notes": "Merge feature/device-db-v1 into main\nMerge current feature/device-db-v1 changes into main while keeping the feature branch for continued development."
+    },
+    {
+      "version": "1.0.655",
+      "versionCode": 1788271816,
+      "publishedUtc": "2026-09-01T14:13:46Z",
+      "notes": "Document unified UI design system v2"
     }
   ]
 }
