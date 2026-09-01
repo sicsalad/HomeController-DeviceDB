@@ -1,0 +1,16 @@
+{
+  "$schema": "../schemas/device-images-v1.schema.json",
+  "schemaVersion": 1,
+  "basePath": "images/",
+  "namingConvention": "device-type-<device-type-id>-<nn>.svg",
+  "images": [
+    { "id": "device-type-air-conditioner-01", "path": "device-type-air-conditioner-01.svg", "deviceTypes": ["air-conditioner"], "category": "device", "tags": ["climate", "cooling", "wall-unit"] },
+    { "id": "device-type-air-conditioner-02", "path": "device-type-air-conditioner-02.svg", "deviceTypes": ["air-conditioner"], "category": "background", "tags": ["climate", "cooling", "minimal"] },
+    { "id": "device-type-television-01", "path": "device-type-television-01.svg", "deviceTypes": ["television"], "category": "device", "tags": ["tv", "screen", "media"] },
+    { "id": "device-type-television-02", "path": "device-type-television-02.svg", "deviceTypes": ["television"], "category": "background", "tags": ["tv", "screen", "minimal"] },
+    { "id": "device-type-fan-01", "path": "device-type-fan-01.svg", "deviceTypes": ["fan"], "category": "device", "tags": ["fan", "airflow", "cooling"] },
+    { "id": "device-type-air-purifier-01", "path": "device-type-air-purifier-01.svg", "deviceTypes": ["air-purifier"], "category": "device", "tags": ["air", "filter", "purifier"] },
+    { "id": "device-type-av-receiver-01", "path": "device-type-av-receiver-01.svg", "deviceTypes": ["av-receiver"], "category": "device", "tags": ["audio", "receiver", "media"] },
+    { "id": "device-type-general-01", "path": "device-type-general-01.svg", "deviceTypes": ["*"], "category": "device", "tags": ["generic", "remote", "controller"] }
+  ]
+}
