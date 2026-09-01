@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "ir-simple",
   "name": "Simple IR remote",
-  "deviceTypeId": "*",
+  "deviceTypeId": "general",
   "connections": ["infrared"],
   "renderer": "builtin-ir-simple",
   "columns": 1,
