@@ -156,6 +156,12 @@
       "versionCode": 1788299185,
       "publishedUtc": "2026-09-01T21:50:23Z",
       "notes": "Expose child-items blocks in property editor"
+    },
+    {
+      "version": "1.0.719",
+      "versionCode": 1788300266,
+      "publishedUtc": "2026-09-01T22:08:38Z",
+      "notes": "Stabilize multi-select drag edit mode"
     }
   ]
 }
