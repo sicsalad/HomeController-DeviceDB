@@ -1,12 +1,11 @@
 {
-  "$schema": "../schemas/ui-template-v1.schema.json",
+  "$schema": "../schemas/device-ui-template-v1.schema.json",
   "schemaVersion": 1,
   "id": "ir-simple",
   "name": "Simple IR remote",
   "deviceTypeId": "*",
   "connections": ["infrared"],
   "renderer": "builtin-ir-simple",
-  "access": "free",
   "columns": 1,
   "useFullWidth": true,
   "backgroundColor": "$PageBackground",
