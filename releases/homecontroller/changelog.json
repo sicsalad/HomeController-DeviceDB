@@ -126,6 +126,12 @@
       "versionCode": 1788279652,
       "publishedUtc": "2026-09-01T16:25:17Z",
       "notes": "Fix inline UI selection and drag drop gestures"
+    },
+    {
+      "version": "1.0.702",
+      "versionCode": 1788289915,
+      "publishedUtc": "2026-09-01T19:14:47Z",
+      "notes": "Use theme color picker in UI editor"
     }
   ]
 }
