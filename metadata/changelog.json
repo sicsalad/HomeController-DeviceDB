@@ -588,6 +588,12 @@
       "versionCode": 1788220962,
       "publishedUtc": "2026-09-01T00:02:42Z",
       "notes": "Validate universal simple IR template as general type"
+    },
+    {
+      "version": "1.0.122",
+      "versionCode": 1788220975,
+      "publishedUtc": "2026-09-01T00:02:55Z",
+      "notes": "Validate Hue and simple IR renderers"
     }
   ]
 }
