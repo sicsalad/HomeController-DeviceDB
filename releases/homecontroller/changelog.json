@@ -168,6 +168,12 @@
       "versionCode": 1788301326,
       "publishedUtc": "2026-09-01T22:26:14Z",
       "notes": "Fix Home multi-select and drag gesture crash"
+    },
+    {
+      "version": "1.0.721",
+      "versionCode": 1788302568,
+      "publishedUtc": "2026-09-01T22:46:45Z",
+      "notes": "Add two-dimensional block span layout"
     }
   ]
 }
