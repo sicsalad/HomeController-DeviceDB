@@ -25,7 +25,7 @@ idx=load(ROOT/'ui-templates'/'index.json')
 if not idx:errors.append('ui-templates/index.json required');idx={}
 if idx.get('schemaVersion')!=1:errors.append('ui-templates/index.json: schemaVersion must be 1')
 seen=set();templates={}
-allowed_renderers={'declarative','builtin-ir-ac','builtin-ir-tv','builtin-hubitat','builtin-wifi-ac','builtin-dashboard'}
+allowed_renderers={'declarative','builtin-ir-ac','builtin-ir-tv','builtin-ir-simple','builtin-hubitat','builtin-hue','builtin-wifi-ac','builtin-dashboard'}
 allowed_controls={'button','tile','toggle','stepper','slider','picker'}
 for entry in idx.get('templates',[]):
     tid=entry.get('id');path=ROOT/'ui-templates'/entry.get('path','')
