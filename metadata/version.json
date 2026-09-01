@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.118",
-  "versionCode": 1788220784,
-  "publishedUtc": "2026-08-31T23:59:44Z",
-  "commit": "6d094f35bf6225bd250207e1d77b7e59b1283978",
-  "patchNotes": "Register universal simple infrared template"
+  "version": "1.0.119",
+  "versionCode": 1788220815,
+  "publishedUtc": "2026-09-01T00:00:15Z",
+  "commit": "b4184014ce21faeb95e0a514dc9da42b07dd9bbf",
+  "patchNotes": "Fix simple IR template schema"
 }

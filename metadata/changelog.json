@@ -570,6 +570,12 @@
       "versionCode": 1788220784,
       "publishedUtc": "2026-08-31T23:59:44Z",
       "notes": "Register universal simple infrared template"
+    },
+    {
+      "version": "1.0.119",
+      "versionCode": 1788220815,
+      "publishedUtc": "2026-09-01T00:00:15Z",
+      "notes": "Fix simple IR template schema"
     }
   ]
 }
