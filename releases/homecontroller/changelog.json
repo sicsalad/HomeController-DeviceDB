@@ -114,6 +114,12 @@
       "versionCode": 1788276745,
       "publishedUtc": "2026-09-01T15:36:35Z",
       "notes": "Fix MAUI drag data property type"
+    },
+    {
+      "version": "1.0.695",
+      "versionCode": 1788278119,
+      "publishedUtc": "2026-09-01T15:59:35Z",
+      "notes": "Prevent Home background tap and drag conflicts"
     }
   ]
 }
