@@ -1,0 +1,63 @@
+{
+  "$schema": "../schemas/device-ui-template-v2.schema.json",
+  "schemaVersion": 2,
+  "id": "dashboard-dynamic",
+  "name": "Dashboard Dynamic",
+  "deviceTypeId": "dashboard",
+  "connections": ["wifi"],
+  "renderer": "declarative",
+  "columns": 1,
+  "useFullWidth": true,
+  "horizontalSpacing": 10,
+  "verticalSpacing": 10,
+  "backgroundColor": "$PageBackground",
+  "foregroundColor": "$TextPrimary",
+  "mutedTextColor": "$TextMuted",
+  "surfaceColor": "$Surface",
+  "accentColor": "$Accent",
+  "buttonColor": "$ButtonBackground",
+  "buttonTextColor": "$ButtonText",
+  "borderColor": "$CardBorder",
+  "buttonCornerRadius": 14,
+  "sectionCornerRadius": 16,
+  "buttonHeight": 48,
+  "buttonFontSize": 14,
+  "iconFontSize": 22,
+  "groups": [
+    {
+      "id": "dashboard-search-filter",
+      "name": "Search dashboards",
+      "type": "filter",
+      "order": 0,
+      "filterScope": "dashboards",
+      "filterProperty": "name",
+      "filterMode": "contains",
+      "filterValues": [],
+      "filterAutoValues": false,
+      "backgroundMode": "inherit",
+      "cornerRadius": 14,
+      "borderWidth": 0,
+      "controls": [
+        {
+          "id": "dashboard-search",
+          "type": "edittext",
+          "text": "Search by name",
+          "filterId": "dashboard-search-filter",
+          "order": 0
+        }
+      ]
+    },
+    {
+      "id": "dashboards",
+      "name": "Dashboards",
+      "type": "child-items",
+      "order": 1,
+      "childItemsSource": "",
+      "childItemsColumns": 2,
+      "backgroundMode": "inherit",
+      "cornerRadius": 16,
+      "borderWidth": 0,
+      "controls": []
+    }
+  ]
+}
