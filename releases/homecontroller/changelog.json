@@ -228,6 +228,12 @@
       "versionCode": 1788382135,
       "publishedUtc": "2026-09-02T20:53:17Z",
       "notes": "Refresh declarative child presentation when returning to device"
+    },
+    {
+      "version": "1.0.772",
+      "versionCode": 1788384489,
+      "publishedUtc": "2026-09-02T21:32:28Z",
+      "notes": "Restore template columns after edit preview"
     }
   ]
 }
