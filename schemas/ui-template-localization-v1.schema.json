@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/sicsalad/HomeController-DeviceDB/schemas/ui-template-localization-v1.schema.json",
+  "title": "HomeController UI template localization overlay v1",
+  "description": "A language file contains only translation-code -> translated-text pairs. Layout and behavior belong exclusively to the language-neutral base template.",
+  "type": "object",
+  "propertyNames": {
+    "type": "string",
+    "minLength": 1
+  },
+  "additionalProperties": {
+    "type": "string"
+  }
+}

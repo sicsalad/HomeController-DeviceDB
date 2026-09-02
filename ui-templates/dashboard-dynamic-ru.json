@@ -1,0 +1,6 @@
+{
+  "name": "Dashboard динамический",
+  "groups.0.name": "Поиск",
+  "groups.0.controls.0.text": "Поиск панелей",
+  "groups.1.name": "Панели"
+}

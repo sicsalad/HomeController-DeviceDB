@@ -1,94 +1,15 @@
 {
-  "$schema": "../schemas/device-ui-template-v1.schema.json",
-  "schemaVersion": 1,
-  "id": "wifi-tv-default",
   "name": "WLAN-TV Standard",
-  "deviceTypeId": "television",
-  "connections": [
-    "wifi"
-  ],
-  "renderer": "declarative",
-  "columns": 3,
-  "useFullWidth": true,
-  "sections": [
-    {
-      "title": "Ein/Aus / Lautstärke",
-      "controls": [
-        {
-          "type": "button",
-          "label": "EIN/AUS",
-          "command": "power",
-          "icon": "⏻"
-        },
-        {
-          "type": "button",
-          "label": "VOL +",
-          "command": "volumeUp"
-        },
-        {
-          "type": "button",
-          "label": "VOL −",
-          "command": "volumeDown"
-        },
-        {
-          "type": "button",
-          "label": "STUMM",
-          "command": "mute"
-        }
-      ]
-    },
-    {
-      "title": "Navigation",
-      "controls": [
-        {
-          "type": "button",
-          "label": "Hoch",
-          "command": "up",
-          "icon": "▲",
-          "iconOnly": true
-        },
-        {
-          "type": "button",
-          "label": "Links",
-          "command": "left",
-          "icon": "◀",
-          "iconOnly": true
-        },
-        {
-          "type": "button",
-          "label": "OK",
-          "command": "ok"
-        },
-        {
-          "type": "button",
-          "label": "Rechts",
-          "command": "right",
-          "icon": "▶",
-          "iconOnly": true
-        },
-        {
-          "type": "button",
-          "label": "Runter",
-          "command": "down",
-          "icon": "▼",
-          "iconOnly": true
-        },
-        {
-          "type": "button",
-          "label": "Zurück",
-          "command": "back"
-        },
-        {
-          "type": "button",
-          "label": "Start",
-          "command": "home"
-        },
-        {
-          "type": "button",
-          "label": "QUELLE",
-          "command": "source"
-        }
-      ]
-    }
-  ]
+  "sections.0.title": "Ein/Aus / Lautstärke",
+  "sections.0.controls.0.label": "EIN/AUS",
+  "sections.0.controls.1.label": "VOL +",
+  "sections.0.controls.2.label": "VOL −",
+  "sections.0.controls.3.label": "STUMM",
+  "sections.1.controls.0.label": "Hoch",
+  "sections.1.controls.1.label": "Links",
+  "sections.1.controls.3.label": "Rechts",
+  "sections.1.controls.4.label": "Runter",
+  "sections.1.controls.5.label": "Zurück",
+  "sections.1.controls.6.label": "Start",
+  "sections.1.controls.7.label": "QUELLE"
 }

@@ -1,210 +1,22 @@
 {
-  "$schema": "../schemas/device-ui-template-v1.schema.json",
-  "schemaVersion": 1,
-  "id": "ir-ac-modern",
   "name": "Modern klíma",
-  "deviceTypeId": "air-conditioner",
-  "connections": [
-    "infrared"
-  ],
-  "renderer": "declarative",
-  "columns": 4,
-  "useFullWidth": true,
-  "buttonCornerRadius": 10,
-  "sectionCornerRadius": 16,
-  "buttonHeight": 58,
-  "buttonFontSize": 11,
-  "iconFontSize": 24,
-  "sections": [
-    {
-      "subtitle": "Klímavezérlés",
-      "controls": [
-        {
-          "type": "tile",
-          "label": "BE/KI",
-          "command": "Power",
-          "icon": "⏻",
-          "columnSpan": 2
-        },
-        {
-          "type": "tile",
-          "label": "ÜZEMMÓD",
-          "command": "Mode",
-          "icon": "◫"
-        },
-        {
-          "type": "tile",
-          "label": "FAN",
-          "command": "FanSpeed",
-          "icon": "✣"
-        }
-      ]
-    },
-    {
-      "title": "HŐMÉRSÉKLET",
-      "controls": [
-        {
-          "type": "tile",
-          "label": "TEMP −",
-          "command": "TemperatureDown",
-          "icon": "−",
-          "columnSpan": 2,
-          "height": 70,
-          "iconSize": 31
-        },
-        {
-          "type": "tile",
-          "label": "TEMP +",
-          "command": "TemperatureUp",
-          "icon": "＋",
-          "columnSpan": 2,
-          "height": 70,
-          "iconSize": 31
-        }
-      ]
-    },
-    {
-      "title": "ÜZEMMÓD",
-      "controls": [
-        {
-          "type": "tile",
-          "label": "AUTO",
-          "command": "ModeAuto",
-          "icon": "A"
-        },
-        {
-          "type": "tile",
-          "label": "HŰTÉS",
-          "command": "ModeCool",
-          "icon": "❄"
-        },
-        {
-          "type": "tile",
-          "label": "FŰTÉS",
-          "command": "ModeHeat",
-          "icon": "☀"
-        },
-        {
-          "type": "tile",
-          "label": "SZÁRÍTÁS",
-          "command": "ModeDry",
-          "icon": "◌"
-        },
-        {
-          "type": "tile",
-          "label": "FAN",
-          "command": "ModeFan",
-          "icon": "✣",
-          "columnSpan": 2
-        },
-        {
-          "type": "tile",
-          "label": "FAN AUTO",
-          "command": "FanSpeedAuto",
-          "icon": "◎",
-          "columnSpan": 2
-        }
-      ]
-    },
-    {
-      "title": "LÉGÁRAM",
-      "controls": [
-        {
-          "type": "tile",
-          "label": "FAN −",
-          "command": "FanSpeedDown",
-          "icon": "−"
-        },
-        {
-          "type": "tile",
-          "label": "FAN +",
-          "command": "FanSpeedUp",
-          "icon": "＋"
-        },
-        {
-          "type": "tile",
-          "label": "SWING",
-          "command": "Swing",
-          "icon": "↕",
-          "columnSpan": 2
-        }
-      ]
-    },
-    {
-      "title": "KOMFORT ÉS ENERGIA",
-      "controls": [
-        {
-          "type": "tile",
-          "label": "TURBO",
-          "command": "Turbo",
-          "icon": "⚡"
-        },
-        {
-          "type": "tile",
-          "label": "CSENDES",
-          "command": "Quiet",
-          "icon": "◔"
-        },
-        {
-          "type": "tile",
-          "label": "ECO",
-          "command": "Economy",
-          "icon": "♧"
-        },
-        {
-          "type": "tile",
-          "label": "ALVÁS",
-          "command": "Sleep",
-          "icon": "☾"
-        },
-        {
-          "type": "tile",
-          "label": "ECO",
-          "command": "PowerSave",
-          "icon": "◒",
-          "columnSpan": 2
-        },
-        {
-          "type": "tile",
-          "label": "FÉNY",
-          "command": "Light",
-          "icon": "☼",
-          "columnSpan": 2
-        }
-      ]
-    },
-    {
-      "title": "TOVÁBBIAK",
-      "controls": [
-        {
-          "type": "tile",
-          "label": "ÖNTISZTÍTÁS",
-          "command": "SelfClean",
-          "icon": "✦",
-          "columnSpan": 2
-        },
-        {
-          "type": "tile",
-          "label": "X-FAN",
-          "command": "XFanCleaning",
-          "icon": "≈",
-          "columnSpan": 2
-        },
-        {
-          "type": "tile",
-          "label": "I FEEL",
-          "command": "IFeel",
-          "icon": "⌖",
-          "columnSpan": 2
-        },
-        {
-          "type": "tile",
-          "label": "IDŐZÍTŐ",
-          "command": "Timer",
-          "icon": "◷",
-          "columnSpan": 2
-        }
-      ]
-    }
-  ]
+  "sections.0.subtitle": "Klímavezérlés",
+  "sections.0.controls.0.label": "BE/KI",
+  "sections.0.controls.1.label": "ÜZEMMÓD",
+  "sections.1.title": "HŐMÉRSÉKLET",
+  "sections.1.controls.0.label": "TEMP −",
+  "sections.1.controls.1.label": "TEMP +",
+  "sections.2.title": "ÜZEMMÓD",
+  "sections.2.controls.1.label": "HŰTÉS",
+  "sections.2.controls.2.label": "FŰTÉS",
+  "sections.2.controls.3.label": "SZÁRÍTÁS",
+  "sections.3.title": "LÉGÁRAM",
+  "sections.4.title": "KOMFORT ÉS ENERGIA",
+  "sections.4.controls.1.label": "CSENDES",
+  "sections.4.controls.3.label": "ALVÁS",
+  "sections.4.controls.4.label": "ECO",
+  "sections.4.controls.5.label": "FÉNY",
+  "sections.5.title": "TOVÁBBIAK",
+  "sections.5.controls.0.label": "ÖNTISZTÍTÁS",
+  "sections.5.controls.3.label": "IDŐZÍTŐ"
 }

@@ -1,14 +1,3 @@
 {
-  "$schema": "../schemas/device-ui-template-v1.schema.json",
-  "schemaVersion": 1,
-  "id": "ir-tv-default",
-  "name": "Alapértelmezett infrás TV",
-  "deviceTypeId": "television",
-  "connections": [
-    "infrared"
-  ],
-  "renderer": "builtin-ir-tv",
-  "columns": 3,
-  "useFullWidth": true,
-  "sections": []
+  "name": "Alapértelmezett infrás TV"
 }

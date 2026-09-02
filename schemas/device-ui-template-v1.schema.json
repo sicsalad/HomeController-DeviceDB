@@ -4,67 +4,437 @@
   "title": "HomeController Device UI template v1",
   "type": "object",
   "additionalProperties": false,
-  "required": ["schemaVersion", "id", "name", "deviceTypeId", "connections", "renderer"],
+  "required": [
+    "schemaVersion",
+    "id",
+    "name",
+    "deviceTypeId",
+    "connections"
+  ],
   "properties": {
-    "$schema": { "type": "string" },
-    "schemaVersion": { "const": 1 },
-    "id": { "type": "string", "minLength": 1 },
-    "name": { "type": "string", "minLength": 1 },
-    "deviceTypeId": { "type": "string", "minLength": 1 },
-    "connections": { "type": "array", "items": { "enum": ["infrared", "wifi", "bluetooth"] }, "uniqueItems": true },
-    "renderer": { "enum": ["declarative", "builtin-ir-tv", "builtin-ir-ac", "builtin-ir-simple", "builtin-wifi-ac", "builtin-hubitat", "builtin-hue", "builtin-dashboard"] },
-    "columns": { "type": "integer", "minimum": 1 },
-    "useFullWidth": { "type": "boolean", "default": true },
-    "backgroundColor": { "$ref": "#/$defs/colorOrNull" }, "foregroundColor": { "$ref": "#/$defs/colorOrNull" }, "mutedTextColor": { "$ref": "#/$defs/colorOrNull" },
-    "surfaceColor": { "$ref": "#/$defs/colorOrNull" }, "accentColor": { "$ref": "#/$defs/colorOrNull" }, "buttonColor": { "$ref": "#/$defs/colorOrNull" },
-    "buttonTextColor": { "$ref": "#/$defs/colorOrNull" }, "borderColor": { "$ref": "#/$defs/colorOrNull" },
-    "themeSwitcherBackgroundColor": { "$ref": "#/$defs/colorOrNull", "deprecated": true },
-    "themeSwitcherTextColor": { "$ref": "#/$defs/colorOrNull", "deprecated": true },
-    "themeSwitcherBorderColor": { "$ref": "#/$defs/colorOrNull", "deprecated": true },
-    "themeSwitcherText": { "type": "string", "deprecated": true },
-    "themeSwitcherOpacity": { "type": "number", "minimum": 0, "maximum": 1, "deprecated": true },
-    "buttonCornerRadius": { "type": "integer", "minimum": 0 }, "sectionCornerRadius": { "type": "integer", "minimum": 0 },
-    "buttonHeight": { "type": "number", "exclusiveMinimum": 0 }, "buttonFontSize": { "type": "number", "exclusiveMinimum": 0 }, "iconFontSize": { "type": "number", "exclusiveMinimum": 0 },
-    "itemDefaults": { "$ref": "#/$defs/itemStyle" },
-    "itemStyles": { "type": "object", "additionalProperties": { "$ref": "#/$defs/itemStyle" } },
-    "sections": { "type": "array", "items": { "$ref": "#/$defs/section" } }
+    "$schema": {
+      "type": "string"
+    },
+    "schemaVersion": {
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "deviceTypeId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "connections": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "infrared",
+          "wifi",
+          "bluetooth"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "renderer": {
+      "enum": [
+        "declarative",
+        "builtin-ir-tv",
+        "builtin-ir-ac",
+        "builtin-ir-simple",
+        "builtin-wifi-ac",
+        "builtin-hubitat",
+        "builtin-hue",
+        "builtin-dashboard"
+      ]
+    },
+    "columns": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "useFullWidth": {
+      "type": "boolean",
+      "default": true
+    },
+    "backgroundColor": {
+      "$ref": "#/$defs/colorOrNull"
+    },
+    "foregroundColor": {
+      "$ref": "#/$defs/colorOrNull"
+    },
+    "mutedTextColor": {
+      "$ref": "#/$defs/colorOrNull"
+    },
+    "surfaceColor": {
+      "$ref": "#/$defs/colorOrNull"
+    },
+    "accentColor": {
+      "$ref": "#/$defs/colorOrNull"
+    },
+    "buttonColor": {
+      "$ref": "#/$defs/colorOrNull"
+    },
+    "buttonTextColor": {
+      "$ref": "#/$defs/colorOrNull"
+    },
+    "borderColor": {
+      "$ref": "#/$defs/colorOrNull"
+    },
+    "themeSwitcherBackgroundColor": {
+      "$ref": "#/$defs/colorOrNull",
+      "deprecated": true
+    },
+    "themeSwitcherTextColor": {
+      "$ref": "#/$defs/colorOrNull",
+      "deprecated": true
+    },
+    "themeSwitcherBorderColor": {
+      "$ref": "#/$defs/colorOrNull",
+      "deprecated": true
+    },
+    "themeSwitcherText": {
+      "type": "string",
+      "deprecated": true
+    },
+    "themeSwitcherOpacity": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "deprecated": true
+    },
+    "buttonCornerRadius": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "sectionCornerRadius": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "buttonHeight": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "buttonFontSize": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "iconFontSize": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "itemDefaults": {
+      "$ref": "#/$defs/itemStyle"
+    },
+    "itemStyles": {
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "#/$defs/itemStyle"
+      }
+    },
+    "sections": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/section"
+      }
+    }
   },
   "$defs": {
-    "literalColor": { "type": "string", "pattern": "^#(?:[0-9A-Fa-f]{6}|[0-9A-Fa-f]{8})$" },
-    "themeColorRef": { "type": "string", "pattern": "^\\$[A-Za-z][A-Za-z0-9._-]*$", "description": "Reference to an application-theme color resource, for example $Accent or $PageBackground." },
-    "colorValue": { "anyOf": [{ "$ref": "#/$defs/literalColor" }, { "$ref": "#/$defs/themeColorRef" }] },
-    "colorOrNull": { "anyOf": [{ "$ref": "#/$defs/colorValue" }, { "type": "null" }] },
+    "literalColor": {
+      "type": "string",
+      "pattern": "^#(?:[0-9A-Fa-f]{6}|[0-9A-Fa-f]{8})$"
+    },
+    "themeColorRef": {
+      "type": "string",
+      "pattern": "^\\$[A-Za-z][A-Za-z0-9._-]*$",
+      "description": "Reference to an application-theme color resource, for example $Accent or $PageBackground."
+    },
+    "colorValue": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/literalColor"
+        },
+        {
+          "$ref": "#/$defs/themeColorRef"
+        }
+      ]
+    },
+    "colorOrNull": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/colorValue"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
     "itemStyle": {
-      "type": "object", "additionalProperties": false,
+      "type": "object",
+      "additionalProperties": false,
       "properties": {
-        "columns": { "type": ["integer", "null"], "minimum": 1 }, "columnSpan": { "type": ["integer", "null"], "minimum": 1 },
-        "displayMode": { "type": ["string", "null"], "enum": ["card", "compact", "button", "hidden", null] },
-        "shape": { "type": ["string", "null"], "enum": ["rounded", "circle", "pill", "square", null] },
-        "backgroundColor": { "$ref": "#/$defs/colorOrNull" }, "textColor": { "$ref": "#/$defs/colorOrNull" }, "mutedTextColor": { "$ref": "#/$defs/colorOrNull" },
-        "borderColor": { "$ref": "#/$defs/colorOrNull" }, "accentColor": { "$ref": "#/$defs/colorOrNull" },
-        "cornerRadius": { "type": ["integer", "null"], "minimum": 0 }, "height": { "type": ["number", "null"], "exclusiveMinimum": 0 },
-        "width": { "type": ["number", "null"], "exclusiveMinimum": 0 }, "fontSize": { "type": ["number", "null"], "exclusiveMinimum": 0 }, "iconSize": { "type": ["number", "null"], "exclusiveMinimum": 0 },
-        "showIcon": { "type": ["boolean", "null"] }, "showName": { "type": ["boolean", "null"] }, "showType": { "type": ["boolean", "null"] }, "showState": { "type": ["boolean", "null"] }
+        "columns": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "columnSpan": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "displayMode": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "card",
+            "compact",
+            "button",
+            "hidden",
+            null
+          ]
+        },
+        "shape": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "rounded",
+            "circle",
+            "pill",
+            "square",
+            null
+          ]
+        },
+        "backgroundColor": {
+          "$ref": "#/$defs/colorOrNull"
+        },
+        "textColor": {
+          "$ref": "#/$defs/colorOrNull"
+        },
+        "mutedTextColor": {
+          "$ref": "#/$defs/colorOrNull"
+        },
+        "borderColor": {
+          "$ref": "#/$defs/colorOrNull"
+        },
+        "accentColor": {
+          "$ref": "#/$defs/colorOrNull"
+        },
+        "cornerRadius": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "height": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "exclusiveMinimum": 0
+        },
+        "width": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "exclusiveMinimum": 0
+        },
+        "fontSize": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "exclusiveMinimum": 0
+        },
+        "iconSize": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "exclusiveMinimum": 0
+        },
+        "showIcon": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "showName": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "showType": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "showState": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        }
       }
     },
     "section": {
-      "type": "object", "additionalProperties": false,
+      "type": "object",
+      "additionalProperties": false,
       "properties": {
-        "title": { "type": ["string", "null"] }, "subtitle": { "type": ["string", "null"] }, "backgroundColor": { "$ref": "#/$defs/colorOrNull" },
-        "controls": { "type": "array", "items": { "$ref": "#/$defs/control" } }
+        "title": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "subtitle": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "backgroundColor": {
+          "$ref": "#/$defs/colorOrNull"
+        },
+        "controls": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/control"
+          }
+        }
       }
     },
     "control": {
-      "type": "object", "additionalProperties": false,
-      "required": ["type", "command"],
+      "type": "object",
+      "additionalProperties": false,
       "properties": {
-        "type": { "enum": ["button", "tile", "toggle", "stepper", "slider", "picker"] }, "label": { "type": "string" }, "command": { "type": "string" }, "value": {},
-        "icon": { "type": ["string", "null"] }, "shape": { "type": ["string", "null"], "enum": ["rounded", "circle", "pill", "square", null] },
-        "columnSpan": { "type": "integer", "minimum": 1 }, "minimum": { "type": ["number", "null"] }, "maximum": { "type": ["number", "null"] }, "step": { "type": ["number", "null"], "exclusiveMinimum": 0 },
-        "stateField": { "type": ["string", "null"] }, "options": { "type": "array", "items": { "type": "string" } },
-        "backgroundColor": { "$ref": "#/$defs/colorOrNull" }, "textColor": { "$ref": "#/$defs/colorOrNull" }, "borderColor": { "$ref": "#/$defs/colorOrNull" },
-        "height": { "type": ["number", "null"], "exclusiveMinimum": 0 }, "width": { "type": ["number", "null"], "exclusiveMinimum": 0 },
-        "fontSize": { "type": ["number", "null"], "exclusiveMinimum": 0 }, "iconSize": { "type": ["number", "null"], "exclusiveMinimum": 0 }, "iconOnly": { "type": "boolean" }
+        "type": {
+          "enum": [
+            "button",
+            "tile",
+            "toggle",
+            "stepper",
+            "slider",
+            "picker"
+          ]
+        },
+        "label": {
+          "type": "string"
+        },
+        "command": {
+          "type": "string"
+        },
+        "value": {},
+        "icon": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "shape": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "rounded",
+            "circle",
+            "pill",
+            "square",
+            null
+          ]
+        },
+        "columnSpan": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "minimum": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "maximum": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "step": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "exclusiveMinimum": 0
+        },
+        "stateField": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "options": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "backgroundColor": {
+          "$ref": "#/$defs/colorOrNull"
+        },
+        "textColor": {
+          "$ref": "#/$defs/colorOrNull"
+        },
+        "borderColor": {
+          "$ref": "#/$defs/colorOrNull"
+        },
+        "height": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "exclusiveMinimum": 0
+        },
+        "width": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "exclusiveMinimum": 0
+        },
+        "fontSize": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "exclusiveMinimum": 0
+        },
+        "iconSize": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "exclusiveMinimum": 0
+        },
+        "iconOnly": {
+          "type": "boolean"
+        }
       }
     }
   }

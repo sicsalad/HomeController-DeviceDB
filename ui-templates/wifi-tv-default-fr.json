@@ -1,94 +1,15 @@
 {
-  "$schema": "../schemas/device-ui-template-v1.schema.json",
-  "schemaVersion": 1,
-  "id": "wifi-tv-default",
   "name": "TV Wi-Fi par défaut",
-  "deviceTypeId": "television",
-  "connections": [
-    "wifi"
-  ],
-  "renderer": "declarative",
-  "columns": 3,
-  "useFullWidth": true,
-  "sections": [
-    {
-      "title": "Alimentation / Volume",
-      "controls": [
-        {
-          "type": "button",
-          "label": "MARCHE/ARRÊT",
-          "command": "power",
-          "icon": "⏻"
-        },
-        {
-          "type": "button",
-          "label": "VOL +",
-          "command": "volumeUp"
-        },
-        {
-          "type": "button",
-          "label": "VOL −",
-          "command": "volumeDown"
-        },
-        {
-          "type": "button",
-          "label": "MUET",
-          "command": "mute"
-        }
-      ]
-    },
-    {
-      "title": "Navigation",
-      "controls": [
-        {
-          "type": "button",
-          "label": "Haut",
-          "command": "up",
-          "icon": "▲",
-          "iconOnly": true
-        },
-        {
-          "type": "button",
-          "label": "Gauche",
-          "command": "left",
-          "icon": "◀",
-          "iconOnly": true
-        },
-        {
-          "type": "button",
-          "label": "OK",
-          "command": "ok"
-        },
-        {
-          "type": "button",
-          "label": "Droite",
-          "command": "right",
-          "icon": "▶",
-          "iconOnly": true
-        },
-        {
-          "type": "button",
-          "label": "Bas",
-          "command": "down",
-          "icon": "▼",
-          "iconOnly": true
-        },
-        {
-          "type": "button",
-          "label": "Retour",
-          "command": "back"
-        },
-        {
-          "type": "button",
-          "label": "Accueil",
-          "command": "home"
-        },
-        {
-          "type": "button",
-          "label": "SOURCE",
-          "command": "source"
-        }
-      ]
-    }
-  ]
+  "sections.0.title": "Alimentation / Volume",
+  "sections.0.controls.0.label": "MARCHE/ARRÊT",
+  "sections.0.controls.1.label": "VOL +",
+  "sections.0.controls.2.label": "VOL −",
+  "sections.0.controls.3.label": "MUET",
+  "sections.1.controls.0.label": "Haut",
+  "sections.1.controls.1.label": "Gauche",
+  "sections.1.controls.3.label": "Droite",
+  "sections.1.controls.4.label": "Bas",
+  "sections.1.controls.5.label": "Retour",
+  "sections.1.controls.6.label": "Accueil",
+  "sections.1.controls.7.label": "SOURCE"
 }

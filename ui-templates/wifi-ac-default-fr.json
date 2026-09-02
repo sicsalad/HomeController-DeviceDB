@@ -1,115 +1,18 @@
 {
-  "$schema": "../schemas/device-ui-template-v1.schema.json",
-  "schemaVersion": 1,
-  "id": "wifi-ac-default",
   "name": "Climatisation Wi-Fi par défaut",
-  "deviceTypeId": "air-conditioner",
-  "connections": [
-    "wifi"
-  ],
-  "renderer": "builtin-wifi-ac",
-  "columns": 3,
-  "useFullWidth": true,
-  "sections": [
-    {
-      "title": "Alimentation",
-      "controls": [
-        {
-          "type": "button",
-          "label": "MARCHE/ARRÊT",
-          "command": "power",
-          "value": true,
-          "icon": "⏻"
-        },
-        {
-          "type": "button",
-          "label": "MARCHE/ARRÊT",
-          "command": "power",
-          "value": false,
-          "icon": "⏻"
-        }
-      ]
-    },
-    {
-      "title": "Température",
-      "controls": [
-        {
-          "type": "stepper",
-          "label": "Cible °C",
-          "command": "targetTemperature",
-          "columnSpan": 3
-        }
-      ]
-    },
-    {
-      "title": "Mode",
-      "controls": [
-        {
-          "type": "button",
-          "label": "Auto",
-          "command": "mode",
-          "value": "auto"
-        },
-        {
-          "type": "button",
-          "label": "Froid",
-          "command": "mode",
-          "value": "cool"
-        },
-        {
-          "type": "button",
-          "label": "Chauffage",
-          "command": "mode",
-          "value": "heat"
-        },
-        {
-          "type": "button",
-          "label": "Déshumidification",
-          "command": "mode",
-          "value": "dry"
-        },
-        {
-          "type": "button",
-          "label": "Ventilateur",
-          "command": "mode",
-          "value": "fan"
-        }
-      ]
-    },
-    {
-      "title": "Fonctions",
-      "controls": [
-        {
-          "type": "toggle",
-          "label": "Silencieux",
-          "command": "quiet"
-        },
-        {
-          "type": "toggle",
-          "label": "Turbo",
-          "command": "turbo"
-        },
-        {
-          "type": "toggle",
-          "label": "Éco",
-          "command": "economy"
-        },
-        {
-          "type": "toggle",
-          "label": "Sommeil",
-          "command": "sleep"
-        },
-        {
-          "type": "toggle",
-          "label": "Affichage",
-          "command": "display"
-        },
-        {
-          "type": "toggle",
-          "label": "Santé",
-          "command": "health"
-        }
-      ]
-    }
-  ]
+  "sections.0.title": "Alimentation",
+  "sections.0.controls.0.label": "MARCHE/ARRÊT",
+  "sections.0.controls.1.label": "MARCHE/ARRÊT",
+  "sections.1.title": "Température",
+  "sections.1.controls.0.label": "Cible °C",
+  "sections.2.controls.1.label": "Froid",
+  "sections.2.controls.2.label": "Chauffage",
+  "sections.2.controls.3.label": "Déshumidification",
+  "sections.2.controls.4.label": "Ventilateur",
+  "sections.3.title": "Fonctions",
+  "sections.3.controls.0.label": "Silencieux",
+  "sections.3.controls.2.label": "Éco",
+  "sections.3.controls.3.label": "Sommeil",
+  "sections.3.controls.4.label": "Affichage",
+  "sections.3.controls.5.label": "Santé"
 }

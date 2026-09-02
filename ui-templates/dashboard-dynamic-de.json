@@ -1,0 +1,6 @@
+{
+  "name": "Dashboard Dynamisch",
+  "groups.0.name": "Suche",
+  "groups.0.controls.0.text": "Dashboards suchen",
+  "groups.1.name": "Dashboards"
+}

@@ -1,94 +1,16 @@
 {
-  "$schema": "../schemas/device-ui-template-v1.schema.json",
-  "schemaVersion": 1,
-  "id": "wifi-tv-default",
   "name": "Wi-Fi ТВ по умолчанию",
-  "deviceTypeId": "television",
-  "connections": [
-    "wifi"
-  ],
-  "renderer": "declarative",
-  "columns": 3,
-  "useFullWidth": true,
-  "sections": [
-    {
-      "title": "Питание / Громкость",
-      "controls": [
-        {
-          "type": "button",
-          "label": "ВКЛ/ВЫКЛ",
-          "command": "power",
-          "icon": "⏻"
-        },
-        {
-          "type": "button",
-          "label": "VOL +",
-          "command": "volumeUp"
-        },
-        {
-          "type": "button",
-          "label": "VOL −",
-          "command": "volumeDown"
-        },
-        {
-          "type": "button",
-          "label": "БЕЗ ЗВУКА",
-          "command": "mute"
-        }
-      ]
-    },
-    {
-      "title": "Навигация",
-      "controls": [
-        {
-          "type": "button",
-          "label": "Вверх",
-          "command": "up",
-          "icon": "▲",
-          "iconOnly": true
-        },
-        {
-          "type": "button",
-          "label": "Влево",
-          "command": "left",
-          "icon": "◀",
-          "iconOnly": true
-        },
-        {
-          "type": "button",
-          "label": "OK",
-          "command": "ok"
-        },
-        {
-          "type": "button",
-          "label": "Вправо",
-          "command": "right",
-          "icon": "▶",
-          "iconOnly": true
-        },
-        {
-          "type": "button",
-          "label": "Вниз",
-          "command": "down",
-          "icon": "▼",
-          "iconOnly": true
-        },
-        {
-          "type": "button",
-          "label": "Назад",
-          "command": "back"
-        },
-        {
-          "type": "button",
-          "label": "Главная",
-          "command": "home"
-        },
-        {
-          "type": "button",
-          "label": "ИСТОЧНИК",
-          "command": "source"
-        }
-      ]
-    }
-  ]
+  "sections.0.title": "Питание / Громкость",
+  "sections.0.controls.0.label": "ВКЛ/ВЫКЛ",
+  "sections.0.controls.1.label": "VOL +",
+  "sections.0.controls.2.label": "VOL −",
+  "sections.0.controls.3.label": "БЕЗ ЗВУКА",
+  "sections.1.title": "Навигация",
+  "sections.1.controls.0.label": "Вверх",
+  "sections.1.controls.1.label": "Влево",
+  "sections.1.controls.3.label": "Вправо",
+  "sections.1.controls.4.label": "Вниз",
+  "sections.1.controls.5.label": "Назад",
+  "sections.1.controls.6.label": "Главная",
+  "sections.1.controls.7.label": "ИСТОЧНИК"
 }

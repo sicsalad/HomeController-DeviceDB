@@ -4,57 +4,223 @@
   "title": "HomeController Device UI template v2",
   "type": "object",
   "additionalProperties": true,
-  "required": ["schemaVersion", "id", "name", "deviceTypeId", "connections", "renderer"],
+  "required": [
+    "schemaVersion",
+    "id",
+    "name",
+    "deviceTypeId",
+    "connections"
+  ],
   "properties": {
-    "$schema": { "type": "string" },
-    "schemaVersion": { "const": 2 },
-    "id": { "type": "string", "minLength": 1 },
-    "name": { "type": "string", "minLength": 1 },
-    "deviceTypeId": { "type": "string", "minLength": 1 },
-    "connections": { "type": "array", "items": { "enum": ["infrared", "wifi", "bluetooth"] }, "uniqueItems": true },
-    "renderer": { "enum": ["declarative", "builtin-ir-tv", "builtin-ir-ac", "builtin-ir-simple", "builtin-wifi-ac", "builtin-hubitat", "builtin-hue", "builtin-dashboard"] },
-    "columns": { "type": "integer", "minimum": 1, "maximum": 10 },
-    "horizontalSpacing": { "type": "number", "minimum": 0, "maximum": 20 },
-    "verticalSpacing": { "type": "number", "minimum": 0, "maximum": 20 },
-    "groups": { "type": "array", "items": { "$ref": "#/$defs/group" } }
+    "$schema": {
+      "type": "string"
+    },
+    "schemaVersion": {
+      "const": 2
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "deviceTypeId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "connections": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "infrared",
+          "wifi",
+          "bluetooth"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "renderer": {
+      "enum": [
+        "declarative",
+        "builtin-ir-tv",
+        "builtin-ir-ac",
+        "builtin-ir-simple",
+        "builtin-wifi-ac",
+        "builtin-hubitat",
+        "builtin-hue",
+        "builtin-dashboard"
+      ]
+    },
+    "columns": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 10
+    },
+    "horizontalSpacing": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 20
+    },
+    "verticalSpacing": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 20
+    },
+    "groups": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/group"
+      }
+    }
   },
   "$defs": {
     "group": {
       "type": "object",
       "additionalProperties": true,
-      "required": ["id", "type"],
       "properties": {
-        "id": { "type": "string", "minLength": 1 },
-        "name": { "type": ["string", "null"] },
-        "type": { "enum": ["normal", "child-items", "filter"] },
-        "order": { "type": "integer" },
-        "columnSpan": { "type": "integer", "minimum": 1, "maximum": 10 },
-        "rowSpan": { "type": "integer", "minimum": 1, "maximum": 10 },
-        "childItemsSource": { "type": "string" },
-        "childItemsColumns": { "type": "integer", "minimum": 1, "maximum": 10 },
-        "filterScope": { "type": "string" },
-        "filterProperty": { "type": "string" },
-        "filterMode": { "enum": ["in", "notIn", "equals", "notEquals", "contains", "notContains", "greaterThan", "greaterOrEqual", "lessThan", "lessOrEqual", "and", "or"] },
-        "filterValues": { "type": "array", "items": { "type": "string" } },
-        "filterAutoValues": { "type": "boolean" },
-        "controls": { "type": "array", "items": { "$ref": "#/$defs/control" } },
-        "groups": { "type": "array", "items": { "$ref": "#/$defs/group" } }
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "type": {
+          "enum": [
+            "normal",
+            "child-items",
+            "filter"
+          ]
+        },
+        "order": {
+          "type": "integer"
+        },
+        "columnSpan": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 10
+        },
+        "rowSpan": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 10
+        },
+        "childItemsSource": {
+          "type": "string"
+        },
+        "childItemsColumns": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 10
+        },
+        "filterScope": {
+          "type": "string"
+        },
+        "filterProperty": {
+          "type": "string"
+        },
+        "filterMode": {
+          "enum": [
+            "in",
+            "notIn",
+            "equals",
+            "notEquals",
+            "contains",
+            "notContains",
+            "greaterThan",
+            "greaterOrEqual",
+            "lessThan",
+            "lessOrEqual",
+            "and",
+            "or"
+          ]
+        },
+        "filterValues": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "filterAutoValues": {
+          "type": "boolean"
+        },
+        "controls": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/control"
+          }
+        },
+        "groups": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/group"
+          }
+        }
       }
     },
     "control": {
       "type": "object",
       "additionalProperties": true,
-      "required": ["type"],
       "properties": {
-        "id": { "type": "string" },
-        "type": { "enum": ["label", "multiline-label", "edittext", "button", "list", "checkbox", "filter-toggle", "on-off", "link", "tile", "toggle", "stepper", "slider", "picker"] },
-        "text": { "type": "string" },
-        "label": { "type": "string" },
-        "filterId": { "type": ["string", "null"] },
-        "filterValue": { "type": ["string", "null"] },
-        "hideText": { "type": "boolean" },
-        "uncheckedImage": { "type": ["string", "null"] },
-        "checkedImage": { "type": ["string", "null"] }
+        "id": {
+          "type": "string"
+        },
+        "type": {
+          "enum": [
+            "label",
+            "multiline-label",
+            "edittext",
+            "button",
+            "list",
+            "checkbox",
+            "filter-toggle",
+            "on-off",
+            "link",
+            "tile",
+            "toggle",
+            "stepper",
+            "slider",
+            "picker"
+          ]
+        },
+        "text": {
+          "type": "string"
+        },
+        "label": {
+          "type": "string"
+        },
+        "filterId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "filterValue": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "hideText": {
+          "type": "boolean"
+        },
+        "uncheckedImage": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "checkedImage": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
       }
     }
   }

@@ -1,14 +1,3 @@
 {
-  "$schema": "../schemas/device-ui-template-v1.schema.json",
-  "schemaVersion": 1,
-  "id": "ir-ac-default",
-  "name": "Alapértelmezett infrás klíma",
-  "deviceTypeId": "air-conditioner",
-  "connections": [
-    "infrared"
-  ],
-  "renderer": "builtin-ir-ac",
-  "columns": 3,
-  "useFullWidth": true,
-  "sections": []
+  "name": "Alapértelmezett infrás klíma"
 }

@@ -1,210 +1,24 @@
 {
-  "$schema": "../schemas/device-ui-template-v1.schema.json",
-  "schemaVersion": 1,
-  "id": "ir-ac-modern",
   "name": "Современный климат",
-  "deviceTypeId": "air-conditioner",
-  "connections": [
-    "infrared"
-  ],
-  "renderer": "declarative",
-  "columns": 4,
-  "useFullWidth": true,
-  "buttonCornerRadius": 10,
-  "sectionCornerRadius": 16,
-  "buttonHeight": 58,
-  "buttonFontSize": 11,
-  "iconFontSize": 24,
-  "sections": [
-    {
-      "subtitle": "Управление климатом",
-      "controls": [
-        {
-          "type": "tile",
-          "label": "ВКЛ/ВЫКЛ",
-          "command": "Power",
-          "icon": "⏻",
-          "columnSpan": 2
-        },
-        {
-          "type": "tile",
-          "label": "РЕЖИМ",
-          "command": "Mode",
-          "icon": "◫"
-        },
-        {
-          "type": "tile",
-          "label": "ВЕНТ.",
-          "command": "FanSpeed",
-          "icon": "✣"
-        }
-      ]
-    },
-    {
-      "title": "ТЕМПЕРАТУРА",
-      "controls": [
-        {
-          "type": "tile",
-          "label": "TEMP −",
-          "command": "TemperatureDown",
-          "icon": "−",
-          "columnSpan": 2,
-          "height": 70,
-          "iconSize": 31
-        },
-        {
-          "type": "tile",
-          "label": "TEMP +",
-          "command": "TemperatureUp",
-          "icon": "＋",
-          "columnSpan": 2,
-          "height": 70,
-          "iconSize": 31
-        }
-      ]
-    },
-    {
-      "title": "РЕЖИМ",
-      "controls": [
-        {
-          "type": "tile",
-          "label": "AUTO",
-          "command": "ModeAuto",
-          "icon": "A"
-        },
-        {
-          "type": "tile",
-          "label": "ОХЛАЖД.",
-          "command": "ModeCool",
-          "icon": "❄"
-        },
-        {
-          "type": "tile",
-          "label": "ОБОГРЕВ",
-          "command": "ModeHeat",
-          "icon": "☀"
-        },
-        {
-          "type": "tile",
-          "label": "DRY",
-          "command": "ModeDry",
-          "icon": "◌"
-        },
-        {
-          "type": "tile",
-          "label": "ВЕНТ.",
-          "command": "ModeFan",
-          "icon": "✣",
-          "columnSpan": 2
-        },
-        {
-          "type": "tile",
-          "label": "ВЕНТ. AUTO",
-          "command": "FanSpeedAuto",
-          "icon": "◎",
-          "columnSpan": 2
-        }
-      ]
-    },
-    {
-      "title": "ПОТОК ВОЗДУХА",
-      "controls": [
-        {
-          "type": "tile",
-          "label": "ВЕНТ. −",
-          "command": "FanSpeedDown",
-          "icon": "−"
-        },
-        {
-          "type": "tile",
-          "label": "ВЕНТ. +",
-          "command": "FanSpeedUp",
-          "icon": "＋"
-        },
-        {
-          "type": "tile",
-          "label": "SWING",
-          "command": "Swing",
-          "icon": "↕",
-          "columnSpan": 2
-        }
-      ]
-    },
-    {
-      "title": "КОМФОРТ И ЭНЕРГИЯ",
-      "controls": [
-        {
-          "type": "tile",
-          "label": "TURBO",
-          "command": "Turbo",
-          "icon": "⚡"
-        },
-        {
-          "type": "tile",
-          "label": "ТИХО",
-          "command": "Quiet",
-          "icon": "◔"
-        },
-        {
-          "type": "tile",
-          "label": "ECO",
-          "command": "Economy",
-          "icon": "♧"
-        },
-        {
-          "type": "tile",
-          "label": "SLEEP",
-          "command": "Sleep",
-          "icon": "☾"
-        },
-        {
-          "type": "tile",
-          "label": "ECO",
-          "command": "PowerSave",
-          "icon": "◒",
-          "columnSpan": 2
-        },
-        {
-          "type": "tile",
-          "label": "СВЕТ",
-          "command": "Light",
-          "icon": "☼",
-          "columnSpan": 2
-        }
-      ]
-    },
-    {
-      "title": "ЕЩЁ",
-      "controls": [
-        {
-          "type": "tile",
-          "label": "САМООЧИСТКА",
-          "command": "SelfClean",
-          "icon": "✦",
-          "columnSpan": 2
-        },
-        {
-          "type": "tile",
-          "label": "X-FAN",
-          "command": "XFanCleaning",
-          "icon": "≈",
-          "columnSpan": 2
-        },
-        {
-          "type": "tile",
-          "label": "I FEEL",
-          "command": "IFeel",
-          "icon": "⌖",
-          "columnSpan": 2
-        },
-        {
-          "type": "tile",
-          "label": "TIMER",
-          "command": "Timer",
-          "icon": "◷",
-          "columnSpan": 2
-        }
-      ]
-    }
-  ]
+  "sections.0.subtitle": "Управление климатом",
+  "sections.0.controls.0.label": "ВКЛ/ВЫКЛ",
+  "sections.0.controls.1.label": "РЕЖИМ",
+  "sections.0.controls.2.label": "ВЕНТ.",
+  "sections.1.title": "ТЕМПЕРАТУРА",
+  "sections.1.controls.0.label": "TEMP −",
+  "sections.1.controls.1.label": "TEMP +",
+  "sections.2.title": "РЕЖИМ",
+  "sections.2.controls.1.label": "ОХЛАЖД.",
+  "sections.2.controls.2.label": "ОБОГРЕВ",
+  "sections.2.controls.4.label": "ВЕНТ.",
+  "sections.2.controls.5.label": "ВЕНТ. AUTO",
+  "sections.3.title": "ПОТОК ВОЗДУХА",
+  "sections.3.controls.0.label": "ВЕНТ. −",
+  "sections.3.controls.1.label": "ВЕНТ. +",
+  "sections.4.title": "КОМФОРТ И ЭНЕРГИЯ",
+  "sections.4.controls.1.label": "ТИХО",
+  "sections.4.controls.4.label": "ECO",
+  "sections.4.controls.5.label": "СВЕТ",
+  "sections.5.title": "ЕЩЁ",
+  "sections.5.controls.0.label": "САМООЧИСТКА"
 }

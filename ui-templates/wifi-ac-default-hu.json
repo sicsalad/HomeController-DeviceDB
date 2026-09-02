@@ -1,115 +1,19 @@
 {
-  "$schema": "../schemas/device-ui-template-v1.schema.json",
-  "schemaVersion": 1,
-  "id": "wifi-ac-default",
   "name": "Alapértelmezett Wi-Fi klíma",
-  "deviceTypeId": "air-conditioner",
-  "connections": [
-    "wifi"
-  ],
-  "renderer": "builtin-wifi-ac",
-  "columns": 3,
-  "useFullWidth": true,
-  "sections": [
-    {
-      "title": "Bekapcsolás",
-      "controls": [
-        {
-          "type": "button",
-          "label": "BE/KI",
-          "command": "power",
-          "value": true,
-          "icon": "⏻"
-        },
-        {
-          "type": "button",
-          "label": "BE/KI",
-          "command": "power",
-          "value": false,
-          "icon": "⏻"
-        }
-      ]
-    },
-    {
-      "title": "Hőmérséklet",
-      "controls": [
-        {
-          "type": "stepper",
-          "label": "Cél °C",
-          "command": "targetTemperature",
-          "columnSpan": 3
-        }
-      ]
-    },
-    {
-      "title": "Üzemmód",
-      "controls": [
-        {
-          "type": "button",
-          "label": "Auto",
-          "command": "mode",
-          "value": "auto"
-        },
-        {
-          "type": "button",
-          "label": "Hűtés",
-          "command": "mode",
-          "value": "cool"
-        },
-        {
-          "type": "button",
-          "label": "Fűtés",
-          "command": "mode",
-          "value": "heat"
-        },
-        {
-          "type": "button",
-          "label": "Szárítás",
-          "command": "mode",
-          "value": "dry"
-        },
-        {
-          "type": "button",
-          "label": "Ventilátor",
-          "command": "mode",
-          "value": "fan"
-        }
-      ]
-    },
-    {
-      "title": "Funkciók",
-      "controls": [
-        {
-          "type": "toggle",
-          "label": "Csendes",
-          "command": "quiet"
-        },
-        {
-          "type": "toggle",
-          "label": "Turbo",
-          "command": "turbo"
-        },
-        {
-          "type": "toggle",
-          "label": "Takarékos",
-          "command": "economy"
-        },
-        {
-          "type": "toggle",
-          "label": "Alvás",
-          "command": "sleep"
-        },
-        {
-          "type": "toggle",
-          "label": "Kijelző",
-          "command": "display"
-        },
-        {
-          "type": "toggle",
-          "label": "Egészség",
-          "command": "health"
-        }
-      ]
-    }
-  ]
+  "sections.0.title": "Bekapcsolás",
+  "sections.0.controls.0.label": "BE/KI",
+  "sections.0.controls.1.label": "BE/KI",
+  "sections.1.title": "Hőmérséklet",
+  "sections.1.controls.0.label": "Cél °C",
+  "sections.2.title": "Üzemmód",
+  "sections.2.controls.1.label": "Hűtés",
+  "sections.2.controls.2.label": "Fűtés",
+  "sections.2.controls.3.label": "Szárítás",
+  "sections.2.controls.4.label": "Ventilátor",
+  "sections.3.title": "Funkciók",
+  "sections.3.controls.0.label": "Csendes",
+  "sections.3.controls.2.label": "Takarékos",
+  "sections.3.controls.3.label": "Alvás",
+  "sections.3.controls.4.label": "Kijelző",
+  "sections.3.controls.5.label": "Egészség"
 }

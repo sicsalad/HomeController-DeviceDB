@@ -1,94 +1,16 @@
 {
-  "$schema": "../schemas/device-ui-template-v1.schema.json",
-  "schemaVersion": 1,
-  "id": "wifi-tv-default",
   "name": "Alapértelmezett Wi-Fi TV",
-  "deviceTypeId": "television",
-  "connections": [
-    "wifi"
-  ],
-  "renderer": "declarative",
-  "columns": 3,
-  "useFullWidth": true,
-  "sections": [
-    {
-      "title": "Bekapcsolás / Hangerő",
-      "controls": [
-        {
-          "type": "button",
-          "label": "BE/KI",
-          "command": "power",
-          "icon": "⏻"
-        },
-        {
-          "type": "button",
-          "label": "VOL +",
-          "command": "volumeUp"
-        },
-        {
-          "type": "button",
-          "label": "VOL −",
-          "command": "volumeDown"
-        },
-        {
-          "type": "button",
-          "label": "NÉMÍTÁS",
-          "command": "mute"
-        }
-      ]
-    },
-    {
-      "title": "Navigáció",
-      "controls": [
-        {
-          "type": "button",
-          "label": "Fel",
-          "command": "up",
-          "icon": "▲",
-          "iconOnly": true
-        },
-        {
-          "type": "button",
-          "label": "Bal",
-          "command": "left",
-          "icon": "◀",
-          "iconOnly": true
-        },
-        {
-          "type": "button",
-          "label": "OK",
-          "command": "ok"
-        },
-        {
-          "type": "button",
-          "label": "Jobb",
-          "command": "right",
-          "icon": "▶",
-          "iconOnly": true
-        },
-        {
-          "type": "button",
-          "label": "Le",
-          "command": "down",
-          "icon": "▼",
-          "iconOnly": true
-        },
-        {
-          "type": "button",
-          "label": "Vissza",
-          "command": "back"
-        },
-        {
-          "type": "button",
-          "label": "Kezdőlap",
-          "command": "home"
-        },
-        {
-          "type": "button",
-          "label": "FORRÁS",
-          "command": "source"
-        }
-      ]
-    }
-  ]
+  "sections.0.title": "Bekapcsolás / Hangerő",
+  "sections.0.controls.0.label": "BE/KI",
+  "sections.0.controls.1.label": "VOL +",
+  "sections.0.controls.2.label": "VOL −",
+  "sections.0.controls.3.label": "NÉMÍTÁS",
+  "sections.1.title": "Navigáció",
+  "sections.1.controls.0.label": "Fel",
+  "sections.1.controls.1.label": "Bal",
+  "sections.1.controls.3.label": "Jobb",
+  "sections.1.controls.4.label": "Le",
+  "sections.1.controls.5.label": "Vissza",
+  "sections.1.controls.6.label": "Kezdőlap",
+  "sections.1.controls.7.label": "FORRÁS"
 }

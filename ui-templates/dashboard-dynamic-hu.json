@@ -1,0 +1,6 @@
+{
+  "name": "Dashboard dinamikus",
+  "groups.0.name": "Keresés",
+  "groups.0.controls.0.text": "Dashboardok keresése",
+  "groups.1.name": "Dashboardok"
+}

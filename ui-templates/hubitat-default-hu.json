@@ -1,28 +1,3 @@
 {
-  "$schema": "../schemas/device-ui-template-v1.schema.json",
-  "schemaVersion": 1,
-  "id": "hubitat-default",
-  "name": "Hubitat alapértelmezett",
-  "deviceTypeId": "hubitat",
-  "connections": [
-    "wifi"
-  ],
-  "renderer": "builtin-hubitat",
-  "columns": 2,
-  "useFullWidth": true,
-  "buttonCornerRadius": 8,
-  "sectionCornerRadius": 11,
-  "buttonHeight": 54,
-  "buttonFontSize": 13,
-  "iconFontSize": 22,
-  "itemDefaults": {
-    "columns": 2,
-    "displayMode": "card",
-    "showIcon": true,
-    "showName": true,
-    "showType": true,
-    "showState": true
-  },
-  "itemStyles": {},
-  "sections": []
+  "name": "Hubitat alapértelmezett"
 }

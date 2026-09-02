@@ -1,148 +1,20 @@
 {
-  "$schema": "../schemas/device-ui-template-v1.schema.json",
-  "schemaVersion": 1,
-  "id": "wifi-ac-modern",
   "name": "Современный климат",
-  "deviceTypeId": "air-conditioner",
-  "connections": [
-    "wifi"
-  ],
-  "renderer": "declarative",
-  "columns": 4,
-  "useFullWidth": true,
-  "buttonCornerRadius": 10,
-  "sectionCornerRadius": 16,
-  "buttonHeight": 58,
-  "buttonFontSize": 11,
-  "iconFontSize": 24,
-  "sections": [
-    {
-      "subtitle": "Управление климатом",
-      "controls": [
-        {
-          "type": "toggle",
-          "label": "ВКЛ/ВЫКЛ",
-          "command": "power",
-          "icon": "⏻",
-          "columnSpan": 2
-        },
-        {
-          "type": "picker",
-          "label": "РЕЖИМ",
-          "command": "mode",
-          "options": [
-            "Auto",
-            "Cool",
-            "Heat",
-            "Dry",
-            "Fan"
-          ],
-          "columnSpan": 2
-        }
-      ]
-    },
-    {
-      "title": "ТЕМПЕРАТУРА",
-      "subtitle": "Целевая температура",
-      "controls": [
-        {
-          "type": "stepper",
-          "label": "УСТАНОВИТЬ ТЕМПЕРАТУРУ",
-          "command": "targetTemperature",
-          "minimum": 16,
-          "maximum": 30,
-          "step": 1,
-          "value": 24,
-          "columnSpan": 4
-        }
-      ]
-    },
-    {
-      "title": "ПОТОК ВОЗДУХА",
-      "controls": [
-        {
-          "type": "picker",
-          "label": "СКОРОСТЬ ВЕНТИЛЯТОРА",
-          "command": "fanSpeed",
-          "options": [
-            "Auto",
-            "Low",
-            "Medium",
-            "High",
-            "Turbo"
-          ],
-          "columnSpan": 2
-        },
-        {
-          "type": "picker",
-          "label": "ВЕРТИКАЛЬНОЕ КАЧАНИЕ",
-          "command": "swingVertical",
-          "options": [
-            "Off",
-            "Auto",
-            "Up",
-            "Middle",
-            "Down"
-          ],
-          "columnSpan": 2
-        },
-        {
-          "type": "picker",
-          "label": "ГОРИЗОНТАЛЬНОЕ КАЧАНИЕ",
-          "command": "swingHorizontal",
-          "options": [
-            "Off",
-            "Auto",
-            "Left",
-            "Middle",
-            "Right"
-          ],
-          "columnSpan": 4
-        }
-      ]
-    },
-    {
-      "title": "КОМФОРТ",
-      "controls": [
-        {
-          "type": "toggle",
-          "label": "ТУРБО",
-          "command": "turbo",
-          "icon": "⚡"
-        },
-        {
-          "type": "toggle",
-          "label": "ТИХО",
-          "command": "quiet",
-          "icon": "◔"
-        },
-        {
-          "type": "toggle",
-          "label": "ЭКО",
-          "command": "economy",
-          "icon": "♧"
-        },
-        {
-          "type": "toggle",
-          "label": "СОН",
-          "command": "sleep",
-          "icon": "☾"
-        },
-        {
-          "type": "toggle",
-          "label": "ДИСПЛЕЙ",
-          "command": "display",
-          "icon": "☼",
-          "columnSpan": 2
-        },
-        {
-          "type": "toggle",
-          "label": "ЗДОРОВЬЕ",
-          "command": "health",
-          "icon": "✦",
-          "columnSpan": 2
-        }
-      ]
-    }
-  ]
+  "sections.0.subtitle": "Управление климатом",
+  "sections.0.controls.0.label": "ВКЛ/ВЫКЛ",
+  "sections.0.controls.1.label": "РЕЖИМ",
+  "sections.1.title": "ТЕМПЕРАТУРА",
+  "sections.1.subtitle": "Целевая температура",
+  "sections.1.controls.0.label": "УСТАНОВИТЬ ТЕМПЕРАТУРУ",
+  "sections.2.title": "ПОТОК ВОЗДУХА",
+  "sections.2.controls.0.label": "СКОРОСТЬ ВЕНТИЛЯТОРА",
+  "sections.2.controls.1.label": "ВЕРТИКАЛЬНОЕ КАЧАНИЕ",
+  "sections.2.controls.2.label": "ГОРИЗОНТАЛЬНОЕ КАЧАНИЕ",
+  "sections.3.title": "КОМФОРТ",
+  "sections.3.controls.0.label": "ТУРБО",
+  "sections.3.controls.1.label": "ТИХО",
+  "sections.3.controls.2.label": "ЭКО",
+  "sections.3.controls.3.label": "СОН",
+  "sections.3.controls.4.label": "ДИСПЛЕЙ",
+  "sections.3.controls.5.label": "ЗДОРОВЬЕ"
 }

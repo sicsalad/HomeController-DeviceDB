@@ -1,115 +1,19 @@
 {
-  "$schema": "../schemas/device-ui-template-v1.schema.json",
-  "schemaVersion": 1,
-  "id": "wifi-ac-default",
   "name": "WLAN-Klima Standard",
-  "deviceTypeId": "air-conditioner",
-  "connections": [
-    "wifi"
-  ],
-  "renderer": "builtin-wifi-ac",
-  "columns": 3,
-  "useFullWidth": true,
-  "sections": [
-    {
-      "title": "Ein/Aus",
-      "controls": [
-        {
-          "type": "button",
-          "label": "EIN/AUS",
-          "command": "power",
-          "value": true,
-          "icon": "⏻"
-        },
-        {
-          "type": "button",
-          "label": "EIN/AUS",
-          "command": "power",
-          "value": false,
-          "icon": "⏻"
-        }
-      ]
-    },
-    {
-      "title": "Temperatur",
-      "controls": [
-        {
-          "type": "stepper",
-          "label": "Ziel °C",
-          "command": "targetTemperature",
-          "columnSpan": 3
-        }
-      ]
-    },
-    {
-      "title": "Modus",
-      "controls": [
-        {
-          "type": "button",
-          "label": "Auto",
-          "command": "mode",
-          "value": "auto"
-        },
-        {
-          "type": "button",
-          "label": "Kühlen",
-          "command": "mode",
-          "value": "cool"
-        },
-        {
-          "type": "button",
-          "label": "Heizen",
-          "command": "mode",
-          "value": "heat"
-        },
-        {
-          "type": "button",
-          "label": "Trocknen",
-          "command": "mode",
-          "value": "dry"
-        },
-        {
-          "type": "button",
-          "label": "Lüfter",
-          "command": "mode",
-          "value": "fan"
-        }
-      ]
-    },
-    {
-      "title": "Funktionen",
-      "controls": [
-        {
-          "type": "toggle",
-          "label": "Leise",
-          "command": "quiet"
-        },
-        {
-          "type": "toggle",
-          "label": "Turbo",
-          "command": "turbo"
-        },
-        {
-          "type": "toggle",
-          "label": "Eco",
-          "command": "economy"
-        },
-        {
-          "type": "toggle",
-          "label": "Schlaf",
-          "command": "sleep"
-        },
-        {
-          "type": "toggle",
-          "label": "Anzeige",
-          "command": "display"
-        },
-        {
-          "type": "toggle",
-          "label": "Gesundheit",
-          "command": "health"
-        }
-      ]
-    }
-  ]
+  "sections.0.title": "Ein/Aus",
+  "sections.0.controls.0.label": "EIN/AUS",
+  "sections.0.controls.1.label": "EIN/AUS",
+  "sections.1.title": "Temperatur",
+  "sections.1.controls.0.label": "Ziel °C",
+  "sections.2.title": "Modus",
+  "sections.2.controls.1.label": "Kühlen",
+  "sections.2.controls.2.label": "Heizen",
+  "sections.2.controls.3.label": "Trocknen",
+  "sections.2.controls.4.label": "Lüfter",
+  "sections.3.title": "Funktionen",
+  "sections.3.controls.0.label": "Leise",
+  "sections.3.controls.2.label": "Eco",
+  "sections.3.controls.3.label": "Schlaf",
+  "sections.3.controls.4.label": "Anzeige",
+  "sections.3.controls.5.label": "Gesundheit"
 }

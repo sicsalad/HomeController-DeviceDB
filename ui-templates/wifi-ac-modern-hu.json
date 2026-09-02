@@ -1,148 +1,18 @@
 {
-  "$schema": "../schemas/device-ui-template-v1.schema.json",
-  "schemaVersion": 1,
-  "id": "wifi-ac-modern",
   "name": "Modern klíma",
-  "deviceTypeId": "air-conditioner",
-  "connections": [
-    "wifi"
-  ],
-  "renderer": "declarative",
-  "columns": 4,
-  "useFullWidth": true,
-  "buttonCornerRadius": 10,
-  "sectionCornerRadius": 16,
-  "buttonHeight": 58,
-  "buttonFontSize": 11,
-  "iconFontSize": 24,
-  "sections": [
-    {
-      "subtitle": "Klímavezérlés",
-      "controls": [
-        {
-          "type": "toggle",
-          "label": "BE/KI",
-          "command": "power",
-          "icon": "⏻",
-          "columnSpan": 2
-        },
-        {
-          "type": "picker",
-          "label": "ÜZEMMÓD",
-          "command": "mode",
-          "options": [
-            "Auto",
-            "Cool",
-            "Heat",
-            "Dry",
-            "Fan"
-          ],
-          "columnSpan": 2
-        }
-      ]
-    },
-    {
-      "title": "HŐMÉRSÉKLET",
-      "subtitle": "Célhőmérséklet",
-      "controls": [
-        {
-          "type": "stepper",
-          "label": "HŐMÉRSÉKLET BEÁLLÍTÁSA",
-          "command": "targetTemperature",
-          "minimum": 16,
-          "maximum": 30,
-          "step": 1,
-          "value": 24,
-          "columnSpan": 4
-        }
-      ]
-    },
-    {
-      "title": "LÉGÁRAM",
-      "controls": [
-        {
-          "type": "picker",
-          "label": "VENTILÁTORSEBESSÉG",
-          "command": "fanSpeed",
-          "options": [
-            "Auto",
-            "Low",
-            "Medium",
-            "High",
-            "Turbo"
-          ],
-          "columnSpan": 2
-        },
-        {
-          "type": "picker",
-          "label": "FÜGGŐLEGES MOZGÁS",
-          "command": "swingVertical",
-          "options": [
-            "Off",
-            "Auto",
-            "Up",
-            "Middle",
-            "Down"
-          ],
-          "columnSpan": 2
-        },
-        {
-          "type": "picker",
-          "label": "VÍZSZINTES MOZGÁS",
-          "command": "swingHorizontal",
-          "options": [
-            "Off",
-            "Auto",
-            "Left",
-            "Middle",
-            "Right"
-          ],
-          "columnSpan": 4
-        }
-      ]
-    },
-    {
-      "title": "KOMFORT",
-      "controls": [
-        {
-          "type": "toggle",
-          "label": "TURBO",
-          "command": "turbo",
-          "icon": "⚡"
-        },
-        {
-          "type": "toggle",
-          "label": "CSENDES",
-          "command": "quiet",
-          "icon": "◔"
-        },
-        {
-          "type": "toggle",
-          "label": "ECO",
-          "command": "economy",
-          "icon": "♧"
-        },
-        {
-          "type": "toggle",
-          "label": "ALVÁS",
-          "command": "sleep",
-          "icon": "☾"
-        },
-        {
-          "type": "toggle",
-          "label": "KIJELZŐ",
-          "command": "display",
-          "icon": "☼",
-          "columnSpan": 2
-        },
-        {
-          "type": "toggle",
-          "label": "EGÉSZSÉG",
-          "command": "health",
-          "icon": "✦",
-          "columnSpan": 2
-        }
-      ]
-    }
-  ]
+  "sections.0.subtitle": "Klímavezérlés",
+  "sections.0.controls.0.label": "BE/KI",
+  "sections.0.controls.1.label": "ÜZEMMÓD",
+  "sections.1.title": "HŐMÉRSÉKLET",
+  "sections.1.subtitle": "Célhőmérséklet",
+  "sections.1.controls.0.label": "HŐMÉRSÉKLET BEÁLLÍTÁSA",
+  "sections.2.title": "LÉGÁRAM",
+  "sections.2.controls.0.label": "VENTILÁTORSEBESSÉG",
+  "sections.2.controls.1.label": "FÜGGŐLEGES MOZGÁS",
+  "sections.2.controls.2.label": "VÍZSZINTES MOZGÁS",
+  "sections.3.title": "KOMFORT",
+  "sections.3.controls.1.label": "CSENDES",
+  "sections.3.controls.3.label": "ALVÁS",
+  "sections.3.controls.4.label": "KIJELZŐ",
+  "sections.3.controls.5.label": "EGÉSZSÉG"
 }
