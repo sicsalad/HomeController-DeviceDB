@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.136",
-  "versionCode": 1788368617,
-  "publishedUtc": "2026-09-02T17:03:37Z",
-  "commit": "83ff9591b4ac694f3eaa7f45295ad3953b88e609",
-  "patchNotes": "Publish dynamic Hubitat and dashboard templates"
+  "version": "1.0.138",
+  "versionCode": 1788369506,
+  "publishedUtc": "2026-09-02T17:18:26Z",
+  "commit": "45dd1438be36853870388279424a63856bc749bf",
+  "patchNotes": "Run UI localization migration once"
 }

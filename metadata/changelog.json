@@ -630,6 +630,12 @@
       "versionCode": 1788368617,
       "publishedUtc": "2026-09-02T17:03:37Z",
       "notes": "Publish dynamic Hubitat and dashboard templates"
+    },
+    {
+      "version": "1.0.138",
+      "versionCode": 1788369506,
+      "publishedUtc": "2026-09-02T17:18:26Z",
+      "notes": "Run UI localization migration once"
     }
   ]
 }
