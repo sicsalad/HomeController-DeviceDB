@@ -222,6 +222,12 @@
       "versionCode": 1788380411,
       "publishedUtc": "2026-09-02T20:22:48Z",
       "notes": "Expose auto-filter item margin round and image/text settings"
+    },
+    {
+      "version": "1.0.765",
+      "versionCode": 1788382135,
+      "publishedUtc": "2026-09-02T20:53:17Z",
+      "notes": "Refresh declarative child presentation when returning to device"
     }
   ]
 }
