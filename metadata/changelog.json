@@ -612,6 +612,12 @@
       "versionCode": 1788368572,
       "publishedUtc": "2026-09-02T17:02:52Z",
       "notes": "Add declarative child-items UI template schema"
+    },
+    {
+      "version": "1.0.134",
+      "versionCode": 1788368587,
+      "publishedUtc": "2026-09-02T17:03:07Z",
+      "notes": "Add dynamic Hubitat child-items UI template"
     }
   ]
 }

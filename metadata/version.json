@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.133",
-  "versionCode": 1788368572,
-  "publishedUtc": "2026-09-02T17:02:52Z",
-  "commit": "703ab15e5f10238bed62eb8e519115ad0d095b36",
-  "patchNotes": "Add declarative child-items UI template schema"
+  "version": "1.0.134",
+  "versionCode": 1788368587,
+  "publishedUtc": "2026-09-02T17:03:07Z",
+  "commit": "fc2bf4b78eff074199bd30f78805d41e47a16ca8",
+  "patchNotes": "Add dynamic Hubitat child-items UI template"
 }
