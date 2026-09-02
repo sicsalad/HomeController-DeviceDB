@@ -210,6 +210,12 @@
       "versionCode": 1788369581,
       "publishedUtc": "2026-09-02T17:24:05Z",
       "notes": "Load UI translations as compact overlays"
+    },
+    {
+      "version": "1.0.748",
+      "versionCode": 1788377692,
+      "publishedUtc": "2026-09-02T19:38:07Z",
+      "notes": "Add icons to Hubitat device properties"
     }
   ]
 }
