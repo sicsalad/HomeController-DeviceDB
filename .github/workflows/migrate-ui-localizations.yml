@@ -20,6 +20,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.x'
+      - name: Sync latest main
+        run: git pull --rebase origin main
       - name: Convert localized templates
         run: python tools/migrate_ui_localizations.py
       - name: Commit converted files and remove one-shot migration
@@ -33,4 +35,12 @@ jobs:
             exit 0
           fi
           git commit -m "Compact UI template language overlays"
-          git push origin HEAD:main
+          for attempt in 1 2 3 4; do
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "main moved; rebasing and retrying ($attempt/4)"
+            git pull --rebase origin main
+          done
+          echo "Could not push migration after retries." >&2
+          exit 1
