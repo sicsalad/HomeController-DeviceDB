@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.135",
-  "versionCode": 1788368602,
-  "publishedUtc": "2026-09-02T17:03:22Z",
-  "commit": "258ca513e98cb483bde9cf2dad7d68e3aab4937f",
-  "patchNotes": "Add dynamic multi-dashboard child-items UI template"
+  "version": "1.0.136",
+  "versionCode": 1788368617,
+  "publishedUtc": "2026-09-02T17:03:37Z",
+  "commit": "83ff9591b4ac694f3eaa7f45295ad3953b88e609",
+  "patchNotes": "Publish dynamic Hubitat and dashboard templates"
 }

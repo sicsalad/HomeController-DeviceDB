@@ -624,6 +624,12 @@
       "versionCode": 1788368602,
       "publishedUtc": "2026-09-02T17:03:22Z",
       "notes": "Add dynamic multi-dashboard child-items UI template"
+    },
+    {
+      "version": "1.0.136",
+      "versionCode": 1788368617,
+      "publishedUtc": "2026-09-02T17:03:37Z",
+      "notes": "Publish dynamic Hubitat and dashboard templates"
     }
   ]
 }
