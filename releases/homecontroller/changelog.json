@@ -192,6 +192,12 @@
       "versionCode": 1788305357,
       "publishedUtc": "2026-09-01T23:32:57Z",
       "notes": "Render Home cards with declarative spans"
+    },
+    {
+      "version": "1.0.731",
+      "versionCode": 1788307907,
+      "publishedUtc": "2026-09-02T00:16:09Z",
+      "notes": "Show live Hubitat states on pinned Home cards"
     }
   ]
 }
