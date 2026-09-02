@@ -234,6 +234,12 @@
       "versionCode": 1788384489,
       "publishedUtc": "2026-09-02T21:32:28Z",
       "notes": "Restore template columns after edit preview"
+    },
+    {
+      "version": "1.0.774",
+      "versionCode": 1788386414,
+      "publishedUtc": "2026-09-02T22:04:24Z",
+      "notes": "Use runtime renderer in inline template editor"
     }
   ]
 }
