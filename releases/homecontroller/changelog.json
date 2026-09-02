@@ -246,6 +246,12 @@
       "versionCode": 1788388029,
       "publishedUtc": "2026-09-02T22:31:17Z",
       "notes": "Enable control selection and drag editing in child-aware templates"
+    },
+    {
+      "version": "1.0.790",
+      "versionCode": 1788391466,
+      "publishedUtc": "2026-09-02T23:28:31Z",
+      "notes": "Fix PC remote screen clipping property"
     }
   ]
 }
