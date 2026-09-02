@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.132",
-  "versionCode": 1788290437,
-  "publishedUtc": "2026-09-01T19:20:37Z",
-  "commit": "9db9f43e89007344b0a41dbb45645aca8fcfc9bb",
-  "patchNotes": "Add generic controller image 01"
+  "version": "1.0.133",
+  "versionCode": 1788368572,
+  "publishedUtc": "2026-09-02T17:02:52Z",
+  "commit": "703ab15e5f10238bed62eb8e519115ad0d095b36",
+  "patchNotes": "Add declarative child-items UI template schema"
 }
