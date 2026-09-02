@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.138",
-  "versionCode": 1788369506,
-  "publishedUtc": "2026-09-02T17:18:26Z",
-  "commit": "45dd1438be36853870388279424a63856bc749bf",
-  "patchNotes": "Run UI localization migration once"
+  "version": "1.0.140",
+  "versionCode": 1788392072,
+  "publishedUtc": "2026-09-02T23:34:32Z",
+  "commit": "efbdf220a7f7efbce75b2166155078dfe0f44659",
+  "patchNotes": "Publish PC Agent 1.0.5"
 }
