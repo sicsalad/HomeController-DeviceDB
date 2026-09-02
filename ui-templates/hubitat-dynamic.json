@@ -1,0 +1,103 @@
+{
+  "$schema": "../schemas/device-ui-template-v2.schema.json",
+  "schemaVersion": 2,
+  "id": "hubitat-dynamic",
+  "name": "Hubitat Dynamic",
+  "deviceTypeId": "hubitat",
+  "connections": ["wifi"],
+  "renderer": "declarative",
+  "columns": 1,
+  "useFullWidth": true,
+  "horizontalSpacing": 8,
+  "verticalSpacing": 8,
+  "backgroundColor": "$PageBackground",
+  "foregroundColor": "$TextPrimary",
+  "mutedTextColor": "$TextMuted",
+  "surfaceColor": "$Surface",
+  "accentColor": "$Accent",
+  "buttonColor": "$ButtonBackground",
+  "buttonTextColor": "$ButtonText",
+  "borderColor": "$CardBorder",
+  "buttonCornerRadius": 12,
+  "sectionCornerRadius": 14,
+  "buttonHeight": 48,
+  "buttonFontSize": 13,
+  "iconFontSize": 21,
+  "groups": [
+    {
+      "id": "hubitat-type-filter",
+      "name": "Device type",
+      "type": "filter",
+      "order": 0,
+      "filterScope": "devices",
+      "filterProperty": "category",
+      "filterMode": "in",
+      "filterValues": [],
+      "filterAutoValues": true,
+      "backgroundMode": "inherit",
+      "cornerRadius": 14,
+      "borderWidth": 0,
+      "controls": []
+    },
+    {
+      "id": "hubitat-quick-filter",
+      "name": "Quick filter",
+      "type": "filter",
+      "order": 1,
+      "filterScope": "devices",
+      "filterProperty": "online",
+      "filterMode": "equals",
+      "filterValues": [],
+      "filterAutoValues": false,
+      "backgroundMode": "inherit",
+      "cornerRadius": 14,
+      "borderWidth": 0,
+      "controls": [
+        {
+          "id": "hubitat-online-only",
+          "type": "checkbox",
+          "text": "Online only",
+          "filterId": "hubitat-quick-filter",
+          "filterValue": "true",
+          "hideText": false,
+          "order": 0
+        }
+      ]
+    },
+    {
+      "id": "hubitat-search-filter",
+      "name": "Search",
+      "type": "filter",
+      "order": 2,
+      "filterScope": "devices",
+      "filterProperty": "name",
+      "filterMode": "contains",
+      "filterValues": [],
+      "filterAutoValues": false,
+      "backgroundMode": "inherit",
+      "cornerRadius": 14,
+      "borderWidth": 0,
+      "controls": [
+        {
+          "id": "hubitat-search",
+          "type": "edittext",
+          "text": "Search devices",
+          "filterId": "hubitat-search-filter",
+          "order": 0
+        }
+      ]
+    },
+    {
+      "id": "devices",
+      "name": "Devices",
+      "type": "child-items",
+      "order": 3,
+      "childItemsSource": "",
+      "childItemsColumns": 2,
+      "backgroundMode": "inherit",
+      "cornerRadius": 14,
+      "borderWidth": 0,
+      "controls": []
+    }
+  ]
+}
