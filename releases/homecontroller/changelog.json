@@ -240,6 +240,12 @@
       "versionCode": 1788386414,
       "publishedUtc": "2026-09-02T22:04:24Z",
       "notes": "Use runtime renderer in inline template editor"
+    },
+    {
+      "version": "1.0.777",
+      "versionCode": 1788388029,
+      "publishedUtc": "2026-09-02T22:31:17Z",
+      "notes": "Enable control selection and drag editing in child-aware templates"
     }
   ]
 }
