@@ -282,6 +282,12 @@
       "versionCode": 1788439466,
       "publishedUtc": "2026-09-03T12:48:47Z",
       "notes": "Fix Android drag-drop operation for device trash"
+    },
+    {
+      "version": "1.0.820",
+      "versionCode": 1788442974,
+      "publishedUtc": "2026-09-03T13:46:48Z",
+      "notes": "Fix DeviceAddGroupPage namespace import"
     }
   ]
 }
