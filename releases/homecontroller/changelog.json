@@ -264,6 +264,12 @@
       "versionCode": 1788394066,
       "publishedUtc": "2026-09-03T00:11:46Z",
       "notes": "Fix PC remote trackpad button build error"
+    },
+    {
+      "version": "1.0.802",
+      "versionCode": 1788433560,
+      "publishedUtc": "2026-09-03T11:08:53Z",
+      "notes": "Improve PC remote zoom persistence cursor controls and system actions"
     }
   ]
 }
