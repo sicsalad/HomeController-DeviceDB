@@ -318,6 +318,12 @@
       "versionCode": 1788464772,
       "publishedUtc": "2026-09-03T19:50:15Z",
       "notes": "Use native Android video playback independent of filename extension"
+    },
+    {
+      "version": "1.0.852",
+      "versionCode": 1788466696,
+      "publishedUtc": "2026-09-03T20:21:39Z",
+      "notes": "Keep Hubitat state labels visible across style refresh"
     }
   ]
 }
