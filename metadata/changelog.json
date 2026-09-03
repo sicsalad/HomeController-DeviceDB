@@ -660,6 +660,12 @@
       "versionCode": 1788450921,
       "publishedUtc": "2026-09-03T15:55:21Z",
       "notes": "Publish PC Agent 1.0.8"
+    },
+    {
+      "version": "1.0.144",
+      "versionCode": 1788471362,
+      "publishedUtc": "2026-09-03T21:36:02Z",
+      "notes": "Publish PC Agent 1.0.9"
     }
   ]
 }
