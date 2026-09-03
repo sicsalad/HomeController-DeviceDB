@@ -294,6 +294,12 @@
       "versionCode": 1788452034,
       "publishedUtc": "2026-09-03T16:17:20Z",
       "notes": "Fix FolderDeviceSetupPage DeviceType ambiguity"
+    },
+    {
+      "version": "1.0.836",
+      "versionCode": 1788455770,
+      "publishedUtc": "2026-09-03T17:20:28Z",
+      "notes": "Stream local videos without cache copy"
     }
   ]
 }
