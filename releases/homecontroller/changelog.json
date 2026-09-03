@@ -336,6 +336,12 @@
       "versionCode": 1788475006,
       "publishedUtc": "2026-09-03T22:40:55Z",
       "notes": "Fix Android remote screen scale type compile error"
+    },
+    {
+      "version": "1.0.877",
+      "versionCode": 1788476665,
+      "publishedUtc": "2026-09-03T23:08:30Z",
+      "notes": "Fix PC remote stable page compile errors"
     }
   ]
 }
