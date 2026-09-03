@@ -276,6 +276,12 @@
       "versionCode": 1788436699,
       "publishedUtc": "2026-09-03T12:02:20Z",
       "notes": "Add scoped pinned card styling"
+    },
+    {
+      "version": "1.0.814",
+      "versionCode": 1788439466,
+      "publishedUtc": "2026-09-03T12:48:47Z",
+      "notes": "Fix Android drag-drop operation for device trash"
     }
   ]
 }
