@@ -288,6 +288,12 @@
       "versionCode": 1788442974,
       "publishedUtc": "2026-09-03T13:46:48Z",
       "notes": "Fix DeviceAddGroupPage namespace import"
+    },
+    {
+      "version": "1.0.834",
+      "versionCode": 1788452034,
+      "publishedUtc": "2026-09-03T16:17:20Z",
+      "notes": "Fix FolderDeviceSetupPage DeviceType ambiguity"
     }
   ]
 }
