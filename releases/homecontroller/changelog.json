@@ -258,6 +258,12 @@
       "versionCode": 1788392068,
       "publishedUtc": "2026-09-02T23:38:37Z",
       "notes": "Fix PC Agent updater build script string"
+    },
+    {
+      "version": "1.0.796",
+      "versionCode": 1788394066,
+      "publishedUtc": "2026-09-03T00:11:46Z",
+      "notes": "Fix PC remote trackpad button build error"
     }
   ]
 }
