@@ -324,6 +324,12 @@
       "versionCode": 1788466696,
       "publishedUtc": "2026-09-03T20:21:39Z",
       "notes": "Keep Hubitat state labels visible across style refresh"
+    },
+    {
+      "version": "1.0.856",
+      "versionCode": 1788468652,
+      "publishedUtc": "2026-09-03T20:55:00Z",
+      "notes": "Stabilize PC remote live screen rendering"
     }
   ]
 }
