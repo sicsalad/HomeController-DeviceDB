@@ -270,6 +270,12 @@
       "versionCode": 1788433560,
       "publishedUtc": "2026-09-03T11:08:53Z",
       "notes": "Improve PC remote zoom persistence cursor controls and system actions"
+    },
+    {
+      "version": "1.0.809",
+      "versionCode": 1788436699,
+      "publishedUtc": "2026-09-03T12:02:20Z",
+      "notes": "Add scoped pinned card styling"
     }
   ]
 }
