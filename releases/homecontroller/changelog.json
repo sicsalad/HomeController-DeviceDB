@@ -306,6 +306,12 @@
       "versionCode": 1788458114,
       "publishedUtc": "2026-09-03T17:59:39Z",
       "notes": "Fix PC remote clicks and keep bottom controls visible"
+    },
+    {
+      "version": "1.0.845",
+      "versionCode": 1788462893,
+      "publishedUtc": "2026-09-03T19:19:08Z",
+      "notes": "Keep MIME detection compatible with C# 12"
     }
   ]
 }
