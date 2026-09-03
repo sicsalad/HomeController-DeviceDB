@@ -312,6 +312,12 @@
       "versionCode": 1788462893,
       "publishedUtc": "2026-09-03T19:19:08Z",
       "notes": "Keep MIME detection compatible with C# 12"
+    },
+    {
+      "version": "1.0.849",
+      "versionCode": 1788464772,
+      "publishedUtc": "2026-09-03T19:50:15Z",
+      "notes": "Use native Android video playback independent of filename extension"
     }
   ]
 }
