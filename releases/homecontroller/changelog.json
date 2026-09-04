@@ -432,6 +432,12 @@
       "versionCode": 1788541563,
       "publishedUtc": "2026-09-04T17:09:41Z",
       "notes": "Avoid Home screen layout extension collision"
+    },
+    {
+      "version": "1.0.993",
+      "versionCode": 1788542922,
+      "publishedUtc": "2026-09-04T17:33:08Z",
+      "notes": "Use centralized image icons on nested Home screens"
     }
   ]
 }
