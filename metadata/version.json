@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.184",
-  "versionCode": 1788546601,
-  "publishedUtc": "2026-09-04T18:30:01Z",
-  "commit": "5dda62e6807aeb274e1613a66961675b472e4963",
-  "patchNotes": "Treat background examples as optional in image validation"
+  "version": "1.0.185",
+  "versionCode": 1788546697,
+  "publishedUtc": "2026-09-04T18:31:37Z",
+  "commit": "a3451b82909923204c99e3e92b67dc0dbcc0b12f",
+  "patchNotes": "Complete runtime image manifest"
 }
