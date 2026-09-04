@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.196",
-  "versionCode": 1788553068,
-  "publishedUtc": "2026-09-04T20:17:48Z",
-  "commit": "59227b7f1a5382019b817e27d47a5616145f9b90",
-  "patchNotes": "Add television Home device style"
+  "version": "1.0.197",
+  "versionCode": 1788553079,
+  "publishedUtc": "2026-09-04T20:17:59Z",
+  "commit": "79515a58e459e60132030866562bb14e4b302d2e",
+  "patchNotes": "Add Hubitat temperature Home style"
 }

@@ -858,6 +858,12 @@
       "versionCode": 1788553068,
       "publishedUtc": "2026-09-04T20:17:48Z",
       "notes": "Add television Home device style"
+    },
+    {
+      "version": "1.0.197",
+      "versionCode": 1788553079,
+      "publishedUtc": "2026-09-04T20:17:59Z",
+      "notes": "Add Hubitat temperature Home style"
     }
   ]
 }
