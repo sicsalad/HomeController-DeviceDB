@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "selection-ui-v1.schema.json",
+  "title": "HomeController Selection UI Catalog v1",
+  "type": "object",
+  "required": ["schemaVersion", "page", "palettes", "connectionTypes", "deviceTypes", "specialItems", "manufacturerPalettes"],
+  "properties": {
+    "$schema": {"type":"string"},
+    "schemaVersion": {"const":1},
+    "page": {"$ref":"#/$defs/page"},
+    "palettes": {"type":"object","additionalProperties":{"$ref":"#/$defs/palette"}},
+    "connectionTypes": {"type":"array","items":{"$ref":"#/$defs/card"}},
+    "deviceTypes": {"type":"object","additionalProperties":{"$ref":"#/$defs/card"}},
+    "specialItems": {"type":"object","additionalProperties":{"$ref":"#/$defs/card"}},
+    "manufacturerPalettes": {"type":"object","additionalProperties":{"type":"string","minLength":1}}
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "color": {"type":"string","pattern":"^#[0-9A-Fa-f]{6}([0-9A-Fa-f]{2})?$"},
+    "page": {
+      "type":"object",
+      "required":["backgroundColor","headerColor","subtitleColor","backButtonColor","cardCornerRadius"],
+      "properties": {
+        "backgroundColor":{"$ref":"#/$defs/color"},
+        "headerColor":{"$ref":"#/$defs/color"},
+        "subtitleColor":{"$ref":"#/$defs/color"},
+        "backButtonColor":{"$ref":"#/$defs/color"},
+        "cardCornerRadius":{"type":"integer","minimum":0,"maximum":40}
+      },
+      "additionalProperties": false
+    },
+    "palette": {
+      "type":"object",
+      "required":["backgroundColor","borderColor","accentColor","foregroundColor","subtitleColor"],
+      "properties": {
+        "backgroundColor":{"$ref":"#/$defs/color"},
+        "borderColor":{"$ref":"#/$defs/color"},
+        "accentColor":{"$ref":"#/$defs/color"},
+        "foregroundColor":{"$ref":"#/$defs/color"},
+        "subtitleColor":{"$ref":"#/$defs/color"}
+      },
+      "additionalProperties": false
+    },
+    "card": {
+      "type":"object",
+      "required":["id","palette","icon"],
+      "properties": {
+        "id":{"type":"string","minLength":1},
+        "palette":{"type":"string","minLength":1},
+        "icon":{"type":"string","minLength":1},
+        "titleKey":{"type":"string"},
+        "subtitleKey":{"type":"string"}
+      },
+      "additionalProperties": false
+    }
+  }
+}
