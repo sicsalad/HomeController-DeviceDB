@@ -918,6 +918,12 @@
       "versionCode": 1788563197,
       "publishedUtc": "2026-09-04T23:06:37Z",
       "notes": "Add Russian selection UI localization"
+    },
+    {
+      "version": "1.0.207",
+      "versionCode": 1788563210,
+      "publishedUtc": "2026-09-04T23:06:50Z",
+      "notes": "Add selection UI catalog schema"
     }
   ]
 }

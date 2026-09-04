@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.206",
-  "versionCode": 1788563197,
-  "publishedUtc": "2026-09-04T23:06:37Z",
-  "commit": "a2807ae6ac83fb879ac10c757787f573c80d7de8",
-  "patchNotes": "Add Russian selection UI localization"
+  "version": "1.0.207",
+  "versionCode": 1788563210,
+  "publishedUtc": "2026-09-04T23:06:50Z",
+  "commit": "c718a7728c4931a538982d183a9fa172c82cc490",
+  "patchNotes": "Add selection UI catalog schema"
 }
