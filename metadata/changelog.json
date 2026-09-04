@@ -882,6 +882,12 @@
       "versionCode": 1788561111,
       "publishedUtc": "2026-09-04T22:31:51Z",
       "notes": "tv ui"
+    },
+    {
+      "version": "1.0.201",
+      "versionCode": 1788563082,
+      "publishedUtc": "2026-09-04T23:04:42Z",
+      "notes": "Add shared add-device selection UI catalog"
     }
   ]
 }

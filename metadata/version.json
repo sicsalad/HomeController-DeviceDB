@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.200",
-  "versionCode": 1788561111,
-  "publishedUtc": "2026-09-04T22:31:51Z",
-  "commit": "4ab41933c76b6fa0e62a6e3605cbe34579993526",
-  "patchNotes": "tv ui"
+  "version": "1.0.201",
+  "versionCode": 1788563082,
+  "publishedUtc": "2026-09-04T23:04:42Z",
+  "commit": "601e003d16b513196897b3e78a37c44ca584084a",
+  "patchNotes": "Add shared add-device selection UI catalog"
 }
