@@ -864,6 +864,12 @@
       "versionCode": 1788553079,
       "publishedUtc": "2026-09-04T20:17:59Z",
       "notes": "Add Hubitat temperature Home style"
+    },
+    {
+      "version": "1.0.198",
+      "versionCode": 1788553089,
+      "publishedUtc": "2026-09-04T20:18:09Z",
+      "notes": "Add Hue light Home style"
     }
   ]
 }

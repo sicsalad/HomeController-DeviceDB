@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.197",
-  "versionCode": 1788553079,
-  "publishedUtc": "2026-09-04T20:17:59Z",
-  "commit": "79515a58e459e60132030866562bb14e4b302d2e",
-  "patchNotes": "Add Hubitat temperature Home style"
+  "version": "1.0.198",
+  "versionCode": 1788553089,
+  "publishedUtc": "2026-09-04T20:18:09Z",
+  "commit": "7f5a709afb2770d790c0012eb15a74daa910e3e9",
+  "patchNotes": "Add Hue light Home style"
 }
