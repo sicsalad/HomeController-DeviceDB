@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.213",
-  "versionCode": 1788565978,
-  "publishedUtc": "2026-09-04T23:52:58Z",
-  "commit": "d1ef4d528b66b5b15aab14278f1233a8ef93441b",
-  "patchNotes": "Add device type and model search translations"
+  "version": "1.0.214",
+  "versionCode": 1788566382,
+  "publishedUtc": "2026-09-04T23:59:42Z",
+  "commit": "292a28417f5e6b6b33a0ff63b29180b00b26c175",
+  "patchNotes": "Complete German Add Device search translations"
 }

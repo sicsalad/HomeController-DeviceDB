@@ -960,6 +960,12 @@
       "versionCode": 1788565978,
       "publishedUtc": "2026-09-04T23:52:58Z",
       "notes": "Add device type and model search translations"
+    },
+    {
+      "version": "1.0.214",
+      "versionCode": 1788566382,
+      "publishedUtc": "2026-09-04T23:59:42Z",
+      "notes": "Complete German Add Device search translations"
     }
   ]
 }
