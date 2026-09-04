@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.188",
-  "versionCode": 1788547028,
-  "publishedUtc": "2026-09-04T18:37:08Z",
-  "commit": "12289077cb455bc012ca58773e205048b3c9282c",
-  "patchNotes": "Add AI authoring guide for themes and UI templates"
+  "version": "1.0.189",
+  "versionCode": 1788548396,
+  "publishedUtc": "2026-09-04T18:59:56Z",
+  "commit": "7941e741c6d2442faacc570bbcc3c29daaec049c",
+  "patchNotes": "Expand Device UI template v2 schema"
 }

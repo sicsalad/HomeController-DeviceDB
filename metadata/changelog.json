@@ -816,6 +816,12 @@
       "versionCode": 1788547028,
       "publishedUtc": "2026-09-04T18:37:08Z",
       "notes": "Add AI authoring guide for themes and UI templates"
+    },
+    {
+      "version": "1.0.189",
+      "versionCode": 1788548396,
+      "publishedUtc": "2026-09-04T18:59:56Z",
+      "notes": "Expand Device UI template v2 schema"
     }
   ]
 }
