@@ -44,7 +44,8 @@ jobs:
         run: python3 tools/validate_db.py
       - name: Validate dynamic Wi-Fi drivers
         run: python3 tools/validate_wifi.py
-      - name: Validate dynamic device types and UI templates
-        run: python3 tools/validate_device_catalog.py
       - name: Validate runtime image assets
         run: python3 tools/validate_images.py
+      - name: Validate dynamic device types and UI templates
+        if: always()
+        run: python3 tools/validate_device_catalog.py
