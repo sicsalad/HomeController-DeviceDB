@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "basePath": "images",
+  "deviceTypes": {
+    "general": "device-types/device_general.svg",
+    "television": "device-types/device_television.svg",
+    "air-conditioner": "device-types/device_air_conditioner.svg",
+    "fan": "device-types/device_fan.svg",
+    "light": "device-types/device_light.svg",
+    "switch": "device-types/device_switch.svg",
+    "temperature": "device-types/device_temperature.svg",
+    "sensor": "device-types/device_sensor.svg",
+    "computer": "device-types/device_computer.svg",
+    "home-screen": "device-types/device_home_screen.svg",
+    "folder": "device-types/device_folder.svg",
+    "hubitat": "device-types/device_hubitat.svg",
+    "philips-hue": "device-types/device_hue.svg",
+    "bluetooth": "device-types/device_bluetooth.svg",
+    "dashboard": "device-types/device_dashboard.svg"
+  },
+  "actions": {
+    "settings": "actions/action_settings.svg",
+    "add": "actions/action_add.svg",
+    "theme": "actions/action_theme.svg",
+    "back": "actions/action_back.svg",
+    "delete": "actions/action_delete.svg",
+    "pin": "actions/action_pin.svg"
+  }
+}
