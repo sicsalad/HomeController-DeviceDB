@@ -786,6 +786,12 @@
       "versionCode": 1788546551,
       "publishedUtc": "2026-09-04T18:29:11Z",
       "notes": "Run image validation independently"
+    },
+    {
+      "version": "1.0.184",
+      "versionCode": 1788546601,
+      "publishedUtc": "2026-09-04T18:30:01Z",
+      "notes": "Treat background examples as optional in image validation"
     }
   ]
 }

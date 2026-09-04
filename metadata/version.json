@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.183",
-  "versionCode": 1788546551,
-  "publishedUtc": "2026-09-04T18:29:11Z",
-  "commit": "bb59d65abe57e008fb9b785bf64d15b8609a063e",
-  "patchNotes": "Run image validation independently"
+  "version": "1.0.184",
+  "versionCode": 1788546601,
+  "publishedUtc": "2026-09-04T18:30:01Z",
+  "commit": "5dda62e6807aeb274e1613a66961675b472e4963",
+  "patchNotes": "Treat background examples as optional in image validation"
 }
