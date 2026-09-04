@@ -942,6 +942,12 @@
       "versionCode": 1788565742,
       "publishedUtc": "2026-09-04T23:49:02Z",
       "notes": "Add device type and model picker localization"
+    },
+    {
+      "version": "1.0.211",
+      "versionCode": 1788565828,
+      "publishedUtc": "2026-09-04T23:50:28Z",
+      "notes": "Refresh Hubitat brand-inspired icon"
     }
   ]
 }

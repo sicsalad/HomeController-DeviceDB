@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.210",
-  "versionCode": 1788565742,
-  "publishedUtc": "2026-09-04T23:49:02Z",
-  "commit": "f6dac41e4aa82051570c49f8e1431aa7151f0ecb",
-  "patchNotes": "Add device type and model picker localization"
+  "version": "1.0.211",
+  "versionCode": 1788565828,
+  "publishedUtc": "2026-09-04T23:50:28Z",
+  "commit": "3141afd0cf6010691922245a932b0f039be8de7e",
+  "patchNotes": "Refresh Hubitat brand-inspired icon"
 }
