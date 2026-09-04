@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://homecontroller.dev/schemas/home-device-style-v1.schema.json",
+  "title": "HomeController Home device style",
+  "type": "object",
+  "required": ["schemaVersion", "id", "name", "deviceTypeId", "style"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "id": { "type": "string", "minLength": 1 },
+    "name": { "type": "string", "minLength": 1 },
+    "deviceTypeId": { "type": "string", "minLength": 1 },
+    "integrationKind": { "type": ["string", "null"] },
+    "externalDeviceType": { "type": ["string", "null"] },
+    "style": { "$ref": "#/$defs/style" },
+    "presentation": { "$ref": "#/$defs/presentation" }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "style": {
+      "type": "object",
+      "properties": {
+        "columns": { "type": ["integer", "null"], "minimum": 1, "maximum": 10 },
+        "columnSpan": { "type": ["integer", "null"], "minimum": 1, "maximum": 10 },
+        "rowSpan": { "type": ["integer", "null"], "minimum": 1, "maximum": 10 },
+        "displayMode": { "type": ["string", "null"] },
+        "shape": { "type": ["string", "null"] },
+        "backgroundColor": { "type": ["string", "null"] },
+        "textColor": { "type": ["string", "null"] },
+        "mutedTextColor": { "type": ["string", "null"] },
+        "borderColor": { "type": ["string", "null"] },
+        "accentColor": { "type": ["string", "null"] },
+        "cornerRadius": { "type": ["integer", "null"], "minimum": 0 },
+        "height": { "type": ["number", "null"], "minimum": 0 },
+        "width": { "type": ["number", "null"], "minimum": 0 },
+        "fontSize": { "type": ["number", "null"], "minimum": 0 },
+        "iconSize": { "type": ["number", "null"], "minimum": 0 },
+        "stateIconSize": { "type": ["number", "null"], "minimum": 0 },
+        "stateLabelFontSize": { "type": ["number", "null"], "minimum": 0 },
+        "stateValueFontSize": { "type": ["number", "null"], "minimum": 0 },
+        "stateButtonFontSize": { "type": ["number", "null"], "minimum": 0 },
+        "showIcon": { "type": ["boolean", "null"] },
+        "showName": { "type": ["boolean", "null"] },
+        "showType": { "type": ["boolean", "null"] },
+        "showState": { "type": ["boolean", "null"] }
+      },
+      "additionalProperties": false
+    },
+    "presentation": {
+      "type": "object",
+      "properties": {
+        "pinnedProperties": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+        "pinnedCommands": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+        "pinnedSliders": { "type": "array", "items": { "type": "string" }, "uniqueItems": true }
+      },
+      "additionalProperties": false
+    }
+  }
+}
