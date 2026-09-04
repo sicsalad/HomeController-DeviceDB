@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "styles": [
+    { "id": "home-device-general-default", "path": "home-device-styles/general-default.json", "status": "stable" },
+    { "id": "home-device-television-default", "path": "home-device-styles/television-default.json", "status": "stable" },
+    { "id": "home-device-hubitat-temperature-default", "path": "home-device-styles/hubitat-temperature-default.json", "status": "stable" },
+    { "id": "home-device-hue-light-default", "path": "home-device-styles/hue-light-default.json", "status": "stable" }
+  ]
+}
