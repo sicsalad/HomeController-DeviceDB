@@ -5,37 +5,214 @@
   "name": "TV remote",
   "deviceTypeId": "television",
   "connections": ["infrared"],
-  "renderer": "builtin-ir-tv",
+  "renderer": "declarative",
   "access": "free",
+
   "columns": 3,
   "useFullWidth": true,
-  "horizontalSpacing": 8,
-  "verticalSpacing": 8,
-  "screenMarginLeft": 12,
-  "screenMarginTop": 12,
-  "screenMarginRight": 12,
-  "screenMarginBottom": 12,
-  "backgroundColor": "$PageBackground",
-  "foregroundColor": "$TextPrimary",
-  "mutedTextColor": "$TextMuted",
-  "surfaceColor": "$Surface",
-  "accentColor": "$Accent",
-  "buttonColor": "$ButtonBackground",
-  "buttonTextColor": "$ButtonText",
-  "borderColor": "$CardBorder",
-  "buttonCornerRadius": 12,
-  "sectionCornerRadius": 14,
-  "buttonHeight": 52,
+
+  "horizontalSpacing": 10,
+  "verticalSpacing": 10,
+
+  "buttonCornerRadius": 16,
+  "sectionCornerRadius": 20,
+  "buttonHeight": 60,
   "buttonFontSize": 14,
-  "iconFontSize": 24,
-  "itemDefaults": {
-    "shape": "rounded",
-    "cornerRadius": 12,
-    "showIcon": true,
-    "showName": true,
-    "showType": false,
-    "showState": true
-  },
-  "initialStates": {},
-  "integrationChildPresentations": {}
+  "iconFontSize": 26,
+
+  "groups": [
+    {
+      "id": "power-row",
+      "name": "Power",
+      "columnSpan": 3,
+      "controls": [
+        {
+          "id": "power",
+          "type": "button",
+          "label": "⏻",
+          "command": "Power",
+          "columnSpan": 3,
+          "height": 70,
+          "shape": "pill",
+          "backgroundColor": "$Danger",
+          "textColor": "$OnDanger"
+        }
+      ]
+    },
+
+    {
+      "id": "navigation",
+      "name": "Navigation",
+      "columnSpan": 3,
+      "controls": [
+        {
+          "id": "up",
+          "type": "button",
+          "label": "▲",
+          "command": "Up",
+          "column": 1
+        },
+        {
+          "id": "left",
+          "type": "button",
+          "label": "◀",
+          "command": "Left"
+        },
+        {
+          "id": "ok",
+          "type": "button",
+          "label": "OK",
+          "command": "Ok",
+          "backgroundColor": "$Accent",
+          "textColor": "$OnAccent"
+        },
+        {
+          "id": "right",
+          "type": "button",
+          "label": "▶",
+          "command": "Right"
+        },
+        {
+          "id": "down",
+          "type": "button",
+          "label": "▼",
+          "command": "Down"
+        }
+      ]
+    },
+
+    {
+      "id": "main-actions",
+      "name": "Main Actions",
+      "columnSpan": 3,
+      "controls": [
+        {
+          "id": "home",
+          "type": "button",
+          "label": "HOME",
+          "command": "Home"
+        },
+        {
+          "id": "menu",
+          "type": "button",
+          "label": "MENU",
+          "command": "Menu"
+        },
+        {
+          "id": "back",
+          "type": "button",
+          "label": "BACK",
+          "command": "Back"
+        }
+      ]
+    },
+
+    {
+      "id": "volume-channel",
+      "name": "Volume & Channel",
+      "columnSpan": 3,
+      "controls": [
+        {
+          "id": "vol-up",
+          "type": "button",
+          "label": "VOL+",
+          "command": "VolumeUp"
+        },
+        {
+          "id": "mute",
+          "type": "button",
+          "label": "MUTE",
+          "command": "Mute"
+        },
+        {
+          "id": "ch-up",
+          "type": "button",
+          "label": "CH+",
+          "command": "ChannelUp"
+        },
+
+        {
+          "id": "vol-down",
+          "type": "button",
+          "label": "VOL−",
+          "command": "VolumeDown"
+        },
+        {
+          "id": "source",
+          "type": "button",
+          "label": "SOURCE",
+          "command": "Source"
+        },
+        {
+          "id": "ch-down",
+          "type": "button",
+          "label": "CH−",
+          "command": "ChannelDown"
+        }
+      ]
+    },
+
+    {
+      "id": "media",
+      "name": "Media",
+      "columnSpan": 3,
+      "controls": [
+        {
+          "id": "rewind",
+          "type": "button",
+          "label": "⏪",
+          "command": "Rewind"
+        },
+        {
+          "id": "play-pause",
+          "type": "button",
+          "label": "⏯",
+          "command": "PlayPause"
+        },
+        {
+          "id": "forward",
+          "type": "button",
+          "label": "⏩",
+          "command": "Forward"
+        }
+      ]
+    },
+
+    {
+      "id": "color-buttons",
+      "name": "Color Keys",
+      "columnSpan": 3,
+      "controls": [
+        {
+          "id": "red",
+          "type": "button",
+          "label": "",
+          "command": "Red",
+          "backgroundColor": "#B3261E"
+        },
+        {
+          "id": "green",
+          "type": "button",
+          "label": "",
+          "command": "Green",
+          "backgroundColor": "#2E7D32"
+        },
+        {
+          "id": "yellow",
+          "type": "button",
+          "label": "",
+          "command": "Yellow",
+          "backgroundColor": "#F9A825"
+        },
+        {
+          "id": "blue",
+          "type": "button",
+          "label": "",
+          "command": "Blue",
+          "backgroundColor": "#1565C0",
+          "columnSpan": 3
+        }
+      ]
+    }
+  ]
 }
