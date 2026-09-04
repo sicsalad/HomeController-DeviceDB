@@ -822,6 +822,12 @@
       "versionCode": 1788548396,
       "publishedUtc": "2026-09-04T18:59:56Z",
       "notes": "Expand Device UI template v2 schema"
+    },
+    {
+      "version": "1.0.190",
+      "versionCode": 1788548419,
+      "publishedUtc": "2026-09-04T19:00:19Z",
+      "notes": "Validate Device UI templates as schema v2"
     }
   ]
 }
