@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.198",
-  "versionCode": 1788553089,
-  "publishedUtc": "2026-09-04T20:18:09Z",
-  "commit": "7f5a709afb2770d790c0012eb15a74daa910e3e9",
-  "patchNotes": "Add Hue light Home style"
+  "version": "1.0.199",
+  "versionCode": 1788558481,
+  "publishedUtc": "2026-09-04T21:48:01Z",
+  "commit": "f84e517a9056da486f2cfe8519cd5495fa494bf1",
+  "patchNotes": "Replace default UI and Home device style templates"
 }

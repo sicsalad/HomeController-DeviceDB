@@ -870,6 +870,12 @@
       "versionCode": 1788553089,
       "publishedUtc": "2026-09-04T20:18:09Z",
       "notes": "Add Hue light Home style"
+    },
+    {
+      "version": "1.0.199",
+      "versionCode": 1788558481,
+      "publishedUtc": "2026-09-04T21:48:01Z",
+      "notes": "Replace default UI and Home device style templates"
     }
   ]
 }
