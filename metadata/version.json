@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.193",
-  "versionCode": 1788553029,
-  "publishedUtc": "2026-09-04T20:17:09Z",
-  "commit": "ce8b5b4651fe8ccb50b01e925522d3f078d6221d",
-  "patchNotes": "Add Home device style schema"
+  "version": "1.0.195",
+  "versionCode": 1788553044,
+  "publishedUtc": "2026-09-04T20:17:24Z",
+  "commit": "433bf4593ec95cce45c5d5b9379e89d3aab8d618",
+  "patchNotes": "Add default Home device card style"
 }

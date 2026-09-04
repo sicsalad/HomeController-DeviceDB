@@ -846,6 +846,12 @@
       "versionCode": 1788553029,
       "publishedUtc": "2026-09-04T20:17:09Z",
       "notes": "Add Home device style schema"
+    },
+    {
+      "version": "1.0.195",
+      "versionCode": 1788553044,
+      "publishedUtc": "2026-09-04T20:17:24Z",
+      "notes": "Add default Home device card style"
     }
   ]
 }
