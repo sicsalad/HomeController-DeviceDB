@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.208",
-  "versionCode": 1788565704,
-  "publishedUtc": "2026-09-04T23:48:24Z",
-  "commit": "9e8d4c8f835d6552733d106d83f200802d7cee98",
-  "patchNotes": "Support gradient Add Device palettes"
+  "version": "1.0.209",
+  "versionCode": 1788565724,
+  "publishedUtc": "2026-09-04T23:48:45Z",
+  "commit": "479bd9d676b7056761507e8e6c8ea5db7393498a",
+  "patchNotes": "Refine Add Device gradients and icon contrast"
 }

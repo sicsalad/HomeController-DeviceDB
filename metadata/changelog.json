@@ -930,6 +930,12 @@
       "versionCode": 1788565704,
       "publishedUtc": "2026-09-04T23:48:24Z",
       "notes": "Support gradient Add Device palettes"
+    },
+    {
+      "version": "1.0.209",
+      "versionCode": 1788565724,
+      "publishedUtc": "2026-09-04T23:48:45Z",
+      "notes": "Refine Add Device gradients and icon contrast"
     }
   ]
 }
