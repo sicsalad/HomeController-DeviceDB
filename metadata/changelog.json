@@ -834,6 +834,12 @@
       "versionCode": 1788548498,
       "publishedUtc": "2026-09-04T19:01:38Z",
       "notes": "Migrate indexed UI templates to schema v2"
+    },
+    {
+      "version": "1.0.192",
+      "versionCode": 1788549003,
+      "publishedUtc": "2026-09-04T19:10:03Z",
+      "notes": "Document V2-only Device UI template policy"
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.191",
-  "versionCode": 1788548498,
-  "publishedUtc": "2026-09-04T19:01:38Z",
-  "commit": "11315d151a2b587c0ab497f2fe10d0609103ba0c",
-  "patchNotes": "Migrate indexed UI templates to schema v2"
+  "version": "1.0.192",
+  "versionCode": 1788549003,
+  "publishedUtc": "2026-09-04T19:10:03Z",
+  "commit": "6ad4418bd3bce5532017191015c6725ace490e29",
+  "patchNotes": "Document V2-only Device UI template policy"
 }
