@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.175",
-  "versionCode": 1788545670,
-  "publishedUtc": "2026-09-04T18:14:30Z",
-  "commit": "dd99c7b09d3053a49ec07e688d1b906e48a0608d",
-  "patchNotes": "Add unified HomeController device SVG icon set"
+  "version": "1.0.176",
+  "versionCode": 1788545842,
+  "publishedUtc": "2026-09-04T18:17:22Z",
+  "commit": "97464c428453403cb51b1eb81aca068b41ca07be",
+  "patchNotes": "Add BLE device and property SVG icon set"
 }

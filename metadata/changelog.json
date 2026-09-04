@@ -738,6 +738,12 @@
       "versionCode": 1788545670,
       "publishedUtc": "2026-09-04T18:14:30Z",
       "notes": "Add unified HomeController device SVG icon set"
+    },
+    {
+      "version": "1.0.176",
+      "versionCode": 1788545842,
+      "publishedUtc": "2026-09-04T18:17:22Z",
+      "notes": "Add BLE device and property SVG icon set"
     }
   ]
 }
