@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.186",
-  "versionCode": 1788546712,
-  "publishedUtc": "2026-09-04T18:31:52Z",
-  "commit": "2d1266aba1f1ea114b8fbe6a38bfc63390bed44d",
-  "patchNotes": "Validate complete image manifest"
+  "version": "1.0.187",
+  "versionCode": 1788546739,
+  "publishedUtc": "2026-09-04T18:32:19Z",
+  "commit": "19cdfda984e3a67be67d3b68b982ed290e64cc81",
+  "patchNotes": "Add missing X-Fan cleaning action icon"
 }

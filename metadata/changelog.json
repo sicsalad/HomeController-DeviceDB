@@ -804,6 +804,12 @@
       "versionCode": 1788546712,
       "publishedUtc": "2026-09-04T18:31:52Z",
       "notes": "Validate complete image manifest"
+    },
+    {
+      "version": "1.0.187",
+      "versionCode": 1788546739,
+      "publishedUtc": "2026-09-04T18:32:19Z",
+      "notes": "Add missing X-Fan cleaning action icon"
     }
   ]
 }
