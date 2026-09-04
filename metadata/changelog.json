@@ -954,6 +954,12 @@
       "versionCode": 1788565841,
       "publishedUtc": "2026-09-04T23:50:41Z",
       "notes": "Refresh Philips Hue brand-inspired icon"
+    },
+    {
+      "version": "1.0.213",
+      "versionCode": 1788565978,
+      "publishedUtc": "2026-09-04T23:52:58Z",
+      "notes": "Add device type and model search translations"
     }
   ]
 }

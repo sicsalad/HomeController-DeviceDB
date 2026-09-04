@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.212",
-  "versionCode": 1788565841,
-  "publishedUtc": "2026-09-04T23:50:41Z",
-  "commit": "3395e033dedaac6b2bfeaa79c88110d91be93d09",
-  "patchNotes": "Refresh Philips Hue brand-inspired icon"
+  "version": "1.0.213",
+  "versionCode": 1788565978,
+  "publishedUtc": "2026-09-04T23:52:58Z",
+  "commit": "d1ef4d528b66b5b15aab14278f1233a8ef93441b",
+  "patchNotes": "Add device type and model search translations"
 }
