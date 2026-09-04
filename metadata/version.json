@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.181",
-  "versionCode": 1788546440,
-  "publishedUtc": "2026-09-04T18:27:20Z",
-  "commit": "2b8f00d0e12d72b4b00cd55335a6355ec69ad87c",
-  "patchNotes": "Complete image assets and add validation"
+  "version": "1.0.182",
+  "versionCode": 1788546458,
+  "publishedUtc": "2026-09-04T18:27:38Z",
+  "commit": "cf9e337f9da215d7b3e51485c7f40c9e2ce8445e",
+  "patchNotes": "Validate DeviceDB image assets in CI"
 }
