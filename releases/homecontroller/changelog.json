@@ -360,6 +360,12 @@
       "versionCode": 1788504402,
       "publishedUtc": "2026-09-04T06:50:52Z",
       "notes": "Show Hue child pin action on detail page"
+    },
+    {
+      "version": "1.0.900",
+      "versionCode": 1788519171,
+      "publishedUtc": "2026-09-04T10:57:06Z",
+      "notes": "Remove unused Media3 packages causing AndroidX duplicate classes"
     }
   ]
 }
