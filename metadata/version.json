@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.178",
-  "versionCode": 1788546045,
-  "publishedUtc": "2026-09-04T18:20:45Z",
-  "commit": "052caf9e784a0e60e2085966b0775a027ccb7523",
-  "patchNotes": "Add state and numeric remote SVG icon set"
+  "version": "1.0.179",
+  "versionCode": 1788546141,
+  "publishedUtc": "2026-09-04T18:22:21Z",
+  "commit": "0e98305f89dcd18aab91e9359500fbb454404508",
+  "patchNotes": "Add missing RemoteCommand SVG aliases"
 }
