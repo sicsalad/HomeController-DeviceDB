@@ -9,15 +9,15 @@
     "cardCornerRadius": 16
   },
   "palettes": {
-    "blue":   {"backgroundColor":"#0B3150","borderColor":"#168DE2","accentColor":"#33B5FF","foregroundColor":"#FFFFFF","subtitleColor":"#AFC7D5"},
-    "cyan":   {"backgroundColor":"#073D49","borderColor":"#18A7B8","accentColor":"#38D7E8","foregroundColor":"#FFFFFF","subtitleColor":"#B3DADF"},
-    "green":  {"backgroundColor":"#0D4933","borderColor":"#27A96B","accentColor":"#42EF8B","foregroundColor":"#FFFFFF","subtitleColor":"#B4D6C5"},
-    "violet": {"backgroundColor":"#282154","borderColor":"#7659D8","accentColor":"#A879FF","foregroundColor":"#FFFFFF","subtitleColor":"#C7BCEB"},
-    "orange": {"backgroundColor":"#53311D","borderColor":"#C87038","accentColor":"#FF9B55","foregroundColor":"#FFFFFF","subtitleColor":"#DEC0AA"},
-    "red":    {"backgroundColor":"#51252B","borderColor":"#C54A5C","accentColor":"#FF6377","foregroundColor":"#FFFFFF","subtitleColor":"#E2B7BD"},
-    "gold":   {"backgroundColor":"#4B4015","borderColor":"#B99726","accentColor":"#FFD24A","foregroundColor":"#FFFFFF","subtitleColor":"#DED4AA"},
-    "pink":   {"backgroundColor":"#4B1F3C","borderColor":"#B74483","accentColor":"#FF62AA","foregroundColor":"#FFFFFF","subtitleColor":"#DDB6CB"},
-    "gray":   {"backgroundColor":"#26353A","borderColor":"#66787D","accentColor":"#D9E1E3","foregroundColor":"#FFFFFF","subtitleColor":"#BAC5C7"}
+    "blue":   {"backgroundColor":"#102B3B","gradientStartColor":"#0A2230","gradientEndColor":"#12394E","borderColor":"#327DA2","accentColor":"#7DDCFF","foregroundColor":"#FFFFFF","subtitleColor":"#B8CAD2","iconBrightness":1.9},
+    "cyan":   {"backgroundColor":"#10343A","gradientStartColor":"#082B31","gradientEndColor":"#0C4149","borderColor":"#348A93","accentColor":"#79F0F5","foregroundColor":"#FFFFFF","subtitleColor":"#BAD6D9","iconBrightness":1.9},
+    "green":  {"backgroundColor":"#123A2C","gradientStartColor":"#0B2B21","gradientEndColor":"#174936","borderColor":"#3A8B68","accentColor":"#75F2AD","foregroundColor":"#FFFFFF","subtitleColor":"#B9D5C6","iconBrightness":1.9},
+    "violet": {"backgroundColor":"#261F49","gradientStartColor":"#1C1738","gradientEndColor":"#31275C","borderColor":"#6553A8","accentColor":"#BEA8FF","foregroundColor":"#FFFFFF","subtitleColor":"#CBC2E5","iconBrightness":1.95},
+    "orange": {"backgroundColor":"#3C281B","gradientStartColor":"#302116","gradientEndColor":"#4B3020","borderColor":"#9B6139","accentColor":"#FFB67F","foregroundColor":"#FFFFFF","subtitleColor":"#DAC6B8","iconBrightness":1.9},
+    "red":    {"backgroundColor":"#3C2025","gradientStartColor":"#321A1F","gradientEndColor":"#49232A","borderColor":"#984553","accentColor":"#FF8A99","foregroundColor":"#FFFFFF","subtitleColor":"#DEC0C5","iconBrightness":1.9},
+    "gold":   {"backgroundColor":"#3A3418","gradientStartColor":"#2E2914","gradientEndColor":"#49401A","borderColor":"#98832F","accentColor":"#FFE47A","foregroundColor":"#FFFFFF","subtitleColor":"#DCD5B4","iconBrightness":1.9},
+    "pink":   {"backgroundColor":"#3A1D31","gradientStartColor":"#30192A","gradientEndColor":"#49213D","borderColor":"#91436E","accentColor":"#FF91C5","foregroundColor":"#FFFFFF","subtitleColor":"#DCC0CF","iconBrightness":1.9},
+    "gray":   {"backgroundColor":"#253236","gradientStartColor":"#1B272A","gradientEndColor":"#314247","borderColor":"#596C72","accentColor":"#E3ECEE","foregroundColor":"#FFFFFF","subtitleColor":"#C0CBCE","iconBrightness":1.85}
   },
   "connectionTypes": [
     {"id":"wifi","palette":"blue","icon":"images/actions/action_wifi.svg","titleKey":"connection.wifi.title","subtitleKey":"connection.wifi.subtitle"},
