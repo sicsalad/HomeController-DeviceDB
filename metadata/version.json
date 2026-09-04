@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.173",
-  "versionCode": 1788543570,
-  "publishedUtc": "2026-09-04T17:39:30Z",
-  "commit": "a6a41d35a47ba09424adee6d140a5bbdc4fd8d09",
-  "patchNotes": "Expand runtime image catalog with centralized UI assets"
+  "version": "1.0.174",
+  "versionCode": 1788544552,
+  "publishedUtc": "2026-09-04T17:55:52Z",
+  "commit": "ca9d40398e53fd569127f78c275bdd6793a2199b",
+  "patchNotes": "Document required image assets and sizes"
 }
