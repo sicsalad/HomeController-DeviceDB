@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.201",
-  "versionCode": 1788563082,
-  "publishedUtc": "2026-09-04T23:04:42Z",
-  "commit": "601e003d16b513196897b3e78a37c44ca584084a",
-  "patchNotes": "Add shared add-device selection UI catalog"
+  "version": "1.0.202",
+  "versionCode": 1788563098,
+  "publishedUtc": "2026-09-04T23:04:58Z",
+  "commit": "2f1a2d10d52dfe1a66423f2eca5730653c5e6c0b",
+  "patchNotes": "Add Hungarian selection UI localization"
 }

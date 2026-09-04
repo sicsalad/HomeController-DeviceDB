@@ -888,6 +888,12 @@
       "versionCode": 1788563082,
       "publishedUtc": "2026-09-04T23:04:42Z",
       "notes": "Add shared add-device selection UI catalog"
+    },
+    {
+      "version": "1.0.202",
+      "versionCode": 1788563098,
+      "publishedUtc": "2026-09-04T23:04:58Z",
+      "notes": "Add Hungarian selection UI localization"
     }
   ]
 }
