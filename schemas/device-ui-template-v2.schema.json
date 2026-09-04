@@ -3,224 +3,184 @@
   "$id": "https://github.com/sicsalad/HomeController-DeviceDB/schemas/device-ui-template-v2.schema.json",
   "title": "HomeController Device UI template v2",
   "type": "object",
-  "additionalProperties": true,
-  "required": [
-    "schemaVersion",
-    "id",
-    "name",
-    "deviceTypeId",
-    "connections"
-  ],
+  "additionalProperties": false,
+  "required": ["schemaVersion", "id", "name", "deviceTypeId", "connections"],
   "properties": {
-    "$schema": {
-      "type": "string"
-    },
-    "schemaVersion": {
-      "const": 2
-    },
-    "id": {
-      "type": "string",
-      "minLength": 1
-    },
-    "name": {
-      "type": "string",
-      "minLength": 1
-    },
-    "deviceTypeId": {
-      "type": "string",
-      "minLength": 1
-    },
-    "connections": {
-      "type": "array",
-      "items": {
-        "enum": [
-          "infrared",
-          "wifi",
-          "bluetooth"
-        ]
-      },
-      "uniqueItems": true
-    },
-    "renderer": {
-      "enum": [
-        "declarative",
-        "builtin-ir-tv",
-        "builtin-ir-ac",
-        "builtin-ir-simple",
-        "builtin-wifi-ac",
-        "builtin-hubitat",
-        "builtin-hue",
-        "builtin-dashboard"
-      ]
-    },
-    "columns": {
-      "type": "integer",
-      "minimum": 1,
-      "maximum": 10
-    },
-    "horizontalSpacing": {
-      "type": "number",
-      "minimum": 0,
-      "maximum": 20
-    },
-    "verticalSpacing": {
-      "type": "number",
-      "minimum": 0,
-      "maximum": 20
-    },
-    "groups": {
-      "type": "array",
-      "items": {
-        "$ref": "#/$defs/group"
-      }
-    }
+    "$schema": {"type":"string"},
+    "schemaVersion": {"const":2},
+    "id": {"type":"string","minLength":1},
+    "name": {"type":"string","minLength":1},
+    "deviceTypeId": {"type":"string","minLength":1},
+    "connections": {"type":"array","items":{"enum":["infrared","wifi","bluetooth","local"]},"uniqueItems":true},
+    "renderer": {"enum":["declarative","builtin-ir-tv","builtin-ir-ac","builtin-ir-simple","builtin-wifi-ac","builtin-hubitat","builtin-hue","builtin-dashboard","home","settings"]},
+    "access": {"enum":["free","premium"]},
+    "columns": {"type":"integer","minimum":1,"maximum":10},
+    "useFullWidth": {"type":"boolean"},
+    "horizontalSpacing": {"type":"number","minimum":0,"maximum":64},
+    "verticalSpacing": {"type":"number","minimum":0,"maximum":64},
+    "screenMarginLeft": {"type":"number","minimum":0,"maximum":256},
+    "screenMarginTop": {"type":"number","minimum":0,"maximum":256},
+    "screenMarginRight": {"type":"number","minimum":0,"maximum":256},
+    "screenMarginBottom": {"type":"number","minimum":0,"maximum":256},
+    "backgroundColor": {"$ref":"#/$defs/nullableString"},
+    "backgroundColor2": {"$ref":"#/$defs/nullableString"},
+    "backgroundMode": {"type":"string"},
+    "backgroundImage": {"$ref":"#/$defs/nullableString"},
+    "backgroundImageAspect": {"enum":["fill","stretch","aspect-fit"]},
+    "foregroundColor": {"$ref":"#/$defs/nullableString"},
+    "mutedTextColor": {"$ref":"#/$defs/nullableString"},
+    "surfaceColor": {"$ref":"#/$defs/nullableString"},
+    "accentColor": {"$ref":"#/$defs/nullableString"},
+    "buttonColor": {"$ref":"#/$defs/nullableString"},
+    "buttonTextColor": {"$ref":"#/$defs/nullableString"},
+    "borderColor": {"$ref":"#/$defs/nullableString"},
+    "themeSwitcherBackgroundColor": {"$ref":"#/$defs/nullableString"},
+    "themeSwitcherTextColor": {"$ref":"#/$defs/nullableString"},
+    "themeSwitcherBorderColor": {"$ref":"#/$defs/nullableString"},
+    "themeSwitcherText": {"type":"string"},
+    "themeSwitcherOpacity": {"type":"number","minimum":0,"maximum":1},
+    "buttonCornerRadius": {"type":"integer","minimum":0,"maximum":128},
+    "sectionCornerRadius": {"type":"integer","minimum":0,"maximum":128},
+    "buttonHeight": {"type":"number","minimum":0,"maximum":512},
+    "buttonFontSize": {"type":"number","minimum":1,"maximum":128},
+    "iconFontSize": {"type":"number","minimum":1,"maximum":256},
+    "itemDefaults": {"$ref":"#/$defs/itemStyle"},
+    "itemStyles": {"type":"object","additionalProperties":{"$ref":"#/$defs/itemStyle"}},
+    "sections": {"type":"array","items":{"$ref":"#/$defs/section"}},
+    "groups": {"type":"array","items":{"$ref":"#/$defs/group"}},
+    "initialStates": {"type":"object","additionalProperties":{"type":"string"}},
+    "integrationChildPresentations": {"type":"object","additionalProperties":{"$ref":"#/$defs/integrationChildPresentation"}}
   },
   "$defs": {
-    "group": {
-      "type": "object",
-      "additionalProperties": true,
+    "nullableString": {"type":["string","null"]},
+    "itemStyle": {
+      "type":"object","additionalProperties":false,
       "properties": {
-        "id": {
-          "type": "string",
-          "minLength": 1
-        },
-        "name": {
-          "type": [
-            "string",
-            "null"
-          ]
-        },
-        "type": {
-          "enum": [
-            "normal",
-            "child-items",
-            "filter"
-          ]
-        },
-        "order": {
-          "type": "integer"
-        },
-        "columnSpan": {
-          "type": "integer",
-          "minimum": 1,
-          "maximum": 10
-        },
-        "rowSpan": {
-          "type": "integer",
-          "minimum": 1,
-          "maximum": 10
-        },
-        "childItemsSource": {
-          "type": "string"
-        },
-        "childItemsColumns": {
-          "type": "integer",
-          "minimum": 1,
-          "maximum": 10
-        },
-        "filterScope": {
-          "type": "string"
-        },
-        "filterProperty": {
-          "type": "string"
-        },
-        "filterMode": {
-          "enum": [
-            "in",
-            "notIn",
-            "equals",
-            "notEquals",
-            "contains",
-            "notContains",
-            "greaterThan",
-            "greaterOrEqual",
-            "lessThan",
-            "lessOrEqual",
-            "and",
-            "or"
-          ]
-        },
-        "filterValues": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        },
-        "filterAutoValues": {
-          "type": "boolean"
-        },
-        "controls": {
-          "type": "array",
-          "items": {
-            "$ref": "#/$defs/control"
-          }
-        },
-        "groups": {
-          "type": "array",
-          "items": {
-            "$ref": "#/$defs/group"
-          }
-        }
+        "columns":{"type":["integer","null"],"minimum":1,"maximum":10},
+        "columnSpan":{"type":["integer","null"],"minimum":1,"maximum":10},
+        "rowSpan":{"type":["integer","null"],"minimum":1,"maximum":10},
+        "displayMode":{"$ref":"#/$defs/nullableString"},
+        "shape":{"$ref":"#/$defs/nullableString"},
+        "backgroundColor":{"$ref":"#/$defs/nullableString"},
+        "textColor":{"$ref":"#/$defs/nullableString"},
+        "mutedTextColor":{"$ref":"#/$defs/nullableString"},
+        "borderColor":{"$ref":"#/$defs/nullableString"},
+        "accentColor":{"$ref":"#/$defs/nullableString"},
+        "cornerRadius":{"type":["integer","null"],"minimum":0,"maximum":128},
+        "height":{"type":["number","null"],"minimum":0},
+        "width":{"type":["number","null"],"minimum":0},
+        "fontSize":{"type":["number","null"],"minimum":1},
+        "iconSize":{"type":["number","null"],"minimum":1},
+        "stateIconSize":{"type":["number","null"],"minimum":1},
+        "stateLabelFontSize":{"type":["number","null"],"minimum":1},
+        "stateValueFontSize":{"type":["number","null"],"minimum":1},
+        "stateButtonFontSize":{"type":["number","null"],"minimum":1},
+        "showIcon":{"type":["boolean","null"]},
+        "showName":{"type":["boolean","null"]},
+        "showType":{"type":["boolean","null"]},
+        "showState":{"type":["boolean","null"]}
+      }
+    },
+    "section": {
+      "type":"object","additionalProperties":false,
+      "properties": {
+        "title":{"$ref":"#/$defs/nullableString"},
+        "subtitle":{"$ref":"#/$defs/nullableString"},
+        "backgroundColor":{"$ref":"#/$defs/nullableString"},
+        "controls":{"type":"array","items":{"$ref":"#/$defs/control"}}
+      }
+    },
+    "group": {
+      "type":"object","additionalProperties":false,
+      "properties": {
+        "id":{"type":"string","minLength":1},
+        "name":{"$ref":"#/$defs/nullableString"},
+        "order":{"type":"integer"},
+        "columnSpan":{"type":"integer","minimum":1,"maximum":10},
+        "rowSpan":{"type":"integer","minimum":1,"maximum":10},
+        "width":{"type":"integer","minimum":1,"maximum":10},
+        "height":{"type":"integer","minimum":1,"maximum":10},
+        "type":{"enum":["normal","child-items","filter"]},
+        "childItemsSource":{"type":"string"},
+        "childItemsColumns":{"type":"integer","minimum":1,"maximum":10},
+        "filterScope":{"type":"string"},
+        "filterProperty":{"type":"string"},
+        "filterMode":{"enum":["in","notIn","equals","notEquals","contains","notContains","greaterThan","greaterOrEqual","lessThan","lessOrEqual","and","or"]},
+        "filterValues":{"type":"array","items":{"type":"string"}},
+        "filterAutoValues":{"type":"boolean"},
+        "filterAutoItemMargin":{"type":"number","minimum":0,"maximum":64},
+        "filterAutoItemCornerRadius":{"type":"integer","minimum":0,"maximum":128},
+        "filterAutoItemContent":{"enum":["text","image","text-image","image-text"]},
+        "shape":{"type":"string"},
+        "borderColor":{"$ref":"#/$defs/nullableString"},
+        "borderWidth":{"type":"number","minimum":0,"maximum":64},
+        "backgroundMode":{"type":"string"},
+        "backgroundColor":{"$ref":"#/$defs/nullableString"},
+        "backgroundColor2":{"$ref":"#/$defs/nullableString"},
+        "backgroundImage":{"$ref":"#/$defs/nullableString"},
+        "backgroundImageAspect":{"enum":["fill","stretch","aspect-fit"]},
+        "cornerRadius":{"type":"integer","minimum":0,"maximum":128},
+        "overlayKey":{"$ref":"#/$defs/nullableString"},
+        "overlayState":{"$ref":"#/$defs/nullableString"},
+        "controls":{"type":"array","items":{"$ref":"#/$defs/control"}},
+        "groups":{"type":"array","items":{"$ref":"#/$defs/group"}}
       }
     },
     "control": {
-      "type": "object",
-      "additionalProperties": true,
+      "type":"object","additionalProperties":false,
       "properties": {
-        "id": {
-          "type": "string"
-        },
-        "type": {
-          "enum": [
-            "label",
-            "multiline-label",
-            "edittext",
-            "button",
-            "list",
-            "checkbox",
-            "filter-toggle",
-            "on-off",
-            "link",
-            "tile",
-            "toggle",
-            "stepper",
-            "slider",
-            "picker"
-          ]
-        },
-        "text": {
-          "type": "string"
-        },
-        "label": {
-          "type": "string"
-        },
-        "filterId": {
-          "type": [
-            "string",
-            "null"
-          ]
-        },
-        "filterValue": {
-          "type": [
-            "string",
-            "null"
-          ]
-        },
-        "hideText": {
-          "type": "boolean"
-        },
-        "uncheckedImage": {
-          "type": [
-            "string",
-            "null"
-          ]
-        },
-        "checkedImage": {
-          "type": [
-            "string",
-            "null"
-          ]
-        }
+        "id":{"type":"string"},
+        "order":{"type":"integer"},
+        "type":{"enum":["label","multiline-label","edittext","button","list","checkbox","filter-toggle","on-off","link","tile","toggle","stepper","slider","picker"]},
+        "label":{"type":"string"},
+        "text":{"type":"string"},
+        "command":{"type":"string"},
+        "value":{},
+        "icon":{"$ref":"#/$defs/nullableString"},
+        "shape":{"$ref":"#/$defs/nullableString"},
+        "columnSpan":{"type":"integer","minimum":1,"maximum":10},
+        "row":{"type":"integer","minimum":0},
+        "column":{"type":"integer","minimum":0},
+        "verticalAlign":{"enum":["start","center","end","fill"]},
+        "sizeXPercent":{"type":"number","minimum":0,"maximum":100},
+        "sizeYPercent":{"type":"number","minimum":0,"maximum":100},
+        "minimum":{"type":["number","null"]},
+        "maximum":{"type":["number","null"]},
+        "step":{"type":["number","null"],"exclusiveMinimum":0},
+        "stateField":{"$ref":"#/$defs/nullableString"},
+        "options":{"type":"array","items":{"type":"string"}},
+        "backgroundColor":{"$ref":"#/$defs/nullableString"},
+        "backgroundImage":{"$ref":"#/$defs/nullableString"},
+        "textColor":{"$ref":"#/$defs/nullableString"},
+        "borderColor":{"$ref":"#/$defs/nullableString"},
+        "borderWidth":{"type":"number","minimum":0,"maximum":64},
+        "height":{"type":["number","null"],"minimum":0},
+        "width":{"type":["number","null"],"minimum":0},
+        "fontFamily":{"type":"string"},
+        "fontSize":{"type":["number","null"],"minimum":1},
+        "fontAttribute":{"enum":["normal","bold","italic","bolditalic"]},
+        "lines":{"type":"integer","minimum":1,"maximum":64},
+        "iconSize":{"type":["number","null"],"minimum":1},
+        "iconOnly":{"type":"boolean"},
+        "linkUrl":{"$ref":"#/$defs/nullableString"},
+        "stateKey":{"$ref":"#/$defs/nullableString"},
+        "setState":{"$ref":"#/$defs/nullableString"},
+        "cycleStates":{"type":"array","items":{"type":"string"}},
+        "group":{"anyOf":[{"$ref":"#/$defs/group"},{"type":"null"}]},
+        "filterId":{"$ref":"#/$defs/nullableString"},
+        "filterValue":{"$ref":"#/$defs/nullableString"},
+        "filterMode":{"type":"string"},
+        "hideText":{"type":"boolean"},
+        "uncheckedImage":{"$ref":"#/$defs/nullableString"},
+        "checkedImage":{"$ref":"#/$defs/nullableString"}
+      }
+    },
+    "integrationChildPresentation": {
+      "type":"object","additionalProperties":false,
+      "properties": {
+        "pinnedProperties":{"type":"array","items":{"type":"string"},"uniqueItems":true},
+        "pinnedCommands":{"type":"array","items":{"type":"string"},"uniqueItems":true},
+        "pinnedSliders":{"type":"array","items":{"type":"string"},"uniqueItems":true}
       }
     }
   }
