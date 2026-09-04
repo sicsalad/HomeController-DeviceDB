@@ -708,6 +708,12 @@
       "versionCode": 1788543489,
       "publishedUtc": "2026-09-04T17:38:09Z",
       "notes": "Add centralized pin action image"
+    },
+    {
+      "version": "1.0.171",
+      "versionCode": 1788543508,
+      "publishedUtc": "2026-09-04T17:38:28Z",
+      "notes": "Add runtime image asset catalog"
     }
   ]
 }
