@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.180",
-  "versionCode": 1788546185,
-  "publishedUtc": "2026-09-04T18:23:05Z",
-  "commit": "7ca997d3744e7b4cbb76891039e33935603a3f4c",
-  "patchNotes": "Expand runtime device image catalog"
+  "version": "1.0.181",
+  "versionCode": 1788546440,
+  "publishedUtc": "2026-09-04T18:27:20Z",
+  "commit": "2b8f00d0e12d72b4b00cd55335a6355ec69ad87c",
+  "patchNotes": "Complete image assets and add validation"
 }

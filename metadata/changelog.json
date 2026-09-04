@@ -768,6 +768,12 @@
       "versionCode": 1788546185,
       "publishedUtc": "2026-09-04T18:23:05Z",
       "notes": "Expand runtime device image catalog"
+    },
+    {
+      "version": "1.0.181",
+      "versionCode": 1788546440,
+      "publishedUtc": "2026-09-04T18:27:20Z",
+      "notes": "Complete image assets and add validation"
     }
   ]
 }
