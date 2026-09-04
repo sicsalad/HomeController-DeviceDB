@@ -438,6 +438,12 @@
       "versionCode": 1788542922,
       "publishedUtc": "2026-09-04T17:33:08Z",
       "notes": "Use centralized image icons on nested Home screens"
+    },
+    {
+      "version": "1.0.1018",
+      "versionCode": 1788544046,
+      "publishedUtc": "2026-09-04T17:51:31Z",
+      "notes": "Document DeviceDB runtime images in UI templates"
     }
   ]
 }
