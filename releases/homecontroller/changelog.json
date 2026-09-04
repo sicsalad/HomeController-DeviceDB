@@ -444,6 +444,12 @@
       "versionCode": 1788544046,
       "publishedUtc": "2026-09-04T17:51:31Z",
       "notes": "Document DeviceDB runtime images in UI templates"
+    },
+    {
+      "version": "1.0.1020",
+      "versionCode": 1788546706,
+      "publishedUtc": "2026-09-04T18:36:12Z",
+      "notes": "Clarify Samsung TV HID pairing flow"
     }
   ]
 }
