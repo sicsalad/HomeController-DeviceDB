@@ -1,0 +1,64 @@
+{
+  "$schema": "../schemas/selection-ui-v1.schema.json",
+  "schemaVersion": 1,
+  "page": {
+    "backgroundColor": "#071E1D",
+    "headerColor": "#FFFFFF",
+    "subtitleColor": "#A7B8BA",
+    "backButtonColor": "#425A3D",
+    "cardCornerRadius": 16
+  },
+  "palettes": {
+    "blue":   {"backgroundColor":"#0B3150","borderColor":"#168DE2","accentColor":"#33B5FF","foregroundColor":"#FFFFFF","subtitleColor":"#AFC7D5"},
+    "cyan":   {"backgroundColor":"#073D49","borderColor":"#18A7B8","accentColor":"#38D7E8","foregroundColor":"#FFFFFF","subtitleColor":"#B3DADF"},
+    "green":  {"backgroundColor":"#0D4933","borderColor":"#27A96B","accentColor":"#42EF8B","foregroundColor":"#FFFFFF","subtitleColor":"#B4D6C5"},
+    "violet": {"backgroundColor":"#282154","borderColor":"#7659D8","accentColor":"#A879FF","foregroundColor":"#FFFFFF","subtitleColor":"#C7BCEB"},
+    "orange": {"backgroundColor":"#53311D","borderColor":"#C87038","accentColor":"#FF9B55","foregroundColor":"#FFFFFF","subtitleColor":"#DEC0AA"},
+    "red":    {"backgroundColor":"#51252B","borderColor":"#C54A5C","accentColor":"#FF6377","foregroundColor":"#FFFFFF","subtitleColor":"#E2B7BD"},
+    "gold":   {"backgroundColor":"#4B4015","borderColor":"#B99726","accentColor":"#FFD24A","foregroundColor":"#FFFFFF","subtitleColor":"#DED4AA"},
+    "pink":   {"backgroundColor":"#4B1F3C","borderColor":"#B74483","accentColor":"#FF62AA","foregroundColor":"#FFFFFF","subtitleColor":"#DDB6CB"},
+    "gray":   {"backgroundColor":"#26353A","borderColor":"#66787D","accentColor":"#D9E1E3","foregroundColor":"#FFFFFF","subtitleColor":"#BAC5C7"}
+  },
+  "connectionTypes": [
+    {"id":"wifi","palette":"blue","icon":"images/actions/action_wifi.svg","titleKey":"connection.wifi.title","subtitleKey":"connection.wifi.subtitle"},
+    {"id":"infrared","palette":"violet","icon":"images/device-types/device_ir_transceiver.svg","titleKey":"connection.infrared.title","subtitleKey":"connection.infrared.subtitle"},
+    {"id":"bluetooth","palette":"green","icon":"images/device-types/device_bluetooth.svg","titleKey":"connection.bluetooth.title","subtitleKey":"connection.bluetooth.subtitle"},
+    {"id":"integrations","palette":"blue","icon":"images/device-types/device_hubitat.svg","titleKey":"connection.integrations.title","subtitleKey":"connection.integrations.subtitle"},
+    {"id":"other","palette":"gray","icon":"images/device-types/device_general.svg","titleKey":"connection.other.title","subtitleKey":"connection.other.subtitle"}
+  ],
+  "deviceTypes": {
+    "television":{"id":"television","palette":"blue","icon":"images/device-types/device_television.svg","subtitleKey":"device.television.subtitle"},
+    "air-conditioner":{"id":"air-conditioner","palette":"cyan","icon":"images/device-types/device_air_conditioner.svg","subtitleKey":"device.airConditioner.subtitle"},
+    "fan":{"id":"fan","palette":"green","icon":"images/device-types/device_fan.svg","subtitleKey":"device.fan.subtitle"},
+    "av-receiver":{"id":"av-receiver","palette":"orange","icon":"images/device-types/device_av_receiver.svg","subtitleKey":"device.avReceiver.subtitle"},
+    "set-top-box":{"id":"set-top-box","palette":"green","icon":"images/device-types/device_set_top_box.svg","subtitleKey":"device.setTopBox.subtitle"},
+    "car-multimedia":{"id":"car-multimedia","palette":"red","icon":"images/device-types/device_car_multimedia.svg","subtitleKey":"device.carMultimedia.subtitle"},
+    "projector":{"id":"projector","palette":"violet","icon":"images/device-types/device_projector.svg","subtitleKey":"device.projector.subtitle"},
+    "bidet":{"id":"bidet","palette":"cyan","icon":"images/device-types/device_bidet.svg","subtitleKey":"device.bidet.subtitle"},
+    "blu-ray-player":{"id":"blu-ray-player","palette":"violet","icon":"images/device-types/device_blu_ray_player.svg","subtitleKey":"device.player.subtitle"},
+    "dvd-player":{"id":"dvd-player","palette":"violet","icon":"images/device-types/device_dvd_player.svg","subtitleKey":"device.player.subtitle"},
+    "streaming-device":{"id":"streaming-device","palette":"violet","icon":"images/device-types/device_streaming_device.svg","subtitleKey":"device.media.subtitle"},
+    "light":{"id":"light","palette":"gold","icon":"images/device-types/device_light.svg","subtitleKey":"device.light.subtitle"},
+    "camera":{"id":"camera","palette":"pink","icon":"images/device-types/device_camera.svg","subtitleKey":"device.camera.subtitle"},
+    "cameras":{"id":"cameras","palette":"pink","icon":"images/device-types/device_camera.svg","subtitleKey":"device.camera.subtitle"},
+    "computers":{"id":"computers","palette":"blue","icon":"images/device-types/device_computer.svg","subtitleKey":"device.computer.subtitle"},
+    "computer":{"id":"computer","palette":"blue","icon":"images/device-types/device_computer.svg","subtitleKey":"device.computer.subtitle"},
+    "sensor":{"id":"sensor","palette":"cyan","icon":"images/device-types/device_sensor.svg","subtitleKey":"device.sensor.subtitle"},
+    "temperature":{"id":"temperature","palette":"cyan","icon":"images/device-types/device_temperature.svg","subtitleKey":"device.sensor.subtitle"},
+    "switch":{"id":"switch","palette":"green","icon":"images/device-types/device_switch.svg","subtitleKey":"device.switch.subtitle"},
+    "general":{"id":"general","palette":"gray","icon":"images/device-types/device_general.svg","subtitleKey":"device.generic.subtitle"}
+  },
+  "specialItems": {
+    "bluetooth-search":{"id":"bluetooth-search","palette":"green","icon":"images/device-types/device_bluetooth.svg","titleKey":"special.bluetoothSearch.title","subtitleKey":"special.bluetoothSearch.subtitle"},
+    "bluetooth-hid":{"id":"bluetooth-hid","palette":"violet","icon":"images/device-types/device_bluetooth.svg","titleKey":"special.bluetoothHid.title","subtitleKey":"special.bluetoothHid.subtitle"},
+    "hubitat":{"id":"hubitat","palette":"violet","icon":"images/device-types/device_hubitat.svg","titleKey":"special.hubitat.title","subtitleKey":"special.hubitat.subtitle"},
+    "philips-hue":{"id":"philips-hue","palette":"cyan","icon":"images/device-types/device_hue.svg","titleKey":"special.hue.title","subtitleKey":"special.hue.subtitle"},
+    "computer":{"id":"computer","palette":"blue","icon":"images/device-types/device_computer.svg","titleKey":"special.computer.title","subtitleKey":"special.computer.subtitle"},
+    "google-home":{"id":"google-home","palette":"green","icon":"images/device-types/device_home_screen.svg","titleKey":"special.googleHome.title","subtitleKey":"special.googleHome.subtitle"},
+    "dashboard":{"id":"dashboard","palette":"blue","icon":"images/device-types/device_dashboard.svg","titleKey":"special.dashboard.title","subtitleKey":"special.dashboard.subtitle"},
+    "folder":{"id":"folder","palette":"gold","icon":"images/device-types/device_folder.svg","titleKey":"special.folder.title","subtitleKey":"special.folder.subtitle"}
+  },
+  "manufacturerPalettes": {
+    "Samsung":"blue","LG":"pink","Sony":"blue","Philips":"blue","Panasonic":"blue","Toshiba":"red","Hisense":"cyan","Sharp":"red","Gree":"cyan","Daikin":"cyan","Mitsubishi":"red","Fujitsu":"red"
+  }
+}
