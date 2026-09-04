@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.176",
-  "versionCode": 1788545842,
-  "publishedUtc": "2026-09-04T18:17:22Z",
-  "commit": "97464c428453403cb51b1eb81aca068b41ca07be",
-  "patchNotes": "Add BLE device and property SVG icon set"
+  "version": "1.0.177",
+  "versionCode": 1788545972,
+  "publishedUtc": "2026-09-04T18:19:32Z",
+  "commit": "f6313dc1fb12d29c6f7b8a236573201f8a4b642d",
+  "patchNotes": "Add shared action SVG icon set"
 }
