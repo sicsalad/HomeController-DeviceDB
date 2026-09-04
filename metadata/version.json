@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.207",
-  "versionCode": 1788563210,
-  "publishedUtc": "2026-09-04T23:06:50Z",
-  "commit": "c718a7728c4931a538982d183a9fa172c82cc490",
-  "patchNotes": "Add selection UI catalog schema"
+  "version": "1.0.208",
+  "versionCode": 1788565704,
+  "publishedUtc": "2026-09-04T23:48:24Z",
+  "commit": "9e8d4c8f835d6552733d106d83f200802d7cee98",
+  "patchNotes": "Support gradient Add Device palettes"
 }
