@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.144",
-  "versionCode": 1788471362,
-  "publishedUtc": "2026-09-03T21:36:02Z",
-  "commit": "df93204e584c108f65c0ce3777e392e43e408549",
-  "patchNotes": "Publish PC Agent 1.0.9"
+  "version": "1.0.145",
+  "versionCode": 1788526235,
+  "publishedUtc": "2026-09-04T12:50:35Z",
+  "commit": "35854fd31f91ae4fc2bd17ff66cdad4a0a1a9f4b",
+  "patchNotes": "Publish PC Agent 1.0.19"
 }
