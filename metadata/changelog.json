@@ -780,6 +780,12 @@
       "versionCode": 1788546458,
       "publishedUtc": "2026-09-04T18:27:38Z",
       "notes": "Validate DeviceDB image assets in CI"
+    },
+    {
+      "version": "1.0.183",
+      "versionCode": 1788546551,
+      "publishedUtc": "2026-09-04T18:29:11Z",
+      "notes": "Run image validation independently"
     }
   ]
 }
