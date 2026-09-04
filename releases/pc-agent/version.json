@@ -1,8 +1,8 @@
 {
-  "version": "1.0.22",
-  "publishedUtc": "2026-09-04T14:27:46Z",
-  "commit": "c4c35dc4387ee3eb4edf2dc8b276786a082adc79",
+  "version": "1.0.23",
+  "publishedUtc": "2026-09-04T14:29:08Z",
+  "commit": "ba79895413c1dd4a7b7fa3f69f10cd6f10c55219",
   "branch": "feature/device-db-v1",
   "zipUrl": "https://github.com/sicsalad/HomeController-DeviceDB/releases/download/pc-agent-latest/HomeController-PcAgent-win-x64.zip",
-  "sha256": "5c6422f9b7fa5604101aafce6e9c300dc95b7f51b61e727d5db6b57dbfd66aa0"
+  "sha256": "a8fc44fc15e264ba9cf8a3e289f7c2c24fa6e869d759cea375acadc72b799300"
 }
