@@ -1,9 +1,0 @@
-{
-  "name": "Hubitat Dynamisch",
-  "groups.0.name": "Gerätetyp",
-  "groups.1.name": "Schnellfilter",
-  "groups.1.controls.0.text": "Nur online",
-  "groups.2.name": "Suche",
-  "groups.2.controls.0.text": "Geräte suchen",
-  "groups.3.name": "Geräte"
-}

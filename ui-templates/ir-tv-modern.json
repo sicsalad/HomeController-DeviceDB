@@ -1,3 +1,0 @@
-{
-  "$schema":"../schemas/device-ui-template-v2.schema.json","schemaVersion":2,"id":"ir-tv-modern","name":"Infrared TV Modern","deviceTypeId":"television","connections":["infrared"],"renderer":"builtin-ir-tv","access":"free","columns":3,"useFullWidth":true,"horizontalSpacing":10,"verticalSpacing":10,"buttonCornerRadius":14,"sectionCornerRadius":16,"buttonHeight":54,"sections":[]
-}

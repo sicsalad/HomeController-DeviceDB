@@ -1,9 +1,0 @@
-{
-  "name": "Hubitat dinamikus",
-  "groups.0.name": "Eszköztípus",
-  "groups.1.name": "Gyorsszűrő",
-  "groups.1.controls.0.text": "Csak online",
-  "groups.2.name": "Keresés",
-  "groups.2.controls.0.text": "Eszközök keresése",
-  "groups.3.name": "Eszközök"
-}

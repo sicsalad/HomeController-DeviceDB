@@ -1,3 +1,0 @@
-{
-  "$schema":"../schemas/device-ui-template-v2.schema.json","schemaVersion":2,"id":"ir-ac-modern","name":"Infrared Climate Modern","deviceTypeId":"air-conditioner","connections":["infrared"],"renderer":"builtin-ir-ac","access":"free","columns":3,"useFullWidth":true,"horizontalSpacing":12,"verticalSpacing":12,"buttonCornerRadius":16,"sectionCornerRadius":18,"buttonHeight":56,"sections":[]
-}

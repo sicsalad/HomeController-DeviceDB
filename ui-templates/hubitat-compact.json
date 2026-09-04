@@ -1,3 +1,0 @@
-{
-  "$schema":"../schemas/device-ui-template-v2.schema.json","schemaVersion":2,"id":"hubitat-compact","name":"Hubitat Compact","deviceTypeId":"hubitat","connections":["wifi"],"renderer":"builtin-hubitat","access":"premium","columns":3,"useFullWidth":true,"horizontalSpacing":6,"verticalSpacing":6,"buttonCornerRadius":8,"sectionCornerRadius":10,"itemDefaults":{"columns":3,"displayMode":"compact","showIcon":true,"showName":true,"showType":false,"showState":true,"stateIconSize":12,"stateLabelFontSize":10,"stateValueFontSize":10},"itemStyles":{},"integrationChildPresentations":{},"sections":[]
-}

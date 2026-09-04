@@ -1,0 +1,1 @@
+{"schemaVersion":1,"id":"home-device-home-screen-default","name":"Home screen card","deviceTypeId":"home-screen","style":{"columnSpan":1,"rowSpan":1,"shape":"rounded","cornerRadius":10,"fontSize":14,"iconSize":22,"stateIconSize":12,"stateLabelFontSize":10,"stateValueFontSize":10,"stateButtonFontSize":10,"showIcon":true,"showName":true,"showType":true,"showState":true}}

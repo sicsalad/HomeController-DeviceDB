@@ -1,9 +1,16 @@
 {
   "schemaVersion": 1,
   "styles": [
-    { "id": "home-device-general-default", "path": "home-device-styles/general-default.json", "status": "stable" },
-    { "id": "home-device-television-default", "path": "home-device-styles/television-default.json", "status": "stable" },
-    { "id": "home-device-hubitat-temperature-default", "path": "home-device-styles/hubitat-temperature-default.json", "status": "stable" },
-    { "id": "home-device-hue-light-default", "path": "home-device-styles/hue-light-default.json", "status": "stable" }
+    {"id":"home-device-general-default","path":"home-device-styles/general-default.json","status":"stable"},
+    {"id":"home-device-home-screen-default","path":"home-device-styles/home-screen-default.json","status":"stable"},
+    {"id":"home-device-hubitat-default","path":"home-device-styles/hubitat-default.json","status":"stable"},
+    {"id":"home-device-hubitat-tuya-temperature-humidity-illuminance-lcd-display-with-a-clock-default","path":"home-device-styles/hubitat-tuya-temperature-humidity-illuminance-lcd-display-with-a-clock-default.json","status":"stable"},
+    {"id":"home-device-hubitat-generic-zigbee-outlet-default","path":"home-device-styles/hubitat-generic-zigbee-outlet-default.json","status":"stable"},
+    {"id":"home-device-computer-default","path":"home-device-styles/computer-default.json","status":"stable"},
+    {"id":"home-device-dashboard-default","path":"home-device-styles/dashboard-default.json","status":"stable"},
+    {"id":"home-device-ir-transceiver-default","path":"home-device-styles/ir-transceiver-default.json","status":"stable"},
+    {"id":"home-device-television-default","path":"home-device-styles/television-default.json","status":"stable"},
+    {"id":"home-device-air-conditioner-default","path":"home-device-styles/air-conditioner-default.json","status":"stable"},
+    {"id":"home-device-local-folder-default","path":"home-device-styles/local-folder-default.json","status":"stable"}
   ]
 }

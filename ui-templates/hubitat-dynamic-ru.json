@@ -1,9 +1,0 @@
-{
-  "name": "Hubitat динамический",
-  "groups.0.name": "Тип устройства",
-  "groups.1.name": "Быстрый фильтр",
-  "groups.1.controls.0.text": "Только онлайн",
-  "groups.2.name": "Поиск",
-  "groups.2.controls.0.text": "Поиск устройств",
-  "groups.3.name": "Устройства"
-}

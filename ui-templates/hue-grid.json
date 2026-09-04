@@ -1,3 +1,0 @@
-{
-  "$schema":"../schemas/device-ui-template-v2.schema.json","schemaVersion":2,"id":"hue-grid","name":"Philips Hue Grid","deviceTypeId":"philips-hue","connections":["wifi"],"renderer":"builtin-hue","access":"premium","columns":3,"useFullWidth":true,"horizontalSpacing":8,"verticalSpacing":8,"itemDefaults":{"columns":3,"displayMode":"card","showIcon":true,"showName":true,"showType":false,"showState":true},"itemStyles":{},"integrationChildPresentations":{},"sections":[]
-}
