@@ -348,6 +348,12 @@
       "versionCode": 1788478132,
       "publishedUtc": "2026-09-03T23:32:00Z",
       "notes": "Remove Hue bridge pin from device title"
+    },
+    {
+      "version": "1.0.884",
+      "versionCode": 1788480352,
+      "publishedUtc": "2026-09-04T00:10:36Z",
+      "notes": "Stop storing Android APK workflow artifacts"
     }
   ]
 }
