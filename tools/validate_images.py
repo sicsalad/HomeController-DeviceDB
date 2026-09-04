@@ -21,8 +21,13 @@ for item in idx.get('images',[]):
     path=item.get('path','')
     if path and not (images/path).exists():
         errors.append(f'index.json references missing file: {path}')
+manifest=json.loads((images/'catalog.json').read_text(encoding='utf-8'))
+for section in ('deviceTypes','actions','properties','states','branding','backgrounds'):
+    for key,path in manifest.get(section,{}).items():
+        if not (images/path).exists():
+            errors.append(f'catalog.json {section}.{key} references missing file: {path}')
 if missing:
     errors.extend(f'REQUIRED_IMAGES.md references missing file: {p}' for p in missing)
 if errors:
     print('\n'.join(errors)); sys.exit(1)
-print(f'Image validation OK: {len(refs)} required icon refs, {sum(1 for _ in images.rglob("*.svg"))} SVG files. Background examples are optional and may use SVG/WebP/JPG.')
+print(f'Image validation OK: {len(refs)} required icon refs, {sum(1 for _ in images.rglob("*.svg"))} SVG files; index.json and catalog.json paths verified.')
