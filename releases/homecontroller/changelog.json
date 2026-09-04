@@ -456,6 +456,12 @@
       "versionCode": 1788549207,
       "publishedUtc": "2026-09-04T19:17:46Z",
       "notes": "Ignore legacy presentation snapshots on Home"
+    },
+    {
+      "version": "1.0.1033",
+      "versionCode": 1788550443,
+      "publishedUtc": "2026-09-04T19:38:43Z",
+      "notes": "Send UI template edits as DeviceDB template submissions"
     }
   ]
 }
