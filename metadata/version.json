@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.163",
-  "versionCode": 1788543441,
-  "publishedUtc": "2026-09-04T17:37:21Z",
-  "commit": "eb689d02733cca86e112db65a153ab0e4ba7d112",
-  "patchNotes": "Add centralized Bluetooth image"
+  "version": "1.0.170",
+  "versionCode": 1788543489,
+  "publishedUtc": "2026-09-04T17:38:09Z",
+  "commit": "4c479f8edc9fd3b8502eb6444e0fc70f48696524",
+  "patchNotes": "Add centralized pin action image"
 }
