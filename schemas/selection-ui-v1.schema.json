@@ -31,13 +31,16 @@
     },
     "palette": {
       "type":"object",
-      "required":["backgroundColor","borderColor","accentColor","foregroundColor","subtitleColor"],
+      "required":["backgroundColor","gradientStartColor","gradientEndColor","borderColor","accentColor","foregroundColor","subtitleColor","iconBrightness"],
       "properties": {
         "backgroundColor":{"$ref":"#/$defs/color"},
+        "gradientStartColor":{"$ref":"#/$defs/color"},
+        "gradientEndColor":{"$ref":"#/$defs/color"},
         "borderColor":{"$ref":"#/$defs/color"},
         "accentColor":{"$ref":"#/$defs/color"},
         "foregroundColor":{"$ref":"#/$defs/color"},
-        "subtitleColor":{"$ref":"#/$defs/color"}
+        "subtitleColor":{"$ref":"#/$defs/color"},
+        "iconBrightness":{"type":"number","minimum":1,"maximum":3}
       },
       "additionalProperties": false
     },
