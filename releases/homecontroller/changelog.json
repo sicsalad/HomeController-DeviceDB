@@ -414,6 +414,12 @@
       "versionCode": 1788532115,
       "publishedUtc": "2026-09-04T14:32:55Z",
       "notes": "Use physical monitor geometry for PC remote input"
+    },
+    {
+      "version": "1.0.928",
+      "versionCode": 1788533818,
+      "publishedUtc": "2026-09-04T15:01:13Z",
+      "notes": "Allow half-step row span in home device properties"
     }
   ]
 }
