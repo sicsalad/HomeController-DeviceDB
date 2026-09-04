@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.209",
-  "versionCode": 1788565724,
-  "publishedUtc": "2026-09-04T23:48:45Z",
-  "commit": "479bd9d676b7056761507e8e6c8ea5db7393498a",
-  "patchNotes": "Refine Add Device gradients and icon contrast"
+  "version": "1.0.210",
+  "versionCode": 1788565742,
+  "publishedUtc": "2026-09-04T23:49:02Z",
+  "commit": "f6dac41e4aa82051570c49f8e1431aa7151f0ecb",
+  "patchNotes": "Add device type and model picker localization"
 }

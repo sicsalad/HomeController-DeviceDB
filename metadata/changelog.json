@@ -936,6 +936,12 @@
       "versionCode": 1788565724,
       "publishedUtc": "2026-09-04T23:48:45Z",
       "notes": "Refine Add Device gradients and icon contrast"
+    },
+    {
+      "version": "1.0.210",
+      "versionCode": 1788565742,
+      "publishedUtc": "2026-09-04T23:49:02Z",
+      "notes": "Add device type and model picker localization"
     }
   ]
 }
