@@ -828,6 +828,12 @@
       "versionCode": 1788548419,
       "publishedUtc": "2026-09-04T19:00:19Z",
       "notes": "Validate Device UI templates as schema v2"
+    },
+    {
+      "version": "1.0.191",
+      "versionCode": 1788548498,
+      "publishedUtc": "2026-09-04T19:01:38Z",
+      "notes": "Migrate indexed UI templates to schema v2"
     }
   ]
 }
