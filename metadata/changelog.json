@@ -894,6 +894,12 @@
       "versionCode": 1788563098,
       "publishedUtc": "2026-09-04T23:04:58Z",
       "notes": "Add Hungarian selection UI localization"
+    },
+    {
+      "version": "1.0.203",
+      "versionCode": 1788563160,
+      "publishedUtc": "2026-09-04T23:06:00Z",
+      "notes": "Add English selection UI localization"
     }
   ]
 }

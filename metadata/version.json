@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.202",
-  "versionCode": 1788563098,
-  "publishedUtc": "2026-09-04T23:04:58Z",
-  "commit": "2f1a2d10d52dfe1a66423f2eca5730653c5e6c0b",
-  "patchNotes": "Add Hungarian selection UI localization"
+  "version": "1.0.203",
+  "versionCode": 1788563160,
+  "publishedUtc": "2026-09-04T23:06:00Z",
+  "commit": "c9c91b5b3e5bf7140b286b8e256a6f171233fe16",
+  "patchNotes": "Add English selection UI localization"
 }
