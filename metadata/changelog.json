@@ -720,6 +720,12 @@
       "versionCode": 1788543527,
       "publishedUtc": "2026-09-04T17:38:47Z",
       "notes": "Document remote image asset architecture"
+    },
+    {
+      "version": "1.0.173",
+      "versionCode": 1788543570,
+      "publishedUtc": "2026-09-04T17:39:30Z",
+      "notes": "Expand runtime image catalog with centralized UI assets"
     }
   ]
 }

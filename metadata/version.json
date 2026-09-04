@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.172",
-  "versionCode": 1788543527,
-  "publishedUtc": "2026-09-04T17:38:47Z",
-  "commit": "4fc07f195d15266cba27418349dbbafe22d6b8f2",
-  "patchNotes": "Document remote image asset architecture"
+  "version": "1.0.173",
+  "versionCode": 1788543570,
+  "publishedUtc": "2026-09-04T17:39:30Z",
+  "commit": "a6a41d35a47ba09424adee6d140a5bbdc4fd8d09",
+  "patchNotes": "Expand runtime image catalog with centralized UI assets"
 }
