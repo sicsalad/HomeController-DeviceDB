@@ -378,6 +378,12 @@
       "versionCode": 1788522233,
       "publishedUtc": "2026-09-04T11:47:15Z",
       "notes": "Fit PC remote to actual streamed frame size"
+    },
+    {
+      "version": "1.0.911",
+      "versionCode": 1788524158,
+      "publishedUtc": "2026-09-04T12:20:01Z",
+      "notes": "Force physical pixel DPI mode before PC capture starts"
     }
   ]
 }
