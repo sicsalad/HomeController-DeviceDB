@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.192",
-  "versionCode": 1788549003,
-  "publishedUtc": "2026-09-04T19:10:03Z",
-  "commit": "6ad4418bd3bce5532017191015c6725ace490e29",
-  "patchNotes": "Document V2-only Device UI template policy"
+  "version": "1.0.193",
+  "versionCode": 1788553029,
+  "publishedUtc": "2026-09-04T20:17:09Z",
+  "commit": "ce8b5b4651fe8ccb50b01e925522d3f078d6221d",
+  "patchNotes": "Add Home device style schema"
 }

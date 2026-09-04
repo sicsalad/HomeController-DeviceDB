@@ -840,6 +840,12 @@
       "versionCode": 1788549003,
       "publishedUtc": "2026-09-04T19:10:03Z",
       "notes": "Document V2-only Device UI template policy"
+    },
+    {
+      "version": "1.0.193",
+      "versionCode": 1788553029,
+      "publishedUtc": "2026-09-04T20:17:09Z",
+      "notes": "Add Home device style schema"
     }
   ]
 }
