@@ -912,6 +912,12 @@
       "versionCode": 1788563183,
       "publishedUtc": "2026-09-04T23:06:23Z",
       "notes": "Add French selection UI localization"
+    },
+    {
+      "version": "1.0.206",
+      "versionCode": 1788563197,
+      "publishedUtc": "2026-09-04T23:06:37Z",
+      "notes": "Add Russian selection UI localization"
     }
   ]
 }
