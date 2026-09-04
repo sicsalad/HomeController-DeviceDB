@@ -12,9 +12,11 @@ on:
       - 'wifi/**'
       - 'device-types.json'
       - 'ui-templates/**'
+      - 'images/**'
       - 'tools/validate_db.py'
       - 'tools/validate_wifi.py'
       - 'tools/validate_device_catalog.py'
+      - 'tools/validate_images.py'
       - '.github/workflows/validate.yml'
   pull_request:
     paths:
@@ -26,9 +28,12 @@ on:
       - 'wifi/**'
       - 'device-types.json'
       - 'ui-templates/**'
+      - 'images/**'
       - 'tools/validate_db.py'
       - 'tools/validate_wifi.py'
       - 'tools/validate_device_catalog.py'
+      - 'tools/validate_images.py'
+      - '.github/workflows/validate.yml'
 
 jobs:
   validate:
@@ -41,3 +46,5 @@ jobs:
         run: python3 tools/validate_wifi.py
       - name: Validate dynamic device types and UI templates
         run: python3 tools/validate_device_catalog.py
+      - name: Validate runtime image assets
+        run: python3 tools/validate_images.py
