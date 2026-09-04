@@ -372,6 +372,12 @@
       "versionCode": 1788520604,
       "publishedUtc": "2026-09-04T11:20:07Z",
       "notes": "Use per-monitor DPI manifest for PC Agent"
+    },
+    {
+      "version": "1.0.909",
+      "versionCode": 1788522233,
+      "publishedUtc": "2026-09-04T11:47:15Z",
+      "notes": "Fit PC remote to actual streamed frame size"
     }
   ]
 }
