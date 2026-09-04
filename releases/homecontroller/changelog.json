@@ -420,6 +420,12 @@
       "versionCode": 1788533818,
       "publishedUtc": "2026-09-04T15:01:13Z",
       "notes": "Allow half-step row span in home device properties"
+    },
+    {
+      "version": "1.0.954",
+      "versionCode": 1788540405,
+      "publishedUtc": "2026-09-04T16:50:50Z",
+      "notes": "Fix Android BLE binding compile errors"
     }
   ]
 }
