@@ -426,6 +426,12 @@
       "versionCode": 1788540405,
       "publishedUtc": "2026-09-04T16:50:50Z",
       "notes": "Fix Android BLE binding compile errors"
+    },
+    {
+      "version": "1.0.960",
+      "versionCode": 1788541563,
+      "publishedUtc": "2026-09-04T17:09:41Z",
+      "notes": "Avoid Home screen layout extension collision"
     }
   ]
 }
