@@ -852,6 +852,12 @@
       "versionCode": 1788553044,
       "publishedUtc": "2026-09-04T20:17:24Z",
       "notes": "Add default Home device card style"
+    },
+    {
+      "version": "1.0.196",
+      "versionCode": 1788553068,
+      "publishedUtc": "2026-09-04T20:17:48Z",
+      "notes": "Add television Home device style"
     }
   ]
 }
