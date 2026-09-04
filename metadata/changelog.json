@@ -900,6 +900,12 @@
       "versionCode": 1788563160,
       "publishedUtc": "2026-09-04T23:06:00Z",
       "notes": "Add English selection UI localization"
+    },
+    {
+      "version": "1.0.204",
+      "versionCode": 1788563173,
+      "publishedUtc": "2026-09-04T23:06:13Z",
+      "notes": "Add German selection UI localization"
     }
   ]
 }
