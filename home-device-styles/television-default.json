@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "home-device-television-default",
+  "name": "Television Home card",
+  "deviceTypeId": "television",
+  "style": {
+    "columnSpan": 1,
+    "rowSpan": 1,
+    "shape": "rounded",
+    "cornerRadius": 12,
+    "showIcon": true,
+    "showName": true,
+    "showType": false,
+    "showState": true,
+    "fontSize": 14,
+    "iconSize": 24
+  }
+}
