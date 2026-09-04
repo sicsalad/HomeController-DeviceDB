@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.187",
-  "versionCode": 1788546739,
-  "publishedUtc": "2026-09-04T18:32:19Z",
-  "commit": "19cdfda984e3a67be67d3b68b982ed290e64cc81",
-  "patchNotes": "Add missing X-Fan cleaning action icon"
+  "version": "1.0.188",
+  "versionCode": 1788547028,
+  "publishedUtc": "2026-09-04T18:37:08Z",
+  "commit": "12289077cb455bc012ca58773e205048b3c9282c",
+  "patchNotes": "Add AI authoring guide for themes and UI templates"
 }

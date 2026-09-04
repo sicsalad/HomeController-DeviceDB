@@ -810,6 +810,12 @@
       "versionCode": 1788546739,
       "publishedUtc": "2026-09-04T18:32:19Z",
       "notes": "Add missing X-Fan cleaning action icon"
+    },
+    {
+      "version": "1.0.188",
+      "versionCode": 1788547028,
+      "publishedUtc": "2026-09-04T18:37:08Z",
+      "notes": "Add AI authoring guide for themes and UI templates"
     }
   ]
 }
