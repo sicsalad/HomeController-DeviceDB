@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.204",
-  "versionCode": 1788563173,
-  "publishedUtc": "2026-09-04T23:06:13Z",
-  "commit": "edd9228e801664173c57d590d6c388abcea2b7e3",
-  "patchNotes": "Add German selection UI localization"
+  "version": "1.0.205",
+  "versionCode": 1788563183,
+  "publishedUtc": "2026-09-04T23:06:23Z",
+  "commit": "8d5dba47a7a0d028d49d0a6f480a2ed82a88ddfa",
+  "patchNotes": "Add French selection UI localization"
 }
