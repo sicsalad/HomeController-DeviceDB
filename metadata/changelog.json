@@ -798,6 +798,12 @@
       "versionCode": 1788546697,
       "publishedUtc": "2026-09-04T18:31:37Z",
       "notes": "Complete runtime image manifest"
+    },
+    {
+      "version": "1.0.186",
+      "versionCode": 1788546712,
+      "publishedUtc": "2026-09-04T18:31:52Z",
+      "notes": "Validate complete image manifest"
     }
   ]
 }

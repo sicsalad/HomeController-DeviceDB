@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.185",
-  "versionCode": 1788546697,
-  "publishedUtc": "2026-09-04T18:31:37Z",
-  "commit": "a3451b82909923204c99e3e92b67dc0dbcc0b12f",
-  "patchNotes": "Complete runtime image manifest"
+  "version": "1.0.186",
+  "versionCode": 1788546712,
+  "publishedUtc": "2026-09-04T18:31:52Z",
+  "commit": "2d1266aba1f1ea114b8fbe6a38bfc63390bed44d",
+  "patchNotes": "Validate complete image manifest"
 }
