@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.179",
-  "versionCode": 1788546141,
-  "publishedUtc": "2026-09-04T18:22:21Z",
-  "commit": "0e98305f89dcd18aab91e9359500fbb454404508",
-  "patchNotes": "Add missing RemoteCommand SVG aliases"
+  "version": "1.0.180",
+  "versionCode": 1788546185,
+  "publishedUtc": "2026-09-04T18:23:05Z",
+  "commit": "7ca997d3744e7b4cbb76891039e33935603a3f4c",
+  "patchNotes": "Expand runtime device image catalog"
 }

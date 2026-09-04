@@ -762,6 +762,12 @@
       "versionCode": 1788546141,
       "publishedUtc": "2026-09-04T18:22:21Z",
       "notes": "Add missing RemoteCommand SVG aliases"
+    },
+    {
+      "version": "1.0.180",
+      "versionCode": 1788546185,
+      "publishedUtc": "2026-09-04T18:23:05Z",
+      "notes": "Expand runtime device image catalog"
     }
   ]
 }
