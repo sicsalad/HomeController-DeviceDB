@@ -1,35 +1,3 @@
 {
-  "$schema":"../schemas/device-ui-template-v1.schema.json",
-  "schemaVersion":1,
-  "id":"wifi-ac-default",
-  "name":"Wi-Fi Climate Default",
-  "deviceTypeId":"air-conditioner",
-  "connections":["wifi"],
-  "renderer":"builtin-wifi-ac",
-  "columns":3,
-  "useFullWidth":true,
-  "sections":[
-    {"title":"Power","controls":[
-      {"type":"button","label":"On","command":"power","value":true,"icon":"⏻"},
-      {"type":"button","label":"Off","command":"power","value":false,"icon":"⏻"}
-    ]},
-    {"title":"Temperature","controls":[
-      {"type":"stepper","label":"Target °C","command":"targetTemperature","columnSpan":3}
-    ]},
-    {"title":"Mode","controls":[
-      {"type":"button","label":"Auto","command":"mode","value":"auto"},
-      {"type":"button","label":"Cool","command":"mode","value":"cool"},
-      {"type":"button","label":"Heat","command":"mode","value":"heat"},
-      {"type":"button","label":"Dry","command":"mode","value":"dry"},
-      {"type":"button","label":"Fan","command":"mode","value":"fan"}
-    ]},
-    {"title":"Functions","controls":[
-      {"type":"toggle","label":"Quiet","command":"quiet"},
-      {"type":"toggle","label":"Turbo","command":"turbo"},
-      {"type":"toggle","label":"Economy","command":"economy"},
-      {"type":"toggle","label":"Sleep","command":"sleep"},
-      {"type":"toggle","label":"Display","command":"display"},
-      {"type":"toggle","label":"Health","command":"health"}
-    ]}
-  ]
+  "$schema":"../schemas/device-ui-template-v2.schema.json","schemaVersion":2,"id":"wifi-ac-default","name":"Wi-Fi Climate Default","deviceTypeId":"air-conditioner","connections":["wifi"],"renderer":"builtin-wifi-ac","access":"free","columns":3,"useFullWidth":true,"sections":[]
 }

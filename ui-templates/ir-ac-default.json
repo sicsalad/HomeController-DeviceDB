@@ -1,12 +1,3 @@
 {
-  "$schema":"../schemas/device-ui-template-v1.schema.json",
-  "schemaVersion":1,
-  "id":"ir-ac-default",
-  "name":"Infrared Climate Default",
-  "deviceTypeId":"air-conditioner",
-  "connections":["infrared"],
-  "renderer":"builtin-ir-ac",
-  "columns":3,
-  "useFullWidth":true,
-  "sections":[]
+  "$schema":"../schemas/device-ui-template-v2.schema.json","schemaVersion":2,"id":"ir-ac-default","name":"Infrared Climate Default","deviceTypeId":"air-conditioner","connections":["infrared"],"renderer":"builtin-ir-ac","access":"free","columns":3,"useFullWidth":true,"horizontalSpacing":10,"verticalSpacing":10,"sections":[]
 }

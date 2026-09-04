@@ -1,29 +1,3 @@
 {
-  "$schema":"../schemas/device-ui-template-v1.schema.json",
-  "schemaVersion":1,
-  "id":"wifi-tv-default",
-  "name":"Wi-Fi TV Default",
-  "deviceTypeId":"television",
-  "connections":["wifi"],
-  "renderer":"declarative",
-  "columns":3,
-  "useFullWidth":true,
-  "sections":[
-    {"title":"Power / Volume","controls":[
-      {"type":"button","label":"Power","command":"power","icon":"⏻"},
-      {"type":"button","label":"Vol +","command":"volumeUp"},
-      {"type":"button","label":"Vol -","command":"volumeDown"},
-      {"type":"button","label":"Mute","command":"mute"}
-    ]},
-    {"title":"Navigation","controls":[
-      {"type":"button","label":"Up","command":"up","icon":"▲","iconOnly":true},
-      {"type":"button","label":"Left","command":"left","icon":"◀","iconOnly":true},
-      {"type":"button","label":"OK","command":"ok"},
-      {"type":"button","label":"Right","command":"right","icon":"▶","iconOnly":true},
-      {"type":"button","label":"Down","command":"down","icon":"▼","iconOnly":true},
-      {"type":"button","label":"Back","command":"back"},
-      {"type":"button","label":"Home","command":"home"},
-      {"type":"button","label":"Source","command":"source"}
-    ]}
-  ]
+  "$schema":"../schemas/device-ui-template-v2.schema.json","schemaVersion":2,"id":"wifi-tv-default","name":"Wi-Fi TV Default","deviceTypeId":"television","connections":["wifi"],"renderer":"builtin-ir-tv","access":"free","columns":3,"useFullWidth":true,"sections":[]
 }

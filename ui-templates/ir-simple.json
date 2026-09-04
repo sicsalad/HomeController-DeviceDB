@@ -1,23 +1,3 @@
 {
-  "$schema": "../schemas/device-ui-template-v1.schema.json",
-  "schemaVersion": 1,
-  "id": "ir-simple",
-  "name": "Simple IR remote",
-  "deviceTypeId": "general",
-  "connections": ["infrared"],
-  "renderer": "builtin-ir-simple",
-  "columns": 1,
-  "useFullWidth": true,
-  "backgroundColor": "$PageBackground",
-  "foregroundColor": "$TextPrimary",
-  "mutedTextColor": "$TextMuted",
-  "surfaceColor": "$Surface",
-  "accentColor": "$Accent",
-  "buttonColor": "$ButtonBackground",
-  "buttonTextColor": "$ButtonText",
-  "borderColor": "$CardBorder",
-  "buttonCornerRadius": 10,
-  "buttonHeight": 50,
-  "buttonFontSize": 14,
-  "sections": []
+  "$schema":"../schemas/device-ui-template-v2.schema.json","schemaVersion":2,"id":"ir-simple","name":"Simple IR remote","deviceTypeId":"general","connections":["infrared"],"renderer":"builtin-ir-simple","access":"free","columns":1,"useFullWidth":true,"backgroundColor":"$PageBackground","foregroundColor":"$TextPrimary","mutedTextColor":"$TextMuted","surfaceColor":"$Surface","accentColor":"$Accent","buttonColor":"$ButtonBackground","buttonTextColor":"$ButtonText","borderColor":"$CardBorder","buttonCornerRadius":10,"buttonHeight":50,"buttonFontSize":14,"sections":[]
 }
