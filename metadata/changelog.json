@@ -714,6 +714,12 @@
       "versionCode": 1788543508,
       "publishedUtc": "2026-09-04T17:38:28Z",
       "notes": "Add runtime image asset catalog"
+    },
+    {
+      "version": "1.0.172",
+      "versionCode": 1788543527,
+      "publishedUtc": "2026-09-04T17:38:47Z",
+      "notes": "Document remote image asset architecture"
     }
   ]
 }

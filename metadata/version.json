@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.171",
-  "versionCode": 1788543508,
-  "publishedUtc": "2026-09-04T17:38:28Z",
-  "commit": "5a53a01e1cf8204cb6dd24aa44b0fb506240dfec",
-  "patchNotes": "Add runtime image asset catalog"
+  "version": "1.0.172",
+  "versionCode": 1788543527,
+  "publishedUtc": "2026-09-04T17:38:47Z",
+  "commit": "4fc07f195d15266cba27418349dbbafe22d6b8f2",
+  "patchNotes": "Document remote image asset architecture"
 }
