@@ -4,7 +4,7 @@ import json,re,sys
 root=Path(__file__).resolve().parents[1]
 images=root/'images'
 required=(images/'REQUIRED_IMAGES.md').read_text(encoding='utf-8')
-refs=sorted(set(re.findall(r'`((?:device-types|actions|states|properties|controls|branding|backgrounds)/[^`]+\.(?:svg|png|jpg|jpeg|webp))`', required)))
+refs=sorted(set(re.findall(r'`((?:device-types|actions|states|properties|controls|branding)/[^`]+\.(?:svg|png|jpg|jpeg|webp))`', required)))
 missing=[p for p in refs if not (images/p).exists()]
 errors=[]
 for p in images.rglob('*.svg'):
@@ -25,4 +25,4 @@ if missing:
     errors.extend(f'REQUIRED_IMAGES.md references missing file: {p}' for p in missing)
 if errors:
     print('\n'.join(errors)); sys.exit(1)
-print(f'Image validation OK: {len(refs)} required refs, {sum(1 for _ in images.rglob("*.svg"))} SVG files.')
+print(f'Image validation OK: {len(refs)} required icon refs, {sum(1 for _ in images.rglob("*.svg"))} SVG files. Background examples are optional and may use SVG/WebP/JPG.')
