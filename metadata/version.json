@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.174",
-  "versionCode": 1788544552,
-  "publishedUtc": "2026-09-04T17:55:52Z",
-  "commit": "ca9d40398e53fd569127f78c275bdd6793a2199b",
-  "patchNotes": "Document required image assets and sizes"
+  "version": "1.0.175",
+  "versionCode": 1788545670,
+  "publishedUtc": "2026-09-04T18:14:30Z",
+  "commit": "dd99c7b09d3053a49ec07e688d1b906e48a0608d",
+  "patchNotes": "Add unified HomeController device SVG icon set"
 }

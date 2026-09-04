@@ -732,6 +732,12 @@
       "versionCode": 1788544552,
       "publishedUtc": "2026-09-04T17:55:52Z",
       "notes": "Document required image assets and sizes"
+    },
+    {
+      "version": "1.0.175",
+      "versionCode": 1788545670,
+      "publishedUtc": "2026-09-04T18:14:30Z",
+      "notes": "Add unified HomeController device SVG icon set"
     }
   ]
 }
