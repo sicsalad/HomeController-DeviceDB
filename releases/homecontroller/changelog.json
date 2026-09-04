@@ -390,6 +390,12 @@
       "versionCode": 1788524530,
       "publishedUtc": "2026-09-04T12:26:44Z",
       "notes": "Fix PC Agent WebRTC client raw string build"
+    },
+    {
+      "version": "1.0.913",
+      "versionCode": 1788526160,
+      "publishedUtc": "2026-09-04T12:53:28Z",
+      "notes": "Fix PC Agent H264 format negotiation build"
     }
   ]
 }
