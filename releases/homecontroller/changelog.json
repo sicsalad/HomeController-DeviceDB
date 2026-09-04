@@ -474,6 +474,12 @@
       "versionCode": 1788558648,
       "publishedUtc": "2026-09-04T21:54:20Z",
       "notes": "Show actual DeviceDB SVG icons in infrared picker"
+    },
+    {
+      "version": "1.0.1060",
+      "versionCode": 1788563579,
+      "publishedUtc": "2026-09-04T23:17:24Z",
+      "notes": "Fix selection UI catalog compilation"
     }
   ]
 }
