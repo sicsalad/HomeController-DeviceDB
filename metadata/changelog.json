@@ -750,6 +750,12 @@
       "versionCode": 1788545972,
       "publishedUtc": "2026-09-04T18:19:32Z",
       "notes": "Add shared action SVG icon set"
+    },
+    {
+      "version": "1.0.178",
+      "versionCode": 1788546045,
+      "publishedUtc": "2026-09-04T18:20:45Z",
+      "notes": "Add state and numeric remote SVG icon set"
     }
   ]
 }
