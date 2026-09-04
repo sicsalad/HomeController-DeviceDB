@@ -384,6 +384,12 @@
       "versionCode": 1788524158,
       "publishedUtc": "2026-09-04T12:20:01Z",
       "notes": "Force physical pixel DPI mode before PC capture starts"
+    },
+    {
+      "version": "1.0.912",
+      "versionCode": 1788524530,
+      "publishedUtc": "2026-09-04T12:26:44Z",
+      "notes": "Fix PC Agent WebRTC client raw string build"
     }
   ]
 }
