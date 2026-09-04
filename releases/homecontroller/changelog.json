@@ -366,6 +366,12 @@
       "versionCode": 1788519171,
       "publishedUtc": "2026-09-04T10:57:06Z",
       "notes": "Remove unused Media3 packages causing AndroidX duplicate classes"
+    },
+    {
+      "version": "1.0.904",
+      "versionCode": 1788520604,
+      "publishedUtc": "2026-09-04T11:20:07Z",
+      "notes": "Use per-monitor DPI manifest for PC Agent"
     }
   ]
 }
