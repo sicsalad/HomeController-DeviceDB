@@ -462,6 +462,12 @@
       "versionCode": 1788550443,
       "publishedUtc": "2026-09-04T19:38:43Z",
       "notes": "Send UI template edits as DeviceDB template submissions"
+    },
+    {
+      "version": "1.0.1041",
+      "versionCode": 1788553591,
+      "publishedUtc": "2026-09-04T20:30:41Z",
+      "notes": "Refresh Home device styles with UI V2 reset"
     }
   ]
 }
