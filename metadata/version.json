@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.211",
-  "versionCode": 1788565828,
-  "publishedUtc": "2026-09-04T23:50:28Z",
-  "commit": "3141afd0cf6010691922245a932b0f039be8de7e",
-  "patchNotes": "Refresh Hubitat brand-inspired icon"
+  "version": "1.0.212",
+  "versionCode": 1788565841,
+  "publishedUtc": "2026-09-04T23:50:41Z",
+  "commit": "3395e033dedaac6b2bfeaa79c88110d91be93d09",
+  "patchNotes": "Refresh Philips Hue brand-inspired icon"
 }
