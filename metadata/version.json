@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.199",
-  "versionCode": 1788558481,
-  "publishedUtc": "2026-09-04T21:48:01Z",
-  "commit": "f84e517a9056da486f2cfe8519cd5495fa494bf1",
-  "patchNotes": "Replace default UI and Home device style templates"
+  "version": "1.0.200",
+  "versionCode": 1788561111,
+  "publishedUtc": "2026-09-04T22:31:51Z",
+  "commit": "4ab41933c76b6fa0e62a6e3605cbe34579993526",
+  "patchNotes": "tv ui"
 }
