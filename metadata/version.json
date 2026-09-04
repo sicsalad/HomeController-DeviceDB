@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.149",
-  "versionCode": 1788532169,
-  "publishedUtc": "2026-09-04T14:29:29Z",
-  "commit": "91e74d3eb698cfd74c431939567184c02a017b65",
-  "patchNotes": "Publish PC Agent 1.0.23"
+  "version": "1.0.163",
+  "versionCode": 1788543441,
+  "publishedUtc": "2026-09-04T17:37:21Z",
+  "commit": "eb689d02733cca86e112db65a153ab0e4ba7d112",
+  "patchNotes": "Add centralized Bluetooth image"
 }

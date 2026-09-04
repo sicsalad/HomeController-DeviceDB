@@ -696,6 +696,12 @@
       "versionCode": 1788532169,
       "publishedUtc": "2026-09-04T14:29:29Z",
       "notes": "Publish PC Agent 1.0.23"
+    },
+    {
+      "version": "1.0.163",
+      "versionCode": 1788543441,
+      "publishedUtc": "2026-09-04T17:37:21Z",
+      "notes": "Add centralized Bluetooth image"
     }
   ]
 }
