@@ -510,6 +510,12 @@
       "versionCode": 1788648257,
       "publishedUtc": "2026-09-05T22:48:40Z",
       "notes": "Add universal Matter MQTT Home Assistant Shelly and TV integrations"
+    },
+    {
+      "version": "1.0.1119",
+      "versionCode": 1788648987,
+      "publishedUtc": "2026-09-05T23:00:55Z",
+      "notes": "Add persistent MQTT live subscriptions"
     }
   ]
 }
