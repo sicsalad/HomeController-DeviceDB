@@ -480,6 +480,12 @@
       "versionCode": 1788563579,
       "publishedUtc": "2026-09-04T23:17:24Z",
       "notes": "Fix selection UI catalog compilation"
+    },
+    {
+      "version": "1.0.1081",
+      "versionCode": 1788566346,
+      "publishedUtc": "2026-09-05T00:03:24Z",
+      "notes": "Update Hue cards incrementally from cached resources"
     }
   ]
 }
