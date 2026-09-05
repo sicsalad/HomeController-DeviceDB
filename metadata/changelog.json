@@ -972,6 +972,12 @@
       "versionCode": 1788566393,
       "publishedUtc": "2026-09-04T23:59:53Z",
       "notes": "Complete French Add Device search translations"
+    },
+    {
+      "version": "1.0.216",
+      "versionCode": 1788566407,
+      "publishedUtc": "2026-09-05T00:00:07Z",
+      "notes": "Complete Russian Add Device search translations"
     }
   ]
 }

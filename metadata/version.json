@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.215",
-  "versionCode": 1788566393,
-  "publishedUtc": "2026-09-04T23:59:53Z",
-  "commit": "ef6014a7d6c9bffed1cb9de301704750c4487085",
-  "patchNotes": "Complete French Add Device search translations"
+  "version": "1.0.216",
+  "versionCode": 1788566407,
+  "publishedUtc": "2026-09-05T00:00:07Z",
+  "commit": "b75eea35c1a153aeb23395fb44507e1cfafc1140",
+  "patchNotes": "Complete Russian Add Device search translations"
 }
