@@ -492,6 +492,12 @@
       "versionCode": 1788643234,
       "publishedUtc": "2026-09-05T21:24:38Z",
       "notes": "Fix nested home card theme resource fallback"
+    },
+    {
+      "version": "1.0.1108",
+      "versionCode": 1788644354,
+      "publishedUtc": "2026-09-05T21:42:22Z",
+      "notes": "Harden theme gradient reference resolution"
     }
   ]
 }
