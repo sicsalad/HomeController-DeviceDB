@@ -498,6 +498,12 @@
       "versionCode": 1788644354,
       "publishedUtc": "2026-09-05T21:42:22Z",
       "notes": "Harden theme gradient reference resolution"
+    },
+    {
+      "version": "1.0.1116",
+      "versionCode": 1788645970,
+      "publishedUtc": "2026-09-05T22:10:33Z",
+      "notes": "Make theme paste icon visible on all themes"
     }
   ]
 }
