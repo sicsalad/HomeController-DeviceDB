@@ -504,6 +504,12 @@
       "versionCode": 1788645970,
       "publishedUtc": "2026-09-05T22:10:33Z",
       "notes": "Make theme paste icon visible on all themes"
+    },
+    {
+      "version": "1.0.1117",
+      "versionCode": 1788648257,
+      "publishedUtc": "2026-09-05T22:48:40Z",
+      "notes": "Add universal Matter MQTT Home Assistant Shelly and TV integrations"
     }
   ]
 }
