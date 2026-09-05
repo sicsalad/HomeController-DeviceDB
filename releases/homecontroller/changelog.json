@@ -516,6 +516,12 @@
       "versionCode": 1788648987,
       "publishedUtc": "2026-09-05T23:00:55Z",
       "notes": "Add persistent MQTT live subscriptions"
+    },
+    {
+      "version": "1.0.1122",
+      "versionCode": 1788649620,
+      "publishedUtc": "2026-09-05T23:11:24Z",
+      "notes": "Fix Tuya BLE session registry namespace"
     }
   ]
 }
