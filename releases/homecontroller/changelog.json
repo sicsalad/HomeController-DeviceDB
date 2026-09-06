@@ -540,6 +540,12 @@
       "versionCode": 1788698686,
       "publishedUtc": "2026-09-06T12:49:54Z",
       "notes": "Align AndroidX Lifecycle with Media3 RTSP"
+    },
+    {
+      "version": "1.0.1133",
+      "versionCode": 1788701232,
+      "publishedUtc": "2026-09-06T13:32:02Z",
+      "notes": "Restore theme color palette and stabilize editor navigation"
     }
   ]
 }
