@@ -528,6 +528,12 @@
       "versionCode": 1788650792,
       "publishedUtc": "2026-09-05T23:30:46Z",
       "notes": "Add ONVIF IP camera support with Tapo C210 profile"
+    },
+    {
+      "version": "1.0.1125",
+      "versionCode": 1788652723,
+      "publishedUtc": "2026-09-06T00:02:12Z",
+      "notes": "Show actual RTSP playback status and MediaPlayer errors"
     }
   ]
 }
