@@ -552,6 +552,12 @@
       "versionCode": 1788733508,
       "publishedUtc": "2026-09-06T22:31:42Z",
       "notes": "Align AndroidX dependency family for Google Home"
+    },
+    {
+      "version": "1.0.1177",
+      "versionCode": 1788735328,
+      "publishedUtc": "2026-09-06T23:02:13Z",
+      "notes": "Use Kotlin 2.3 compilerOptions DSL for Home shim"
     }
   ]
 }
