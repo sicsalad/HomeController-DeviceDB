@@ -534,6 +534,12 @@
       "versionCode": 1788652723,
       "publishedUtc": "2026-09-06T00:02:12Z",
       "notes": "Show actual RTSP playback status and MediaPlayer errors"
+    },
+    {
+      "version": "1.0.1131",
+      "versionCode": 1788698686,
+      "publishedUtc": "2026-09-06T12:49:54Z",
+      "notes": "Align AndroidX Lifecycle with Media3 RTSP"
     }
   ]
 }
