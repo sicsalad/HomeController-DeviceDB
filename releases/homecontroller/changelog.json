@@ -558,6 +558,12 @@
       "versionCode": 1788735328,
       "publishedUtc": "2026-09-06T23:02:13Z",
       "notes": "Use Kotlin 2.3 compilerOptions DSL for Home shim"
+    },
+    {
+      "version": "1.0.1183",
+      "versionCode": 1788737729,
+      "publishedUtc": "2026-09-06T23:40:40Z",
+      "notes": "Fix nullable Java Boolean mapping for Google Home state"
     }
   ]
 }
