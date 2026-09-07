@@ -39,11 +39,11 @@
     "showState": true
   },
   "initialStates": {
-    "power": false,
-    "temperature": 24,
+    "power": "false",
+    "temperature": "24",
     "mode": "cool",
     "fan": "auto",
-    "swing": false
+    "swing": "false"
   },
   "integrationChildPresentations": {}
 }
