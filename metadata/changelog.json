@@ -1068,6 +1068,12 @@
       "versionCode": 1788814278,
       "publishedUtc": "2026-09-07T20:51:18Z",
       "notes": "Bump DeviceDB for editable climate UI V2"
+    },
+    {
+      "version": "1.0.234",
+      "versionCode": 1788814754,
+      "publishedUtc": "2026-09-07T20:59:14Z",
+      "notes": "Polish climate remote button colors and power label"
     }
   ]
 }

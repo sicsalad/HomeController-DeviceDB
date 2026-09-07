@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.233",
-  "versionCode": 1788814278,
-  "publishedUtc": "2026-09-07T20:51:18Z",
-  "commit": "68a22b432725aa4fd0f19681bfcf6d692ead9133",
-  "patchNotes": "Bump DeviceDB for editable climate UI V2"
+  "version": "1.0.234",
+  "versionCode": 1788814754,
+  "publishedUtc": "2026-09-07T20:59:14Z",
+  "commit": "a02e2f981fff53d442ae61baf12fd95b30eb2344",
+  "patchNotes": "Polish climate remote button colors and power label"
 }
