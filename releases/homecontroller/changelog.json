@@ -600,6 +600,12 @@
       "versionCode": 1788797351,
       "publishedUtc": "2026-09-07T16:15:31Z",
       "notes": "Expand UI template layout and authoring guide"
+    },
+    {
+      "version": "1.0.1238",
+      "versionCode": 1788799227,
+      "publishedUtc": "2026-09-07T16:44:56Z",
+      "notes": "Expose group title placement in UI editor"
     }
   ]
 }
