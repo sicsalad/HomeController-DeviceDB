@@ -990,6 +990,12 @@
       "versionCode": 1788799099,
       "publishedUtc": "2026-09-07T16:38:19Z",
       "notes": "Extend UI template schema for title placement and capabilities"
+    },
+    {
+      "version": "1.0.219",
+      "versionCode": 1788799174,
+      "publishedUtc": "2026-09-07T16:39:34Z",
+      "notes": "Redesign TV remote template for corrected layout engine"
     }
   ]
 }
