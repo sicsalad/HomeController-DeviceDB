@@ -588,6 +588,12 @@
       "versionCode": 1788784307,
       "publishedUtc": "2026-09-07T12:38:16Z",
       "notes": "Fix Android Matter commissioning build ambiguity"
+    },
+    {
+      "version": "1.0.1234",
+      "versionCode": 1788795595,
+      "publishedUtc": "2026-09-07T15:46:38Z",
+      "notes": "Fix Google Home renderer color name collision"
     }
   ]
 }
