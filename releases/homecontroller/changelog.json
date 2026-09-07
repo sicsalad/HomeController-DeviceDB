@@ -630,6 +630,12 @@
       "versionCode": 1788822313,
       "publishedUtc": "2026-09-07T23:11:40Z",
       "notes": "Fix Android Activity namespace resolution in Google Home bridge"
+    },
+    {
+      "version": "1.0.1256",
+      "versionCode": 1788824047,
+      "publishedUtc": "2026-09-07T23:40:20Z",
+      "notes": "Make local Gradle bootstrap resilient to locked cache ZIP"
     }
   ]
 }
