@@ -576,6 +576,12 @@
       "versionCode": 1788763124,
       "publishedUtc": "2026-09-07T06:45:03Z",
       "notes": "Mark Google Home integration point 5 complete"
+    },
+    {
+      "version": "1.0.1200",
+      "versionCode": 1788764398,
+      "publishedUtc": "2026-09-07T07:05:48Z",
+      "notes": "Expose Google Home integration in integrations UI"
     }
   ]
 }
