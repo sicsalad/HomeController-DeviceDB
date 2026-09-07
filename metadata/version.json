@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.227",
-  "versionCode": 1788811354,
-  "publishedUtc": "2026-09-07T20:02:34Z",
-  "commit": "6f5bb3529a03c9e1d6a777e6df76f58a6bd889b1",
-  "patchNotes": "Fix IR AC template initial state value types"
+  "version": "1.0.228",
+  "versionCode": 1788811378,
+  "publishedUtc": "2026-09-07T20:02:58Z",
+  "commit": "c7900ec4a7b76573914c69c5ce345072a6c8c94c",
+  "patchNotes": "Bump DeviceDB version after IR AC template fix"
 }

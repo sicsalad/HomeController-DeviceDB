@@ -1038,6 +1038,12 @@
       "versionCode": 1788811354,
       "publishedUtc": "2026-09-07T20:02:34Z",
       "notes": "Fix IR AC template initial state value types"
+    },
+    {
+      "version": "1.0.228",
+      "versionCode": 1788811378,
+      "publishedUtc": "2026-09-07T20:02:58Z",
+      "notes": "Bump DeviceDB version after IR AC template fix"
     }
   ]
 }
