@@ -1050,6 +1050,12 @@
       "versionCode": 1788814180,
       "publishedUtc": "2026-09-07T20:49:40Z",
       "notes": "Replace default IR AC UI with editable V2 climate remote"
+    },
+    {
+      "version": "1.0.230",
+      "versionCode": 1788814215,
+      "publishedUtc": "2026-09-07T20:50:15Z",
+      "notes": "Convert Modern Climate Remote to editable V2 blocks"
     }
   ]
 }
