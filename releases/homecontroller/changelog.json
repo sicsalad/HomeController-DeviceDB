@@ -612,6 +612,12 @@
       "versionCode": 1788804471,
       "publishedUtc": "2026-09-07T18:14:13Z",
       "notes": "Initialize Google Home bridge before Android activity reaches STARTED"
+    },
+    {
+      "version": "1.0.1241",
+      "versionCode": 1788807927,
+      "publishedUtc": "2026-09-07T19:10:42Z",
+      "notes": "Prevent Google Home initialization from crashing app startup"
     }
   ]
 }
