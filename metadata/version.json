@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.237",
-  "versionCode": 1788814833,
-  "publishedUtc": "2026-09-07T21:00:33Z",
-  "commit": "1378bcb37b9c8db00a2a6136f37830dfaebe9ae2",
-  "patchNotes": "Bump DeviceDB version for remote styling refresh"
+  "version": "1.0.238",
+  "versionCode": 1788823665,
+  "publishedUtc": "2026-09-07T23:27:45Z",
+  "commit": "ee0982dafef25c0744ad03bdb4c3e8c380de8b46",
+  "patchNotes": "Publish PC Agent 1.0.24"
 }

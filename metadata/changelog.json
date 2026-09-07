@@ -1086,6 +1086,12 @@
       "versionCode": 1788814833,
       "publishedUtc": "2026-09-07T21:00:33Z",
       "notes": "Bump DeviceDB version for remote styling refresh"
+    },
+    {
+      "version": "1.0.238",
+      "versionCode": 1788823665,
+      "publishedUtc": "2026-09-07T23:27:45Z",
+      "notes": "Publish PC Agent 1.0.24"
     }
   ]
 }
