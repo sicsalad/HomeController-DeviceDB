@@ -46,7 +46,7 @@
       "backgroundColor2": "#0A2029",
       "controls": [
         { "id": "title", "order": 10, "type": "label", "label": "CLIMATE", "row": 0, "column": 0, "columnSpan": 3, "fontSize": 20, "fontAttribute": "bold", "textColor": "#E9FBFF" },
-        { "id": "power", "order": 20, "type": "button", "label": "⏻", "command": "Power", "row": 0, "column": 3, "height": 60, "fontSize": 26, "shape": "rounded", "backgroundColor": "#E94C66", "textColor": "#FFFFFF", "borderWidth": 0 },
+        { "id": "power", "order": 20, "type": "button", "label": "POWER", "command": "Power", "row": 0, "column": 3, "height": 60, "fontSize": 13, "fontAttribute": "bold", "shape": "rounded", "backgroundColor": "#D94A59", "textColor": "#FFFFFF", "borderColor": "#FF7884", "borderWidth": 1 },
         { "id": "status", "order": 30, "type": "label", "label": "Temperature • Mode • Fan", "row": 1, "column": 0, "columnSpan": 4, "fontSize": 12, "textColor": "#91B6C0" }
       ]
     },
@@ -63,9 +63,9 @@
       "backgroundMode": "solid",
       "backgroundColor": "#0D2933",
       "controls": [
-        { "id": "temp-down", "order": 10, "type": "button", "label": "−", "command": "TemperatureDown", "row": 0, "column": 0, "columnSpan": 1, "height": 68, "fontSize": 30, "backgroundColor": "#143744", "textColor": "#DFF8FC", "borderWidth": 0 },
+        { "id": "temp-down", "order": 10, "type": "button", "label": "−", "command": "TemperatureDown", "row": 0, "column": 0, "columnSpan": 1, "height": 68, "fontSize": 30, "backgroundColor": "#17638B", "textColor": "#F1FBFF", "borderWidth": 0 },
         { "id": "temp-label", "order": 20, "type": "label", "label": "TEMP", "row": 0, "column": 1, "columnSpan": 2, "fontSize": 18, "fontAttribute": "bold", "textColor": "#45D7C5" },
-        { "id": "temp-up", "order": 30, "type": "button", "label": "+", "command": "TemperatureUp", "row": 0, "column": 3, "columnSpan": 1, "height": 68, "fontSize": 30, "backgroundColor": "#143744", "textColor": "#DFF8FC", "borderWidth": 0 }
+        { "id": "temp-up", "order": 30, "type": "button", "label": "+", "command": "TemperatureUp", "row": 0, "column": 3, "columnSpan": 1, "height": 68, "fontSize": 30, "backgroundColor": "#9B5727", "textColor": "#FFF7ED", "borderWidth": 0 }
       ]
     },
     {
@@ -81,11 +81,11 @@
       "backgroundMode": "solid",
       "backgroundColor": "#0C252E",
       "controls": [
-        { "id": "mode-auto", "order": 10, "type": "button", "label": "AUTO", "command": "ModeAuto", "stateKey": "mode", "setState": "auto", "row": 0, "column": 0, "backgroundColor": "#1A4652" },
-        { "id": "mode-cool", "order": 20, "type": "button", "label": "❄ COOL", "command": "ModeCool", "stateKey": "mode", "setState": "cool", "row": 0, "column": 1, "backgroundColor": "#17628A", "textColor": "#F0FBFF" },
-        { "id": "mode-heat", "order": 30, "type": "button", "label": "☀ HEAT", "command": "ModeHeat", "stateKey": "mode", "setState": "heat", "row": 0, "column": 2, "backgroundColor": "#8A5420", "textColor": "#FFF5E6" },
-        { "id": "mode-dry", "order": 40, "type": "button", "label": "DRY", "command": "ModeDry", "stateKey": "mode", "setState": "dry", "row": 0, "column": 3, "backgroundColor": "#31516C" },
-        { "id": "mode-fan", "order": 50, "type": "button", "label": "FAN", "command": "ModeFan", "stateKey": "mode", "setState": "fan", "row": 1, "column": 1, "columnSpan": 2, "backgroundColor": "#235A59" }
+        { "id": "mode-auto", "order": 10, "type": "button", "label": "AUTO", "command": "ModeAuto", "stateKey": "mode", "setState": "auto", "row": 0, "column": 0, "backgroundColor": "#455A64", "textColor": "#F4FAFC" },
+        { "id": "mode-cool", "order": 20, "type": "button", "label": "COOL", "command": "ModeCool", "stateKey": "mode", "setState": "cool", "row": 0, "column": 1, "backgroundColor": "#1976A8", "textColor": "#F0FBFF" },
+        { "id": "mode-heat", "order": 30, "type": "button", "label": "HEAT", "command": "ModeHeat", "stateKey": "mode", "setState": "heat", "row": 0, "column": 2, "backgroundColor": "#B25A2B", "textColor": "#FFF5E8" },
+        { "id": "mode-dry", "order": 40, "type": "button", "label": "DRY", "command": "ModeDry", "stateKey": "mode", "setState": "dry", "row": 0, "column": 3, "backgroundColor": "#50679A", "textColor": "#F6F8FF" },
+        { "id": "mode-fan", "order": 50, "type": "button", "label": "FAN", "command": "ModeFan", "stateKey": "mode", "setState": "fan", "row": 1, "column": 1, "columnSpan": 2, "backgroundColor": "#24706A", "textColor": "#F0FFFD" }
       ]
     },
     {
@@ -101,10 +101,10 @@
       "backgroundMode": "solid",
       "backgroundColor": "#0C252E",
       "controls": [
-        { "id": "fan-down", "order": 10, "type": "button", "label": "FAN −", "command": "FanSpeedDown", "row": 0, "column": 0, "backgroundColor": "#173B47" },
-        { "id": "fan-auto", "order": 20, "type": "button", "label": "AUTO", "command": "FanSpeedAuto", "row": 0, "column": 1, "columnSpan": 2, "backgroundColor": "#1B5155", "textColor": "#EBFFFF" },
-        { "id": "fan-up", "order": 30, "type": "button", "label": "FAN +", "command": "FanSpeedUp", "row": 0, "column": 3, "backgroundColor": "#173B47" },
-        { "id": "swing", "order": 40, "type": "button", "label": "↕ SWING", "command": "Swing", "stateKey": "swing", "cycleStates": ["off", "on"], "row": 1, "column": 0, "columnSpan": 4, "backgroundColor": "#245F5B", "textColor": "#F0FFFC", "fontAttribute": "bold" }
+        { "id": "fan-down", "order": 10, "type": "button", "label": "FAN −", "command": "FanSpeedDown", "row": 0, "column": 0, "backgroundColor": "#1C4C58" },
+        { "id": "fan-auto", "order": 20, "type": "button", "label": "AUTO", "command": "FanSpeedAuto", "row": 0, "column": 1, "columnSpan": 2, "backgroundColor": "#27666A", "textColor": "#EBFFFF" },
+        { "id": "fan-up", "order": 30, "type": "button", "label": "FAN +", "command": "FanSpeedUp", "row": 0, "column": 3, "backgroundColor": "#1C4C58" },
+        { "id": "swing", "order": 40, "type": "button", "label": "SWING", "command": "Swing", "stateKey": "swing", "cycleStates": ["off", "on"], "row": 1, "column": 0, "columnSpan": 4, "backgroundColor": "#2B746C", "textColor": "#F0FFFC", "fontAttribute": "bold" }
       ]
     },
     {
@@ -120,10 +120,10 @@
       "backgroundMode": "solid",
       "backgroundColor": "#0B222B",
       "controls": [
-        { "id": "sleep", "order": 10, "type": "button", "label": "☾ SLEEP", "command": "Sleep", "row": 0, "column": 0, "columnSpan": 2, "backgroundColor": "#30385F" },
-        { "id": "turbo", "order": 20, "type": "button", "label": "⚡ TURBO", "command": "Turbo", "row": 0, "column": 2, "columnSpan": 2, "backgroundColor": "#8B3D35", "textColor": "#FFFFFF" },
-        { "id": "economy", "order": 30, "type": "button", "label": "ECO", "command": "Economy", "row": 1, "column": 0, "columnSpan": 2, "backgroundColor": "#286044", "textColor": "#EEFFF5" },
-        { "id": "timer", "order": 40, "type": "button", "label": "TIMER", "command": "Timer", "row": 1, "column": 2, "columnSpan": 2, "backgroundColor": "#4C466B" }
+        { "id": "sleep", "order": 10, "type": "button", "label": "SLEEP", "command": "Sleep", "row": 0, "column": 0, "columnSpan": 2, "backgroundColor": "#4A4E86", "textColor": "#F7F5FF" },
+        { "id": "turbo", "order": 20, "type": "button", "label": "TURBO", "command": "Turbo", "row": 0, "column": 2, "columnSpan": 2, "backgroundColor": "#A8453E", "textColor": "#FFFFFF" },
+        { "id": "economy", "order": 30, "type": "button", "label": "ECO", "command": "Economy", "row": 1, "column": 0, "columnSpan": 2, "backgroundColor": "#2E704D", "textColor": "#EEFFF5" },
+        { "id": "timer", "order": 40, "type": "button", "label": "TIMER", "command": "Timer", "row": 1, "column": 2, "columnSpan": 2, "backgroundColor": "#66558C", "textColor": "#FAF7FF" }
       ]
     }
   ],
