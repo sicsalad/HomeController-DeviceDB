@@ -12,14 +12,25 @@
   "useFullWidth": true,
   "horizontalSpacing": 8,
   "verticalSpacing": 10,
-  "screenMarginLeft": 10,
-  "screenMarginTop": 10,
-  "screenMarginRight": 10,
-  "screenMarginBottom": 16,
+  "screenMarginLeft": 12,
+  "screenMarginTop": 12,
+  "screenMarginRight": 12,
+  "screenMarginBottom": 18,
 
-  "buttonCornerRadius": 18,
-  "sectionCornerRadius": 22,
-  "buttonHeight": 58,
+  "backgroundMode": "vertical-gradient",
+  "backgroundColor": "#0A1220",
+  "backgroundColor2": "#0D1728",
+  "foregroundColor": "#F4F7FB",
+  "mutedTextColor": "#A8B6CB",
+  "surfaceColor": "#111D31",
+  "accentColor": "#4EA1FF",
+  "buttonColor": "#1B2940",
+  "buttonTextColor": "#F7FAFF",
+  "borderColor": "#31425E",
+
+  "buttonCornerRadius": 10,
+  "sectionCornerRadius": 16,
+  "buttonHeight": 50,
   "buttonFontSize": 13,
   "iconFontSize": 24,
 
@@ -27,312 +38,182 @@
     {
       "id": "power-row",
       "name": "Power",
+      "titlePlacement": "border",
       "order": 10,
       "columnSpan": 4,
+      "shape": "rounded",
+      "cornerRadius": 16,
+      "borderColor": "#344763",
+      "borderWidth": 1,
+      "backgroundMode": "solid",
+      "backgroundColor": "#101B2E",
       "controls": [
-        {
-          "id": "power",
-          "order": 10,
-          "type": "button",
-          "label": "POWER",
-          "command": "Power",
-          "row": 0,
-          "column": 0,
-          "height": 64,
-          "shape": "pill",
-          "backgroundColor": "$Danger",
-          "textColor": "$OnDanger"
-        },
-        {
-          "id": "source",
-          "order": 20,
-          "type": "button",
-          "label": "INPUT",
-          "command": "Source",
-          "row": 0,
-          "column": 1,
-          "height": 64,
-          "shape": "pill"
-        },
-        {
-          "id": "home",
-          "order": 30,
-          "type": "button",
-          "label": "HOME",
-          "command": "SmartHub",
-          "row": 0,
-          "column": 2,
-          "height": 64,
-          "shape": "pill"
-        },
-        {
-          "id": "settings",
-          "order": 40,
-          "type": "button",
-          "label": "TOOLS",
-          "command": "Tools",
-          "row": 0,
-          "column": 3,
-          "height": 64,
-          "shape": "pill"
-        }
+        { "id": "power", "order": 10, "type": "button", "label": "POWER", "command": "Power", "row": 0, "column": 0, "sizeYPercent": 82, "shape": "rounded", "backgroundColor": "#C83E4D", "textColor": "#FFFFFF", "borderWidth": 0 },
+        { "id": "source", "order": 20, "type": "button", "label": "INPUT", "command": "Source", "row": 0, "column": 1, "sizeYPercent": 82, "shape": "rectangle", "backgroundColor": "#483D8B", "textColor": "#FFFFFF", "borderWidth": 0 },
+        { "id": "home", "order": 30, "type": "button", "label": "HOME", "command": "SmartHub", "row": 0, "column": 2, "sizeYPercent": 82, "shape": "rounded", "backgroundColor": "#246BCE", "textColor": "#FFFFFF", "borderWidth": 0 },
+        { "id": "settings", "order": 40, "type": "button", "label": "TOOLS", "command": "Tools", "row": 0, "column": 3, "sizeYPercent": 82, "shape": "rectangle", "backgroundColor": "#334155", "textColor": "#FFFFFF", "borderWidth": 0 }
       ]
     },
 
     {
       "id": "volume-channel",
       "name": "Volume & Channel",
+      "titlePlacement": "border",
       "order": 20,
       "columnSpan": 4,
+      "shape": "rounded",
+      "cornerRadius": 16,
+      "borderColor": "#344763",
+      "backgroundMode": "solid",
+      "backgroundColor": "#101B2E",
       "controls": [
-        {
-          "id": "vol-up",
-          "order": 10,
-          "type": "button",
-          "label": "VOL +",
-          "command": "VolumeUp",
-          "row": 0,
-          "column": 0,
-          "height": 62
-        },
-        {
-          "id": "mute",
-          "order": 20,
-          "type": "button",
-          "label": "MUTE",
-          "command": "Mute",
-          "row": 0,
-          "column": 1,
-          "columnSpan": 2,
-          "height": 62
-        },
-        {
-          "id": "ch-up",
-          "order": 30,
-          "type": "button",
-          "label": "CH +",
-          "command": "ChannelUp",
-          "row": 0,
-          "column": 3,
-          "height": 62
-        },
-        {
-          "id": "vol-down",
-          "order": 40,
-          "type": "button",
-          "label": "VOL −",
-          "command": "VolumeDown",
-          "row": 1,
-          "column": 0,
-          "height": 62
-        },
-        {
-          "id": "previous-channel",
-          "order": 50,
-          "type": "button",
-          "label": "LAST",
-          "command": "PreviousChannel",
-          "row": 1,
-          "column": 1,
-          "columnSpan": 2,
-          "height": 62
-        },
-        {
-          "id": "ch-down",
-          "order": 60,
-          "type": "button",
-          "label": "CH −",
-          "command": "ChannelDown",
-          "row": 1,
-          "column": 3,
-          "height": 62
-        }
+        { "id": "vol-up", "order": 10, "type": "button", "label": "VOL +", "command": "VolumeUp", "row": 0, "column": 0, "sizeYPercent": 82, "backgroundColor": "#1E4976" },
+        { "id": "mute", "order": 20, "type": "button", "label": "MUTE", "command": "Mute", "row": 0, "column": 1, "columnSpan": 2, "sizeYPercent": 82, "shape": "rectangle", "backgroundColor": "#735C1F", "textColor": "#FFF7D6" },
+        { "id": "ch-up", "order": 30, "type": "button", "label": "CH +", "command": "ChannelUp", "row": 0, "column": 3, "sizeYPercent": 82, "backgroundColor": "#185A55" },
+        { "id": "vol-down", "order": 40, "type": "button", "label": "VOL −", "command": "VolumeDown", "row": 1, "column": 0, "sizeYPercent": 82, "backgroundColor": "#1E4976" },
+        { "id": "previous-channel", "order": 50, "type": "button", "label": "LAST", "command": "PreviousChannel", "row": 1, "column": 1, "columnSpan": 2, "sizeYPercent": 82, "shape": "rectangle", "backgroundColor": "#253650" },
+        { "id": "ch-down", "order": 60, "type": "button", "label": "CH −", "command": "ChannelDown", "row": 1, "column": 3, "sizeYPercent": 82, "backgroundColor": "#185A55" }
       ]
     },
 
     {
       "id": "navigation",
       "name": "Navigation",
+      "titlePlacement": "border",
       "order": 30,
       "columnSpan": 4,
-      "rowSpan": 3,
-      "backgroundMode": "inherit",
-      "cornerRadius": 24,
+      "shape": "rounded",
+      "cornerRadius": 20,
+      "borderColor": "#41658E",
+      "borderWidth": 1.5,
+      "backgroundMode": "vertical-gradient",
+      "backgroundColor": "#121F35",
+      "backgroundColor2": "#0F1A2C",
       "controls": [
-        {
-          "id": "up",
-          "order": 10,
-          "type": "button",
-          "label": "▲",
-          "command": "Up",
-          "row": 0,
-          "column": 1,
-          "columnSpan": 2,
-          "height": 66,
-          "shape": "pill",
-          "fontSize": 22
-        },
-        {
-          "id": "left",
-          "order": 20,
-          "type": "button",
-          "label": "◀",
-          "command": "Left",
-          "row": 1,
-          "column": 0,
-          "height": 72,
-          "shape": "pill",
-          "fontSize": 22
-        },
-        {
-          "id": "ok",
-          "order": 30,
-          "type": "button",
-          "label": "OK",
-          "command": "Ok",
-          "row": 1,
-          "column": 1,
-          "columnSpan": 2,
-          "height": 76,
-          "shape": "pill",
-          "backgroundColor": "$Accent",
-          "textColor": "$OnAccent",
-          "fontSize": 17
-        },
-        {
-          "id": "right",
-          "order": 40,
-          "type": "button",
-          "label": "▶",
-          "command": "Right",
-          "row": 1,
-          "column": 3,
-          "height": 72,
-          "shape": "pill",
-          "fontSize": 22
-        },
-        {
-          "id": "back",
-          "order": 50,
-          "type": "button",
-          "label": "BACK",
-          "command": "Back",
-          "row": 2,
-          "column": 0,
-          "height": 66,
-          "shape": "pill"
-        },
-        {
-          "id": "down",
-          "order": 60,
-          "type": "button",
-          "label": "▼",
-          "command": "Down",
-          "row": 2,
-          "column": 1,
-          "columnSpan": 2,
-          "height": 66,
-          "shape": "pill",
-          "fontSize": 22
-        },
-        {
-          "id": "exit",
-          "order": 70,
-          "type": "button",
-          "label": "EXIT",
-          "command": "Exit",
-          "row": 2,
-          "column": 3,
-          "height": 66,
-          "shape": "pill"
-        }
+        { "id": "up", "order": 10, "type": "button", "label": "▲", "command": "Up", "row": 0, "column": 1, "columnSpan": 2, "sizeYPercent": 86, "backgroundColor": "#243D63", "fontSize": 21, "borderWidth": 0 },
+        { "id": "left", "order": 20, "type": "button", "label": "◀", "command": "Left", "row": 1, "column": 0, "sizeYPercent": 90, "shape": "rectangle", "backgroundColor": "#243D63", "fontSize": 21, "borderWidth": 0 },
+        { "id": "ok", "order": 30, "type": "button", "label": "OK", "command": "Ok", "row": 1, "column": 1, "columnSpan": 2, "sizeYPercent": 94, "backgroundColor": "#2F80ED", "textColor": "#FFFFFF", "fontSize": 17, "fontAttribute": "bold", "borderColor": "#76B6FF", "borderWidth": 1 },
+        { "id": "right", "order": 40, "type": "button", "label": "▶", "command": "Right", "row": 1, "column": 3, "sizeYPercent": 90, "shape": "rectangle", "backgroundColor": "#243D63", "fontSize": 21, "borderWidth": 0 },
+        { "id": "back", "order": 50, "type": "button", "label": "BACK", "command": "Back", "row": 2, "column": 0, "sizeYPercent": 82, "shape": "rectangle", "backgroundColor": "#3B4658", "borderWidth": 0 },
+        { "id": "down", "order": 60, "type": "button", "label": "▼", "command": "Down", "row": 2, "column": 1, "columnSpan": 2, "sizeYPercent": 86, "backgroundColor": "#243D63", "fontSize": 21, "borderWidth": 0 },
+        { "id": "exit", "order": 70, "type": "button", "label": "EXIT", "command": "Exit", "row": 2, "column": 3, "sizeYPercent": 82, "shape": "rectangle", "backgroundColor": "#5A3544", "borderWidth": 0 }
       ]
     },
 
     {
       "id": "main-actions",
       "name": "TV",
+      "titlePlacement": "border",
       "order": 40,
       "columnSpan": 4,
+      "shape": "rounded",
+      "cornerRadius": 14,
+      "borderColor": "#2D3E58",
+      "backgroundMode": "solid",
+      "backgroundColor": "#0F192A",
       "controls": [
-        { "id": "menu", "order": 10, "type": "button", "label": "MENU", "command": "Menu", "row": 0, "column": 0 },
-        { "id": "guide", "order": 20, "type": "button", "label": "GUIDE", "command": "Guide", "row": 0, "column": 1 },
-        { "id": "info", "order": 30, "type": "button", "label": "INFO", "command": "Info", "row": 0, "column": 2 },
-        { "id": "channel-list", "order": 40, "type": "button", "label": "CH LIST", "command": "ChannelList", "row": 0, "column": 3 }
+        { "id": "menu", "order": 10, "type": "button", "label": "MENU", "command": "Menu", "row": 0, "column": 0, "sizeYPercent": 78 },
+        { "id": "guide", "order": 20, "type": "button", "label": "GUIDE", "command": "Guide", "row": 0, "column": 1, "sizeYPercent": 78 },
+        { "id": "info", "order": 30, "type": "button", "label": "INFO", "command": "Info", "row": 0, "column": 2, "sizeYPercent": 78 },
+        { "id": "channel-list", "order": 40, "type": "button", "label": "CH LIST", "command": "ChannelList", "row": 0, "column": 3, "sizeYPercent": 78 }
       ]
     },
 
     {
       "id": "number-pad",
       "name": "Numbers",
+      "titlePlacement": "border",
       "order": 50,
       "columnSpan": 4,
+      "shape": "rounded",
+      "cornerRadius": 14,
+      "borderColor": "#2D3E58",
+      "backgroundMode": "solid",
+      "backgroundColor": "#0F192A",
       "controls": [
-        { "id": "digit1", "order": 10, "type": "button", "label": "1", "command": "Digit1", "row": 0, "column": 0, "fontSize": 18 },
-        { "id": "digit2", "order": 20, "type": "button", "label": "2", "command": "Digit2", "row": 0, "column": 1, "fontSize": 18 },
-        { "id": "digit3", "order": 30, "type": "button", "label": "3", "command": "Digit3", "row": 0, "column": 2, "fontSize": 18 },
-        { "id": "subtitle", "order": 40, "type": "button", "label": "SUB", "command": "Subtitle", "row": 0, "column": 3 },
+        { "id": "digit1", "order": 10, "type": "button", "label": "1", "command": "Digit1", "row": 0, "column": 0, "sizeYPercent": 80, "fontSize": 18 },
+        { "id": "digit2", "order": 20, "type": "button", "label": "2", "command": "Digit2", "row": 0, "column": 1, "sizeYPercent": 80, "fontSize": 18 },
+        { "id": "digit3", "order": 30, "type": "button", "label": "3", "command": "Digit3", "row": 0, "column": 2, "sizeYPercent": 80, "fontSize": 18 },
+        { "id": "subtitle", "order": 40, "type": "button", "label": "SUB", "command": "Subtitle", "row": 0, "column": 3, "sizeYPercent": 80, "backgroundColor": "#263A55" },
 
-        { "id": "digit4", "order": 50, "type": "button", "label": "4", "command": "Digit4", "row": 1, "column": 0, "fontSize": 18 },
-        { "id": "digit5", "order": 60, "type": "button", "label": "5", "command": "Digit5", "row": 1, "column": 1, "fontSize": 18 },
-        { "id": "digit6", "order": 70, "type": "button", "label": "6", "command": "Digit6", "row": 1, "column": 2, "fontSize": 18 },
-        { "id": "teletext", "order": 80, "type": "button", "label": "TEXT", "command": "TeletextMix", "row": 1, "column": 3 },
+        { "id": "digit4", "order": 50, "type": "button", "label": "4", "command": "Digit4", "row": 1, "column": 0, "sizeYPercent": 80, "fontSize": 18 },
+        { "id": "digit5", "order": 60, "type": "button", "label": "5", "command": "Digit5", "row": 1, "column": 1, "sizeYPercent": 80, "fontSize": 18 },
+        { "id": "digit6", "order": 70, "type": "button", "label": "6", "command": "Digit6", "row": 1, "column": 2, "sizeYPercent": 80, "fontSize": 18 },
+        { "id": "teletext", "order": 80, "type": "button", "label": "TEXT", "command": "TeletextMix", "row": 1, "column": 3, "sizeYPercent": 80, "backgroundColor": "#263A55" },
 
-        { "id": "digit7", "order": 90, "type": "button", "label": "7", "command": "Digit7", "row": 2, "column": 0, "fontSize": 18 },
-        { "id": "digit8", "order": 100, "type": "button", "label": "8", "command": "Digit8", "row": 2, "column": 1, "fontSize": 18 },
-        { "id": "digit9", "order": 110, "type": "button", "label": "9", "command": "Digit9", "row": 2, "column": 2, "fontSize": 18 },
-        { "id": "emanual", "order": 120, "type": "button", "label": "E-MANUAL", "command": "EManual", "row": 2, "column": 3, "fontSize": 11 },
+        { "id": "digit7", "order": 90, "type": "button", "label": "7", "command": "Digit7", "row": 2, "column": 0, "sizeYPercent": 80, "fontSize": 18 },
+        { "id": "digit8", "order": 100, "type": "button", "label": "8", "command": "Digit8", "row": 2, "column": 1, "sizeYPercent": 80, "fontSize": 18 },
+        { "id": "digit9", "order": 110, "type": "button", "label": "9", "command": "Digit9", "row": 2, "column": 2, "sizeYPercent": 80, "fontSize": 18 },
+        { "id": "emanual", "order": 120, "type": "button", "label": "E-MANUAL", "command": "EManual", "row": 2, "column": 3, "sizeYPercent": 80, "fontSize": 10, "backgroundColor": "#263A55" },
 
-        { "id": "digit0", "order": 130, "type": "button", "label": "0", "command": "Digit0", "row": 3, "column": 1, "columnSpan": 2, "fontSize": 18 }
+        { "id": "digit0", "order": 130, "type": "button", "label": "0", "command": "Digit0", "row": 3, "column": 1, "columnSpan": 2, "sizeYPercent": 82, "fontSize": 18, "backgroundColor": "#23344E" }
       ]
     },
 
     {
       "id": "media",
       "name": "Media",
+      "titlePlacement": "border",
       "order": 60,
       "columnSpan": 4,
+      "shape": "rounded",
+      "cornerRadius": 14,
+      "borderColor": "#2D3E58",
+      "backgroundMode": "solid",
+      "backgroundColor": "#0F192A",
       "controls": [
-        { "id": "rewind", "order": 10, "type": "button", "label": "REW", "command": "Rewind", "row": 0, "column": 0 },
-        { "id": "play", "order": 20, "type": "button", "label": "PLAY", "command": "Play", "row": 0, "column": 1 },
-        { "id": "pause", "order": 30, "type": "button", "label": "PAUSE", "command": "Pause", "row": 0, "column": 2 },
-        { "id": "forward", "order": 40, "type": "button", "label": "FF", "command": "FastForward", "row": 0, "column": 3 },
-        { "id": "stop", "order": 50, "type": "button", "label": "STOP", "command": "Stop", "row": 1, "column": 1 },
-        { "id": "record", "order": 60, "type": "button", "label": "REC", "command": "Record", "row": 1, "column": 2, "backgroundColor": "$Danger", "textColor": "$OnDanger" }
+        { "id": "rewind", "order": 10, "type": "button", "label": "REW", "command": "Rewind", "row": 0, "column": 0, "sizeYPercent": 78, "shape": "rectangle", "backgroundColor": "#213451" },
+        { "id": "play", "order": 20, "type": "button", "label": "PLAY", "command": "Play", "row": 0, "column": 1, "sizeYPercent": 78, "backgroundColor": "#1B5A45" },
+        { "id": "pause", "order": 30, "type": "button", "label": "PAUSE", "command": "Pause", "row": 0, "column": 2, "sizeYPercent": 78, "backgroundColor": "#735C1F" },
+        { "id": "forward", "order": 40, "type": "button", "label": "FF", "command": "FastForward", "row": 0, "column": 3, "sizeYPercent": 78, "shape": "rectangle", "backgroundColor": "#213451" },
+        { "id": "stop", "order": 50, "type": "button", "label": "STOP", "command": "Stop", "row": 1, "column": 1, "sizeYPercent": 76, "backgroundColor": "#4A4352" },
+        { "id": "record", "order": 60, "type": "button", "label": "REC", "command": "Record", "row": 1, "column": 2, "sizeYPercent": 76, "backgroundColor": "#B63848", "textColor": "#FFFFFF" }
       ]
     },
 
     {
       "id": "color-buttons",
       "name": "Color Keys",
+      "titlePlacement": "border",
       "order": 70,
       "columnSpan": 4,
+      "shape": "rounded",
+      "cornerRadius": 12,
+      "borderColor": "#2D3E58",
+      "backgroundMode": "solid",
+      "backgroundColor": "#0F192A",
       "controls": [
-        { "id": "red", "order": 10, "type": "button", "label": "", "command": "Red", "row": 0, "column": 0, "height": 48, "shape": "pill", "backgroundColor": "#D32F2F" },
-        { "id": "green", "order": 20, "type": "button", "label": "", "command": "Green", "row": 0, "column": 1, "height": 48, "shape": "pill", "backgroundColor": "#388E3C" },
-        { "id": "yellow", "order": 30, "type": "button", "label": "", "command": "Yellow", "row": 0, "column": 2, "height": 48, "shape": "pill", "backgroundColor": "#FBC02D" },
-        { "id": "blue", "order": 40, "type": "button", "label": "", "command": "Blue", "row": 0, "column": 3, "height": 48, "shape": "pill", "backgroundColor": "#1976D2" }
+        { "id": "red", "order": 10, "type": "button", "label": "", "command": "Red", "row": 0, "column": 0, "sizeYPercent": 56, "shape": "rectangle", "backgroundColor": "#D84545", "borderWidth": 0 },
+        { "id": "green", "order": 20, "type": "button", "label": "", "command": "Green", "row": 0, "column": 1, "sizeYPercent": 56, "shape": "rectangle", "backgroundColor": "#35A65A", "borderWidth": 0 },
+        { "id": "yellow", "order": 30, "type": "button", "label": "", "command": "Yellow", "row": 0, "column": 2, "sizeYPercent": 56, "shape": "rectangle", "backgroundColor": "#E4B936", "borderWidth": 0 },
+        { "id": "blue", "order": 40, "type": "button", "label": "", "command": "Blue", "row": 0, "column": 3, "sizeYPercent": 56, "shape": "rectangle", "backgroundColor": "#3986E6", "borderWidth": 0 }
       ]
     },
 
     {
       "id": "extended-tv",
       "name": "More",
+      "titlePlacement": "border",
       "order": 80,
       "columnSpan": 4,
+      "shape": "rounded",
+      "cornerRadius": 14,
+      "borderColor": "#2D3E58",
+      "backgroundMode": "solid",
+      "backgroundColor": "#0F192A",
       "controls": [
-        { "id": "power-on", "order": 10, "type": "button", "label": "POWER ON", "command": "PowerOn", "row": 0, "column": 0, "columnSpan": 2 },
-        { "id": "power-off", "order": 20, "type": "button", "label": "POWER OFF", "command": "PowerOff", "row": 0, "column": 2, "columnSpan": 2 },
-        { "id": "soccer-mode", "order": 30, "type": "button", "label": "SPORT", "command": "SoccerMode", "row": 1, "column": 0 },
-        { "id": "sleep", "order": 40, "type": "button", "label": "SLEEP", "command": "Sleep", "row": 1, "column": 1 },
-        { "id": "custom1", "order": 50, "type": "button", "label": "APP 1", "command": "Custom1", "row": 1, "column": 2 },
-        { "id": "custom2", "order": 60, "type": "button", "label": "APP 2", "command": "Custom2", "row": 1, "column": 3 },
-        { "id": "custom3", "order": 70, "type": "button", "label": "APP 3", "command": "Custom3", "row": 2, "column": 0 },
-        { "id": "custom4", "order": 80, "type": "button", "label": "APP 4", "command": "Custom4", "row": 2, "column": 1 },
-        { "id": "custom5", "order": 90, "type": "button", "label": "APP 5", "command": "Custom5", "row": 2, "column": 2 },
-        { "id": "custom6", "order": 100, "type": "button", "label": "APP 6", "command": "Custom6", "row": 2, "column": 3 },
-        { "id": "custom7", "order": 110, "type": "button", "label": "CUSTOM 7", "command": "Custom7", "row": 3, "column": 1 },
-        { "id": "custom8", "order": 120, "type": "button", "label": "CUSTOM 8", "command": "Custom8", "row": 3, "column": 2 }
+        { "id": "power-on", "order": 10, "type": "button", "label": "POWER ON", "command": "PowerOn", "row": 0, "column": 0, "columnSpan": 2, "sizeYPercent": 76, "backgroundColor": "#245E45" },
+        { "id": "power-off", "order": 20, "type": "button", "label": "POWER OFF", "command": "PowerOff", "row": 0, "column": 2, "columnSpan": 2, "sizeYPercent": 76, "backgroundColor": "#6B3340" },
+        { "id": "soccer-mode", "order": 30, "type": "button", "label": "SPORT", "command": "SoccerMode", "row": 1, "column": 0, "sizeYPercent": 74, "backgroundColor": "#215746" },
+        { "id": "sleep", "order": 40, "type": "button", "label": "SLEEP", "command": "Sleep", "row": 1, "column": 1, "sizeYPercent": 74, "backgroundColor": "#3C416C" },
+        { "id": "custom1", "order": 50, "type": "button", "label": "APP 1", "command": "Custom1", "row": 1, "column": 2, "sizeYPercent": 74 },
+        { "id": "custom2", "order": 60, "type": "button", "label": "APP 2", "command": "Custom2", "row": 1, "column": 3, "sizeYPercent": 74 },
+        { "id": "custom3", "order": 70, "type": "button", "label": "APP 3", "command": "Custom3", "row": 2, "column": 0, "sizeYPercent": 74 },
+        { "id": "custom4", "order": 80, "type": "button", "label": "APP 4", "command": "Custom4", "row": 2, "column": 1, "sizeYPercent": 74 },
+        { "id": "custom5", "order": 90, "type": "button", "label": "APP 5", "command": "Custom5", "row": 2, "column": 2, "sizeYPercent": 74 },
+        { "id": "custom6", "order": 100, "type": "button", "label": "APP 6", "command": "Custom6", "row": 2, "column": 3, "sizeYPercent": 74 },
+        { "id": "custom7", "order": 110, "type": "button", "label": "APP 7", "command": "Custom7", "row": 3, "column": 1, "sizeYPercent": 74 },
+        { "id": "custom8", "order": 120, "type": "button", "label": "APP 8", "command": "Custom8", "row": 3, "column": 2, "sizeYPercent": 74 }
       ]
     }
   ]
