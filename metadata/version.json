@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.224",
-  "versionCode": 1788809078,
-  "publishedUtc": "2026-09-07T19:24:38Z",
-  "commit": "257bafcf491277ca88debded9e58bed860a5b3fc",
-  "patchNotes": "Add premium modern IR air conditioner UI template"
+  "version": "1.0.225",
+  "versionCode": 1788809089,
+  "publishedUtc": "2026-09-07T19:24:49Z",
+  "commit": "b77b340ee2eb34be132b5954255bdc86d92619e0",
+  "patchNotes": "Register premium modern IR air conditioner UI template"
 }
