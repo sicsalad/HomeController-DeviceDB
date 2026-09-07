@@ -594,6 +594,12 @@
       "versionCode": 1788795595,
       "publishedUtc": "2026-09-07T15:46:38Z",
       "notes": "Fix Google Home renderer color name collision"
+    },
+    {
+      "version": "1.0.1235",
+      "versionCode": 1788797351,
+      "publishedUtc": "2026-09-07T16:15:31Z",
+      "notes": "Expand UI template layout and authoring guide"
     }
   ]
 }
