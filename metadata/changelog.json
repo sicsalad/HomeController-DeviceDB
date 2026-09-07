@@ -1062,6 +1062,12 @@
       "versionCode": 1788814259,
       "publishedUtc": "2026-09-07T20:50:59Z",
       "notes": "Document only editable Device UI V2 authoring"
+    },
+    {
+      "version": "1.0.233",
+      "versionCode": 1788814278,
+      "publishedUtc": "2026-09-07T20:51:18Z",
+      "notes": "Bump DeviceDB for editable climate UI V2"
     }
   ]
 }
