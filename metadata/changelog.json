@@ -996,6 +996,12 @@
       "versionCode": 1788799174,
       "publishedUtc": "2026-09-07T16:39:34Z",
       "notes": "Redesign TV remote template for corrected layout engine"
+    },
+    {
+      "version": "1.0.221",
+      "versionCode": 1788804490,
+      "publishedUtc": "2026-09-07T18:08:10Z",
+      "notes": "Improve default Wi-Fi climate remote UI"
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.219",
-  "versionCode": 1788799174,
-  "publishedUtc": "2026-09-07T16:39:34Z",
-  "commit": "2429be60038e63cc31c6816374a5bd217e7815c5",
-  "patchNotes": "Redesign TV remote template for corrected layout engine"
+  "version": "1.0.221",
+  "versionCode": 1788804490,
+  "publishedUtc": "2026-09-07T18:08:10Z",
+  "commit": "abc844b13123c85cdbf84dccea0cabfda4ab7ddf",
+  "patchNotes": "Improve default Wi-Fi climate remote UI"
 }
