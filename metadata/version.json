@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.228",
-  "versionCode": 1788811378,
-  "publishedUtc": "2026-09-07T20:02:58Z",
-  "commit": "c7900ec4a7b76573914c69c5ce345072a6c8c94c",
-  "patchNotes": "Bump DeviceDB version after IR AC template fix"
+  "version": "1.0.229",
+  "versionCode": 1788814180,
+  "publishedUtc": "2026-09-07T20:49:40Z",
+  "commit": "0c72702a1ef9088c7ee51386c3a29074281c19d2",
+  "patchNotes": "Replace default IR AC UI with editable V2 climate remote"
 }

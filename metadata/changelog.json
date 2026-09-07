@@ -1044,6 +1044,12 @@
       "versionCode": 1788811378,
       "publishedUtc": "2026-09-07T20:02:58Z",
       "notes": "Bump DeviceDB version after IR AC template fix"
+    },
+    {
+      "version": "1.0.229",
+      "versionCode": 1788814180,
+      "publishedUtc": "2026-09-07T20:49:40Z",
+      "notes": "Replace default IR AC UI with editable V2 climate remote"
     }
   ]
 }
