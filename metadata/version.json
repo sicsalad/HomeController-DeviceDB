@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.226",
-  "versionCode": 1788811329,
-  "publishedUtc": "2026-09-07T20:02:09Z",
-  "commit": "36d2ccc752a9ac6c0781777b16f63c9e14b6e5c9",
-  "patchNotes": "Add DeviceDB version marker for client-side catalog caching"
+  "version": "1.0.227",
+  "versionCode": 1788811354,
+  "publishedUtc": "2026-09-07T20:02:34Z",
+  "commit": "6f5bb3529a03c9e1d6a777e6df76f58a6bd889b1",
+  "patchNotes": "Fix IR AC template initial state value types"
 }

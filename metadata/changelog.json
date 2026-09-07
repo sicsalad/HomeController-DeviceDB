@@ -1032,6 +1032,12 @@
       "versionCode": 1788811329,
       "publishedUtc": "2026-09-07T20:02:09Z",
       "notes": "Add DeviceDB version marker for client-side catalog caching"
+    },
+    {
+      "version": "1.0.227",
+      "versionCode": 1788811354,
+      "publishedUtc": "2026-09-07T20:02:34Z",
+      "notes": "Fix IR AC template initial state value types"
     }
   ]
 }
