@@ -45,8 +45,8 @@
       "backgroundColor": "#0D1A2A",
       "backgroundColor2": "#101F31",
       "controls": [
-        { "id": "power", "order": 10, "type": "button", "label": "⏻", "command": "Power", "row": 0, "column": 0, "sizeYPercent": 92, "shape": "rounded", "backgroundColor": "#F04464", "textColor": "#FFFFFF", "fontSize": 24, "borderWidth": 0 },
-        { "id": "source", "order": 20, "type": "button", "label": "INPUT", "command": "Source", "row": 0, "column": 3, "sizeYPercent": 92, "shape": "rounded", "backgroundColor": "#1B3754", "textColor": "#DCEBFA", "borderWidth": 0 },
+        { "id": "power", "order": 10, "type": "button", "label": "POWER", "command": "Power", "row": 0, "column": 0, "sizeYPercent": 92, "shape": "rounded", "backgroundColor": "#D9475B", "textColor": "#FFFFFF", "fontSize": 13, "fontAttribute": "bold", "borderColor": "#FF7181", "borderWidth": 1 },
+        { "id": "source", "order": 20, "type": "button", "label": "INPUT", "command": "Source", "row": 0, "column": 3, "sizeYPercent": 92, "shape": "rounded", "backgroundColor": "#1B4A70", "textColor": "#E8F5FF", "borderWidth": 0 },
         { "id": "home", "order": 30, "type": "button", "label": "HOME", "command": "SmartHub", "row": 1, "column": 1, "columnSpan": 2, "sizeYPercent": 88, "shape": "rounded", "backgroundColor": "#0E63C7", "textColor": "#FFFFFF", "fontAttribute": "bold", "borderColor": "#3FA8FF", "borderWidth": 1 }
       ]
     },
@@ -86,11 +86,11 @@
       "backgroundColor": "#0D1A28",
       "controls": [
         { "id": "vol-up", "order": 10, "type": "button", "label": "+\nVOL", "command": "VolumeUp", "row": 0, "column": 0, "sizeYPercent": 96, "backgroundColor": "#173A5D", "fontSize": 16 },
-        { "id": "mute", "order": 20, "type": "button", "label": "MUTE", "command": "Mute", "row": 0, "column": 1, "columnSpan": 2, "sizeYPercent": 96, "backgroundColor": "#5D4A1D", "textColor": "#FFF4C8", "fontAttribute": "bold" },
-        { "id": "ch-up", "order": 30, "type": "button", "label": "+\nCH", "command": "ChannelUp", "row": 0, "column": 3, "sizeYPercent": 96, "backgroundColor": "#13554D", "fontSize": 16 },
+        { "id": "mute", "order": 20, "type": "button", "label": "MUTE", "command": "Mute", "row": 0, "column": 1, "columnSpan": 2, "sizeYPercent": 96, "backgroundColor": "#6A521D", "textColor": "#FFF4C8", "fontAttribute": "bold" },
+        { "id": "ch-up", "order": 30, "type": "button", "label": "+\nCH", "command": "ChannelUp", "row": 0, "column": 3, "sizeYPercent": 96, "backgroundColor": "#17614E", "fontSize": 16 },
         { "id": "vol-down", "order": 40, "type": "button", "label": "−\nVOL", "command": "VolumeDown", "row": 1, "column": 0, "sizeYPercent": 96, "backgroundColor": "#173A5D", "fontSize": 16 },
         { "id": "last", "order": 50, "type": "button", "label": "LAST", "command": "PreviousChannel", "row": 1, "column": 1, "columnSpan": 2, "sizeYPercent": 88, "backgroundColor": "#223449" },
-        { "id": "ch-down", "order": 60, "type": "button", "label": "−\nCH", "command": "ChannelDown", "row": 1, "column": 3, "sizeYPercent": 96, "backgroundColor": "#13554D", "fontSize": 16 }
+        { "id": "ch-down", "order": 60, "type": "button", "label": "−\nCH", "command": "ChannelDown", "row": 1, "column": 3, "sizeYPercent": 96, "backgroundColor": "#17614E", "fontSize": 16 }
       ]
     },
     {
