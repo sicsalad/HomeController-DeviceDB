@@ -1074,6 +1074,12 @@
       "versionCode": 1788814754,
       "publishedUtc": "2026-09-07T20:59:14Z",
       "notes": "Polish climate remote button colors and power label"
+    },
+    {
+      "version": "1.0.235",
+      "versionCode": 1788814781,
+      "publishedUtc": "2026-09-07T20:59:41Z",
+      "notes": "Polish premium climate remote button colors"
     }
   ]
 }

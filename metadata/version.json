@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.234",
-  "versionCode": 1788814754,
-  "publishedUtc": "2026-09-07T20:59:14Z",
-  "commit": "a02e2f981fff53d442ae61baf12fd95b30eb2344",
-  "patchNotes": "Polish climate remote button colors and power label"
+  "version": "1.0.235",
+  "versionCode": 1788814781,
+  "publishedUtc": "2026-09-07T20:59:41Z",
+  "commit": "244af076096c922073b6a8e6524101f4163d37a2",
+  "patchNotes": "Polish premium climate remote button colors"
 }
