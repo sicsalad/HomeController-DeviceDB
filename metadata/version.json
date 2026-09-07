@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.217",
-  "versionCode": 1788797702,
-  "publishedUtc": "2026-09-07T16:15:02Z",
-  "commit": "738fad35c03a8487ff04f2dd3e5ef68f9f7517e0",
-  "patchNotes": "Redesign default TV remote template"
+  "version": "1.0.218",
+  "versionCode": 1788799099,
+  "publishedUtc": "2026-09-07T16:38:19Z",
+  "commit": "69c274170026d803b347228cfc651ed662aba2cb",
+  "patchNotes": "Extend UI template schema for title placement and capabilities"
 }
