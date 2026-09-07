@@ -1026,6 +1026,12 @@
       "versionCode": 1788809089,
       "publishedUtc": "2026-09-07T19:24:49Z",
       "notes": "Register premium modern IR air conditioner UI template"
+    },
+    {
+      "version": "1.0.226",
+      "versionCode": 1788811329,
+      "publishedUtc": "2026-09-07T20:02:09Z",
+      "notes": "Add DeviceDB version marker for client-side catalog caching"
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.225",
-  "versionCode": 1788809089,
-  "publishedUtc": "2026-09-07T19:24:49Z",
-  "commit": "b77b340ee2eb34be132b5954255bdc86d92619e0",
-  "patchNotes": "Register premium modern IR air conditioner UI template"
+  "version": "1.0.226",
+  "versionCode": 1788811329,
+  "publishedUtc": "2026-09-07T20:02:09Z",
+  "commit": "36d2ccc752a9ac6c0781777b16f63c9e14b6e5c9",
+  "patchNotes": "Add DeviceDB version marker for client-side catalog caching"
 }
