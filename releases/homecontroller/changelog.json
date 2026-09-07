@@ -624,6 +624,12 @@
       "versionCode": 1788811974,
       "publishedUtc": "2026-09-07T20:19:09Z",
       "notes": "Keep custom UI while refreshing DeviceDB cache"
+    },
+    {
+      "version": "1.0.1250",
+      "versionCode": 1788822313,
+      "publishedUtc": "2026-09-07T23:11:40Z",
+      "notes": "Fix Android Activity namespace resolution in Google Home bridge"
     }
   ]
 }
