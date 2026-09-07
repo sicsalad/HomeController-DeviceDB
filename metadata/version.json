@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.216",
-  "versionCode": 1788566407,
-  "publishedUtc": "2026-09-05T00:00:07Z",
-  "commit": "b75eea35c1a153aeb23395fb44507e1cfafc1140",
-  "patchNotes": "Complete Russian Add Device search translations"
+  "version": "1.0.217",
+  "versionCode": 1788797702,
+  "publishedUtc": "2026-09-07T16:15:02Z",
+  "commit": "738fad35c03a8487ff04f2dd3e5ef68f9f7517e0",
+  "patchNotes": "Redesign default TV remote template"
 }
