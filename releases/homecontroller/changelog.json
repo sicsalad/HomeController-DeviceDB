@@ -564,6 +564,12 @@
       "versionCode": 1788737729,
       "publishedUtc": "2026-09-06T23:40:40Z",
       "notes": "Fix nullable Java Boolean mapping for Google Home state"
+    },
+    {
+      "version": "1.0.1187",
+      "versionCode": 1788738909,
+      "publishedUtc": "2026-09-07T00:01:30Z",
+      "notes": "Add Google Home brightness slider"
     }
   ]
 }
