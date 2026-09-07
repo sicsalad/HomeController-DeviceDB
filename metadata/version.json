@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.230",
-  "versionCode": 1788814215,
-  "publishedUtc": "2026-09-07T20:50:15Z",
-  "commit": "9337fd2138fc53576208242a4cc00b7ed3d50ede",
-  "patchNotes": "Convert Modern Climate Remote to editable V2 blocks"
+  "version": "1.0.231",
+  "versionCode": 1788814259,
+  "publishedUtc": "2026-09-07T20:50:59Z",
+  "commit": "a68987b7ce1ac88945f6bfe5ffee13283686b9ba",
+  "patchNotes": "Document only editable Device UI V2 authoring"
 }
