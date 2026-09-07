@@ -1008,6 +1008,12 @@
       "versionCode": 1788804777,
       "publishedUtc": "2026-09-07T18:12:57Z",
       "notes": "Add premium modern IR TV remote UI"
+    },
+    {
+      "version": "1.0.223",
+      "versionCode": 1788804784,
+      "publishedUtc": "2026-09-07T18:13:04Z",
+      "notes": "Register premium modern IR TV template"
     }
   ]
 }

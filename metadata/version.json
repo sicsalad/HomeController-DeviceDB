@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.222",
-  "versionCode": 1788804777,
-  "publishedUtc": "2026-09-07T18:12:57Z",
-  "commit": "1ba894c42416ffc5b6668fb127dbb93099362097",
-  "patchNotes": "Add premium modern IR TV remote UI"
+  "version": "1.0.223",
+  "versionCode": 1788804784,
+  "publishedUtc": "2026-09-07T18:13:04Z",
+  "commit": "bed548fe6c432b16c06463468aafa83406fc03e0",
+  "patchNotes": "Register premium modern IR TV template"
 }
