@@ -606,6 +606,12 @@
       "versionCode": 1788799227,
       "publishedUtc": "2026-09-07T16:44:56Z",
       "notes": "Expose group title placement in UI editor"
+    },
+    {
+      "version": "1.0.1240",
+      "versionCode": 1788804471,
+      "publishedUtc": "2026-09-07T18:14:13Z",
+      "notes": "Initialize Google Home bridge before Android activity reaches STARTED"
     }
   ]
 }
