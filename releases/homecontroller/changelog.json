@@ -672,6 +672,12 @@
       "versionCode": 1788858860,
       "publishedUtc": "2026-09-08T09:19:55Z",
       "notes": "Fix Device ambiguity in integration managed items"
+    },
+    {
+      "version": "1.0.1285",
+      "versionCode": 1788859600,
+      "publishedUtc": "2026-09-08T09:32:56Z",
+      "notes": "Assign Google Home integration UI template"
     }
   ]
 }
