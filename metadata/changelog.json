@@ -1176,6 +1176,12 @@
       "versionCode": 1788870229,
       "publishedUtc": "2026-09-08T12:23:49Z",
       "notes": "Add modern Bluetooth light UI template"
+    },
+    {
+      "version": "1.0.253",
+      "versionCode": 1788870243,
+      "publishedUtc": "2026-09-08T12:24:03Z",
+      "notes": "Add modern Bluetooth TV UI template"
     }
   ]
 }
