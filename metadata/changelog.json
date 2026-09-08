@@ -1152,6 +1152,12 @@
       "versionCode": 1788870180,
       "publishedUtc": "2026-09-08T12:23:00Z",
       "notes": "Add default Bluetooth sensor UI template"
+    },
+    {
+      "version": "1.0.249",
+      "versionCode": 1788870190,
+      "publishedUtc": "2026-09-08T12:23:10Z",
+      "notes": "Add default Bluetooth thermometer UI template"
     }
   ]
 }

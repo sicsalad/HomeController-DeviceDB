@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.248",
-  "versionCode": 1788870180,
-  "publishedUtc": "2026-09-08T12:23:00Z",
-  "commit": "8c10e868c2358a048e03fc6de9348c3f8aea0b65",
-  "patchNotes": "Add default Bluetooth sensor UI template"
+  "version": "1.0.249",
+  "versionCode": 1788870190,
+  "publishedUtc": "2026-09-08T12:23:10Z",
+  "commit": "f4e5975eb6966b508db9323a1ab37b75c5404760",
+  "patchNotes": "Add default Bluetooth thermometer UI template"
 }
