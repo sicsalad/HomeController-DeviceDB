@@ -660,6 +660,12 @@
       "versionCode": 1788854732,
       "publishedUtc": "2026-09-08T08:11:48Z",
       "notes": "Force Google Home permission flow and add diagnostics"
+    },
+    {
+      "version": "1.0.1271",
+      "versionCode": 1788856865,
+      "publishedUtc": "2026-09-08T08:46:53Z",
+      "notes": "Debounce Google Home live snapshot refreshes"
     }
   ]
 }
