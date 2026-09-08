@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.240",
-  "versionCode": 1788859293,
-  "publishedUtc": "2026-09-08T09:21:33Z",
-  "commit": "a6c94c517f5a9a27e2b9ac06c483f978a164ba75",
-  "patchNotes": "Add managed devices button to Hubitat UI"
+  "version": "1.0.241",
+  "versionCode": 1788859310,
+  "publishedUtc": "2026-09-08T09:21:50Z",
+  "commit": "0a09ad2194b0d31c3f2e9eab5c57e33e414cd95a",
+  "patchNotes": "Add managed devices button to Hue UI"
 }
