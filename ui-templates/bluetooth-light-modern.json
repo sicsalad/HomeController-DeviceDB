@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 2,
+  "id": "bluetooth-light-modern",
+  "name": "Modern",
+  "deviceTypeId": "light",
+  "connections": ["bluetooth"],
+  "renderer": "declarative",
+  "access": "free",
+  "columns": 4,
+  "buttonHeight": 60,
+  "buttonCornerRadius": 30,
+  "sectionCornerRadius": 20,
+  "surfaceColor": "$Surface",
+  "buttonColor": "$SurfaceElevated",
+  "accentColor": "$Accent",
+  "borderColor": "$CardBorder",
+  "sections": [
+    {"title":"Light","subtitle":"Quick control","controls":[
+      {"type":"toggle","label":"Power","icon":"⏻","command":"power","columnSpan":4},
+      {"type":"slider","label":"Brightness","icon":"☀","command":"brightness","minimum":0,"maximum":100,"step":1,"value":100,"columnSpan":4}
+    ]},
+    {"title":"Colors","controls":[
+      {"type":"tile","label":"Warm","icon":"🟠","command":"color","value":"#FFB347"},
+      {"type":"tile","label":"White","icon":"⚪","command":"color","value":"#FFFFFF"},
+      {"type":"tile","label":"Blue","icon":"🔵","command":"color","value":"#0088FF"},
+      {"type":"tile","label":"Purple","icon":"🟣","command":"color","value":"#A020F0"}
+    ]},
+    {"title":"Temperature","controls":[
+      {"type":"slider","label":"Color temperature","command":"color-temperature","minimum":0,"maximum":100,"step":1,"value":50,"columnSpan":4}
+    ]}
+  ]
+}
