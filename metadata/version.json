@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.243",
-  "versionCode": 1788859342,
-  "publishedUtc": "2026-09-08T09:22:22Z",
-  "commit": "f23f44af26d9ac130ef14151033507da0d40e779",
-  "patchNotes": "Register Google Home UI template"
+  "version": "1.0.244",
+  "versionCode": 1788859356,
+  "publishedUtc": "2026-09-08T09:22:36Z",
+  "commit": "7b5f0c510eba22e8265025263d124779472aee29",
+  "patchNotes": "Bump DeviceDB version for integration UI templates"
 }

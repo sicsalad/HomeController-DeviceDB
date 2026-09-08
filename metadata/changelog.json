@@ -1122,6 +1122,12 @@
       "versionCode": 1788859342,
       "publishedUtc": "2026-09-08T09:22:22Z",
       "notes": "Register Google Home UI template"
+    },
+    {
+      "version": "1.0.244",
+      "versionCode": 1788859356,
+      "publishedUtc": "2026-09-08T09:22:36Z",
+      "notes": "Bump DeviceDB version for integration UI templates"
     }
   ]
 }
