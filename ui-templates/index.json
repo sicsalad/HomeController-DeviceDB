@@ -16,6 +16,18 @@
     {"id":"wifi-tv-default","path":"wifi-tv-default.json","status":"stable","access":"free"},
     {"id":"wifi-tv-round","path":"wifi-tv-round.json","status":"stable","access":"premium"},
     {"id":"wifi-ac-modern","path":"wifi-ac-modern.json","status":"stable","access":"free"},
-    {"id":"wifi-tv-modern","path":"wifi-tv-modern.json","status":"stable","access":"free"}
+    {"id":"wifi-tv-modern","path":"wifi-tv-modern.json","status":"stable","access":"free"},
+
+    {"id":"bluetooth-tv-default","path":"bluetooth-tv-default.json","status":"stable","access":"free"},
+    {"id":"bluetooth-tv-modern","path":"bluetooth-tv-modern.json","status":"stable","access":"free"},
+    {"id":"bluetooth-light-default","path":"bluetooth-light-default.json","status":"stable","access":"free"},
+    {"id":"bluetooth-light-modern","path":"bluetooth-light-modern.json","status":"stable","access":"free"},
+    {"id":"bluetooth-switch-plug-default","path":"bluetooth-switch-plug-default.json","status":"stable","access":"free"},
+    {"id":"bluetooth-switch-plug-modern","path":"bluetooth-switch-plug-modern.json","status":"stable","access":"free"},
+    {"id":"bluetooth-sensor-default","path":"bluetooth-sensor-default.json","status":"stable","access":"free"},
+    {"id":"bluetooth-sensor-modern","path":"bluetooth-sensor-modern.json","status":"stable","access":"free"},
+    {"id":"bluetooth-thermometer-default","path":"bluetooth-thermometer-default.json","status":"stable","access":"free"},
+    {"id":"bluetooth-hid-default","path":"bluetooth-hid-default.json","status":"stable","access":"free"},
+    {"id":"bluetooth-generic-default","path":"bluetooth-generic-default.json","status":"stable","access":"free"}
   ]
 }
