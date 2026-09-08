@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.258",
-  "versionCode": 1788885056,
-  "publishedUtc": "2026-09-08T16:30:56Z",
-  "commit": "9e5b9ba5d67f0508cdc063e88863f7fb34c2a183",
-  "patchNotes": "Bump DeviceDB version for TV icon refresh"
+  "version": "1.0.260",
+  "versionCode": 1788887137,
+  "publishedUtc": "2026-09-08T17:05:37Z",
+  "commit": "90b529cccb96781c26341c6fe4db08c0352e02cf",
+  "patchNotes": "Bump DeviceDB version for television icon update"
 }

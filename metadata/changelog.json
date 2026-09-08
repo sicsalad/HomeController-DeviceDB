@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.6",
-      "versionCode": 1787780491,
-      "publishedUtc": "2026-08-26T21:41:31Z",
-      "notes": "Add Red Eye Hubitat DeviceDB UI template"
-    },
-    {
       "version": "1.0.7",
       "versionCode": 1787780499,
       "publishedUtc": "2026-08-26T21:41:39Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1788885056,
       "publishedUtc": "2026-09-08T16:30:56Z",
       "notes": "Bump DeviceDB version for TV icon refresh"
+    },
+    {
+      "version": "1.0.260",
+      "versionCode": 1788887137,
+      "publishedUtc": "2026-09-08T17:05:37Z",
+      "notes": "Bump DeviceDB version for television icon update"
     }
   ]
 }
