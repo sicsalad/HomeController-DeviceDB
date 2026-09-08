@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 2,
+  "id": "bluetooth-tv-default",
+  "name": "Default",
+  "deviceTypeId": "television",
+  "connections": ["bluetooth"],
+  "renderer": "declarative",
+  "access": "free",
+  "columns": 3,
+  "buttonHeight": 52,
+  "buttonCornerRadius": 12,
+  "sections": [
+    {"title":"Navigation","controls":[
+      {"type":"button","label":"Up","icon":"▲","command":"Up","columnSpan":3},
+      {"type":"button","label":"Left","icon":"◀","command":"Left"},
+      {"type":"button","label":"OK","command":"Enter"},
+      {"type":"button","label":"Right","icon":"▶","command":"Right"},
+      {"type":"button","label":"Down","icon":"▼","command":"Down","columnSpan":3},
+      {"type":"button","label":"Back","command":"Back"},
+      {"type":"button","label":"Home","command":"Home"},
+      {"type":"button","label":"Menu","command":"Menu"}
+    ]},
+    {"title":"Volume & media","controls":[
+      {"type":"button","label":"Vol +","command":"VolumeUp"},
+      {"type":"button","label":"Mute","command":"Mute"},
+      {"type":"button","label":"Vol −","command":"VolumeDown"},
+      {"type":"button","label":"Rewind","command":"Rewind"},
+      {"type":"button","label":"Play / Pause","command":"PlayPause"},
+      {"type":"button","label":"Forward","command":"FastForward"}
+    ]}
+  ]
+}
