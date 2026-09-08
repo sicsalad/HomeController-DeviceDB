@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 2,
+  "id": "bluetooth-switch-plug-modern",
+  "name": "Modern",
+  "deviceTypeId": "switch-plug",
+  "connections": ["bluetooth"],
+  "renderer": "declarative",
+  "access": "free",
+  "columns": 2,
+  "buttonHeight": 62,
+  "buttonCornerRadius": 31,
+  "sectionCornerRadius": 20,
+  "surfaceColor": "$Surface",
+  "buttonColor": "$SurfaceElevated",
+  "accentColor": "$Accent",
+  "borderColor": "$CardBorder",
+  "sections": [
+    {"title":"Power","controls":[
+      {"type":"toggle","label":"On / off","icon":"⏻","command":"power","columnSpan":2},
+      {"type":"tile","label":"On","icon":"●","command":"on"},
+      {"type":"tile","label":"Off","icon":"○","command":"off"},
+      {"type":"button","label":"Refresh","icon":"↻","command":"refresh","columnSpan":2}
+    ]}
+  ]
+}
