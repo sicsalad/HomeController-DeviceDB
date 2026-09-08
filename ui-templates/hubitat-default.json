@@ -30,8 +30,36 @@
   "iconFontSize": 24,
   "groups": [
     {
-      "id": "hubitat-type-filter",
+      "id": "hubitat-managed-items",
       "order": 0,
+      "width": 1,
+      "height": 1,
+      "type": "normal",
+      "shape": "rounded",
+      "borderWidth": 0,
+      "backgroundMode": "inherit",
+      "cornerRadius": 14,
+      "controls": [
+        {
+          "id": "hubitat-managed-items-button",
+          "order": 0,
+          "type": "button",
+          "text": "☑",
+          "command": "integration:manage-items",
+          "columnSpan": 1,
+          "row": 0,
+          "column": 0,
+          "verticalAlign": "center",
+          "sizeXPercent": 100,
+          "sizeYPercent": 100,
+          "borderWidth": 1
+        }
+      ],
+      "groups": []
+    },
+    {
+      "id": "hubitat-type-filter",
+      "order": 1,
       "width": 1,
       "height": 1,
       "type": "filter",
@@ -52,7 +80,7 @@
     {
       "id": "hubitat-search-filter",
       "name": "Gyorsszűrő",
-      "order": 1,
+      "order": 2,
       "width": 1,
       "height": 1,
       "type": "filter",
@@ -83,7 +111,7 @@
     },
     {
       "id": "devices",
-      "order": 2,
+      "order": 3,
       "width": 1,
       "height": 1,
       "type": "child-items",
