@@ -1164,6 +1164,12 @@
       "versionCode": 1788870202,
       "publishedUtc": "2026-09-08T12:23:22Z",
       "notes": "Add default Bluetooth HID UI template"
+    },
+    {
+      "version": "1.0.251",
+      "versionCode": 1788870211,
+      "publishedUtc": "2026-09-08T12:23:31Z",
+      "notes": "Add default generic Bluetooth UI template"
     }
   ]
 }

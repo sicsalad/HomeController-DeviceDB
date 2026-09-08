@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.250",
-  "versionCode": 1788870202,
-  "publishedUtc": "2026-09-08T12:23:22Z",
-  "commit": "23a74e5d0d48f926137f838af0b315fb922b7361",
-  "patchNotes": "Add default Bluetooth HID UI template"
+  "version": "1.0.251",
+  "versionCode": 1788870211,
+  "publishedUtc": "2026-09-08T12:23:31Z",
+  "commit": "1f3b890a085da213a3399fbb3ae29cb7662210a2",
+  "patchNotes": "Add default generic Bluetooth UI template"
 }
