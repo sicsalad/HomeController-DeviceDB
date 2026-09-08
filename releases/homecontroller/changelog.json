@@ -684,6 +684,12 @@
       "versionCode": 1788870321,
       "publishedUtc": "2026-09-08T12:31:31Z",
       "notes": "Route dynamic UI commands to Bluetooth drivers"
+    },
+    {
+      "version": "1.0.1300",
+      "versionCode": 1788881582,
+      "publishedUtc": "2026-09-08T15:37:49Z",
+      "notes": "Filter Bluetooth discovery by selected device category"
     }
   ]
 }
