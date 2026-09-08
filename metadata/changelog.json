@@ -1110,6 +1110,12 @@
       "versionCode": 1788859310,
       "publishedUtc": "2026-09-08T09:21:50Z",
       "notes": "Add managed devices button to Hue UI"
+    },
+    {
+      "version": "1.0.242",
+      "versionCode": 1788859330,
+      "publishedUtc": "2026-09-08T09:22:10Z",
+      "notes": "Add Google Home integration UI template"
     }
   ]
 }

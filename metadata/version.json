@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.241",
-  "versionCode": 1788859310,
-  "publishedUtc": "2026-09-08T09:21:50Z",
-  "commit": "0a09ad2194b0d31c3f2e9eab5c57e33e414cd95a",
-  "patchNotes": "Add managed devices button to Hue UI"
+  "version": "1.0.242",
+  "versionCode": 1788859330,
+  "publishedUtc": "2026-09-08T09:22:10Z",
+  "commit": "6c745e2abb0a555600f0d7e624168f2c8615cc73",
+  "patchNotes": "Add Google Home integration UI template"
 }
