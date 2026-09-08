@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 2,
+  "id": "bluetooth-light-default",
+  "name": "Default",
+  "deviceTypeId": "light",
+  "connections": ["bluetooth"],
+  "renderer": "declarative",
+  "access": "free",
+  "columns": 2,
+  "buttonHeight": 52,
+  "buttonCornerRadius": 12,
+  "sections": [
+    {"title":"Light","subtitle":"Bluetooth light controls","controls":[
+      {"type":"toggle","label":"Power","command":"power","columnSpan":2},
+      {"type":"slider","label":"Brightness","command":"brightness","minimum":0,"maximum":100,"step":1,"value":100,"columnSpan":2},
+      {"type":"slider","label":"Color temperature","command":"color-temperature","minimum":0,"maximum":100,"step":1,"value":50,"columnSpan":2}
+    ]},
+    {"title":"Color","controls":[
+      {"type":"button","label":"Red","icon":"🔴","command":"color","value":"#FF0000"},
+      {"type":"button","label":"Green","icon":"🟢","command":"color","value":"#00FF00"},
+      {"type":"button","label":"Blue","icon":"🔵","command":"color","value":"#0000FF"},
+      {"type":"button","label":"White","icon":"⚪","command":"color","value":"#FFFFFF"}
+    ]}
+  ]
+}
