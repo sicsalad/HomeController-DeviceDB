@@ -1158,6 +1158,12 @@
       "versionCode": 1788870190,
       "publishedUtc": "2026-09-08T12:23:10Z",
       "notes": "Add default Bluetooth thermometer UI template"
+    },
+    {
+      "version": "1.0.250",
+      "versionCode": 1788870202,
+      "publishedUtc": "2026-09-08T12:23:22Z",
+      "notes": "Add default Bluetooth HID UI template"
     }
   ]
 }

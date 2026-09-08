@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.249",
-  "versionCode": 1788870190,
-  "publishedUtc": "2026-09-08T12:23:10Z",
-  "commit": "f4e5975eb6966b508db9323a1ab37b75c5404760",
-  "patchNotes": "Add default Bluetooth thermometer UI template"
+  "version": "1.0.250",
+  "versionCode": 1788870202,
+  "publishedUtc": "2026-09-08T12:23:22Z",
+  "commit": "23a74e5d0d48f926137f838af0b315fb922b7361",
+  "patchNotes": "Add default Bluetooth HID UI template"
 }
