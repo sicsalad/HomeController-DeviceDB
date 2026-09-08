@@ -1128,6 +1128,12 @@
       "versionCode": 1788859356,
       "publishedUtc": "2026-09-08T09:22:36Z",
       "notes": "Bump DeviceDB version for integration UI templates"
+    },
+    {
+      "version": "1.0.245",
+      "versionCode": 1788870148,
+      "publishedUtc": "2026-09-08T12:22:28Z",
+      "notes": "Add default Bluetooth light UI template"
     }
   ]
 }
