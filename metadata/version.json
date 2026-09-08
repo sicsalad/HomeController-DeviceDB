@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.255",
-  "versionCode": 1788870269,
-  "publishedUtc": "2026-09-08T12:24:29Z",
-  "commit": "d82a922ad7dec297abad49117256e1ba246dc820",
-  "patchNotes": "Add modern Bluetooth sensor UI template"
+  "version": "1.0.256",
+  "versionCode": 1788870291,
+  "publishedUtc": "2026-09-08T12:24:51Z",
+  "commit": "6a4765a937fd267a35f7dd653be22626d54efd14",
+  "patchNotes": "Register Bluetooth UI templates"
 }

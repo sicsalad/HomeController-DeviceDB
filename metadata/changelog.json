@@ -1194,6 +1194,12 @@
       "versionCode": 1788870269,
       "publishedUtc": "2026-09-08T12:24:29Z",
       "notes": "Add modern Bluetooth sensor UI template"
+    },
+    {
+      "version": "1.0.256",
+      "versionCode": 1788870291,
+      "publishedUtc": "2026-09-08T12:24:51Z",
+      "notes": "Register Bluetooth UI templates"
     }
   ]
 }
