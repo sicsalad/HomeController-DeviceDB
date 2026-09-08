@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 2,
+  "id": "bluetooth-sensor-modern",
+  "name": "Modern",
+  "deviceTypeId": "sensor",
+  "connections": ["bluetooth"],
+  "renderer": "declarative",
+  "access": "free",
+  "columns": 2,
+  "buttonHeight": 58,
+  "buttonCornerRadius": 29,
+  "sectionCornerRadius": 20,
+  "surfaceColor": "$Surface",
+  "buttonColor": "$SurfaceElevated",
+  "accentColor": "$Accent",
+  "borderColor": "$CardBorder",
+  "sections": [
+    {"title":"Sensor","subtitle":"Live Bluetooth telemetry","controls":[
+      {"type":"tile","label":"BLE","icon":"ᛒ","command":"refresh","columnSpan":2},
+      {"type":"label","label":"Decoded sensor values are supplied by the active vendor/GATT/broadcast driver.","columnSpan":2}
+    ]}
+  ]
+}
