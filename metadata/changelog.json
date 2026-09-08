@@ -1140,6 +1140,12 @@
       "versionCode": 1788870160,
       "publishedUtc": "2026-09-08T12:22:40Z",
       "notes": "Add default Bluetooth TV UI template"
+    },
+    {
+      "version": "1.0.247",
+      "versionCode": 1788870171,
+      "publishedUtc": "2026-09-08T12:22:51Z",
+      "notes": "Add default Bluetooth switch UI template"
     }
   ]
 }
