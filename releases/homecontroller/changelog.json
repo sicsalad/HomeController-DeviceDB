@@ -678,6 +678,12 @@
       "versionCode": 1788859600,
       "publishedUtc": "2026-09-08T09:32:56Z",
       "notes": "Assign Google Home integration UI template"
+    },
+    {
+      "version": "1.0.1298",
+      "versionCode": 1788870321,
+      "publishedUtc": "2026-09-08T12:31:31Z",
+      "notes": "Route dynamic UI commands to Bluetooth drivers"
     }
   ]
 }
