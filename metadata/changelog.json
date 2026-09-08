@@ -1134,6 +1134,12 @@
       "versionCode": 1788870148,
       "publishedUtc": "2026-09-08T12:22:28Z",
       "notes": "Add default Bluetooth light UI template"
+    },
+    {
+      "version": "1.0.246",
+      "versionCode": 1788870160,
+      "publishedUtc": "2026-09-08T12:22:40Z",
+      "notes": "Add default Bluetooth TV UI template"
     }
   ]
 }

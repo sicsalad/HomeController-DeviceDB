@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.245",
-  "versionCode": 1788870148,
-  "publishedUtc": "2026-09-08T12:22:28Z",
-  "commit": "b60867c254d151690ba91071275d41ea5528db1f",
-  "patchNotes": "Add default Bluetooth light UI template"
+  "version": "1.0.246",
+  "versionCode": 1788870160,
+  "publishedUtc": "2026-09-08T12:22:40Z",
+  "commit": "981482d16d5d0920dcebc704d65225002cceeb43",
+  "patchNotes": "Add default Bluetooth TV UI template"
 }
