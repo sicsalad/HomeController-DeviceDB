@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 2,
+  "id": "bluetooth-generic-default",
+  "name": "Default",
+  "deviceTypeId": "bluetooth-generic",
+  "connections": ["bluetooth"],
+  "renderer": "declarative",
+  "access": "free",
+  "columns": 1,
+  "buttonHeight": 52,
+  "buttonCornerRadius": 12,
+  "sections": [
+    {"title":"Bluetooth device","subtitle":"Generic BLE / GATT device","controls":[
+      {"type":"label","label":"No device-specific command profile is available yet. Raw GATT and broadcast support remains available through the Bluetooth device tools."}
+    ]}
+  ]
+}
