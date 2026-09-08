@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.247",
-  "versionCode": 1788870171,
-  "publishedUtc": "2026-09-08T12:22:51Z",
-  "commit": "c5545425c422c2f7d490fe0587c81d661bf8b1eb",
-  "patchNotes": "Add default Bluetooth switch UI template"
+  "version": "1.0.248",
+  "versionCode": 1788870180,
+  "publishedUtc": "2026-09-08T12:23:00Z",
+  "commit": "8c10e868c2358a048e03fc6de9348c3f8aea0b65",
+  "patchNotes": "Add default Bluetooth sensor UI template"
 }

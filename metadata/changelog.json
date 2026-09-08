@@ -1146,6 +1146,12 @@
       "versionCode": 1788870171,
       "publishedUtc": "2026-09-08T12:22:51Z",
       "notes": "Add default Bluetooth switch UI template"
+    },
+    {
+      "version": "1.0.248",
+      "versionCode": 1788870180,
+      "publishedUtc": "2026-09-08T12:23:00Z",
+      "notes": "Add default Bluetooth sensor UI template"
     }
   ]
 }
