@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 2,
+  "id": "bluetooth-tv-modern",
+  "name": "Modern",
+  "deviceTypeId": "television",
+  "connections": ["bluetooth"],
+  "renderer": "declarative",
+  "access": "free",
+  "columns": 3,
+  "buttonHeight": 58,
+  "buttonCornerRadius": 29,
+  "sectionCornerRadius": 20,
+  "surfaceColor": "$Surface",
+  "buttonColor": "$SurfaceElevated",
+  "accentColor": "$Accent",
+  "borderColor": "$CardBorder",
+  "sections": [
+    {"title":"Remote","controls":[
+      {"type":"tile","label":"Home","icon":"⌂","command":"Home"},
+      {"type":"tile","label":"Up","icon":"▲","command":"Up"},
+      {"type":"tile","label":"Menu","icon":"☰","command":"Menu"},
+      {"type":"tile","label":"Left","icon":"◀","command":"Left"},
+      {"type":"tile","label":"OK","icon":"●","command":"Enter"},
+      {"type":"tile","label":"Right","icon":"▶","command":"Right"},
+      {"type":"tile","label":"Back","icon":"↩","command":"Back"},
+      {"type":"tile","label":"Down","icon":"▼","command":"Down"},
+      {"type":"tile","label":"Play","icon":"⏯","command":"PlayPause"}
+    ]},
+    {"title":"Sound","controls":[
+      {"type":"button","label":"Volume −","command":"VolumeDown"},
+      {"type":"button","label":"Mute","command":"Mute"},
+      {"type":"button","label":"Volume +","command":"VolumeUp"}
+    ]}
+  ]
+}
