@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.256",
-  "versionCode": 1788870291,
-  "publishedUtc": "2026-09-08T12:24:51Z",
-  "commit": "6a4765a937fd267a35f7dd653be22626d54efd14",
-  "patchNotes": "Register Bluetooth UI templates"
+  "version": "1.0.257",
+  "versionCode": 1788870299,
+  "publishedUtc": "2026-09-08T12:24:59Z",
+  "commit": "a47fc32cf66a465dc93779603775b3438896044e",
+  "patchNotes": "Bump DeviceDB for Bluetooth UI templates"
 }
