@@ -666,6 +666,12 @@
       "versionCode": 1788856865,
       "publishedUtc": "2026-09-08T08:46:53Z",
       "notes": "Debounce Google Home live snapshot refreshes"
+    },
+    {
+      "version": "1.0.1284",
+      "versionCode": 1788858860,
+      "publishedUtc": "2026-09-08T09:19:55Z",
+      "notes": "Fix Device ambiguity in integration managed items"
     }
   ]
 }
