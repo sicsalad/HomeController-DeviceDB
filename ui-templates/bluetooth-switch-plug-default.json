@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "id": "bluetooth-switch-plug-default",
+  "name": "Default",
+  "deviceTypeId": "switch-plug",
+  "connections": ["bluetooth"],
+  "renderer": "declarative",
+  "access": "free",
+  "columns": 1,
+  "buttonHeight": 56,
+  "buttonCornerRadius": 14,
+  "sections": [
+    {"title":"Switch / plug","subtitle":"Bluetooth power control","controls":[
+      {"type":"toggle","label":"Power","command":"power","columnSpan":1},
+      {"type":"button","label":"Refresh","icon":"↻","command":"refresh"}
+    ]}
+  ]
+}
