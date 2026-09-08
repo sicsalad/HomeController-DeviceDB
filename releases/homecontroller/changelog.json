@@ -654,6 +654,12 @@
       "versionCode": 1788852235,
       "publishedUtc": "2026-09-08T07:30:02Z",
       "notes": "Add coroutines Play Services dependency for Google Home"
+    },
+    {
+      "version": "1.0.1269",
+      "versionCode": 1788854732,
+      "publishedUtc": "2026-09-08T08:11:48Z",
+      "notes": "Force Google Home permission flow and add diagnostics"
     }
   ]
 }
