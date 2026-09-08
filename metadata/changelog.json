@@ -1182,6 +1182,12 @@
       "versionCode": 1788870243,
       "publishedUtc": "2026-09-08T12:24:03Z",
       "notes": "Add modern Bluetooth TV UI template"
+    },
+    {
+      "version": "1.0.254",
+      "versionCode": 1788870254,
+      "publishedUtc": "2026-09-08T12:24:14Z",
+      "notes": "Add modern Bluetooth switch UI template"
     }
   ]
 }
