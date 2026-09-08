@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "id": "bluetooth-sensor-default",
+  "name": "Default",
+  "deviceTypeId": "sensor",
+  "connections": ["bluetooth"],
+  "renderer": "declarative",
+  "access": "free",
+  "columns": 1,
+  "buttonHeight": 52,
+  "buttonCornerRadius": 12,
+  "sections": [
+    {"title":"Sensor","subtitle":"Bluetooth sensor overview","controls":[
+      {"type":"label","label":"Live values are provided by the Bluetooth driver / broadcast decoder."},
+      {"type":"button","label":"Refresh","icon":"↻","command":"refresh"}
+    ]}
+  ]
+}
