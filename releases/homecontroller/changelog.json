@@ -636,6 +636,12 @@
       "versionCode": 1788824047,
       "publishedUtc": "2026-09-07T23:40:20Z",
       "notes": "Make local Gradle bootstrap resilient to locked cache ZIP"
+    },
+    {
+      "version": "1.0.1262",
+      "versionCode": 1788826253,
+      "publishedUtc": "2026-09-08T00:16:47Z",
+      "notes": "Add debug logging package for MAUI build"
     }
   ]
 }
