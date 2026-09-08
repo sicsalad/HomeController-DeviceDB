@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.4",
-      "versionCode": 1787780475,
-      "publishedUtc": "2026-08-26T21:41:15Z",
-      "notes": "Add Philips Hue default DeviceDB UI template"
-    },
-    {
       "version": "1.0.6",
       "versionCode": 1787780491,
       "publishedUtc": "2026-08-26T21:41:31Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1788870299,
       "publishedUtc": "2026-09-08T12:24:59Z",
       "notes": "Bump DeviceDB for Bluetooth UI templates"
+    },
+    {
+      "version": "1.0.258",
+      "versionCode": 1788885056,
+      "publishedUtc": "2026-09-08T16:30:56Z",
+      "notes": "Bump DeviceDB version for TV icon refresh"
     }
   ]
 }
