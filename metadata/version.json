@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.239",
-  "versionCode": 1788824901,
-  "publishedUtc": "2026-09-07T23:48:21Z",
-  "commit": "233f7f34c1ac251560045fc071c19a65d9e41815",
-  "patchNotes": "Publish PC Agent 1.0.25"
+  "version": "1.0.240",
+  "versionCode": 1788859293,
+  "publishedUtc": "2026-09-08T09:21:33Z",
+  "commit": "a6c94c517f5a9a27e2b9ac06c483f978a164ba75",
+  "patchNotes": "Add managed devices button to Hubitat UI"
 }
