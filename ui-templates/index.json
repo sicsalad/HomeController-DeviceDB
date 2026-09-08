@@ -10,6 +10,7 @@
     {"id":"ir-fan-default","path":"ir-fan-default.json","status":"stable","access":"free"},
     {"id":"hubitat-default","path":"hubitat-default.json","status":"stable","access":"free"},
     {"id":"hue-default","path":"hue-default.json","status":"stable","access":"free"},
+    {"id":"google-home-default","path":"google-home-default.json","status":"stable","access":"free"},
     {"id":"dashboard-dynamic","path":"dashboard-dynamic.json","status":"stable","access":"free"},
     {"id":"wifi-ac-default","path":"wifi-ac-default.json","status":"stable","access":"free"},
     {"id":"wifi-tv-default","path":"wifi-tv-default.json","status":"stable","access":"free"},
