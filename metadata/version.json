@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.242",
-  "versionCode": 1788859330,
-  "publishedUtc": "2026-09-08T09:22:10Z",
-  "commit": "6c745e2abb0a555600f0d7e624168f2c8615cc73",
-  "patchNotes": "Add Google Home integration UI template"
+  "version": "1.0.243",
+  "versionCode": 1788859342,
+  "publishedUtc": "2026-09-08T09:22:22Z",
+  "commit": "f23f44af26d9ac130ef14151033507da0d40e779",
+  "patchNotes": "Register Google Home UI template"
 }
