@@ -1170,6 +1170,12 @@
       "versionCode": 1788870211,
       "publishedUtc": "2026-09-08T12:23:31Z",
       "notes": "Add default generic Bluetooth UI template"
+    },
+    {
+      "version": "1.0.252",
+      "versionCode": 1788870229,
+      "publishedUtc": "2026-09-08T12:23:49Z",
+      "notes": "Add modern Bluetooth light UI template"
     }
   ]
 }
