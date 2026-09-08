@@ -690,6 +690,12 @@
       "versionCode": 1788881582,
       "publishedUtc": "2026-09-08T15:37:49Z",
       "notes": "Filter Bluetooth discovery by selected device category"
+    },
+    {
+      "version": "1.0.1301",
+      "versionCode": 1788888889,
+      "publishedUtc": "2026-09-08T17:40:54Z",
+      "notes": "Render DeviceDB device images on Home screen"
     }
   ]
 }
