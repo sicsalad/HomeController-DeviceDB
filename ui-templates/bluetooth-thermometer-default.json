@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "id": "bluetooth-thermometer-default",
+  "name": "Default",
+  "deviceTypeId": "thermometer-hygrometer",
+  "connections": ["bluetooth"],
+  "renderer": "declarative",
+  "access": "free",
+  "columns": 1,
+  "buttonHeight": 52,
+  "buttonCornerRadius": 12,
+  "sections": [
+    {"title":"Temperature & humidity","subtitle":"Bluetooth environmental sensor","controls":[
+      {"type":"label","label":"Temperature, humidity and battery values are decoded by the Bluetooth driver when available."},
+      {"type":"button","label":"Refresh","icon":"↻","command":"refresh"}
+    ]}
+  ]
+}
