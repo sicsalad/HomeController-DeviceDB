@@ -732,6 +732,12 @@
       "versionCode": 1788987772,
       "publishedUtc": "2026-09-09T21:08:36Z",
       "notes": "Avoid stale DeviceDB image cache"
+    },
+    {
+      "version": "1.0.1338",
+      "versionCode": 1788991026,
+      "publishedUtc": "2026-09-09T22:03:07Z",
+      "notes": "Refresh DeviceDB selection icons without stale WebView cache"
     }
   ]
 }
