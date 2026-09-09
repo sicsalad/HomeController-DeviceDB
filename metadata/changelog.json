@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.10",
-      "versionCode": 1787780537,
-      "publishedUtc": "2026-08-26T21:42:17Z",
-      "notes": "Refine Red Eye to muted black red magenta palette"
-    },
-    {
       "version": "1.0.11",
       "versionCode": 1787780588,
       "publishedUtc": "2026-08-26T21:43:08Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1788990626,
       "publishedUtc": "2026-09-09T21:50:26Z",
       "notes": "Use dedicated robot vacuum icon"
+    },
+    {
+      "version": "1.0.264",
+      "versionCode": 1788993323,
+      "publishedUtc": "2026-09-09T22:35:23Z",
+      "notes": "Align Google Home default child items source"
     }
   ]
 }
