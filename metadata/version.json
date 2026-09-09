@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.265",
-  "versionCode": 1788993333,
-  "publishedUtc": "2026-09-09T22:35:33Z",
-  "commit": "88e36f25857d067e4e72829b4be45727e0231f21",
-  "patchNotes": "Use empty default child items source for Hubitat"
+  "version": "1.0.266",
+  "versionCode": 1788993348,
+  "publishedUtc": "2026-09-09T22:35:48Z",
+  "commit": "78166a4d4f2c07567fe67bf03e027e83e5d08459",
+  "patchNotes": "Use empty default child items source for Hue"
 }

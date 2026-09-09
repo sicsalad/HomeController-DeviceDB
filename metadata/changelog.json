@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.12",
-      "versionCode": 1787780602,
-      "publishedUtc": "2026-08-26T21:43:22Z",
-      "notes": "Link theme and UI template documentation"
-    },
-    {
       "version": "1.0.14",
       "versionCode": 1787787326,
       "publishedUtc": "2026-08-26T23:35:26Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1788993333,
       "publishedUtc": "2026-09-09T22:35:33Z",
       "notes": "Use empty default child items source for Hubitat"
+    },
+    {
+      "version": "1.0.266",
+      "versionCode": 1788993348,
+      "publishedUtc": "2026-09-09T22:35:48Z",
+      "notes": "Use empty default child items source for Hue"
     }
   ]
 }
