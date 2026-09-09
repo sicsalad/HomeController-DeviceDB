@@ -726,6 +726,12 @@
       "versionCode": 1788983666,
       "publishedUtc": "2026-09-09T20:00:25Z",
       "notes": "Package dashboard TV and Samsung icons"
+    },
+    {
+      "version": "1.0.1333",
+      "versionCode": 1788987772,
+      "publishedUtc": "2026-09-09T21:08:36Z",
+      "notes": "Avoid stale DeviceDB image cache"
     }
   ]
 }
