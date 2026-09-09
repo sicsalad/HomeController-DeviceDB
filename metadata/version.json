@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.264",
-  "versionCode": 1788993323,
-  "publishedUtc": "2026-09-09T22:35:23Z",
-  "commit": "686faaa31dd061a881af32fe14df45e98f1df079",
-  "patchNotes": "Align Google Home default child items source"
+  "version": "1.0.265",
+  "versionCode": 1788993333,
+  "publishedUtc": "2026-09-09T22:35:33Z",
+  "commit": "88e36f25857d067e4e72829b4be45727e0231f21",
+  "patchNotes": "Use empty default child items source for Hubitat"
 }

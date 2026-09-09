@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.11",
-      "versionCode": 1787780588,
-      "publishedUtc": "2026-08-26T21:43:08Z",
-      "notes": "Document HomeController themes and DeviceDB UI templates"
-    },
-    {
       "version": "1.0.12",
       "versionCode": 1787780602,
       "publishedUtc": "2026-08-26T21:43:22Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1788993323,
       "publishedUtc": "2026-09-09T22:35:23Z",
       "notes": "Align Google Home default child items source"
+    },
+    {
+      "version": "1.0.265",
+      "versionCode": 1788993333,
+      "publishedUtc": "2026-09-09T22:35:33Z",
+      "notes": "Use empty default child items source for Hubitat"
     }
   ]
 }
