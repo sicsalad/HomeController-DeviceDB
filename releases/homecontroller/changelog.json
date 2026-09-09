@@ -714,6 +714,12 @@
       "versionCode": 1788977136,
       "publishedUtc": "2026-09-09T18:10:27Z",
       "notes": "Use packaged modern TV icon on Android"
+    },
+    {
+      "version": "1.0.1325",
+      "versionCode": 1788981882,
+      "publishedUtc": "2026-09-09T19:30:31Z",
+      "notes": "Show Samsung logo for Samsung TV cards"
     }
   ]
 }
