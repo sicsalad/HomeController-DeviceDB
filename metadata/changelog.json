@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.9",
-      "versionCode": 1787780527,
-      "publishedUtc": "2026-08-26T21:42:07Z",
-      "notes": "Register Hubitat and Philips Hue DeviceDB UI themes"
-    },
-    {
       "version": "1.0.10",
       "versionCode": 1787780537,
       "publishedUtc": "2026-08-26T21:42:17Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1788990531,
       "publishedUtc": "2026-09-09T21:48:51Z",
       "notes": "Make device type icons DeviceDB-driven"
+    },
+    {
+      "version": "1.0.263",
+      "versionCode": 1788990626,
+      "publishedUtc": "2026-09-09T21:50:26Z",
+      "notes": "Use dedicated robot vacuum icon"
     }
   ]
 }

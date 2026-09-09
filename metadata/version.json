@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.262",
-  "versionCode": 1788990531,
-  "publishedUtc": "2026-09-09T21:48:51Z",
-  "commit": "3c183d6772629868a9dfa5261bddab0ab45eb509",
-  "patchNotes": "Make device type icons DeviceDB-driven"
+  "version": "1.0.263",
+  "versionCode": 1788990626,
+  "publishedUtc": "2026-09-09T21:50:26Z",
+  "commit": "1c141056c77460f9144b34fb9e8f93cdedd87f9c",
+  "patchNotes": "Use dedicated robot vacuum icon"
 }
