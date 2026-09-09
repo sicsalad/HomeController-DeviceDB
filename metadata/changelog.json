@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.7",
-      "versionCode": 1787780499,
-      "publishedUtc": "2026-08-26T21:41:39Z",
-      "notes": "Add Blue Eye Philips Hue DeviceDB UI template"
-    },
-    {
       "version": "1.0.8",
       "versionCode": 1787780516,
       "publishedUtc": "2026-08-26T21:41:56Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1788887137,
       "publishedUtc": "2026-09-08T17:05:37Z",
       "notes": "Bump DeviceDB version for television icon update"
+    },
+    {
+      "version": "1.0.261",
+      "versionCode": 1788963066,
+      "publishedUtc": "2026-09-09T14:11:06Z",
+      "notes": "Add raster television icon for Android home screen"
     }
   ]
 }
