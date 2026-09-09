@@ -708,6 +708,12 @@
       "versionCode": 1788975689,
       "publishedUtc": "2026-09-09T17:48:04Z",
       "notes": "Remove conflicting global DeviceType alias"
+    },
+    {
+      "version": "1.0.1323",
+      "versionCode": 1788977136,
+      "publishedUtc": "2026-09-09T18:10:27Z",
+      "notes": "Use packaged modern TV icon on Android"
     }
   ]
 }
