@@ -15,7 +15,7 @@
     "dehumidifier": { "assetPath": "device-types/device_dehumidifier.svg", "glyph": "💧", "backgroundColor": "#286486", "foregroundColor": "#FFFFFF", "accentColor": "#D9F0FF" },
     "humidifier": { "assetPath": "device-types/device_humidifier.svg", "glyph": "🌫️", "backgroundColor": "#506D86", "foregroundColor": "#FFFFFF", "accentColor": "#CDE7F0" },
     "heater": { "assetPath": "device-types/device_heater.svg", "glyph": "♨️", "backgroundColor": "#864040", "foregroundColor": "#FFFFFF", "accentColor": "#FFD6A5" },
-    "robot-vacuum": { "assetPath": "device-types/device_vacuum_cleaner.svg", "glyph": "🤖", "backgroundColor": "#455A64", "foregroundColor": "#FFFFFF", "accentColor": "#CFD8DC" },
+    "robot-vacuum": { "assetPath": "device-types/device_robot_vacuum.svg", "glyph": "🤖", "backgroundColor": "#455A64", "foregroundColor": "#FFFFFF", "accentColor": "#CFD8DC" },
     "light": { "assetPath": "device-types/device_light.svg", "glyph": "💡", "backgroundColor": "#70533F", "foregroundColor": "#FFFFFF", "accentColor": "#FFE08A" },
     "hubitat": { "assetPath": "device-types/device_hubitat.svg", "glyph": "🏠", "backgroundColor": "#356C8A", "foregroundColor": "#FFFFFF", "accentColor": "#A8DADC" },
     "philips-hue": { "assetPath": "device-types/device_hue.svg", "glyph": "💡", "backgroundColor": "#625180", "foregroundColor": "#FFFFFF", "accentColor": "#F9D65C" },
