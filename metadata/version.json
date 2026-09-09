@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.261",
-  "versionCode": 1788963066,
-  "publishedUtc": "2026-09-09T14:11:06Z",
-  "commit": "8fca3dafb351f2eaf8adc29b20451dcb3d121ff2",
-  "patchNotes": "Add raster television icon for Android home screen"
+  "version": "1.0.262",
+  "versionCode": 1788990531,
+  "publishedUtc": "2026-09-09T21:48:51Z",
+  "commit": "3c183d6772629868a9dfa5261bddab0ab45eb509",
+  "patchNotes": "Make device type icons DeviceDB-driven"
 }
