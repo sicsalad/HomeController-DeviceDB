@@ -696,6 +696,12 @@
       "versionCode": 1788888889,
       "publishedUtc": "2026-09-08T17:40:54Z",
       "notes": "Render DeviceDB device images on Home screen"
+    },
+    {
+      "version": "1.0.1309",
+      "versionCode": 1788965518,
+      "publishedUtc": "2026-09-09T14:58:08Z",
+      "notes": "Scope DeviceType resolution to MainPage"
     }
   ]
 }
