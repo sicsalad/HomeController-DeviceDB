@@ -115,7 +115,7 @@
       "width": 1,
       "height": 1,
       "type": "child-items",
-      "childItemsSource": "devices",
+      "childItemsSource": "",
       "childItemsColumns": 2,
       "shape": "rounded",
       "borderWidth": 0,
