@@ -1,743 +1,749 @@
 {
-  "schemaVersion": 1,
-  "releases": [
-    {
-      "version": "1.0.339",
-      "versionCode": 1787755850,
-      "publishedUtc": "2026-08-26T14:54:45Z",
-      "notes": "Android signing fingerprint reporting and UltimateHomeApps package identity preparation."
-    },
-    {
-      "version": "1.0.572",
-      "versionCode": 1788045630,
-      "publishedUtc": "2026-08-29T23:24:04Z",
-      "notes": "Trigger CI after billing update"
-    },
-    {
-      "version": "1.0.577",
-      "versionCode": 1788046699,
-      "publishedUtc": "2026-08-29T23:42:21Z",
-      "notes": "Fall back automatically to open IR models"
-    },
-    {
-      "version": "1.0.578",
-      "versionCode": 1788047341,
-      "publishedUtc": "2026-08-29T23:53:14Z",
-      "notes": "Persist Flipper IR catalog by upstream commit"
-    },
-    {
-      "version": "1.0.579",
-      "versionCode": 1788048011,
-      "publishedUtc": "2026-08-30T00:04:04Z",
-      "notes": "Fix Flipper provider startup crash with shared HttpClient"
-    },
-    {
-      "version": "1.0.581",
-      "versionCode": 1788049236,
-      "publishedUtc": "2026-08-30T00:23:33Z",
-      "notes": "Show all open IR device categories"
-    },
-    {
-      "version": "1.0.582",
-      "versionCode": 1788199988,
-      "publishedUtc": "2026-08-31T18:17:15Z",
-      "notes": "docs: add HomeController future feature backlog"
-    },
-    {
-      "version": "1.0.594",
-      "versionCode": 1788201444,
-      "publishedUtc": "2026-08-31T18:41:19Z",
-      "notes": "feat: render device types as full visual square tiles"
-    },
-    {
-      "version": "1.0.599",
-      "versionCode": 1788203399,
-      "publishedUtc": "2026-08-31T19:13:54Z",
-      "notes": "fix: finalize shared interactive test layout"
-    },
-    {
-      "version": "1.0.611",
-      "versionCode": 1788209228,
-      "publishedUtc": "2026-08-31T20:51:02Z",
-      "notes": "fix: resolve DeviceType ambiguity in Hubitat IR pinning"
-    },
-    {
-      "version": "1.0.616",
-      "versionCode": 1788212658,
-      "publishedUtc": "2026-08-31T21:48:23Z",
-      "notes": "Use DeviceDB as the only infrared device type source"
-    },
-    {
-      "version": "1.0.624",
-      "versionCode": 1788215868,
-      "publishedUtc": "2026-08-31T22:41:46Z",
-      "notes": "Fix Hubitat websocket receive compatibility"
-    },
-    {
-      "version": "1.0.632",
-      "versionCode": 1788218624,
-      "publishedUtc": "2026-08-31T23:28:00Z",
-      "notes": "Avoid rebuilding Hubitat dashboard on back navigation"
-    },
-    {
-      "version": "1.0.638",
-      "versionCode": 1788220955,
-      "publishedUtc": "2026-09-01T00:06:01Z",
-      "notes": "Fix Tuya decoder command mapper reference"
-    },
-    {
-      "version": "1.0.642",
-      "versionCode": 1788222767,
-      "publishedUtc": "2026-09-01T00:36:49Z",
-      "notes": "Make large IR feedback submissions robust"
-    },
-    {
-      "version": "1.0.643",
-      "versionCode": 1788270237,
-      "publishedUtc": "2026-09-01T13:48:11Z",
-      "notes": "Merge feature/device-db-v1 into main\nMerge current feature/device-db-v1 changes into main while keeping the feature branch for continued development."
-    },
-    {
-      "version": "1.0.655",
-      "versionCode": 1788271816,
-      "publishedUtc": "2026-09-01T14:13:46Z",
-      "notes": "Document unified UI design system v2"
-    },
-    {
-      "version": "1.0.681",
-      "versionCode": 1788273746,
-      "publishedUtc": "2026-09-01T14:46:31Z",
-      "notes": "Finalize UI Design System V2 documentation"
-    },
-    {
-      "version": "1.0.691",
-      "versionCode": 1788276745,
-      "publishedUtc": "2026-09-01T15:36:35Z",
-      "notes": "Fix MAUI drag data property type"
-    },
-    {
-      "version": "1.0.695",
-      "versionCode": 1788278119,
-      "publishedUtc": "2026-09-01T15:59:35Z",
-      "notes": "Prevent Home background tap and drag conflicts"
-    },
-    {
-      "version": "1.0.699",
-      "versionCode": 1788279652,
-      "publishedUtc": "2026-09-01T16:25:17Z",
-      "notes": "Fix inline UI selection and drag drop gestures"
-    },
-    {
-      "version": "1.0.702",
-      "versionCode": 1788289915,
-      "publishedUtc": "2026-09-01T19:14:47Z",
-      "notes": "Use theme color picker in UI editor"
-    },
-    {
-      "version": "1.0.704",
-      "versionCode": 1788290566,
-      "publishedUtc": "2026-09-01T19:26:53Z",
-      "notes": "Use DeviceDB image catalog in UI editor"
-    },
-    {
-      "version": "1.0.712",
-      "versionCode": 1788296147,
-      "publishedUtc": "2026-09-01T21:00:05Z",
-      "notes": "Compact device UI edit mode and keep edit icon state"
-    },
-    {
-      "version": "1.0.715",
-      "versionCode": 1788298326,
-      "publishedUtc": "2026-09-01T21:36:07Z",
-      "notes": "Add batch property editing and spacing limits"
-    },
-    {
-      "version": "1.0.718",
-      "versionCode": 1788299185,
-      "publishedUtc": "2026-09-01T21:50:23Z",
-      "notes": "Expose child-items blocks in property editor"
-    },
-    {
-      "version": "1.0.719",
-      "versionCode": 1788300266,
-      "publishedUtc": "2026-09-01T22:08:38Z",
-      "notes": "Stabilize multi-select drag edit mode"
-    },
-    {
-      "version": "1.0.720",
-      "versionCode": 1788301326,
-      "publishedUtc": "2026-09-01T22:26:14Z",
-      "notes": "Fix Home multi-select and drag gesture crash"
-    },
-    {
-      "version": "1.0.721",
-      "versionCode": 1788302568,
-      "publishedUtc": "2026-09-01T22:46:45Z",
-      "notes": "Add two-dimensional block span layout"
-    },
-    {
-      "version": "1.0.724",
-      "versionCode": 1788303625,
-      "publishedUtc": "2026-09-01T23:04:00Z",
-      "notes": "Make group spans occupy real grid area"
-    },
-    {
-      "version": "1.0.726",
-      "versionCode": 1788304509,
-      "publishedUtc": "2026-09-01T23:19:26Z",
-      "notes": "Use spans for Home device appearance"
-    },
-    {
-      "version": "1.0.728",
-      "versionCode": 1788305357,
-      "publishedUtc": "2026-09-01T23:32:57Z",
-      "notes": "Render Home cards with declarative spans"
-    },
-    {
-      "version": "1.0.731",
-      "versionCode": 1788307907,
-      "publishedUtc": "2026-09-02T00:16:09Z",
-      "notes": "Show live Hubitat states on pinned Home cards"
-    },
-    {
-      "version": "1.0.744",
-      "versionCode": 1788368769,
-      "publishedUtc": "2026-09-02T17:09:34Z",
-      "notes": "Import MAUI flex layout enums"
-    },
-    {
-      "version": "1.0.746",
-      "versionCode": 1788369581,
-      "publishedUtc": "2026-09-02T17:24:05Z",
-      "notes": "Load UI translations as compact overlays"
-    },
-    {
-      "version": "1.0.748",
-      "versionCode": 1788377692,
-      "publishedUtc": "2026-09-02T19:38:07Z",
-      "notes": "Add icons to Hubitat device properties"
-    },
-    {
-      "version": "1.0.757",
-      "versionCode": 1788380411,
-      "publishedUtc": "2026-09-02T20:22:48Z",
-      "notes": "Expose auto-filter item margin round and image/text settings"
-    },
-    {
-      "version": "1.0.765",
-      "versionCode": 1788382135,
-      "publishedUtc": "2026-09-02T20:53:17Z",
-      "notes": "Refresh declarative child presentation when returning to device"
-    },
-    {
-      "version": "1.0.772",
-      "versionCode": 1788384489,
-      "publishedUtc": "2026-09-02T21:32:28Z",
-      "notes": "Restore template columns after edit preview"
-    },
-    {
-      "version": "1.0.774",
-      "versionCode": 1788386414,
-      "publishedUtc": "2026-09-02T22:04:24Z",
-      "notes": "Use runtime renderer in inline template editor"
-    },
-    {
-      "version": "1.0.777",
-      "versionCode": 1788388029,
-      "publishedUtc": "2026-09-02T22:31:17Z",
-      "notes": "Enable control selection and drag editing in child-aware templates"
-    },
-    {
-      "version": "1.0.790",
-      "versionCode": 1788391466,
-      "publishedUtc": "2026-09-02T23:28:31Z",
-      "notes": "Fix PC remote screen clipping property"
-    },
-    {
-      "version": "1.0.794",
-      "versionCode": 1788392068,
-      "publishedUtc": "2026-09-02T23:38:37Z",
-      "notes": "Fix PC Agent updater build script string"
-    },
-    {
-      "version": "1.0.796",
-      "versionCode": 1788394066,
-      "publishedUtc": "2026-09-03T00:11:46Z",
-      "notes": "Fix PC remote trackpad button build error"
-    },
-    {
-      "version": "1.0.802",
-      "versionCode": 1788433560,
-      "publishedUtc": "2026-09-03T11:08:53Z",
-      "notes": "Improve PC remote zoom persistence cursor controls and system actions"
-    },
-    {
-      "version": "1.0.809",
-      "versionCode": 1788436699,
-      "publishedUtc": "2026-09-03T12:02:20Z",
-      "notes": "Add scoped pinned card styling"
-    },
-    {
-      "version": "1.0.814",
-      "versionCode": 1788439466,
-      "publishedUtc": "2026-09-03T12:48:47Z",
-      "notes": "Fix Android drag-drop operation for device trash"
-    },
-    {
-      "version": "1.0.820",
-      "versionCode": 1788442974,
-      "publishedUtc": "2026-09-03T13:46:48Z",
-      "notes": "Fix DeviceAddGroupPage namespace import"
-    },
-    {
-      "version": "1.0.834",
-      "versionCode": 1788452034,
-      "publishedUtc": "2026-09-03T16:17:20Z",
-      "notes": "Fix FolderDeviceSetupPage DeviceType ambiguity"
-    },
-    {
-      "version": "1.0.836",
-      "versionCode": 1788455770,
-      "publishedUtc": "2026-09-03T17:20:28Z",
-      "notes": "Stream local videos without cache copy"
-    },
-    {
-      "version": "1.0.839",
-      "versionCode": 1788458114,
-      "publishedUtc": "2026-09-03T17:59:39Z",
-      "notes": "Fix PC remote clicks and keep bottom controls visible"
-    },
-    {
-      "version": "1.0.845",
-      "versionCode": 1788462893,
-      "publishedUtc": "2026-09-03T19:19:08Z",
-      "notes": "Keep MIME detection compatible with C# 12"
-    },
-    {
-      "version": "1.0.849",
-      "versionCode": 1788464772,
-      "publishedUtc": "2026-09-03T19:50:15Z",
-      "notes": "Use native Android video playback independent of filename extension"
-    },
-    {
-      "version": "1.0.852",
-      "versionCode": 1788466696,
-      "publishedUtc": "2026-09-03T20:21:39Z",
-      "notes": "Keep Hubitat state labels visible across style refresh"
-    },
-    {
-      "version": "1.0.856",
-      "versionCode": 1788468652,
-      "publishedUtc": "2026-09-03T20:55:00Z",
-      "notes": "Stabilize PC remote live screen rendering"
-    },
-    {
-      "version": "1.0.874",
-      "versionCode": 1788475006,
-      "publishedUtc": "2026-09-03T22:40:55Z",
-      "notes": "Fix Android remote screen scale type compile error"
-    },
-    {
-      "version": "1.0.877",
-      "versionCode": 1788476665,
-      "publishedUtc": "2026-09-03T23:08:30Z",
-      "notes": "Fix PC remote stable page compile errors"
-    },
-    {
-      "version": "1.0.883",
-      "versionCode": 1788478132,
-      "publishedUtc": "2026-09-03T23:32:00Z",
-      "notes": "Remove Hue bridge pin from device title"
-    },
-    {
-      "version": "1.0.884",
-      "versionCode": 1788480352,
-      "publishedUtc": "2026-09-04T00:10:36Z",
-      "notes": "Stop storing Android APK workflow artifacts"
-    },
-    {
-      "version": "1.0.890",
-      "versionCode": 1788504402,
-      "publishedUtc": "2026-09-04T06:50:52Z",
-      "notes": "Show Hue child pin action on detail page"
-    },
-    {
-      "version": "1.0.900",
-      "versionCode": 1788519171,
-      "publishedUtc": "2026-09-04T10:57:06Z",
-      "notes": "Remove unused Media3 packages causing AndroidX duplicate classes"
-    },
-    {
-      "version": "1.0.904",
-      "versionCode": 1788520604,
-      "publishedUtc": "2026-09-04T11:20:07Z",
-      "notes": "Use per-monitor DPI manifest for PC Agent"
-    },
-    {
-      "version": "1.0.909",
-      "versionCode": 1788522233,
-      "publishedUtc": "2026-09-04T11:47:15Z",
-      "notes": "Fit PC remote to actual streamed frame size"
-    },
-    {
-      "version": "1.0.911",
-      "versionCode": 1788524158,
-      "publishedUtc": "2026-09-04T12:20:01Z",
-      "notes": "Force physical pixel DPI mode before PC capture starts"
-    },
-    {
-      "version": "1.0.912",
-      "versionCode": 1788524530,
-      "publishedUtc": "2026-09-04T12:26:44Z",
-      "notes": "Fix PC Agent WebRTC client raw string build"
-    },
-    {
-      "version": "1.0.913",
-      "versionCode": 1788526160,
-      "publishedUtc": "2026-09-04T12:53:28Z",
-      "notes": "Fix PC Agent H264 format negotiation build"
-    },
-    {
-      "version": "1.0.916",
-      "versionCode": 1788527511,
-      "publishedUtc": "2026-09-04T13:16:15Z",
-      "notes": "Fix PC remote absolute mouse coordinates at scaled DPI"
-    },
-    {
-      "version": "1.0.917",
-      "versionCode": 1788528817,
-      "publishedUtc": "2026-09-04T13:37:51Z",
-      "notes": "Apply per-monitor DPI context to PC remote input threads"
-    },
-    {
-      "version": "1.0.919",
-      "versionCode": 1788532115,
-      "publishedUtc": "2026-09-04T14:32:55Z",
-      "notes": "Use physical monitor geometry for PC remote input"
-    },
-    {
-      "version": "1.0.928",
-      "versionCode": 1788533818,
-      "publishedUtc": "2026-09-04T15:01:13Z",
-      "notes": "Allow half-step row span in home device properties"
-    },
-    {
-      "version": "1.0.954",
-      "versionCode": 1788540405,
-      "publishedUtc": "2026-09-04T16:50:50Z",
-      "notes": "Fix Android BLE binding compile errors"
-    },
-    {
-      "version": "1.0.960",
-      "versionCode": 1788541563,
-      "publishedUtc": "2026-09-04T17:09:41Z",
-      "notes": "Avoid Home screen layout extension collision"
-    },
-    {
-      "version": "1.0.993",
-      "versionCode": 1788542922,
-      "publishedUtc": "2026-09-04T17:33:08Z",
-      "notes": "Use centralized image icons on nested Home screens"
-    },
-    {
-      "version": "1.0.1018",
-      "versionCode": 1788544046,
-      "publishedUtc": "2026-09-04T17:51:31Z",
-      "notes": "Document DeviceDB runtime images in UI templates"
-    },
-    {
-      "version": "1.0.1020",
-      "versionCode": 1788546706,
-      "publishedUtc": "2026-09-04T18:36:12Z",
-      "notes": "Clarify Samsung TV HID pairing flow"
-    },
-    {
-      "version": "1.0.1032",
-      "versionCode": 1788549207,
-      "publishedUtc": "2026-09-04T19:17:46Z",
-      "notes": "Ignore legacy presentation snapshots on Home"
-    },
-    {
-      "version": "1.0.1033",
-      "versionCode": 1788550443,
-      "publishedUtc": "2026-09-04T19:38:43Z",
-      "notes": "Send UI template edits as DeviceDB template submissions"
-    },
-    {
-      "version": "1.0.1041",
-      "versionCode": 1788553591,
-      "publishedUtc": "2026-09-04T20:30:41Z",
-      "notes": "Refresh Home device styles with UI V2 reset"
-    },
-    {
-      "version": "1.0.1044",
-      "versionCode": 1788558648,
-      "publishedUtc": "2026-09-04T21:54:20Z",
-      "notes": "Show actual DeviceDB SVG icons in infrared picker"
-    },
-    {
-      "version": "1.0.1060",
-      "versionCode": 1788563579,
-      "publishedUtc": "2026-09-04T23:17:24Z",
-      "notes": "Fix selection UI catalog compilation"
-    },
-    {
-      "version": "1.0.1081",
-      "versionCode": 1788566346,
-      "publishedUtc": "2026-09-05T00:03:24Z",
-      "notes": "Update Hue cards incrementally from cached resources"
-    },
-    {
-      "version": "1.0.1094",
-      "versionCode": 1788643234,
-      "publishedUtc": "2026-09-05T21:24:38Z",
-      "notes": "Fix nested home card theme resource fallback"
-    },
-    {
-      "version": "1.0.1108",
-      "versionCode": 1788644354,
-      "publishedUtc": "2026-09-05T21:42:22Z",
-      "notes": "Harden theme gradient reference resolution"
-    },
-    {
-      "version": "1.0.1116",
-      "versionCode": 1788645970,
-      "publishedUtc": "2026-09-05T22:10:33Z",
-      "notes": "Make theme paste icon visible on all themes"
-    },
-    {
-      "version": "1.0.1117",
-      "versionCode": 1788648257,
-      "publishedUtc": "2026-09-05T22:48:40Z",
-      "notes": "Add universal Matter MQTT Home Assistant Shelly and TV integrations"
-    },
-    {
-      "version": "1.0.1119",
-      "versionCode": 1788648987,
-      "publishedUtc": "2026-09-05T23:00:55Z",
-      "notes": "Add persistent MQTT live subscriptions"
-    },
-    {
-      "version": "1.0.1122",
-      "versionCode": 1788649620,
-      "publishedUtc": "2026-09-05T23:11:24Z",
-      "notes": "Fix Tuya BLE session registry namespace"
-    },
-    {
-      "version": "1.0.1123",
-      "versionCode": 1788650792,
-      "publishedUtc": "2026-09-05T23:30:46Z",
-      "notes": "Add ONVIF IP camera support with Tapo C210 profile"
-    },
-    {
-      "version": "1.0.1125",
-      "versionCode": 1788652723,
-      "publishedUtc": "2026-09-06T00:02:12Z",
-      "notes": "Show actual RTSP playback status and MediaPlayer errors"
-    },
-    {
-      "version": "1.0.1131",
-      "versionCode": 1788698686,
-      "publishedUtc": "2026-09-06T12:49:54Z",
-      "notes": "Align AndroidX Lifecycle with Media3 RTSP"
-    },
-    {
-      "version": "1.0.1133",
-      "versionCode": 1788701232,
-      "publishedUtc": "2026-09-06T13:32:02Z",
-      "notes": "Restore theme color palette and stabilize editor navigation"
-    },
-    {
-      "version": "1.0.1162",
-      "versionCode": 1788733508,
-      "publishedUtc": "2026-09-06T22:31:42Z",
-      "notes": "Align AndroidX dependency family for Google Home"
-    },
-    {
-      "version": "1.0.1177",
-      "versionCode": 1788735328,
-      "publishedUtc": "2026-09-06T23:02:13Z",
-      "notes": "Use Kotlin 2.3 compilerOptions DSL for Home shim"
-    },
-    {
-      "version": "1.0.1183",
-      "versionCode": 1788737729,
-      "publishedUtc": "2026-09-06T23:40:40Z",
-      "notes": "Fix nullable Java Boolean mapping for Google Home state"
-    },
-    {
-      "version": "1.0.1187",
-      "versionCode": 1788738909,
-      "publishedUtc": "2026-09-07T00:01:30Z",
-      "notes": "Add Google Home brightness slider"
-    },
-    {
-      "version": "1.0.1197",
-      "versionCode": 1788763124,
-      "publishedUtc": "2026-09-07T06:45:03Z",
-      "notes": "Mark Google Home integration point 5 complete"
-    },
-    {
-      "version": "1.0.1200",
-      "versionCode": 1788764398,
-      "publishedUtc": "2026-09-07T07:05:48Z",
-      "notes": "Expose Google Home integration in integrations UI"
-    },
-    {
-      "version": "1.0.1213",
-      "versionCode": 1788784307,
-      "publishedUtc": "2026-09-07T12:38:16Z",
-      "notes": "Fix Android Matter commissioning build ambiguity"
-    },
-    {
-      "version": "1.0.1234",
-      "versionCode": 1788795595,
-      "publishedUtc": "2026-09-07T15:46:38Z",
-      "notes": "Fix Google Home renderer color name collision"
-    },
-    {
-      "version": "1.0.1235",
-      "versionCode": 1788797351,
-      "publishedUtc": "2026-09-07T16:15:31Z",
-      "notes": "Expand UI template layout and authoring guide"
-    },
-    {
-      "version": "1.0.1238",
-      "versionCode": 1788799227,
-      "publishedUtc": "2026-09-07T16:44:56Z",
-      "notes": "Expose group title placement in UI editor"
-    },
-    {
-      "version": "1.0.1240",
-      "versionCode": 1788804471,
-      "publishedUtc": "2026-09-07T18:14:13Z",
-      "notes": "Initialize Google Home bridge before Android activity reaches STARTED"
-    },
-    {
-      "version": "1.0.1241",
-      "versionCode": 1788807927,
-      "publishedUtc": "2026-09-07T19:10:42Z",
-      "notes": "Prevent Google Home initialization from crashing app startup"
-    },
-    {
-      "version": "1.0.1245",
-      "versionCode": 1788811974,
-      "publishedUtc": "2026-09-07T20:19:09Z",
-      "notes": "Keep custom UI while refreshing DeviceDB cache"
-    },
-    {
-      "version": "1.0.1250",
-      "versionCode": 1788822313,
-      "publishedUtc": "2026-09-07T23:11:40Z",
-      "notes": "Fix Android Activity namespace resolution in Google Home bridge"
-    },
-    {
-      "version": "1.0.1256",
-      "versionCode": 1788824047,
-      "publishedUtc": "2026-09-07T23:40:20Z",
-      "notes": "Make local Gradle bootstrap resilient to locked cache ZIP"
-    },
-    {
-      "version": "1.0.1262",
-      "versionCode": 1788826253,
-      "publishedUtc": "2026-09-08T00:16:47Z",
-      "notes": "Add debug logging package for MAUI build"
-    },
-    {
-      "version": "1.0.1266",
-      "versionCode": 1788851087,
-      "publishedUtc": "2026-09-08T07:09:38Z",
-      "notes": "Align AndroidX graph with Google Home runtime"
-    },
-    {
-      "version": "1.0.1268",
-      "versionCode": 1788852235,
-      "publishedUtc": "2026-09-08T07:30:02Z",
-      "notes": "Add coroutines Play Services dependency for Google Home"
-    },
-    {
-      "version": "1.0.1269",
-      "versionCode": 1788854732,
-      "publishedUtc": "2026-09-08T08:11:48Z",
-      "notes": "Force Google Home permission flow and add diagnostics"
-    },
-    {
-      "version": "1.0.1271",
-      "versionCode": 1788856865,
-      "publishedUtc": "2026-09-08T08:46:53Z",
-      "notes": "Debounce Google Home live snapshot refreshes"
-    },
-    {
-      "version": "1.0.1284",
-      "versionCode": 1788858860,
-      "publishedUtc": "2026-09-08T09:19:55Z",
-      "notes": "Fix Device ambiguity in integration managed items"
-    },
-    {
-      "version": "1.0.1285",
-      "versionCode": 1788859600,
-      "publishedUtc": "2026-09-08T09:32:56Z",
-      "notes": "Assign Google Home integration UI template"
-    },
-    {
-      "version": "1.0.1298",
-      "versionCode": 1788870321,
-      "publishedUtc": "2026-09-08T12:31:31Z",
-      "notes": "Route dynamic UI commands to Bluetooth drivers"
-    },
-    {
-      "version": "1.0.1300",
-      "versionCode": 1788881582,
-      "publishedUtc": "2026-09-08T15:37:49Z",
-      "notes": "Filter Bluetooth discovery by selected device category"
-    },
-    {
-      "version": "1.0.1301",
-      "versionCode": 1788888889,
-      "publishedUtc": "2026-09-08T17:40:54Z",
-      "notes": "Render DeviceDB device images on Home screen"
-    },
-    {
-      "version": "1.0.1309",
-      "versionCode": 1788965518,
-      "publishedUtc": "2026-09-09T14:58:08Z",
-      "notes": "Scope DeviceType resolution to MainPage"
-    },
-    {
-      "version": "1.0.1317",
-      "versionCode": 1788975689,
-      "publishedUtc": "2026-09-09T17:48:04Z",
-      "notes": "Remove conflicting global DeviceType alias"
-    },
-    {
-      "version": "1.0.1323",
-      "versionCode": 1788977136,
-      "publishedUtc": "2026-09-09T18:10:27Z",
-      "notes": "Use packaged modern TV icon on Android"
-    },
-    {
-      "version": "1.0.1325",
-      "versionCode": 1788981882,
-      "publishedUtc": "2026-09-09T19:30:31Z",
-      "notes": "Show Samsung logo for Samsung TV cards"
-    },
-    {
-      "version": "1.0.1327",
-      "versionCode": 1788983666,
-      "publishedUtc": "2026-09-09T20:00:25Z",
-      "notes": "Package dashboard TV and Samsung icons"
-    },
-    {
-      "version": "1.0.1333",
-      "versionCode": 1788987772,
-      "publishedUtc": "2026-09-09T21:08:36Z",
-      "notes": "Avoid stale DeviceDB image cache"
-    },
-    {
-      "version": "1.0.1338",
-      "versionCode": 1788991026,
-      "publishedUtc": "2026-09-09T22:03:07Z",
-      "notes": "Refresh DeviceDB selection icons without stale WebView cache"
-    }
-  ]
+    "schemaVersion":  1,
+    "releases":  [
+                     {
+                         "version":  "1.0.339",
+                         "versionCode":  1787755850,
+                         "publishedUtc":  "2026-08-26T14:54:45Z",
+                         "notes":  "Android signing fingerprint reporting and UltimateHomeApps package identity preparation."
+                     },
+                     {
+                         "version":  "1.0.572",
+                         "versionCode":  1788045630,
+                         "publishedUtc":  "2026-08-29T23:24:04Z",
+                         "notes":  "Trigger CI after billing update"
+                     },
+                     {
+                         "version":  "1.0.577",
+                         "versionCode":  1788046699,
+                         "publishedUtc":  "2026-08-29T23:42:21Z",
+                         "notes":  "Fall back automatically to open IR models"
+                     },
+                     {
+                         "version":  "1.0.578",
+                         "versionCode":  1788047341,
+                         "publishedUtc":  "2026-08-29T23:53:14Z",
+                         "notes":  "Persist Flipper IR catalog by upstream commit"
+                     },
+                     {
+                         "version":  "1.0.579",
+                         "versionCode":  1788048011,
+                         "publishedUtc":  "2026-08-30T00:04:04Z",
+                         "notes":  "Fix Flipper provider startup crash with shared HttpClient"
+                     },
+                     {
+                         "version":  "1.0.581",
+                         "versionCode":  1788049236,
+                         "publishedUtc":  "2026-08-30T00:23:33Z",
+                         "notes":  "Show all open IR device categories"
+                     },
+                     {
+                         "version":  "1.0.582",
+                         "versionCode":  1788199988,
+                         "publishedUtc":  "2026-08-31T18:17:15Z",
+                         "notes":  "docs: add HomeController future feature backlog"
+                     },
+                     {
+                         "version":  "1.0.594",
+                         "versionCode":  1788201444,
+                         "publishedUtc":  "2026-08-31T18:41:19Z",
+                         "notes":  "feat: render device types as full visual square tiles"
+                     },
+                     {
+                         "version":  "1.0.599",
+                         "versionCode":  1788203399,
+                         "publishedUtc":  "2026-08-31T19:13:54Z",
+                         "notes":  "fix: finalize shared interactive test layout"
+                     },
+                     {
+                         "version":  "1.0.611",
+                         "versionCode":  1788209228,
+                         "publishedUtc":  "2026-08-31T20:51:02Z",
+                         "notes":  "fix: resolve DeviceType ambiguity in Hubitat IR pinning"
+                     },
+                     {
+                         "version":  "1.0.616",
+                         "versionCode":  1788212658,
+                         "publishedUtc":  "2026-08-31T21:48:23Z",
+                         "notes":  "Use DeviceDB as the only infrared device type source"
+                     },
+                     {
+                         "version":  "1.0.624",
+                         "versionCode":  1788215868,
+                         "publishedUtc":  "2026-08-31T22:41:46Z",
+                         "notes":  "Fix Hubitat websocket receive compatibility"
+                     },
+                     {
+                         "version":  "1.0.632",
+                         "versionCode":  1788218624,
+                         "publishedUtc":  "2026-08-31T23:28:00Z",
+                         "notes":  "Avoid rebuilding Hubitat dashboard on back navigation"
+                     },
+                     {
+                         "version":  "1.0.638",
+                         "versionCode":  1788220955,
+                         "publishedUtc":  "2026-09-01T00:06:01Z",
+                         "notes":  "Fix Tuya decoder command mapper reference"
+                     },
+                     {
+                         "version":  "1.0.642",
+                         "versionCode":  1788222767,
+                         "publishedUtc":  "2026-09-01T00:36:49Z",
+                         "notes":  "Make large IR feedback submissions robust"
+                     },
+                     {
+                         "version":  "1.0.643",
+                         "versionCode":  1788270237,
+                         "publishedUtc":  "2026-09-01T13:48:11Z",
+                         "notes":  "Merge feature/device-db-v1 into main\nMerge current feature/device-db-v1 changes into main while keeping the feature branch for continued development."
+                     },
+                     {
+                         "version":  "1.0.655",
+                         "versionCode":  1788271816,
+                         "publishedUtc":  "2026-09-01T14:13:46Z",
+                         "notes":  "Document unified UI design system v2"
+                     },
+                     {
+                         "version":  "1.0.681",
+                         "versionCode":  1788273746,
+                         "publishedUtc":  "2026-09-01T14:46:31Z",
+                         "notes":  "Finalize UI Design System V2 documentation"
+                     },
+                     {
+                         "version":  "1.0.691",
+                         "versionCode":  1788276745,
+                         "publishedUtc":  "2026-09-01T15:36:35Z",
+                         "notes":  "Fix MAUI drag data property type"
+                     },
+                     {
+                         "version":  "1.0.695",
+                         "versionCode":  1788278119,
+                         "publishedUtc":  "2026-09-01T15:59:35Z",
+                         "notes":  "Prevent Home background tap and drag conflicts"
+                     },
+                     {
+                         "version":  "1.0.699",
+                         "versionCode":  1788279652,
+                         "publishedUtc":  "2026-09-01T16:25:17Z",
+                         "notes":  "Fix inline UI selection and drag drop gestures"
+                     },
+                     {
+                         "version":  "1.0.702",
+                         "versionCode":  1788289915,
+                         "publishedUtc":  "2026-09-01T19:14:47Z",
+                         "notes":  "Use theme color picker in UI editor"
+                     },
+                     {
+                         "version":  "1.0.704",
+                         "versionCode":  1788290566,
+                         "publishedUtc":  "2026-09-01T19:26:53Z",
+                         "notes":  "Use DeviceDB image catalog in UI editor"
+                     },
+                     {
+                         "version":  "1.0.712",
+                         "versionCode":  1788296147,
+                         "publishedUtc":  "2026-09-01T21:00:05Z",
+                         "notes":  "Compact device UI edit mode and keep edit icon state"
+                     },
+                     {
+                         "version":  "1.0.715",
+                         "versionCode":  1788298326,
+                         "publishedUtc":  "2026-09-01T21:36:07Z",
+                         "notes":  "Add batch property editing and spacing limits"
+                     },
+                     {
+                         "version":  "1.0.718",
+                         "versionCode":  1788299185,
+                         "publishedUtc":  "2026-09-01T21:50:23Z",
+                         "notes":  "Expose child-items blocks in property editor"
+                     },
+                     {
+                         "version":  "1.0.719",
+                         "versionCode":  1788300266,
+                         "publishedUtc":  "2026-09-01T22:08:38Z",
+                         "notes":  "Stabilize multi-select drag edit mode"
+                     },
+                     {
+                         "version":  "1.0.720",
+                         "versionCode":  1788301326,
+                         "publishedUtc":  "2026-09-01T22:26:14Z",
+                         "notes":  "Fix Home multi-select and drag gesture crash"
+                     },
+                     {
+                         "version":  "1.0.721",
+                         "versionCode":  1788302568,
+                         "publishedUtc":  "2026-09-01T22:46:45Z",
+                         "notes":  "Add two-dimensional block span layout"
+                     },
+                     {
+                         "version":  "1.0.724",
+                         "versionCode":  1788303625,
+                         "publishedUtc":  "2026-09-01T23:04:00Z",
+                         "notes":  "Make group spans occupy real grid area"
+                     },
+                     {
+                         "version":  "1.0.726",
+                         "versionCode":  1788304509,
+                         "publishedUtc":  "2026-09-01T23:19:26Z",
+                         "notes":  "Use spans for Home device appearance"
+                     },
+                     {
+                         "version":  "1.0.728",
+                         "versionCode":  1788305357,
+                         "publishedUtc":  "2026-09-01T23:32:57Z",
+                         "notes":  "Render Home cards with declarative spans"
+                     },
+                     {
+                         "version":  "1.0.731",
+                         "versionCode":  1788307907,
+                         "publishedUtc":  "2026-09-02T00:16:09Z",
+                         "notes":  "Show live Hubitat states on pinned Home cards"
+                     },
+                     {
+                         "version":  "1.0.744",
+                         "versionCode":  1788368769,
+                         "publishedUtc":  "2026-09-02T17:09:34Z",
+                         "notes":  "Import MAUI flex layout enums"
+                     },
+                     {
+                         "version":  "1.0.746",
+                         "versionCode":  1788369581,
+                         "publishedUtc":  "2026-09-02T17:24:05Z",
+                         "notes":  "Load UI translations as compact overlays"
+                     },
+                     {
+                         "version":  "1.0.748",
+                         "versionCode":  1788377692,
+                         "publishedUtc":  "2026-09-02T19:38:07Z",
+                         "notes":  "Add icons to Hubitat device properties"
+                     },
+                     {
+                         "version":  "1.0.757",
+                         "versionCode":  1788380411,
+                         "publishedUtc":  "2026-09-02T20:22:48Z",
+                         "notes":  "Expose auto-filter item margin round and image/text settings"
+                     },
+                     {
+                         "version":  "1.0.765",
+                         "versionCode":  1788382135,
+                         "publishedUtc":  "2026-09-02T20:53:17Z",
+                         "notes":  "Refresh declarative child presentation when returning to device"
+                     },
+                     {
+                         "version":  "1.0.772",
+                         "versionCode":  1788384489,
+                         "publishedUtc":  "2026-09-02T21:32:28Z",
+                         "notes":  "Restore template columns after edit preview"
+                     },
+                     {
+                         "version":  "1.0.774",
+                         "versionCode":  1788386414,
+                         "publishedUtc":  "2026-09-02T22:04:24Z",
+                         "notes":  "Use runtime renderer in inline template editor"
+                     },
+                     {
+                         "version":  "1.0.777",
+                         "versionCode":  1788388029,
+                         "publishedUtc":  "2026-09-02T22:31:17Z",
+                         "notes":  "Enable control selection and drag editing in child-aware templates"
+                     },
+                     {
+                         "version":  "1.0.790",
+                         "versionCode":  1788391466,
+                         "publishedUtc":  "2026-09-02T23:28:31Z",
+                         "notes":  "Fix PC remote screen clipping property"
+                     },
+                     {
+                         "version":  "1.0.794",
+                         "versionCode":  1788392068,
+                         "publishedUtc":  "2026-09-02T23:38:37Z",
+                         "notes":  "Fix PC Agent updater build script string"
+                     },
+                     {
+                         "version":  "1.0.796",
+                         "versionCode":  1788394066,
+                         "publishedUtc":  "2026-09-03T00:11:46Z",
+                         "notes":  "Fix PC remote trackpad button build error"
+                     },
+                     {
+                         "version":  "1.0.802",
+                         "versionCode":  1788433560,
+                         "publishedUtc":  "2026-09-03T11:08:53Z",
+                         "notes":  "Improve PC remote zoom persistence cursor controls and system actions"
+                     },
+                     {
+                         "version":  "1.0.809",
+                         "versionCode":  1788436699,
+                         "publishedUtc":  "2026-09-03T12:02:20Z",
+                         "notes":  "Add scoped pinned card styling"
+                     },
+                     {
+                         "version":  "1.0.814",
+                         "versionCode":  1788439466,
+                         "publishedUtc":  "2026-09-03T12:48:47Z",
+                         "notes":  "Fix Android drag-drop operation for device trash"
+                     },
+                     {
+                         "version":  "1.0.820",
+                         "versionCode":  1788442974,
+                         "publishedUtc":  "2026-09-03T13:46:48Z",
+                         "notes":  "Fix DeviceAddGroupPage namespace import"
+                     },
+                     {
+                         "version":  "1.0.834",
+                         "versionCode":  1788452034,
+                         "publishedUtc":  "2026-09-03T16:17:20Z",
+                         "notes":  "Fix FolderDeviceSetupPage DeviceType ambiguity"
+                     },
+                     {
+                         "version":  "1.0.836",
+                         "versionCode":  1788455770,
+                         "publishedUtc":  "2026-09-03T17:20:28Z",
+                         "notes":  "Stream local videos without cache copy"
+                     },
+                     {
+                         "version":  "1.0.839",
+                         "versionCode":  1788458114,
+                         "publishedUtc":  "2026-09-03T17:59:39Z",
+                         "notes":  "Fix PC remote clicks and keep bottom controls visible"
+                     },
+                     {
+                         "version":  "1.0.845",
+                         "versionCode":  1788462893,
+                         "publishedUtc":  "2026-09-03T19:19:08Z",
+                         "notes":  "Keep MIME detection compatible with C# 12"
+                     },
+                     {
+                         "version":  "1.0.849",
+                         "versionCode":  1788464772,
+                         "publishedUtc":  "2026-09-03T19:50:15Z",
+                         "notes":  "Use native Android video playback independent of filename extension"
+                     },
+                     {
+                         "version":  "1.0.852",
+                         "versionCode":  1788466696,
+                         "publishedUtc":  "2026-09-03T20:21:39Z",
+                         "notes":  "Keep Hubitat state labels visible across style refresh"
+                     },
+                     {
+                         "version":  "1.0.856",
+                         "versionCode":  1788468652,
+                         "publishedUtc":  "2026-09-03T20:55:00Z",
+                         "notes":  "Stabilize PC remote live screen rendering"
+                     },
+                     {
+                         "version":  "1.0.874",
+                         "versionCode":  1788475006,
+                         "publishedUtc":  "2026-09-03T22:40:55Z",
+                         "notes":  "Fix Android remote screen scale type compile error"
+                     },
+                     {
+                         "version":  "1.0.877",
+                         "versionCode":  1788476665,
+                         "publishedUtc":  "2026-09-03T23:08:30Z",
+                         "notes":  "Fix PC remote stable page compile errors"
+                     },
+                     {
+                         "version":  "1.0.883",
+                         "versionCode":  1788478132,
+                         "publishedUtc":  "2026-09-03T23:32:00Z",
+                         "notes":  "Remove Hue bridge pin from device title"
+                     },
+                     {
+                         "version":  "1.0.884",
+                         "versionCode":  1788480352,
+                         "publishedUtc":  "2026-09-04T00:10:36Z",
+                         "notes":  "Stop storing Android APK workflow artifacts"
+                     },
+                     {
+                         "version":  "1.0.890",
+                         "versionCode":  1788504402,
+                         "publishedUtc":  "2026-09-04T06:50:52Z",
+                         "notes":  "Show Hue child pin action on detail page"
+                     },
+                     {
+                         "version":  "1.0.900",
+                         "versionCode":  1788519171,
+                         "publishedUtc":  "2026-09-04T10:57:06Z",
+                         "notes":  "Remove unused Media3 packages causing AndroidX duplicate classes"
+                     },
+                     {
+                         "version":  "1.0.904",
+                         "versionCode":  1788520604,
+                         "publishedUtc":  "2026-09-04T11:20:07Z",
+                         "notes":  "Use per-monitor DPI manifest for PC Agent"
+                     },
+                     {
+                         "version":  "1.0.909",
+                         "versionCode":  1788522233,
+                         "publishedUtc":  "2026-09-04T11:47:15Z",
+                         "notes":  "Fit PC remote to actual streamed frame size"
+                     },
+                     {
+                         "version":  "1.0.911",
+                         "versionCode":  1788524158,
+                         "publishedUtc":  "2026-09-04T12:20:01Z",
+                         "notes":  "Force physical pixel DPI mode before PC capture starts"
+                     },
+                     {
+                         "version":  "1.0.912",
+                         "versionCode":  1788524530,
+                         "publishedUtc":  "2026-09-04T12:26:44Z",
+                         "notes":  "Fix PC Agent WebRTC client raw string build"
+                     },
+                     {
+                         "version":  "1.0.913",
+                         "versionCode":  1788526160,
+                         "publishedUtc":  "2026-09-04T12:53:28Z",
+                         "notes":  "Fix PC Agent H264 format negotiation build"
+                     },
+                     {
+                         "version":  "1.0.916",
+                         "versionCode":  1788527511,
+                         "publishedUtc":  "2026-09-04T13:16:15Z",
+                         "notes":  "Fix PC remote absolute mouse coordinates at scaled DPI"
+                     },
+                     {
+                         "version":  "1.0.917",
+                         "versionCode":  1788528817,
+                         "publishedUtc":  "2026-09-04T13:37:51Z",
+                         "notes":  "Apply per-monitor DPI context to PC remote input threads"
+                     },
+                     {
+                         "version":  "1.0.919",
+                         "versionCode":  1788532115,
+                         "publishedUtc":  "2026-09-04T14:32:55Z",
+                         "notes":  "Use physical monitor geometry for PC remote input"
+                     },
+                     {
+                         "version":  "1.0.928",
+                         "versionCode":  1788533818,
+                         "publishedUtc":  "2026-09-04T15:01:13Z",
+                         "notes":  "Allow half-step row span in home device properties"
+                     },
+                     {
+                         "version":  "1.0.954",
+                         "versionCode":  1788540405,
+                         "publishedUtc":  "2026-09-04T16:50:50Z",
+                         "notes":  "Fix Android BLE binding compile errors"
+                     },
+                     {
+                         "version":  "1.0.960",
+                         "versionCode":  1788541563,
+                         "publishedUtc":  "2026-09-04T17:09:41Z",
+                         "notes":  "Avoid Home screen layout extension collision"
+                     },
+                     {
+                         "version":  "1.0.993",
+                         "versionCode":  1788542922,
+                         "publishedUtc":  "2026-09-04T17:33:08Z",
+                         "notes":  "Use centralized image icons on nested Home screens"
+                     },
+                     {
+                         "version":  "1.0.1018",
+                         "versionCode":  1788544046,
+                         "publishedUtc":  "2026-09-04T17:51:31Z",
+                         "notes":  "Document DeviceDB runtime images in UI templates"
+                     },
+                     {
+                         "version":  "1.0.1020",
+                         "versionCode":  1788546706,
+                         "publishedUtc":  "2026-09-04T18:36:12Z",
+                         "notes":  "Clarify Samsung TV HID pairing flow"
+                     },
+                     {
+                         "version":  "1.0.1032",
+                         "versionCode":  1788549207,
+                         "publishedUtc":  "2026-09-04T19:17:46Z",
+                         "notes":  "Ignore legacy presentation snapshots on Home"
+                     },
+                     {
+                         "version":  "1.0.1033",
+                         "versionCode":  1788550443,
+                         "publishedUtc":  "2026-09-04T19:38:43Z",
+                         "notes":  "Send UI template edits as DeviceDB template submissions"
+                     },
+                     {
+                         "version":  "1.0.1041",
+                         "versionCode":  1788553591,
+                         "publishedUtc":  "2026-09-04T20:30:41Z",
+                         "notes":  "Refresh Home device styles with UI V2 reset"
+                     },
+                     {
+                         "version":  "1.0.1044",
+                         "versionCode":  1788558648,
+                         "publishedUtc":  "2026-09-04T21:54:20Z",
+                         "notes":  "Show actual DeviceDB SVG icons in infrared picker"
+                     },
+                     {
+                         "version":  "1.0.1060",
+                         "versionCode":  1788563579,
+                         "publishedUtc":  "2026-09-04T23:17:24Z",
+                         "notes":  "Fix selection UI catalog compilation"
+                     },
+                     {
+                         "version":  "1.0.1081",
+                         "versionCode":  1788566346,
+                         "publishedUtc":  "2026-09-05T00:03:24Z",
+                         "notes":  "Update Hue cards incrementally from cached resources"
+                     },
+                     {
+                         "version":  "1.0.1094",
+                         "versionCode":  1788643234,
+                         "publishedUtc":  "2026-09-05T21:24:38Z",
+                         "notes":  "Fix nested home card theme resource fallback"
+                     },
+                     {
+                         "version":  "1.0.1108",
+                         "versionCode":  1788644354,
+                         "publishedUtc":  "2026-09-05T21:42:22Z",
+                         "notes":  "Harden theme gradient reference resolution"
+                     },
+                     {
+                         "version":  "1.0.1116",
+                         "versionCode":  1788645970,
+                         "publishedUtc":  "2026-09-05T22:10:33Z",
+                         "notes":  "Make theme paste icon visible on all themes"
+                     },
+                     {
+                         "version":  "1.0.1117",
+                         "versionCode":  1788648257,
+                         "publishedUtc":  "2026-09-05T22:48:40Z",
+                         "notes":  "Add universal Matter MQTT Home Assistant Shelly and TV integrations"
+                     },
+                     {
+                         "version":  "1.0.1119",
+                         "versionCode":  1788648987,
+                         "publishedUtc":  "2026-09-05T23:00:55Z",
+                         "notes":  "Add persistent MQTT live subscriptions"
+                     },
+                     {
+                         "version":  "1.0.1122",
+                         "versionCode":  1788649620,
+                         "publishedUtc":  "2026-09-05T23:11:24Z",
+                         "notes":  "Fix Tuya BLE session registry namespace"
+                     },
+                     {
+                         "version":  "1.0.1123",
+                         "versionCode":  1788650792,
+                         "publishedUtc":  "2026-09-05T23:30:46Z",
+                         "notes":  "Add ONVIF IP camera support with Tapo C210 profile"
+                     },
+                     {
+                         "version":  "1.0.1125",
+                         "versionCode":  1788652723,
+                         "publishedUtc":  "2026-09-06T00:02:12Z",
+                         "notes":  "Show actual RTSP playback status and MediaPlayer errors"
+                     },
+                     {
+                         "version":  "1.0.1131",
+                         "versionCode":  1788698686,
+                         "publishedUtc":  "2026-09-06T12:49:54Z",
+                         "notes":  "Align AndroidX Lifecycle with Media3 RTSP"
+                     },
+                     {
+                         "version":  "1.0.1133",
+                         "versionCode":  1788701232,
+                         "publishedUtc":  "2026-09-06T13:32:02Z",
+                         "notes":  "Restore theme color palette and stabilize editor navigation"
+                     },
+                     {
+                         "version":  "1.0.1162",
+                         "versionCode":  1788733508,
+                         "publishedUtc":  "2026-09-06T22:31:42Z",
+                         "notes":  "Align AndroidX dependency family for Google Home"
+                     },
+                     {
+                         "version":  "1.0.1177",
+                         "versionCode":  1788735328,
+                         "publishedUtc":  "2026-09-06T23:02:13Z",
+                         "notes":  "Use Kotlin 2.3 compilerOptions DSL for Home shim"
+                     },
+                     {
+                         "version":  "1.0.1183",
+                         "versionCode":  1788737729,
+                         "publishedUtc":  "2026-09-06T23:40:40Z",
+                         "notes":  "Fix nullable Java Boolean mapping for Google Home state"
+                     },
+                     {
+                         "version":  "1.0.1187",
+                         "versionCode":  1788738909,
+                         "publishedUtc":  "2026-09-07T00:01:30Z",
+                         "notes":  "Add Google Home brightness slider"
+                     },
+                     {
+                         "version":  "1.0.1197",
+                         "versionCode":  1788763124,
+                         "publishedUtc":  "2026-09-07T06:45:03Z",
+                         "notes":  "Mark Google Home integration point 5 complete"
+                     },
+                     {
+                         "version":  "1.0.1200",
+                         "versionCode":  1788764398,
+                         "publishedUtc":  "2026-09-07T07:05:48Z",
+                         "notes":  "Expose Google Home integration in integrations UI"
+                     },
+                     {
+                         "version":  "1.0.1213",
+                         "versionCode":  1788784307,
+                         "publishedUtc":  "2026-09-07T12:38:16Z",
+                         "notes":  "Fix Android Matter commissioning build ambiguity"
+                     },
+                     {
+                         "version":  "1.0.1234",
+                         "versionCode":  1788795595,
+                         "publishedUtc":  "2026-09-07T15:46:38Z",
+                         "notes":  "Fix Google Home renderer color name collision"
+                     },
+                     {
+                         "version":  "1.0.1235",
+                         "versionCode":  1788797351,
+                         "publishedUtc":  "2026-09-07T16:15:31Z",
+                         "notes":  "Expand UI template layout and authoring guide"
+                     },
+                     {
+                         "version":  "1.0.1238",
+                         "versionCode":  1788799227,
+                         "publishedUtc":  "2026-09-07T16:44:56Z",
+                         "notes":  "Expose group title placement in UI editor"
+                     },
+                     {
+                         "version":  "1.0.1240",
+                         "versionCode":  1788804471,
+                         "publishedUtc":  "2026-09-07T18:14:13Z",
+                         "notes":  "Initialize Google Home bridge before Android activity reaches STARTED"
+                     },
+                     {
+                         "version":  "1.0.1241",
+                         "versionCode":  1788807927,
+                         "publishedUtc":  "2026-09-07T19:10:42Z",
+                         "notes":  "Prevent Google Home initialization from crashing app startup"
+                     },
+                     {
+                         "version":  "1.0.1245",
+                         "versionCode":  1788811974,
+                         "publishedUtc":  "2026-09-07T20:19:09Z",
+                         "notes":  "Keep custom UI while refreshing DeviceDB cache"
+                     },
+                     {
+                         "version":  "1.0.1250",
+                         "versionCode":  1788822313,
+                         "publishedUtc":  "2026-09-07T23:11:40Z",
+                         "notes":  "Fix Android Activity namespace resolution in Google Home bridge"
+                     },
+                     {
+                         "version":  "1.0.1256",
+                         "versionCode":  1788824047,
+                         "publishedUtc":  "2026-09-07T23:40:20Z",
+                         "notes":  "Make local Gradle bootstrap resilient to locked cache ZIP"
+                     },
+                     {
+                         "version":  "1.0.1262",
+                         "versionCode":  1788826253,
+                         "publishedUtc":  "2026-09-08T00:16:47Z",
+                         "notes":  "Add debug logging package for MAUI build"
+                     },
+                     {
+                         "version":  "1.0.1266",
+                         "versionCode":  1788851087,
+                         "publishedUtc":  "2026-09-08T07:09:38Z",
+                         "notes":  "Align AndroidX graph with Google Home runtime"
+                     },
+                     {
+                         "version":  "1.0.1268",
+                         "versionCode":  1788852235,
+                         "publishedUtc":  "2026-09-08T07:30:02Z",
+                         "notes":  "Add coroutines Play Services dependency for Google Home"
+                     },
+                     {
+                         "version":  "1.0.1269",
+                         "versionCode":  1788854732,
+                         "publishedUtc":  "2026-09-08T08:11:48Z",
+                         "notes":  "Force Google Home permission flow and add diagnostics"
+                     },
+                     {
+                         "version":  "1.0.1271",
+                         "versionCode":  1788856865,
+                         "publishedUtc":  "2026-09-08T08:46:53Z",
+                         "notes":  "Debounce Google Home live snapshot refreshes"
+                     },
+                     {
+                         "version":  "1.0.1284",
+                         "versionCode":  1788858860,
+                         "publishedUtc":  "2026-09-08T09:19:55Z",
+                         "notes":  "Fix Device ambiguity in integration managed items"
+                     },
+                     {
+                         "version":  "1.0.1285",
+                         "versionCode":  1788859600,
+                         "publishedUtc":  "2026-09-08T09:32:56Z",
+                         "notes":  "Assign Google Home integration UI template"
+                     },
+                     {
+                         "version":  "1.0.1298",
+                         "versionCode":  1788870321,
+                         "publishedUtc":  "2026-09-08T12:31:31Z",
+                         "notes":  "Route dynamic UI commands to Bluetooth drivers"
+                     },
+                     {
+                         "version":  "1.0.1300",
+                         "versionCode":  1788881582,
+                         "publishedUtc":  "2026-09-08T15:37:49Z",
+                         "notes":  "Filter Bluetooth discovery by selected device category"
+                     },
+                     {
+                         "version":  "1.0.1301",
+                         "versionCode":  1788888889,
+                         "publishedUtc":  "2026-09-08T17:40:54Z",
+                         "notes":  "Render DeviceDB device images on Home screen"
+                     },
+                     {
+                         "version":  "1.0.1309",
+                         "versionCode":  1788965518,
+                         "publishedUtc":  "2026-09-09T14:58:08Z",
+                         "notes":  "Scope DeviceType resolution to MainPage"
+                     },
+                     {
+                         "version":  "1.0.1317",
+                         "versionCode":  1788975689,
+                         "publishedUtc":  "2026-09-09T17:48:04Z",
+                         "notes":  "Remove conflicting global DeviceType alias"
+                     },
+                     {
+                         "version":  "1.0.1323",
+                         "versionCode":  1788977136,
+                         "publishedUtc":  "2026-09-09T18:10:27Z",
+                         "notes":  "Use packaged modern TV icon on Android"
+                     },
+                     {
+                         "version":  "1.0.1325",
+                         "versionCode":  1788981882,
+                         "publishedUtc":  "2026-09-09T19:30:31Z",
+                         "notes":  "Show Samsung logo for Samsung TV cards"
+                     },
+                     {
+                         "version":  "1.0.1327",
+                         "versionCode":  1788983666,
+                         "publishedUtc":  "2026-09-09T20:00:25Z",
+                         "notes":  "Package dashboard TV and Samsung icons"
+                     },
+                     {
+                         "version":  "1.0.1333",
+                         "versionCode":  1788987772,
+                         "publishedUtc":  "2026-09-09T21:08:36Z",
+                         "notes":  "Avoid stale DeviceDB image cache"
+                     },
+                     {
+                         "version":  "1.0.1338",
+                         "versionCode":  1788991026,
+                         "publishedUtc":  "2026-09-09T22:03:07Z",
+                         "notes":  "Refresh DeviceDB selection icons without stale WebView cache"
+                     },
+                     {
+                         "version":  "1.0.1341",
+                         "versionCode":  1788997719,
+                         "publishedUtc":  "2026-09-09T23:50:41Z",
+                         "notes":  "Fix GitHub JSON payload encoding for local publish"
+                     }
+                 ]
 }
