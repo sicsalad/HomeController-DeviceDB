@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.32",
-      "versionCode": 1787819175,
-      "publishedUtc": "2026-08-27T08:26:15Z",
-      "notes": "Add custom source index JSON schema"
-    },
-    {
       "version": "1.0.33",
       "versionCode": 1787819308,
       "publishedUtc": "2026-08-27T08:28:28Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1789083887,
       "publishedUtc": "2026-09-10T23:44:47Z",
       "notes": "Add modern smart-home icon"
+    },
+    {
+      "version": "1.0.292",
+      "versionCode": 1789083902,
+      "publishedUtc": "2026-09-10T23:45:02Z",
+      "notes": "Add modern Hue icon"
     }
   ]
 }

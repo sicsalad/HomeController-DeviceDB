@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.291",
-  "versionCode": 1789083887,
-  "publishedUtc": "2026-09-10T23:44:47Z",
-  "commit": "18319408318d482031def0b674eb9eed60cf284c",
-  "patchNotes": "Add modern smart-home icon"
+  "version": "1.0.292",
+  "versionCode": 1789083902,
+  "publishedUtc": "2026-09-10T23:45:02Z",
+  "commit": "014d13e3632eb2598c9ba31a80bb8739f6a04124",
+  "patchNotes": "Add modern Hue icon"
 }
