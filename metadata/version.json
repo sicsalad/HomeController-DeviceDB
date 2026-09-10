@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.277",
-  "versionCode": 1789025129,
-  "publishedUtc": "2026-09-10T07:25:29Z",
-  "commit": "fa6925a0197c8f1d130a9c109265c126fd391881",
-  "patchNotes": "Move theme eyedropper artwork to DeviceDB"
+  "version": "1.0.278",
+  "versionCode": 1789025139,
+  "publishedUtc": "2026-09-10T07:25:39Z",
+  "commit": "b16dd98459f58e1b60180b9cd3a5863c69cd40cd",
+  "patchNotes": "Move theme paint bucket artwork to DeviceDB"
 }
