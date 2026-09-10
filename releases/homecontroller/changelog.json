@@ -780,6 +780,12 @@
                          "versionCode":  1789002935,
                          "publishedUtc":  "2026-09-10T01:18:41Z",
                          "notes":  "Bundle Wi-Fi add-device icon for offline use"
+                     },
+                     {
+                         "version":  "1.0.1348",
+                         "versionCode":  1789027436,
+                         "publishedUtc":  "2026-09-10T08:07:03Z",
+                         "notes":  "Make DeviceDB image sync non-blocking for offline builds"
                      }
                  ]
 }
