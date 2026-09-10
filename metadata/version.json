@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.266",
-  "versionCode": 1788993348,
-  "publishedUtc": "2026-09-09T22:35:48Z",
-  "commit": "78166a4d4f2c07567fe67bf03e027e83e5d08459",
-  "patchNotes": "Use empty default child items source for Hue"
+  "version": "1.0.267",
+  "versionCode": 1789024491,
+  "publishedUtc": "2026-09-10T07:14:51Z",
+  "commit": "639e819b4f861741b6b93d860d794978eca23607",
+  "patchNotes": "Add original Hubitat integration icon"
 }
