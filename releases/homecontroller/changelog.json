@@ -810,6 +810,12 @@
                          "versionCode":  1789077080,
                          "publishedUtc":  "2026-09-10T21:58:20Z",
                          "notes":  "Fix Hue bridge re-pairing after reinstall"
+                     },
+                     {
+                         "version":  "1.0.1353",
+                         "versionCode":  1789077570,
+                         "publishedUtc":  "2026-09-10T22:05:42Z",
+                         "notes":  "Fix PC Remote clicks and add cursor follow toggle"
                      }
                  ]
 }
