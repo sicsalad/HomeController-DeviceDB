@@ -25,6 +25,7 @@
     { "id": "tcl-tuya-tv-generic", "path": "devices/television/tcl/tuya-generic.json", "sha256": "" },
     { "id": "roku-ecp-tv-generic", "path": "devices/television/roku/roku-ecp-generic.json", "sha256": "" },
     { "id": "sony-bravia-tv-generic", "path": "devices/television/sony/bravia-generic.json", "sha256": "" },
-    { "id": "lg-webos-tv-generic", "path": "devices/television/lg/webos-generic.json", "sha256": "" }
+    { "id": "lg-webos-tv-generic", "path": "devices/television/lg/webos-generic.json", "sha256": "" },
+    { "id": "tuya-smart-ir-remote-generic", "path": "devices/ir-transceiver/tuya/smart-ir-remote-generic.json", "sha256": "" }
   ]
 }
