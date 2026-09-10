@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.286",
-  "versionCode": 1789083846,
-  "publishedUtc": "2026-09-10T23:44:06Z",
-  "commit": "167a51584d5c5e2644d014aff7faffba90bbefd9",
-  "patchNotes": "Add modern realistic air conditioner icon"
+  "version": "1.0.291",
+  "versionCode": 1789083887,
+  "publishedUtc": "2026-09-10T23:44:47Z",
+  "commit": "18319408318d482031def0b674eb9eed60cf284c",
+  "patchNotes": "Add modern smart-home icon"
 }

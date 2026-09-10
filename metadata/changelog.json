@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.31",
-      "versionCode": 1787819158,
-      "publishedUtc": "2026-08-27T08:25:58Z",
-      "notes": "Add device type catalog JSON schema"
-    },
-    {
       "version": "1.0.32",
       "versionCode": 1787819175,
       "publishedUtc": "2026-08-27T08:26:15Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1789083846,
       "publishedUtc": "2026-09-10T23:44:06Z",
       "notes": "Add modern realistic air conditioner icon"
+    },
+    {
+      "version": "1.0.291",
+      "versionCode": 1789083887,
+      "publishedUtc": "2026-09-10T23:44:47Z",
+      "notes": "Add modern smart-home icon"
     }
   ]
 }
