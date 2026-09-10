@@ -4,7 +4,7 @@
   "version": 1,
   "minimumRuntimeVersion": 1,
   "status": "experimental",
-  "deviceTypes": ["AirConditioner", "Television"],
+  "deviceTypes": ["AirConditioner", "Television", "IrTransceiver"],
   "requiredPrimitives": ["https", "json", "template", "hmac-sha256"],
   "discovery": [],
   "operations": {
