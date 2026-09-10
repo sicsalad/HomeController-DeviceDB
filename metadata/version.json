@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.268",
-  "versionCode": 1789024501,
-  "publishedUtc": "2026-09-10T07:15:01Z",
-  "commit": "f31e9d24f569bcc5b57a48a3fef74de45377c6c3",
-  "patchNotes": "Add original Hue integration icon"
+  "version": "1.0.269",
+  "versionCode": 1789024513,
+  "publishedUtc": "2026-09-10T07:15:13Z",
+  "commit": "09a2c5927ae1545fe96699b8ceb3f553bfb07715",
+  "patchNotes": "Add original Google Home integration icon"
 }
