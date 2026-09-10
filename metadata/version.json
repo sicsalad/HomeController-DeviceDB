@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.282",
-  "versionCode": 1789042814,
-  "publishedUtc": "2026-09-10T12:20:14Z",
-  "commit": "17587149f04463c29cbed73643e3a688d9e1f8c2",
-  "patchNotes": "Publish Tuya Smart Wi-Fi IR remote profile"
+  "version": "1.0.283",
+  "versionCode": 1789083756,
+  "publishedUtc": "2026-09-10T23:42:36Z",
+  "commit": "cec6fe538cc157d61d9c57b15bb9cb4243d52d0b",
+  "patchNotes": "Make images index the sized image source of truth"
 }
