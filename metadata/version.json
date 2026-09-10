@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.275",
-  "versionCode": 1789024572,
-  "publishedUtc": "2026-09-10T07:16:12Z",
-  "commit": "ce6aa37b1fdabf86974dc34cb3094d1e566af580",
-  "patchNotes": "Add original generic integration icon"
+  "version": "1.0.276",
+  "versionCode": 1789024615,
+  "publishedUtc": "2026-09-10T07:16:55Z",
+  "commit": "cdee6a4ae2969e74df94de296cad34793ef4e8a3",
+  "patchNotes": "Give each integration an original HomeController icon"
 }
