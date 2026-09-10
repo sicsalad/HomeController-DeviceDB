@@ -798,6 +798,12 @@
                          "versionCode":  1789030934,
                          "publishedUtc":  "2026-09-10T09:08:30Z",
                          "notes":  "Fix duplicate MAUI image outputs from DeviceDB sync"
+                     },
+                     {
+                         "version":  "1.0.1351",
+                         "versionCode":  1789041313,
+                         "publishedUtc":  "2026-09-10T12:02:05Z",
+                         "notes":  "Fix Wi-Fi device discovery localization keys"
                      }
                  ]
 }
