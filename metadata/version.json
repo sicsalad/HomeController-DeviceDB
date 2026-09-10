@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.292",
-  "versionCode": 1789083902,
-  "publishedUtc": "2026-09-10T23:45:02Z",
-  "commit": "014d13e3632eb2598c9ba31a80bb8739f6a04124",
-  "patchNotes": "Add modern Hue icon"
+  "version": "1.0.293",
+  "versionCode": 1789083919,
+  "publishedUtc": "2026-09-10T23:45:19Z",
+  "commit": "45fc2d50f41f03f392f26dffa57c6956d78bb830",
+  "patchNotes": "Remove duplicate image catalog in favor of index"
 }
