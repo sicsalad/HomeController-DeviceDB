@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.267",
-  "versionCode": 1789024491,
-  "publishedUtc": "2026-09-10T07:14:51Z",
-  "commit": "639e819b4f861741b6b93d860d794978eca23607",
-  "patchNotes": "Add original Hubitat integration icon"
+  "version": "1.0.268",
+  "versionCode": 1789024501,
+  "publishedUtc": "2026-09-10T07:15:01Z",
+  "commit": "f31e9d24f569bcc5b57a48a3fef74de45377c6c3",
+  "patchNotes": "Add original Hue integration icon"
 }
