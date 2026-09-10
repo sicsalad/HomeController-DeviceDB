@@ -786,6 +786,12 @@
                          "versionCode":  1789027436,
                          "publishedUtc":  "2026-09-10T08:07:03Z",
                          "notes":  "Make DeviceDB image sync non-blocking for offline builds"
+                     },
+                     {
+                         "version":  "1.0.1349",
+                         "versionCode":  1789029713,
+                         "publishedUtc":  "2026-09-10T08:45:02Z",
+                         "notes":  "Handle Android SecureStorage failures for PC pairing"
                      }
                  ]
 }
