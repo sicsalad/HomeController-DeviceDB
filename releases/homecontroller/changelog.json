@@ -768,6 +768,12 @@
                          "versionCode":  1789001389,
                          "publishedUtc":  "2026-09-10T00:53:05Z",
                          "notes":  "Bundle offline device icons as MAUI images"
+                     },
+                     {
+                         "version":  "1.0.1346",
+                         "versionCode":  1789002694,
+                         "publishedUtc":  "2026-09-10T01:14:26Z",
+                         "notes":  "Use local images for device-type selection icons"
                      }
                  ]
 }
