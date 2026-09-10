@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.293",
-  "versionCode": 1789083919,
-  "publishedUtc": "2026-09-10T23:45:19Z",
-  "commit": "45fc2d50f41f03f392f26dffa57c6956d78bb830",
-  "patchNotes": "Remove duplicate image catalog in favor of index"
+  "version": "1.0.294",
+  "versionCode": 1789083932,
+  "publishedUtc": "2026-09-10T23:45:32Z",
+  "commit": "91d3573209c618530fab48a7eb05ecfa21323992",
+  "patchNotes": "Document index-only image packs and sizing"
 }
