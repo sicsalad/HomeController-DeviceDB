@@ -23,7 +23,7 @@
     {"id":"wifi","palette":"blue","icon":"images/actions/action_wifi.svg","titleKey":"connection.wifi.title","subtitleKey":"connection.wifi.subtitle"},
     {"id":"infrared","palette":"violet","icon":"images/device-types/device_ir_transceiver.svg","titleKey":"connection.infrared.title","subtitleKey":"connection.infrared.subtitle"},
     {"id":"bluetooth","palette":"green","icon":"images/device-types/device_bluetooth.svg","titleKey":"connection.bluetooth.title","subtitleKey":"connection.bluetooth.subtitle"},
-    {"id":"integrations","palette":"blue","icon":"images/device-types/device_hubitat.svg","titleKey":"connection.integrations.title","subtitleKey":"connection.integrations.subtitle"},
+    {"id":"integrations","palette":"blue","icon":"images/integrations/integration_generic.svg","titleKey":"connection.integrations.title","subtitleKey":"connection.integrations.subtitle"},
     {"id":"other","palette":"gray","icon":"images/device-types/device_general.svg","titleKey":"connection.other.title","subtitleKey":"connection.other.subtitle"}
   ],
   "deviceTypes": {
@@ -51,10 +51,15 @@
   "specialItems": {
     "bluetooth-search":{"id":"bluetooth-search","palette":"green","icon":"images/device-types/device_bluetooth.svg","titleKey":"special.bluetoothSearch.title","subtitleKey":"special.bluetoothSearch.subtitle"},
     "bluetooth-hid":{"id":"bluetooth-hid","palette":"violet","icon":"images/device-types/device_bluetooth.svg","titleKey":"special.bluetoothHid.title","subtitleKey":"special.bluetoothHid.subtitle"},
-    "hubitat":{"id":"hubitat","palette":"violet","icon":"images/device-types/device_hubitat.svg","titleKey":"special.hubitat.title","subtitleKey":"special.hubitat.subtitle"},
-    "philips-hue":{"id":"philips-hue","palette":"cyan","icon":"images/device-types/device_hue.svg","titleKey":"special.hue.title","subtitleKey":"special.hue.subtitle"},
+    "hubitat":{"id":"hubitat","palette":"violet","icon":"images/integrations/integration_hubitat.svg","titleKey":"special.hubitat.title","subtitleKey":"special.hubitat.subtitle"},
+    "philips-hue":{"id":"philips-hue","palette":"cyan","icon":"images/integrations/integration_philips_hue.svg","titleKey":"special.hue.title","subtitleKey":"special.hue.subtitle"},
     "computer":{"id":"computer","palette":"blue","icon":"images/device-types/device_computer.svg","titleKey":"special.computer.title","subtitleKey":"special.computer.subtitle"},
-    "google-home":{"id":"google-home","palette":"green","icon":"images/device-types/device_home_screen.svg","titleKey":"special.googleHome.title","subtitleKey":"special.googleHome.subtitle"},
+    "google-home":{"id":"google-home","palette":"green","icon":"images/integrations/integration_google_home.svg","titleKey":"special.googleHome.title","subtitleKey":"special.googleHome.subtitle"},
+    "matter":{"id":"matter","palette":"violet","icon":"images/integrations/integration_matter.svg","titleKey":"","subtitleKey":""},
+    "mqtt":{"id":"mqtt","palette":"blue","icon":"images/integrations/integration_mqtt.svg","titleKey":"","subtitleKey":""},
+    "home-assistant":{"id":"home-assistant","palette":"cyan","icon":"images/integrations/integration_home_assistant.svg","titleKey":"","subtitleKey":""},
+    "shelly":{"id":"shelly","palette":"green","icon":"images/integrations/integration_shelly.svg","titleKey":"","subtitleKey":""},
+    "android-tv":{"id":"android-tv","palette":"blue","icon":"images/integrations/integration_android_tv.svg","titleKey":"","subtitleKey":""},
     "dashboard":{"id":"dashboard","palette":"blue","icon":"images/device-types/device_dashboard.svg","titleKey":"special.dashboard.title","subtitleKey":"special.dashboard.subtitle"},
     "folder":{"id":"folder","palette":"gold","icon":"images/device-types/device_folder.svg","titleKey":"special.folder.title","subtitleKey":"special.folder.subtitle"}
   },
