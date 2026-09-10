@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.276",
-  "versionCode": 1789024615,
-  "publishedUtc": "2026-09-10T07:16:55Z",
-  "commit": "cdee6a4ae2969e74df94de296cad34793ef4e8a3",
-  "patchNotes": "Give each integration an original HomeController icon"
+  "version": "1.0.277",
+  "versionCode": 1789025129,
+  "publishedUtc": "2026-09-10T07:25:29Z",
+  "commit": "fa6925a0197c8f1d130a9c109265c126fd391881",
+  "patchNotes": "Move theme eyedropper artwork to DeviceDB"
 }
