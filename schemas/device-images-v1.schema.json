@@ -1,20 +1,21 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "device-images-v1.schema.json",
-  "title": "HomeController DeviceDB image catalog",
+  "title": "HomeController DeviceDB image index",
   "type": "object",
   "required": ["schemaVersion", "basePath", "images"],
   "properties": {
-    "schemaVersion": { "const": 1 },
+    "schemaVersion": { "const": 2 },
     "basePath": { "type": "string" },
     "namingConvention": { "type": "string" },
     "images": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["id", "path", "deviceTypes"],
+        "required": ["id", "size", "path", "deviceTypes", "category", "tags"],
         "properties": {
           "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+          "size": { "type": "string", "pattern": "^[1-9][0-9]*x[1-9][0-9]*$" },
           "path": { "type": "string" },
           "deviceTypes": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
           "category": { "type": "string" },
