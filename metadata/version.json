@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.274",
-  "versionCode": 1789024554,
-  "publishedUtc": "2026-09-10T07:15:54Z",
-  "commit": "c791156beb1c4b90a72c0fe9ec6767ff814dbdf7",
-  "patchNotes": "Add original Android TV integration icon"
+  "version": "1.0.275",
+  "versionCode": 1789024572,
+  "publishedUtc": "2026-09-10T07:16:12Z",
+  "commit": "ce6aa37b1fdabf86974dc34cb3094d1e566af580",
+  "patchNotes": "Add original generic integration icon"
 }

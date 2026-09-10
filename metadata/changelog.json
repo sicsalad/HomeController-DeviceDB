@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.22",
-      "versionCode": 1787787428,
-      "publishedUtc": "2026-08-26T23:37:08Z",
-      "notes": "Remove app-theme-specific Hue UI template"
-    },
-    {
       "version": "1.0.23",
       "versionCode": 1787787492,
       "publishedUtc": "2026-08-26T23:38:12Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1789024554,
       "publishedUtc": "2026-09-10T07:15:54Z",
       "notes": "Add original Android TV integration icon"
+    },
+    {
+      "version": "1.0.275",
+      "versionCode": 1789024572,
+      "publishedUtc": "2026-09-10T07:16:12Z",
+      "notes": "Add original generic integration icon"
     }
   ]
 }
