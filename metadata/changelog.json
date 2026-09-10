@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.18",
-      "versionCode": 1787787390,
-      "publishedUtc": "2026-08-26T23:36:30Z",
-      "notes": "Separate app themes from device UI layouts"
-    },
-    {
       "version": "1.0.22",
       "versionCode": 1787787428,
       "publishedUtc": "2026-08-26T23:37:08Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1789024538,
       "publishedUtc": "2026-09-10T07:15:38Z",
       "notes": "Add original Home Assistant integration icon"
+    },
+    {
+      "version": "1.0.274",
+      "versionCode": 1789024554,
+      "publishedUtc": "2026-09-10T07:15:54Z",
+      "notes": "Add original Android TV integration icon"
     }
   ]
 }

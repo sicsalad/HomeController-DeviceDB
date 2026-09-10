@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.272",
-  "versionCode": 1789024538,
-  "publishedUtc": "2026-09-10T07:15:38Z",
-  "commit": "8adf43f6aa542ddb1eec5451c70715f067918478",
-  "patchNotes": "Add original Home Assistant integration icon"
+  "version": "1.0.274",
+  "versionCode": 1789024554,
+  "publishedUtc": "2026-09-10T07:15:54Z",
+  "commit": "c791156beb1c4b90a72c0fe9ec6767ff814dbdf7",
+  "patchNotes": "Add original Android TV integration icon"
 }
