@@ -756,6 +756,12 @@
                          "versionCode":  1788998490,
                          "publishedUtc":  "2026-09-10T00:05:40Z",
                          "notes":  "Harden local Android APK selection and signing verification"
+                     },
+                     {
+                         "version":  "1.0.1344",
+                         "versionCode":  1789000774,
+                         "publishedUtc":  "2026-09-10T00:42:32Z",
+                         "notes":  "Make device icons offline-first and repair PC remote secure storage"
                      }
                  ]
 }
