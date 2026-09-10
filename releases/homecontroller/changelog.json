@@ -816,6 +816,12 @@
                          "versionCode":  1789077570,
                          "publishedUtc":  "2026-09-10T22:05:42Z",
                          "notes":  "Fix PC Remote clicks and add cursor follow toggle"
+                     },
+                     {
+                         "version":  "1.0.1354",
+                         "versionCode":  1789079359,
+                         "publishedUtc":  "2026-09-10T22:35:43Z",
+                         "notes":  "Reorganize PC Remote controls and add mouse coordinate diagnostics"
                      }
                  ]
 }
