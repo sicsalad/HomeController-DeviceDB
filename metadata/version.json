@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.283",
-  "versionCode": 1789083756,
-  "publishedUtc": "2026-09-10T23:42:36Z",
-  "commit": "cec6fe538cc157d61d9c57b15bb9cb4243d52d0b",
-  "patchNotes": "Make images index the sized image source of truth"
+  "version": "1.0.284",
+  "versionCode": 1789083776,
+  "publishedUtc": "2026-09-10T23:42:56Z",
+  "commit": "36736b11f5651ffd1e1add9189ac907e1acf172c",
+  "patchNotes": "Require target size in image index schema"
 }
