@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.281",
-  "versionCode": 1789042798,
-  "publishedUtc": "2026-09-10T12:19:58Z",
-  "commit": "914f9cab1dc2971be9dc9b23c651287b8f018da9",
-  "patchNotes": "Add generic Tuya Smart Wi-Fi IR remote profile"
+  "version": "1.0.282",
+  "versionCode": 1789042814,
+  "publishedUtc": "2026-09-10T12:20:14Z",
+  "commit": "17587149f04463c29cbed73643e3a688d9e1f8c2",
+  "patchNotes": "Publish Tuya Smart Wi-Fi IR remote profile"
 }

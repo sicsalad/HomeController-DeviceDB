@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.27",
-      "versionCode": 1787819049,
-      "publishedUtc": "2026-08-27T08:24:09Z",
-      "notes": "Normalize Blue Eye application theme schema"
-    },
-    {
       "version": "1.0.28",
       "versionCode": 1787819066,
       "publishedUtc": "2026-08-27T08:24:26Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1789042798,
       "publishedUtc": "2026-09-10T12:19:58Z",
       "notes": "Add generic Tuya Smart Wi-Fi IR remote profile"
+    },
+    {
+      "version": "1.0.282",
+      "versionCode": 1789042814,
+      "publishedUtc": "2026-09-10T12:20:14Z",
+      "notes": "Publish Tuya Smart Wi-Fi IR remote profile"
     }
   ]
 }
