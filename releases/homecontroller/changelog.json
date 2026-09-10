@@ -762,6 +762,12 @@
                          "versionCode":  1789000774,
                          "publishedUtc":  "2026-09-10T00:42:32Z",
                          "notes":  "Make device icons offline-first and repair PC remote secure storage"
+                     },
+                     {
+                         "version":  "1.0.1345",
+                         "versionCode":  1789001389,
+                         "publishedUtc":  "2026-09-10T00:53:05Z",
+                         "notes":  "Bundle offline device icons as MAUI images"
                      }
                  ]
 }
