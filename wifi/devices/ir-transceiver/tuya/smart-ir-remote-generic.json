@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "tuya-smart-ir-remote-generic",
+  "deviceType": "IrTransceiver",
+  "manufacturer": "Tuya",
+  "model": "Smart Wi-Fi IR Remote Control",
+  "driverId": "tuya-cloud-generic",
+  "match": {
+    "brand": ["Tuya", "Smart Life"],
+    "modelPatterns": ["*IR Remote*", "*IR Controller*", "*Smart Wi-Fi IR*"]
+  },
+  "metadata": {
+    "auth": "Tuya / Smart Life cloud credentials or device authorization",
+    "status": "experimental",
+    "setup": "cloud",
+    "infraredFrequency": "38kHz",
+    "wifi": "2.4GHz 802.11b/g/n"
+  }
+}
