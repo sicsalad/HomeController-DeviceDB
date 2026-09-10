@@ -822,6 +822,12 @@
                          "versionCode":  1789079359,
                          "publishedUtc":  "2026-09-10T22:35:43Z",
                          "notes":  "Reorganize PC Remote controls and add mouse coordinate diagnostics"
+                     },
+                     {
+                         "version":  "1.0.1355",
+                         "versionCode":  1789079813,
+                         "publishedUtc":  "2026-09-10T22:43:13Z",
+                         "notes":  "Publish and install PC Agent from build watcher when changed"
                      }
                  ]
 }
