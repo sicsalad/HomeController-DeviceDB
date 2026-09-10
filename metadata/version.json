@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.278",
-  "versionCode": 1789025139,
-  "publishedUtc": "2026-09-10T07:25:39Z",
-  "commit": "b16dd98459f58e1b60180b9cd3a5863c69cd40cd",
-  "patchNotes": "Move theme paint bucket artwork to DeviceDB"
+  "version": "1.0.281",
+  "versionCode": 1789042798,
+  "publishedUtc": "2026-09-10T12:19:58Z",
+  "commit": "914f9cab1dc2971be9dc9b23c651287b8f018da9",
+  "patchNotes": "Add generic Tuya Smart Wi-Fi IR remote profile"
 }

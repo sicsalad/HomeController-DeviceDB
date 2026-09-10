@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.26",
-      "versionCode": 1787819031,
-      "publishedUtc": "2026-08-27T08:23:51Z",
-      "notes": "Normalize default application theme schema"
-    },
-    {
       "version": "1.0.27",
       "versionCode": 1787819049,
       "publishedUtc": "2026-08-27T08:24:09Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1789025139,
       "publishedUtc": "2026-09-10T07:25:39Z",
       "notes": "Move theme paint bucket artwork to DeviceDB"
+    },
+    {
+      "version": "1.0.281",
+      "versionCode": 1789042798,
+      "publishedUtc": "2026-09-10T12:19:58Z",
+      "notes": "Add generic Tuya Smart Wi-Fi IR remote profile"
     }
   ]
 }
