@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.284",
-  "versionCode": 1789083776,
-  "publishedUtc": "2026-09-10T23:42:56Z",
-  "commit": "36736b11f5651ffd1e1add9189ac907e1acf172c",
-  "patchNotes": "Require target size in image index schema"
+  "version": "1.0.286",
+  "versionCode": 1789083846,
+  "publishedUtc": "2026-09-10T23:44:06Z",
+  "commit": "167a51584d5c5e2644d014aff7faffba90bbefd9",
+  "patchNotes": "Add modern realistic air conditioner icon"
 }

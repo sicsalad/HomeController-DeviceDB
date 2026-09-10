@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.30",
-      "versionCode": 1787819147,
-      "publishedUtc": "2026-08-27T08:25:47Z",
-      "notes": "Add Device UI template JSON schema"
-    },
-    {
       "version": "1.0.31",
       "versionCode": 1787819158,
       "publishedUtc": "2026-08-27T08:25:58Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1789083776,
       "publishedUtc": "2026-09-10T23:42:56Z",
       "notes": "Require target size in image index schema"
+    },
+    {
+      "version": "1.0.286",
+      "versionCode": 1789083846,
+      "publishedUtc": "2026-09-10T23:44:06Z",
+      "notes": "Add modern realistic air conditioner icon"
     }
   ]
 }
