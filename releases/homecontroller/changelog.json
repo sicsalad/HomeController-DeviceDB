@@ -828,6 +828,12 @@
                          "versionCode":  1789079813,
                          "publishedUtc":  "2026-09-10T22:43:13Z",
                          "notes":  "Publish and install PC Agent from build watcher when changed"
+                     },
+                     {
+                         "version":  "1.0.1356",
+                         "versionCode":  1789084859,
+                         "publishedUtc":  "2026-09-11T00:05:29Z",
+                         "notes":  "Fix PC Remote API compile errors"
                      }
                  ]
 }
