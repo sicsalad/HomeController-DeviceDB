@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.36",
-      "versionCode": 1787819584,
-      "publishedUtc": "2026-08-27T08:33:04Z",
-      "notes": "Align Device UI schema with documented examples"
-    },
-    {
       "version": "1.0.37",
       "versionCode": 1787819601,
       "publishedUtc": "2026-08-27T08:33:21Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1789130909,
       "publishedUtc": "2026-09-11T12:48:29Z",
       "notes": "Add DeviceDB Home wide screen style"
+    },
+    {
+      "version": "1.0.299",
+      "versionCode": 1789130926,
+      "publishedUtc": "2026-09-11T12:48:46Z",
+      "notes": "Add schema for Home screen style definitions"
     }
   ]
 }

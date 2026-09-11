@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.298",
-  "versionCode": 1789130909,
-  "publishedUtc": "2026-09-11T12:48:29Z",
-  "commit": "d1baa1fec4620ea42290e62fa57e06fb9fae4c32",
-  "patchNotes": "Add DeviceDB Home wide screen style"
+  "version": "1.0.299",
+  "versionCode": 1789130926,
+  "publishedUtc": "2026-09-11T12:48:46Z",
+  "commit": "04cbb0a4ac76ec479a521b8cc3eed3a8a47e12a5",
+  "patchNotes": "Add schema for Home screen style definitions"
 }
