@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 2,
+  "id": "home-default",
+  "name": "Home Default",
+  "deviceTypeId": "home-screen",
+  "renderer": "home",
+  "columns": 2,
+  "backgroundColor": "$PageBackground",
+  "surfaceColor": "$Surface",
+  "borderColor": "$CardBorder",
+  "foregroundColor": "$TextPrimary",
+  "accentColor": "$Accent",
+  "itemDefaults": {
+    "columns": 2,
+    "shape": "rounded",
+    "cornerRadius": 10,
+    "iconSize": 48,
+    "fontSize": 14,
+    "typeFontSize": 11,
+    "stateFontSize": 10,
+    "showIcon": true,
+    "showName": true,
+    "showType": true,
+    "showState": true
+  }
+}
