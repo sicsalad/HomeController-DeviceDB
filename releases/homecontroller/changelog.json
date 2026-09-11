@@ -870,6 +870,12 @@
                          "versionCode":  1789140320,
                          "publishedUtc":  "2026-09-11T15:29:54Z",
                          "notes":  "Decouple Home screen sizes and defer screen property rendering"
+                     },
+                     {
+                         "version":  "1.0.1363",
+                         "versionCode":  1789143489,
+                         "publishedUtc":  "2026-09-11T16:24:38Z",
+                         "notes":  "Make Home card size mapping explicit and independent"
                      }
                  ]
 }
