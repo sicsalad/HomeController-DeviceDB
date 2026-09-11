@@ -846,6 +846,12 @@
                          "versionCode":  1789126046,
                          "publishedUtc":  "2026-09-11T11:31:45Z",
                          "notes":  "Apply scalable icon sizes on Home screen"
+                     },
+                     {
+                         "version":  "1.0.1359",
+                         "versionCode":  1789130722,
+                         "publishedUtc":  "2026-09-11T12:50:18Z",
+                         "notes":  "Load Home screen size styles from DeviceDB"
                      }
                  ]
 }
