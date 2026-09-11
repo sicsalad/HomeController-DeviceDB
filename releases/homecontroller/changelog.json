@@ -924,6 +924,12 @@
                          "versionCode":  1789163196,
                          "publishedUtc":  "2026-09-11T21:57:27Z",
                          "notes":  "Fix main screen style precedence for all device types"
+                     },
+                     {
+                         "version":  "1.0.1372",
+                         "versionCode":  1789166241,
+                         "publishedUtc":  "2026-09-11T22:42:58Z",
+                         "notes":  "Remove duplicate home background handler"
                      }
                  ]
 }
