@@ -858,6 +858,12 @@
                          "versionCode":  1789131087,
                          "publishedUtc":  "2026-09-11T12:56:05Z",
                          "notes":  "Keep offline Home screen size defaults aligned with DeviceDB"
+                     },
+                     {
+                         "version":  "1.0.1361",
+                         "versionCode":  1789138361,
+                         "publishedUtc":  "2026-09-11T14:59:37Z",
+                         "notes":  "Reset Home screen device appearance inheritance with UI refresh"
                      }
                  ]
 }
