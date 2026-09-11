@@ -888,6 +888,12 @@
                          "versionCode":  1789149917,
                          "publishedUtc":  "2026-09-11T18:09:43Z",
                          "notes":  "Separate main card and pinned state size controls"
+                     },
+                     {
+                         "version":  "1.0.1366",
+                         "versionCode":  1789156664,
+                         "publishedUtc":  "2026-09-11T20:03:35Z",
+                         "notes":  "Fix pinned card helper calls after device-aware sizing"
                      }
                  ]
 }
