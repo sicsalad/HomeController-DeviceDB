@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 2,
+  "id": "home-compact",
+  "name": "Home Compact",
+  "deviceTypeId": "home-screen",
+  "renderer": "home",
+  "columns": 3,
+  "backgroundColor": "$PageBackground",
+  "surfaceColor": "$Surface",
+  "borderColor": "$CardBorder",
+  "foregroundColor": "$TextPrimary",
+  "accentColor": "$Accent",
+  "itemDefaults": {
+    "columns": 3,
+    "shape": "rounded",
+    "cornerRadius": 8,
+    "iconSize": 40,
+    "fontSize": 13,
+    "typeFontSize": 10,
+    "stateFontSize": 9,
+    "showIcon": true,
+    "showName": true,
+    "showType": false,
+    "showState": true
+  }
+}
