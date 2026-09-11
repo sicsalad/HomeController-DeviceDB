@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "templates": [
+    { "id": "home-default", "path": "home-default.json" },
+    { "id": "home-compact", "path": "home-compact.json" },
+    { "id": "home-wide", "path": "home-wide.json" }
+  ]
+}
