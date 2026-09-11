@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.294",
-  "versionCode": 1789083932,
-  "publishedUtc": "2026-09-10T23:45:32Z",
-  "commit": "91d3573209c618530fab48a7eb05ecfa21323992",
-  "patchNotes": "Document index-only image packs and sizing"
+  "version": "1.0.298",
+  "versionCode": 1789130909,
+  "publishedUtc": "2026-09-11T12:48:29Z",
+  "commit": "d1baa1fec4620ea42290e62fa57e06fb9fae4c32",
+  "patchNotes": "Add DeviceDB Home wide screen style"
 }

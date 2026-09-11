@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.35",
-      "versionCode": 1787819557,
-      "publishedUtc": "2026-08-27T08:32:37Z",
-      "notes": "Allow schema declaration in application themes"
-    },
-    {
       "version": "1.0.36",
       "versionCode": 1787819584,
       "publishedUtc": "2026-08-27T08:33:04Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1789083932,
       "publishedUtc": "2026-09-10T23:45:32Z",
       "notes": "Document index-only image packs and sizing"
+    },
+    {
+      "version": "1.0.298",
+      "versionCode": 1789130909,
+      "publishedUtc": "2026-09-11T12:48:29Z",
+      "notes": "Add DeviceDB Home wide screen style"
     }
   ]
 }
