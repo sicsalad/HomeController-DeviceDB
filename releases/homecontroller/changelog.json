@@ -900,6 +900,12 @@
                          "versionCode":  1789158127,
                          "publishedUtc":  "2026-09-11T20:27:02Z",
                          "notes":  "Fix Home card icon/name/type size target mapping"
+                     },
+                     {
+                         "version":  "1.0.1368",
+                         "versionCode":  1789158834,
+                         "publishedUtc":  "2026-09-11T20:40:29Z",
+                         "notes":  "Expose pinned property refresh interval in Settings"
                      }
                  ]
 }
