@@ -906,6 +906,12 @@
                          "versionCode":  1789158834,
                          "publishedUtc":  "2026-09-11T20:40:29Z",
                          "notes":  "Expose pinned property refresh interval in Settings"
+                     },
+                     {
+                         "version":  "1.0.1369",
+                         "versionCode":  1789161201,
+                         "publishedUtc":  "2026-09-11T21:18:47Z",
+                         "notes":  "Offer existing Hue connection when recreating bridge device"
                      }
                  ]
 }
