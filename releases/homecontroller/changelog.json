@@ -834,6 +834,12 @@
                          "versionCode":  1789084859,
                          "publishedUtc":  "2026-09-11T00:05:29Z",
                          "notes":  "Fix PC Remote API compile errors"
+                     },
+                     {
+                         "version":  "1.0.1357",
+                         "versionCode":  1789125657,
+                         "publishedUtc":  "2026-09-11T11:26:17Z",
+                         "notes":  "Preserve high quality for scalable DeviceDB icons"
                      }
                  ]
 }
