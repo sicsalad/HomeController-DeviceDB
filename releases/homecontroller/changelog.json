@@ -876,6 +876,12 @@
                          "versionCode":  1789143489,
                          "publishedUtc":  "2026-09-11T16:24:38Z",
                          "notes":  "Make Home card size mapping explicit and independent"
+                     },
+                     {
+                         "version":  "1.0.1364",
+                         "versionCode":  1789147376,
+                         "publishedUtc":  "2026-09-11T17:27:25Z",
+                         "notes":  "Fix main Home card size mapping and inheritance"
                      }
                  ]
 }
