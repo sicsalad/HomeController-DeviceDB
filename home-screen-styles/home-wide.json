@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 2,
+  "id": "home-wide",
+  "name": "Home Wide",
+  "deviceTypeId": "home-screen",
+  "renderer": "home",
+  "columns": 1,
+  "backgroundColor": "$PageBackground",
+  "surfaceColor": "$SurfaceVariant",
+  "borderColor": "$CardBorder",
+  "foregroundColor": "$TextPrimary",
+  "accentColor": "$Accent",
+  "itemDefaults": {
+    "columns": 1,
+    "shape": "rounded",
+    "cornerRadius": 14,
+    "iconSize": 64,
+    "fontSize": 16,
+    "typeFontSize": 12,
+    "stateFontSize": 11,
+    "showIcon": true,
+    "showName": true,
+    "showType": true,
+    "showState": true
+  }
+}
