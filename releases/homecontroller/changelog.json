@@ -882,6 +882,12 @@
                          "versionCode":  1789147376,
                          "publishedUtc":  "2026-09-11T17:27:25Z",
                          "notes":  "Fix main Home card size mapping and inheritance"
+                     },
+                     {
+                         "version":  "1.0.1365",
+                         "versionCode":  1789149917,
+                         "publishedUtc":  "2026-09-11T18:09:43Z",
+                         "notes":  "Separate main card and pinned state size controls"
                      }
                  ]
 }
