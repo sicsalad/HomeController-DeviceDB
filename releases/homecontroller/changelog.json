@@ -918,6 +918,12 @@
                          "versionCode":  1789161598,
                          "publishedUtc":  "2026-09-11T21:25:58Z",
                          "notes":  "Offer existing Hue connection when recreating bridge device"
+                     },
+                     {
+                         "version":  "1.0.1371",
+                         "versionCode":  1789163196,
+                         "publishedUtc":  "2026-09-11T21:57:27Z",
+                         "notes":  "Fix main screen style precedence for all device types"
                      }
                  ]
 }
