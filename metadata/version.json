@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.299",
-  "versionCode": 1789130926,
-  "publishedUtc": "2026-09-11T12:48:46Z",
-  "commit": "04cbb0a4ac76ec479a521b8cc3eed3a8a47e12a5",
-  "patchNotes": "Add schema for Home screen style definitions"
+  "version": "1.0.302",
+  "versionCode": 1789150036,
+  "publishedUtc": "2026-09-11T18:07:16Z",
+  "commit": "f7604c84ce4a032cc5c810051622ebde5d75277f",
+  "patchNotes": "Add pinned state size defaults to Home Wide"
 }
