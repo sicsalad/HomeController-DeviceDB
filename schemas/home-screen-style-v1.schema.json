@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "home-screen-style-v1.schema.json",
+  "title": "HomeController Home Screen Style",
+  "type": "object",
+  "required": ["schemaVersion", "id", "name", "deviceTypeId", "renderer", "columns", "itemDefaults"],
+  "properties": {
+    "schemaVersion": { "const": 2 },
+    "id": { "type": "string", "minLength": 1 },
+    "name": { "type": "string", "minLength": 1 },
+    "deviceTypeId": { "const": "home-screen" },
+    "renderer": { "const": "home" },
+    "columns": { "type": "integer", "minimum": 1, "maximum": 10 },
+    "backgroundColor": { "type": ["string", "null"] },
+    "surfaceColor": { "type": ["string", "null"] },
+    "borderColor": { "type": ["string", "null"] },
+    "foregroundColor": { "type": ["string", "null"] },
+    "accentColor": { "type": ["string", "null"] },
+    "itemDefaults": {
+      "type": "object",
+      "required": ["iconSize", "fontSize", "typeFontSize", "stateFontSize"],
+      "properties": {
+        "columns": { "type": ["integer", "null"], "minimum": 1, "maximum": 10 },
+        "shape": { "type": ["string", "null"] },
+        "cornerRadius": { "type": ["integer", "null"], "minimum": 0, "maximum": 80 },
+        "iconSize": { "type": "number", "minimum": 8, "maximum": 256 },
+        "fontSize": { "type": "number", "minimum": 8, "maximum": 72 },
+        "typeFontSize": { "type": "number", "minimum": 8, "maximum": 72 },
+        "stateFontSize": { "type": "number", "minimum": 8, "maximum": 72 },
+        "showIcon": { "type": ["boolean", "null"] },
+        "showName": { "type": ["boolean", "null"] },
+        "showType": { "type": ["boolean", "null"] },
+        "showState": { "type": ["boolean", "null"] }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}
