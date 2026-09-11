@@ -840,6 +840,12 @@
                          "versionCode":  1789125657,
                          "publishedUtc":  "2026-09-11T11:26:17Z",
                          "notes":  "Preserve high quality for scalable DeviceDB icons"
+                     },
+                     {
+                         "version":  "1.0.1358",
+                         "versionCode":  1789126046,
+                         "publishedUtc":  "2026-09-11T11:31:45Z",
+                         "notes":  "Apply scalable icon sizes on Home screen"
                      }
                  ]
 }
