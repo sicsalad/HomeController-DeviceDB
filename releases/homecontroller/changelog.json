@@ -930,6 +930,12 @@
                          "versionCode":  1789166241,
                          "publishedUtc":  "2026-09-11T22:42:58Z",
                          "notes":  "Remove duplicate home background handler"
+                     },
+                     {
+                         "version":  "1.0.1373",
+                         "versionCode":  1789167933,
+                         "publishedUtc":  "2026-09-11T23:10:22Z",
+                         "notes":  "Reuse existing Hue connection from discovered bridge"
                      }
                  ]
 }
