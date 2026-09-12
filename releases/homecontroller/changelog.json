@@ -966,6 +966,12 @@
                          "versionCode":  1789175568,
                          "publishedUtc":  "2026-09-12T01:17:22Z",
                          "notes":  "Make Hue credential storage resilient after app reinstall"
+                     },
+                     {
+                         "version":  "1.0.1379",
+                         "versionCode":  1789212883,
+                         "publishedUtc":  "2026-09-12T11:39:20Z",
+                         "notes":  "Fix DLNA discovery timeout type build error"
                      }
                  ]
 }
