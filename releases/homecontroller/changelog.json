@@ -942,6 +942,12 @@
                          "versionCode":  1789171729,
                          "publishedUtc":  "2026-09-12T00:15:11Z",
                          "notes":  "Improve PC Remote responsive controls and keyboard layout"
+                     },
+                     {
+                         "version":  "1.0.1375",
+                         "versionCode":  1789172980,
+                         "publishedUtc":  "2026-09-12T00:34:09Z",
+                         "notes":  "Polish PC Remote keyboard and monitor selector layout"
                      }
                  ]
 }
