@@ -996,6 +996,12 @@
                          "versionCode":  1789220537,
                          "publishedUtc":  "2026-09-12T13:47:03Z",
                          "notes":  "Add persistent Cast transport seek and track controls"
+                     },
+                     {
+                         "version":  "1.0.1384",
+                         "versionCode":  1789220892,
+                         "publishedUtc":  "2026-09-12T13:52:45Z",
+                         "notes":  "Auto-discover servers when Media Server device opens"
                      }
                  ]
 }
