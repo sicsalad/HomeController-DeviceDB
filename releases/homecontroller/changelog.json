@@ -1020,6 +1020,12 @@
                          "versionCode":  1789223705,
                          "publishedUtc":  "2026-09-12T14:40:15Z",
                          "notes":  "Add Media Server root Cast quick controls"
+                     },
+                     {
+                         "version":  "1.0.1388",
+                         "versionCode":  1789252258,
+                         "publishedUtc":  "2026-09-12T22:36:16Z",
+                         "notes":  "Fix media quick controls layout event"
                      }
                  ]
 }
