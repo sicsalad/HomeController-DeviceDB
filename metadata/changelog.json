@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.41",
-      "versionCode": 1787819689,
-      "publishedUtc": "2026-08-27T08:34:49Z",
-      "notes": "Attach schema to Red Eye theme"
-    },
-    {
       "version": "1.0.42",
       "versionCode": 1787819749,
       "publishedUtc": "2026-08-27T08:35:49Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1789246883,
       "publishedUtc": "2026-09-12T21:01:23Z",
       "notes": "Use resilient Samsung Tizen transport"
+    },
+    {
+      "version": "1.0.309",
+      "versionCode": 1789246900,
+      "publishedUtc": "2026-09-12T21:01:40Z",
+      "notes": "Update Samsung Tizen driver version in Wi-Fi index"
     }
   ]
 }
