@@ -990,6 +990,12 @@
                          "versionCode":  1789217861,
                          "publishedUtc":  "2026-09-12T13:03:23Z",
                          "notes":  "Fix PDF renderer current page not closed error"
+                     },
+                     {
+                         "version":  "1.0.1383",
+                         "versionCode":  1789220537,
+                         "publishedUtc":  "2026-09-12T13:47:03Z",
+                         "notes":  "Add persistent Cast transport seek and track controls"
                      }
                  ]
 }
