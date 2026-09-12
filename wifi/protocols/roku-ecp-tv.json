@@ -8,7 +8,9 @@
   "requiredPrimitives": ["http"],
   "discovery": [],
   "operations": {
+    "getState": { "transport": "http", "method": "GET", "port": 8060, "path": "/query/device-info" },
     "power": { "transport": "http", "method": "POST", "port": 8060, "path": "/keypress/Power" },
+    "powerOff": { "transport": "http", "method": "POST", "port": 8060, "path": "/keypress/PowerOff" },
     "home": { "transport": "http", "method": "POST", "port": 8060, "path": "/keypress/Home" },
     "back": { "transport": "http", "method": "POST", "port": 8060, "path": "/keypress/Back" },
     "up": { "transport": "http", "method": "POST", "port": 8060, "path": "/keypress/Up" },
@@ -16,13 +18,26 @@
     "left": { "transport": "http", "method": "POST", "port": 8060, "path": "/keypress/Left" },
     "right": { "transport": "http", "method": "POST", "port": 8060, "path": "/keypress/Right" },
     "ok": { "transport": "http", "method": "POST", "port": 8060, "path": "/keypress/Select" },
+    "enter": { "transport": "http", "method": "POST", "port": 8060, "path": "/keypress/Enter" },
+    "backspace": { "transport": "http", "method": "POST", "port": 8060, "path": "/keypress/Backspace" },
     "volumeUp": { "transport": "http", "method": "POST", "port": 8060, "path": "/keypress/VolumeUp" },
     "volumeDown": { "transport": "http", "method": "POST", "port": 8060, "path": "/keypress/VolumeDown" },
     "mute": { "transport": "http", "method": "POST", "port": 8060, "path": "/keypress/VolumeMute" },
+    "channelUp": { "transport": "http", "method": "POST", "port": 8060, "path": "/keypress/ChannelUp" },
+    "channelDown": { "transport": "http", "method": "POST", "port": 8060, "path": "/keypress/ChannelDown" },
     "play": { "transport": "http", "method": "POST", "port": 8060, "path": "/keypress/Play" },
     "pause": { "transport": "http", "method": "POST", "port": 8060, "path": "/keypress/Play" },
+    "playPause": { "transport": "http", "method": "POST", "port": 8060, "path": "/keypress/Play" },
     "rewind": { "transport": "http", "method": "POST", "port": 8060, "path": "/keypress/Rev" },
     "fastForward": { "transport": "http", "method": "POST", "port": 8060, "path": "/keypress/Fwd" },
-    "info": { "transport": "http", "method": "POST", "port": 8060, "path": "/keypress/Info" }
+    "instantReplay": { "transport": "http", "method": "POST", "port": 8060, "path": "/keypress/InstantReplay" },
+    "info": { "transport": "http", "method": "POST", "port": 8060, "path": "/keypress/Info" },
+    "search": { "transport": "http", "method": "POST", "port": 8060, "path": "/keypress/Search" },
+    "inputTuner": { "transport": "http", "method": "POST", "port": 8060, "path": "/keypress/InputTuner" },
+    "inputHdmi1": { "transport": "http", "method": "POST", "port": 8060, "path": "/keypress/InputHDMI1" },
+    "inputHdmi2": { "transport": "http", "method": "POST", "port": 8060, "path": "/keypress/InputHDMI2" },
+    "inputHdmi3": { "transport": "http", "method": "POST", "port": 8060, "path": "/keypress/InputHDMI3" },
+    "inputHdmi4": { "transport": "http", "method": "POST", "port": 8060, "path": "/keypress/InputHDMI4" },
+    "inputAv1": { "transport": "http", "method": "POST", "port": 8060, "path": "/keypress/InputAV1" }
   }
 }
