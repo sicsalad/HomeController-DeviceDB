@@ -1,0 +1,13 @@
+{
+  "schemaVersion":1,
+  "version":1,
+  "minimumRuntimeVersion":3,
+  "id":"hitachi-vestel-tv-generic",
+  "deviceType":"Television",
+  "manufacturer":"Hitachi",
+  "model":"Vestel-platform Smart TV",
+  "driverId":"vestel-smartcenter-tv",
+  "match":{"brand":["Hitachi","Vestel"],"modelPatterns":["*"]},
+  "tvCapabilities":{"power":true,"wake":true,"volume":true,"mute":true,"channel":true,"input":true,"navigation":true,"appLaunch":false,"mediaControl":true,"stateQuery":false},
+  "metadata":{"pairing":"Vestel Smart Center / Virtual Remote","ports":"56789","status":"experimental","notes":"For Hitachi models built on Vestel Smart Center platform. Virtual Remote must be enabled on the TV."}
+}
