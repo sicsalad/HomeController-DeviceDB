@@ -978,6 +978,12 @@
                          "versionCode":  1789217174,
                          "publishedUtc":  "2026-09-12T12:50:50Z",
                          "notes":  "Add built-in DjVu document viewer"
+                     },
+                     {
+                         "version":  "1.0.1381",
+                         "versionCode":  1789217519,
+                         "publishedUtc":  "2026-09-12T12:56:32Z",
+                         "notes":  "Apply file open preference to images and videos"
                      }
                  ]
 }
