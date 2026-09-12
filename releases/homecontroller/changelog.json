@@ -954,6 +954,12 @@
                          "versionCode":  1789173342,
                          "publishedUtc":  "2026-09-12T00:40:08Z",
                          "notes":  "Document casting, external media sources and Bluetooth sharing roadmap"
+                     },
+                     {
+                         "version":  "1.0.1377",
+                         "versionCode":  1789173815,
+                         "publishedUtc":  "2026-09-12T00:48:12Z",
+                         "notes":  "Add persistent Google Cast controls to local video viewer"
                      }
                  ]
 }
