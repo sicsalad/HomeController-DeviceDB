@@ -984,6 +984,12 @@
                          "versionCode":  1789217519,
                          "publishedUtc":  "2026-09-12T12:56:32Z",
                          "notes":  "Apply file open preference to images and videos"
+                     },
+                     {
+                         "version":  "1.0.1382",
+                         "versionCode":  1789217861,
+                         "publishedUtc":  "2026-09-12T13:03:23Z",
+                         "notes":  "Fix PDF renderer current page not closed error"
                      }
                  ]
 }
