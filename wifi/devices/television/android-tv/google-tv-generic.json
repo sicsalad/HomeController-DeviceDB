@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "version": 1,
+  "minimumRuntimeVersion": 4,
+  "id": "android-google-tv-generic",
+  "deviceType": "Television",
+  "manufacturer": "Android / Google TV",
+  "model": "Remote v2",
+  "driverId": "android-tv-remote-v2",
+  "match": {
+    "brand": ["Google", "Android TV", "Google TV", "Sony", "TCL", "Philips", "Xiaomi", "Hisense", "Sharp"],
+    "modelPatterns": ["*"]
+  },
+  "tvCapabilities": {
+    "power": true,
+    "wake": true,
+    "volume": true,
+    "mute": true,
+    "channel": true,
+    "input": false,
+    "navigation": true,
+    "appLaunch": false,
+    "mediaControl": true,
+    "stateQuery": false
+  },
+  "metadata": {
+    "pairing": "Android TV Remote Service v2 PIN",
+    "ports": "6467 pairing / 6466 remote",
+    "setup": "local-ip",
+    "status": "experimental"
+  }
+}
