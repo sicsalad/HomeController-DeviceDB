@@ -1008,6 +1008,12 @@
                          "versionCode":  1789223008,
                          "publishedUtc":  "2026-09-12T14:28:08Z",
                          "notes":  "Improve DjVu fit width and native pinch handling"
+                     },
+                     {
+                         "version":  "1.0.1386",
+                         "versionCode":  1789223356,
+                         "publishedUtc":  "2026-09-12T14:33:54Z",
+                         "notes":  "Keep Cast audio and subtitle controls visible"
                      }
                  ]
 }
