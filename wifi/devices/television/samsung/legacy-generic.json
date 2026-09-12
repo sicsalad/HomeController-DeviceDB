@@ -1,0 +1,13 @@
+{
+  "schemaVersion":1,
+  "version":1,
+  "minimumRuntimeVersion":3,
+  "id":"samsung-legacy-tv-generic",
+  "deviceType":"Television",
+  "manufacturer":"Samsung",
+  "model":"Legacy Smart TV",
+  "driverId":"samsung-legacy-tv",
+  "match":{"brand":["Samsung"],"modelPatterns":["UE*H*","PS*H*","UN*H*"]},
+  "tvCapabilities":{"power":true,"wake":false,"volume":true,"mute":true,"channel":true,"input":true,"navigation":true,"appLaunch":false,"mediaControl":true,"stateQuery":false},
+  "metadata":{"pairing":"Samsung legacy TCP remote","ports":"55000","status":"experimental","notes":"For pre-Tizen Samsung Smart TVs such as H-series; TV must allow network remote control."}
+}
