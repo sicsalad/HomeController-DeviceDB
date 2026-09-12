@@ -972,6 +972,12 @@
                          "versionCode":  1789212883,
                          "publishedUtc":  "2026-09-12T11:39:20Z",
                          "notes":  "Fix DLNA discovery timeout type build error"
+                     },
+                     {
+                         "version":  "1.0.1380",
+                         "versionCode":  1789217174,
+                         "publishedUtc":  "2026-09-12T12:50:50Z",
+                         "notes":  "Add built-in DjVu document viewer"
                      }
                  ]
 }
