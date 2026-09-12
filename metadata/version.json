@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.307",
-  "versionCode": 1789246868,
-  "publishedUtc": "2026-09-12T21:01:08Z",
-  "commit": "7b64441c61ba913198ef37fcb9f2c9e825cc2783",
-  "patchNotes": "Register Samsung legacy and Hitachi Vestel TV drivers"
+  "version": "1.0.308",
+  "versionCode": 1789246883,
+  "publishedUtc": "2026-09-12T21:01:23Z",
+  "commit": "d68b89679f4fa8530d8386d837bc4c238cc9353e",
+  "patchNotes": "Use resilient Samsung Tizen transport"
 }
