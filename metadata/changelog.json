@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.43",
-      "versionCode": 1787819763,
-      "publishedUtc": "2026-08-27T08:36:03Z",
-      "notes": "Add Device UI template index schema"
-    },
-    {
       "version": "1.0.44",
       "versionCode": 1787819806,
       "publishedUtc": "2026-08-27T08:36:46Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1789247416,
       "publishedUtc": "2026-09-12T21:10:16Z",
       "notes": "Add generic Android Google TV profile"
+    },
+    {
+      "version": "1.0.313",
+      "versionCode": 1789247449,
+      "publishedUtc": "2026-09-12T21:10:49Z",
+      "notes": "Expand Roku ECP TV remote support"
     }
   ]
 }

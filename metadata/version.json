@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.311",
-  "versionCode": 1789247416,
-  "publishedUtc": "2026-09-12T21:10:16Z",
-  "commit": "030fd116affa3088897cdaaa232c8a421467a5db",
-  "patchNotes": "Add generic Android Google TV profile"
+  "version": "1.0.313",
+  "versionCode": 1789247449,
+  "publishedUtc": "2026-09-12T21:10:49Z",
+  "commit": "fd3e8adc1c7bcf008fceb902a9d5278c8f74a91a",
+  "patchNotes": "Expand Roku ECP TV remote support"
 }
