@@ -11,6 +11,7 @@
     { "id": "samsung-tizen-tv", "version": 2, "path": "protocols/samsung-tizen-tv.json", "sha256": "", "status": "experimental" },
     { "id": "samsung-legacy-tv", "version": 1, "path": "protocols/samsung-legacy-tv.json", "sha256": "", "status": "experimental" },
     { "id": "vestel-smartcenter-tv", "version": 1, "path": "protocols/vestel-smartcenter-tv.json", "sha256": "", "status": "experimental" },
+    { "id": "android-tv-remote-v2", "version": 1, "path": "protocols/android-tv-remote-v2.json", "sha256": "", "status": "experimental" },
     { "id": "roku-ecp-tv", "version": 1, "path": "protocols/roku-ecp-tv.json", "sha256": "", "status": "stable" },
     { "id": "sony-bravia-tv", "version": 1, "path": "protocols/sony-bravia-tv.json", "sha256": "", "status": "stable" },
     { "id": "lg-webos-tv", "version": 1, "path": "protocols/lg-webos-tv.json", "sha256": "", "status": "stable" }
@@ -26,6 +27,7 @@
     { "id": "samsung-tizen-tv-generic", "path": "devices/television/samsung/tizen-generic.json", "sha256": "" },
     { "id": "samsung-legacy-tv-generic", "path": "devices/television/samsung/legacy-generic.json", "sha256": "" },
     { "id": "hitachi-vestel-tv-generic", "path": "devices/television/hitachi/vestel-generic.json", "sha256": "" },
+    { "id": "android-google-tv-generic", "path": "devices/television/android-tv/google-tv-generic.json", "sha256": "" },
     { "id": "tcl-tuya-tv-generic", "path": "devices/television/tcl/tuya-generic.json", "sha256": "" },
     { "id": "roku-ecp-tv-generic", "path": "devices/television/roku/roku-ecp-generic.json", "sha256": "" },
     { "id": "sony-bravia-tv-generic", "path": "devices/television/sony/bravia-generic.json", "sha256": "" },
