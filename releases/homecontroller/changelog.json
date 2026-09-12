@@ -936,6 +936,12 @@
                          "versionCode":  1789167933,
                          "publishedUtc":  "2026-09-11T23:10:22Z",
                          "notes":  "Reuse existing Hue connection from discovered bridge"
+                     },
+                     {
+                         "version":  "1.0.1374",
+                         "versionCode":  1789171729,
+                         "publishedUtc":  "2026-09-12T00:15:11Z",
+                         "notes":  "Improve PC Remote responsive controls and keyboard layout"
                      }
                  ]
 }
