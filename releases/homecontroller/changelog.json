@@ -1014,6 +1014,12 @@
                          "versionCode":  1789223356,
                          "publishedUtc":  "2026-09-12T14:33:54Z",
                          "notes":  "Keep Cast audio and subtitle controls visible"
+                     },
+                     {
+                         "version":  "1.0.1387",
+                         "versionCode":  1789223705,
+                         "publishedUtc":  "2026-09-12T14:40:15Z",
+                         "notes":  "Add Media Server root Cast quick controls"
                      }
                  ]
 }
