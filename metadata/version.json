@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.309",
-  "versionCode": 1789246900,
-  "publishedUtc": "2026-09-12T21:01:40Z",
-  "commit": "e15f3c9e17cf47ffacbc5977233e521b6182c2ae",
-  "patchNotes": "Update Samsung Tizen driver version in Wi-Fi index"
+  "version": "1.0.311",
+  "versionCode": 1789247416,
+  "publishedUtc": "2026-09-12T21:10:16Z",
+  "commit": "030fd116affa3088897cdaaa232c8a421467a5db",
+  "patchNotes": "Add generic Android Google TV profile"
 }
