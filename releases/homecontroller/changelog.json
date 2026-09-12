@@ -960,6 +960,12 @@
                          "versionCode":  1789173815,
                          "publishedUtc":  "2026-09-12T00:48:12Z",
                          "notes":  "Add persistent Google Cast controls to local video viewer"
+                     },
+                     {
+                         "version":  "1.0.1378",
+                         "versionCode":  1789175568,
+                         "publishedUtc":  "2026-09-12T01:17:22Z",
+                         "notes":  "Make Hue credential storage resilient after app reinstall"
                      }
                  ]
 }
