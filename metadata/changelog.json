@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.38",
-      "versionCode": 1787819613,
-      "publishedUtc": "2026-08-27T08:33:33Z",
-      "notes": "Allow schema declaration in device type catalog"
-    },
-    {
       "version": "1.0.39",
       "versionCode": 1787819658,
       "publishedUtc": "2026-08-27T08:34:18Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1789150036,
       "publishedUtc": "2026-09-11T18:07:16Z",
       "notes": "Add pinned state size defaults to Home Wide"
+    },
+    {
+      "version": "1.0.306",
+      "versionCode": 1789246850,
+      "publishedUtc": "2026-09-12T21:00:50Z",
+      "notes": "Add Hitachi Vestel Wi-Fi TV profile"
     }
   ]
 }

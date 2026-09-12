@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.302",
-  "versionCode": 1789150036,
-  "publishedUtc": "2026-09-11T18:07:16Z",
-  "commit": "f7604c84ce4a032cc5c810051622ebde5d75277f",
-  "patchNotes": "Add pinned state size defaults to Home Wide"
+  "version": "1.0.306",
+  "versionCode": 1789246850,
+  "publishedUtc": "2026-09-12T21:00:50Z",
+  "commit": "af1bdfd65eaedd8cdce854a14ce7291e62b55156",
+  "patchNotes": "Add Hitachi Vestel Wi-Fi TV profile"
 }
