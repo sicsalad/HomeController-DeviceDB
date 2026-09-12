@@ -9,6 +9,8 @@
     { "id": "fujitsu-fglair", "version": 1, "path": "protocols/fujitsu-fglair.json", "sha256": "", "status": "experimental" },
     { "id": "tuya-cloud-generic", "version": 1, "path": "protocols/tuya-cloud-generic.json", "sha256": "", "status": "experimental" },
     { "id": "samsung-tizen-tv", "version": 1, "path": "protocols/samsung-tizen-tv.json", "sha256": "", "status": "experimental" },
+    { "id": "samsung-legacy-tv", "version": 1, "path": "protocols/samsung-legacy-tv.json", "sha256": "", "status": "experimental" },
+    { "id": "vestel-smartcenter-tv", "version": 1, "path": "protocols/vestel-smartcenter-tv.json", "sha256": "", "status": "experimental" },
     { "id": "roku-ecp-tv", "version": 1, "path": "protocols/roku-ecp-tv.json", "sha256": "", "status": "stable" },
     { "id": "sony-bravia-tv", "version": 1, "path": "protocols/sony-bravia-tv.json", "sha256": "", "status": "stable" },
     { "id": "lg-webos-tv", "version": 1, "path": "protocols/lg-webos-tv.json", "sha256": "", "status": "stable" }
@@ -22,6 +24,8 @@
     { "id": "fujitsu-fglair-generic", "path": "devices/climate/fujitsu/fglair-generic.json", "sha256": "" },
     { "id": "tcl-tuya-climate-generic", "path": "devices/climate/tcl/tuya-generic.json", "sha256": "" },
     { "id": "samsung-tizen-tv-generic", "path": "devices/television/samsung/tizen-generic.json", "sha256": "" },
+    { "id": "samsung-legacy-tv-generic", "path": "devices/television/samsung/legacy-generic.json", "sha256": "" },
+    { "id": "hitachi-vestel-tv-generic", "path": "devices/television/hitachi/vestel-generic.json", "sha256": "" },
     { "id": "tcl-tuya-tv-generic", "path": "devices/television/tcl/tuya-generic.json", "sha256": "" },
     { "id": "roku-ecp-tv-generic", "path": "devices/television/roku/roku-ecp-generic.json", "sha256": "" },
     { "id": "sony-bravia-tv-generic", "path": "devices/television/sony/bravia-generic.json", "sha256": "" },
