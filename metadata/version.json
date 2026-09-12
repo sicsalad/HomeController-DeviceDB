@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.306",
-  "versionCode": 1789246850,
-  "publishedUtc": "2026-09-12T21:00:50Z",
-  "commit": "af1bdfd65eaedd8cdce854a14ce7291e62b55156",
-  "patchNotes": "Add Hitachi Vestel Wi-Fi TV profile"
+  "version": "1.0.307",
+  "versionCode": 1789246868,
+  "publishedUtc": "2026-09-12T21:01:08Z",
+  "commit": "7b64441c61ba913198ef37fcb9f2c9e825cc2783",
+  "patchNotes": "Register Samsung legacy and Hitachi Vestel TV drivers"
 }
