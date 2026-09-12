@@ -1,0 +1,31 @@
+{
+  "schemaVersion":1,
+  "id":"vestel-smartcenter-tv",
+  "version":1,
+  "minimumRuntimeVersion":3,
+  "status":"experimental",
+  "deviceTypes":["Television"],
+  "requiredPrimitives":["vestel-smartcenter"],
+  "discovery":[],
+  "operations":{
+    "power":{"transport":"vestel-smartcenter","port":56789,"request":"1012"},
+    "volumeUp":{"transport":"vestel-smartcenter","port":56789,"request":"1016"},
+    "volumeDown":{"transport":"vestel-smartcenter","port":56789,"request":"1017"},
+    "mute":{"transport":"vestel-smartcenter","port":56789,"request":"1013"},
+    "channelUp":{"transport":"vestel-smartcenter","port":56789,"request":"1024"},
+    "channelDown":{"transport":"vestel-smartcenter","port":56789,"request":"1025"},
+    "up":{"transport":"vestel-smartcenter","port":56789,"request":"1032"},
+    "down":{"transport":"vestel-smartcenter","port":56789,"request":"1033"},
+    "left":{"transport":"vestel-smartcenter","port":56789,"request":"1034"},
+    "right":{"transport":"vestel-smartcenter","port":56789,"request":"1035"},
+    "ok":{"transport":"vestel-smartcenter","port":56789,"request":"1040"},
+    "back":{"transport":"vestel-smartcenter","port":56789,"request":"1009"},
+    "home":{"transport":"vestel-smartcenter","port":56789,"request":"1028"},
+    "menu":{"transport":"vestel-smartcenter","port":56789,"request":"1010"},
+    "source":{"transport":"vestel-smartcenter","port":56789,"request":"1056"},
+    "info":{"transport":"vestel-smartcenter","port":56789,"request":"1018"},
+    "play":{"transport":"vestel-smartcenter","port":56789,"request":"1050"},
+    "pause":{"transport":"vestel-smartcenter","port":56789,"request":"1051"},
+    "stop":{"transport":"vestel-smartcenter","port":56789,"request":"1049"}
+  }
+}
