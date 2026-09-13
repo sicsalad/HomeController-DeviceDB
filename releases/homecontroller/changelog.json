@@ -1074,6 +1074,12 @@
                          "versionCode":  1789337944,
                          "publishedUtc":  "2026-09-13T22:24:27Z",
                          "notes":  "Fix Cast remux for Android content URIs and cancellation"
+                     },
+                     {
+                         "version":  "1.0.1399",
+                         "versionCode":  1789338583,
+                         "publishedUtc":  "2026-09-13T22:34:49Z",
+                         "notes":  "Make Cast remux robust with FFmpeg and real cancellation"
                      }
                  ]
 }
