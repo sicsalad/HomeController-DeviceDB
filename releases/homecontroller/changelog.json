@@ -1056,6 +1056,12 @@
                          "versionCode":  1789327708,
                          "publishedUtc":  "2026-09-13T19:33:16Z",
                          "notes":  "Restore video track API without startup selection"
+                     },
+                     {
+                         "version":  "1.0.1396",
+                         "versionCode":  1789333877,
+                         "publishedUtc":  "2026-09-13T21:16:32Z",
+                         "notes":  "Fix GitHub contents updates after successful Android publish"
                      }
                  ]
 }
