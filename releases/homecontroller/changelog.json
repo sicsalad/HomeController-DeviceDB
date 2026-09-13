@@ -1104,6 +1104,12 @@
                          "versionCode":  1789340366,
                          "publishedUtc":  "2026-09-13T23:04:23Z",
                          "notes":  "Make direct Cast default and harden failed Cast recovery"
+                     },
+                     {
+                         "version":  "1.0.1404",
+                         "versionCode":  1789342083,
+                         "publishedUtc":  "2026-09-13T23:33:03Z",
+                         "notes":  "Use unified media browser from media server device"
                      }
                  ]
 }
