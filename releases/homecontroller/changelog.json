@@ -1038,6 +1038,12 @@
                          "versionCode":  1789320416,
                          "publishedUtc":  "2026-09-13T17:31:48Z",
                          "notes":  "Repair false Android build failures after successful publish"
+                     },
+                     {
+                         "version":  "1.0.1392",
+                         "versionCode":  1789322065,
+                         "publishedUtc":  "2026-09-13T17:59:16Z",
+                         "notes":  "Simplify video controls and make controls Cast-aware"
                      }
                  ]
 }
