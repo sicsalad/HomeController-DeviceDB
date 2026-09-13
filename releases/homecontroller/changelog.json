@@ -1032,6 +1032,12 @@
                          "versionCode":  1789305189,
                          "publishedUtc":  "2026-09-13T13:19:04Z",
                          "notes":  "Do not let PC Agent failure block Android build"
+                     },
+                     {
+                         "version":  "1.0.1391",
+                         "versionCode":  1789320416,
+                         "publishedUtc":  "2026-09-13T17:31:48Z",
+                         "notes":  "Repair false Android build failures after successful publish"
                      }
                  ]
 }
