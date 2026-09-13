@@ -1050,6 +1050,12 @@
                          "versionCode":  1789322857,
                          "publishedUtc":  "2026-09-13T18:12:22Z",
                          "notes":  "Fix video playback crash in simplified media controls"
+                     },
+                     {
+                         "version":  "1.0.1394",
+                         "versionCode":  1789327708,
+                         "publishedUtc":  "2026-09-13T19:33:16Z",
+                         "notes":  "Restore video track API without startup selection"
                      }
                  ]
 }
