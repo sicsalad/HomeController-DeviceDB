@@ -1098,6 +1098,12 @@
                          "versionCode":  1789339968,
                          "publishedUtc":  "2026-09-13T22:58:13Z",
                          "notes":  "Add direct no-mux Cast setting"
+                     },
+                     {
+                         "version":  "1.0.1403",
+                         "versionCode":  1789340366,
+                         "publishedUtc":  "2026-09-13T23:04:23Z",
+                         "notes":  "Make direct Cast default and harden failed Cast recovery"
                      }
                  ]
 }
