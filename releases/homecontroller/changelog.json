@@ -1080,6 +1080,12 @@
                          "versionCode":  1789338583,
                          "publishedUtc":  "2026-09-13T22:34:49Z",
                          "notes":  "Make Cast remux robust with FFmpeg and real cancellation"
+                     },
+                     {
+                         "version":  "1.0.1400",
+                         "versionCode":  1789338961,
+                         "publishedUtc":  "2026-09-13T22:41:00Z",
+                         "notes":  "Fix local audio subtitles and reliable Cast preparation"
                      }
                  ]
 }
