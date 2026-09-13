@@ -1086,6 +1086,12 @@
                          "versionCode":  1789338961,
                          "publishedUtc":  "2026-09-13T22:41:00Z",
                          "notes":  "Fix local audio subtitles and reliable Cast preparation"
+                     },
+                     {
+                         "version":  "1.0.1401",
+                         "versionCode":  1789339339,
+                         "publishedUtc":  "2026-09-13T22:47:30Z",
+                         "notes":  "Skip unchanged build targets based on changed files"
                      }
                  ]
 }
