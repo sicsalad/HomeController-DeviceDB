@@ -1140,6 +1140,12 @@
                          "versionCode":  1789394678,
                          "publishedUtc":  "2026-09-14T14:09:28Z",
                          "notes":  "Prevent pinned Hubitat command failures from crashing UI"
+                     },
+                     {
+                         "version":  "1.0.1411",
+                         "versionCode":  1789395777,
+                         "publishedUtc":  "2026-09-14T14:27:49Z",
+                         "notes":  "Use deterministic media probing and AAC fallback for multi-audio video"
                      }
                  ]
 }
