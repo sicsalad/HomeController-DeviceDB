@@ -1164,6 +1164,12 @@
                          "versionCode":  1789406157,
                          "publishedUtc":  "2026-09-14T17:20:49Z",
                          "notes":  "Do not block initial multi-audio video playback on full remux"
+                     },
+                     {
+                         "version":  "1.0.1415",
+                         "versionCode":  1789408724,
+                         "publishedUtc":  "2026-09-14T18:03:41Z",
+                         "notes":  "Fix Samsung probe page build error"
                      }
                  ]
 }
