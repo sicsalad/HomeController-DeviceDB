@@ -1122,6 +1122,12 @@
                          "versionCode":  1789344644,
                          "publishedUtc":  "2026-09-14T00:15:57Z",
                          "notes":  "Make selected-track Cast mux stream-copy and bounded"
+                     },
+                     {
+                         "version":  "1.0.1408",
+                         "versionCode":  1789393009,
+                         "publishedUtc":  "2026-09-14T13:41:46Z",
+                         "notes":  "Fix PowerShell GitHub API path interpolation"
                      }
                  ]
 }
