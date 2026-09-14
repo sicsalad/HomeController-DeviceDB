@@ -1188,6 +1188,12 @@
                          "versionCode":  1789412093,
                          "publishedUtc":  "2026-09-14T18:59:45Z",
                          "notes":  "Route saved Samsung H-series devices through encrypted remote runtime"
+                     },
+                     {
+                         "version":  "1.0.1419",
+                         "versionCode":  1789414601,
+                         "publishedUtc":  "2026-09-14T19:41:42Z",
+                         "notes":  "Fix Samsung H-series identity storage on Android"
                      }
                  ]
 }
