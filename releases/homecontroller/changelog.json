@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.594",
-                         "versionCode":  1788201444,
-                         "publishedUtc":  "2026-08-31T18:41:19Z",
-                         "notes":  "feat: render device types as full visual square tiles"
-                     },
-                     {
                          "version":  "1.0.599",
                          "versionCode":  1788203399,
                          "publishedUtc":  "2026-08-31T19:13:54Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789420816,
                          "publishedUtc":  "2026-09-14T21:27:00Z",
                          "notes":  "Align Samsung H-series command sender with encrypted v1 protocol"
+                     },
+                     {
+                         "version":  "1.0.1428",
+                         "versionCode":  1789423441,
+                         "publishedUtc":  "2026-09-14T22:09:14Z",
+                         "notes":  "Add canonical semantic model for integration devices"
                      }
                  ]
 }
