@@ -1182,6 +1182,12 @@
                          "versionCode":  1789411727,
                          "publishedUtc":  "2026-09-14T18:53:39Z",
                          "notes":  "Add encrypted Samsung H-series pairing and remote protocol"
+                     },
+                     {
+                         "version":  "1.0.1418",
+                         "versionCode":  1789412093,
+                         "publishedUtc":  "2026-09-14T18:59:45Z",
+                         "notes":  "Route saved Samsung H-series devices through encrypted remote runtime"
                      }
                  ]
 }
