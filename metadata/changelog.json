@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.48",
-      "versionCode": 1787819861,
-      "publishedUtc": "2026-08-27T08:37:41Z",
-      "notes": "Attach schema to device type catalog"
-    },
-    {
       "version": "1.0.49",
       "versionCode": 1787819920,
       "publishedUtc": "2026-08-27T08:38:40Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1789411913,
       "publishedUtc": "2026-09-14T18:51:53Z",
       "notes": "Correct Samsung H-series profile to protocol detection flow"
+    },
+    {
+      "version": "1.0.318",
+      "versionCode": 1789411933,
+      "publishedUtc": "2026-09-14T18:52:13Z",
+      "notes": "Publish corrected Samsung protocol detection profile version"
     }
   ]
 }
