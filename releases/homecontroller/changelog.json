@@ -1176,6 +1176,12 @@
                          "versionCode":  1789409462,
                          "publishedUtc":  "2026-09-14T18:15:54Z",
                          "notes":  "Continue Samsung H-series WebSocket devices to command test"
+                     },
+                     {
+                         "version":  "1.0.1417",
+                         "versionCode":  1789411727,
+                         "publishedUtc":  "2026-09-14T18:53:39Z",
+                         "notes":  "Add encrypted Samsung H-series pairing and remote protocol"
                      }
                  ]
 }
