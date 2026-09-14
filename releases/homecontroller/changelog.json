@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.579",
-                         "versionCode":  1788048011,
-                         "publishedUtc":  "2026-08-30T00:04:04Z",
-                         "notes":  "Fix Flipper provider startup crash with shared HttpClient"
-                     },
-                     {
                          "version":  "1.0.581",
                          "versionCode":  1788049236,
                          "publishedUtc":  "2026-08-30T00:23:33Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789418308,
                          "publishedUtc":  "2026-09-14T20:43:28Z",
                          "notes":  "Fix Samsung H-series DUID response and remote command sequence"
+                     },
+                     {
+                         "version":  "1.0.1425",
+                         "versionCode":  1789418865,
+                         "publishedUtc":  "2026-09-14T20:51:54Z",
+                         "notes":  "Ignore optional H-series companion startService 404"
                      }
                  ]
 }
