@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.314",
-  "versionCode": 1789409430,
-  "publishedUtc": "2026-09-14T18:10:30Z",
-  "commit": "cecdddd50fb5cd7ee31d8e1f159a039deaeb8a5c",
-  "patchNotes": "Use Samsung WebSocket transport for H-series profile"
+  "version": "1.0.315",
+  "versionCode": 1789409445,
+  "publishedUtc": "2026-09-14T18:10:45Z",
+  "commit": "0f0009abcae0dc21410fa78c284696a49b98404b",
+  "patchNotes": "Bump Samsung H-series WebSocket driver version"
 }

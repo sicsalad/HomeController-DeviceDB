@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.45",
-      "versionCode": 1787819825,
-      "publishedUtc": "2026-08-27T08:37:05Z",
-      "notes": "Align custom device types with runtime defaults"
-    },
-    {
       "version": "1.0.46",
       "versionCode": 1787819834,
       "publishedUtc": "2026-08-27T08:37:14Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1789409430,
       "publishedUtc": "2026-09-14T18:10:30Z",
       "notes": "Use Samsung WebSocket transport for H-series profile"
+    },
+    {
+      "version": "1.0.315",
+      "versionCode": 1789409445,
+      "publishedUtc": "2026-09-14T18:10:45Z",
+      "notes": "Bump Samsung H-series WebSocket driver version"
     }
   ]
 }
