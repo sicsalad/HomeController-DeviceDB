@@ -1110,6 +1110,12 @@
                          "versionCode":  1789342083,
                          "publishedUtc":  "2026-09-13T23:33:03Z",
                          "notes":  "Use unified media browser from media server device"
+                     },
+                     {
+                         "version":  "1.0.1405",
+                         "versionCode":  1789344180,
+                         "publishedUtc":  "2026-09-14T00:09:30Z",
+                         "notes":  "Do not preprocess multi-audio playback and harden Cast mux"
                      }
                  ]
 }
