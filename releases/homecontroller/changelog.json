@@ -1194,6 +1194,12 @@
                          "versionCode":  1789414601,
                          "publishedUtc":  "2026-09-14T19:41:42Z",
                          "notes":  "Fix Samsung H-series identity storage on Android"
+                     },
+                     {
+                         "version":  "1.0.1420",
+                         "versionCode":  1789415588,
+                         "publishedUtc":  "2026-09-14T19:58:22Z",
+                         "notes":  "Fix Samsung H-series command socket timing"
                      }
                  ]
 }
