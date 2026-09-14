@@ -1,13 +1,13 @@
 {
   "schemaVersion":1,
-  "version":1,
-  "minimumRuntimeVersion":3,
+  "version":2,
+  "minimumRuntimeVersion":4,
   "id":"samsung-legacy-tv-generic",
   "deviceType":"Television",
   "manufacturer":"Samsung",
-  "model":"H-Series / Pre-Tizen Smart TV",
+  "model":"Samsung Smart TV – protocol detection",
   "driverId":"samsung-legacy-tv",
-  "match":{"brand":["Samsung"],"modelPatterns":["UE*H*","PS*H*","UN*H*"]},
+  "match":{"brand":["Samsung"],"modelPatterns":["UE*","PS*","UN*"]},
   "tvCapabilities":{"power":true,"wake":false,"volume":true,"mute":true,"channel":true,"input":true,"navigation":true,"appLaunch":false,"mediaControl":true,"stateQuery":false},
-  "metadata":{"pairing":"Samsung WebSocket remote","ports":"8001/8002","status":"experimental","notes":"Samsung H-series / pre-Tizen Smart TVs. Detect the TV first; use the responding 8001 or 8002 WebSocket endpoint for command testing."}
+  "metadata":{"pairing":"Automatic Samsung protocol detection","ports":"55000/8000/8001/8002/8080","status":"experimental","notes":"Do not assume TCP/55000 from the model name. HomeController probes the TV first. 2014–2015 H/HU/J models use PIN pairing on 8080 and encrypted remote control on 8000; older models may use TCP/55000; newer Tizen models use 8001/8002."}
 }
