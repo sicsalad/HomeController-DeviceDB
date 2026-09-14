@@ -1170,6 +1170,12 @@
                          "versionCode":  1789408724,
                          "publishedUtc":  "2026-09-14T18:03:41Z",
                          "notes":  "Fix Samsung probe page build error"
+                     },
+                     {
+                         "version":  "1.0.1416",
+                         "versionCode":  1789409462,
+                         "publishedUtc":  "2026-09-14T18:15:54Z",
+                         "notes":  "Continue Samsung H-series WebSocket devices to command test"
                      }
                  ]
 }
