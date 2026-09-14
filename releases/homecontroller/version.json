@@ -7,10 +7,10 @@
     "apkUrl":  "https://github.com/sicsalad/HomeController-DeviceDB/releases/download/homecontroller-latest/HomeController-latest.apk",
     "releaseNotes":  "Latest signed HomeController Android build from feature/device-db-v1.",
     "sha256":  "ea5185251e154aa00dd76a6965c54fbdf1b2e221340983223228662091103479",
-    "developmentVersion":  "1.0.1406",
-    "developmentVersionCode":  1789344644,
-    "developmentCommit":  "487598f2097d5ca72c48028aec7efa78226621e2",
+    "developmentVersion":  "1.0.1407",
+    "developmentVersionCode":  1789390269,
+    "developmentCommit":  "9d2b61ac9f8f815b41a6075a4b0c1a8e84f3824c",
     "developmentBranch":  "feature/device-db-v1",
-    "developmentUpdatedUtc":  "2026-09-14T00:15:57Z",
-    "buildStatus":  "success"
+    "developmentUpdatedUtc":  "2026-09-14T12:51:09Z",
+    "buildStatus":  "building"
 }
