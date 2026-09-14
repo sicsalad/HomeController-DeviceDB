@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.316",
-  "versionCode": 1789409459,
-  "publishedUtc": "2026-09-14T18:10:59Z",
-  "commit": "4a42e33104ee41ae88765dc9fa8b46444946a402",
-  "patchNotes": "Correct Samsung H-series profile to WebSocket control"
+  "version": "1.0.317",
+  "versionCode": 1789411913,
+  "publishedUtc": "2026-09-14T18:51:53Z",
+  "commit": "2e65d1d6ee40337d3e9f8d59db49ca44f79d246e",
+  "patchNotes": "Correct Samsung H-series profile to protocol detection flow"
 }
