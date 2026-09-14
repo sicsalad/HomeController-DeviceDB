@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.599",
-                         "versionCode":  1788203399,
-                         "publishedUtc":  "2026-08-31T19:13:54Z",
-                         "notes":  "fix: finalize shared interactive test layout"
-                     },
-                     {
                          "version":  "1.0.611",
                          "versionCode":  1788209228,
                          "publishedUtc":  "2026-08-31T20:51:02Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789423441,
                          "publishedUtc":  "2026-09-14T22:09:14Z",
                          "notes":  "Add canonical semantic model for integration devices"
+                     },
+                     {
+                         "version":  "1.0.1429",
+                         "versionCode":  1789423835,
+                         "publishedUtc":  "2026-09-14T22:17:37Z",
+                         "notes":  "Preserve Cast controls in semantic Google Home UI"
                      }
                  ]
 }
