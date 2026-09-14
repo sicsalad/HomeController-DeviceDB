@@ -1152,6 +1152,12 @@
                          "versionCode":  1789396144,
                          "publishedUtc":  "2026-09-14T14:34:14Z",
                          "notes":  "Show cached Hubitat devices immediately and refresh in background"
+                     },
+                     {
+                         "version":  "1.0.1413",
+                         "versionCode":  1789405777,
+                         "publishedUtc":  "2026-09-14T17:14:43Z",
+                         "notes":  "Do not block initial multi-audio video playback on full remux"
                      }
                  ]
 }
