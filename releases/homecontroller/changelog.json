@@ -1116,6 +1116,12 @@
                          "versionCode":  1789344180,
                          "publishedUtc":  "2026-09-14T00:09:30Z",
                          "notes":  "Do not preprocess multi-audio playback and harden Cast mux"
+                     },
+                     {
+                         "version":  "1.0.1406",
+                         "versionCode":  1789344644,
+                         "publishedUtc":  "2026-09-14T00:15:57Z",
+                         "notes":  "Make selected-track Cast mux stream-copy and bounded"
                      }
                  ]
 }
