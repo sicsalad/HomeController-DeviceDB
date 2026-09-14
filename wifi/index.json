@@ -25,7 +25,7 @@
     { "id": "fujitsu-fglair-generic", "path": "devices/climate/fujitsu/fglair-generic.json", "sha256": "" },
     { "id": "tcl-tuya-climate-generic", "path": "devices/climate/tcl/tuya-generic.json", "sha256": "" },
     { "id": "samsung-tizen-tv-generic", "path": "devices/television/samsung/tizen-generic.json", "sha256": "" },
-    { "id": "samsung-legacy-tv-generic", "path": "devices/television/samsung/legacy-generic.json", "sha256": "" },
+    { "id": "samsung-legacy-tv-generic", "version": 2, "minimumRuntimeVersion": 4, "path": "devices/television/samsung/legacy-generic.json", "sha256": "" },
     { "id": "hitachi-vestel-tv-generic", "path": "devices/television/hitachi/vestel-generic.json", "sha256": "" },
     { "id": "android-google-tv-generic", "path": "devices/television/android-tv/google-tv-generic.json", "sha256": "" },
     { "id": "tcl-tuya-tv-generic", "path": "devices/television/tcl/tuya-generic.json", "sha256": "" },
