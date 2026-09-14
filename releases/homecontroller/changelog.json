@@ -1134,6 +1134,12 @@
                          "versionCode":  1789394299,
                          "publishedUtc":  "2026-09-14T14:03:23Z",
                          "notes":  "Fix video aspect ratio and Media3 audio track discovery"
+                     },
+                     {
+                         "version":  "1.0.1410",
+                         "versionCode":  1789394678,
+                         "publishedUtc":  "2026-09-14T14:09:28Z",
+                         "notes":  "Prevent pinned Hubitat command failures from crashing UI"
                      }
                  ]
 }
