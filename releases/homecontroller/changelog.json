@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.339",
-                         "versionCode":  1787755850,
-                         "publishedUtc":  "2026-08-26T14:54:45Z",
-                         "notes":  "Android signing fingerprint reporting and UltimateHomeApps package identity preparation."
-                     },
-                     {
                          "version":  "1.0.572",
                          "versionCode":  1788045630,
                          "publishedUtc":  "2026-08-29T23:24:04Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789415588,
                          "publishedUtc":  "2026-09-14T19:58:22Z",
                          "notes":  "Fix Samsung H-series command socket timing"
+                     },
+                     {
+                         "version":  "1.0.1421",
+                         "versionCode":  1789415976,
+                         "publishedUtc":  "2026-09-14T20:04:33Z",
+                         "notes":  "Fix saved Samsung H-series command dispatch"
                      }
                  ]
 }
