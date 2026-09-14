@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.313",
-  "versionCode": 1789247449,
-  "publishedUtc": "2026-09-12T21:10:49Z",
-  "commit": "fd3e8adc1c7bcf008fceb902a9d5278c8f74a91a",
-  "patchNotes": "Expand Roku ECP TV remote support"
+  "version": "1.0.314",
+  "versionCode": 1789409430,
+  "publishedUtc": "2026-09-14T18:10:30Z",
+  "commit": "cecdddd50fb5cd7ee31d8e1f159a039deaeb8a5c",
+  "patchNotes": "Use Samsung WebSocket transport for H-series profile"
 }

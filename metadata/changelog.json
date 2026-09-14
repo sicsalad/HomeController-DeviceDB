@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.44",
-      "versionCode": 1787819806,
-      "publishedUtc": "2026-08-27T08:36:46Z",
-      "notes": "Make optional device type fields match runtime model"
-    },
-    {
       "version": "1.0.45",
       "versionCode": 1787819825,
       "publishedUtc": "2026-08-27T08:37:05Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1789247449,
       "publishedUtc": "2026-09-12T21:10:49Z",
       "notes": "Expand Roku ECP TV remote support"
+    },
+    {
+      "version": "1.0.314",
+      "versionCode": 1789409430,
+      "publishedUtc": "2026-09-14T18:10:30Z",
+      "notes": "Use Samsung WebSocket transport for H-series profile"
     }
   ]
 }
