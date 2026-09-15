@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.638",
-                         "versionCode":  1788220955,
-                         "publishedUtc":  "2026-09-01T00:06:01Z",
-                         "notes":  "Fix Tuya decoder command mapper reference"
-                     },
-                     {
                          "version":  "1.0.642",
                          "versionCode":  1788222767,
                          "publishedUtc":  "2026-09-01T00:36:49Z",
@@ -1199,6 +1193,12 @@
                          "version":  "1.0.1433",
                          "versionCode":  1789448999,
                          "publishedUtc":  "2026-09-15T05:14:44Z",
+                         "notes":  "Fix default multi-audio local playback sound"
+                     },
+                     {
+                         "version":  "1.0.1434",
+                         "versionCode":  1789449356,
+                         "publishedUtc":  "2026-09-15T05:20:52Z",
                          "notes":  "Fix default multi-audio local playback sound"
                      }
                  ]
