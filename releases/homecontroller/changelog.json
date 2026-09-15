@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.642",
-                         "versionCode":  1788222767,
-                         "publishedUtc":  "2026-09-01T00:36:49Z",
-                         "notes":  "Make large IR feedback submissions robust"
-                     },
-                     {
                          "version":  "1.0.643",
                          "versionCode":  1788270237,
                          "publishedUtc":  "2026-09-01T13:48:11Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789449356,
                          "publishedUtc":  "2026-09-15T05:20:52Z",
                          "notes":  "Fix default multi-audio local playback sound"
+                     },
+                     {
+                         "version":  "1.0.1435",
+                         "versionCode":  1789450460,
+                         "publishedUtc":  "2026-09-15T05:39:14Z",
+                         "notes":  "Add websocket namespace for H-Series retry"
                      }
                  ]
 }
