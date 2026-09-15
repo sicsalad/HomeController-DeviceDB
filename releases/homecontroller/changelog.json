@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.681",
-                         "versionCode":  1788273746,
-                         "publishedUtc":  "2026-09-01T14:46:31Z",
-                         "notes":  "Finalize UI Design System V2 documentation"
-                     },
-                     {
                          "version":  "1.0.691",
                          "versionCode":  1788276745,
                          "publishedUtc":  "2026-09-01T15:36:35Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789452967,
                          "publishedUtc":  "2026-09-15T06:20:59Z",
                          "notes":  "Make Samsung H transport exact and capture TV responses"
+                     },
+                     {
+                         "version":  "1.0.1438",
+                         "versionCode":  1789501581,
+                         "publishedUtc":  "2026-09-15T19:52:18Z",
+                         "notes":  "docs: add video player troubleshooting history"
                      }
                  ]
 }
