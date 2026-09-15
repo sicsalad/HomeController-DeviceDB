@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.655",
-                         "versionCode":  1788271816,
-                         "publishedUtc":  "2026-09-01T14:13:46Z",
-                         "notes":  "Document unified UI design system v2"
-                     },
-                     {
                          "version":  "1.0.681",
                          "versionCode":  1788273746,
                          "publishedUtc":  "2026-09-01T14:46:31Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789451868,
                          "publishedUtc":  "2026-09-15T06:02:40Z",
                          "notes":  "Route H-series commands through proven encrypted transport"
+                     },
+                     {
+                         "version":  "1.0.1437",
+                         "versionCode":  1789452967,
+                         "publishedUtc":  "2026-09-15T06:20:59Z",
+                         "notes":  "Make Samsung H transport exact and capture TV responses"
                      }
                  ]
 }
