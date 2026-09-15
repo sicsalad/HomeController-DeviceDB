@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.691",
-                         "versionCode":  1788276745,
-                         "publishedUtc":  "2026-09-01T15:36:35Z",
-                         "notes":  "Fix MAUI drag data property type"
-                     },
-                     {
                          "version":  "1.0.695",
                          "versionCode":  1788278119,
                          "publishedUtc":  "2026-09-01T15:59:35Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789501581,
                          "publishedUtc":  "2026-09-15T19:52:18Z",
                          "notes":  "docs: add video player troubleshooting history"
+                     },
+                     {
+                         "version":  "1.0.1439",
+                         "versionCode":  1789502011,
+                         "publishedUtc":  "2026-09-15T19:57:31Z",
+                         "notes":  "docs: record native Media3 audio selection implementation"
                      }
                  ]
 }
