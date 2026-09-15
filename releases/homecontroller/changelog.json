@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.720",
-                         "versionCode":  1788301326,
-                         "publishedUtc":  "2026-09-01T22:26:14Z",
-                         "notes":  "Fix Home multi-select and drag gesture crash"
-                     },
-                     {
                          "version":  "1.0.721",
                          "versionCode":  1788302568,
                          "publishedUtc":  "2026-09-01T22:46:45Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789513889,
                          "publishedUtc":  "2026-09-15T23:20:15Z",
                          "notes":  "docs(video): record LibVLC primary migration"
+                     },
+                     {
+                         "version":  "1.0.1448",
+                         "versionCode":  1789514488,
+                         "publishedUtc":  "2026-09-15T23:26:39Z",
+                         "notes":  "docs(video): record full LibVLC primary integration"
                      }
                  ]
 }
