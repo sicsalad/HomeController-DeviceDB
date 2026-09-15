@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.695",
-                         "versionCode":  1788278119,
-                         "publishedUtc":  "2026-09-01T15:59:35Z",
-                         "notes":  "Prevent Home background tap and drag conflicts"
-                     },
-                     {
                          "version":  "1.0.699",
                          "versionCode":  1788279652,
                          "publishedUtc":  "2026-09-01T16:25:17Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789502011,
                          "publishedUtc":  "2026-09-15T19:57:31Z",
                          "notes":  "docs: record native Media3 audio selection implementation"
+                     },
+                     {
+                         "version":  "1.0.1440",
+                         "versionCode":  1789502692,
+                         "publishedUtc":  "2026-09-15T20:09:45Z",
+                         "notes":  "docs: record Media3 zero-track binding failure"
                      }
                  ]
 }
