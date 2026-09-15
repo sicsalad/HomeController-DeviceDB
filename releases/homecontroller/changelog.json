@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.719",
-                         "versionCode":  1788300266,
-                         "publishedUtc":  "2026-09-01T22:08:38Z",
-                         "notes":  "Stabilize multi-select drag edit mode"
-                     },
-                     {
                          "version":  "1.0.720",
                          "versionCode":  1788301326,
                          "publishedUtc":  "2026-09-01T22:26:14Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789513355,
                          "publishedUtc":  "2026-09-15T23:10:12Z",
                          "notes":  "feat(video): add primary LibVLC and legacy fallback preference"
+                     },
+                     {
+                         "version":  "1.0.1447",
+                         "versionCode":  1789513889,
+                         "publishedUtc":  "2026-09-15T23:20:15Z",
+                         "notes":  "docs(video): record LibVLC primary migration"
                      }
                  ]
 }
