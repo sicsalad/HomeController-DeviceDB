@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.715",
-                         "versionCode":  1788298326,
-                         "publishedUtc":  "2026-09-01T21:36:07Z",
-                         "notes":  "Add batch property editing and spacing limits"
-                     },
-                     {
                          "version":  "1.0.718",
                          "versionCode":  1788299185,
                          "publishedUtc":  "2026-09-01T21:50:23Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789512220,
                          "publishedUtc":  "2026-09-15T22:49:06Z",
                          "notes":  "fix(video): robustly map Media3 audio track groups"
+                     },
+                     {
+                         "version":  "1.0.1445",
+                         "versionCode":  1789512620,
+                         "publishedUtc":  "2026-09-15T22:55:14Z",
+                         "notes":  "docs(video): record cast lifecycle and Media3 mapping fixes"
                      }
                  ]
 }
