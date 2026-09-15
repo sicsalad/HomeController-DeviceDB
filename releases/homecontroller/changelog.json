@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.702",
-                         "versionCode":  1788289915,
-                         "publishedUtc":  "2026-09-01T19:14:47Z",
-                         "notes":  "Use theme color picker in UI editor"
-                     },
-                     {
                          "version":  "1.0.704",
                          "versionCode":  1788290566,
                          "publishedUtc":  "2026-09-01T19:26:53Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789505451,
                          "publishedUtc":  "2026-09-15T20:58:56Z",
                          "notes":  "fix(video): safe cancellable mux with real progress"
+                     },
+                     {
+                         "version":  "1.0.1442",
+                         "versionCode":  1789506012,
+                         "publishedUtc":  "2026-09-15T21:07:13Z",
+                         "notes":  "docs(video): record mux timeout and cancellation failure"
                      }
                  ]
 }
