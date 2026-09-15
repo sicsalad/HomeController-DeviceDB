@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.724",
-                         "versionCode":  1788303625,
-                         "publishedUtc":  "2026-09-01T23:04:00Z",
-                         "notes":  "Make group spans occupy real grid area"
-                     },
-                     {
                          "version":  "1.0.726",
                          "versionCode":  1788304509,
                          "publishedUtc":  "2026-09-01T23:19:26Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789514872,
                          "publishedUtc":  "2026-09-15T23:33:03Z",
                          "notes":  "docs: add HomeController performance optimization plan"
+                     },
+                     {
+                         "version":  "1.0.1450",
+                         "versionCode":  1789515318,
+                         "publishedUtc":  "2026-09-15T23:40:23Z",
+                         "notes":  "fix(video): fall back to Media3 when LibVLC native startup fails"
                      }
                  ]
 }
