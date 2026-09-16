@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.757",
-                         "versionCode":  1788380411,
-                         "publishedUtc":  "2026-09-02T20:22:48Z",
-                         "notes":  "Expose auto-filter item margin round and image/text settings"
-                     },
-                     {
                          "version":  "1.0.765",
                          "versionCode":  1788382135,
                          "publishedUtc":  "2026-09-02T20:53:17Z",
@@ -1199,6 +1193,12 @@
                          "version":  "1.0.1456",
                          "versionCode":  1789596680,
                          "publishedUtc":  "2026-09-16T22:18:04Z",
+                         "notes":  "Always build Android once when watcher starts"
+                     },
+                     {
+                         "version":  "1.0.1457",
+                         "versionCode":  1789598609,
+                         "publishedUtc":  "2026-09-16T22:50:28Z",
                          "notes":  "Always build Android once when watcher starts"
                      }
                  ]
