@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.728",
-                         "versionCode":  1788305357,
-                         "publishedUtc":  "2026-09-01T23:32:57Z",
-                         "notes":  "Render Home cards with declarative spans"
-                     },
-                     {
                          "version":  "1.0.731",
                          "versionCode":  1788307907,
                          "publishedUtc":  "2026-09-02T00:16:09Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789515696,
                          "publishedUtc":  "2026-09-15T23:47:56Z",
                          "notes":  "fix(video): use MAUI LibVLC initialization path and add diagnostics"
+                     },
+                     {
+                         "version":  "1.0.1452",
+                         "versionCode":  1789517243,
+                         "publishedUtc":  "2026-09-16T00:13:06Z",
+                         "notes":  "Fix Android Matter cancellation compile ambiguity"
                      }
                  ]
 }
