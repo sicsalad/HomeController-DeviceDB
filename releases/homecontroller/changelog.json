@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.765",
-                         "versionCode":  1788382135,
-                         "publishedUtc":  "2026-09-02T20:53:17Z",
-                         "notes":  "Refresh declarative child presentation when returning to device"
-                     },
-                     {
                          "version":  "1.0.772",
                          "versionCode":  1788384489,
                          "publishedUtc":  "2026-09-02T21:32:28Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789598609,
                          "publishedUtc":  "2026-09-16T22:50:28Z",
                          "notes":  "Always build Android once when watcher starts"
+                     },
+                     {
+                         "version":  "1.0.1458",
+                         "versionCode":  1789599406,
+                         "publishedUtc":  "2026-09-16T23:01:53Z",
+                         "notes":  "Fix Home device card navigation and add tap diagnostics"
                      }
                  ]
 }
