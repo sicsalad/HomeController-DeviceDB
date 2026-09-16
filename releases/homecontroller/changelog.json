@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.746",
-                         "versionCode":  1788369581,
-                         "publishedUtc":  "2026-09-02T17:24:05Z",
-                         "notes":  "Load UI translations as compact overlays"
-                     },
-                     {
                          "version":  "1.0.748",
                          "versionCode":  1788377692,
                          "publishedUtc":  "2026-09-02T19:38:07Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789593954,
                          "publishedUtc":  "2026-09-16T21:31:33Z",
                          "notes":  "Always build Android once when watcher starts"
+                     },
+                     {
+                         "version":  "1.0.1455",
+                         "versionCode":  1789594866,
+                         "publishedUtc":  "2026-09-16T21:46:39Z",
+                         "notes":  "Open EKX4S-T devices with USB IR transceiver UI"
                      }
                  ]
 }
