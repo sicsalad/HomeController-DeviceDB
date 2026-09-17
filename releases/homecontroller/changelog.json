@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.900",
-                         "versionCode":  1788519171,
-                         "publishedUtc":  "2026-09-04T10:57:06Z",
-                         "notes":  "Remove unused Media3 packages causing AndroidX duplicate classes"
-                     },
-                     {
                          "version":  "1.0.904",
                          "versionCode":  1788520604,
                          "publishedUtc":  "2026-09-04T11:20:07Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789679757,
                          "publishedUtc":  "2026-09-17T21:21:07Z",
                          "notes":  "Fix ambiguous Device type in home mutation refresh"
+                     },
+                     {
+                         "version":  "1.0.1481",
+                         "versionCode":  1789681363,
+                         "publishedUtc":  "2026-09-17T21:47:54Z",
+                         "notes":  "Separate USB IR adapter add flow from learning wizard"
                      }
                  ]
 }
