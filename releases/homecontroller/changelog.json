@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.802",
-                         "versionCode":  1788433560,
-                         "publishedUtc":  "2026-09-03T11:08:53Z",
-                         "notes":  "Improve PC remote zoom persistence cursor controls and system actions"
-                     },
-                     {
                          "version":  "1.0.809",
                          "versionCode":  1788436699,
                          "publishedUtc":  "2026-09-03T12:02:20Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789635419,
                          "publishedUtc":  "2026-09-17T09:02:11Z",
                          "notes":  "Fix EKX4S D552 learn receive loop for PID 0195"
+                     },
+                     {
+                         "version":  "1.0.1465",
+                         "versionCode":  1789645072,
+                         "publishedUtc":  "2026-09-17T11:43:00Z",
+                         "notes":  "Fix MAUI Switch ambiguity across Android build"
                      }
                  ]
 }
