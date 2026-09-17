@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.883",
-                         "versionCode":  1788478132,
-                         "publishedUtc":  "2026-09-03T23:32:00Z",
-                         "notes":  "Remove Hue bridge pin from device title"
-                     },
-                     {
                          "version":  "1.0.884",
                          "versionCode":  1788480352,
                          "publishedUtc":  "2026-09-04T00:10:36Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789667448,
                          "publishedUtc":  "2026-09-17T18:03:23Z",
                          "notes":  "Stabilize and organize unified IR learning wizard"
+                     },
+                     {
+                         "version":  "1.0.1478",
+                         "versionCode":  1789674887,
+                         "publishedUtc":  "2026-09-17T19:59:58Z",
+                         "notes":  "Add canonical DeviceDB IR function resolver"
                      }
                  ]
 }
