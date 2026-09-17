@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.809",
-                         "versionCode":  1788436699,
-                         "publishedUtc":  "2026-09-03T12:02:20Z",
-                         "notes":  "Add scoped pinned card styling"
-                     },
-                     {
                          "version":  "1.0.814",
                          "versionCode":  1788439466,
                          "publishedUtc":  "2026-09-03T12:48:47Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789645072,
                          "publishedUtc":  "2026-09-17T11:43:00Z",
                          "notes":  "Fix MAUI Switch ambiguity across Android build"
+                     },
+                     {
+                         "version":  "1.0.1466",
+                         "versionCode":  1789645942,
+                         "publishedUtc":  "2026-09-17T11:57:28Z",
+                         "notes":  "Fix EKX4S learned timing decode and replay"
                      }
                  ]
 }
