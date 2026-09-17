@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.836",
-                         "versionCode":  1788455770,
-                         "publishedUtc":  "2026-09-03T17:20:28Z",
-                         "notes":  "Stream local videos without cache copy"
-                     },
-                     {
                          "version":  "1.0.839",
                          "versionCode":  1788458114,
                          "publishedUtc":  "2026-09-03T17:59:39Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789654241,
                          "publishedUtc":  "2026-09-17T14:15:55Z",
                          "notes":  "Fix mobile IR normalization for learned EKX4S signals"
+                     },
+                     {
+                         "version":  "1.0.1470",
+                         "versionCode":  1789656692,
+                         "publishedUtc":  "2026-09-17T14:56:43Z",
+                         "notes":  "Remove duplicate home mutation refresh implementation"
                      }
                  ]
 }
