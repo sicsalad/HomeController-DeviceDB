@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.849",
-                         "versionCode":  1788464772,
-                         "publishedUtc":  "2026-09-03T19:50:15Z",
-                         "notes":  "Use native Android video playback independent of filename extension"
-                     },
-                     {
                          "version":  "1.0.852",
                          "versionCode":  1788466696,
                          "publishedUtc":  "2026-09-03T20:21:39Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789659115,
                          "publishedUtc":  "2026-09-17T15:37:20Z",
                          "notes":  "Stabilize USB IR learning and reject corrupted captures"
+                     },
+                     {
+                         "version":  "1.0.1473",
+                         "versionCode":  1789660185,
+                         "publishedUtc":  "2026-09-17T16:02:48Z",
+                         "notes":  "Fix immediate Home device refresh after add and delete"
                      }
                  ]
 }
