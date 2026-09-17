@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.874",
-                         "versionCode":  1788475006,
-                         "publishedUtc":  "2026-09-03T22:40:55Z",
-                         "notes":  "Fix Android remote screen scale type compile error"
-                     },
-                     {
                          "version":  "1.0.877",
                          "versionCode":  1788476665,
                          "publishedUtc":  "2026-09-03T23:08:30Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789664560,
                          "publishedUtc":  "2026-09-17T17:12:59Z",
                          "notes":  "Retry transient GitHub release upload failures"
+                     },
+                     {
+                         "version":  "1.0.1476",
+                         "versionCode":  1789667027,
+                         "publishedUtc":  "2026-09-17T17:49:36Z",
+                         "notes":  "Route Hubitat IR hardware exclusively to unified wizard"
                      }
                  ]
 }
