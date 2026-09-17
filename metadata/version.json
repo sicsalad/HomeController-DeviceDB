@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.318",
-  "versionCode": 1789411933,
-  "publishedUtc": "2026-09-14T18:52:13Z",
-  "commit": "7dd0cfc4097f845cd2eff97114fdb19e70b9958d",
-  "patchNotes": "Publish corrected Samsung protocol detection profile version"
+  "version": "1.0.321",
+  "versionCode": 1789674823,
+  "publishedUtc": "2026-09-17T19:53:43Z",
+  "commit": "dc99159b1c8fa1316ac0558652652d86d5abe813",
+  "patchNotes": "Bump DeviceDB for canonical functions"
 }

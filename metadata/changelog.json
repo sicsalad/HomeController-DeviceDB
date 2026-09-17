@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.49",
-      "versionCode": 1787819920,
-      "publishedUtc": "2026-08-27T08:38:40Z",
-      "notes": "Document all theme and UI validation schemas"
-    },
-    {
       "version": "1.0.50",
       "versionCode": 1787820041,
       "publishedUtc": "2026-08-27T08:40:41Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1789411933,
       "publishedUtc": "2026-09-14T18:52:13Z",
       "notes": "Publish corrected Samsung protocol detection profile version"
+    },
+    {
+      "version": "1.0.321",
+      "versionCode": 1789674823,
+      "publishedUtc": "2026-09-17T19:53:43Z",
+      "notes": "Bump DeviceDB for canonical functions"
     }
   ]
 }
