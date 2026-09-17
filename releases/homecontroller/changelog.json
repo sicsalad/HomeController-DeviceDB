@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.790",
-                         "versionCode":  1788391466,
-                         "publishedUtc":  "2026-09-02T23:28:31Z",
-                         "notes":  "Fix PC remote screen clipping property"
-                     },
-                     {
                          "version":  "1.0.794",
                          "versionCode":  1788392068,
                          "publishedUtc":  "2026-09-02T23:38:37Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789602828,
                          "publishedUtc":  "2026-09-16T23:59:17Z",
                          "notes":  "Refresh Home immediately after device add or delete"
+                     },
+                     {
+                         "version":  "1.0.1462",
+                         "versionCode":  1789603412,
+                         "publishedUtc":  "2026-09-17T00:08:02Z",
+                         "notes":  "Fix EKX4S endpoint diagnostics crash"
                      }
                  ]
 }
