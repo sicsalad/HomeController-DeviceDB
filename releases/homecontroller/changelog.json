@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.884",
-                         "versionCode":  1788480352,
-                         "publishedUtc":  "2026-09-04T00:10:36Z",
-                         "notes":  "Stop storing Android APK workflow artifacts"
-                     },
-                     {
                          "version":  "1.0.890",
                          "versionCode":  1788504402,
                          "publishedUtc":  "2026-09-04T06:50:52Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789674887,
                          "publishedUtc":  "2026-09-17T19:59:58Z",
                          "notes":  "Add canonical DeviceDB IR function resolver"
+                     },
+                     {
+                         "version":  "1.0.1479",
+                         "versionCode":  1789675336,
+                         "publishedUtc":  "2026-09-17T20:10:28Z",
+                         "notes":  "Finish IR learning wizard function normalization and save UX"
                      }
                  ]
 }
