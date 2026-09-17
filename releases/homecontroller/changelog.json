@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.845",
-                         "versionCode":  1788462893,
-                         "publishedUtc":  "2026-09-03T19:19:08Z",
-                         "notes":  "Keep MIME detection compatible with C# 12"
-                     },
-                     {
                          "version":  "1.0.849",
                          "versionCode":  1788464772,
                          "publishedUtc":  "2026-09-03T19:50:15Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789657565,
                          "publishedUtc":  "2026-09-17T15:11:19Z",
                          "notes":  "Restore EKX4S learn decoding after u16 regression"
+                     },
+                     {
+                         "version":  "1.0.1472",
+                         "versionCode":  1789659115,
+                         "publishedUtc":  "2026-09-17T15:37:20Z",
+                         "notes":  "Stabilize USB IR learning and reject corrupted captures"
                      }
                  ]
 }
