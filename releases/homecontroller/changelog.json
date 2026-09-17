@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.877",
-                         "versionCode":  1788476665,
-                         "publishedUtc":  "2026-09-03T23:08:30Z",
-                         "notes":  "Fix PC remote stable page compile errors"
-                     },
-                     {
                          "version":  "1.0.883",
                          "versionCode":  1788478132,
                          "publishedUtc":  "2026-09-03T23:32:00Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789667027,
                          "publishedUtc":  "2026-09-17T17:49:36Z",
                          "notes":  "Route Hubitat IR hardware exclusively to unified wizard"
+                     },
+                     {
+                         "version":  "1.0.1477",
+                         "versionCode":  1789667448,
+                         "publishedUtc":  "2026-09-17T18:03:23Z",
+                         "notes":  "Stabilize and organize unified IR learning wizard"
                      }
                  ]
 }
