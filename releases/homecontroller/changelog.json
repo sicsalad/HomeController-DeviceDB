@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.852",
-                         "versionCode":  1788466696,
-                         "publishedUtc":  "2026-09-03T20:21:39Z",
-                         "notes":  "Keep Hubitat state labels visible across style refresh"
-                     },
-                     {
                          "version":  "1.0.856",
                          "versionCode":  1788468652,
                          "publishedUtc":  "2026-09-03T20:55:00Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789660185,
                          "publishedUtc":  "2026-09-17T16:02:48Z",
                          "notes":  "Fix immediate Home device refresh after add and delete"
+                     },
+                     {
+                         "version":  "1.0.1474",
+                         "versionCode":  1789661041,
+                         "publishedUtc":  "2026-09-17T16:43:01Z",
+                         "notes":  "Resolve Shell root Home page for live device mutation refresh"
                      }
                  ]
 }
