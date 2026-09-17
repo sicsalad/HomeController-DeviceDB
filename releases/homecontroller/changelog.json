@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.890",
-                         "versionCode":  1788504402,
-                         "publishedUtc":  "2026-09-04T06:50:52Z",
-                         "notes":  "Show Hue child pin action on detail page"
-                     },
-                     {
                          "version":  "1.0.900",
                          "versionCode":  1788519171,
                          "publishedUtc":  "2026-09-04T10:57:06Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789675336,
                          "publishedUtc":  "2026-09-17T20:10:28Z",
                          "notes":  "Finish IR learning wizard function normalization and save UX"
+                     },
+                     {
+                         "version":  "1.0.1480",
+                         "versionCode":  1789679757,
+                         "publishedUtc":  "2026-09-17T21:21:07Z",
+                         "notes":  "Fix ambiguous Device type in home mutation refresh"
                      }
                  ]
 }
