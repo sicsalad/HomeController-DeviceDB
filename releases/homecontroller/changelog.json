@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.856",
-                         "versionCode":  1788468652,
-                         "publishedUtc":  "2026-09-03T20:55:00Z",
-                         "notes":  "Stabilize PC remote live screen rendering"
-                     },
-                     {
                          "version":  "1.0.874",
                          "versionCode":  1788475006,
                          "publishedUtc":  "2026-09-03T22:40:55Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789661041,
                          "publishedUtc":  "2026-09-17T16:43:01Z",
                          "notes":  "Resolve Shell root Home page for live device mutation refresh"
+                     },
+                     {
+                         "version":  "1.0.1475",
+                         "versionCode":  1789664560,
+                         "publishedUtc":  "2026-09-17T17:12:59Z",
+                         "notes":  "Retry transient GitHub release upload failures"
                      }
                  ]
 }
