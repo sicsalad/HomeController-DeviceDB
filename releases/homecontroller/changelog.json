@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.820",
-                         "versionCode":  1788442974,
-                         "publishedUtc":  "2026-09-03T13:46:48Z",
-                         "notes":  "Fix DeviceAddGroupPage namespace import"
-                     },
-                     {
                          "version":  "1.0.834",
                          "versionCode":  1788452034,
                          "publishedUtc":  "2026-09-03T16:17:20Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789650179,
                          "publishedUtc":  "2026-09-17T13:08:36Z",
                          "notes":  "Fix EKX4S learned payload decoding"
+                     },
+                     {
+                         "version":  "1.0.1468",
+                         "versionCode":  1789651630,
+                         "publishedUtc":  "2026-09-17T13:32:41Z",
+                         "notes":  "Normalize learned IR timings before mobile transmit"
                      }
                  ]
 }
