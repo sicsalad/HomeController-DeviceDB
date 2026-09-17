@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.794",
-                         "versionCode":  1788392068,
-                         "publishedUtc":  "2026-09-02T23:38:37Z",
-                         "notes":  "Fix PC Agent updater build script string"
-                     },
-                     {
                          "version":  "1.0.796",
                          "versionCode":  1788394066,
                          "publishedUtc":  "2026-09-03T00:11:46Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789603412,
                          "publishedUtc":  "2026-09-17T00:08:02Z",
                          "notes":  "Fix EKX4S endpoint diagnostics crash"
+                     },
+                     {
+                         "version":  "1.0.1463",
+                         "versionCode":  1789631847,
+                         "publishedUtc":  "2026-09-17T08:02:42Z",
+                         "notes":  "Match EKX4S USB reads to Ocrustar reference protocol"
                      }
                  ]
 }
