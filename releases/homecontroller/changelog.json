@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.916",
-                         "versionCode":  1788527511,
-                         "publishedUtc":  "2026-09-04T13:16:15Z",
-                         "notes":  "Fix PC remote absolute mouse coordinates at scaled DPI"
-                     },
-                     {
                          "version":  "1.0.917",
                          "versionCode":  1788528817,
                          "publishedUtc":  "2026-09-04T13:37:51Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789763169,
                          "publishedUtc":  "2026-09-18T20:31:09Z",
                          "notes":  "Fix unassigned IR wizard navigation reference"
+                     },
+                     {
+                         "version":  "1.0.1487",
+                         "versionCode":  1789767177,
+                         "publishedUtc":  "2026-09-18T21:40:02Z",
+                         "notes":  "Fix ambiguous Device type in IR wizard"
                      }
                  ]
 }
