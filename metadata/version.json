@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.323",
-  "versionCode": 1789774243,
-  "publishedUtc": "2026-09-18T23:30:43Z",
-  "commit": "acd2503722e7a5f94aaa4f1bd1119bacff3fc8b2",
-  "patchNotes": "Keep function catalog synchronized with all DeviceDB commands"
+  "version": "1.0.324",
+  "versionCode": 1789774535,
+  "publishedUtc": "2026-09-18T23:35:35Z",
+  "commit": "0369c1fb2a3952a5e5dcf744f90fcd776c76efda",
+  "patchNotes": "Include Flipper IRDB command names in function catalog"
 }

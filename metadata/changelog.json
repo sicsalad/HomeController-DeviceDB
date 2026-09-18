@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.52",
-      "versionCode": 1787820084,
-      "publishedUtc": "2026-08-27T08:41:24Z",
-      "notes": "Normalize Philips Hue default UI template"
-    },
-    {
       "version": "1.0.53",
       "versionCode": 1787820103,
       "publishedUtc": "2026-08-27T08:41:43Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1789774243,
       "publishedUtc": "2026-09-18T23:30:43Z",
       "notes": "Keep function catalog synchronized with all DeviceDB commands"
+    },
+    {
+      "version": "1.0.324",
+      "versionCode": 1789774535,
+      "publishedUtc": "2026-09-18T23:35:35Z",
+      "notes": "Include Flipper IRDB command names in function catalog"
     }
   ]
 }
