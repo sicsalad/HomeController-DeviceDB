@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.324",
-  "versionCode": 1789774535,
-  "publishedUtc": "2026-09-18T23:35:35Z",
-  "commit": "0369c1fb2a3952a5e5dcf744f90fcd776c76efda",
-  "patchNotes": "Include Flipper IRDB command names in function catalog"
+  "version": "1.0.325",
+  "versionCode": 1789774546,
+  "publishedUtc": "2026-09-18T23:35:46Z",
+  "commit": "5229750ad7ab8de97e7e5930d8b8ac68b410236b",
+  "patchNotes": "Refresh function catalog from Flipper IRDB daily"
 }
