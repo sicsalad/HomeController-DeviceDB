@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.322",
-  "versionCode": 1789774233,
-  "publishedUtc": "2026-09-18T23:30:33Z",
-  "commit": "6130cacd3bd212ff6c338820f94028eb783ad19f",
-  "patchNotes": "Generate complete canonical function catalog from DeviceDB"
+  "version": "1.0.323",
+  "versionCode": 1789774243,
+  "publishedUtc": "2026-09-18T23:30:43Z",
+  "commit": "acd2503722e7a5f94aaa4f1bd1119bacff3fc8b2",
+  "patchNotes": "Keep function catalog synchronized with all DeviceDB commands"
 }
