@@ -17,6 +17,8 @@ on:
       - 'device-types.json'
       - 'tools/generate_function_catalog.py'
       - '.github/workflows/function-catalog.yml'
+  schedule:
+    - cron: '17 3 * * *'
   workflow_dispatch:
 
 permissions:
@@ -43,6 +45,7 @@ jobs:
           for required in ('VolumeUp','Turbo','FootballMode'):
               assert required in by, f'{required} missing from function catalog'
           assert 'air-conditioner' in by['Turbo']['deviceTypes'], 'Turbo device type missing'
+          assert 'Lucaslhm/Flipper-IRDB' in d.get('generatedFrom',[]), 'Flipper-IRDB source missing'
           print('functions:',len(d['functions']))
           PY
       - name: Commit generated catalog
