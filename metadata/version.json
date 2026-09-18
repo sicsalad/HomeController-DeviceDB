@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.326",
-  "versionCode": 1789774687,
-  "publishedUtc": "2026-09-18T23:38:07Z",
-  "commit": "e800f2c4ff56740586d103adff14aeb893e78d25",
-  "patchNotes": "Split local and Flipper function catalog scans"
+  "version": "1.0.328",
+  "versionCode": 1789774711,
+  "publishedUtc": "2026-09-18T23:38:31Z",
+  "commit": "0be0be44ac8f60ab8e37f9c620f30463371d5ec8",
+  "patchNotes": "Add separate manual Flipper function catalog workflow"
 }
