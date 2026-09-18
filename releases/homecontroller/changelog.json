@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.917",
-                         "versionCode":  1788528817,
-                         "publishedUtc":  "2026-09-04T13:37:51Z",
-                         "notes":  "Apply per-monitor DPI context to PC remote input threads"
-                     },
-                     {
                          "version":  "1.0.919",
                          "versionCode":  1788532115,
                          "publishedUtc":  "2026-09-04T14:32:55Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789767177,
                          "publishedUtc":  "2026-09-18T21:40:02Z",
                          "notes":  "Fix ambiguous Device type in IR wizard"
+                     },
+                     {
+                         "version":  "1.0.1488",
+                         "versionCode":  1789768351,
+                         "publishedUtc":  "2026-09-18T21:58:08Z",
+                         "notes":  "Restore proven IR wizard learning workflow"
                      }
                  ]
 }
