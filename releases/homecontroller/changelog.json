@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.913",
-                         "versionCode":  1788526160,
-                         "publishedUtc":  "2026-09-04T12:53:28Z",
-                         "notes":  "Fix PC Agent H264 format negotiation build"
-                     },
-                     {
                          "version":  "1.0.916",
                          "versionCode":  1788527511,
                          "publishedUtc":  "2026-09-04T13:16:15Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789761331,
                          "publishedUtc":  "2026-09-18T20:01:34Z",
                          "notes":  "Fix MAUI Shell content type in device refresh"
+                     },
+                     {
+                         "version":  "1.0.1486",
+                         "versionCode":  1789763169,
+                         "publishedUtc":  "2026-09-18T20:31:09Z",
+                         "notes":  "Fix unassigned IR wizard navigation reference"
                      }
                  ]
 }
