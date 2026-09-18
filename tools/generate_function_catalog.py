@@ -1,20 +1,21 @@
 #!/usr/bin/env python3
-"""Build function-catalog.json from every command/capability in DeviceDB.
+"""Build function-catalog.json from every command/capability in DeviceDB plus Flipper-IRDB.
 
-Sources: UI templates, IR runtime/codesets, Wi-Fi protocols/profiles and the
-legacy/device catalogs. Existing aliases are preserved. Each function records
-all device types in which it is used.
+Sources: UI templates, IR runtime/codesets, Wi-Fi protocols/profiles, legacy/device
+catalogs and every .ir file reachable in Lucaslhm/Flipper-IRDB. Existing aliases
+are preserved. Each function records all device types in which it is used.
 """
 from __future__ import annotations
-import json, re
+import json, re, urllib.request
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'function-catalog.json'
 SCAN_DIRS=('ui-templates','ir','wifi','codesets','devices','generated','protocols')
 SKIP={'function-catalog.json'}
+FLIPPER_TREE_URL='https://api.github.com/repos/Lucaslhm/Flipper-IRDB/git/trees/main?recursive=1'
+FLIPPER_RAW_BASE='https://raw.githubusercontent.com/Lucaslhm/Flipper-IRDB/main/'
 
-# Explicit semantic aliases. Formatting variants are generated automatically.
 ALIASES={
  'Power':['power_toggle','powertoggle','onoff','on_off','standby'],
  'PowerOn':['power_on','on'], 'PowerOff':['power_off','off'],
@@ -48,7 +49,6 @@ def pascal(s:str)->str:
     if len(parts)>1:return ''.join(p[:1].upper()+p[1:] for p in parts)
     if not parts:return ''
     p=parts[0]
-    # preserve already-camel/Pascal identifiers; normalize lower camel operation keys.
     return p[:1].upper()+p[1:]
 
 def device_types(obj,path:Path)->set[str]:
@@ -64,6 +64,18 @@ def device_types(obj,path:Path)->set[str]:
     if 'fan' in p:out.add('fan')
     if 'ir-transceiver' in p:out.add('ir-transceiver')
     return out
+
+def flipper_type_from_path(path:str)->str:
+    p=path.lower().replace('\\','/')
+    mapping=[
+        ('tv','television'),('television','television'),('air_conditioner','air-conditioner'),('air conditioner','air-conditioner'),
+        ('ac','air-conditioner'),('fan','fan'),('projector','projector'),('audio','audio'),('soundbar','soundbar'),
+        ('receiver','receiver'),('stb','set-top-box'),('set_top_box','set-top-box'),('dvd','dvd-player'),('blu_ray','blu-ray-player'),
+        ('camera','camera'),('led','light'),('light','light'),('heater','heater'),('fireplace','fireplace')]
+    parts=[x for x in p.split('/') if x]
+    for token,dtype in mapping:
+        if token in parts or any(token in part for part in parts[:-1]): return dtype
+    return parts[0] if parts else 'unknown'
 
 def walk(obj,types:set[str],found:list[tuple[str,set[str]]]):
     if isinstance(obj,dict):
@@ -81,6 +93,34 @@ def walk(obj,types:set[str],found:list[tuple[str,set[str]]]):
             else:walk(v,local,found)
     elif isinstance(obj,list):
         for x in obj:walk(x,types,found)
+
+def fetch_json(url:str):
+    req=urllib.request.Request(url,headers={'User-Agent':'HomeController-DeviceDB-function-catalog'})
+    with urllib.request.urlopen(req,timeout=60) as r:return json.load(r)
+
+def fetch_text(url:str)->str:
+    req=urllib.request.Request(url,headers={'User-Agent':'HomeController-DeviceDB-function-catalog'})
+    with urllib.request.urlopen(req,timeout=60) as r:return r.read().decode('utf-8','replace')
+
+def scan_flipper(found:list[tuple[str,set[str]]]):
+    tree=fetch_json(FLIPPER_TREE_URL)
+    ir_paths=[x['path'] for x in tree.get('tree',[]) if x.get('type')=='blob' and x.get('path','').lower().endswith('.ir')]
+    print(f'Flipper-IRDB: {len(ir_paths)} .ir files')
+    for i,path in enumerate(ir_paths,1):
+        try:text=fetch_text(FLIPPER_RAW_BASE+path)
+        except Exception as ex:
+            print(f'warning: cannot read Flipper file {path}: {ex}')
+            continue
+        dtype=flipper_type_from_path(path)
+        types={dtype}
+        for line in text.splitlines():
+            line=line.strip()
+            if not line or line.startswith('#') or ':' not in line:continue
+            k,v=line.split(':',1)
+            if k.strip().lower()=='name':
+                name=v.strip()
+                if name:found.append((name,types))
+        if i%500==0:print(f'  scanned {i}/{len(ir_paths)} Flipper files')
 
 def main():
     old=json.loads(OUT.read_text(encoding='utf-8')) if OUT.exists() else {'functions':[]}
@@ -101,36 +141,37 @@ def main():
     for d in SCAN_DIRS:
         base=ROOT/d
         if base.exists():files.extend(base.rglob('*.json'))
-    # top-level catalogs can contain commands/capabilities too.
     files += [ROOT/x for x in ('database.json','catalog-v2.json','curated-database.json','device-types.json') if (ROOT/x).exists()]
+    found=[]
     for path in sorted(set(files)):
         if path.name in SKIP:continue
         try:obj=json.loads(path.read_text(encoding='utf-8-sig'))
         except Exception:continue
         base_types=device_types(obj,path) if isinstance(obj,dict) else set()
-        found=[];walk(obj,base_types,found)
-        for raw,types in found:
-            raw=raw.strip()
-            if not raw or raw.startswith(('http://','https://')):continue
-            fid=alias_to_id.get(key(raw)) or pascal(raw)
-            if not fid:continue
-            usage.setdefault(fid,set()).update(types)
-            observed.setdefault(fid,set()).add(raw)
+        walk(obj,base_types,found)
 
-    # Existing catalog entries remain even if currently unused; newly discovered names are added.
+    scan_flipper(found)
+
+    for raw,types in found:
+        raw=raw.strip()
+        if not raw or raw.startswith(('http://','https://')):continue
+        fid=alias_to_id.get(key(raw)) or pascal(raw)
+        if not fid:continue
+        usage.setdefault(fid,set()).update(types)
+        observed.setdefault(fid,set()).add(raw)
+
     ids=set(usage)|{f.get('id') for f in old.get('functions',[]) if f.get('id')}|set(ALIASES)
     functions=[]
     for fid in sorted(ids,key=lambda x:x.lower()):
         oldf=old_by_key.get(key(fid),{})
         aliases=set(oldf.get('aliases',[]))|set(ALIASES.get(fid,[]))|observed.get(fid,set())
         aliases.discard(fid)
-        # Add common formatting variants without changing semantics.
         spaced=re.sub(r'(?<!^)(?=[A-Z])',' ',fid)
         underscored=spaced.replace(' ','_').lower()
         aliases.update([fid.lower(),underscored])
-        aliases={a for a in aliases if a and key(a)!=key(fid) or a.lower()!=fid.lower()}
+        aliases={a for a in aliases if a and (key(a)!=key(fid) or a.lower()!=fid.lower())}
         functions.append({'id':fid,'aliases':sorted(aliases,key=str.lower),'deviceTypes':sorted(usage.get(fid,set()),key=str.lower)})
-    OUT.write_text(json.dumps({'schemaVersion':2,'generatedFrom':['ui-templates','ir','wifi','codesets','devices','generated','protocols','database.json','catalog-v2.json','curated-database.json','device-types.json'],'functions':functions},indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
-    print(f'Generated {len(functions)} canonical functions from {len(set(files))} JSON files')
+    OUT.write_text(json.dumps({'schemaVersion':2,'generatedFrom':['ui-templates','ir','wifi','codesets','devices','generated','protocols','database.json','catalog-v2.json','curated-database.json','device-types.json','Lucaslhm/Flipper-IRDB'],'functions':functions},indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
+    print(f'Generated {len(functions)} canonical functions from {len(set(files))} local JSON files plus Flipper-IRDB')
 
 if __name__=='__main__':main()
