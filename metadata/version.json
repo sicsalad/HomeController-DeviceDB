@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.325",
-  "versionCode": 1789774546,
-  "publishedUtc": "2026-09-18T23:35:46Z",
-  "commit": "5229750ad7ab8de97e7e5930d8b8ac68b410236b",
-  "patchNotes": "Refresh function catalog from Flipper IRDB daily"
+  "version": "1.0.326",
+  "versionCode": 1789774687,
+  "publishedUtc": "2026-09-18T23:38:07Z",
+  "commit": "e800f2c4ff56740586d103adff14aeb893e78d25",
+  "patchNotes": "Split local and Flipper function catalog scans"
 }
