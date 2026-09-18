@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.960",
-                         "versionCode":  1788541563,
-                         "publishedUtc":  "2026-09-04T17:09:41Z",
-                         "notes":  "Avoid Home screen layout extension collision"
-                     },
-                     {
                          "version":  "1.0.993",
                          "versionCode":  1788542922,
                          "publishedUtc":  "2026-09-04T17:33:08Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789773814,
                          "publishedUtc":  "2026-09-18T23:29:13Z",
                          "notes":  "Rebuild Home once for structural device mutations"
+                     },
+                     {
+                         "version":  "1.0.1492",
+                         "versionCode":  1789774899,
+                         "publishedUtc":  "2026-09-18T23:47:01Z",
+                         "notes":  "Avoid reentrant Home rebuild during device reload"
                      }
                  ]
 }
