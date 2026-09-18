@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.904",
-                         "versionCode":  1788520604,
-                         "publishedUtc":  "2026-09-04T11:20:07Z",
-                         "notes":  "Use per-monitor DPI manifest for PC Agent"
-                     },
-                     {
                          "version":  "1.0.909",
                          "versionCode":  1788522233,
                          "publishedUtc":  "2026-09-04T11:47:15Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789681363,
                          "publishedUtc":  "2026-09-17T21:47:54Z",
                          "notes":  "Separate USB IR adapter add flow from learning wizard"
+                     },
+                     {
+                         "version":  "1.0.1482",
+                         "versionCode":  1789752494,
+                         "publishedUtc":  "2026-09-18T17:35:27Z",
+                         "notes":  "Unify Wi-Fi IR transceiver page with USB learning flow"
                      }
                  ]
 }
