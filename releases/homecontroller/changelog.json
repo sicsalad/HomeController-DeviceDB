@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.911",
-                         "versionCode":  1788524158,
-                         "publishedUtc":  "2026-09-04T12:20:01Z",
-                         "notes":  "Force physical pixel DPI mode before PC capture starts"
-                     },
-                     {
                          "version":  "1.0.912",
                          "versionCode":  1788524530,
                          "publishedUtc":  "2026-09-04T12:26:44Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789753000,
                          "publishedUtc":  "2026-09-18T17:43:10Z",
                          "notes":  "Restore Android workflow to manual dispatch"
+                     },
+                     {
+                         "version":  "1.0.1484",
+                         "versionCode":  1789759641,
+                         "publishedUtc":  "2026-09-18T19:32:30Z",
+                         "notes":  "Fix MAUI Grid row placement using instance API"
                      }
                  ]
 }
