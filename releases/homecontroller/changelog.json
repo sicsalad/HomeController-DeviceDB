@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.909",
-                         "versionCode":  1788522233,
-                         "publishedUtc":  "2026-09-04T11:47:15Z",
-                         "notes":  "Fit PC remote to actual streamed frame size"
-                     },
-                     {
                          "version":  "1.0.911",
                          "versionCode":  1788524158,
                          "publishedUtc":  "2026-09-04T12:20:01Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789752494,
                          "publishedUtc":  "2026-09-18T17:35:27Z",
                          "notes":  "Unify Wi-Fi IR transceiver page with USB learning flow"
+                     },
+                     {
+                         "version":  "1.0.1483",
+                         "versionCode":  1789753000,
+                         "publishedUtc":  "2026-09-18T17:43:10Z",
+                         "notes":  "Restore Android workflow to manual dispatch"
                      }
                  ]
 }
