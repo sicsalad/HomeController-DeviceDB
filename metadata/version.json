@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.328",
-  "versionCode": 1789774711,
-  "publishedUtc": "2026-09-18T23:38:31Z",
-  "commit": "0be0be44ac8f60ab8e37f9c620f30463371d5ec8",
-  "patchNotes": "Add separate manual Flipper function catalog workflow"
+  "version": "1.0.329",
+  "versionCode": 1789775695,
+  "publishedUtc": "2026-09-18T23:54:55Z",
+  "commit": "556d9790c5c50482093cbdf60054f4413bd2ac98",
+  "patchNotes": "Add fast ZIP based Flipper IRDB catalog workflow"
 }
