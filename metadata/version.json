@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.321",
-  "versionCode": 1789674823,
-  "publishedUtc": "2026-09-17T19:53:43Z",
-  "commit": "dc99159b1c8fa1316ac0558652652d86d5abe813",
-  "patchNotes": "Bump DeviceDB for canonical functions"
+  "version": "1.0.322",
+  "versionCode": 1789774233,
+  "publishedUtc": "2026-09-18T23:30:33Z",
+  "commit": "6130cacd3bd212ff6c338820f94028eb783ad19f",
+  "patchNotes": "Generate complete canonical function catalog from DeviceDB"
 }
