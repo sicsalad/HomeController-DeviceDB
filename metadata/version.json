@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.329",
-  "versionCode": 1789775695,
-  "publishedUtc": "2026-09-18T23:54:55Z",
-  "commit": "556d9790c5c50482093cbdf60054f4413bd2ac98",
-  "patchNotes": "Add fast ZIP based Flipper IRDB catalog workflow"
+  "version": "1.0.330",
+  "versionCode": 1789775710,
+  "publishedUtc": "2026-09-18T23:55:10Z",
+  "commit": "60f0b2b120f67c7a7be80304593cccaea8c924a8",
+  "patchNotes": "Add local directory Flipper IRDB catalog scanner"
 }

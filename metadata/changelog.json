@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.57",
-      "versionCode": 1787820257,
-      "publishedUtc": "2026-08-27T08:44:17Z",
-      "notes": "Make Modern Wi-Fi climate layout theme-neutral"
-    },
-    {
       "version": "1.0.58",
       "versionCode": 1787820291,
       "publishedUtc": "2026-08-27T08:44:51Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1789775695,
       "publishedUtc": "2026-09-18T23:54:55Z",
       "notes": "Add fast ZIP based Flipper IRDB catalog workflow"
+    },
+    {
+      "version": "1.0.330",
+      "versionCode": 1789775710,
+      "publishedUtc": "2026-09-18T23:55:10Z",
+      "notes": "Add local directory Flipper IRDB catalog scanner"
     }
   ]
 }
