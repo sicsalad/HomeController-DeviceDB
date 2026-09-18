@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.954",
-                         "versionCode":  1788540405,
-                         "publishedUtc":  "2026-09-04T16:50:50Z",
-                         "notes":  "Fix Android BLE binding compile errors"
-                     },
-                     {
                          "version":  "1.0.960",
                          "versionCode":  1788541563,
                          "publishedUtc":  "2026-09-04T17:09:41Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789772128,
                          "publishedUtc":  "2026-09-18T23:01:54Z",
                          "notes":  "Fix IR function cache preference type inference"
+                     },
+                     {
+                         "version":  "1.0.1491",
+                         "versionCode":  1789773814,
+                         "publishedUtc":  "2026-09-18T23:29:13Z",
+                         "notes":  "Rebuild Home once for structural device mutations"
                      }
                  ]
 }
