@@ -1,0 +1,39 @@
+name: Function catalog - Flipper IRDB ZIP
+on:
+  workflow_dispatch:
+permissions: { contents: write }
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - name: Download Flipper-IRDB once as ZIP
+        run: |
+          curl -L --fail --retry 3 -o /tmp/flipper-irdb.zip https://github.com/Lucaslhm/Flipper-IRDB/archive/refs/heads/main.zip
+          rm -rf /tmp/flipper-irdb
+          mkdir -p /tmp/flipper-irdb
+          unzip -q /tmp/flipper-irdb.zip -d /tmp/flipper-irdb
+          echo "IR files: $(find /tmp/flipper-irdb -type f -iname '*.ir' | wc -l)"
+      - name: Build catalog from local DeviceDB and downloaded Flipper ZIP
+        env:
+          FLIPPER_IRDB_DIR: /tmp/flipper-irdb
+        run: python tools/generate_function_catalog_from_flipper_dir.py
+      - name: Verify Flipper enrichment
+        run: |
+          python - <<'PY'
+          import json
+          d=json.load(open('function-catalog.json',encoding='utf-8'))
+          assert 'Lucaslhm/Flipper-IRDB' in d.get('generatedFrom',[])
+          print('functions:',len(d['functions']))
+          PY
+      - name: Commit generated catalog
+        run: |
+          if git diff --quiet -- function-catalog.json; then echo 'Catalog unchanged'; exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add function-catalog.json
+          git commit -m 'Enrich function catalog from Flipper-IRDB ZIP'
+          git push
