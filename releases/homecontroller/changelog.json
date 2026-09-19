@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1060",
-                         "versionCode":  1788563579,
-                         "publishedUtc":  "2026-09-04T23:17:24Z",
-                         "notes":  "Fix selection UI catalog compilation"
-                     },
-                     {
                          "version":  "1.0.1081",
                          "versionCode":  1788566346,
                          "publishedUtc":  "2026-09-05T00:03:24Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789844733,
                          "publishedUtc":  "2026-09-19T19:10:40Z",
                          "notes":  "Embed exact Git commit in Android build"
+                     },
+                     {
+                         "version":  "1.0.1500",
+                         "versionCode":  1789845788,
+                         "publishedUtc":  "2026-09-19T19:28:43Z",
+                         "notes":  "Add detailed LibVLC playback and renderer diagnostics"
                      }
                  ]
 }
