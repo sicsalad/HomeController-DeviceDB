@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1094",
-                         "versionCode":  1788643234,
-                         "publishedUtc":  "2026-09-05T21:24:38Z",
-                         "notes":  "Fix nested home card theme resource fallback"
-                     },
-                     {
                          "version":  "1.0.1108",
                          "versionCode":  1788644354,
                          "publishedUtc":  "2026-09-05T21:42:22Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789846624,
                          "publishedUtc":  "2026-09-19T19:41:34Z",
                          "notes":  "Use .NET 8 compatible LibVLCSharp MAUI package on Android"
+                     },
+                     {
+                         "version":  "1.0.1502",
+                         "versionCode":  1789847948,
+                         "publishedUtc":  "2026-09-19T20:04:21Z",
+                         "notes":  "Register LibVLCSharp MAUI handler"
                      }
                  ]
 }
