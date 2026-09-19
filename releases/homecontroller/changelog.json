@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1033",
-                         "versionCode":  1788550443,
-                         "publishedUtc":  "2026-09-04T19:38:43Z",
-                         "notes":  "Send UI template edits as DeviceDB template submissions"
-                     },
-                     {
                          "version":  "1.0.1041",
                          "versionCode":  1788553591,
                          "publishedUtc":  "2026-09-04T20:30:41Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789842133,
                          "publishedUtc":  "2026-09-19T18:27:39Z",
                          "notes":  "Use DeviceDB learning feature order in IR wizard"
+                     },
+                     {
+                         "version":  "1.0.1497",
+                         "versionCode":  1789843082,
+                         "publishedUtc":  "2026-09-19T18:42:28Z",
+                         "notes":  "Make DeviceDB IR catalog refresh tolerate unpublished generated files"
                      }
                  ]
 }
