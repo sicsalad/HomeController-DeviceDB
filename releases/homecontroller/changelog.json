@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1081",
-                         "versionCode":  1788566346,
-                         "publishedUtc":  "2026-09-05T00:03:24Z",
-                         "notes":  "Update Hue cards incrementally from cached resources"
-                     },
-                     {
                          "version":  "1.0.1094",
                          "versionCode":  1788643234,
                          "publishedUtc":  "2026-09-05T21:24:38Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789845788,
                          "publishedUtc":  "2026-09-19T19:28:43Z",
                          "notes":  "Add detailed LibVLC playback and renderer diagnostics"
+                     },
+                     {
+                         "version":  "1.0.1501",
+                         "versionCode":  1789846624,
+                         "publishedUtc":  "2026-09-19T19:41:34Z",
+                         "notes":  "Use .NET 8 compatible LibVLCSharp MAUI package on Android"
                      }
                  ]
 }
