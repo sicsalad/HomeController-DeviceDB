@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.331",
-  "versionCode": 1789840578,
-  "publishedUtc": "2026-09-19T17:56:18Z",
-  "commit": "136a4d074ab39257dbe34e5664ce21aa34b17e86",
-  "patchNotes": "Add ordered learning feature catalog generator"
+  "version": "1.0.332",
+  "versionCode": 1789840587,
+  "publishedUtc": "2026-09-19T17:56:27Z",
+  "commit": "a2557cc669375009b91614ee316bb6425df04de2",
+  "patchNotes": "Generate ordered learning feature catalog in Flipper workflow"
 }
