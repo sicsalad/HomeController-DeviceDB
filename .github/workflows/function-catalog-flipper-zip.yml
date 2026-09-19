@@ -21,19 +21,27 @@ jobs:
         env:
           FLIPPER_IRDB_DIR: /tmp/flipper-irdb
         run: python tools/generate_function_catalog_from_flipper_dir.py
-      - name: Verify Flipper enrichment
+      - name: Build ordered learning feature catalog
+        run: python tools/generate_learning_feature_order.py
+      - name: Verify generated catalogs
         run: |
           python - <<'PY'
           import json
           d=json.load(open('function-catalog.json',encoding='utf-8'))
           assert 'Lucaslhm/Flipper-IRDB' in d.get('generatedFrom',[])
+          l=json.load(open('learning-feature-order.json',encoding='utf-8'))
+          ids=[x['id'] for x in l['features']]
+          assert ids and ids[0]=='Power', 'Power must be the first learning feature'
+          assert ids.index('VolumeUp') < ids.index('ChannelUp'), 'Volume must precede channel controls'
+          assert all('deviceTypes' in x for x in l['features'])
           print('functions:',len(d['functions']))
+          print('learning features:',len(l['features']))
           PY
-      - name: Commit generated catalog
+      - name: Commit generated catalogs
         run: |
-          if git diff --quiet -- function-catalog.json; then echo 'Catalog unchanged'; exit 0; fi
+          if git diff --quiet -- function-catalog.json learning-feature-order.json; then echo 'Catalogs unchanged'; exit 0; fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add function-catalog.json
-          git commit -m 'Enrich function catalog from Flipper-IRDB ZIP'
+          git add function-catalog.json learning-feature-order.json
+          git commit -m 'Update function and learning feature catalogs from Flipper-IRDB ZIP'
           git push
