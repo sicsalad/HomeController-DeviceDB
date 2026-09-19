@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1116",
-                         "versionCode":  1788645970,
-                         "publishedUtc":  "2026-09-05T22:10:33Z",
-                         "notes":  "Make theme paste icon visible on all themes"
-                     },
-                     {
                          "version":  "1.0.1117",
                          "versionCode":  1788648257,
                          "publishedUtc":  "2026-09-05T22:48:40Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789852312,
                          "publishedUtc":  "2026-09-19T21:17:16Z",
                          "notes":  "Refresh singleton Home page after device mutations"
+                     },
+                     {
+                         "version":  "1.0.1504",
+                         "versionCode":  1789853504,
+                         "publishedUtc":  "2026-09-19T21:36:52Z",
+                         "notes":  "Default EKX4S learned IR replay to learning hardware"
                      }
                  ]
 }
