@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1018",
-                         "versionCode":  1788544046,
-                         "publishedUtc":  "2026-09-04T17:51:31Z",
-                         "notes":  "Document DeviceDB runtime images in UI templates"
-                     },
-                     {
                          "version":  "1.0.1020",
                          "versionCode":  1788546706,
                          "publishedUtc":  "2026-09-04T18:36:12Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789777595,
                          "publishedUtc":  "2026-09-19T00:31:49Z",
                          "notes":  "Remove temporary duplicate MainPage helper shim"
+                     },
+                     {
+                         "version":  "1.0.1494",
+                         "versionCode":  1789841346,
+                         "publishedUtc":  "2026-09-19T18:14:44Z",
+                         "notes":  "Use cached DeviceDB canonical functions and learning order"
                      }
                  ]
 }
