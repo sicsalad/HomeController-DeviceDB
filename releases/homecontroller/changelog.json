@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1108",
-                         "versionCode":  1788644354,
-                         "publishedUtc":  "2026-09-05T21:42:22Z",
-                         "notes":  "Harden theme gradient reference resolution"
-                     },
-                     {
                          "version":  "1.0.1116",
                          "versionCode":  1788645970,
                          "publishedUtc":  "2026-09-05T22:10:33Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789847948,
                          "publishedUtc":  "2026-09-19T20:04:21Z",
                          "notes":  "Register LibVLCSharp MAUI handler"
+                     },
+                     {
+                         "version":  "1.0.1503",
+                         "versionCode":  1789852312,
+                         "publishedUtc":  "2026-09-19T21:17:16Z",
+                         "notes":  "Refresh singleton Home page after device mutations"
                      }
                  ]
 }
