@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1177",
-                         "versionCode":  1788735328,
-                         "publishedUtc":  "2026-09-06T23:02:13Z",
-                         "notes":  "Use Kotlin 2.3 compilerOptions DSL for Home shim"
-                     },
-                     {
                          "version":  "1.0.1183",
                          "versionCode":  1788737729,
                          "publishedUtc":  "2026-09-06T23:40:40Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789923016,
                          "publishedUtc":  "2026-09-20T16:58:20Z",
                          "notes":  "Group settings into Theme General Support tabs"
+                     },
+                     {
+                         "version":  "1.0.1513",
+                         "versionCode":  1789923816,
+                         "publishedUtc":  "2026-09-20T17:11:15Z",
+                         "notes":  "Hide future Cloud Files device type"
                      }
                  ]
 }
