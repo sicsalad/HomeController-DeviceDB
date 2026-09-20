@@ -5,11 +5,6 @@
   "deviceTypeId": "home-screen",
   "renderer": "home",
   "columns": 2,
-  "backgroundColor": "$PageBackground",
-  "surfaceColor": "$Surface",
-  "borderColor": "$CardBorder",
-  "foregroundColor": "$TextPrimary",
-  "accentColor": "$Accent",
   "itemDefaults": {
     "columns": 2,
     "shape": "rounded",
