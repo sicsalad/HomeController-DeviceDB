@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1131",
-                         "versionCode":  1788698686,
-                         "publishedUtc":  "2026-09-06T12:49:54Z",
-                         "notes":  "Align AndroidX Lifecycle with Media3 RTSP"
-                     },
-                     {
                          "version":  "1.0.1133",
                          "versionCode":  1788701232,
                          "publishedUtc":  "2026-09-06T13:32:02Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789916538,
                          "publishedUtc":  "2026-09-20T15:07:37Z",
                          "notes":  "Reset home UI scheme colors on DeviceDB refresh"
+                     },
+                     {
+                         "version":  "1.0.1510",
+                         "versionCode":  1789918092,
+                         "publishedUtc":  "2026-09-20T15:33:35Z",
+                         "notes":  "Fix integration child theme color fallback"
                      }
                  ]
 }
