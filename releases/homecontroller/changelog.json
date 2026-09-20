@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1125",
-                         "versionCode":  1788652723,
-                         "publishedUtc":  "2026-09-06T00:02:12Z",
-                         "notes":  "Show actual RTSP playback status and MediaPlayer errors"
-                     },
-                     {
                          "version":  "1.0.1131",
                          "versionCode":  1788698686,
                          "publishedUtc":  "2026-09-06T12:49:54Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789916134,
                          "publishedUtc":  "2026-09-20T15:01:06Z",
                          "notes":  "Let built-in home UI schemes inherit theme colors"
+                     },
+                     {
+                         "version":  "1.0.1509",
+                         "versionCode":  1789916538,
+                         "publishedUtc":  "2026-09-20T15:07:37Z",
+                         "notes":  "Reset home UI scheme colors on DeviceDB refresh"
                      }
                  ]
 }
