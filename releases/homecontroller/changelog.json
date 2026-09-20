@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1122",
-                         "versionCode":  1788649620,
-                         "publishedUtc":  "2026-09-05T23:11:24Z",
-                         "notes":  "Fix Tuya BLE session registry namespace"
-                     },
-                     {
                          "version":  "1.0.1123",
                          "versionCode":  1788650792,
                          "publishedUtc":  "2026-09-05T23:30:46Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789908475,
                          "publishedUtc":  "2026-09-20T12:54:56Z",
                          "notes":  "Defer theme color apply until picker closes"
+                     },
+                     {
+                         "version":  "1.0.1507",
+                         "versionCode":  1789909583,
+                         "publishedUtc":  "2026-09-20T13:13:13Z",
+                         "notes":  "Apply selected theme color only on Done"
                      }
                  ]
 }
