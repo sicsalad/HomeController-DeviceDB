@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1187",
-                         "versionCode":  1788738909,
-                         "publishedUtc":  "2026-09-07T00:01:30Z",
-                         "notes":  "Add Google Home brightness slider"
-                     },
-                     {
                          "version":  "1.0.1197",
                          "versionCode":  1788763124,
                          "publishedUtc":  "2026-09-07T06:45:03Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789929869,
                          "publishedUtc":  "2026-09-20T18:58:13Z",
                          "notes":  "Fix watcher null changed-file handling"
+                     },
+                     {
+                         "version":  "1.0.1375",
+                         "versionCode":  1789933548,
+                         "publishedUtc":  "2026-09-20T19:53:55Z",
+                         "notes":  "Reorder Settings tabs and remove redundant separators"
                      }
                  ]
 }
