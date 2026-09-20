@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1183",
-                         "versionCode":  1788737729,
-                         "publishedUtc":  "2026-09-06T23:40:40Z",
-                         "notes":  "Fix nullable Java Boolean mapping for Google Home state"
-                     },
-                     {
                          "version":  "1.0.1187",
                          "versionCode":  1788738909,
                          "publishedUtc":  "2026-09-07T00:01:30Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789923816,
                          "publishedUtc":  "2026-09-20T17:11:15Z",
                          "notes":  "Hide future Cloud Files device type"
+                     },
+                     {
+                         "version":  "1.0.1374",
+                         "versionCode":  1789929869,
+                         "publishedUtc":  "2026-09-20T18:58:13Z",
+                         "notes":  "Fix watcher null changed-file handling"
                      }
                  ]
 }
