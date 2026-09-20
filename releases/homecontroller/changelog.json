@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1197",
-                         "versionCode":  1788763124,
-                         "publishedUtc":  "2026-09-07T06:45:03Z",
-                         "notes":  "Mark Google Home integration point 5 complete"
-                     },
-                     {
                          "version":  "1.0.1200",
                          "versionCode":  1788764398,
                          "publishedUtc":  "2026-09-07T07:05:48Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789933548,
                          "publishedUtc":  "2026-09-20T19:53:55Z",
                          "notes":  "Reorder Settings tabs and remove redundant separators"
+                     },
+                     {
+                         "version":  "1.0.1376",
+                         "versionCode":  1789934476,
+                         "publishedUtc":  "2026-09-20T20:09:00Z",
+                         "notes":  "Move feedback block to Log settings tab"
                      }
                  ]
 }
