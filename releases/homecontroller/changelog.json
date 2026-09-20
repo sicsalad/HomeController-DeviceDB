@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1133",
-                         "versionCode":  1788701232,
-                         "publishedUtc":  "2026-09-06T13:32:02Z",
-                         "notes":  "Restore theme color palette and stabilize editor navigation"
-                     },
-                     {
                          "version":  "1.0.1162",
                          "versionCode":  1788733508,
                          "publishedUtc":  "2026-09-06T22:31:42Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789918092,
                          "publishedUtc":  "2026-09-20T15:33:35Z",
                          "notes":  "Fix integration child theme color fallback"
+                     },
+                     {
+                         "version":  "1.0.1511",
+                         "versionCode":  1789921057,
+                         "publishedUtc":  "2026-09-20T16:25:36Z",
+                         "notes":  "Fix ColorSchemesPage ambiguous Device build error"
                      }
                  ]
 }
