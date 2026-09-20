@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.60",
-      "versionCode": 1787820315,
-      "publishedUtc": "2026-08-27T08:45:15Z",
-      "notes": "Attach schema to default Wi-Fi TV template"
-    },
-    {
       "version": "1.0.61",
       "versionCode": 1787820334,
       "publishedUtc": "2026-08-27T08:45:34Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1789840587,
       "publishedUtc": "2026-09-19T17:56:27Z",
       "notes": "Generate ordered learning feature catalog in Flipper workflow"
+    },
+    {
+      "version": "1.0.335",
+      "versionCode": 1789916141,
+      "publishedUtc": "2026-09-20T14:55:41Z",
+      "notes": "Let wide home UI inherit app theme colors"
     }
   ]
 }
