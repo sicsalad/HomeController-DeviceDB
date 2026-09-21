@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1256",
-                         "versionCode":  1788824047,
-                         "publishedUtc":  "2026-09-07T23:40:20Z",
-                         "notes":  "Make local Gradle bootstrap resilient to locked cache ZIP"
-                     },
-                     {
                          "version":  "1.0.1262",
                          "versionCode":  1788826253,
                          "publishedUtc":  "2026-09-08T00:16:47Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790011283,
                          "publishedUtc":  "2026-09-21T17:29:26Z",
                          "notes":  "Cancel stale mux work and clean artifacts before media playback"
+                     },
+                     {
+                         "version":  "1.0.1397",
+                         "versionCode":  1790011840,
+                         "publishedUtc":  "2026-09-21T17:38:35Z",
+                         "notes":  "Simplify media server cast controls"
                      }
                  ]
 }
