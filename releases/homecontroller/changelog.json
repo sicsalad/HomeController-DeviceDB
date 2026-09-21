@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1245",
-                         "versionCode":  1788811974,
-                         "publishedUtc":  "2026-09-07T20:19:09Z",
-                         "notes":  "Keep custom UI while refreshing DeviceDB cache"
-                     },
-                     {
                          "version":  "1.0.1250",
                          "versionCode":  1788822313,
                          "publishedUtc":  "2026-09-07T23:11:40Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790002327,
                          "publishedUtc":  "2026-09-21T15:00:14Z",
                          "notes":  "Persist diagnostics state and flush crash-safe media logs"
+                     },
+                     {
+                         "version":  "1.0.1393",
+                         "versionCode":  1790007901,
+                         "publishedUtc":  "2026-09-21T16:33:10Z",
+                         "notes":  "Reload local secrets in child build processes"
                      }
                  ]
 }
