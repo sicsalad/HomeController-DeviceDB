@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1284",
-                         "versionCode":  1788858860,
-                         "publishedUtc":  "2026-09-08T09:19:55Z",
-                         "notes":  "Fix Device ambiguity in integration managed items"
-                     },
-                     {
                          "version":  "1.0.1285",
                          "versionCode":  1788859600,
                          "publishedUtc":  "2026-09-08T09:32:56Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790029426,
                          "publishedUtc":  "2026-09-21T22:31:55Z",
                          "notes":  "Add native Cast audio compatibility analyzer"
+                     },
+                     {
+                         "version":  "1.0.1408",
+                         "versionCode":  1790031209,
+                         "publishedUtc":  "2026-09-21T23:01:41Z",
+                         "notes":  "Show audio codec IDs and pass correct source stream to mux"
                      }
                  ]
 }
