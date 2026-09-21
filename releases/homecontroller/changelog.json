@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1262",
-                         "versionCode":  1788826253,
-                         "publishedUtc":  "2026-09-08T00:16:47Z",
-                         "notes":  "Add debug logging package for MAUI build"
-                     },
-                     {
                          "version":  "1.0.1266",
                          "versionCode":  1788851087,
                          "publishedUtc":  "2026-09-08T07:09:38Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790011840,
                          "publishedUtc":  "2026-09-21T17:38:35Z",
                          "notes":  "Simplify media server cast controls"
+                     },
+                     {
+                         "version":  "1.0.1398",
+                         "versionCode":  1790015209,
+                         "publishedUtc":  "2026-09-21T18:35:00Z",
+                         "notes":  "Route Cast mux through selectable FFmpeg or Media3 engine"
                      }
                  ]
 }
