@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1250",
-                         "versionCode":  1788822313,
-                         "publishedUtc":  "2026-09-07T23:11:40Z",
-                         "notes":  "Fix Android Activity namespace resolution in Google Home bridge"
-                     },
-                     {
                          "version":  "1.0.1256",
                          "versionCode":  1788824047,
                          "publishedUtc":  "2026-09-07T23:40:20Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790007901,
                          "publishedUtc":  "2026-09-21T16:33:10Z",
                          "notes":  "Reload local secrets in child build processes"
+                     },
+                     {
+                         "version":  "1.0.1396",
+                         "versionCode":  1790011283,
+                         "publishedUtc":  "2026-09-21T17:29:26Z",
+                         "notes":  "Cancel stale mux work and clean artifacts before media playback"
                      }
                  ]
 }
