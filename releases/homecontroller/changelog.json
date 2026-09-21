@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1269",
-                         "versionCode":  1788854732,
-                         "publishedUtc":  "2026-09-08T08:11:48Z",
-                         "notes":  "Force Google Home permission flow and add diagnostics"
-                     },
-                     {
                          "version":  "1.0.1271",
                          "versionCode":  1788856865,
                          "publishedUtc":  "2026-09-08T08:46:53Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790024754,
                          "publishedUtc":  "2026-09-21T21:14:14Z",
                          "notes":  "Expose full Cast mode selection in video settings"
+                     },
+                     {
+                         "version":  "1.0.1401",
+                         "versionCode":  1790027302,
+                         "publishedUtc":  "2026-09-21T21:56:59Z",
+                         "notes":  "Select LiveVLC cast audio before playback and abort when unavailable"
                      }
                  ]
 }
