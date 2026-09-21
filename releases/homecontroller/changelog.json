@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1241",
-                         "versionCode":  1788807927,
-                         "publishedUtc":  "2026-09-07T19:10:42Z",
-                         "notes":  "Prevent Google Home initialization from crashing app startup"
-                     },
-                     {
                          "version":  "1.0.1245",
                          "versionCode":  1788811974,
                          "publishedUtc":  "2026-09-07T20:19:09Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790000452,
                          "publishedUtc":  "2026-09-21T14:29:26Z",
                          "notes":  "Fix LibVLC Chromecast audio transcoding"
+                     },
+                     {
+                         "version":  "1.0.1392",
+                         "versionCode":  1790002327,
+                         "publishedUtc":  "2026-09-21T15:00:14Z",
+                         "notes":  "Persist diagnostics state and flush crash-safe media logs"
                      }
                  ]
 }
