@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1238",
-                         "versionCode":  1788799227,
-                         "publishedUtc":  "2026-09-07T16:44:56Z",
-                         "notes":  "Expose group title placement in UI editor"
-                     },
-                     {
                          "version":  "1.0.1240",
                          "versionCode":  1788804471,
                          "publishedUtc":  "2026-09-07T18:14:13Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1789947186,
                          "publishedUtc":  "2026-09-20T23:41:23Z",
                          "notes":  "Persist diagnostics across crashes and app restarts"
+                     },
+                     {
+                         "version":  "1.0.1391",
+                         "versionCode":  1789948983,
+                         "publishedUtc":  "2026-09-21T00:10:49Z",
+                         "notes":  "Preserve diagnostics across app restart and sleep"
                      }
                  ]
 }
