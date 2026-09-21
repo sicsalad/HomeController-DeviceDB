@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1271",
-                         "versionCode":  1788856865,
-                         "publishedUtc":  "2026-09-08T08:46:53Z",
-                         "notes":  "Debounce Google Home live snapshot refreshes"
-                     },
-                     {
                          "version":  "1.0.1284",
                          "versionCode":  1788858860,
                          "publishedUtc":  "2026-09-08T09:19:55Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790027302,
                          "publishedUtc":  "2026-09-21T21:56:59Z",
                          "notes":  "Select LiveVLC cast audio before playback and abort when unavailable"
+                     },
+                     {
+                         "version":  "1.0.1407",
+                         "versionCode":  1790029426,
+                         "publishedUtc":  "2026-09-21T22:31:55Z",
+                         "notes":  "Add native Cast audio compatibility analyzer"
                      }
                  ]
 }
