@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1343",
-                         "versionCode":  1788998490,
-                         "publishedUtc":  "2026-09-10T00:05:40Z",
-                         "notes":  "Harden local Android APK selection and signing verification"
-                     },
-                     {
                          "version":  "1.0.1344",
                          "versionCode":  1789000774,
                          "publishedUtc":  "2026-09-10T00:42:32Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790180156,
                          "publishedUtc":  "2026-09-23T16:24:07Z",
                          "notes":  "Restore saved audio and subtitle tracks on resume"
+                     },
+                     {
+                         "version":  "1.0.1437",
+                         "versionCode":  1790180722,
+                         "publishedUtc":  "2026-09-23T16:33:27Z",
+                         "notes":  "Add Continue watching card to local media browser"
                      }
                  ]
 }
