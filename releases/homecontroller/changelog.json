@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1309",
-                         "versionCode":  1788965518,
-                         "publishedUtc":  "2026-09-09T14:58:08Z",
-                         "notes":  "Scope DeviceType resolution to MainPage"
-                     },
-                     {
                          "version":  "1.0.1317",
                          "versionCode":  1788975689,
                          "publishedUtc":  "2026-09-09T17:48:04Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790158137,
                          "publishedUtc":  "2026-09-23T10:17:20Z",
                          "notes":  "Add internal media feature configuration"
+                     },
+                     {
+                         "version":  "1.0.1428",
+                         "versionCode":  1790159983,
+                         "publishedUtc":  "2026-09-23T10:47:47Z",
+                         "notes":  "Fix build timestamp assembly metadata placement"
                      }
                  ]
 }
