@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1333",
-                         "versionCode":  1788987772,
-                         "publishedUtc":  "2026-09-09T21:08:36Z",
-                         "notes":  "Avoid stale DeviceDB image cache"
-                     },
-                     {
                          "version":  "1.0.1338",
                          "versionCode":  1788991026,
                          "publishedUtc":  "2026-09-09T22:03:07Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790163136,
                          "publishedUtc":  "2026-09-23T11:40:21Z",
                          "notes":  "Track LibVLC renderer cast in global playback session"
+                     },
+                     {
+                         "version":  "1.0.1433",
+                         "versionCode":  1790165473,
+                         "publishedUtc":  "2026-09-23T12:19:39Z",
+                         "notes":  "Integrate Google Cast with global playback session"
                      }
                  ]
 }
