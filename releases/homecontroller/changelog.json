@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1317",
-                         "versionCode":  1788975689,
-                         "publishedUtc":  "2026-09-09T17:48:04Z",
-                         "notes":  "Remove conflicting global DeviceType alias"
-                     },
-                     {
                          "version":  "1.0.1323",
                          "versionCode":  1788977136,
                          "publishedUtc":  "2026-09-09T18:10:27Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790159983,
                          "publishedUtc":  "2026-09-23T10:47:47Z",
                          "notes":  "Fix build timestamp assembly metadata placement"
+                     },
+                     {
+                         "version":  "1.0.1429",
+                         "versionCode":  1790160663,
+                         "publishedUtc":  "2026-09-23T11:00:05Z",
+                         "notes":  "Register global playback session manager"
                      }
                  ]
 }
