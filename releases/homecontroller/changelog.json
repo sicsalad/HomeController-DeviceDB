@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1348",
-                         "versionCode":  1789027436,
-                         "publishedUtc":  "2026-09-10T08:07:03Z",
-                         "notes":  "Make DeviceDB image sync non-blocking for offline builds"
-                     },
-                     {
                          "version":  "1.0.1349",
                          "versionCode":  1789029713,
                          "publishedUtc":  "2026-09-10T08:45:02Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790186200,
                          "publishedUtc":  "2026-09-23T18:05:59Z",
                          "notes":  "Improve LiveVLC Cast subtitle selection"
+                     },
+                     {
+                         "version":  "1.0.1442",
+                         "versionCode":  1790186834,
+                         "publishedUtc":  "2026-09-23T18:15:51Z",
+                         "notes":  "Keep active Cast alive when returning to viewer"
                      }
                  ]
 }
