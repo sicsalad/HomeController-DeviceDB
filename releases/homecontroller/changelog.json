@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1327",
-                         "versionCode":  1788983666,
-                         "publishedUtc":  "2026-09-09T20:00:25Z",
-                         "notes":  "Package dashboard TV and Samsung icons"
-                     },
-                     {
                          "version":  "1.0.1333",
                          "versionCode":  1788987772,
                          "publishedUtc":  "2026-09-09T21:08:36Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790162514,
                          "publishedUtc":  "2026-09-23T11:30:00Z",
                          "notes":  "Wire local LibVLC playback into global session manager"
+                     },
+                     {
+                         "version":  "1.0.1432",
+                         "versionCode":  1790163136,
+                         "publishedUtc":  "2026-09-23T11:40:21Z",
+                         "notes":  "Track LibVLC renderer cast in global playback session"
                      }
                  ]
 }
