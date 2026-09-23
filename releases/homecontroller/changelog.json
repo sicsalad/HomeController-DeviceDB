@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1349",
-                         "versionCode":  1789029713,
-                         "publishedUtc":  "2026-09-10T08:45:02Z",
-                         "notes":  "Handle Android SecureStorage failures for PC pairing"
-                     },
-                     {
                          "version":  "1.0.1350",
                          "versionCode":  1789030934,
                          "publishedUtc":  "2026-09-10T09:08:30Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790186834,
                          "publishedUtc":  "2026-09-23T18:15:51Z",
                          "notes":  "Keep active Cast alive when returning to viewer"
+                     },
+                     {
+                         "version":  "1.0.1443",
+                         "versionCode":  1790198896,
+                         "publishedUtc":  "2026-09-23T21:36:32Z",
+                         "notes":  "Add cancellable integration device list refresh"
                      }
                  ]
 }
