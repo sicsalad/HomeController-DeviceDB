@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1325",
-                         "versionCode":  1788981882,
-                         "publishedUtc":  "2026-09-09T19:30:31Z",
-                         "notes":  "Show Samsung logo for Samsung TV cards"
-                     },
-                     {
                          "version":  "1.0.1327",
                          "versionCode":  1788983666,
                          "publishedUtc":  "2026-09-09T20:00:25Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790161647,
                          "publishedUtc":  "2026-09-23T11:15:33Z",
                          "notes":  "Enforce single playback session lifecycle"
+                     },
+                     {
+                         "version":  "1.0.1431",
+                         "versionCode":  1790162514,
+                         "publishedUtc":  "2026-09-23T11:30:00Z",
+                         "notes":  "Wire local LibVLC playback into global session manager"
                      }
                  ]
 }
