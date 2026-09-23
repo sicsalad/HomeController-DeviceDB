@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1300",
-                         "versionCode":  1788881582,
-                         "publishedUtc":  "2026-09-08T15:37:49Z",
-                         "notes":  "Filter Bluetooth discovery by selected device category"
-                     },
-                     {
                          "version":  "1.0.1301",
                          "versionCode":  1788888889,
                          "publishedUtc":  "2026-09-08T17:40:54Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790107973,
                          "publishedUtc":  "2026-09-22T20:21:29Z",
                          "notes":  "Add global single playback session manager"
+                     },
+                     {
+                         "version":  "1.0.1426",
+                         "versionCode":  1790151232,
+                         "publishedUtc":  "2026-09-23T08:21:26Z",
+                         "notes":  "Fix live build output without polluting exit code"
                      }
                  ]
 }
