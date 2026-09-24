@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.336",
-  "versionCode": 1790273149,
-  "publishedUtc": "2026-09-24T18:05:49Z",
-  "commit": "b234539af220284f0948c202d901a89a8851bd0e",
-  "patchNotes": "Add BLE profile schema and versioned profile catalog"
+  "version": "1.0.337",
+  "versionCode": 1790274205,
+  "publishedUtc": "2026-09-24T18:23:25Z",
+  "commit": "4de7ccc6ef7991892650dba57b33be245996dfc9",
+  "patchNotes": "Add BLE profile catalog"
 }
