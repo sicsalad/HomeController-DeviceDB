@@ -1,6 +1,15 @@
 {
   "$schema":"../schemas/ble-profile-index-v1.schema.json",
   "schemaVersion":1,
-  "catalogVersion":1,
-  "profiles":[]
+  "catalogVersion":2,
+  "profiles":[
+    {
+      "id":"xiaomi-flower-care-hhccjcy01",
+      "version":1,
+      "path":"ble/xiaomi-flower-care-hhccjcy01.v1.json",
+      "minimumRuntimeVersion":1,
+      "sha256":"ff77a222f00d5e107240b77e4db6789f57a61ba1eea754cb86cb6be48575db8e",
+      "status":"experimental"
+    }
+  ]
 }
