@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1360",
-                         "versionCode":  1789131087,
-                         "publishedUtc":  "2026-09-11T12:56:05Z",
-                         "notes":  "Keep offline Home screen size defaults aligned with DeviceDB"
-                     },
-                     {
                          "version":  "1.0.1361",
                          "versionCode":  1789138361,
                          "publishedUtc":  "2026-09-11T14:59:37Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790275353,
                          "publishedUtc":  "2026-09-24T18:50:26Z",
                          "notes":  "Align BLE decoder with profile schema types"
+                     },
+                     {
+                         "version":  "1.0.1454",
+                         "versionCode":  1790279392,
+                         "publishedUtc":  "2026-09-24T19:57:59Z",
+                         "notes":  "Execute safe DeviceDB BLE profile operations"
                      }
                  ]
 }
