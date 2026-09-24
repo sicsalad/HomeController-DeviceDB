@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1352",
-                         "versionCode":  1789077080,
-                         "publishedUtc":  "2026-09-10T21:58:20Z",
-                         "notes":  "Fix Hue bridge re-pairing after reinstall"
-                     },
-                     {
                          "version":  "1.0.1353",
                          "versionCode":  1789077570,
                          "publishedUtc":  "2026-09-10T22:05:42Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790258722,
                          "publishedUtc":  "2026-09-24T14:14:25Z",
                          "notes":  "Show real BLE scan state and result counts"
+                     },
+                     {
+                         "version":  "1.0.1446",
+                         "versionCode":  1790263328,
+                         "publishedUtc":  "2026-09-24T15:30:50Z",
+                         "notes":  "Allow location-assisted BLE discovery on Android"
                      }
                  ]
 }
