@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1363",
-                         "versionCode":  1789143489,
-                         "publishedUtc":  "2026-09-11T16:24:38Z",
-                         "notes":  "Make Home card size mapping explicit and independent"
-                     },
-                     {
                          "version":  "1.0.1364",
                          "versionCode":  1789147376,
                          "publishedUtc":  "2026-09-11T17:27:25Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790285551,
                          "publishedUtc":  "2026-09-24T21:40:29Z",
                          "notes":  "Fix BLE profile identity service UUID type mismatch"
+                     },
+                     {
+                         "version":  "1.0.1457",
+                         "versionCode":  1790288126,
+                         "publishedUtc":  "2026-09-24T22:24:18Z",
+                         "notes":  "Add BLE learn analysis UI"
                      }
                  ]
 }
