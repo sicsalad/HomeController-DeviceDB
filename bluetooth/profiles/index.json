@@ -1,0 +1,6 @@
+{
+  "$schema": "../../schemas/ble-profile-index-v1.schema.json",
+  "schemaVersion": 1,
+  "catalogVersion": "1",
+  "profiles": []
+}
