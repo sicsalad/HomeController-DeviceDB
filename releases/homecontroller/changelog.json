@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1364",
-                         "versionCode":  1789147376,
-                         "publishedUtc":  "2026-09-11T17:27:25Z",
-                         "notes":  "Fix main Home card size mapping and inheritance"
-                     },
-                     {
                          "version":  "1.0.1365",
                          "versionCode":  1789149917,
                          "publishedUtc":  "2026-09-11T18:09:43Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790288126,
                          "publishedUtc":  "2026-09-24T22:24:18Z",
                          "notes":  "Add BLE learn analysis UI"
+                     },
+                     {
+                         "version":  "1.0.1458",
+                         "versionCode":  1790288733,
+                         "publishedUtc":  "2026-09-24T22:33:33Z",
+                         "notes":  "Expose generic BLE analysis learn mode"
                      }
                  ]
 }
