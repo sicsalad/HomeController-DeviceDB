@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1356",
-                         "versionCode":  1789084859,
-                         "publishedUtc":  "2026-09-11T00:05:29Z",
-                         "notes":  "Fix PC Remote API compile errors"
-                     },
-                     {
                          "version":  "1.0.1357",
                          "versionCode":  1789125657,
                          "publishedUtc":  "2026-09-11T11:26:17Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790270064,
                          "publishedUtc":  "2026-09-24T17:22:46Z",
                          "notes":  "Add generic BLE GATT inspector and safe readable probe"
+                     },
+                     {
+                         "version":  "1.0.1450",
+                         "versionCode":  1790272173,
+                         "publishedUtc":  "2026-09-24T17:57:32Z",
+                         "notes":  "Add isolated BLE resolver core and SIG metadata resolution"
                      }
                  ]
 }
