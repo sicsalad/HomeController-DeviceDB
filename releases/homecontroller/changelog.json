@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1357",
-                         "versionCode":  1789125657,
-                         "publishedUtc":  "2026-09-11T11:26:17Z",
-                         "notes":  "Preserve high quality for scalable DeviceDB icons"
-                     },
-                     {
                          "version":  "1.0.1358",
                          "versionCode":  1789126046,
                          "publishedUtc":  "2026-09-11T11:31:45Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790272173,
                          "publishedUtc":  "2026-09-24T17:57:32Z",
                          "notes":  "Add isolated BLE resolver core and SIG metadata resolution"
+                     },
+                     {
+                         "version":  "1.0.1451",
+                         "versionCode":  1790274196,
+                         "publishedUtc":  "2026-09-24T18:31:11Z",
+                         "notes":  "Add profile-backed BLE metadata resolver"
                      }
                  ]
 }
