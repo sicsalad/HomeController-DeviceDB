@@ -1,0 +1,15 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "$id":"https://github.com/sicsalad/HomeController-DeviceDB/schemas/ble-profile-v1.schema.json",
+  "title":"HomeController BLE protocol profile v1",
+  "type":"object","additionalProperties":false,
+  "required":["schemaVersion","id","version","minimumRuntimeVersion","match","source","fields"],
+  "properties":{
+    "$schema":{"type":"string"},"schemaVersion":{"const":1},"id":{"type":"string","minLength":1},"version":{"type":"integer","minimum":1},"minimumRuntimeVersion":{"type":"integer","minimum":1},"status":{"enum":["experimental","stable","deprecated"]},
+    "protocol":{"type":"string"},
+    "match":{"type":"object","additionalProperties":false,"properties":{"namePatterns":{"type":"array","items":{"type":"string"}},"serviceUuids":{"type":"array","items":{"type":"string"}},"manufacturerIds":{"type":"array","items":{"type":"integer","minimum":0,"maximum":65535}},"serviceDataUuids":{"type":"array","items":{"type":"string"}}}},
+    "source":{"type":"object","additionalProperties":false,"required":["name","url"],"properties":{"name":{"type":"string","minLength":1},"url":{"type":"string","format":"uri"},"license":{"type":"string"},"notes":{"type":"string"}}},
+    "fields":{"type":"array","items":{"type":"object","additionalProperties":false,"required":["code","input","decode"],"properties":{"code":{"type":"string","minLength":1},"name":{"type":"string"},"unit":{"type":"string"},"input":{"type":"object","additionalProperties":false,"required":["kind"],"properties":{"kind":{"enum":["advertisement","serviceData","manufacturerData","characteristic"]},"serviceUuid":{"type":"string"},"characteristicUuid":{"type":"string"}}},"decode":{"type":"object","additionalProperties":false,"required":["type","offset"],"properties":{"type":{"enum":["uint8","int8","uint16le","int16le","uint16be","int16be","uint32le","int32le","uint32be","int32be","float32le","ascii","utf8","hex"]},"offset":{"type":"integer","minimum":0},"length":{"type":"integer","minimum":1},"scale":{"type":"number"},"add":{"type":"number"},"mask":{"type":"integer","minimum":0},"shift":{"type":"integer","minimum":0}}}}}},
+    "operations":{"type":"array","items":{"type":"object","additionalProperties":false,"required":["id","kind"],"properties":{"id":{"type":"string"},"kind":{"enum":["read","write","subscribe","wait"]},"serviceUuid":{"type":"string"},"characteristicUuid":{"type":"string"},"valueHex":{"type":"string","pattern":"^[0-9A-Fa-f]*$"},"milliseconds":{"type":"integer","minimum":0},"safe":{"type":"boolean"}}}}
+  }
+}
