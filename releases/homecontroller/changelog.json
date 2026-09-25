@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1366",
-                         "versionCode":  1789156664,
-                         "publishedUtc":  "2026-09-11T20:03:35Z",
-                         "notes":  "Fix pinned card helper calls after device-aware sizing"
-                     },
-                     {
                          "version":  "1.0.1367",
                          "versionCode":  1789158127,
                          "publishedUtc":  "2026-09-11T20:27:02Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790359953,
                          "publishedUtc":  "2026-09-25T18:21:20Z",
                          "notes":  "Fix Android BLE scan callback lifetime crash"
+                     },
+                     {
+                         "version":  "1.0.1460",
+                         "versionCode":  1790361781,
+                         "publishedUtc":  "2026-09-25T18:51:11Z",
+                         "notes":  "Fix BLE discovery merging and start automatic setup wizard"
                      }
                  ]
 }
