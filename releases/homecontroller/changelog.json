@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1368",
-                         "versionCode":  1789158834,
-                         "publishedUtc":  "2026-09-11T20:40:29Z",
-                         "notes":  "Expose pinned property refresh interval in Settings"
-                     },
-                     {
                          "version":  "1.0.1369",
                          "versionCode":  1789161201,
                          "publishedUtc":  "2026-09-11T21:18:47Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790362346,
                          "publishedUtc":  "2026-09-25T18:59:07Z",
                          "notes":  "Add automatic BLE identification and diagnostic discovery wizard"
+                     },
+                     {
+                         "version":  "1.0.1462",
+                         "versionCode":  1790369323,
+                         "publishedUtc":  "2026-09-25T20:58:32Z",
+                         "notes":  "Improve BLE GATT probe reliability with settle delay and retries"
                      }
                  ]
 }
