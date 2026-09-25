@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1372",
-                         "versionCode":  1789166241,
-                         "publishedUtc":  "2026-09-11T22:42:58Z",
-                         "notes":  "Remove duplicate home background handler"
-                     },
-                     {
                          "version":  "1.0.1373",
                          "versionCode":  1789167933,
                          "publishedUtc":  "2026-09-11T23:10:22Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790377657,
                          "publishedUtc":  "2026-09-25T23:16:25Z",
                          "notes":  "Recover BLE GATT reads when Android leaves connection busy"
+                     },
+                     {
+                         "version":  "1.0.1466",
+                         "versionCode":  1790379974,
+                         "publishedUtc":  "2026-09-25T23:54:21Z",
+                         "notes":  "Fix Flower Care setup falling into broadcast dead end"
                      }
                  ]
 }
