@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1371",
-                         "versionCode":  1789163196,
-                         "publishedUtc":  "2026-09-11T21:57:27Z",
-                         "notes":  "Fix main screen style precedence for all device types"
-                     },
-                     {
                          "version":  "1.0.1372",
                          "versionCode":  1789166241,
                          "publishedUtc":  "2026-09-11T22:42:58Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790372447,
                          "publishedUtc":  "2026-09-25T21:49:14Z",
                          "notes":  "Fix BLE guided learning and avoid second discovery crash"
+                     },
+                     {
+                         "version":  "1.0.1465",
+                         "versionCode":  1790377657,
+                         "publishedUtc":  "2026-09-25T23:16:25Z",
+                         "notes":  "Recover BLE GATT reads when Android leaves connection busy"
                      }
                  ]
 }
