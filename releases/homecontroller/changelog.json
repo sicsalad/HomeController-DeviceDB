@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1369",
-                         "versionCode":  1789161201,
-                         "publishedUtc":  "2026-09-11T21:18:47Z",
-                         "notes":  "Offer existing Hue connection when recreating bridge device"
-                     },
-                     {
                          "version":  "1.0.1370",
                          "versionCode":  1789161598,
                          "publishedUtc":  "2026-09-11T21:25:58Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790369323,
                          "publishedUtc":  "2026-09-25T20:58:32Z",
                          "notes":  "Improve BLE GATT probe reliability with settle delay and retries"
+                     },
+                     {
+                         "version":  "1.0.1463",
+                         "versionCode":  1790369988,
+                         "publishedUtc":  "2026-09-25T21:08:56Z",
+                         "notes":  "Make BLE learning automatic and repeatable"
                      }
                  ]
 }
