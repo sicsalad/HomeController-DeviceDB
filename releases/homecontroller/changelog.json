@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1370",
-                         "versionCode":  1789161598,
-                         "publishedUtc":  "2026-09-11T21:25:58Z",
-                         "notes":  "Offer existing Hue connection when recreating bridge device"
-                     },
-                     {
                          "version":  "1.0.1371",
                          "versionCode":  1789163196,
                          "publishedUtc":  "2026-09-11T21:57:27Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790369988,
                          "publishedUtc":  "2026-09-25T21:08:56Z",
                          "notes":  "Make BLE learning automatic and repeatable"
+                     },
+                     {
+                         "version":  "1.0.1464",
+                         "versionCode":  1790372447,
+                         "publishedUtc":  "2026-09-25T21:49:14Z",
+                         "notes":  "Fix BLE guided learning and avoid second discovery crash"
                      }
                  ]
 }
