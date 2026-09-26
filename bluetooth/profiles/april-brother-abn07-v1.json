@@ -1,0 +1,83 @@
+{
+  "$schema": "../../schemas/ble-profile-v1.schema.json",
+  "schemaVersion": 1,
+  "id": "april-brother-abn07",
+  "version": 1,
+  "minimumRuntimeVersion": 1,
+  "status": "experimental",
+  "protocol": "BLE service data / FCD2",
+  "match": {
+    "namePatterns": [
+      "asensor_*"
+    ],
+    "serviceDataUuids": [
+      "FCD2"
+    ]
+  },
+  "source": {
+    "name": "April Brother N07 protocol facts documented by Theengs Decoder",
+    "url": "https://decoder.theengs.io/devices/ABN07.html",
+    "license": "Protocol facts independently re-expressed in HomeController DeviceDB; Theengs Decoder implementation is GPL-3.0.",
+    "notes": "Firmware 4.0.1+ layout. Service-data sample and expected values cross-checked against Theengs public tests."
+  },
+  "fields": [
+    {
+      "code": "packet",
+      "name": "Packet ID",
+      "unit": "int",
+      "input": {
+        "kind": "serviceData",
+        "serviceUuid": "FCD2"
+      },
+      "decode": {
+        "type": "uint8",
+        "offset": 2
+      }
+    },
+    {
+      "code": "battery",
+      "name": "Battery",
+      "unit": "%",
+      "input": {
+        "kind": "serviceData",
+        "serviceUuid": "FCD2"
+      },
+      "decode": {
+        "type": "uint8",
+        "offset": 4,
+        "minimum": 0,
+        "maximum": 100
+      }
+    },
+    {
+      "code": "temperature",
+      "name": "Temperature",
+      "unit": "°C",
+      "input": {
+        "kind": "serviceData",
+        "serviceUuid": "FCD2"
+      },
+      "decode": {
+        "type": "int16le",
+        "offset": 6,
+        "scale": 0.01
+      }
+    },
+    {
+      "code": "humidity",
+      "name": "Humidity",
+      "unit": "%",
+      "input": {
+        "kind": "serviceData",
+        "serviceUuid": "FCD2"
+      },
+      "decode": {
+        "type": "uint16le",
+        "offset": 9,
+        "scale": 0.01,
+        "minimum": 0,
+        "maximum": 100
+      }
+    }
+  ]
+}
