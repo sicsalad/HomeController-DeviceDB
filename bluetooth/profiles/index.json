@@ -1,7 +1,7 @@
 {
   "$schema": "../../schemas/ble-profile-index-v1.schema.json",
   "schemaVersion": 1,
-  "catalogVersion": 3,
+  "catalogVersion": 4,
   "profiles": [
     {
       "id": "xiaomi-flower-care",
@@ -16,7 +16,7 @@
       "version": 1,
       "path": "bluetooth/profiles/april-brother-abn07-v1.json",
       "minimumRuntimeVersion": 1,
-      "sha256": "99BA85F78AB37AF3C5513FC2C4BE2B6947121A75D7C05DD87B9B069F388F2C2A",
+      "sha256": "DD5D366C16EBC4405C4CAF75F98803BB1E5E9527F9B76E146D203C69953E4535",
       "status": "experimental"
     }
   ]
