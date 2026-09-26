@@ -1,0 +1,1 @@
+{"schemaVersion":1,"catalogId":"theengs-switchbot-01","profiles":["../profiles/switchbot-blind-tilt-v1.json","../profiles/switchbot-contact-sensor-v1.json","../profiles/switchbot-curtain-v1.json","../profiles/switchbot-motion-sensor-v1.json","../profiles/switchbot-meter-plus-v1.json"]}
