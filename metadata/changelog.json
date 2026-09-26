@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.74",
-      "versionCode": 1787862854,
-      "publishedUtc": "2026-08-27T20:34:14Z",
-      "notes": "Add temporary UI template localization audit"
-    },
-    {
       "version": "1.0.75",
       "versionCode": 1787862960,
       "publishedUtc": "2026-08-27T20:36:00Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1790442751,
       "publishedUtc": "2026-09-26T17:12:31Z",
       "notes": "Define deterministic BLE decoder test vector format"
+    },
+    {
+      "version": "1.0.346",
+      "versionCode": 1790442936,
+      "publishedUtc": "2026-09-26T17:15:36Z",
+      "notes": "Add April Brother N07 BLE profile"
     }
   ]
 }
