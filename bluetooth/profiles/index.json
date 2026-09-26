@@ -1,5 +1,5 @@
 {
-  "$schema":"../../schemas/ble-profile-index-v1.schema.json","schemaVersion":1,"catalogVersion":13,
+  "$schema":"../../schemas/ble-profile-index-v1.schema.json","schemaVersion":1,"catalogVersion":14,
   "profiles":[
 {"id":"xiaomi-flower-care","version":1,"path":"bluetooth/profiles/xiaomi-flower-care-v1.json","minimumRuntimeVersion":1,"sha256":"54882BF6434ACA0444F4B98F4D08FB714A8489A216491D7AF84B5DF1FEDB3D1A","status":"stable"},
 {"id":"april-brother-abn07","version":1,"path":"bluetooth/profiles/april-brother-abn07-v1.json","minimumRuntimeVersion":1,"sha256":"DD5D366C16EBC4405C4CAF75F98803BB1E5E9527F9B76E146D203C69953E4535","status":"experimental"},
@@ -43,6 +43,11 @@
 {"id":"govee-h5108","version":1,"path":"bluetooth/profiles/govee-h5108-v1.json","minimumRuntimeVersion":1,"sha256":"1F28E3DDF2B6BC65C868FD53A47D59D3355B342D822B8CACACEA24747584D2F3","status":"experimental"},
 {"id":"govee-h5140","version":1,"path":"bluetooth/profiles/govee-h5140-v1.json","minimumRuntimeVersion":1,"sha256":"4018652FC193FD97F1A8A1885FAF9A03DB6FDB5B4508AB362690F7BCB1F09A5E","status":"experimental"},
 {"id":"govee-h5174","version":1,"path":"bluetooth/profiles/govee-h5174-v1.json","minimumRuntimeVersion":1,"sha256":"5BE513457CEE10AF238A03389B968F6D45629CB2B5D777C4F19815D76A3192BA","status":"experimental"},
-{"id":"govee-h5177","version":1,"path":"bluetooth/profiles/govee-h5177-v1.json","minimumRuntimeVersion":1,"sha256":"5DDE526AE244589F937B0F17D039D87DF2EBE0720892DE2D94615A6D8C5CDF12","status":"experimental"}
+{"id":"govee-h5177","version":1,"path":"bluetooth/profiles/govee-h5177-v1.json","minimumRuntimeVersion":1,"sha256":"5DDE526AE244589F937B0F17D039D87DF2EBE0720892DE2D94615A6D8C5CDF12","status":"experimental"},
+{"id":"govee-h5179","version":1,"path":"bluetooth/profiles/govee-h5179-v1.json","minimumRuntimeVersion":1,"sha256":"5DA52D9F2E10222B26093CD67870B42D924AFC01270810ADB6ABA710266E9DDF","status":"experimental"},
+{"id":"xiaomi-hhccjcy10","version":1,"path":"bluetooth/profiles/xiaomi-hhccjcy10-v1.json","minimumRuntimeVersion":1,"sha256":"78AA8730A15707F98991CA805D366E24133BE8032A094A4A8BA2D5720D6D32F5","status":"experimental"},
+{"id":"xiaomi-mue4094rt","version":1,"path":"bluetooth/profiles/xiaomi-mue4094rt-v1.json","minimumRuntimeVersion":1,"sha256":"EBFEE808648DDC599245C81C3C4D24C0AA0FCF918DAF7FA27A4DC46FC2D95CA0","status":"experimental"},
+{"id":"nodon-niu","version":1,"path":"bluetooth/profiles/nodon-niu-v1.json","minimumRuntimeVersion":1,"sha256":"59B53F84B27A931CAA3297109988ECA595880777A2C515678668F91683A6BEC5","status":"experimental"},
+{"id":"mokosmart-mokobeacon","version":1,"path":"bluetooth/profiles/mokosmart-mokobeacon-v1.json","minimumRuntimeVersion":1,"sha256":"5F743607803027A13B7DC26FBD26C6A76635AE505C01EAEB0E9026DBE76FBAC1","status":"experimental"}
   ]
 }
