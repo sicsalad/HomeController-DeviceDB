@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/ble-profile-v1.schema.json",
+  "schemaVersion": 1,
+  "id": "ikea-ble",
+  "version": 1,
+  "minimumRuntimeVersion": 1,
+  "status": "experimental",
+  "protocol": "IKEA Bluetooth LE",
+  "match": {
+    "namePatterns": [
+      "IKEA*",
+      "TRADFRI*",
+      "DIRIGERA*"
+    ]
+  },
+  "source": {
+    "name": "IKEA Home smart",
+    "url": "https://www.ikea.com/global/en/our-business/how-we-work/smart-home/",
+    "notes": "Discovery profile for IKEA devices exposing Bluetooth LE; many IKEA smart-home devices primarily use Zigbee/Thread."
+  },
+  "fields": []
+}
