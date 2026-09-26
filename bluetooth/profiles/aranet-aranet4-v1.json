@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/ble-profile-v1.schema.json",
+  "schemaVersion": 1,
+  "id": "aranet-aranet4",
+  "version": 1,
+  "minimumRuntimeVersion": 1,
+  "status": "experimental",
+  "protocol": "BLE manufacturer data",
+  "match": { "manufacturerDataPrefixes": ["0207"] },
+  "source": { "name": "Theengs Decoder ARANET4 protocol facts", "url": "https://decoder.theengs.io/devices/ARANET4.html", "license": "Protocol facts independently re-expressed in HomeController DeviceDB; Theengs Decoder implementation is GPL-3.0." },
+  "fields": [
+    { "code": "co2", "name": "Carbon dioxide", "unit": "ppm", "input": { "kind": "manufacturerData" }, "decode": { "type": "uint16le", "offset": 10 } },
+    { "code": "temperature", "name": "Temperature", "unit": "°C", "input": { "kind": "manufacturerData" }, "decode": { "type": "int16le", "offset": 12, "scale": 0.05 } },
+    { "code": "pressure", "name": "Pressure", "unit": "hPa", "input": { "kind": "manufacturerData" }, "decode": { "type": "uint16le", "offset": 14, "scale": 0.1 } },
+    { "code": "humidity", "name": "Humidity", "unit": "%", "input": { "kind": "manufacturerData" }, "decode": { "type": "uint8", "offset": 16 } },
+    { "code": "battery", "name": "Battery", "unit": "%", "input": { "kind": "manufacturerData" }, "decode": { "type": "uint8", "offset": 17, "bitMask": 127 } }
+  ]
+}
