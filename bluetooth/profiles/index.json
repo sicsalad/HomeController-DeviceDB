@@ -1,6 +1,15 @@
 {
   "$schema": "../../schemas/ble-profile-index-v1.schema.json",
   "schemaVersion": 1,
-  "catalogVersion": 1,
-  "profiles": []
+  "catalogVersion": 2,
+  "profiles": [
+    {
+      "id": "xiaomi-flower-care",
+      "version": 1,
+      "path": "bluetooth/profiles/xiaomi-flower-care-v1.json",
+      "minimumRuntimeVersion": 1,
+      "sha256": "54882BF6434ACA0444F4B98F4D08FB714A8489A216491D7AF84B5DF1FEDB3D1A",
+      "status": "stable"
+    }
+  ]
 }
