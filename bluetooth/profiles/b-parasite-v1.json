@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/ble-profile-v1.schema.json",
+  "schemaVersion": 1,
+  "id": "b-parasite-v1",
+  "version": 1,
+  "minimumRuntimeVersion": 1,
+  "status": "experimental",
+  "protocol": "b-parasite Environmental Sensing service data",
+  "match": { "namePatterns": ["^b-parasite.*"], "serviceUuids": ["181A"], "serviceDataUuids": ["181A"] },
+  "source": { "name": "b-parasite v1.x protocol facts documented by Theengs Decoder", "url": "https://decoder.theengs.io/devices/BPv1.0-1.2.html", "license": "Protocol facts independently re-expressed in HomeController DeviceDB; Theengs Decoder implementation is GPL-3.0." },
+  "fields": [
+    { "code": "voltage", "name": "Voltage", "unit": "V", "input": { "kind": "serviceData", "serviceUuid": "181A" }, "decode": { "type": "uint16be", "offset": 2, "scale": 0.001 } },
+    { "code": "temperature", "name": "Temperature", "unit": "°C", "input": { "kind": "serviceData", "serviceUuid": "181A" }, "decode": { "type": "int16be", "offset": 4, "scale": 0.001 } },
+    { "code": "humidity", "name": "Humidity", "unit": "%", "input": { "kind": "serviceData", "serviceUuid": "181A" }, "decode": { "type": "uint16be", "offset": 6, "scale": 0.0015259021896696422, "minimum": 0, "maximum": 100 } },
+    { "code": "moisture", "name": "Soil moisture", "unit": "%", "input": { "kind": "serviceData", "serviceUuid": "181A" }, "decode": { "type": "uint16be", "offset": 8, "scale": 0.0015259021896696422, "minimum": 0, "maximum": 100 } },
+    { "code": "illuminance", "name": "Illuminance", "unit": "lx", "input": { "kind": "serviceData", "serviceUuid": "181A" }, "decode": { "type": "uint16be", "offset": 16 } }
+  ]
+}
