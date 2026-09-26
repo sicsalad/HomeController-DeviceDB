@@ -40,11 +40,11 @@ Source catalog: https://decoder.theengs.io/devices/devices.html
 - [x] CGP1W — Qingping Weather Station
 - [x] CGP22C — Qingping Thermo-Hygrometer CO2 Detector
 - [x] CGP23W — Qingping Barometer Pro
-- [ ] CGPR1 — Qingping Motion & Light
+- [x] CGPR1 — Qingping Motion & Light
 - [x] ECOFLOW_ADV — EcoFlow Power Station
-- [ ] F525/F51C — Jaalee TH sensor
+- [x] F525/F51C — Jaalee TH sensor
 - [x] FEASY — Feasycom Bluetooth Beacon
-- [ ] H10 — Polar Heart Rate Sensor
+- [x] H10 — Polar Heart Rate Sensor
 - [x] H5055 — Govee BBQ Thermometer
 - [x] H5072 — Govee Thermo-Hygrometer
 - [x] H5074 — Govee Smart Thermo-Hygrometer
@@ -62,17 +62,17 @@ Source catalog: https://decoder.theengs.io/devices/devices.html
 - [x] H5179 — Govee Smart Thermo-Hygrometer
 - [x] HHCCJCY01HHCC — Xiaomi/VegTrug MiFlora (covered by Flower Care profile)
 - [x] HHCCJCY10 — Xiaomi MiFlora / Flower Care family
-- [ ] HHCCPOT002 — Xiaomi RoPot
+- [x] HHCCPOT002 — Xiaomi RoPot
 - [-] IBEACON — Generic iBeacon protocol family
-- [ ] IBS-P01B — Inkbird Pool Thermometer
+- [x] IBS-P01B — Inkbird Pool Thermometer
 - [ ] IBS-P02B — Inkbird Pool Thermometer
-- [ ] IBS-TH1 — Inkbird Thermometer Hygrometer
-- [ ] IBS-TH2 — Inkbird Thermometer Hygrometer
+- [x] IBS-TH1 — Inkbird Thermometer Hygrometer
+- [x] IBS-TH2 — Inkbird Thermometer Hygrometer
 - [ ] IBT_2X(S) — Inkbird BBQ 2-probe
 - [ ] IBT_4X(S/C) — Inkbird BBQ 4-probe
 - [ ] IBT_6X(S) — Inkbird BBQ 6-probe
 - [x] INEM — iNode Energy Meter
-- [ ] ITH-12S — Inkbird Thermometer Hygrometer
+- [x] ITH-12S — Inkbird Thermometer Hygrometer
 - [ ] JQJCY01YM — Xiaomi Formaldehyde Detector
 - [x] K6P — KKM Long Range K6P
 - [x] K9 — KKM Tracking K9
