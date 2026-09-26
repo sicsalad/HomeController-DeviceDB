@@ -8,7 +8,7 @@
   "protocol": "BLE service data / FCD2",
   "match": {
     "namePatterns": [
-      "asensor_*"
+      "^asensor_"
     ],
     "serviceDataUuids": [
       "FCD2"
@@ -25,59 +25,29 @@
       "code": "packet",
       "name": "Packet ID",
       "unit": "int",
-      "input": {
-        "kind": "serviceData",
-        "serviceUuid": "FCD2"
-      },
-      "decode": {
-        "type": "uint8",
-        "offset": 2
-      }
+      "input": { "kind": "serviceData", "serviceUuid": "FCD2" },
+      "decode": { "type": "uint8", "offset": 2 }
     },
     {
       "code": "battery",
       "name": "Battery",
       "unit": "%",
-      "input": {
-        "kind": "serviceData",
-        "serviceUuid": "FCD2"
-      },
-      "decode": {
-        "type": "uint8",
-        "offset": 4,
-        "minimum": 0,
-        "maximum": 100
-      }
+      "input": { "kind": "serviceData", "serviceUuid": "FCD2" },
+      "decode": { "type": "uint8", "offset": 4, "minimum": 0, "maximum": 100 }
     },
     {
       "code": "temperature",
       "name": "Temperature",
       "unit": "°C",
-      "input": {
-        "kind": "serviceData",
-        "serviceUuid": "FCD2"
-      },
-      "decode": {
-        "type": "int16le",
-        "offset": 6,
-        "scale": 0.01
-      }
+      "input": { "kind": "serviceData", "serviceUuid": "FCD2" },
+      "decode": { "type": "int16le", "offset": 6, "scale": 0.01 }
     },
     {
       "code": "humidity",
       "name": "Humidity",
       "unit": "%",
-      "input": {
-        "kind": "serviceData",
-        "serviceUuid": "FCD2"
-      },
-      "decode": {
-        "type": "uint16le",
-        "offset": 9,
-        "scale": 0.01,
-        "minimum": 0,
-        "maximum": 100
-      }
+      "input": { "kind": "serviceData", "serviceUuid": "FCD2" },
+      "decode": { "type": "uint16le", "offset": 9, "scale": 0.01, "minimum": 0, "maximum": 100 }
     }
   ]
 }
