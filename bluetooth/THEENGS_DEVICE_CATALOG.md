@@ -1,8 +1,10 @@
 # Theengs BLE device implementation catalog
 
-Tracking list for HomeController's independent BLE decoders. `[x]` means a HomeController DeviceDB profile exists; `[-]` means a generic/protocol-family entry or not yet a normal sensor profile; `[ ]` means pending. Theengs is used as protocol research/provenance; HomeController does not embed the GPL decoder.
+Tracking list for HomeController's independent BLE decoders. `[x]` means a HomeController DeviceDB profile exists and is indexed; `[-]` means a generic/protocol-family entry or not yet a normal sensor profile; `[ ]` means pending. Theengs is used as protocol research/provenance; HomeController does not embed the GPL decoder.
 
 Source catalog: https://decoder.theengs.io/devices/devices.html
+
+**Maintenance rule:** whenever a new HomeController profile is implemented and indexed, its corresponding device entry/entries in this file must be changed to `[x]` in the same change/batch. This catalog is the implementation checklist and must stay synchronized with `bluetooth/profiles` and `bluetooth/catalogs`.
 
 ## Implemented / first priority
 
@@ -14,20 +16,20 @@ Source catalog: https://decoder.theengs.io/devices/devices.html
 
 ## Full Theengs catalog
 
-- [ ] ABN03 — April Brother Sensor N03
+- [x] ABN03 — April Brother Sensor N03
 - [x] ABN07 — April Brother Sensor N07
-- [ ] ABTemp — April Brother ABTemp
+- [x] ABTemp — April Brother ABTemp
 - [ ] ADHS — Amphiro/Oras/Hansa Hydractiva/Activejet Digital
 - [ ] Amazfit — Amazfit Smart Watch/Band
-- [ ] APPLEAIRPODS — Apple AirPods (Pro)
-- [ ] APPLEDEVICE — Apple iPhone/iPad
-- [ ] APPLEWATCH — Apple Watch
-- [ ] ARANET4 — Aranet4 CO2 Monitor
+- [x] APPLEAIRPODS — Apple AirPods (Pro)
+- [x] APPLEDEVICE — Apple iPhone/iPad
+- [x] APPLEWATCH — Apple Watch
+- [x] ARANET4 — Aranet4 CO2 Monitor
 - [ ] BEATSBUDS — Beats Solo/Studio Buds
-- [ ] BM2 — Generic BM2 Battery Monitor
+- [x] BM2 — Generic BM2 Battery Monitor
 - [x] BM6 — Generic BM6 Battery Monitor
-- [ ] BPv1.0-2.0 — b-parasite environmental/soil sensor
-- [ ] BSDOO — Otio/BeeWi Door & Window Sensor
+- [x] BPv1.0-2.0 — b-parasite environmental/soil sensor
+- [x] BSDOO — Otio/BeeWi Door & Window Sensor
 - [x] BTH01 — Tuya BTH01
 - [x] CGC1 — ClearGrass/Qingping Alarm Clock (shared CGC1/CGD1 profile)
 - [x] CGD1 — ClearGrass/Qingping Alarm Clock
@@ -39,25 +41,25 @@ Source catalog: https://decoder.theengs.io/devices/devices.html
 - [ ] CGP22C — Qingping Thermo-Hygrometer CO2 Detector
 - [ ] CGP23W — Qingping Barometer Pro
 - [ ] CGPR1 — Qingping Motion & Light
-- [ ] ECOFLOW_ADV — EcoFlow Power Station
+- [x] ECOFLOW_ADV — EcoFlow Power Station
 - [ ] F525/F51C — Jaalee TH sensor
-- [ ] FEASY — Feasycom Bluetooth Beacon
+- [x] FEASY — Feasycom Bluetooth Beacon
 - [ ] H10 — Polar Heart Rate Sensor
-- [ ] H5055 — Govee BBQ Thermometer
-- [ ] H5072 — Govee Thermo-Hygrometer
-- [ ] H5074 — Govee Smart Thermo-Hygrometer
-- [ ] H5075 — Govee Thermo-Hygrometer
-- [ ] H5100 — Govee Smart Thermo Hygrometer
-- [ ] H5101 — Govee Smart Thermo-Hygrometer
-- [ ] H5102 — Govee Smart Thermo-Hygrometer
-- [ ] H5104 — Govee Smart Thermo Hygrometer
-- [ ] H5105 — Govee Smart Thermo Hygrometer
-- [ ] H5106 — Govee Smart Air Quality Monitor
-- [ ] H5108 — Govee Smart Probe Thermometer
-- [ ] H5140 — Govee Smart CO2 Monitor
-- [ ] H5174 — Govee Smart Thermo-Hygrometer
-- [ ] H5177 — Govee Thermo-Hygrometer
-- [ ] H5179 — Govee Smart Thermo-Hygrometer
+- [x] H5055 — Govee BBQ Thermometer
+- [x] H5072 — Govee Thermo-Hygrometer
+- [x] H5074 — Govee Smart Thermo-Hygrometer
+- [x] H5075 — Govee Thermo-Hygrometer
+- [x] H5100 — Govee Smart Thermo Hygrometer
+- [x] H5101 — Govee Smart Thermo-Hygrometer
+- [x] H5102 — Govee Smart Thermo-Hygrometer
+- [x] H5104 — Govee Smart Thermo Hygrometer
+- [x] H5105 — Govee Smart Thermo Hygrometer
+- [x] H5106 — Govee Smart Air Quality Monitor
+- [x] H5108 — Govee Smart Probe Thermometer
+- [x] H5140 — Govee Smart CO2 Monitor
+- [x] H5174 — Govee Smart Thermo-Hygrometer
+- [x] H5177 — Govee Thermo-Hygrometer
+- [x] H5179 — Govee Smart Thermo-Hygrometer
 - [x] HHCCJCY01HHCC — Xiaomi/VegTrug MiFlora (covered by Flower Care profile)
 - [x] HHCCJCY10 — Xiaomi MiFlora / Flower Care family
 - [ ] HHCCPOT002 — Xiaomi RoPot
@@ -69,29 +71,29 @@ Source catalog: https://decoder.theengs.io/devices/devices.html
 - [ ] IBT_2X(S) — Inkbird BBQ 2-probe
 - [ ] IBT_4X(S/C) — Inkbird BBQ 4-probe
 - [ ] IBT_6X(S) — Inkbird BBQ 6-probe
-- [ ] INEM — iNode Energy Meter
+- [x] INEM — iNode Energy Meter
 - [ ] ITH-12S — Inkbird Thermometer Hygrometer
 - [ ] JQJCY01YM — Xiaomi Formaldehyde Detector
-- [ ] K6P — KKM Long Range K6P
-- [ ] K9 — KKM Tracking K9
-- [ ] KSensor — BlueCharm/KKM Beacon
+- [x] K6P — KKM Long Range K6P
+- [x] K9 — KKM Tracking K9
+- [x] KSensor — BlueCharm/KKM Beacon
 - [ ] LYWSD02 — Xiaomi/Mijia e-ink Clock
 - [ ] LYWSD03MMC_ATC/PVVX/BTHOME — Xiaomi Compact Temperature Sensor
 - [ ] LYWSDCGQ — Xiaomi Mi Jia TH sensor
 - [ ] M1017 — Mopeka/Lippert LPG Tank Sensor
-- [ ] MBXPRO — MOKOSMART H4
+- [x] MBXPRO — MOKOSMART H4
 - [ ] MHO/MMC-C401_ATC/PVVX — Xiaomi Compact Temperature Sensor
 - [ ] MiBand — Xiaomi Mi Band
 - [ ] MJWSD05MMC_ATC/PVVX/BTHOME — Xiaomi Compact Temperature Sensor
-- [ ] MokoBeacon — MOKOSMART Beacon
-- [ ] MUE4094RT — Xiaomi Motion and Light
+- [x] MokoBeacon — MOKOSMART Beacon
+- [x] MUE4094RT — Xiaomi Motion and Light
 - [ ] MX2001 — Onset Hobo Water Level Sensor
-- [ ] NODONNIU — NodOn NIU smart button
+- [x] NODONNIU — NodOn NIU smart button
 - [ ] ORALB_BT — Oral-B Bluetooth Toothbrush
 - [ ] ORAS — Amphiro/Oras/Hansa Smart Faucet
 - [ ] RC1010 — Otodata RC1010 Level Monitor
 - [ ] RDL52832 — Radioland sensor iBeacon
-- [ ] RuuviTag_RAWv1 — RuuviTag RAW v1
+- [x] RuuviTag_RAWv1 — RuuviTag RAW v1
 - [x] RuuviTag_RAWv2 — RuuviTag RAW v2
 - [ ] SBBT-002C — ShellyBLU Button1
 - [ ] SBBT-004CEU — ShellyBLU Wall Switch4
@@ -114,10 +116,10 @@ Source catalog: https://decoder.theengs.io/devices/devices.html
 - [ ] SPHTP — SensorPush HTP.xw
 - [x] T201 — Oria/Brifit/SigmaWit/SensorPro TH
 - [x] T301 — Oria/Brifit/SigmaWit/SensorPro TH
-- [ ] TD1in1 — BlueMaestro Tempo Disc
-- [ ] TD3in1 — BlueMaestro Tempo Disc
-- [ ] TD4in1 — BlueMaestro Tempo Disc
-- [ ] TG-BT5 — MikroTik TG-BT5-IN/-OUT
+- [x] TD1in1 — BlueMaestro Tempo Disc
+- [x] TD3in1 — BlueMaestro Tempo Disc
+- [x] TD4in1 — BlueMaestro Tempo Disc
+- [x] TG-BT5 — MikroTik TG-BT5-IN/-OUT
 - [x] TH05F — Tuya TH05F
 - [x] THB1 — Tuya THB1
 - [x] THX1(W230150X) — SwitchBot Meter (Plus)
@@ -138,11 +140,11 @@ Source catalog: https://decoder.theengs.io/devices/devices.html
 - [ ] VICTSCC — Victron SmartSolar MPPT
 - [x] W070160X — SwitchBot Curtain 2/3
 - [x] W110150X — SwitchBot Motion Sensor
-- [ ] W120150X — SwitchBot Contact Sensor
-- [ ] W270160X — SwitchBot Blind Tilt
+- [x] W120150X — SwitchBot Contact Sensor
+- [x] W270160X — SwitchBot Blind Tilt
 - [x] W340001X — SwitchBot Outdoor Meter
 - [x] W490001X — SwitchBot Meter Pro CO2
-- [ ] WS02/WS08 — SensorBlue/Oria/Brifit ThermoBeacon
+- [x] WS02/WS08 — SensorBlue/Oria/Brifit ThermoBeacon
 - [x] X1 — SwitchBot Bot
 - [ ] XMTZC01HM/XMTZC04HM — Xiaomi Mi Smart Scale
 - [ ] XMTZC02HM/XMTZC05HM — Xiaomi Mi Body Composition Scale
@@ -150,4 +152,4 @@ Source catalog: https://decoder.theengs.io/devices/devices.html
 
 ## Next implementation order
 
-Continue from the first unchecked device in the full catalog, five devices per batch. A device is checked only after a HomeController profile exists and is indexed; hardware-unverified ports remain `experimental`.
+Continue from the first unchecked device in the full catalog, five devices per batch. A device is checked only after a HomeController profile exists and is indexed; hardware-unverified ports remain `experimental`. Every future implementation batch must update this checklist in the same commit/batch so completed devices cannot remain unchecked.
