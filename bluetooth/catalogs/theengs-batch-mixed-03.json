@@ -1,0 +1,1 @@
+{"schemaVersion":1,"catalogId":"theengs-mixed-03","profiles":["../profiles/atomax-skale-v1.json","../profiles/smartdry-laundry-sensor-v1.json","../profiles/generic-tpms-v1.json","../profiles/generic-br-tpms-v1.json","../profiles/kkm-k6p-v1.json"]}
