@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.91",
-      "versionCode": 1787905965,
-      "publishedUtc": "2026-08-28T08:32:45Z",
-      "notes": "Add remaining semantic localization entries"
-    },
-    {
       "version": "1.0.92",
       "versionCode": 1787906208,
       "publishedUtc": "2026-08-28T08:36:48Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1790445868,
       "publishedUtc": "2026-09-26T18:04:28Z",
       "notes": "Register next five BLE profiles"
+    },
+    {
+      "version": "1.0.366",
+      "versionCode": 1790446165,
+      "publishedUtc": "2026-09-26T18:09:25Z",
+      "notes": "Add SONOFF eWeLink BLE profile"
     }
   ]
 }
