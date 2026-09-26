@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/ble-profile-v1.schema.json",
+  "schemaVersion": 1,
+  "id": "oras-hydractiva-digital",
+  "version": 1,
+  "minimumRuntimeVersion": 1,
+  "status": "experimental",
+  "protocol": "BLE manufacturer data",
+  "match": { "manufacturerDataPrefixes": ["EEFA"] },
+  "source": { "name": "Theengs Decoder Amphiro/ADHS protocol facts", "url": "https://decoder.theengs.io/devices/ADHS.html", "license": "Protocol facts independently re-expressed in HomeController DeviceDB; Theengs Decoder implementation is GPL-3.0." },
+  "fields": [
+    { "code": "session", "name": "Session", "unit": "int", "input": { "kind": "manufacturerData" }, "decode": { "type": "uint24le", "offset": 2 } },
+    { "code": "duration", "name": "Duration", "unit": "s", "input": { "kind": "manufacturerData" }, "decode": { "type": "uint16le", "offset": 5 } },
+    { "code": "water", "name": "Water", "unit": "L", "input": { "kind": "manufacturerData" }, "decode": { "type": "uint24le", "offset": 10, "scale": 0.000390625 } },
+    { "code": "temperature", "name": "Temperature", "unit": "°C", "input": { "kind": "manufacturerData" }, "decode": { "type": "uint8", "offset": 13 } },
+    { "code": "energy", "name": "Energy", "unit": "kWh", "input": { "kind": "manufacturerData" }, "decode": { "type": "uint16le", "offset": 14, "scale": 0.01 } }
+  ]
+}
