@@ -1,0 +1,21 @@
+{
+  "$schema": "../../schemas/ble-profile-v1.schema.json",
+  "schemaVersion": 1,
+  "id": "yeelight-ble",
+  "version": 1,
+  "minimumRuntimeVersion": 1,
+  "status": "experimental",
+  "protocol": "Yeelight BLE advertisement",
+  "match": {
+    "namePatterns": [
+      "Yeelight*",
+      "YL*"
+    ]
+  },
+  "source": {
+    "name": "OpenMQTTGateway/Theengs ecosystem",
+    "url": "https://github.com/theengs/decoder",
+    "notes": "Yeelight BLE lighting and sensor family; model-specific payloads remain experimental."
+  },
+  "fields": []
+}
