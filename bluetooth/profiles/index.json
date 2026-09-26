@@ -1,7 +1,7 @@
 {
   "$schema": "../../schemas/ble-profile-index-v1.schema.json",
   "schemaVersion": 1,
-  "catalogVersion": 10,
+  "catalogVersion": 11,
   "profiles": [
     { "id": "xiaomi-flower-care", "version": 1, "path": "bluetooth/profiles/xiaomi-flower-care-v1.json", "minimumRuntimeVersion": 1, "sha256": "54882BF6434ACA0444F4B98F4D08FB714A8489A216491D7AF84B5DF1FEDB3D1A", "status": "stable" },
     { "id": "april-brother-abn07", "version": 1, "path": "bluetooth/profiles/april-brother-abn07-v1.json", "minimumRuntimeVersion": 1, "sha256": "DD5D366C16EBC4405C4CAF75F98803BB1E5E9527F9B76E146D203C69953E4535", "status": "experimental" },
@@ -30,6 +30,11 @@
     { "id": "qingping-cgdk2", "version": 1, "path": "bluetooth/profiles/qingping-cgdk2-v1.json", "minimumRuntimeVersion": 1, "sha256": "3C61AA11D43A6C9426CCD17DDAB259FA2CDC93BA0C9D3C271F5C4560D0FDA338", "status": "experimental" },
     { "id": "qingping-cgdn1", "version": 1, "path": "bluetooth/profiles/qingping-cgdn1-v1.json", "minimumRuntimeVersion": 1, "sha256": "686C3A618DAEBA21622DFEE09F37A792C72CF4B8A33026D718845E839BB1CFF5", "status": "experimental" },
     { "id": "qingping-cgh1", "version": 1, "path": "bluetooth/profiles/qingping-cgh1-v1.json", "minimumRuntimeVersion": 1, "sha256": "4EE810C840D24786968B9D0269B87D391713842E5844A3EA48B1B87F5B37CBE8", "status": "experimental" },
-    { "id": "qingping-cgp1w", "version": 1, "path": "bluetooth/profiles/qingping-cgp1w-v1.json", "minimumRuntimeVersion": 1, "sha256": "C8FA7E84DE0F3949796EB8601C1F5923507B3A6377738DB75BEA5C279AB8FB00", "status": "experimental" }
+    { "id": "qingping-cgp1w", "version": 1, "path": "bluetooth/profiles/qingping-cgp1w-v1.json", "minimumRuntimeVersion": 1, "sha256": "C8FA7E84DE0F3949796EB8601C1F5923507B3A6377738DB75BEA5C279AB8FB00", "status": "experimental" },
+    { "id": "qingping-cgp22c", "version": 1, "path": "bluetooth/profiles/qingping-cgp22c-v1.json", "minimumRuntimeVersion": 1, "sha256": "D028A3A9E2260AF99D071C9AF4376631EF96D2B38D6CFE9FA83409CC9EBD379C", "status": "experimental" },
+    { "id": "qingping-cgp23w", "version": 1, "path": "bluetooth/profiles/qingping-cgp23w-v1.json", "minimumRuntimeVersion": 1, "sha256": "C4ED9E058FB899489905B633A6F4DD3D394443F097F0E517914F3743E7CBEBD9", "status": "experimental" },
+    { "id": "qingping-cgpr1", "version": 1, "path": "bluetooth/profiles/qingping-cgpr1-v1.json", "minimumRuntimeVersion": 1, "sha256": "BAAE04FB8E4D93BBE8257D19E2DA78E00501386958406C76475BAE326E1A2C7E", "status": "experimental" },
+    { "id": "govee-h5072", "version": 1, "path": "bluetooth/profiles/govee-h5072-v1.json", "minimumRuntimeVersion": 1, "sha256": "53D7F74AB296B5E13D2817BE2E4E6AA94F5D8EA43043576CCB64DC79B9E26A60", "status": "experimental" },
+    { "id": "govee-h5074", "version": 1, "path": "bluetooth/profiles/govee-h5074-v1.json", "minimumRuntimeVersion": 1, "sha256": "3BCB73241C629F35A2CB59C85A9B73E36C1D8D023B28DB8689916916E3D56BFA", "status": "experimental" }
   ]
 }
