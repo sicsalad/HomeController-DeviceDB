@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schemas/ble-profile-v1.schema.json",
+  "schemaVersion": 1,
+  "id": "april-brother-abtemp",
+  "version": 1,
+  "minimumRuntimeVersion": 1,
+  "status": "experimental",
+  "protocol": "iBeacon manufacturer data",
+  "match": { "manufacturerDataPrefixes": ["4C000215B5B182C7EAB14988AA99B5C1517008D9"] },
+  "source": { "name": "Theengs Decoder ABTemp protocol facts", "url": "https://decoder.theengs.io/devices/ABTemp.html", "license": "Protocol facts independently re-expressed in HomeController DeviceDB; Theengs Decoder implementation is GPL-3.0." },
+  "fields": [
+    { "code": "battery", "name": "Battery", "unit": "%", "input": { "kind": "manufacturerData" }, "decode": { "type": "uint8", "offset": 22 } },
+    { "code": "temperature", "name": "Temperature", "unit": "°C", "input": { "kind": "manufacturerData" }, "decode": { "type": "uint8", "offset": 23 } },
+    { "code": "txPower", "name": "Signal strength", "unit": "dBm", "input": { "kind": "manufacturerData" }, "decode": { "type": "int8", "offset": 24 } }
+  ]
+}
