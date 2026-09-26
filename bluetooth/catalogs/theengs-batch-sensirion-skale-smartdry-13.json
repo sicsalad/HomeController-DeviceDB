@@ -1,0 +1,1 @@
+{"schemaVersion":1,"batch":"theengs-next-5-13","profiles":["../profiles/switchbot-bot-x1-v1.json","../profiles/sensirion-sht4x-v1.json","../profiles/sensirion-scd4x-v1.json","../profiles/atomax-skale-v1.json","../profiles/smartdry-laundry-sensor-v1.json"]}
