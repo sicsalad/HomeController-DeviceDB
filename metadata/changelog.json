@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.77",
-      "versionCode": 1787865335,
-      "publishedUtc": "2026-08-27T21:15:35Z",
-      "notes": "Install complete five-language localization packages"
-    },
-    {
       "version": "1.0.78",
       "versionCode": 1787865376,
       "publishedUtc": "2026-08-27T21:16:16Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1790442944,
       "publishedUtc": "2026-09-26T17:15:44Z",
       "notes": "Add April Brother N07 decoder vector"
+    },
+    {
+      "version": "1.0.348",
+      "versionCode": 1790442963,
+      "publishedUtc": "2026-09-26T17:16:03Z",
+      "notes": "Publish April Brother N07 experimental BLE profile"
     }
   ]
 }
