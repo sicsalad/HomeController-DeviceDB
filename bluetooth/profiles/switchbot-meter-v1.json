@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/ble-profile-v1.schema.json",
+  "schemaVersion": 1,
+  "id": "switchbot-meter",
+  "version": 1,
+  "minimumRuntimeVersion": 1,
+  "status": "experimental",
+  "protocol": "SwitchBot Meter advertisement",
+  "match": { "namePatterns": ["WoSensorTH*", "Meter*"], "serviceDataUuids": ["0D00", "FD3D"] },
+  "source": { "name": "Theengs Decoder", "url": "https://github.com/theengs/decoder/blob/development/src/devices/SBMT_json.h", "license": "GPL-3.0", "notes": "SwitchBot Meter / Meter Plus THX1/W230150X broadcast variants." },
+  "fields": []
+}
