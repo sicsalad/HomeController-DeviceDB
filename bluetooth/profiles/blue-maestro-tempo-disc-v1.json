@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/ble-profile-v1.schema.json",
+  "schemaVersion": 1,
+  "id": "blue-maestro-tempo-disc",
+  "version": 1,
+  "minimumRuntimeVersion": 1,
+  "status": "experimental",
+  "protocol": "BLE manufacturer data",
+  "match": { "manufacturerDataPrefixes": ["3301"] },
+  "source": { "name": "Theengs Decoder TD1in1 protocol facts", "url": "https://decoder.theengs.io/devices/TD1in1.html", "license": "Protocol facts independently re-expressed in HomeController DeviceDB; Theengs Decoder implementation is GPL-3.0." },
+  "fields": [
+    { "code": "battery", "name": "Battery", "unit": "%", "input": { "kind": "manufacturerData" }, "decode": { "type": "uint8", "offset": 3 } },
+    { "code": "temperature", "name": "Temperature", "unit": "°C", "input": { "kind": "manufacturerData" }, "decode": { "type": "int16le", "offset": 8, "scale": 0.1 } }
+  ]
+}
