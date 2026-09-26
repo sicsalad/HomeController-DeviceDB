@@ -1,0 +1,15 @@
+{
+  "$schema":"../../schemas/ble-profile-v1.schema.json",
+  "schemaVersion":1,
+  "id":"govee-h5108",
+  "version":1,
+  "minimumRuntimeVersion":1,
+  "status":"experimental",
+  "protocol":"Govee H5108 manufacturer advertisement",
+  "match":{"namePatterns":["GV5108*"]},
+  "source":{"name":"Theengs Decoder H5102 family research reference","url":"https://github.com/theengs/decoder/blob/development/src/devices/H5102_json.h","license":"GPL-3.0 research reference only","notes":"Independent HomeController profile for H5108 Smart Probe Thermometer; shared H510x packed advertisement; hardware-unverified."},
+  "fields":[
+    {"code":"temperatureRaw","name":"Packed probe temperature","input":{"kind":"manufacturerData"},"decode":{"type":"uint24be","offset":4}},
+    {"code":"battery","name":"Battery","unit":"%","input":{"kind":"manufacturerData"},"decode":{"type":"uint8","offset":7}}
+  ]
+}
