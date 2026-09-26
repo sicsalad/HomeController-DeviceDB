@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/ble-profile-v1.schema.json",
+  "schemaVersion": 1,
+  "id": "bluecharm-ksensor",
+  "version": 1,
+  "minimumRuntimeVersion": 1,
+  "status": "experimental",
+  "protocol": "BlueCharm KSensor Eddystone service data",
+  "match": { "serviceUuids": ["FEAA"], "serviceDataUuids": ["FEAA"] },
+  "source": { "name": "BlueCharm KSensor protocol facts documented by Theengs Decoder", "url": "https://decoder.theengs.io/devices/KSensor.html", "license": "Protocol facts independently re-expressed in HomeController DeviceDB; Theengs Decoder implementation is GPL-3.0.", "notes": "Temperature calibration byte is device-specific; v1 profile exposes the base temperature plus acceleration and voltage while remaining experimental." },
+  "fields": [
+    { "code": "voltage", "name": "Voltage", "unit": "V", "input": { "kind": "serviceData", "serviceUuid": "FEAA" }, "decode": { "type": "uint16be", "offset": 3, "scale": 0.001 } },
+    { "code": "temperature", "name": "Temperature", "unit": "°C", "input": { "kind": "serviceData", "serviceUuid": "FEAA" }, "decode": { "type": "int8", "offset": 5 } },
+    { "code": "accelerationX", "name": "Acceleration X", "unit": "m/s²", "input": { "kind": "serviceData", "serviceUuid": "FEAA" }, "decode": { "type": "int16be", "offset": 7 } },
+    { "code": "accelerationY", "name": "Acceleration Y", "unit": "m/s²", "input": { "kind": "serviceData", "serviceUuid": "FEAA" }, "decode": { "type": "int16be", "offset": 9 } },
+    { "code": "accelerationZ", "name": "Acceleration Z", "unit": "m/s²", "input": { "kind": "serviceData", "serviceUuid": "FEAA" }, "decode": { "type": "int16be", "offset": 11 } }
+  ]
+}
