@@ -1,0 +1,15 @@
+{
+  "$schema":"../../schemas/ble-profile-v1.schema.json",
+  "schemaVersion":1,
+  "id":"govee-h5140",
+  "version":1,
+  "minimumRuntimeVersion":1,
+  "status":"experimental",
+  "protocol":"Govee H5140 manufacturer advertisement",
+  "match":{"namePatterns":["GV5140*"]},
+  "source":{"name":"Theengs Decoder H5140 research reference","url":"https://github.com/theengs/decoder/blob/development/src/devices/H5140_json.h","license":"GPL-3.0 research reference only","notes":"Independent HomeController profile. Header 01000101, packed temperature/humidity at bytes 4-6 and CO2 at bytes 7-8; hardware-unverified."},
+  "fields":[
+    {"code":"temperatureHumidityRaw","name":"Packed temperature/humidity","input":{"kind":"manufacturerData"},"decode":{"type":"uint24be","offset":4}},
+    {"code":"carbonDioxide","name":"Carbon dioxide","unit":"ppm","input":{"kind":"manufacturerData"},"decode":{"type":"uint16be","offset":7}}
+  ]
+}
