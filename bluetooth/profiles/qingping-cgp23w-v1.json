@@ -1,0 +1,11 @@
+{
+  "$schema":"../../schemas/ble-profile-v1.schema.json","schemaVersion":1,"id":"qingping-cgp23w","version":1,"minimumRuntimeVersion":1,"status":"experimental","protocol":"Qingping FDCD service data",
+  "match":{"serviceDataUuids":["fdcd"]},
+  "source":{"name":"Theengs Decoder CGP23W","url":"https://github.com/theengs/decoder/blob/development/src/devices/CGP23W_json.h","license":"GPL-3.0 research reference only","notes":"Independent HomeController profile derived from documented advertisement layout; hardware-unverified."},
+  "fields":[
+    {"code":"temperature","name":"Temperature","unit":"°C","input":{"kind":"serviceData","serviceUuid":"fdcd"},"decode":{"type":"int16le","offset":10,"scale":0.1}},
+    {"code":"humidity","name":"Humidity","unit":"%","input":{"kind":"serviceData","serviceUuid":"fdcd"},"decode":{"type":"int16le","offset":12,"scale":0.1}},
+    {"code":"battery","name":"Battery","unit":"%","input":{"kind":"serviceData","serviceUuid":"fdcd"},"decode":{"type":"uint8","offset":16,"mask":127}},
+    {"code":"pressure","name":"Pressure","unit":"hPa","input":{"kind":"serviceData","serviceUuid":"fdcd"},"decode":{"type":"int16le","offset":19,"scale":0.1}}
+  ]
+}
