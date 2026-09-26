@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1374",
-                         "versionCode":  1789171729,
-                         "publishedUtc":  "2026-09-12T00:15:11Z",
-                         "notes":  "Improve PC Remote responsive controls and keyboard layout"
-                     },
-                     {
                          "version":  "1.0.1375",
                          "versionCode":  1789172980,
                          "publishedUtc":  "2026-09-12T00:34:09Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790380535,
                          "publishedUtc":  "2026-09-26T00:03:47Z",
                          "notes":  "Fix device taps after home drag and drop"
+                     },
+                     {
+                         "version":  "1.0.1468",
+                         "versionCode":  1790420099,
+                         "publishedUtc":  "2026-09-26T11:03:28Z",
+                         "notes":  "Fix BLE learning reusing exhausted GATT connection"
                      }
                  ]
 }
