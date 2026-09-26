@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "profileId": "april-brother-abn07",
+  "profileVersion": 1,
+  "vectors": [
+    {
+      "name": "firmware 4.0.1 service-data sample",
+      "input": {
+        "kind": "serviceData",
+        "serviceUuid": "FCD2",
+        "name": "asensor_7F7F"
+      },
+      "rawHex": "4000100164029309038612",
+      "expected": [
+        { "code": "packet", "value": 16, "unit": "int" },
+        { "code": "battery", "value": 100, "unit": "%" },
+        { "code": "temperature", "value": 24.51, "unit": "°C" },
+        { "code": "humidity", "value": 47.42, "unit": "%" }
+      ]
+    }
+  ]
+}
