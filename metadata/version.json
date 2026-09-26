@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.348",
-  "versionCode": 1790442963,
-  "publishedUtc": "2026-09-26T17:16:03Z",
-  "commit": "08171339ca198b98fcaa47eac15536952d307167",
-  "patchNotes": "Publish April Brother N07 experimental BLE profile"
+  "version": "1.0.349",
+  "versionCode": 1790442995,
+  "publishedUtc": "2026-09-26T17:16:35Z",
+  "commit": "6966c70857c7fb09d8c20a5ab3ab9ba593bf607c",
+  "patchNotes": "Fix ABN07 profile name matcher"
 }
