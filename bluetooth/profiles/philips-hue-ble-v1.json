@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/ble-profile-v1.schema.json",
+  "schemaVersion": 1,
+  "id": "philips-hue-ble",
+  "version": 1,
+  "minimumRuntimeVersion": 1,
+  "status": "experimental",
+  "protocol": "Philips Hue Bluetooth LE",
+  "match": {
+    "namePatterns": [
+      "Hue*",
+      "Philips Hue*"
+    ],
+    "serviceUuids": [
+      "0000FE0F-0000-1000-8000-00805F9B34FB"
+    ]
+  },
+  "source": {
+    "name": "Philips Hue developer ecosystem",
+    "url": "https://developers.meethue.com/",
+    "notes": "Bluetooth-capable Hue lights; GATT capabilities vary by generation."
+  },
+  "fields": []
+}
