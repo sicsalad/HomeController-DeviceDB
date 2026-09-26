@@ -1,0 +1,10 @@
+{
+  "$schema":"../../schemas/ble-profile-v1.schema.json","schemaVersion":1,"id":"govee-h5179","version":1,"minimumRuntimeVersion":1,"status":"experimental","protocol":"Govee H5179 manufacturer advertisement",
+  "match":{"namePatterns":["Govee_H5179*","GV5179*"]},
+  "source":{"name":"Theengs Decoder H5179 research reference","url":"https://github.com/theengs/decoder/blob/development/src/devices/H5179_json.h","license":"GPL-3.0 research reference only","notes":"Independent HomeController profile covering the H5179 advertisement variants; hardware-unverified."},
+  "fields":[
+    {"code":"temperatureRaw","name":"Temperature raw","input":{"kind":"manufacturerData"},"decode":{"type":"uint16be","offset":6}},
+    {"code":"humidityRaw","name":"Humidity raw","input":{"kind":"manufacturerData"},"decode":{"type":"uint16be","offset":8}},
+    {"code":"battery","name":"Battery","unit":"%","input":{"kind":"manufacturerData"},"decode":{"type":"uint8","offset":10}}
+  ]
+}
