@@ -65,15 +65,15 @@ Source catalog: https://decoder.theengs.io/devices/devices.html
 - [x] HHCCPOT002 — Xiaomi RoPot
 - [-] IBEACON — Generic iBeacon protocol family
 - [x] IBS-P01B — Inkbird Pool Thermometer
-- [ ] IBS-P02B — Inkbird Pool Thermometer
+- [x] IBS-P02B — Inkbird Pool Thermometer
 - [x] IBS-TH1 — Inkbird Thermometer Hygrometer
 - [x] IBS-TH2 — Inkbird Thermometer Hygrometer
-- [ ] IBT_2X(S) — Inkbird BBQ 2-probe
-- [ ] IBT_4X(S/C) — Inkbird BBQ 4-probe
-- [ ] IBT_6X(S) — Inkbird BBQ 6-probe
+- [x] IBT_2X(S) — Inkbird BBQ 2-probe
+- [x] IBT_4X(S/C) — Inkbird BBQ 4-probe
+- [x] IBT_6X(S) — Inkbird BBQ 6-probe
 - [x] INEM — iNode Energy Meter
 - [x] ITH-12S — Inkbird Thermometer Hygrometer
-- [ ] JQJCY01YM — Xiaomi Formaldehyde Detector
+- [x] JQJCY01YM — Xiaomi Formaldehyde Detector
 - [x] K6P — KKM Long Range K6P
 - [x] K9 — KKM Tracking K9
 - [x] KSensor — BlueCharm/KKM Beacon
@@ -111,7 +111,7 @@ Source catalog: https://decoder.theengs.io/devices/devices.html
 - [-] ServiceData — Generic Bluetooth SIG service-data family
 - [x] SHT4X — Sensirion TH Sensor
 - [x] SKALE — Atomax Skale I/II
-- [ ] SOLIS_6 — Ternergy BBQ 6-probe
+- [x] SOLIS_6 — Ternergy BBQ 6-probe (shared IBT-6X/SOLIS-6 wire format)
 - [ ] SPHT — SensorPush HT.w
 - [ ] SPHTP — SensorPush HTP.xw
 - [x] T201 — Oria/Brifit/SigmaWit/SensorPro TH
