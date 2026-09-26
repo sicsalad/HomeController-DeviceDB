@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.85",
-      "versionCode": 1787871134,
-      "publishedUtc": "2026-08-27T22:52:14Z",
-      "notes": "Add semantic device label normalization workflow"
-    },
-    {
       "version": "1.0.87",
       "versionCode": 1787871245,
       "publishedUtc": "2026-08-27T22:54:05Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1790443009,
       "publishedUtc": "2026-09-26T17:16:49Z",
       "notes": "Refresh ABN07 BLE profile hash"
+    },
+    {
+      "version": "1.0.351",
+      "versionCode": 1790444197,
+      "publishedUtc": "2026-09-26T17:36:37Z",
+      "notes": "Add Theengs BLE device implementation catalog"
     }
   ]
 }
