@@ -1,0 +1,10 @@
+{
+  "$schema":"../../schemas/ble-profile-v1.schema.json","schemaVersion":1,"id":"govee-h5074","version":1,"minimumRuntimeVersion":1,"status":"experimental","protocol":"Govee manufacturer advertisement",
+  "match":{"namePatterns":["Govee_H5074"],"manufacturerIds":[60552]},
+  "source":{"name":"Theengs Decoder H5074","url":"https://github.com/theengs/decoder/blob/development/src/devices/H5074_json.h","license":"GPL-3.0 research reference only","notes":"Independent HomeController profile derived from documented advertisement layout; hardware-unverified."},
+  "fields":[
+    {"code":"temperature","name":"Temperature","unit":"°C","input":{"kind":"manufacturerData","manufacturerId":60552},"decode":{"type":"int16be","offset":3,"scale":0.01}},
+    {"code":"humidity","name":"Humidity","unit":"%","input":{"kind":"manufacturerData","manufacturerId":60552},"decode":{"type":"int16be","offset":5,"scale":0.01}},
+    {"code":"battery","name":"Battery","unit":"%","input":{"kind":"manufacturerData","manufacturerId":60552},"decode":{"type":"uint8","offset":7}}
+  ]
+}
