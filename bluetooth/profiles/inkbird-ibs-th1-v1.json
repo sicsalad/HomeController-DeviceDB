@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/ble-profile-v1.schema.json",
+  "schemaVersion": 1,
+  "id": "inkbird-ibs-th1",
+  "version": 1,
+  "minimumRuntimeVersion": 1,
+  "status": "experimental",
+  "protocol": "Inkbird manufacturer advertisement",
+  "match": { "namePatterns": ["sps*", "tps*", "IBS-TH1*", "IBS-TH2*"] },
+  "source": { "name": "Theengs Decoder", "url": "https://github.com/theengs/decoder/blob/development/src/devices/IBS_THBP01B_json.h", "license": "GPL-3.0", "notes": "Inkbird IBS-TH1/TH2/P01B/ITH-12S temperature, humidity and battery broadcasts." },
+  "fields": []
+}
