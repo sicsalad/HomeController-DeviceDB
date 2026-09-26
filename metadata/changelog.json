@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.94",
-      "versionCode": 1787923664,
-      "publishedUtc": "2026-08-28T13:27:44Z",
-      "notes": "themes"
-    },
-    {
       "version": "1.0.95",
       "versionCode": 1787924844,
       "publishedUtc": "2026-08-28T13:47:24Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1790446470,
       "publishedUtc": "2026-09-26T18:14:30Z",
       "notes": "Add Oras Hydractiva Digital BLE profile"
+    },
+    {
+      "version": "1.0.372",
+      "versionCode": 1790446479,
+      "publishedUtc": "2026-09-26T18:14:39Z",
+      "notes": "Add Blue Maestro Tempo Disc BLE profile"
     }
   ]
 }
