@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/ble-profile-v1.schema.json",
+  "schemaVersion": 1,
+  "id": "govee-h5075",
+  "version": 1,
+  "minimumRuntimeVersion": 1,
+  "status": "experimental",
+  "protocol": "Govee manufacturer advertisement",
+  "match": { "namePatterns": ["GVH5075*"], "manufacturerIds": [60552] },
+  "source": { "name": "Theengs Decoder", "url": "https://github.com/theengs/decoder/blob/development/src/devices/H5072_json.h", "license": "GPL-3.0", "notes": "Govee H5075/H5072 packed temperature, humidity and battery advertisement." },
+  "fields": []
+}
