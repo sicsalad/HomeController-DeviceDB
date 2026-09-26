@@ -1,18 +1,1 @@
-{
-  "$schema": "../../schemas/ble-profile-v1.schema.json",
-  "schemaVersion": 1,
-  "id": "qingping-cgdn1",
-  "version": 1,
-  "minimumRuntimeVersion": 1,
-  "status": "experimental",
-  "protocol": "Qingping FDCD service-data advertisement",
-  "match": { "serviceUuids": ["FDCD"], "serviceDataUuids": ["FDCD"] },
-  "source": { "name": "Qingping CGDN1 protocol facts documented by Theengs Decoder", "url": "https://decoder.theengs.io/devices/CGDN1.html", "license": "Protocol facts independently re-expressed in HomeController DeviceDB; Theengs Decoder implementation is GPL-3.0.", "notes": "Air Monitor Lite fixed FDCD payload. Experimental because the current profile matcher cannot yet constrain the model discriminator byte." },
-  "fields": [
-    { "code": "temperature", "name": "Temperature", "unit": "°C", "input": { "kind": "serviceData", "serviceUuid": "FDCD" }, "decode": { "type": "int16le", "offset": 10, "scale": 0.1 } },
-    { "code": "humidity", "name": "Humidity", "unit": "%", "input": { "kind": "serviceData", "serviceUuid": "FDCD" }, "decode": { "type": "int16le", "offset": 12, "scale": 0.1, "minimum": 0, "maximum": 100 } },
-    { "code": "pm25", "name": "PM2.5", "unit": "µg/m³", "input": { "kind": "serviceData", "serviceUuid": "FDCD" }, "decode": { "type": "int16le", "offset": 16, "minimum": 0 } },
-    { "code": "pm10", "name": "PM10", "unit": "µg/m³", "input": { "kind": "serviceData", "serviceUuid": "FDCD" }, "decode": { "type": "int16le", "offset": 18, "minimum": 0 } },
-    { "code": "co2", "name": "CO₂", "unit": "ppm", "input": { "kind": "serviceData", "serviceUuid": "FDCD" }, "decode": { "type": "int16le", "offset": 22, "minimum": 0 } }
-  ]
-}
+{"$schema":"../../schemas/ble-profile-v1.schema.json","schemaVersion":1,"id":"qingping-cgdn1","version":1,"minimumRuntimeVersion":1,"status":"experimental","protocol":"Qingping Air Monitor Lite CGDN1 advertisement","match":{"namePatterns":["Qingping Air Monitor","CGDN1"],"serviceDataUuids":["fdcd"]},"source":{"name":"Theengs Decoder CGDN1 protocol facts","url":"https://github.com/theengs/decoder/blob/development/src/devices/CGDN1_json.h","license":"Protocol facts independently re-expressed in HomeController DeviceDB; Theengs Decoder implementation is GPL-3.0.","notes":"Independent CGDN1 profile for temperature, humidity, PM2.5, PM10 and CO2; hardware-unverified."},"fields":[{"code":"temperature","name":"Temperature","unit":"°C","input":{"kind":"serviceData","serviceUuid":"fdcd"},"decode":{"type":"int16le","offset":10,"scale":0.1}},{"code":"humidity","name":"Humidity","unit":"%","input":{"kind":"serviceData","serviceUuid":"fdcd"},"decode":{"type":"uint16le","offset":12,"scale":0.1}},{"code":"pm25","name":"PM2.5","unit":"μg/m³","input":{"kind":"serviceData","serviceUuid":"fdcd"},"decode":{"type":"uint16le","offset":16}},{"code":"pm10","name":"PM10","unit":"μg/m³","input":{"kind":"serviceData","serviceUuid":"fdcd"},"decode":{"type":"uint16le","offset":18}},{"code":"co2","name":"Carbon dioxide","unit":"ppm","input":{"kind":"serviceData","serviceUuid":"fdcd"},"decode":{"type":"uint16le","offset":22}}]}

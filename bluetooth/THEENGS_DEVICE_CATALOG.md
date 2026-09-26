@@ -19,13 +19,13 @@ Source catalog: https://decoder.theengs.io/devices/devices.html
 - [x] ABN03 — April Brother Sensor N03
 - [x] ABN07 — April Brother Sensor N07
 - [x] ABTemp — April Brother ABTemp
-- [ ] ADHS — Amphiro/Oras/Hansa Hydractiva/Activejet Digital
-- [ ] Amazfit — Amazfit Smart Watch/Band
+- [x] ADHS — Amphiro/Oras/Hansa Hydractiva/Activejet Digital
+- [x] Amazfit — Amazfit Smart Watch/Band
 - [x] APPLEAIRPODS — Apple AirPods (Pro)
 - [x] APPLEDEVICE — Apple iPhone/iPad
 - [x] APPLEWATCH — Apple Watch
 - [x] ARANET4 — Aranet4 CO2 Monitor
-- [ ] BEATSBUDS — Beats Solo/Studio Buds
+- [x] BEATSBUDS — Beats Solo/Studio Buds
 - [x] BM2 — Generic BM2 Battery Monitor
 - [x] BM6 — Generic BM6 Battery Monitor
 - [x] BPv1.0-2.0 — b-parasite environmental/soil sensor
@@ -33,8 +33,8 @@ Source catalog: https://decoder.theengs.io/devices/devices.html
 - [x] BTH01 — Tuya BTH01
 - [x] CGC1 — ClearGrass/Qingping Alarm Clock (shared CGC1/CGD1 profile)
 - [x] CGD1 — ClearGrass/Qingping Alarm Clock
-- [ ] CGDK2 — Qingping TH Lite
-- [ ] CGDN1 — Qingping Air Monitor Lite
+- [x] CGDK2 — Qingping TH Lite
+- [x] CGDN1 — Qingping Air Monitor Lite
 - [ ] CGG1 — Qingping Round Hygro Thermometer
 - [ ] CGH1 — Qingping Contact Sensor
 - [ ] CGP1W — Qingping Weather Station
@@ -83,7 +83,7 @@ Source catalog: https://decoder.theengs.io/devices/devices.html
 - [ ] M1017 — Mopeka/Lippert LPG Tank Sensor
 - [x] MBXPRO — MOKOSMART H4
 - [ ] MHO/MMC-C401_ATC/PVVX — Xiaomi Compact Temperature Sensor
-- [ ] MiBand — Xiaomi Mi Band
+- [x] MiBand — Xiaomi Mi Band
 - [ ] MJWSD05MMC_ATC/PVVX/BTHOME — Xiaomi Compact Temperature Sensor
 - [x] MokoBeacon — MOKOSMART Beacon
 - [x] MUE4094RT — Xiaomi Motion and Light
