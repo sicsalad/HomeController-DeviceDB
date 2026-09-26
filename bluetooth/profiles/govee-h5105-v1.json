@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/ble-profile-v1.schema.json",
+  "schemaVersion": 1,
+  "id": "govee-h5105",
+  "version": 1,
+  "minimumRuntimeVersion": 1,
+  "status": "experimental",
+  "protocol": "Govee H510x manufacturer advertisement",
+  "match": { "namePatterns": ["GVH5105*"], "manufacturerIds": [1] },
+  "source": { "name": "Theengs Decoder H5102 family", "url": "https://github.com/theengs/decoder/blob/development/src/devices/H5102_json.h", "license": "GPL-3.0 research reference only", "notes": "Independent HomeController profile for the shared H5100/01/02/04/05 family advertisement; hardware-unverified." },
+  "fields": [
+    { "code": "temperatureHumidityRaw", "name": "Packed temperature/humidity", "input": { "kind": "manufacturerData", "manufacturerId": 1 }, "decode": { "type": "uint24be", "offset": 4 } },
+    { "code": "battery", "name": "Battery", "unit": "%", "input": { "kind": "manufacturerData", "manufacturerId": 1 }, "decode": { "type": "uint8", "offset": 7 } }
+  ]
+}
