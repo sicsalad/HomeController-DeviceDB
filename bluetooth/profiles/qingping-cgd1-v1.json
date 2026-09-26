@@ -1,0 +1,68 @@
+{
+  "$schema": "../../schemas/ble-profile-v1.schema.json",
+  "schemaVersion": 1,
+  "id": "qingping-cgd1",
+  "version": 1,
+  "minimumRuntimeVersion": 1,
+  "status": "experimental",
+  "protocol": "BLE service data / FDCD",
+  "match": {
+    "serviceDataUuids": [
+      "FDCD"
+    ]
+  },
+  "source": {
+    "name": "Qingping CGC1/CGD1 protocol facts documented by Theengs Decoder",
+    "url": "https://decoder.theengs.io/devices/CGD1.html",
+    "license": "Protocol facts independently re-expressed in HomeController DeviceDB; Theengs Decoder implementation is GPL-3.0.",
+    "notes": "Fixed-layout FDCD service-data profile; hardware validation pending."
+  },
+  "fields": [
+    {
+      "code": "temperature",
+      "name": "Temperature",
+      "unit": "°C",
+      "input": {
+        "kind": "serviceData",
+        "serviceUuid": "FDCD"
+      },
+      "decode": {
+        "type": "int16le",
+        "offset": 10,
+        "scale": 0.1
+      }
+    },
+    {
+      "code": "humidity",
+      "name": "Humidity",
+      "unit": "%",
+      "input": {
+        "kind": "serviceData",
+        "serviceUuid": "FDCD"
+      },
+      "decode": {
+        "type": "uint16le",
+        "offset": 12,
+        "scale": 0.1,
+        "minimum": 0,
+        "maximum": 100
+      }
+    },
+    {
+      "code": "battery",
+      "name": "Battery",
+      "unit": "%",
+      "input": {
+        "kind": "serviceData",
+        "serviceUuid": "FDCD"
+      },
+      "decode": {
+        "type": "uint8",
+        "offset": 16,
+        "mask": 127,
+        "minimum": 0,
+        "maximum": 100
+      }
+    }
+  ]
+}
