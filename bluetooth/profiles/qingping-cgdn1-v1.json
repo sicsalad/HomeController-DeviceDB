@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/ble-profile-v1.schema.json",
+  "schemaVersion": 1,
+  "id": "qingping-cgdn1",
+  "version": 1,
+  "minimumRuntimeVersion": 1,
+  "status": "experimental",
+  "protocol": "Qingping FDCD service-data advertisement",
+  "match": { "serviceUuids": ["FDCD"], "serviceDataUuids": ["FDCD"] },
+  "source": { "name": "Qingping CGDN1 protocol facts documented by Theengs Decoder", "url": "https://decoder.theengs.io/devices/CGDN1.html", "license": "Protocol facts independently re-expressed in HomeController DeviceDB; Theengs Decoder implementation is GPL-3.0.", "notes": "Air Monitor Lite fixed FDCD payload. Experimental because the current profile matcher cannot yet constrain the model discriminator byte." },
+  "fields": [
+    { "code": "temperature", "name": "Temperature", "unit": "°C", "input": { "kind": "serviceData", "serviceUuid": "FDCD" }, "decode": { "type": "int16le", "offset": 10, "scale": 0.1 } },
+    { "code": "humidity", "name": "Humidity", "unit": "%", "input": { "kind": "serviceData", "serviceUuid": "FDCD" }, "decode": { "type": "int16le", "offset": 12, "scale": 0.1, "minimum": 0, "maximum": 100 } },
+    { "code": "pm25", "name": "PM2.5", "unit": "µg/m³", "input": { "kind": "serviceData", "serviceUuid": "FDCD" }, "decode": { "type": "int16le", "offset": 16, "minimum": 0 } },
+    { "code": "pm10", "name": "PM10", "unit": "µg/m³", "input": { "kind": "serviceData", "serviceUuid": "FDCD" }, "decode": { "type": "int16le", "offset": 18, "minimum": 0 } },
+    { "code": "co2", "name": "CO₂", "unit": "ppm", "input": { "kind": "serviceData", "serviceUuid": "FDCD" }, "decode": { "type": "int16le", "offset": 22, "minimum": 0 } }
+  ]
+}
