@@ -1,0 +1,12 @@
+{
+  "$schema":"../../schemas/ble-profile-v1.schema.json","schemaVersion":1,"id":"xiaomi-hhccjcy10","version":1,"minimumRuntimeVersion":1,"status":"experimental","protocol":"Xiaomi/VegTrug MiFlora FD50 service advertisement",
+  "match":{"serviceUuids":["fd50"]},
+  "source":{"name":"Theengs Decoder HHCCJCY10 research reference","url":"https://github.com/theengs/decoder/blob/development/src/devices/HHCCJCY10_json.h","license":"GPL-3.0 research reference only","notes":"Independent HomeController profile; FD50 service data exposes moisture, temperature, illuminance, battery and fertility; hardware-unverified."},
+  "fields":[
+    {"code":"moisture","name":"Moisture","unit":"%","input":{"kind":"serviceData","serviceUuid":"fd50"},"decode":{"type":"uint8","offset":0}},
+    {"code":"temperatureRaw","name":"Temperature raw","input":{"kind":"serviceData","serviceUuid":"fd50"},"decode":{"type":"int16le","offset":1}},
+    {"code":"illuminanceRaw","name":"Illuminance raw","unit":"lx","input":{"kind":"serviceData","serviceUuid":"fd50"},"decode":{"type":"uint24be","offset":3}},
+    {"code":"battery","name":"Battery","unit":"%","input":{"kind":"serviceData","serviceUuid":"fd50"},"decode":{"type":"uint8","offset":6}},
+    {"code":"fertilityRaw","name":"Fertility raw","unit":"µS/cm","input":{"kind":"serviceData","serviceUuid":"fd50"},"decode":{"type":"uint16be","offset":7}}
+  ]
+}
