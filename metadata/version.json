@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.351",
-  "versionCode": 1790444197,
-  "publishedUtc": "2026-09-26T17:36:37Z",
-  "commit": "dbe1693a41e91a4993d50cc624ac2172dab2d40a",
-  "patchNotes": "Add Theengs BLE device implementation catalog"
+  "version": "1.0.355",
+  "versionCode": 1790444244,
+  "publishedUtc": "2026-09-26T17:37:24Z",
+  "commit": "632e1ed83d2014161b7d7b65f7e0eef8204ea014",
+  "patchNotes": "Publish Qingping CGD1 BLE profile"
 }
