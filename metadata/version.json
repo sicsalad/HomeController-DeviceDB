@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.366",
-  "versionCode": 1790446165,
-  "publishedUtc": "2026-09-26T18:09:25Z",
-  "commit": "b101fccd67b3a69d3b7e69ad81693cbb4ef34e92",
-  "patchNotes": "Add SONOFF eWeLink BLE profile"
+  "version": "1.0.367",
+  "versionCode": 1790446179,
+  "publishedUtc": "2026-09-26T18:09:39Z",
+  "commit": "47c9ba383f660f566f6d8b68f092061f4c91ce08",
+  "patchNotes": "Register next five BLE profiles"
 }
