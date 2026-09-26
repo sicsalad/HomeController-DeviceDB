@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "id": "xiaomi-flower-care",
+  "version": 1,
+  "minimumRuntimeVersion": 1,
+  "status": "stable",
+  "protocol": "gatt",
+  "match": {
+    "namePatterns": [
+      "^Flower care$",
+      "^Mi Flora$",
+      "^HHCC"
+    ],
+    "serviceUuids": [
+      "00001204-0000-1000-8000-00805f9b34fb"
+    ],
+    "manufacturerIds": [],
+    "serviceDataUuids": [
+      "0000fe95-0000-1000-8000-00805f9b34fb"
+    ]
+  },
+  "source": {
+    "name": "Xiaomi Flower Care / Mi Flora BLE protocol",
+    "url": "https://github.com/SusanneThroner/FlowerCareESP32",
+    "license": "Reference implementation",
+    "notes": "Real-time values require A01F written to 1A00 before reading 1A01."
+  },
+  "fields": [
+    {
+      "code": "temperature",
+      "name": "Temperature",
+      "unit": "°C",
+      "input": {
+        "kind": "characteristic",
+        "serviceUuid": "00001204-0000-1000-8000-00805f9b34fb",
+        "characteristicUuid": "00001a01-0000-1000-8000-00805f9b34fb"
+      },
+      "decode": {
+        "type": "int16le",
+        "offset": 0,
+        "length": 2,
+        "scale": 0.1,
+        "add": 0
+      }
+    },
+    {
+      "code": "illuminance",
+      "name": "Light",
+      "unit": "lux",
+      "input": {
+        "kind": "characteristic",
+        "serviceUuid": "00001204-0000-1000-8000-00805f9b34fb",
+        "characteristicUuid": "00001a01-0000-1000-8000-00805f9b34fb"
+      },
+      "decode": {
+        "type": "uint32le",
+        "offset": 3,
+        "length": 4,
+        "scale": 1,
+        "add": 0
+      }
+    },
+    {
+      "code": "moisture",
+      "name": "Soil moisture",
+      "unit": "%",
+      "input": {
+        "kind": "characteristic",
+        "serviceUuid": "00001204-0000-1000-8000-00805f9b34fb",
+        "characteristicUuid": "00001a01-0000-1000-8000-00805f9b34fb"
+      },
+      "decode": {
+        "type": "uint8",
+        "offset": 7,
+        "length": 1,
+        "scale": 1,
+        "add": 0
+      }
+    },
+    {
+      "code": "conductivity",
+      "name": "Soil conductivity",
+      "unit": "µS/cm",
+      "input": {
+        "kind": "characteristic",
+        "serviceUuid": "00001204-0000-1000-8000-00805f9b34fb",
+        "characteristicUuid": "00001a01-0000-1000-8000-00805f9b34fb"
+      },
+      "decode": {
+        "type": "uint16le",
+        "offset": 8,
+        "length": 2,
+        "scale": 1,
+        "add": 0
+      }
+    },
+    {
+      "code": "battery",
+      "name": "Battery",
+      "unit": "%",
+      "input": {
+        "kind": "characteristic",
+        "serviceUuid": "00001204-0000-1000-8000-00805f9b34fb",
+        "characteristicUuid": "00001a02-0000-1000-8000-00805f9b34fb"
+      },
+      "decode": {
+        "type": "uint8",
+        "offset": 0,
+        "length": 1,
+        "scale": 1,
+        "add": 0
+      }
+    },
+    {
+      "code": "firmware",
+      "name": "Firmware",
+      "unit": null,
+      "input": {
+        "kind": "characteristic",
+        "serviceUuid": "00001204-0000-1000-8000-00805f9b34fb",
+        "characteristicUuid": "00001a02-0000-1000-8000-00805f9b34fb"
+      },
+      "decode": {
+        "type": "ascii",
+        "offset": 2,
+        "length": 5,
+        "scale": 1,
+        "add": 0
+      }
+    }
+  ],
+  "operations": [
+    {
+      "id": "enable-realtime",
+      "kind": "write",
+      "serviceUuid": "00001204-0000-1000-8000-00805f9b34fb",
+      "characteristicUuid": "00001a00-0000-1000-8000-00805f9b34fb",
+      "valueHex": "A01F",
+      "safe": true
+    },
+    {
+      "id": "settle",
+      "kind": "wait",
+      "milliseconds": 150,
+      "safe": true
+    },
+    {
+      "id": "read-realtime",
+      "kind": "read",
+      "serviceUuid": "00001204-0000-1000-8000-00805f9b34fb",
+      "characteristicUuid": "00001a01-0000-1000-8000-00805f9b34fb",
+      "safe": true
+    },
+    {
+      "id": "read-battery-firmware",
+      "kind": "read",
+      "serviceUuid": "00001204-0000-1000-8000-00805f9b34fb",
+      "characteristicUuid": "00001a02-0000-1000-8000-00805f9b34fb",
+      "safe": true
+    }
+  ]
+}
