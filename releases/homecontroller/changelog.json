@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1377",
-                         "versionCode":  1789173815,
-                         "publishedUtc":  "2026-09-12T00:48:12Z",
-                         "notes":  "Add persistent Google Cast controls to local video viewer"
-                     },
-                     {
                          "version":  "1.0.1378",
                          "versionCode":  1789175568,
                          "publishedUtc":  "2026-09-12T01:17:22Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790428826,
                          "publishedUtc":  "2026-09-26T13:28:56Z",
                          "notes":  "Make BLE learning reconnect resilient and reuse successful baseline"
+                     },
+                     {
+                         "version":  "1.0.1471",
+                         "versionCode":  1790429410,
+                         "publishedUtc":  "2026-09-26T13:38:21Z",
+                         "notes":  "Pass successful BLE auto probe into guided learning"
                      }
                  ]
 }
