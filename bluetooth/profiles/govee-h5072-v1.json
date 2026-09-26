@@ -1,0 +1,9 @@
+{
+  "$schema":"../../schemas/ble-profile-v1.schema.json","schemaVersion":1,"id":"govee-h5072","version":1,"minimumRuntimeVersion":1,"status":"experimental","protocol":"Govee manufacturer advertisement",
+  "match":{"namePatterns":["GVH5072"],"manufacturerIds":[60552]},
+  "source":{"name":"Theengs Decoder H5072/H5075","url":"https://github.com/theengs/decoder/blob/development/src/devices/H5072_json.h","license":"GPL-3.0 research reference only","notes":"H5072 shares advertisement encoding with H5075; hardware-unverified HomeController port."},
+  "fields":[
+    {"code":"temperatureHumidityRaw","name":"Packed temperature/humidity","input":{"kind":"manufacturerData","manufacturerId":60552},"decode":{"type":"uint24be","offset":3}},
+    {"code":"battery","name":"Battery","unit":"%","input":{"kind":"manufacturerData","manufacturerId":60552},"decode":{"type":"uint8","offset":6}}
+  ]
+}
