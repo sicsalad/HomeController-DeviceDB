@@ -1,0 +1,9 @@
+{
+  "$schema":"../../schemas/ble-profile-v1.schema.json","schemaVersion":1,"id":"xiaomi-mue4094rt","version":1,"minimumRuntimeVersion":1,"status":"experimental","protocol":"Xiaomi MiLamp FE95 service advertisement",
+  "match":{"serviceUuids":["fe95"]},
+  "source":{"name":"Theengs Decoder MUE4094RT research reference","url":"https://github.com/theengs/decoder/blob/development/src/devices/MUE4094RT_json.h","license":"GPL-3.0 research reference only","notes":"Independent HomeController profile for MiLamp motion/darkness advertisements; hardware-unverified."},
+  "fields":[
+    {"code":"eventType","name":"Advertisement event type","input":{"kind":"serviceData","serviceUuid":"fe95"},"decode":{"type":"uint8","offset":0}},
+    {"code":"illuminanceRaw","name":"Darkness/illuminance raw","unit":"lx","input":{"kind":"serviceData","serviceUuid":"fe95"},"decode":{"type":"uint8","offset":4}}
+  ]
+}
