@@ -1,0 +1,14 @@
+{
+  "$schema": "../../schemas/ble-profile-v1.schema.json",
+  "schemaVersion": 1,
+  "id": "qingping-cgh1",
+  "version": 1,
+  "minimumRuntimeVersion": 1,
+  "status": "experimental",
+  "protocol": "Qingping FDCD contact-sensor service data",
+  "match": { "serviceUuids": ["FDCD"], "serviceDataUuids": ["FDCD"] },
+  "source": { "name": "Qingping CGH1 protocol facts documented by Theengs Decoder", "url": "https://decoder.theengs.io/devices/CGH1.html", "license": "Protocol facts independently re-expressed in HomeController DeviceDB; Theengs Decoder implementation is GPL-3.0.", "notes": "CGH1 has two observed FDCD payload lengths. The primary short-payload door bit is exposed here; profile remains experimental until discriminator/length matching is available." },
+  "fields": [
+    { "code": "open", "name": "Door open", "unit": "status", "input": { "kind": "serviceData", "serviceUuid": "FDCD" }, "decode": { "type": "bool", "offset": 10, "mask": 1, "shift": 0 } }
+  ]
+}
