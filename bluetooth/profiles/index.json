@@ -1,7 +1,7 @@
 {
   "$schema": "../../schemas/ble-profile-index-v1.schema.json",
   "schemaVersion": 1,
-  "catalogVersion": 6,
+  "catalogVersion": 7,
   "profiles": [
     { "id": "xiaomi-flower-care", "version": 1, "path": "bluetooth/profiles/xiaomi-flower-care-v1.json", "minimumRuntimeVersion": 1, "sha256": "54882BF6434ACA0444F4B98F4D08FB714A8489A216491D7AF84B5DF1FEDB3D1A", "status": "stable" },
     { "id": "april-brother-abn07", "version": 1, "path": "bluetooth/profiles/april-brother-abn07-v1.json", "minimumRuntimeVersion": 1, "sha256": "DD5D366C16EBC4405C4CAF75F98803BB1E5E9527F9B76E146D203C69953E4535", "status": "experimental" },
@@ -10,6 +10,11 @@
     { "id": "govee-h5075", "version": 1, "path": "bluetooth/profiles/govee-h5075-v1.json", "minimumRuntimeVersion": 1, "sha256": "40104AAAA1D853DD25C0A8E03D08C1DB259FCA81429C3E87A9E687DC4EEEFB85", "status": "experimental" },
     { "id": "shelly-blu-bthome", "version": 1, "path": "bluetooth/profiles/shelly-blu-bthome-v1.json", "minimumRuntimeVersion": 1, "sha256": "AC35EA71BCA07B0351E5FA55196BFE885818E5A7AF6AAB1CA676B3C249B15C4B", "status": "experimental" },
     { "id": "switchbot-meter", "version": 1, "path": "bluetooth/profiles/switchbot-meter-v1.json", "minimumRuntimeVersion": 1, "sha256": "77F37C38B11AD7739A77090231597C4CCDFBC7DD6D4850B36C93DE5FF3CB75B8", "status": "experimental" },
-    { "id": "inkbird-ibs-th1", "version": 1, "path": "bluetooth/profiles/inkbird-ibs-th1-v1.json", "minimumRuntimeVersion": 1, "sha256": "3BB8F50615CE2B55808F702F42FC54D61D5EF77348EA199C69F662A7FD05F362", "status": "experimental" }
+    { "id": "inkbird-ibs-th1", "version": 1, "path": "bluetooth/profiles/inkbird-ibs-th1-v1.json", "minimumRuntimeVersion": 1, "sha256": "3BB8F50615CE2B55808F702F42FC54D61D5EF77348EA199C69F662A7FD05F362", "status": "experimental" },
+    { "id": "ruuvi-ruuvitag", "version": 1, "path": "bluetooth/profiles/ruuvi-ruuvitag-v1.json", "minimumRuntimeVersion": 1, "sha256": "5D1AECD207A2794B483892C97331BCF86C2FB97E694BC90420DCB46F1B37D1B4", "status": "experimental" },
+    { "id": "yeelight-ble", "version": 1, "path": "bluetooth/profiles/yeelight-ble-v1.json", "minimumRuntimeVersion": 1, "sha256": "B40D64FD8BD12FBBC01B8C21D565388A7F76E3ACC4C6C74966814E080E87C354", "status": "experimental" },
+    { "id": "ikea-ble", "version": 1, "path": "bluetooth/profiles/ikea-ble-v1.json", "minimumRuntimeVersion": 1, "sha256": "386C15FD49C06AE03C56874BD2C2B580F3AB23AD43C685321064359A31E0B7AC", "status": "experimental" },
+    { "id": "philips-hue-ble", "version": 1, "path": "bluetooth/profiles/philips-hue-ble-v1.json", "minimumRuntimeVersion": 1, "sha256": "62ACE68012D64948800C37FDC80ED8231B52F508362B5C45CD8EF808F833A44F", "status": "experimental" },
+    { "id": "sonoff-ewelink-ble", "version": 1, "path": "bluetooth/profiles/sonoff-ewelink-ble-v1.json", "minimumRuntimeVersion": 1, "sha256": "ED33091520A01043C2D62130415B488AFFE6A5DB5FB7F56F6F1E699253B0244B", "status": "experimental" }
   ]
 }
