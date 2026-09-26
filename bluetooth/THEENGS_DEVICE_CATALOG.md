@@ -92,20 +92,20 @@ Source catalog: https://decoder.theengs.io/devices/devices.html
 - [x] ORALB_BT — Oral-B Bluetooth Toothbrush
 - [x] ORAS — Amphiro/Oras/Hansa Smart Faucet
 - [x] RC1010 — Otodata RC1010 Level Monitor
-- [ ] RDL52832 — Radioland sensor iBeacon
+- [x] RDL52832 — Radioland sensor iBeacon
 - [x] RuuviTag_RAWv1 — RuuviTag RAW v1
 - [x] RuuviTag_RAWv2 — RuuviTag RAW v2
-- [ ] SBBT-002C — ShellyBLU Button1
-- [ ] SBBT-004CEU — ShellyBLU Wall Switch4
-- [ ] SBBT-004CUS — ShellyBLU RC Button4
-- [ ] SBDW-002C — ShellyBLU Door/Window
-- [ ] SBHT-003C — ShellyBLU H&T
-- [ ] SBMO-003Z — ShellyBLU Motion
+- [x] SBBT-002C — ShellyBLU Button1
+- [x] SBBT-004CEU — ShellyBLU Wall Switch4
+- [x] SBBT-004CUS — ShellyBLU RC Button4
+- [x] SBDW-002C — ShellyBLU Door/Window
+- [x] SBHT-003C — ShellyBLU H&T
+- [x] SBMO-003Z — ShellyBLU Motion
 - [x] SCD4X — Sensirion MyCO2/CO2 Gadget
 - [x] SDLS — SmartDry Laundry Sensor
-- [ ] SE_MAG — Sensor Easy Door/Window Pro
-- [ ] SE_RHT — Sensor Easy Temperature and Humidity Pro
-- [ ] SE_TEMP — Sensor Easy Temperature
+- [x] SE_MAG — Sensor Easy Door/Window Pro
+- [x] SE_RHT — Sensor Easy Temperature and Humidity Pro
+- [x] SE_TEMP — Sensor Easy Temperature
 - [ ] SE_TEMP_PRO — Sensor Easy Temperature Pro
 - [ ] SE_TPROBE — Sensor Easy External Probe Pro
 - [-] ServiceData — Generic Bluetooth SIG service-data family
