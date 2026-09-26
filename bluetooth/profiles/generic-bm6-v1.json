@@ -1,0 +1,37 @@
+{
+  "$schema": "../../schemas/ble-profile-v1.schema.json",
+  "schemaVersion": 1,
+  "id": "generic-bm6",
+  "version": 1,
+  "minimumRuntimeVersion": 1,
+  "status": "experimental",
+  "protocol": "BM6 manufacturer-data beacon",
+  "match": {
+    "manufacturerIds": [
+      76
+    ]
+  },
+  "source": {
+    "name": "BM6 protocol facts documented by Theengs Decoder",
+    "url": "https://decoder.theengs.io/devices/BM6.html",
+    "license": "Protocol facts independently re-expressed in HomeController DeviceDB; Theengs Decoder implementation is GPL-3.0.",
+    "notes": "Apple manufacturer id alone is not sufficiently specific; profile remains experimental until prefix matching is added to the matcher."
+  },
+  "fields": [
+    {
+      "code": "battery",
+      "name": "Battery",
+      "unit": "%",
+      "input": {
+        "kind": "manufacturerData",
+        "manufacturerId": 76
+      },
+      "decode": {
+        "type": "uint8",
+        "offset": 21,
+        "minimum": 0,
+        "maximum": 100
+      }
+    }
+  ]
+}
