@@ -1,7 +1,7 @@
 {
   "$schema": "../../schemas/ble-profile-index-v1.schema.json",
   "schemaVersion": 1,
-  "catalogVersion": 7,
+  "catalogVersion": 8,
   "profiles": [
     { "id": "xiaomi-flower-care", "version": 1, "path": "bluetooth/profiles/xiaomi-flower-care-v1.json", "minimumRuntimeVersion": 1, "sha256": "54882BF6434ACA0444F4B98F4D08FB714A8489A216491D7AF84B5DF1FEDB3D1A", "status": "stable" },
     { "id": "april-brother-abn07", "version": 1, "path": "bluetooth/profiles/april-brother-abn07-v1.json", "minimumRuntimeVersion": 1, "sha256": "DD5D366C16EBC4405C4CAF75F98803BB1E5E9527F9B76E146D203C69953E4535", "status": "experimental" },
@@ -15,6 +15,11 @@
     { "id": "yeelight-ble", "version": 1, "path": "bluetooth/profiles/yeelight-ble-v1.json", "minimumRuntimeVersion": 1, "sha256": "B40D64FD8BD12FBBC01B8C21D565388A7F76E3ACC4C6C74966814E080E87C354", "status": "experimental" },
     { "id": "ikea-ble", "version": 1, "path": "bluetooth/profiles/ikea-ble-v1.json", "minimumRuntimeVersion": 1, "sha256": "386C15FD49C06AE03C56874BD2C2B580F3AB23AD43C685321064359A31E0B7AC", "status": "experimental" },
     { "id": "philips-hue-ble", "version": 1, "path": "bluetooth/profiles/philips-hue-ble-v1.json", "minimumRuntimeVersion": 1, "sha256": "62ACE68012D64948800C37FDC80ED8231B52F508362B5C45CD8EF808F833A44F", "status": "experimental" },
-    { "id": "sonoff-ewelink-ble", "version": 1, "path": "bluetooth/profiles/sonoff-ewelink-ble-v1.json", "minimumRuntimeVersion": 1, "sha256": "ED33091520A01043C2D62130415B488AFFE6A5DB5FB7F56F6F1E699253B0244B", "status": "experimental" }
+    { "id": "sonoff-ewelink-ble", "version": 1, "path": "bluetooth/profiles/sonoff-ewelink-ble-v1.json", "minimumRuntimeVersion": 1, "sha256": "ED33091520A01043C2D62130415B488AFFE6A5DB5FB7F56F6F1E699253B0244B", "status": "experimental" },
+    { "id": "april-brother-abn03", "version": 1, "path": "bluetooth/profiles/april-brother-abn03-v1.json", "minimumRuntimeVersion": 1, "sha256": "FE748D4AFDA188EA788FA622484616C159209192D67C3292620F75BADB9B3F98", "status": "experimental" },
+    { "id": "april-brother-abtemp", "version": 1, "path": "bluetooth/profiles/april-brother-abtemp-v1.json", "minimumRuntimeVersion": 1, "sha256": "D0D36E6E7848DCA293C02DD090665E18FDC14BD9F3CB76F2A51BE1CDD5D7C257", "status": "experimental" },
+    { "id": "aranet-aranet4", "version": 1, "path": "bluetooth/profiles/aranet-aranet4-v1.json", "minimumRuntimeVersion": 1, "sha256": "22096013D5BEE65413AED96EF8988483F5F0D6E2BD813412652D337DC1350F78", "status": "experimental" },
+    { "id": "oras-hydractiva-digital", "version": 1, "path": "bluetooth/profiles/oras-hydractiva-digital-v1.json", "minimumRuntimeVersion": 1, "sha256": "D56D541F879F82CC5CCE4A36F80B5BD101D3CA53C6FD14D280F0CC9D367E94AB", "status": "experimental" },
+    { "id": "blue-maestro-tempo-disc", "version": 1, "path": "bluetooth/profiles/blue-maestro-tempo-disc-v1.json", "minimumRuntimeVersion": 1, "sha256": "D301A7172751BB88F62AF43AEDAE752E026BC7135677D960DD8F106940C4FD7A", "status": "experimental" }
   ]
 }
