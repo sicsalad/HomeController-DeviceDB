@@ -77,12 +77,12 @@ Source catalog: https://decoder.theengs.io/devices/devices.html
 - [x] K6P — KKM Long Range K6P
 - [x] K9 — KKM Tracking K9
 - [x] KSensor — BlueCharm/KKM Beacon
-- [ ] LYWSD02 — Xiaomi/Mijia e-ink Clock
-- [ ] LYWSD03MMC_ATC/PVVX/BTHOME — Xiaomi Compact Temperature Sensor
-- [ ] LYWSDCGQ — Xiaomi Mi Jia TH sensor
-- [ ] M1017 — Mopeka/Lippert LPG Tank Sensor
+- [x] LYWSD02 — Xiaomi/Mijia e-ink Clock
+- [x] LYWSD03MMC_ATC/PVVX/BTHOME — Xiaomi Compact Temperature Sensor
+- [x] LYWSDCGQ — Xiaomi Mi Jia TH sensor
+- [x] M1017 — Mopeka/Lippert LPG Tank Sensor
 - [x] MBXPRO — MOKOSMART H4
-- [ ] MHO/MMC-C401_ATC/PVVX — Xiaomi Compact Temperature Sensor
+- [x] MHO/MMC-C401_ATC/PVVX — Xiaomi Compact Temperature Sensor
 - [x] MiBand — Xiaomi Mi Band
 - [ ] MJWSD05MMC_ATC/PVVX/BTHOME — Xiaomi Compact Temperature Sensor
 - [x] MokoBeacon — MOKOSMART Beacon
