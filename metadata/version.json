@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.340",
-  "versionCode": 1790275270,
-  "publishedUtc": "2026-09-24T18:41:10Z",
-  "commit": "29a60a3f6a37ccf1995170ee68719eef724c62c0",
-  "patchNotes": "Register Xiaomi Flower Care BLE profile"
+  "version": "1.0.342",
+  "versionCode": 1790430963,
+  "publishedUtc": "2026-09-26T13:56:03Z",
+  "commit": "f77d6cf73f318e8edca79410f9627109ac9ecc3a",
+  "patchNotes": "Publish Xiaomi Flower Care BLE profile"
 }

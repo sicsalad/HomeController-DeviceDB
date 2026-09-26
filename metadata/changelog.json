@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.65",
-      "versionCode": 1787824839,
-      "publishedUtc": "2026-08-27T10:00:39Z",
-      "notes": "Document theme references in device UI templates"
-    },
-    {
       "version": "1.0.66",
       "versionCode": 1787828421,
       "publishedUtc": "2026-08-27T11:00:21Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1790275270,
       "publishedUtc": "2026-09-24T18:41:10Z",
       "notes": "Register Xiaomi Flower Care BLE profile"
+    },
+    {
+      "version": "1.0.342",
+      "versionCode": 1790430963,
+      "publishedUtc": "2026-09-26T13:56:03Z",
+      "notes": "Publish Xiaomi Flower Care BLE profile"
     }
   ]
 }
