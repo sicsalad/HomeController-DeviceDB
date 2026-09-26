@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.360",
-  "versionCode": 1790445847,
-  "publishedUtc": "2026-09-26T18:04:07Z",
-  "commit": "adb6482ff154a94e0b3f87a4210d52b076d8d1d2",
-  "patchNotes": "Add Inkbird IBS-TH1 BLE profile"
+  "version": "1.0.361",
+  "versionCode": 1790445868,
+  "publishedUtc": "2026-09-26T18:04:28Z",
+  "commit": "2e77d85e3ab567124b50082389b346c79d5036fb",
+  "patchNotes": "Register next five BLE profiles"
 }

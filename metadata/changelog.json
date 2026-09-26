@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.90",
-      "versionCode": 1787905624,
-      "publishedUtc": "2026-08-28T08:27:04Z",
-      "notes": "Finalize semantic localization catalog"
-    },
-    {
       "version": "1.0.91",
       "versionCode": 1787905965,
       "publishedUtc": "2026-08-28T08:32:45Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1790445847,
       "publishedUtc": "2026-09-26T18:04:07Z",
       "notes": "Add Inkbird IBS-TH1 BLE profile"
+    },
+    {
+      "version": "1.0.361",
+      "versionCode": 1790445868,
+      "publishedUtc": "2026-09-26T18:04:28Z",
+      "notes": "Register next five BLE profiles"
     }
   ]
 }
