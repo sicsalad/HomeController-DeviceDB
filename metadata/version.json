@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.344",
-  "versionCode": 1790442732,
-  "publishedUtc": "2026-09-26T17:12:12Z",
-  "commit": "1dc4ba98d3f9a90b15a9fee61282cd437e37cf8d",
-  "patchNotes": "Document DeviceDB BLE knowledge base contract"
+  "version": "1.0.345",
+  "versionCode": 1790442751,
+  "publishedUtc": "2026-09-26T17:12:31Z",
+  "commit": "1a04a8fb8868b953653fe94e30fcdf75c6a8408e",
+  "patchNotes": "Define deterministic BLE decoder test vector format"
 }
