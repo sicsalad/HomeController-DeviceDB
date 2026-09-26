@@ -1,0 +1,11 @@
+{
+  "$schema":"../../schemas/ble-profile-v1.schema.json","schemaVersion":1,"id":"mokosmart-mokobeacon","version":1,"minimumRuntimeVersion":1,"status":"experimental","protocol":"MokoSmart FF01 beacon service advertisement",
+  "match":{"serviceUuids":["ff01"]},
+  "source":{"name":"Theengs Decoder Mokobeacon research reference","url":"https://github.com/theengs/decoder/blob/development/src/devices/Mokobeacon_json.h","license":"GPL-3.0 research reference only","notes":"Independent HomeController profile. FF01 service data exposes battery and three-axis acceleration; hardware-unverified."},
+  "fields":[
+    {"code":"battery","name":"Battery","unit":"%","input":{"kind":"serviceData","serviceUuid":"ff01"},"decode":{"type":"uint8","offset":0}},
+    {"code":"accelerationXRaw","name":"Acceleration X raw","input":{"kind":"serviceData","serviceUuid":"ff01"},"decode":{"type":"uint16be","offset":7}},
+    {"code":"accelerationYRaw","name":"Acceleration Y raw","input":{"kind":"serviceData","serviceUuid":"ff01"},"decode":{"type":"uint16be","offset":9}},
+    {"code":"accelerationZRaw","name":"Acceleration Z raw","input":{"kind":"serviceData","serviceUuid":"ff01"},"decode":{"type":"uint16be","offset":11}}
+  ]
+}
