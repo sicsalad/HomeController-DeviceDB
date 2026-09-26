@@ -1,0 +1,153 @@
+# Theengs BLE device implementation catalog
+
+Tracking list for HomeController's independent BLE decoders. `[x]` means a HomeController DeviceDB profile exists; `[-]` means a generic/protocol-family entry or not yet a normal sensor profile; `[ ]` means pending. Theengs is used as protocol research/provenance; HomeController does not embed the GPL decoder.
+
+Source catalog: https://decoder.theengs.io/devices/devices.html
+
+## Implemented / first priority
+
+- [x] HHCCJCY01HHCC / HHCCJCY10 — Xiaomi MiFlora / Flower Care (stable HomeController generic GATT profile)
+- [x] ABN07 — April Brother Sensor N07
+- [x] CGC1 / CGD1 — Qingping/ClearGrass Alarm Clock
+- [x] RuuviTag_RAWv2 — RuuviTag RAW v2
+- [x] BM6 — Generic BM6 Battery Monitor
+
+## Full Theengs catalog
+
+- [ ] ABN03 — April Brother Sensor N03
+- [x] ABN07 — April Brother Sensor N07
+- [ ] ABTemp — April Brother ABTemp
+- [ ] ADHS — Amphiro/Oras/Hansa Hydractiva/Activejet Digital
+- [ ] Amazfit — Amazfit Smart Watch/Band
+- [ ] APPLEAIRPODS — Apple AirPods (Pro)
+- [ ] APPLEDEVICE — Apple iPhone/iPad
+- [ ] APPLEWATCH — Apple Watch
+- [ ] ARANET4 — Aranet4 CO2 Monitor
+- [ ] BEATSBUDS — Beats Solo/Studio Buds
+- [ ] BM2 — Generic BM2 Battery Monitor
+- [x] BM6 — Generic BM6 Battery Monitor
+- [ ] BPv1.0-2.0 — b-parasite environmental/soil sensor
+- [ ] BSDOO — Otio/BeeWi Door & Window Sensor
+- [ ] BTH01 — Tuya BTH01
+- [x] CGC1 — ClearGrass/Qingping Alarm Clock (shared CGC1/CGD1 profile)
+- [x] CGD1 — ClearGrass/Qingping Alarm Clock
+- [ ] CGDK2 — Qingping TH Lite
+- [ ] CGDN1 — Qingping Air Monitor Lite
+- [ ] CGG1 — Qingping Round Hygro Thermometer
+- [ ] CGH1 — Qingping Contact Sensor
+- [ ] CGP1W — Qingping Weather Station
+- [ ] CGP22C — Qingping Thermo-Hygrometer CO2 Detector
+- [ ] CGP23W — Qingping Barometer Pro
+- [ ] CGPR1 — Qingping Motion & Light
+- [ ] ECOFLOW_ADV — EcoFlow Power Station
+- [ ] F525/F51C — Jaalee TH sensor
+- [ ] FEASY — Feasycom Bluetooth Beacon
+- [ ] H10 — Polar Heart Rate Sensor
+- [ ] H5055 — Govee BBQ Thermometer
+- [ ] H5072 — Govee Thermo-Hygrometer
+- [ ] H5074 — Govee Smart Thermo-Hygrometer
+- [ ] H5075 — Govee Thermo-Hygrometer
+- [ ] H5100 — Govee Smart Thermo Hygrometer
+- [ ] H5101 — Govee Smart Thermo-Hygrometer
+- [ ] H5102 — Govee Smart Thermo-Hygrometer
+- [ ] H5104 — Govee Smart Thermo Hygrometer
+- [ ] H5105 — Govee Smart Thermo Hygrometer
+- [ ] H5106 — Govee Smart Air Quality Monitor
+- [ ] H5108 — Govee Smart Probe Thermometer
+- [ ] H5140 — Govee Smart CO2 Monitor
+- [ ] H5174 — Govee Smart Thermo-Hygrometer
+- [ ] H5177 — Govee Thermo-Hygrometer
+- [ ] H5179 — Govee Smart Thermo-Hygrometer
+- [x] HHCCJCY01HHCC — Xiaomi/VegTrug MiFlora (covered by Flower Care profile)
+- [x] HHCCJCY10 — Xiaomi MiFlora / Flower Care family
+- [ ] HHCCPOT002 — Xiaomi RoPot
+- [-] IBEACON — Generic iBeacon protocol family
+- [ ] IBS-P01B — Inkbird Pool Thermometer
+- [ ] IBS-P02B — Inkbird Pool Thermometer
+- [ ] IBS-TH1 — Inkbird Thermometer Hygrometer
+- [ ] IBS-TH2 — Inkbird Thermometer Hygrometer
+- [ ] IBT_2X(S) — Inkbird BBQ 2-probe
+- [ ] IBT_4X(S/C) — Inkbird BBQ 4-probe
+- [ ] IBT_6X(S) — Inkbird BBQ 6-probe
+- [ ] INEM — iNode Energy Meter
+- [ ] ITH-12S — Inkbird Thermometer Hygrometer
+- [ ] JQJCY01YM — Xiaomi Formaldehyde Detector
+- [ ] K6P — KKM Long Range K6P
+- [ ] K9 — KKM Tracking K9
+- [ ] KSensor — BlueCharm/KKM Beacon
+- [ ] LYWSD02 — Xiaomi/Mijia e-ink Clock
+- [ ] LYWSD03MMC_ATC/PVVX/BTHOME — Xiaomi Compact Temperature Sensor
+- [ ] LYWSDCGQ — Xiaomi Mi Jia TH sensor
+- [ ] M1017 — Mopeka/Lippert LPG Tank Sensor
+- [ ] MBXPRO — MOKOSMART H4
+- [ ] MHO/MMC-C401_ATC/PVVX — Xiaomi Compact Temperature Sensor
+- [ ] MiBand — Xiaomi Mi Band
+- [ ] MJWSD05MMC_ATC/PVVX/BTHOME — Xiaomi Compact Temperature Sensor
+- [ ] MokoBeacon — MOKOSMART Beacon
+- [ ] MUE4094RT — Xiaomi Motion and Light
+- [ ] MX2001 — Onset Hobo Water Level Sensor
+- [ ] NODONNIU — NodOn NIU smart button
+- [ ] ORALB_BT — Oral-B Bluetooth Toothbrush
+- [ ] ORAS — Amphiro/Oras/Hansa Smart Faucet
+- [ ] RC1010 — Otodata RC1010 Level Monitor
+- [ ] RDL52832 — Radioland sensor iBeacon
+- [ ] RuuviTag_RAWv1 — RuuviTag RAW v1
+- [x] RuuviTag_RAWv2 — RuuviTag RAW v2
+- [ ] SBBT-002C — ShellyBLU Button1
+- [ ] SBBT-004CEU — ShellyBLU Wall Switch4
+- [ ] SBBT-004CUS — ShellyBLU RC Button4
+- [ ] SBDW-002C — ShellyBLU Door/Window
+- [ ] SBHT-003C — ShellyBLU H&T
+- [ ] SBMO-003Z — ShellyBLU Motion
+- [ ] SCD4X — Sensirion MyCO2/CO2 Gadget
+- [ ] SDLS — SmartDry Laundry Sensor
+- [ ] SE_MAG — Sensor Easy Door/Window Pro
+- [ ] SE_RHT — Sensor Easy Temperature and Humidity Pro
+- [ ] SE_TEMP — Sensor Easy Temperature
+- [ ] SE_TEMP_PRO — Sensor Easy Temperature Pro
+- [ ] SE_TPROBE — Sensor Easy External Probe Pro
+- [-] ServiceData — Generic Bluetooth SIG service-data family
+- [ ] SHT4X — Sensirion TH Sensor
+- [ ] SKALE — Atomax Skale I/II
+- [ ] SOLIS_6 — Ternergy BBQ 6-probe
+- [ ] SPHT — SensorPush HT.w
+- [ ] SPHTP — SensorPush HTP.xw
+- [ ] T201 — Oria/Brifit/SigmaWit/SensorPro TH
+- [ ] T301 — Oria/Brifit/SigmaWit/SensorPro TH
+- [ ] TD1in1 — BlueMaestro Tempo Disc
+- [ ] TD3in1 — BlueMaestro Tempo Disc
+- [ ] TD4in1 — BlueMaestro Tempo Disc
+- [ ] TG-BT5 — MikroTik TG-BT5-IN/-OUT
+- [ ] TH05F — Tuya TH05F
+- [ ] THB1 — Tuya THB1
+- [ ] THX1(W230150X) — SwitchBot Meter (Plus)
+- [ ] TILT — Tilt Brewing Hydro-Thermometer
+- [ ] TP350 — ThermoPro TH sensor
+- [ ] TP357 — ThermoPro TH sensor
+- [ ] TP358 — ThermoPro TH sensor
+- [ ] TP359 — ThermoPro TH sensor
+- [ ] TP393 — ThermoPro TH sensor
+- [ ] TPMS — Generic Tire Pressure Monitoring System
+- [ ] TPMSBR — Generic TPMS
+- [ ] UT363BT — UNI-T Anemometer
+- [ ] VCH6003 — VCHON TH sensor
+- [ ] VICTBSC — Victron Blue Smart Charger
+- [ ] VICTORIONXS — Victron Orion XS
+- [ ] VICTSBP — Victron Smart BatteryProtect
+- [ ] VICTSBS — Victron Smart Battery Sense
+- [ ] VICTSCC — Victron SmartSolar MPPT
+- [ ] W070160X — SwitchBot Curtain 2/3
+- [ ] W110150X — SwitchBot Motion Sensor
+- [ ] W120150X — SwitchBot Contact Sensor
+- [ ] W270160X — SwitchBot Blind Tilt
+- [ ] W340001X — SwitchBot Outdoor Meter
+- [ ] W490001X — SwitchBot Meter Pro CO2
+- [ ] WS02/WS08 — SensorBlue/Oria/Brifit ThermoBeacon
+- [ ] X1 — SwitchBot Bot
+- [ ] XMTZC01HM/XMTZC04HM — Xiaomi Mi Smart Scale
+- [ ] XMTZC02HM/XMTZC05HM — Xiaomi Mi Body Composition Scale
+- [ ] XOSSX2 — XOSS X2 Heart Rate Sensor
+
+## Next implementation order
+
+Prioritize widely used sensors and reusable protocol families: Xiaomi LYWSD03MMC/PVVX/BTHome, Govee H5075/H510x, ShellyBLU/BTHome, SwitchBot Meter, Inkbird IBS-TH1/TH2, Ruuvi RAW v1, Qingping CGG1/CGDK2, ThermoPro TP357/358, then remaining fixed-layout sensors. A device is checked only after a HomeController profile exists and is indexed; hardware-unverified ports remain `experimental`.
