@@ -84,14 +84,14 @@ Source catalog: https://decoder.theengs.io/devices/devices.html
 - [x] MBXPRO — MOKOSMART H4
 - [x] MHO/MMC-C401_ATC/PVVX — Xiaomi Compact Temperature Sensor
 - [x] MiBand — Xiaomi Mi Band
-- [ ] MJWSD05MMC_ATC/PVVX/BTHOME — Xiaomi Compact Temperature Sensor
+- [x] MJWSD05MMC_ATC/PVVX/BTHOME — Xiaomi Compact Temperature Sensor
 - [x] MokoBeacon — MOKOSMART Beacon
 - [x] MUE4094RT — Xiaomi Motion and Light
-- [ ] MX2001 — Onset Hobo Water Level Sensor
+- [x] MX2001 — Onset Hobo Water Level Sensor
 - [x] NODONNIU — NodOn NIU smart button
-- [ ] ORALB_BT — Oral-B Bluetooth Toothbrush
-- [ ] ORAS — Amphiro/Oras/Hansa Smart Faucet
-- [ ] RC1010 — Otodata RC1010 Level Monitor
+- [x] ORALB_BT — Oral-B Bluetooth Toothbrush
+- [x] ORAS — Amphiro/Oras/Hansa Smart Faucet
+- [x] RC1010 — Otodata RC1010 Level Monitor
 - [ ] RDL52832 — Radioland sensor iBeacon
 - [x] RuuviTag_RAWv1 — RuuviTag RAW v1
 - [x] RuuviTag_RAWv2 — RuuviTag RAW v2
