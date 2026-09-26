@@ -28,7 +28,7 @@ Source catalog: https://decoder.theengs.io/devices/devices.html
 - [x] BM6 — Generic BM6 Battery Monitor
 - [ ] BPv1.0-2.0 — b-parasite environmental/soil sensor
 - [ ] BSDOO — Otio/BeeWi Door & Window Sensor
-- [ ] BTH01 — Tuya BTH01
+- [x] BTH01 — Tuya BTH01
 - [x] CGC1 — ClearGrass/Qingping Alarm Clock (shared CGC1/CGD1 profile)
 - [x] CGD1 — ClearGrass/Qingping Alarm Clock
 - [ ] CGDK2 — Qingping TH Lite
@@ -99,55 +99,55 @@ Source catalog: https://decoder.theengs.io/devices/devices.html
 - [ ] SBDW-002C — ShellyBLU Door/Window
 - [ ] SBHT-003C — ShellyBLU H&T
 - [ ] SBMO-003Z — ShellyBLU Motion
-- [ ] SCD4X — Sensirion MyCO2/CO2 Gadget
-- [ ] SDLS — SmartDry Laundry Sensor
+- [x] SCD4X — Sensirion MyCO2/CO2 Gadget
+- [x] SDLS — SmartDry Laundry Sensor
 - [ ] SE_MAG — Sensor Easy Door/Window Pro
 - [ ] SE_RHT — Sensor Easy Temperature and Humidity Pro
 - [ ] SE_TEMP — Sensor Easy Temperature
 - [ ] SE_TEMP_PRO — Sensor Easy Temperature Pro
 - [ ] SE_TPROBE — Sensor Easy External Probe Pro
 - [-] ServiceData — Generic Bluetooth SIG service-data family
-- [ ] SHT4X — Sensirion TH Sensor
-- [ ] SKALE — Atomax Skale I/II
+- [x] SHT4X — Sensirion TH Sensor
+- [x] SKALE — Atomax Skale I/II
 - [ ] SOLIS_6 — Ternergy BBQ 6-probe
 - [ ] SPHT — SensorPush HT.w
 - [ ] SPHTP — SensorPush HTP.xw
-- [ ] T201 — Oria/Brifit/SigmaWit/SensorPro TH
-- [ ] T301 — Oria/Brifit/SigmaWit/SensorPro TH
+- [x] T201 — Oria/Brifit/SigmaWit/SensorPro TH
+- [x] T301 — Oria/Brifit/SigmaWit/SensorPro TH
 - [ ] TD1in1 — BlueMaestro Tempo Disc
 - [ ] TD3in1 — BlueMaestro Tempo Disc
 - [ ] TD4in1 — BlueMaestro Tempo Disc
 - [ ] TG-BT5 — MikroTik TG-BT5-IN/-OUT
-- [ ] TH05F — Tuya TH05F
-- [ ] THB1 — Tuya THB1
-- [ ] THX1(W230150X) — SwitchBot Meter (Plus)
-- [ ] TILT — Tilt Brewing Hydro-Thermometer
-- [ ] TP350 — ThermoPro TH sensor
-- [ ] TP357 — ThermoPro TH sensor
-- [ ] TP358 — ThermoPro TH sensor
-- [ ] TP359 — ThermoPro TH sensor
-- [ ] TP393 — ThermoPro TH sensor
-- [ ] TPMS — Generic Tire Pressure Monitoring System
-- [ ] TPMSBR — Generic TPMS
-- [ ] UT363BT — UNI-T Anemometer
-- [ ] VCH6003 — VCHON TH sensor
-- [ ] VICTBSC — Victron Blue Smart Charger
-- [ ] VICTORIONXS — Victron Orion XS
-- [ ] VICTSBP — Victron Smart BatteryProtect
+- [x] TH05F — Tuya TH05F
+- [x] THB1 — Tuya THB1
+- [x] THX1(W230150X) — SwitchBot Meter (Plus)
+- [x] TILT — Tilt Brewing Hydro-Thermometer
+- [x] TP350 — ThermoPro TH sensor
+- [x] TP357 — ThermoPro TH sensor
+- [x] TP358 — ThermoPro TH sensor
+- [x] TP359 — ThermoPro TH sensor
+- [x] TP393 — ThermoPro TH sensor
+- [x] TPMS — Generic Tire Pressure Monitoring System
+- [x] TPMSBR — Generic TPMS
+- [x] UT363BT — UNI-T Anemometer
+- [x] VCH6003 — VCHON TH sensor
+- [x] VICTBSC — Victron Blue Smart Charger
+- [x] VICTORIONXS — Victron Orion XS
+- [x] VICTSBP — Victron Smart BatteryProtect
 - [ ] VICTSBS — Victron Smart Battery Sense
 - [ ] VICTSCC — Victron SmartSolar MPPT
-- [ ] W070160X — SwitchBot Curtain 2/3
-- [ ] W110150X — SwitchBot Motion Sensor
+- [x] W070160X — SwitchBot Curtain 2/3
+- [x] W110150X — SwitchBot Motion Sensor
 - [ ] W120150X — SwitchBot Contact Sensor
 - [ ] W270160X — SwitchBot Blind Tilt
-- [ ] W340001X — SwitchBot Outdoor Meter
-- [ ] W490001X — SwitchBot Meter Pro CO2
+- [x] W340001X — SwitchBot Outdoor Meter
+- [x] W490001X — SwitchBot Meter Pro CO2
 - [ ] WS02/WS08 — SensorBlue/Oria/Brifit ThermoBeacon
-- [ ] X1 — SwitchBot Bot
+- [x] X1 — SwitchBot Bot
 - [ ] XMTZC01HM/XMTZC04HM — Xiaomi Mi Smart Scale
 - [ ] XMTZC02HM/XMTZC05HM — Xiaomi Mi Body Composition Scale
 - [ ] XOSSX2 — XOSS X2 Heart Rate Sensor
 
 ## Next implementation order
 
-Prioritize widely used sensors and reusable protocol families: Xiaomi LYWSD03MMC/PVVX/BTHome, Govee H5075/H510x, ShellyBLU/BTHome, SwitchBot Meter, Inkbird IBS-TH1/TH2, Ruuvi RAW v1, Qingping CGG1/CGDK2, ThermoPro TP357/358, then remaining fixed-layout sensors. A device is checked only after a HomeController profile exists and is indexed; hardware-unverified ports remain `experimental`.
+Continue from the first unchecked device in the full catalog, five devices per batch. A device is checked only after a HomeController profile exists and is indexed; hardware-unverified ports remain `experimental`.
