@@ -1,16 +1,1 @@
-{
-  "$schema": "../../schemas/ble-profile-v1.schema.json",
-  "schemaVersion": 1,
-  "id": "qingping-cgg1",
-  "version": 1,
-  "minimumRuntimeVersion": 1,
-  "status": "experimental",
-  "protocol": "Qingping FDCD service-data advertisement",
-  "match": { "serviceUuids": ["FDCD"], "serviceDataUuids": ["FDCD"], "namePatterns": ["^(Qingping Temp & RH|ClearGrass Temp & RH|CGG.*)$"] },
-  "source": { "name": "Qingping CGG1 protocol facts documented by Theengs Decoder", "url": "https://decoder.theengs.io/devices/CGG1.html", "license": "Protocol facts independently re-expressed in HomeController DeviceDB; Theengs Decoder implementation is GPL-3.0.", "notes": "Stock FDCD layout. Alternate ATC/PVVX firmware is intentionally left to the generic 181A/BTHome family profiles." },
-  "fields": [
-    { "code": "temperature", "name": "Temperature", "unit": "°C", "input": { "kind": "serviceData", "serviceUuid": "FDCD" }, "decode": { "type": "int16le", "offset": 10, "scale": 0.1 } },
-    { "code": "humidity", "name": "Humidity", "unit": "%", "input": { "kind": "serviceData", "serviceUuid": "FDCD" }, "decode": { "type": "int16le", "offset": 12, "scale": 0.1, "minimum": 0, "maximum": 100 } },
-    { "code": "battery", "name": "Battery", "unit": "%", "input": { "kind": "serviceData", "serviceUuid": "FDCD" }, "decode": { "type": "uint8", "offset": 16, "minimum": 0, "maximum": 100 } }
-  ]
-}
+{"$schema":"../../schemas/ble-profile-v1.schema.json","schemaVersion":1,"id":"qingping-cgg1","version":1,"minimumRuntimeVersion":1,"status":"experimental","protocol":"Qingping FDCD service data","match":{"serviceDataUuids":["fdcd"]},"source":{"name":"Theengs Decoder CGG1 protocol facts","url":"https://github.com/theengs/decoder/blob/development/src/devices/CGG1_json.h","license":"Protocol facts independently re-expressed in HomeController DeviceDB; Theengs Decoder implementation is GPL-3.0.","notes":"CGG1 Round TH; hardware-unverified."},"fields":[{"code":"temperature","name":"Temperature","unit":"°C","input":{"kind":"serviceData","serviceUuid":"fdcd"},"decode":{"type":"int16le","offset":10,"scale":0.1}},{"code":"humidity","name":"Humidity","unit":"%","input":{"kind":"serviceData","serviceUuid":"fdcd"},"decode":{"type":"uint16le","offset":12,"scale":0.1}},{"code":"battery","name":"Battery","unit":"%","input":{"kind":"serviceData","serviceUuid":"fdcd"},"decode":{"type":"uint8","offset":16}}]}

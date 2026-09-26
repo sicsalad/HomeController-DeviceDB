@@ -35,11 +35,11 @@ Source catalog: https://decoder.theengs.io/devices/devices.html
 - [x] CGD1 — ClearGrass/Qingping Alarm Clock
 - [x] CGDK2 — Qingping TH Lite
 - [x] CGDN1 — Qingping Air Monitor Lite
-- [ ] CGG1 — Qingping Round Hygro Thermometer
-- [ ] CGH1 — Qingping Contact Sensor
-- [ ] CGP1W — Qingping Weather Station
-- [ ] CGP22C — Qingping Thermo-Hygrometer CO2 Detector
-- [ ] CGP23W — Qingping Barometer Pro
+- [x] CGG1 — Qingping Round Hygro Thermometer
+- [x] CGH1 — Qingping Contact Sensor
+- [x] CGP1W — Qingping Weather Station
+- [x] CGP22C — Qingping Thermo-Hygrometer CO2 Detector
+- [x] CGP23W — Qingping Barometer Pro
 - [ ] CGPR1 — Qingping Motion & Light
 - [x] ECOFLOW_ADV — EcoFlow Power Station
 - [ ] F525/F51C — Jaalee TH sensor
