@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/ble-profile-v1.schema.json",
+  "schemaVersion": 1,
+  "id": "shelly-blu-bthome",
+  "version": 1,
+  "minimumRuntimeVersion": 1,
+  "status": "experimental",
+  "protocol": "BTHome v2",
+  "match": { "namePatterns": ["SBBT*", "SBDW*", "SBMO*", "Shelly*"], "serviceDataUuids": ["FCD2"] },
+  "source": { "name": "BTHome specification", "url": "https://bthome.io/format/", "notes": "Shelly BLU devices using unencrypted BTHome v2 service data." },
+  "fields": []
+}
