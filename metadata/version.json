@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.349",
-  "versionCode": 1790442995,
-  "publishedUtc": "2026-09-26T17:16:35Z",
-  "commit": "6966c70857c7fb09d8c20a5ab3ab9ba593bf607c",
-  "patchNotes": "Fix ABN07 profile name matcher"
+  "version": "1.0.350",
+  "versionCode": 1790443009,
+  "publishedUtc": "2026-09-26T17:16:49Z",
+  "commit": "581b39cf3e56a050fa3f85d7c0e4add6bef83c28",
+  "patchNotes": "Refresh ABN07 BLE profile hash"
 }
