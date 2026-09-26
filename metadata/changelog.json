@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.89",
-      "versionCode": 1787905193,
-      "publishedUtc": "2026-08-28T08:19:53Z",
-      "notes": "Use semantic localization IDs"
-    },
-    {
       "version": "1.0.90",
       "versionCode": 1787905624,
       "publishedUtc": "2026-08-28T08:27:04Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1790445816,
       "publishedUtc": "2026-09-26T18:03:36Z",
       "notes": "Add Xiaomi LYWSD03MMC BLE profile"
+    },
+    {
+      "version": "1.0.360",
+      "versionCode": 1790445847,
+      "publishedUtc": "2026-09-26T18:04:07Z",
+      "notes": "Add Inkbird IBS-TH1 BLE profile"
     }
   ]
 }

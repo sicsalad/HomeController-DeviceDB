@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.356",
-  "versionCode": 1790445816,
-  "publishedUtc": "2026-09-26T18:03:36Z",
-  "commit": "e426fdb695786b7f26bad7609d50ac52ff255806",
-  "patchNotes": "Add Xiaomi LYWSD03MMC BLE profile"
+  "version": "1.0.360",
+  "versionCode": 1790445847,
+  "publishedUtc": "2026-09-26T18:04:07Z",
+  "commit": "adb6482ff154a94e0b3f87a4210d52b076d8d1d2",
+  "patchNotes": "Add Inkbird IBS-TH1 BLE profile"
 }
