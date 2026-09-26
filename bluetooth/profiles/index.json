@@ -1,5 +1,5 @@
 {
-  "$schema":"../../schemas/ble-profile-index-v1.schema.json","schemaVersion":1,"catalogVersion":12,
+  "$schema":"../../schemas/ble-profile-index-v1.schema.json","schemaVersion":1,"catalogVersion":13,
   "profiles":[
 {"id":"xiaomi-flower-care","version":1,"path":"bluetooth/profiles/xiaomi-flower-care-v1.json","minimumRuntimeVersion":1,"sha256":"54882BF6434ACA0444F4B98F4D08FB714A8489A216491D7AF84B5DF1FEDB3D1A","status":"stable"},
 {"id":"april-brother-abn07","version":1,"path":"bluetooth/profiles/april-brother-abn07-v1.json","minimumRuntimeVersion":1,"sha256":"DD5D366C16EBC4405C4CAF75F98803BB1E5E9527F9B76E146D203C69953E4535","status":"experimental"},
@@ -38,6 +38,11 @@
 {"id":"govee-h5101","version":1,"path":"bluetooth/profiles/govee-h5101-v1.json","minimumRuntimeVersion":1,"sha256":"ABA014B00B89AA9F542F0869FED2CED4A8527506E9C4D198105D239FF803153A","status":"experimental"},
 {"id":"govee-h5102","version":1,"path":"bluetooth/profiles/govee-h5102-v1.json","minimumRuntimeVersion":1,"sha256":"BC942CAA767067CBAD30371190CD43CE6ABE70FA641236ADC63303D3328DBA37","status":"experimental"},
 {"id":"govee-h5104","version":1,"path":"bluetooth/profiles/govee-h5104-v1.json","minimumRuntimeVersion":1,"sha256":"AC27E7B3FD39EE11D0ECAD5DBAC6AACC5B86B0E084908DE740E2BB77B047DE75","status":"experimental"},
-{"id":"govee-h5105","version":1,"path":"bluetooth/profiles/govee-h5105-v1.json","minimumRuntimeVersion":1,"sha256":"3A9AC57CD409897635AE2E966C3FBC30BC0EA9E261DA4C231F56A0213EEB1FA7","status":"experimental"}
+{"id":"govee-h5105","version":1,"path":"bluetooth/profiles/govee-h5105-v1.json","minimumRuntimeVersion":1,"sha256":"3A9AC57CD409897635AE2E966C3FBC30BC0EA9E261DA4C231F56A0213EEB1FA7","status":"experimental"},
+{"id":"govee-h5106","version":1,"path":"bluetooth/profiles/govee-h5106-v1.json","minimumRuntimeVersion":1,"sha256":"3ECBFFA7820279987D6428554458FB5FE7E743624521E98242879F3AF4EAA641","status":"experimental"},
+{"id":"govee-h5108","version":1,"path":"bluetooth/profiles/govee-h5108-v1.json","minimumRuntimeVersion":1,"sha256":"1F28E3DDF2B6BC65C868FD53A47D59D3355B342D822B8CACACEA24747584D2F3","status":"experimental"},
+{"id":"govee-h5140","version":1,"path":"bluetooth/profiles/govee-h5140-v1.json","minimumRuntimeVersion":1,"sha256":"4018652FC193FD97F1A8A1885FAF9A03DB6FDB5B4508AB362690F7BCB1F09A5E","status":"experimental"},
+{"id":"govee-h5174","version":1,"path":"bluetooth/profiles/govee-h5174-v1.json","minimumRuntimeVersion":1,"sha256":"5BE513457CEE10AF238A03389B968F6D45629CB2B5D777C4F19815D76A3192BA","status":"experimental"},
+{"id":"govee-h5177","version":1,"path":"bluetooth/profiles/govee-h5177-v1.json","minimumRuntimeVersion":1,"sha256":"5DDE526AE244589F937B0F17D039D87DF2EBE0720892DE2D94615A6D8C5CDF12","status":"experimental"}
   ]
 }
