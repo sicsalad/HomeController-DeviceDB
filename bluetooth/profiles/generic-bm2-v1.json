@@ -1,0 +1,14 @@
+{
+  "$schema": "../../schemas/ble-profile-v1.schema.json",
+  "schemaVersion": 1,
+  "id": "generic-bm2",
+  "version": 1,
+  "minimumRuntimeVersion": 1,
+  "status": "experimental",
+  "protocol": "BM2 iBeacon manufacturer advertisement",
+  "match": { "manufacturerIds": [76] },
+  "source": { "name": "BM2 protocol facts documented by Theengs Decoder", "url": "https://decoder.theengs.io/devices/BM2.html", "license": "Protocol facts independently re-expressed in HomeController DeviceDB; Theengs Decoder implementation is GPL-3.0.", "notes": "BM2 advertisement uses an iBeacon UUID signature; profile remains experimental until matcher supports manufacturer payload-prefix constraints." },
+  "fields": [
+    { "code": "battery", "name": "Battery", "unit": "%", "input": { "kind": "manufacturerData", "manufacturerId": 76 }, "decode": { "type": "uint8", "offset": 24, "minimum": 0, "maximum": 100 } }
+  ]
+}

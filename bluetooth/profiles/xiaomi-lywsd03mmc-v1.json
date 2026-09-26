@@ -1,12 +1,1 @@
-{
-  "$schema": "../../schemas/ble-profile-v1.schema.json",
-  "schemaVersion": 1,
-  "id": "xiaomi-lywsd03mmc",
-  "version": 1,
-  "minimumRuntimeVersion": 1,
-  "status": "experimental",
-  "protocol": "Xiaomi ATC/PVVX/BTHome",
-  "match": { "namePatterns": ["ATC_*", "LYWSD03MMC*", "MJWSD05MMC*"], "serviceDataUuids": ["181A", "FCD2"] },
-  "source": { "name": "Theengs Decoder", "url": "https://github.com/theengs/decoder/blob/development/src/devices/LYWSD03MMC_json.h", "license": "GPL-3.0", "notes": "LYWSD03MMC/MJWSD05MMC ATC, PVVX and BTHome broadcast variants." },
-  "fields": []
-}
+{"$schema":"../../schemas/ble-profile-v1.schema.json","schemaVersion":1,"id":"xiaomi-lywsd03mmc","version":1,"minimumRuntimeVersion":1,"status":"experimental","protocol":"ATC/PVVX/BTHome service-data advertisement","match":{"serviceDataUuids":["181a","fcd2"]},"source":{"name":"Theengs Decoder LYWSD03MMC protocol facts","url":"https://github.com/theengs/decoder/blob/development/src/devices/LYWSD03MMC_json.h","license":"Protocol facts independently re-expressed in HomeController DeviceDB; Theengs Decoder implementation is GPL-3.0.","notes":"LYWSD03MMC custom ATC/PVVX firmware family; supports common environmental values; hardware-unverified."},"fields":[{"code":"temperature","name":"Temperature","unit":"°C","input":{"kind":"serviceData","serviceUuid":"181a"},"decode":{"type":"int16le","offset":6,"scale":0.01}},{"code":"humidity","name":"Humidity","unit":"%","input":{"kind":"serviceData","serviceUuid":"181a"},"decode":{"type":"uint16le","offset":8,"scale":0.01}},{"code":"voltage","name":"Voltage","unit":"V","input":{"kind":"serviceData","serviceUuid":"181a"},"decode":{"type":"uint16le","offset":10,"scale":0.001}},{"code":"battery","name":"Battery","unit":"%","input":{"kind":"serviceData","serviceUuid":"181a"},"decode":{"type":"uint8","offset":12,"minimum":0,"maximum":100}}]}

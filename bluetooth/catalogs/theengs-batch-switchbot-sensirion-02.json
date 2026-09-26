@@ -1,0 +1,1 @@
+{"schemaVersion":1,"catalogId":"theengs-switchbot-sensirion-02","profiles":["../profiles/switchbot-meter-pro-co2-v1.json","../profiles/switchbot-outdoor-meter-v1.json","../profiles/switchbot-bot-v1.json","../profiles/sensirion-sht4x-v1.json","../profiles/sensirion-scd4x-v1.json"]}

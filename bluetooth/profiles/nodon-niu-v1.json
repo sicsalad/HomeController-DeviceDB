@@ -1,0 +1,10 @@
+{
+  "$schema":"../../schemas/ble-profile-v1.schema.json","schemaVersion":1,"id":"nodon-niu","version":1,"minimumRuntimeVersion":1,"status":"experimental","protocol":"NodOn NIU smart button service advertisement",
+  "match":{"serviceUuids":["0000"]},
+  "source":{"name":"Theengs Decoder NODONNIU research reference","url":"https://github.com/theengs/decoder/blob/development/src/devices/NODONNIU_json.h","license":"GPL-3.0 research reference only","notes":"Independent HomeController profile. Service data carries button press type, device color and battery; hardware-unverified."},
+  "fields":[
+    {"code":"colorRaw","name":"Device color raw","input":{"kind":"serviceData","serviceUuid":"0000"},"decode":{"type":"uint16be","offset":10}},
+    {"code":"batteryRaw","name":"Battery raw","unit":"%","input":{"kind":"serviceData","serviceUuid":"0000"},"decode":{"type":"uint8","offset":12}},
+    {"code":"buttonRaw","name":"Button press type raw","input":{"kind":"serviceData","serviceUuid":"0000"},"decode":{"type":"uint8","offset":15}}
+  ]
+}
