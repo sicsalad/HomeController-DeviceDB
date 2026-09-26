@@ -1,0 +1,10 @@
+{
+  "$schema":"../../schemas/ble-profile-v1.schema.json","schemaVersion":1,"id":"qingping-cgpr1","version":1,"minimumRuntimeVersion":1,"status":"experimental","protocol":"Qingping FDCD service data",
+  "match":{"serviceDataUuids":["fdcd"]},
+  "source":{"name":"Theengs Decoder CGPR1","url":"https://github.com/theengs/decoder/blob/development/src/devices/CGPR1_json.h","license":"GPL-3.0 research reference only","notes":"CGPR1 emits multiple packet layouts. Fields are decoded where present; hardware-unverified."},
+  "fields":[
+    {"code":"motion","name":"Motion","unit":"status","input":{"kind":"serviceData","serviceUuid":"fdcd"},"decode":{"type":"boolean","offset":10,"mask":1}},
+    {"code":"battery","name":"Battery","unit":"%","input":{"kind":"serviceData","serviceUuid":"fdcd"},"decode":{"type":"uint8","offset":10}},
+    {"code":"illuminance","name":"Illuminance","unit":"lx","input":{"kind":"serviceData","serviceUuid":"fdcd"},"decode":{"type":"uint16le","offset":16}}
+  ]
+}
