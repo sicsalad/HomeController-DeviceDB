@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/ble-profile-v1.schema.json",
+  "schemaVersion": 1,
+  "id": "ruuvi-ruuvitag",
+  "version": 1,
+  "minimumRuntimeVersion": 1,
+  "status": "experimental",
+  "protocol": "Ruuvi manufacturer advertisement",
+  "match": {
+    "namePatterns": [
+      "RuuviTag*"
+    ],
+    "manufacturerIds": [
+      1177
+    ]
+  },
+  "source": {
+    "name": "Ruuvi Sensor Protocol",
+    "url": "https://docs.ruuvi.com/communication/bluetooth-advertisements/data-format-5-rawv2",
+    "notes": "RuuviTag RAWv2 manufacturer data format 5."
+  },
+  "fields": []
+}
