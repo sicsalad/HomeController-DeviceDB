@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/ble-profile-v1.schema.json",
+  "schemaVersion": 1,
+  "id": "xiaomi-lywsd03mmc",
+  "version": 1,
+  "minimumRuntimeVersion": 1,
+  "status": "experimental",
+  "protocol": "Xiaomi ATC/PVVX/BTHome",
+  "match": { "namePatterns": ["ATC_*", "LYWSD03MMC*", "MJWSD05MMC*"], "serviceDataUuids": ["181A", "FCD2"] },
+  "source": { "name": "Theengs Decoder", "url": "https://github.com/theengs/decoder/blob/development/src/devices/LYWSD03MMC_json.h", "license": "GPL-3.0", "notes": "LYWSD03MMC/MJWSD05MMC ATC, PVVX and BTHome broadcast variants." },
+  "fields": []
+}
