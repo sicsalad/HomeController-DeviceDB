@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/ble-profile-v1.schema.json",
+  "schemaVersion": 1,
+  "id": "sonoff-ewelink-ble",
+  "version": 1,
+  "minimumRuntimeVersion": 1,
+  "status": "experimental",
+  "protocol": "SONOFF/eWeLink Bluetooth LE",
+  "match": {
+    "namePatterns": [
+      "SONOFF*",
+      "eWeLink*",
+      "SWV*",
+      "SNZB*"
+    ]
+  },
+  "source": {
+    "name": "SONOFF",
+    "url": "https://sonoff.tech/",
+    "notes": "Discovery profile for SONOFF/eWeLink BLE-capable products; payloads vary by model."
+  },
+  "fields": []
+}
