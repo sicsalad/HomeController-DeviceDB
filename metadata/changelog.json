@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.88",
-      "versionCode": 1787876428,
-      "publishedUtc": "2026-08-28T00:20:28Z",
-      "notes": "Use semantic IDs for application localization"
-    },
-    {
       "version": "1.0.89",
       "versionCode": 1787905193,
       "publishedUtc": "2026-08-28T08:19:53Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1790444244,
       "publishedUtc": "2026-09-26T17:37:24Z",
       "notes": "Publish Qingping CGD1 BLE profile"
+    },
+    {
+      "version": "1.0.356",
+      "versionCode": 1790445816,
+      "publishedUtc": "2026-09-26T18:03:36Z",
+      "notes": "Add Xiaomi LYWSD03MMC BLE profile"
     }
   ]
 }
