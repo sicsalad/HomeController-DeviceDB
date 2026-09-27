@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1386",
-                         "versionCode":  1789223356,
-                         "publishedUtc":  "2026-09-12T14:33:54Z",
-                         "notes":  "Keep Cast audio and subtitle controls visible"
-                     },
-                     {
                          "version":  "1.0.1387",
                          "versionCode":  1789223705,
                          "publishedUtc":  "2026-09-12T14:40:15Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790520575,
                          "publishedUtc":  "2026-09-27T14:58:11Z",
                          "notes":  "Fix Flower Care value presentation"
+                     },
+                     {
+                         "version":  "1.0.1480",
+                         "versionCode":  1790521164,
+                         "publishedUtc":  "2026-09-27T15:07:38Z",
+                         "notes":  "Fix Home card navigation after drag reorder"
                      }
                  ]
 }
