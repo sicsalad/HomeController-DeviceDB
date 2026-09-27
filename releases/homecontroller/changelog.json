@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1384",
-                         "versionCode":  1789220892,
-                         "publishedUtc":  "2026-09-12T13:52:45Z",
-                         "notes":  "Auto-discover servers when Media Server device opens"
-                     },
-                     {
                          "version":  "1.0.1385",
                          "versionCode":  1789223008,
                          "publishedUtc":  "2026-09-12T14:28:08Z",
@@ -1199,6 +1193,12 @@
                          "version":  "1.0.1477",
                          "versionCode":  1790465806,
                          "publishedUtc":  "2026-09-26T23:44:57Z",
+                         "notes":  "Restore BLE device page and fix advertised services type"
+                     },
+                     {
+                         "version":  "1.0.1478",
+                         "versionCode":  1790514386,
+                         "publishedUtc":  "2026-09-27T13:15:25Z",
                          "notes":  "Restore BLE device page and fix advertised services type"
                      }
                  ]
