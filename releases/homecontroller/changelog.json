@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1391",
-                         "versionCode":  1789320416,
-                         "publishedUtc":  "2026-09-13T17:31:48Z",
-                         "notes":  "Repair false Android build failures after successful publish"
-                     },
-                     {
                          "version":  "1.0.1392",
                          "versionCode":  1789322065,
                          "publishedUtc":  "2026-09-13T17:59:16Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790547244,
                          "publishedUtc":  "2026-09-27T22:21:52Z",
                          "notes":  "Await Bluetooth discoverability before HID registration"
+                     },
+                     {
+                         "version":  "1.0.1484",
+                         "versionCode":  1790547787,
+                         "publishedUtc":  "2026-09-27T22:30:48Z",
+                         "notes":  "Fix HID pairing order so keyboard registration survives discoverability dialog"
                      }
                  ]
 }
