@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1385",
-                         "versionCode":  1789223008,
-                         "publishedUtc":  "2026-09-12T14:28:08Z",
-                         "notes":  "Improve DjVu fit width and native pinch handling"
-                     },
-                     {
                          "version":  "1.0.1386",
                          "versionCode":  1789223356,
                          "publishedUtc":  "2026-09-12T14:33:54Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790514386,
                          "publishedUtc":  "2026-09-27T13:15:25Z",
                          "notes":  "Restore BLE device page and fix advertised services type"
+                     },
+                     {
+                         "version":  "1.0.1479",
+                         "versionCode":  1790520575,
+                         "publishedUtc":  "2026-09-27T14:58:11Z",
+                         "notes":  "Fix Flower Care value presentation"
                      }
                  ]
 }
