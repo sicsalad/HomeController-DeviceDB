@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1394",
-                         "versionCode":  1789327708,
-                         "publishedUtc":  "2026-09-13T19:33:16Z",
-                         "notes":  "Restore video track API without startup selection"
-                     },
-                     {
                          "version":  "1.0.1396",
                          "versionCode":  1789333877,
                          "publishedUtc":  "2026-09-13T21:16:32Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790550759,
                          "publishedUtc":  "2026-09-27T23:20:21Z",
                          "notes":  "Start Samsung companion service before encrypted H-Series commands"
+                     },
+                     {
+                         "version":  "1.0.1487",
+                         "versionCode":  1790552028,
+                         "publishedUtc":  "2026-09-27T23:41:31Z",
+                         "notes":  "Validate Samsung H-Series pairing identity diagnostics"
                      }
                  ]
 }
