@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1387",
-                         "versionCode":  1789223705,
-                         "publishedUtc":  "2026-09-12T14:40:15Z",
-                         "notes":  "Add Media Server root Cast quick controls"
-                     },
-                     {
                          "version":  "1.0.1388",
                          "versionCode":  1789252258,
                          "publishedUtc":  "2026-09-12T22:36:16Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790521164,
                          "publishedUtc":  "2026-09-27T15:07:38Z",
                          "notes":  "Fix Home card navigation after drag reorder"
+                     },
+                     {
+                         "version":  "1.0.1481",
+                         "versionCode":  1790530485,
+                         "publishedUtc":  "2026-09-27T17:42:45Z",
+                         "notes":  "Fix device taps after drag-drop reorder"
                      }
                  ]
 }
