@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1393",
-                         "versionCode":  1789322857,
-                         "publishedUtc":  "2026-09-13T18:12:22Z",
-                         "notes":  "Fix video playback crash in simplified media controls"
-                     },
-                     {
                          "version":  "1.0.1394",
                          "versionCode":  1789327708,
                          "publishedUtc":  "2026-09-13T19:33:16Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790549056,
                          "publishedUtc":  "2026-09-27T22:52:02Z",
                          "notes":  "Diagnose HID host connection and prevent reconnect storms"
+                     },
+                     {
+                         "version":  "1.0.1486",
+                         "versionCode":  1790550759,
+                         "publishedUtc":  "2026-09-27T23:20:21Z",
+                         "notes":  "Start Samsung companion service before encrypted H-Series commands"
                      }
                  ]
 }
