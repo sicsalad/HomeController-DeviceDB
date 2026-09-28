@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1396",
-                         "versionCode":  1789333877,
-                         "publishedUtc":  "2026-09-13T21:16:32Z",
-                         "notes":  "Fix GitHub contents updates after successful Android publish"
-                     },
-                     {
                          "version":  "1.0.1397",
                          "versionCode":  1789335980,
                          "publishedUtc":  "2026-09-13T21:52:16Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790552028,
                          "publishedUtc":  "2026-09-27T23:41:31Z",
                          "notes":  "Validate Samsung H-Series pairing identity diagnostics"
+                     },
+                     {
+                         "version":  "1.0.1488",
+                         "versionCode":  1790580350,
+                         "publishedUtc":  "2026-09-28T07:34:02Z",
+                         "notes":  "Match Samsung H-Series PySmartCrypto session lifecycle"
                      }
                  ]
 }
