@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1403",
-                         "versionCode":  1789340366,
-                         "publishedUtc":  "2026-09-13T23:04:23Z",
-                         "notes":  "Make direct Cast default and harden failed Cast recovery"
-                     },
-                     {
                          "version":  "1.0.1404",
                          "versionCode":  1789342083,
                          "publishedUtc":  "2026-09-13T23:33:03Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790714384,
                          "publishedUtc":  "2026-09-29T20:47:58Z",
                          "notes":  "Fix Samsung H persistent WebSocket lifetime"
+                     },
+                     {
+                         "version":  "1.0.1495",
+                         "versionCode":  1790715566,
+                         "publishedUtc":  "2026-09-29T21:07:40Z",
+                         "notes":  "Continuously trace Samsung H-Series companion frames"
                      }
                  ]
 }
