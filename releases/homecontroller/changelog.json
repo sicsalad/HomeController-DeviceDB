@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1404",
-                         "versionCode":  1789342083,
-                         "publishedUtc":  "2026-09-13T23:33:03Z",
-                         "notes":  "Use unified media browser from media server device"
-                     },
-                     {
                          "version":  "1.0.1405",
                          "versionCode":  1789344180,
                          "publishedUtc":  "2026-09-14T00:09:30Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790715566,
                          "publishedUtc":  "2026-09-29T21:07:40Z",
                          "notes":  "Continuously trace Samsung H-Series companion frames"
+                     },
+                     {
+                         "version":  "1.0.1496",
+                         "versionCode":  1790717239,
+                         "publishedUtc":  "2026-09-29T21:37:13Z",
+                         "notes":  "Initialize Samsung H-Series companion session before commands"
                      }
                  ]
 }
