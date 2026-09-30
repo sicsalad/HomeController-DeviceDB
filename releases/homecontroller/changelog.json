@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1408",
-                         "versionCode":  1789393009,
-                         "publishedUtc":  "2026-09-14T13:41:46Z",
-                         "notes":  "Fix PowerShell GitHub API path interpolation"
-                     },
-                     {
                          "version":  "1.0.1409",
                          "versionCode":  1789394299,
                          "publishedUtc":  "2026-09-14T14:03:23Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790787535,
                          "publishedUtc":  "2026-09-30T17:07:04Z",
                          "notes":  "Improve local video seek zoom and rotation controls"
+                     },
+                     {
+                         "version":  "1.0.1499",
+                         "versionCode":  1790788589,
+                         "publishedUtc":  "2026-09-30T17:25:08Z",
+                         "notes":  "Fix zoom gestures in active LibVLC video player"
                      }
                  ]
 }
