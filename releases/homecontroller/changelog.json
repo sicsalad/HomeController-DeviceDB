@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1406",
-                         "versionCode":  1789344644,
-                         "publishedUtc":  "2026-09-14T00:15:57Z",
-                         "notes":  "Make selected-track Cast mux stream-copy and bounded"
-                     },
-                     {
                          "version":  "1.0.1408",
                          "versionCode":  1789393009,
                          "publishedUtc":  "2026-09-14T13:41:46Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790787006,
                          "publishedUtc":  "2026-09-30T16:58:39Z",
                          "notes":  "Initialize Samsung H-Series companion session before commands"
+                     },
+                     {
+                         "version":  "1.0.1498",
+                         "versionCode":  1790787535,
+                         "publishedUtc":  "2026-09-30T17:07:04Z",
+                         "notes":  "Improve local video seek zoom and rotation controls"
                      }
                  ]
 }
