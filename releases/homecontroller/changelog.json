@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1412",
-                         "versionCode":  1789396144,
-                         "publishedUtc":  "2026-09-14T14:34:14Z",
-                         "notes":  "Show cached Hubitat devices immediately and refresh in background"
-                     },
-                     {
                          "version":  "1.0.1413",
                          "versionCode":  1789405777,
                          "publishedUtc":  "2026-09-14T17:14:43Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790797879,
                          "publishedUtc":  "2026-09-30T19:59:21Z",
                          "notes":  "Fix shared video seek scrubbing and sensor rotation"
+                     },
+                     {
+                         "version":  "1.0.1503",
+                         "versionCode":  1790799898,
+                         "publishedUtc":  "2026-09-30T20:34:03Z",
+                         "notes":  "Fix Android build for shared video seek helper"
                      }
                  ]
 }
