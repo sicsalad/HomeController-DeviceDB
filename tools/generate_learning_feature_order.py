@@ -60,7 +60,7 @@ def main() -> int:
         handle.write("[\n")
         for index, row in enumerate(rows):
             suffix = "," if index < len(rows) - 1 else ""
-            handle.write(json.dumps(row, ensure_ascii=False, separators=(",", ",")) + suffix + "\n")
+            handle.write(json.dumps(row, ensure_ascii=False, separators=(",", ":")) + suffix + "\n")
         handle.write("]\n")
 
     omitted = len(by_id) - len(seen)
