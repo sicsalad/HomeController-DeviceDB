@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.377",
-  "versionCode": 1790811536,
-  "publishedUtc": "2026-09-30T23:38:56Z",
-  "commit": "5646a06591d873bde2425281fd871a026afb2675",
-  "patchNotes": "Fix compact learning JSON serialization"
+  "version": "1.0.378",
+  "versionCode": 1790811975,
+  "publishedUtc": "2026-09-30T23:46:15Z",
+  "commit": "84d22973b5f0ebbbbae1fe18781d0ec70ef6e53b",
+  "patchNotes": "Preserve learning feature order and append new catalog features"
 }

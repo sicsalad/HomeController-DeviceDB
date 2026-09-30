@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.99",
-      "versionCode": 1788000565,
-      "publishedUtc": "2026-08-29T10:49:25Z",
-      "notes": "Add default infrared fan UI template"
-    },
-    {
       "version": "1.0.100",
       "versionCode": 1788000592,
       "publishedUtc": "2026-08-29T10:49:52Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1790811536,
       "publishedUtc": "2026-09-30T23:38:56Z",
       "notes": "Fix compact learning JSON serialization"
+    },
+    {
+      "version": "1.0.378",
+      "versionCode": 1790811975,
+      "publishedUtc": "2026-09-30T23:46:15Z",
+      "notes": "Preserve learning feature order and append new catalog features"
     }
   ]
 }
