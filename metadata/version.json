@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.376",
-  "versionCode": 1790811524,
-  "publishedUtc": "2026-09-30T23:38:44Z",
-  "commit": "2dff31a8dd4857e7a80bf727a7b4728a69f38f87",
-  "patchNotes": "Include FireUp in heater learning features"
+  "version": "1.0.377",
+  "versionCode": 1790811536,
+  "publishedUtc": "2026-09-30T23:38:56Z",
+  "commit": "5646a06591d873bde2425281fd871a026afb2675",
+  "patchNotes": "Fix compact learning JSON serialization"
 }
