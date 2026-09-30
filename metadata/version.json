@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.375",
-  "versionCode": 1790463646,
-  "publishedUtc": "2026-09-26T23:00:46Z",
-  "commit": "3dd762a19105bd5773834c8e2762ff50381f5bc5",
-  "patchNotes": "Add localized BLE field names and reference ranges"
+  "version": "1.0.376",
+  "versionCode": 1790811524,
+  "publishedUtc": "2026-09-30T23:38:44Z",
+  "commit": "2dff31a8dd4857e7a80bf727a7b4728a69f38f87",
+  "patchNotes": "Include FireUp in heater learning features"
 }
