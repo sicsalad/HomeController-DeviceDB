@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1411",
-                         "versionCode":  1789395777,
-                         "publishedUtc":  "2026-09-14T14:27:49Z",
-                         "notes":  "Use deterministic media probing and AAC fallback for multi-audio video"
-                     },
-                     {
                          "version":  "1.0.1412",
                          "versionCode":  1789396144,
                          "publishedUtc":  "2026-09-14T14:34:14Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790797309,
                          "publishedUtc":  "2026-09-30T19:50:04Z",
                          "notes":  "Add safe pinch zoom and pan to shared LibVLC player"
+                     },
+                     {
+                         "version":  "1.0.1502",
+                         "versionCode":  1790797879,
+                         "publishedUtc":  "2026-09-30T19:59:21Z",
+                         "notes":  "Fix shared video seek scrubbing and sensor rotation"
                      }
                  ]
 }
