@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1405",
-                         "versionCode":  1789344180,
-                         "publishedUtc":  "2026-09-14T00:09:30Z",
-                         "notes":  "Do not preprocess multi-audio playback and harden Cast mux"
-                     },
-                     {
                          "version":  "1.0.1406",
                          "versionCode":  1789344644,
                          "publishedUtc":  "2026-09-14T00:15:57Z",
@@ -1199,6 +1193,12 @@
                          "version":  "1.0.1496",
                          "versionCode":  1790717239,
                          "publishedUtc":  "2026-09-29T21:37:13Z",
+                         "notes":  "Initialize Samsung H-Series companion session before commands"
+                     },
+                     {
+                         "version":  "1.0.1497",
+                         "versionCode":  1790787006,
+                         "publishedUtc":  "2026-09-30T16:58:39Z",
                          "notes":  "Initialize Samsung H-Series companion session before commands"
                      }
                  ]
