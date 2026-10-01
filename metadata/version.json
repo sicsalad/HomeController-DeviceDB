@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.391",
-  "versionCode": 1790880464,
-  "publishedUtc": "2026-10-01T18:47:44Z",
-  "commit": "db05bddc5927f14a25bbe71d6c666bee5e315096",
-  "patchNotes": "Register rich device-specific IR templates"
+  "version": "1.0.392",
+  "versionCode": 1790880640,
+  "publishedUtc": "2026-10-01T18:50:40Z",
+  "commit": "852c2d9a4f3a5b453179a32f3063e4b18a4598d4",
+  "patchNotes": "Add modern soundbar IR template"
 }

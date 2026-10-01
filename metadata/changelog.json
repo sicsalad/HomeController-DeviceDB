@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.114",
-      "versionCode": 1788212408,
-      "publishedUtc": "2026-08-31T21:40:08Z",
-      "notes": "Add automatic Open IR device type synchronization"
-    },
-    {
       "version": "1.0.115",
       "versionCode": 1788212423,
       "publishedUtc": "2026-08-31T21:40:23Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1790880464,
       "publishedUtc": "2026-10-01T18:47:44Z",
       "notes": "Register rich device-specific IR templates"
+    },
+    {
+      "version": "1.0.392",
+      "versionCode": 1790880640,
+      "publishedUtc": "2026-10-01T18:50:40Z",
+      "notes": "Add modern soundbar IR template"
     }
   ]
 }
