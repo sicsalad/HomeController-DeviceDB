@@ -16,6 +16,16 @@ ALIASES={
  'FootballMode':['football','football_mode','soccer','soccer_mode','sports','sports_mode','sport_mode'],'Turbo':['turbo_mode'],'Powerful':['powerful_mode','power_mode'],'Economy':['eco','economy_mode','eco_mode'],'PowerSave':['power_save','energy_saving','energysaving'],
  'SelfClean':['self_clean','clean','cleaning'],'XFanCleaning':['x_fan','xfan','x_fan_cleaning'],'IFeel':['i_feel','follow_me','followme'],'SwingVertical':['swing_vertical','vertical_swing'],'SwingHorizontal':['swing_horizontal','horizontal_swing'],
  'FanSpeed':['fan_speed'],'FanSpeedAuto':['fan_speed_auto','fan_auto'],'FanSpeedUp':['fan_speed_up','fan_up'],'FanSpeedDown':['fan_speed_down','fan_down'],'TemperatureUp':['temperature_up','tempup','temp_up','temp+'],'TemperatureDown':['temperature_down','tempdown','temp_down','temp-']}
+# Heater source databases contain a lot of miscategorised remote commands.  Keep only
+# controls that are meaningful on a heater.  Synonymous controls are allowed in the
+# catalog; the premium UI intentionally chooses one canonical control per action.
+HEATER_FEATURES={
+ 'Power','PowerOn','PowerOff','Heater','HeaterOnOff','Heat','HeatUp','HeatDown','HeatLevel','HeatToggle','HeatHi','HeatLo',
+ 'TemperatureUp','TemperatureDown','Mode','FanSpeed','FanSpeedAuto','FanSpeedUp','FanSpeedDown','Swing','SwingVertical','SwingHorizontal',
+ 'Economy','PowerSave','Turbo','Timer','TimerOn','TimerOff','Sleep','NightMode','ChildLock','Oscillate',
+ '500W','750W','1000W','1500W','2000W','High','Low','Medium','HighLow','HiLo','H1','H2','H3',
+ 'FireUp','FireDown','FlameBrightness','FlameColor','FlameHeight','FlameSpeed','EmberBrightness','ColorFlame'
+}
 
 def key(s):return ''.join(c.lower() for c in s if c.isalnum())
 def pascal(s):
@@ -98,13 +108,13 @@ def main():
   if not raw or raw.startswith(('http://','https://')):continue
   fid=alias_to_id.get(key(raw)) or pascal(raw)
   if fid:usage.setdefault(fid,set()).update(types);observed.setdefault(fid,set()).add(raw)
- # Preserve all existing entries, including Flipper discoveries, during cheap local-only runs.
  ids=set(usage)|{f.get('id') for f in old.get('functions',[]) if f.get('id')}|set(ALIASES);functions=[]
  for fid in sorted(ids,key=lambda x:x.lower()):
   oldf=old_by_key.get(key(fid),{});aliases=set(oldf.get('aliases',[]))|set(ALIASES.get(fid,[]))|observed.get(fid,set());aliases.discard(fid)
   spaced=re.sub(r'(?<!^)(?=[A-Z])',' ',fid);aliases.update([fid.lower(),spaced.replace(' ','_').lower()]);aliases={a for a in aliases if a and (key(a)!=key(fid) or a.lower()!=fid.lower())}
-  # Local scan refreshes local usage but retains external device types already learned from Flipper.
   oldtypes=set(oldf.get('deviceTypes',[]));types=usage.get(fid,set())|oldtypes
+  # Clean historical/source noise from the heater classification on every run.
+  if 'heater' in types and fid not in HEATER_FEATURES:types.discard('heater')
   functions.append({'id':fid,'aliases':sorted(aliases,key=str.lower),'deviceTypes':sorted(types,key=str.lower)})
  sources=['ui-templates','ir','wifi','codesets','devices','generated','protocols','database.json','catalog-v2.json','curated-database.json','device-types.json']
  if args.include_flipper or 'Lucaslhm/Flipper-IRDB' in old.get('generatedFrom',[]):sources.append('Lucaslhm/Flipper-IRDB')
