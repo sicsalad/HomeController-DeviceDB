@@ -923,8 +923,8 @@
         [
           {
             "type": "button",
-            "label": "4 Eb10000",
-            "feature": "4EB10000"
+            "label": "4e B10000",
+            "feature": "4eB10000"
           }
         ],
         [
@@ -1567,8 +1567,8 @@
         [
           {
             "type": "button",
-            "label": "9f600000",
-            "feature": "9f600000"
+            "label": "9 F600000",
+            "feature": "9F600000"
           }
         ],
         [
