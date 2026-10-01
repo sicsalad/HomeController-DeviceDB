@@ -20,29 +20,8 @@
         [
           {
             "type": "button",
-            "label": "10",
-            "feature": "10"
-          }
-        ],
-        [
-          {
-            "type": "button",
             "label": "1000 W",
             "feature": "1000W"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "11",
-            "feature": "11"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "12",
-            "feature": "12"
           }
         ],
         [
@@ -62,6 +41,13 @@
         [
           {
             "type": "button",
+            "label": "2000 W",
+            "feature": "2000W"
+          }
+        ],
+        [
+          {
+            "type": "button",
             "label": "500 W",
             "feature": "500W"
           }
@@ -69,456 +55,8 @@
         [
           {
             "type": "button",
-            "label": "62",
-            "feature": "62"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "64",
-            "feature": "64"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "66",
-            "feature": "66"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "68",
-            "feature": "68"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "70",
-            "feature": "70"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Amfm",
-            "feature": "AMFM"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Aux",
-            "feature": "AUX"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bass",
-            "feature": "Bass"
-          }
-        ],
-        [
-          {
-            "type": "button",
             "label": "Bgcolor",
             "feature": "BGColor"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Am",
-            "feature": "BK001AM"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Bass",
-            "feature": "BK001BASS"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Cd",
-            "feature": "BK001CD"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Center",
-            "feature": "BK001CENTER"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Cinema",
-            "feature": "BK001CINEMA"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Dimension",
-            "feature": "BK001DIMENSION"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Down",
-            "feature": "BK001DOWN"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Dvd",
-            "feature": "BK001DVD"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Dvdaudio",
-            "feature": "BK001DVDAUDIO"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Enterselect",
-            "feature": "BK001ENTERSELECT"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Eq",
-            "feature": "BK001EQ"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Exit",
-            "feature": "BK001EXIT"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Fm",
-            "feature": "BK001FM"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Game",
-            "feature": "BK001GAME"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Image",
-            "feature": "BK001IMAGE"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Info",
-            "feature": "BK001INFO"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Left",
-            "feature": "BK001LEFT"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Menu",
-            "feature": "BK001MENU"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Mono",
-            "feature": "BK001MONO"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Movie",
-            "feature": "BK001MOVIE"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Music",
-            "feature": "BK001MUSIC"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Mute",
-            "feature": "BK001MUTE"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Neo6",
-            "feature": "BK001NEO6"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Number0",
-            "feature": "BK001NUMBER0"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Number1",
-            "feature": "BK001NUMBER1"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Number10",
-            "feature": "BK001NUMBER10"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Number2",
-            "feature": "BK001NUMBER2"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Number3",
-            "feature": "BK001NUMBER3"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Number4",
-            "feature": "BK001NUMBER4"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Number5",
-            "feature": "BK001NUMBER5"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Number6",
-            "feature": "BK001NUMBER6"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Number7",
-            "feature": "BK001NUMBER7"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Number8",
-            "feature": "BK001NUMBER8"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Number9",
-            "feature": "BK001NUMBER9"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Panorama",
-            "feature": "BK001PANORAMA"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Poweroff",
-            "feature": "BK001POWEROFF"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Poweron",
-            "feature": "BK001POWERON"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Preset",
-            "feature": "BK001PRESET"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Prologiciix",
-            "feature": "BK001PROLOGICIIX"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Rear",
-            "feature": "BK001REAR"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Right",
-            "feature": "BK001RIGHT"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Sat",
-            "feature": "BK001SAT"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Save",
-            "feature": "BK001SAVE"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Sleep",
-            "feature": "BK001SLEEP"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Stereo",
-            "feature": "BK001STEREO"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Sub",
-            "feature": "BK001SUB"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Surround",
-            "feature": "BK001SURROUND"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Tape",
-            "feature": "BK001TAPE"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Treble",
-            "feature": "BK001TREBLE"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Tv",
-            "feature": "BK001TV"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Up",
-            "feature": "BK001UP"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 V1",
-            "feature": "BK001V1"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 V2",
-            "feature": "BK001V2"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Volume",
-            "feature": "BK001VOLUME"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk001 Z",
-            "feature": "BK001Z"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk002 Am",
-            "feature": "BK002AM"
           }
         ],
         [
@@ -538,141 +76,8 @@
         [
           {
             "type": "button",
-            "label": "Bk002 Cd",
-            "feature": "BK002CD"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk002 Down",
-            "feature": "BK002DOWN"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk002 Dvd",
-            "feature": "BK002DVD"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk002 Enter",
-            "feature": "BK002ENTER"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk002 Exit",
-            "feature": "BK002EXIT"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk002 Fm",
-            "feature": "BK002FM"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk002 Left",
-            "feature": "BK002LEFT"
-          }
-        ],
-        [
-          {
-            "type": "button",
             "label": "Bk002 Mono",
             "feature": "BK002MONO"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk002 Mute",
-            "feature": "BK002MUTE"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk002 Number0",
-            "feature": "BK002NUMBER0"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk002 Number1",
-            "feature": "BK002NUMBER1"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk002 Number10",
-            "feature": "BK002NUMBER10"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk002 Number2",
-            "feature": "BK002NUMBER2"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk002 Number3",
-            "feature": "BK002NUMBER3"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk002 Number4",
-            "feature": "BK002NUMBER4"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk002 Number5",
-            "feature": "BK002NUMBER5"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk002 Number6",
-            "feature": "BK002NUMBER6"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk002 Number7",
-            "feature": "BK002NUMBER7"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk002 Number8",
-            "feature": "BK002NUMBER8"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk002 Number9",
-            "feature": "BK002NUMBER9"
           }
         ],
         [
@@ -699,22 +104,8 @@
         [
           {
             "type": "button",
-            "label": "Bk002 Right",
-            "feature": "BK002RIGHT"
-          }
-        ],
-        [
-          {
-            "type": "button",
             "label": "Bk002 Sat",
             "feature": "BK002SAT"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk002 Save",
-            "feature": "BK002SAVE"
           }
         ],
         [
@@ -734,442 +125,8 @@
         [
           {
             "type": "button",
-            "label": "Bk002 Tape",
-            "feature": "BK002TAPE"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk002 Tune",
-            "feature": "BK002TUNE"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk002 Tv",
-            "feature": "BK002TV"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk002 Up",
-            "feature": "BK002UP"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk002 V1",
-            "feature": "BK002V1"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk002 V2",
-            "feature": "BK002V2"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk002 Volume",
-            "feature": "BK002VOLUME"
-          }
-        ],
-        [
-          {
-            "type": "button",
             "label": "Bk002 Z",
             "feature": "BK002Z"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Am",
-            "feature": "BK003AM"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Bass",
-            "feature": "BK003BASS"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Cd",
-            "feature": "BK003CD"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Center",
-            "feature": "BK003CENTER"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Cinema",
-            "feature": "BK003CINEMA"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Dimension",
-            "feature": "BK003DIMENSION"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Down",
-            "feature": "BK003DOWN"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Dvd",
-            "feature": "BK003DVD"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Dvdaudio",
-            "feature": "BK003DVDAUDIO"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Enterselect",
-            "feature": "BK003ENTERSELECT"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Eq",
-            "feature": "BK003EQ"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Exit",
-            "feature": "BK003EXIT"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Fm",
-            "feature": "BK003FM"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Game",
-            "feature": "BK003GAME"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Image",
-            "feature": "BK003IMAGE"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Info",
-            "feature": "BK003INFO"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Left",
-            "feature": "BK003LEFT"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Menu",
-            "feature": "BK003MENU"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Mono",
-            "feature": "BK003MONO"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Movie",
-            "feature": "BK003MOVIE"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Music",
-            "feature": "BK003MUSIC"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Mute",
-            "feature": "BK003MUTE"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Neo6",
-            "feature": "BK003NEO6"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Number0",
-            "feature": "BK003NUMBER0"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Number1",
-            "feature": "BK003NUMBER1"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Number10",
-            "feature": "BK003NUMBER10"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Number2",
-            "feature": "BK003NUMBER2"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Number3",
-            "feature": "BK003NUMBER3"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Number4",
-            "feature": "BK003NUMBER4"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Number5",
-            "feature": "BK003NUMBER5"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Number6",
-            "feature": "BK003NUMBER6"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Number7",
-            "feature": "BK003NUMBER7"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Number8",
-            "feature": "BK003NUMBER8"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Number9",
-            "feature": "BK003NUMBER9"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Panorama",
-            "feature": "BK003PANORAMA"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Poweroff",
-            "feature": "BK003POWEROFF"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Poweron",
-            "feature": "BK003POWERON"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Preset",
-            "feature": "BK003PRESET"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Prologiciix",
-            "feature": "BK003PROLOGICIIX"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Rear",
-            "feature": "BK003REAR"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Right",
-            "feature": "BK003RIGHT"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Sat",
-            "feature": "BK003SAT"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Save",
-            "feature": "BK003SAVE"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Sleep",
-            "feature": "BK003SLEEP"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Stereo",
-            "feature": "BK003STEREO"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Sub",
-            "feature": "BK003SUB"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Surround",
-            "feature": "BK003SURROUND"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Tape",
-            "feature": "BK003TAPE"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Treble",
-            "feature": "BK003TREBLE"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Tv",
-            "feature": "BK003TV"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Up",
-            "feature": "BK003UP"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 V1",
-            "feature": "BK003V1"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 V2",
-            "feature": "BK003V2"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Volume",
-            "feature": "BK003VOLUME"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk003 Z",
-            "feature": "BK003Z"
           }
         ],
         [
@@ -1443,391 +400,6 @@
             "type": "button",
             "label": "Bk004 Z",
             "feature": "BK004Z"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Am",
-            "feature": "BK005AM"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Bass",
-            "feature": "BK005BASS"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Cd",
-            "feature": "BK005CD"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Center",
-            "feature": "BK005CENTER"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Cinema",
-            "feature": "BK005CINEMA"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Dimension",
-            "feature": "BK005DIMENSION"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Down",
-            "feature": "BK005DOWN"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Dvd",
-            "feature": "BK005DVD"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Dvdaudio",
-            "feature": "BK005DVDAUDIO"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Enterselect",
-            "feature": "BK005ENTERSELECT"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Eq",
-            "feature": "BK005EQ"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Exit",
-            "feature": "BK005EXIT"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Fm",
-            "feature": "BK005FM"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Game",
-            "feature": "BK005GAME"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Image",
-            "feature": "BK005IMAGE"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Info",
-            "feature": "BK005INFO"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Left",
-            "feature": "BK005LEFT"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Menu",
-            "feature": "BK005MENU"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Mono",
-            "feature": "BK005MONO"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Movie",
-            "feature": "BK005MOVIE"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Music",
-            "feature": "BK005MUSIC"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Mute",
-            "feature": "BK005MUTE"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Neo6",
-            "feature": "BK005NEO6"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Number0",
-            "feature": "BK005NUMBER0"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Number1",
-            "feature": "BK005NUMBER1"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Number10",
-            "feature": "BK005NUMBER10"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Number2",
-            "feature": "BK005NUMBER2"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Number3",
-            "feature": "BK005NUMBER3"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Number4",
-            "feature": "BK005NUMBER4"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Number5",
-            "feature": "BK005NUMBER5"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Number6",
-            "feature": "BK005NUMBER6"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Number7",
-            "feature": "BK005NUMBER7"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Number8",
-            "feature": "BK005NUMBER8"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Number9",
-            "feature": "BK005NUMBER9"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Panorama",
-            "feature": "BK005PANORAMA"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Poweroff",
-            "feature": "BK005POWEROFF"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Poweron",
-            "feature": "BK005POWERON"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Preset",
-            "feature": "BK005PRESET"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Prologiciix",
-            "feature": "BK005PROLOGICIIX"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Rear",
-            "feature": "BK005REAR"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Right",
-            "feature": "BK005RIGHT"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Sat",
-            "feature": "BK005SAT"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Save",
-            "feature": "BK005SAVE"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Sleep",
-            "feature": "BK005SLEEP"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Stereo",
-            "feature": "BK005STEREO"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Sub",
-            "feature": "BK005SUB"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Surround",
-            "feature": "BK005SURROUND"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Tape",
-            "feature": "BK005TAPE"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Treble",
-            "feature": "BK005TREBLE"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Tv",
-            "feature": "BK005TV"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Up",
-            "feature": "BK005UP"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 V1",
-            "feature": "BK005V1"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 V2",
-            "feature": "BK005V2"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Volume",
-            "feature": "BK005VOLUME"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Bk005 Z",
-            "feature": "BK005Z"
           }
         ],
         [
@@ -2113,36 +685,8 @@
         [
           {
             "type": "button",
-            "label": "Cd",
-            "feature": "CD"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Cen",
-            "feature": "CEN"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Cf",
-            "feature": "CF"
-          }
-        ],
-        [
-          {
-            "type": "button",
             "label": "Child Lock",
             "feature": "ChildLock"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Church",
-            "feature": "Church"
           }
         ],
         [
@@ -2155,90 +699,6 @@
         [
           {
             "type": "button",
-            "label": "Digit1",
-            "feature": "Digit1"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Digit2",
-            "feature": "Digit2"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Digit3",
-            "feature": "Digit3"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Digit4",
-            "feature": "Digit4"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Digit5",
-            "feature": "Digit5"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Digit6",
-            "feature": "Digit6"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Digit7",
-            "feature": "Digit7"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Digit8",
-            "feature": "Digit8"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Digit9",
-            "feature": "Digit9"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Down",
-            "feature": "Down"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Dspoff",
-            "feature": "DSPOFF"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Dvd",
-            "feature": "DVD"
-          }
-        ],
-        [
-          {
-            "type": "button",
             "label": "Economy",
             "feature": "Economy"
           }
@@ -2246,8 +706,8 @@
         [
           {
             "type": "button",
-            "label": "Fan",
-            "feature": "Fan"
+            "label": "Ember Brightness",
+            "feature": "EmberBrightness"
           }
         ],
         [
@@ -2260,15 +720,22 @@
         [
           {
             "type": "button",
-            "label": "Far Cel",
-            "feature": "FarCel"
+            "label": "Fan Speed Down",
+            "feature": "FanSpeedDown"
           }
         ],
         [
           {
             "type": "button",
-            "label": "Fc",
-            "feature": "FC"
+            "label": "Fan Speed Up",
+            "feature": "FanSpeedUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Far Cel",
+            "feature": "FarCel"
           }
         ],
         [
@@ -2295,6 +762,27 @@
         [
           {
             "type": "button",
+            "label": "Flame Brightness",
+            "feature": "FlameBrightness"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Flame Color",
+            "feature": "FlameColor"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Flame Speed",
+            "feature": "FlameSpeed"
+          }
+        ],
+        [
+          {
+            "type": "button",
             "label": "H1",
             "feature": "H1"
           }
@@ -2311,13 +799,6 @@
             "type": "button",
             "label": "H3",
             "feature": "H3"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Hall",
-            "feature": "Hall"
           }
         ],
         [
@@ -2379,34 +860,6 @@
         [
           {
             "type": "button",
-            "label": "Info",
-            "feature": "Info"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Jazz",
-            "feature": "JAZZ"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "L",
-            "feature": "L"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Lock",
-            "feature": "Lock"
-          }
-        ],
-        [
-          {
-            "type": "button",
             "label": "Lo Hi",
             "feature": "LoHi"
           }
@@ -2428,27 +881,6 @@
         [
           {
             "type": "button",
-            "label": "Mem",
-            "feature": "Mem"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Menu",
-            "feature": "Menu"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Minus",
-            "feature": "Minus"
-          }
-        ],
-        [
-          {
-            "type": "button",
             "label": "Mode",
             "feature": "Mode"
           }
@@ -2463,13 +895,6 @@
         [
           {
             "type": "button",
-            "label": "Mode Off",
-            "feature": "ModeOff"
-          }
-        ],
-        [
-          {
-            "type": "button",
             "label": "Motion Sense",
             "feature": "MotionSense"
           }
@@ -2477,50 +902,8 @@
         [
           {
             "type": "button",
-            "label": "Mp3",
-            "feature": "MP3"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Mute",
-            "feature": "Mute"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Ok",
-            "feature": "Ok"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Osc",
-            "feature": "OSC"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Oscilate",
-            "feature": "Oscilate"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Plus",
-            "feature": "Plus"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Pop",
-            "feature": "POP"
+            "label": "Night Mode",
+            "feature": "NightMode"
           }
         ],
         [
@@ -2550,57 +933,8 @@
         [
           {
             "type": "button",
-            "label": "Pwr",
-            "feature": "Pwr"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "R",
-            "feature": "R"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Reset",
-            "feature": "Reset"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Rock",
-            "feature": "Rock"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Rotate",
-            "feature": "Rotate"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Rotation",
-            "feature": "Rotation"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Set",
-            "feature": "SET"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Sl",
-            "feature": "SL"
+            "label": "Sleep",
+            "feature": "Sleep"
           }
         ],
         [
@@ -2613,20 +947,6 @@
         [
           {
             "type": "button",
-            "label": "Sr",
-            "feature": "SR"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Sw",
-            "feature": "SW"
-          }
-        ],
-        [
-          {
-            "type": "button",
             "label": "Swing",
             "feature": "Swing"
           }
@@ -2634,15 +954,15 @@
         [
           {
             "type": "button",
-            "label": "Temp Dn",
-            "feature": "TempDn"
+            "label": "Swing Horizontal",
+            "feature": "SwingHorizontal"
           }
         ],
         [
           {
             "type": "button",
-            "label": "Temperature",
-            "feature": "Temperature"
+            "label": "Swing Vertical",
+            "feature": "SwingVertical"
           }
         ],
         [
@@ -2662,13 +982,6 @@
         [
           {
             "type": "button",
-            "label": "Time",
-            "feature": "Time"
-          }
-        ],
-        [
-          {
-            "type": "button",
             "label": "Timer",
             "feature": "Timer"
           }
@@ -2676,15 +989,8 @@
         [
           {
             "type": "button",
-            "label": "Treb",
-            "feature": "Treb"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Tuner",
-            "feature": "Tuner"
+            "label": "Turbo",
+            "feature": "Turbo"
           }
         ],
         [
@@ -2692,34 +998,6 @@
             "type": "button",
             "label": "Units Toggle",
             "feature": "UnitsToggle"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Unknown",
-            "feature": "UNKNOWN"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Up",
-            "feature": "Up"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Vent",
-            "feature": "Vent"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "Volume Down",
-            "feature": "VolumeDown"
           }
         ]
       ]
