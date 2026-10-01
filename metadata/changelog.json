@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.135",
-      "versionCode": 1788368602,
-      "publishedUtc": "2026-09-02T17:03:22Z",
-      "notes": "Add dynamic multi-dashboard child-items UI template"
-    },
-    {
       "version": "1.0.136",
       "versionCode": 1788368617,
       "publishedUtc": "2026-09-02T17:03:37Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1790881219,
       "publishedUtc": "2026-10-01T19:00:19Z",
       "notes": "Add premium modern CD Player IR template"
+    },
+    {
+      "version": "1.0.407",
+      "versionCode": 1790881247,
+      "publishedUtc": "2026-10-01T19:00:47Z",
+      "notes": "Add premium modern Clock IR template"
     }
   ]
 }

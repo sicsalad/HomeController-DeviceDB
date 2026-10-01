@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.404",
-  "versionCode": 1790881219,
-  "publishedUtc": "2026-10-01T19:00:19Z",
-  "commit": "64e332e99fa82c9dbe4f57de41ed9b604430e0bc",
-  "patchNotes": "Add premium modern CD Player IR template"
+  "version": "1.0.407",
+  "versionCode": 1790881247,
+  "publishedUtc": "2026-10-01T19:00:47Z",
+  "commit": "6726b48990bf2b7b3355436c6a69aea143cfe703",
+  "patchNotes": "Add premium modern Clock IR template"
 }
