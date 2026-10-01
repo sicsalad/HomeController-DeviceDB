@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.392",
-  "versionCode": 1790880640,
-  "publishedUtc": "2026-10-01T18:50:40Z",
-  "commit": "852c2d9a4f3a5b453179a32f3063e4b18a4598d4",
-  "patchNotes": "Add modern soundbar IR template"
+  "version": "1.0.393",
+  "versionCode": 1790880652,
+  "publishedUtc": "2026-10-01T18:50:52Z",
+  "commit": "30b56b5e2157928629679a701a73b4aaf914498e",
+  "patchNotes": "Add modern Blu-ray IR template"
 }
