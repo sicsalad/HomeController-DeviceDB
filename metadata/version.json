@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.386",
-  "versionCode": 1790880127,
-  "publishedUtc": "2026-10-01T18:42:07Z",
-  "commit": "75666f23d32f6dbcec2e50114f37d9a6eac044cc",
-  "patchNotes": "Restrict learning groups to canonical DeviceDB device types"
+  "version": "1.0.387",
+  "versionCode": 1790880383,
+  "publishedUtc": "2026-10-01T18:46:23Z",
+  "commit": "88aec5af4e121ccf5cfdd8be7fa7a1e12a4522de",
+  "patchNotes": "Add rich modern fan remote template"
 }
