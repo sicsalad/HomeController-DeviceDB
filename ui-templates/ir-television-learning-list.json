@@ -580,15 +580,15 @@
         [
           {
             "type": "button",
-            "label": "0b000000",
-            "feature": "0b000000"
+            "label": "0 B000000",
+            "feature": "0B000000"
           }
         ],
         [
           {
             "type": "button",
-            "label": "0b000000",
-            "feature": "0b000000"
+            "label": "0 B000000",
+            "feature": "0B000000"
           }
         ],
         [
@@ -3233,15 +3233,15 @@
         [
           {
             "type": "button",
-            "label": "4 A000000",
-            "feature": "4A000000"
+            "label": "4a000000",
+            "feature": "4a000000"
           }
         ],
         [
           {
             "type": "button",
-            "label": "4 A000000",
-            "feature": "4A000000"
+            "label": "4a000000",
+            "feature": "4a000000"
           }
         ],
         [
@@ -3947,15 +3947,15 @@
         [
           {
             "type": "button",
-            "label": "5f A00000",
-            "feature": "5fA00000"
+            "label": "5 Fa00000",
+            "feature": "5FA00000"
           }
         ],
         [
           {
             "type": "button",
-            "label": "5f A00000",
-            "feature": "5fA00000"
+            "label": "5 Fa00000",
+            "feature": "5FA00000"
           }
         ],
         [
@@ -5914,22 +5914,15 @@
         [
           {
             "type": "button",
-            "label": "A25 D0000",
-            "feature": "A25D0000"
+            "label": "A25d0000",
+            "feature": "A25d0000"
           }
         ],
         [
           {
             "type": "button",
-            "label": "A25 D0000",
-            "feature": "A25D0000"
-          }
-        ],
-        [
-          {
-            "type": "button",
-            "label": "A35 C0000",
-            "feature": "A35C0000"
+            "label": "A25d0000",
+            "feature": "A25d0000"
           }
         ],
         [
@@ -5942,15 +5935,22 @@
         [
           {
             "type": "button",
-            "label": "A55 A0000",
-            "feature": "A55A0000"
+            "label": "A35 C0000",
+            "feature": "A35C0000"
           }
         ],
         [
           {
             "type": "button",
-            "label": "A55 A0000",
-            "feature": "A55A0000"
+            "label": "A55a0000",
+            "feature": "A55a0000"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "A55a0000",
+            "feature": "A55a0000"
           }
         ],
         [
@@ -7545,15 +7545,15 @@
         [
           {
             "type": "button",
-            "label": "B14 E0000",
-            "feature": "B14E0000"
+            "label": "B14e0000",
+            "feature": "B14e0000"
           }
         ],
         [
           {
             "type": "button",
-            "label": "B14 E0000",
-            "feature": "B14E0000"
+            "label": "B14e0000",
+            "feature": "B14e0000"
           }
         ],
         [
@@ -11038,15 +11038,15 @@
         [
           {
             "type": "button",
-            "label": "D22 D0000",
-            "feature": "D22D0000"
+            "label": "D22d0000",
+            "feature": "D22d0000"
           }
         ],
         [
           {
             "type": "button",
-            "label": "D22 D0000",
-            "feature": "D22D0000"
+            "label": "D22d0000",
+            "feature": "D22d0000"
           }
         ],
         [

@@ -2,65 +2,842 @@
   "$schema": "../schemas/ui-template-index-v1.schema.json",
   "schemaVersion": 1,
   "templates": [
-    {"id":"ir-simple","path":"ir-simple.json","status":"stable","access":"free"},
-    {"id":"ir-ac-default","path":"ir-ac-default.json","status":"stable","access":"free"},
-    {"id":"ir-ac-premium-modern","path":"ir-ac-premium-modern.json","status":"stable","access":"premium"},
-    {"id":"ir-tv-default","path":"ir-tv-default.json","status":"stable","access":"free"},
-    {"id":"ir-tv-premium-modern","path":"ir-tv-premium-modern.json","status":"stable","access":"premium"},
-    {"id":"ir-fan-default","path":"ir-fan-default.json","status":"stable","access":"free"},
-    {"id":"ir-fan-premium-modern","path":"ir-fan-premium-modern.json","status":"stable","access":"premium"},
-    {"id":"ir-av-receiver-premium-modern","path":"ir-av-receiver-premium-modern.json","status":"stable","access":"premium"},
-    {"id":"ir-projector-premium-modern","path":"ir-projector-premium-modern.json","status":"stable","access":"premium"},
-    {"id":"ir-set-top-box-premium-modern","path":"ir-set-top-box-premium-modern.json","status":"stable","access":"premium"},
-    {"id":"ir-soundbar-premium-modern","path":"ir-soundbar-premium-modern.json","status":"stable","access":"premium"},
-    {"id":"ir-blu-ray-player-premium-modern","path":"ir-blu-ray-player-premium-modern.json","status":"stable","access":"premium"},
-    {"id":"ir-dvd-player-premium-modern","path":"ir-dvd-player-premium-modern.json","status":"stable","access":"premium"},
-    {"id":"ir-streaming-device-premium-modern","path":"ir-streaming-device-premium-modern.json","status":"stable","access":"premium"},
-    {"id":"ir-fireplaces-premium-modern","path":"ir-fireplaces-premium-modern.json","status":"stable","access":"premium"},
-    {"id":"ir-heater-premium-modern","path":"ir-heater-premium-modern.json","status":"stable","access":"premium"},
-    {"id":"ir-air-purifier-premium-modern","path":"ir-air-purifier-premium-modern.json","status":"stable","access":"premium"},
-    {"id":"ir-cameras-premium-modern","path":"ir-cameras-premium-modern.json","status":"stable","access":"premium"},
-    {"id":"ir-cctv-premium-modern","path":"ir-cctv-premium-modern.json","status":"stable","access":"premium"},
-    {"id":"ir-bidet-premium-modern","path":"ir-bidet-premium-modern.json","status":"stable","access":"premium"},
-    {"id":"ir-car-multimedia-premium-modern","path":"ir-car-multimedia-premium-modern.json","status":"stable","access":"premium"},
-    {"id":"ir-cd-player-premium-modern","path":"ir-cd-player-premium-modern.json","status":"stable","access":"premium"},
-    {"id":"ir-ceiling-lift-premium-modern","path":"ir-ceiling-lift-premium-modern.json","status":"stable","access":"premium"},
-    {"id":"ir-clocks-premium-modern","path":"ir-clocks-premium-modern.json","status":"stable","access":"premium"},
-    {"id":"ir-computers-premium-modern","path":"ir-computers-premium-modern.json","status":"stable","access":"premium"},
-    {"id":"ir-converters-premium-modern","path":"ir-converters-premium-modern.json","status":"stable","access":"premium"},
-    {"id":"ir-digital-picture-frame-premium-modern","path":"ir-digital-picture-frame-premium-modern.json","status":"stable","access":"premium"},
-    {"id":"ir-digital-sign-premium-modern","path":"ir-digital-sign-premium-modern.json","status":"stable","access":"premium"},
-    {"id":"ir-dust-collector-premium-modern","path":"ir-dust-collector-premium-modern.json","status":"stable","access":"premium"},
-    {"id":"ir-dvb-t-premium-modern","path":"ir-dvb-t-premium-modern.json","status":"stable","access":"premium"},
-    {"id":"ir-humidifier-premium-modern","path":"ir-humidifier-premium-modern.json","status":"stable","access":"premium"},
-    {"id":"ir-laserdisc-premium-modern","path":"ir-laserdisc-premium-modern.json","status":"stable","access":"premium"},
-    {"id":"ir-light-premium-modern","path":"ir-light-premium-modern.json","status":"stable","access":"premium"},
-    {"id":"ir-monitor-premium-modern","path":"ir-monitor-premium-modern.json","status":"stable","access":"premium"},
-    {"id":"ir-minidisc-premium-modern","path":"ir-minidisc-premium-modern.json","status":"stable","access":"premium"},
-    {"id":"ir-speaker-premium-modern","path":"ir-speaker-premium-modern.json","status":"stable","access":"premium"},
-    {"id":"ir-tv-tuner-premium-modern","path":"ir-tv-tuner-premium-modern.json","status":"stable","access":"premium"},
-    {"id":"ir-toys-premium-modern","path":"ir-toys-premium-modern.json","status":"stable","access":"premium"},
-    {"id":"ir-touchscreen-display-premium-modern","path":"ir-touchscreen-display-premium-modern.json","status":"stable","access":"premium"},
-    {"id":"ir-vacuum-premium-modern","path":"ir-vacuum-premium-modern.json","status":"stable","access":"premium"},
-    {"id":"hubitat-default","path":"hubitat-default.json","status":"stable","access":"free"},
-    {"id":"hue-default","path":"hue-default.json","status":"stable","access":"free"},
-    {"id":"google-home-default","path":"google-home-default.json","status":"stable","access":"free"},
-    {"id":"dashboard-dynamic","path":"dashboard-dynamic.json","status":"stable","access":"free"},
-    {"id":"wifi-ac-default","path":"wifi-ac-default.json","status":"stable","access":"free"},
-    {"id":"wifi-tv-default","path":"wifi-tv-default.json","status":"stable","access":"free"},
-    {"id":"wifi-tv-round","path":"wifi-tv-round.json","status":"stable","access":"premium"},
-    {"id":"wifi-ac-modern","path":"wifi-ac-modern.json","status":"stable","access":"free"},
-    {"id":"wifi-tv-modern","path":"wifi-tv-modern.json","status":"stable","access":"free"},
-    {"id":"bluetooth-tv-default","path":"bluetooth-tv-default.json","status":"stable","access":"free"},
-    {"id":"bluetooth-tv-modern","path":"bluetooth-tv-modern.json","status":"stable","access":"free"},
-    {"id":"bluetooth-light-default","path":"bluetooth-light-default.json","status":"stable","access":"free"},
-    {"id":"bluetooth-light-modern","path":"bluetooth-light-modern.json","status":"stable","access":"free"},
-    {"id":"bluetooth-switch-plug-default","path":"bluetooth-switch-plug-default.json","status":"stable","access":"free"},
-    {"id":"bluetooth-switch-plug-modern","path":"bluetooth-switch-plug-modern.json","status":"stable","access":"free"},
-    {"id":"bluetooth-sensor-default","path":"bluetooth-sensor-default.json","status":"stable","access":"free"},
-    {"id":"bluetooth-sensor-modern","path":"bluetooth-sensor-modern.json","status":"stable","access":"free"},
-    {"id":"bluetooth-thermometer-default","path":"bluetooth-thermometer-default.json","status":"stable","access":"free"},
-    {"id":"bluetooth-hid-default","path":"bluetooth-hid-default.json","status":"stable","access":"free"},
-    {"id":"bluetooth-generic-default","path":"bluetooth-generic-default.json","status":"stable","access":"free"}
+    {
+      "id": "bluetooth-generic-default",
+      "path": "bluetooth-generic-default.json",
+      "status": "stable",
+      "access": "free",
+      "file": "bluetooth-generic-default.json",
+      "name": "Default"
+    },
+    {
+      "id": "bluetooth-hid-default",
+      "path": "bluetooth-hid-default.json",
+      "status": "stable",
+      "access": "free",
+      "file": "bluetooth-hid-default.json",
+      "name": "Default"
+    },
+    {
+      "id": "bluetooth-light-default",
+      "path": "bluetooth-light-default.json",
+      "status": "stable",
+      "access": "free",
+      "file": "bluetooth-light-default.json",
+      "name": "Default"
+    },
+    {
+      "id": "bluetooth-light-modern",
+      "path": "bluetooth-light-modern.json",
+      "status": "stable",
+      "access": "free",
+      "file": "bluetooth-light-modern.json",
+      "name": "Modern"
+    },
+    {
+      "id": "bluetooth-sensor-default",
+      "path": "bluetooth-sensor-default.json",
+      "status": "stable",
+      "access": "free",
+      "file": "bluetooth-sensor-default.json",
+      "name": "Default"
+    },
+    {
+      "id": "bluetooth-sensor-modern",
+      "path": "bluetooth-sensor-modern.json",
+      "status": "stable",
+      "access": "free",
+      "file": "bluetooth-sensor-modern.json",
+      "name": "Modern"
+    },
+    {
+      "id": "bluetooth-switch-plug-default",
+      "path": "bluetooth-switch-plug-default.json",
+      "status": "stable",
+      "access": "free",
+      "file": "bluetooth-switch-plug-default.json",
+      "name": "Default"
+    },
+    {
+      "id": "bluetooth-switch-plug-modern",
+      "path": "bluetooth-switch-plug-modern.json",
+      "status": "stable",
+      "access": "free",
+      "file": "bluetooth-switch-plug-modern.json",
+      "name": "Modern"
+    },
+    {
+      "id": "bluetooth-thermometer-default",
+      "path": "bluetooth-thermometer-default.json",
+      "status": "stable",
+      "access": "free",
+      "file": "bluetooth-thermometer-default.json",
+      "name": "Default"
+    },
+    {
+      "id": "bluetooth-tv-default",
+      "path": "bluetooth-tv-default.json",
+      "status": "stable",
+      "access": "free",
+      "file": "bluetooth-tv-default.json",
+      "name": "Default"
+    },
+    {
+      "id": "bluetooth-tv-modern",
+      "path": "bluetooth-tv-modern.json",
+      "status": "stable",
+      "access": "free",
+      "file": "bluetooth-tv-modern.json",
+      "name": "Modern"
+    },
+    {
+      "id": "dashboard-dynamic",
+      "path": "dashboard-dynamic.json",
+      "status": "stable",
+      "access": "free",
+      "file": "dashboard-dynamic.json",
+      "name": "Dashboard Dynamic"
+    },
+    {
+      "id": "google-home-default",
+      "path": "google-home-default.json",
+      "status": "stable",
+      "access": "free",
+      "file": "google-home-default.json",
+      "name": "Google Home default"
+    },
+    {
+      "id": "hubitat-default",
+      "path": "hubitat-default.json",
+      "status": "stable",
+      "access": "free",
+      "file": "hubitat-default.json",
+      "name": "Hubitat default"
+    },
+    {
+      "id": "hue-default",
+      "path": "hue-default.json",
+      "status": "stable",
+      "access": "free",
+      "file": "hue-default.json",
+      "name": "Philips Hue default"
+    },
+    {
+      "id": "ir-ac-default",
+      "path": "ir-ac-default.json",
+      "status": "stable",
+      "access": "free",
+      "file": "ir-ac-default.json",
+      "name": "Modern Climate Remote"
+    },
+    {
+      "id": "ir-ac-premium-modern",
+      "path": "ir-ac-premium-modern.json",
+      "status": "stable",
+      "access": "premium",
+      "file": "ir-ac-premium-modern.json",
+      "name": "Modern Climate Remote Pro"
+    },
+    {
+      "id": "ir-air-conditioner-learning-list",
+      "file": "ir-air-conditioner-learning-list.json",
+      "name": "Air Conditioner - Command List",
+      "deviceType": "air-conditioner",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-air-purifier-learning-list",
+      "file": "ir-air-purifier-learning-list.json",
+      "name": "Air Purifier - Command List",
+      "deviceType": "air-purifier",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-air-purifier-premium-modern",
+      "path": "ir-air-purifier-premium-modern.json",
+      "status": "stable",
+      "access": "premium",
+      "file": "ir-air-purifier-premium-modern.json",
+      "name": "Modern Air Purifier Remote"
+    },
+    {
+      "id": "ir-av-receiver-learning-list",
+      "file": "ir-av-receiver-learning-list.json",
+      "name": "Av Receiver - Command List",
+      "deviceType": "av-receiver",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-av-receiver-premium-modern",
+      "path": "ir-av-receiver-premium-modern.json",
+      "status": "stable",
+      "access": "premium",
+      "file": "ir-av-receiver-premium-modern.json",
+      "name": "Modern AV Receiver Remote"
+    },
+    {
+      "id": "ir-bidet-learning-list",
+      "file": "ir-bidet-learning-list.json",
+      "name": "Bidet - Command List",
+      "deviceType": "bidet",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-bidet-premium-modern",
+      "path": "ir-bidet-premium-modern.json",
+      "status": "stable",
+      "access": "premium",
+      "file": "ir-bidet-premium-modern.json",
+      "name": "Modern Bidet Remote"
+    },
+    {
+      "id": "ir-blu-ray-player-learning-list",
+      "file": "ir-blu-ray-player-learning-list.json",
+      "name": "Blu Ray Player - Command List",
+      "deviceType": "blu-ray-player",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-blu-ray-player-premium-modern",
+      "path": "ir-blu-ray-player-premium-modern.json",
+      "status": "stable",
+      "access": "premium",
+      "file": "ir-blu-ray-player-premium-modern.json",
+      "name": "Modern Blu-ray Player Remote"
+    },
+    {
+      "id": "ir-cameras-learning-list",
+      "file": "ir-cameras-learning-list.json",
+      "name": "Cameras - Command List",
+      "deviceType": "cameras",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-cameras-premium-modern",
+      "path": "ir-cameras-premium-modern.json",
+      "status": "stable",
+      "access": "premium",
+      "file": "ir-cameras-premium-modern.json",
+      "name": "Modern Camera Remote"
+    },
+    {
+      "id": "ir-car-multimedia-learning-list",
+      "file": "ir-car-multimedia-learning-list.json",
+      "name": "Car Multimedia - Command List",
+      "deviceType": "car-multimedia",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-car-multimedia-premium-modern",
+      "path": "ir-car-multimedia-premium-modern.json",
+      "status": "stable",
+      "access": "premium",
+      "file": "ir-car-multimedia-premium-modern.json",
+      "name": "Modern Car Multimedia Remote"
+    },
+    {
+      "id": "ir-cctv-learning-list",
+      "file": "ir-cctv-learning-list.json",
+      "name": "Cctv - Command List",
+      "deviceType": "cctv",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-cctv-premium-modern",
+      "path": "ir-cctv-premium-modern.json",
+      "status": "stable",
+      "access": "premium",
+      "file": "ir-cctv-premium-modern.json",
+      "name": "Modern CCTV Remote"
+    },
+    {
+      "id": "ir-cd-player-learning-list",
+      "file": "ir-cd-player-learning-list.json",
+      "name": "Cd Player - Command List",
+      "deviceType": "cd-player",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-cd-player-premium-modern",
+      "path": "ir-cd-player-premium-modern.json",
+      "status": "stable",
+      "access": "premium",
+      "file": "ir-cd-player-premium-modern.json",
+      "name": "Modern CD Player Remote"
+    },
+    {
+      "id": "ir-ceiling-lift-learning-list",
+      "file": "ir-ceiling-lift-learning-list.json",
+      "name": "Ceiling Lift - Command List",
+      "deviceType": "ceiling-lift",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-ceiling-lift-premium-modern",
+      "path": "ir-ceiling-lift-premium-modern.json",
+      "status": "stable",
+      "access": "premium",
+      "file": "ir-ceiling-lift-premium-modern.json",
+      "name": "Modern Ceiling Lift Remote"
+    },
+    {
+      "id": "ir-clocks-learning-list",
+      "file": "ir-clocks-learning-list.json",
+      "name": "Clocks - Command List",
+      "deviceType": "clocks",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-clocks-premium-modern",
+      "path": "ir-clocks-premium-modern.json",
+      "status": "stable",
+      "access": "premium",
+      "file": "ir-clocks-premium-modern.json",
+      "name": "Modern Clock Remote"
+    },
+    {
+      "id": "ir-computers-learning-list",
+      "file": "ir-computers-learning-list.json",
+      "name": "Computers - Command List",
+      "deviceType": "computers",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-computers-premium-modern",
+      "path": "ir-computers-premium-modern.json",
+      "status": "stable",
+      "access": "premium",
+      "file": "ir-computers-premium-modern.json",
+      "name": "Modern Computer Remote"
+    },
+    {
+      "id": "ir-consoles-learning-list",
+      "file": "ir-consoles-learning-list.json",
+      "name": "Consoles - Command List",
+      "deviceType": "consoles",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-converted-learning-list",
+      "file": "ir-converted-learning-list.json",
+      "name": "Converted - Command List",
+      "deviceType": "converted",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-converters-learning-list",
+      "file": "ir-converters-learning-list.json",
+      "name": "Converters - Command List",
+      "deviceType": "converters",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-converters-premium-modern",
+      "path": "ir-converters-premium-modern.json",
+      "status": "stable",
+      "access": "premium",
+      "file": "ir-converters-premium-modern.json",
+      "name": "Modern Converter Remote"
+    },
+    {
+      "id": "ir-digital-picture-frame-learning-list",
+      "file": "ir-digital-picture-frame-learning-list.json",
+      "name": "Digital Picture Frame - Command List",
+      "deviceType": "digital-picture-frame",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-digital-picture-frame-premium-modern",
+      "path": "ir-digital-picture-frame-premium-modern.json",
+      "status": "stable",
+      "access": "premium",
+      "file": "ir-digital-picture-frame-premium-modern.json",
+      "name": "Modern Digital Picture Frame Remote"
+    },
+    {
+      "id": "ir-digital-sign-learning-list",
+      "file": "ir-digital-sign-learning-list.json",
+      "name": "Digital Sign - Command List",
+      "deviceType": "digital-sign",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-digital-sign-premium-modern",
+      "path": "ir-digital-sign-premium-modern.json",
+      "status": "stable",
+      "access": "premium",
+      "file": "ir-digital-sign-premium-modern.json",
+      "name": "Modern Digital Sign Remote"
+    },
+    {
+      "id": "ir-dust-collector-learning-list",
+      "file": "ir-dust-collector-learning-list.json",
+      "name": "Dust Collector - Command List",
+      "deviceType": "dust-collector",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-dust-collector-premium-modern",
+      "path": "ir-dust-collector-premium-modern.json",
+      "status": "stable",
+      "access": "premium",
+      "file": "ir-dust-collector-premium-modern.json",
+      "name": "Modern Dust Collector Remote"
+    },
+    {
+      "id": "ir-dvb-t-learning-list",
+      "file": "ir-dvb-t-learning-list.json",
+      "name": "Dvb T - Command List",
+      "deviceType": "dvb-t",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-dvb-t-premium-modern",
+      "path": "ir-dvb-t-premium-modern.json",
+      "status": "stable",
+      "access": "premium",
+      "file": "ir-dvb-t-premium-modern.json",
+      "name": "Modern DVB-T Receiver Remote"
+    },
+    {
+      "id": "ir-dvd-player-learning-list",
+      "file": "ir-dvd-player-learning-list.json",
+      "name": "Dvd Player - Command List",
+      "deviceType": "dvd-player",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-dvd-player-premium-modern",
+      "path": "ir-dvd-player-premium-modern.json",
+      "status": "stable",
+      "access": "premium",
+      "file": "ir-dvd-player-premium-modern.json",
+      "name": "Modern DVD Player Remote"
+    },
+    {
+      "id": "ir-fan-default",
+      "path": "ir-fan-default.json",
+      "status": "stable",
+      "access": "free",
+      "file": "ir-fan-default.json",
+      "name": "Infrared Fan Default"
+    },
+    {
+      "id": "ir-fan-learning-list",
+      "file": "ir-fan-learning-list.json",
+      "name": "Fan - Command List",
+      "deviceType": "fan",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-fan-premium-modern",
+      "path": "ir-fan-premium-modern.json",
+      "status": "stable",
+      "access": "premium",
+      "file": "ir-fan-premium-modern.json",
+      "name": "Modern Fan Remote"
+    },
+    {
+      "id": "ir-fireplaces-learning-list",
+      "file": "ir-fireplaces-learning-list.json",
+      "name": "Fireplaces - Command List",
+      "deviceType": "fireplaces",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-fireplaces-premium-modern",
+      "path": "ir-fireplaces-premium-modern.json",
+      "status": "stable",
+      "access": "premium",
+      "file": "ir-fireplaces-premium-modern.json",
+      "name": "Modern Fireplace Remote"
+    },
+    {
+      "id": "ir-general-learning-list",
+      "file": "ir-general-learning-list.json",
+      "name": "General - Command List",
+      "deviceType": "general",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-head-unit-learning-list",
+      "file": "ir-head-unit-learning-list.json",
+      "name": "Head Unit - Command List",
+      "deviceType": "head-unit",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-heater-learning-list",
+      "file": "ir-heater-learning-list.json",
+      "name": "Heater - Command List",
+      "deviceType": "heater",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-heater-premium-modern",
+      "path": "ir-heater-premium-modern.json",
+      "status": "stable",
+      "access": "premium",
+      "file": "ir-heater-premium-modern.json",
+      "name": "Modern Heater Remote"
+    },
+    {
+      "id": "ir-hubitat-learning-list",
+      "file": "ir-hubitat-learning-list.json",
+      "name": "Hubitat - Command List",
+      "deviceType": "hubitat",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-humidifier-learning-list",
+      "file": "ir-humidifier-learning-list.json",
+      "name": "Humidifier - Command List",
+      "deviceType": "humidifier",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-humidifier-premium-modern",
+      "path": "ir-humidifier-premium-modern.json",
+      "status": "stable",
+      "access": "premium",
+      "file": "ir-humidifier-premium-modern.json",
+      "name": "Modern Humidifier Remote"
+    },
+    {
+      "id": "ir-ir-transceiver-learning-list",
+      "file": "ir-ir-transceiver-learning-list.json",
+      "name": "Ir Transceiver - Command List",
+      "deviceType": "ir-transceiver",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-kvm-learning-list",
+      "file": "ir-kvm-learning-list.json",
+      "name": "Kvm - Command List",
+      "deviceType": "kvm",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-laserdisc-learning-list",
+      "file": "ir-laserdisc-learning-list.json",
+      "name": "Laserdisc - Command List",
+      "deviceType": "laserdisc",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-laserdisc-premium-modern",
+      "path": "ir-laserdisc-premium-modern.json",
+      "status": "stable",
+      "access": "premium",
+      "file": "ir-laserdisc-premium-modern.json",
+      "name": "Modern LaserDisc Remote"
+    },
+    {
+      "id": "ir-light-learning-list",
+      "file": "ir-light-learning-list.json",
+      "name": "Light - Command List",
+      "deviceType": "light",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-light-premium-modern",
+      "path": "ir-light-premium-modern.json",
+      "status": "stable",
+      "access": "premium",
+      "file": "ir-light-premium-modern.json",
+      "name": "Modern Light Remote"
+    },
+    {
+      "id": "ir-minidisc-learning-list",
+      "file": "ir-minidisc-learning-list.json",
+      "name": "Minidisc - Command List",
+      "deviceType": "minidisc",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-minidisc-premium-modern",
+      "path": "ir-minidisc-premium-modern.json",
+      "status": "stable",
+      "access": "premium",
+      "file": "ir-minidisc-premium-modern.json",
+      "name": "Modern MiniDisc Remote"
+    },
+    {
+      "id": "ir-miscellaneous-learning-list",
+      "file": "ir-miscellaneous-learning-list.json",
+      "name": "Miscellaneous - Command List",
+      "deviceType": "miscellaneous",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-monitor-premium-modern",
+      "path": "ir-monitor-premium-modern.json",
+      "status": "stable",
+      "access": "premium",
+      "file": "ir-monitor-premium-modern.json",
+      "name": "Modern Monitor Remote"
+    },
+    {
+      "id": "ir-monitors-learning-list",
+      "file": "ir-monitors-learning-list.json",
+      "name": "Monitors - Command List",
+      "deviceType": "monitors",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-multimedia-learning-list",
+      "file": "ir-multimedia-learning-list.json",
+      "name": "Multimedia - Command List",
+      "deviceType": "multimedia",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-philips-hue-learning-list",
+      "file": "ir-philips-hue-learning-list.json",
+      "name": "Philips Hue - Command List",
+      "deviceType": "philips-hue",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-projector-learning-list",
+      "file": "ir-projector-learning-list.json",
+      "name": "Projector - Command List",
+      "deviceType": "projector",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-projector-premium-modern",
+      "path": "ir-projector-premium-modern.json",
+      "status": "stable",
+      "access": "premium",
+      "file": "ir-projector-premium-modern.json",
+      "name": "Modern Projector Remote"
+    },
+    {
+      "id": "ir-set-top-box-learning-list",
+      "file": "ir-set-top-box-learning-list.json",
+      "name": "Set Top Box - Command List",
+      "deviceType": "set-top-box",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-set-top-box-premium-modern",
+      "path": "ir-set-top-box-premium-modern.json",
+      "status": "stable",
+      "access": "premium",
+      "file": "ir-set-top-box-premium-modern.json",
+      "name": "Modern Set-top Box Remote"
+    },
+    {
+      "id": "ir-simple",
+      "path": "ir-simple.json",
+      "status": "stable",
+      "access": "free",
+      "file": "ir-simple.json",
+      "name": "Simple IR remote"
+    },
+    {
+      "id": "ir-soundbar-learning-list",
+      "file": "ir-soundbar-learning-list.json",
+      "name": "Soundbar - Command List",
+      "deviceType": "soundbar",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-soundbar-premium-modern",
+      "path": "ir-soundbar-premium-modern.json",
+      "status": "stable",
+      "access": "premium",
+      "file": "ir-soundbar-premium-modern.json",
+      "name": "Modern Soundbar Remote"
+    },
+    {
+      "id": "ir-speaker-premium-modern",
+      "path": "ir-speaker-premium-modern.json",
+      "status": "stable",
+      "access": "premium",
+      "file": "ir-speaker-premium-modern.json",
+      "name": "Modern Speaker Remote"
+    },
+    {
+      "id": "ir-speakers-learning-list",
+      "file": "ir-speakers-learning-list.json",
+      "name": "Speakers - Command List",
+      "deviceType": "speakers",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-streaming-device-learning-list",
+      "file": "ir-streaming-device-learning-list.json",
+      "name": "Streaming Device - Command List",
+      "deviceType": "streaming-device",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-streaming-device-premium-modern",
+      "path": "ir-streaming-device-premium-modern.json",
+      "status": "stable",
+      "access": "premium",
+      "file": "ir-streaming-device-premium-modern.json",
+      "name": "Modern Streaming Remote"
+    },
+    {
+      "id": "ir-television-learning-list",
+      "file": "ir-television-learning-list.json",
+      "name": "Television - Command List",
+      "deviceType": "television",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-touchscreen-display-premium-modern",
+      "path": "ir-touchscreen-display-premium-modern.json",
+      "status": "stable",
+      "access": "premium",
+      "file": "ir-touchscreen-display-premium-modern.json",
+      "name": "Modern Touchscreen Display Remote"
+    },
+    {
+      "id": "ir-touchscreen-displays-learning-list",
+      "file": "ir-touchscreen-displays-learning-list.json",
+      "name": "Touchscreen Displays - Command List",
+      "deviceType": "touchscreen-displays",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-toys-learning-list",
+      "file": "ir-toys-learning-list.json",
+      "name": "Toys - Command List",
+      "deviceType": "toys",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-toys-premium-modern",
+      "path": "ir-toys-premium-modern.json",
+      "status": "stable",
+      "access": "premium",
+      "file": "ir-toys-premium-modern.json",
+      "name": "Modern Toy Remote"
+    },
+    {
+      "id": "ir-tv-default",
+      "path": "ir-tv-default.json",
+      "status": "stable",
+      "access": "free",
+      "file": "ir-tv-default.json",
+      "name": "TV remote"
+    },
+    {
+      "id": "ir-tv-premium-modern",
+      "path": "ir-tv-premium-modern.json",
+      "status": "stable",
+      "access": "premium",
+      "file": "ir-tv-premium-modern.json",
+      "name": "Modern Smart TV Remote"
+    },
+    {
+      "id": "ir-tv-tuner-learning-list",
+      "file": "ir-tv-tuner-learning-list.json",
+      "name": "Tv Tuner - Command List",
+      "deviceType": "tv-tuner",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-tv-tuner-premium-modern",
+      "path": "ir-tv-tuner-premium-modern.json",
+      "status": "stable",
+      "access": "premium",
+      "file": "ir-tv-tuner-premium-modern.json",
+      "name": "Modern TV Tuner Remote"
+    },
+    {
+      "id": "ir-universal-tv-remotes-learning-list",
+      "file": "ir-universal-tv-remotes-learning-list.json",
+      "name": "Universal Tv Remotes - Command List",
+      "deviceType": "universal-tv-remotes",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-vacuum-cleaners-learning-list",
+      "file": "ir-vacuum-cleaners-learning-list.json",
+      "name": "Vacuum Cleaners - Command List",
+      "deviceType": "vacuum-cleaners",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-vacuum-premium-modern",
+      "path": "ir-vacuum-premium-modern.json",
+      "status": "stable",
+      "access": "premium",
+      "file": "ir-vacuum-premium-modern.json",
+      "name": "Modern Vacuum Remote"
+    },
+    {
+      "id": "ir-vcr-learning-list",
+      "file": "ir-vcr-learning-list.json",
+      "name": "Vcr - Command List",
+      "deviceType": "vcr",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-videoconferencing-learning-list",
+      "file": "ir-videoconferencing-learning-list.json",
+      "name": "Videoconferencing - Command List",
+      "deviceType": "videoconferencing",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-whiteboards-learning-list",
+      "file": "ir-whiteboards-learning-list.json",
+      "name": "Whiteboards - Command List",
+      "deviceType": "whiteboards",
+      "transport": "ir"
+    },
+    {
+      "id": "ir-window-cleaners-learning-list",
+      "file": "ir-window-cleaners-learning-list.json",
+      "name": "Window Cleaners - Command List",
+      "deviceType": "window-cleaners",
+      "transport": "ir"
+    },
+    {
+      "id": "wifi-ac-default",
+      "path": "wifi-ac-default.json",
+      "status": "stable",
+      "access": "free",
+      "file": "wifi-ac-default.json",
+      "name": "Wi-Fi Climate Default"
+    },
+    {
+      "id": "wifi-ac-modern",
+      "path": "wifi-ac-modern.json",
+      "status": "stable",
+      "access": "free",
+      "file": "wifi-ac-modern.json",
+      "name": "Wi-Fi Climate Modern"
+    },
+    {
+      "id": "wifi-tv-default",
+      "path": "wifi-tv-default.json",
+      "status": "stable",
+      "access": "free",
+      "file": "wifi-tv-default.json",
+      "name": "Wi-Fi TV Default"
+    },
+    {
+      "id": "wifi-tv-modern",
+      "path": "wifi-tv-modern.json",
+      "status": "stable",
+      "access": "free",
+      "file": "wifi-tv-modern.json",
+      "name": "Wi-Fi TV Modern"
+    },
+    {
+      "id": "wifi-tv-round",
+      "path": "wifi-tv-round.json",
+      "status": "stable",
+      "access": "premium",
+      "file": "wifi-tv-round.json",
+      "name": "Wi-Fi TV Round"
+    }
   ]
 }
