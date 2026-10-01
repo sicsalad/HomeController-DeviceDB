@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.134",
-      "versionCode": 1788368587,
-      "publishedUtc": "2026-09-02T17:03:07Z",
-      "notes": "Add dynamic Hubitat child-items UI template"
-    },
-    {
       "version": "1.0.135",
       "versionCode": 1788368602,
       "publishedUtc": "2026-09-02T17:03:22Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1790881208,
       "publishedUtc": "2026-10-01T19:00:08Z",
       "notes": "Add premium modern Car Multimedia IR template"
+    },
+    {
+      "version": "1.0.404",
+      "versionCode": 1790881219,
+      "publishedUtc": "2026-10-01T19:00:19Z",
+      "notes": "Add premium modern CD Player IR template"
     }
   ]
 }

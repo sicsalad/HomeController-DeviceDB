@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.403",
-  "versionCode": 1790881208,
-  "publishedUtc": "2026-10-01T19:00:08Z",
-  "commit": "def4487811f068b6b15535f80edba9130414e978",
-  "patchNotes": "Add premium modern Car Multimedia IR template"
+  "version": "1.0.404",
+  "versionCode": 1790881219,
+  "publishedUtc": "2026-10-01T19:00:19Z",
+  "commit": "64e332e99fa82c9dbe4f57de41ed9b604430e0bc",
+  "patchNotes": "Add premium modern CD Player IR template"
 }
