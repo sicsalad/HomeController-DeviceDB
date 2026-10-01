@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.388",
-  "versionCode": 1790880397,
-  "publishedUtc": "2026-10-01T18:46:37Z",
-  "commit": "cb9f5a1b23b6df3118a82a1c3829866a97059416",
-  "patchNotes": "Add rich AV receiver remote template"
+  "version": "1.0.389",
+  "versionCode": 1790880413,
+  "publishedUtc": "2026-10-01T18:46:53Z",
+  "commit": "d227c88c401546577efdee54c261cc71bfde5e72",
+  "patchNotes": "Add rich projector remote template"
 }

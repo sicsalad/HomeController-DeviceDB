@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.110",
-      "versionCode": 1788203354,
-      "publishedUtc": "2026-08-31T19:09:14Z",
-      "notes": "feat: allow per-device interactive test command list"
-    },
-    {
       "version": "1.0.112",
       "versionCode": 1788207202,
       "publishedUtc": "2026-08-31T20:13:22Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1790880397,
       "publishedUtc": "2026-10-01T18:46:37Z",
       "notes": "Add rich AV receiver remote template"
+    },
+    {
+      "version": "1.0.389",
+      "versionCode": 1790880413,
+      "publishedUtc": "2026-10-01T18:46:53Z",
+      "notes": "Add rich projector remote template"
     }
   ]
 }
