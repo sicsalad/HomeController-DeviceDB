@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.417",
-  "versionCode": 1790881358,
-  "publishedUtc": "2026-10-01T19:02:38Z",
-  "commit": "af0b6ceff9a0337afbb51cd1c62c733ec7c488c3",
-  "patchNotes": "Add premium modern Monitor IR template"
+  "version": "1.0.418",
+  "versionCode": 1790881374,
+  "publishedUtc": "2026-10-01T19:02:54Z",
+  "commit": "b2a4c01cc50f14bef519a35cc2fcfb7d3a372cec",
+  "patchNotes": "Add premium modern MiniDisc IR template"
 }
