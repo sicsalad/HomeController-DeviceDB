@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.401",
-  "versionCode": 1790880756,
-  "publishedUtc": "2026-10-01T18:52:36Z",
-  "commit": "d9c536454be52d94312a54a98cc4809874495e88",
-  "patchNotes": "Register additional device-specific premium IR templates"
+  "version": "1.0.402",
+  "versionCode": 1790881197,
+  "publishedUtc": "2026-10-01T18:59:57Z",
+  "commit": "b71bc365d637359c67d8bb710ed0dfb44b091ba8",
+  "patchNotes": "Add premium modern Bidet IR template"
 }
