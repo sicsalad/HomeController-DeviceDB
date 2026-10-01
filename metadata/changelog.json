@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.141",
-      "versionCode": 1788433388,
-      "publishedUtc": "2026-09-03T11:03:08Z",
-      "notes": "Publish PC Agent 1.0.6"
-    },
-    {
       "version": "1.0.142",
       "versionCode": 1788433441,
       "publishedUtc": "2026-09-03T11:04:01Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1790881318,
       "publishedUtc": "2026-10-01T19:01:58Z",
       "notes": "Add premium modern Humidifier IR template"
+    },
+    {
+      "version": "1.0.415",
+      "versionCode": 1790881338,
+      "publishedUtc": "2026-10-01T19:02:18Z",
+      "notes": "Add premium modern LaserDisc IR template"
     }
   ]
 }

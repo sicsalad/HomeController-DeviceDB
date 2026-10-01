@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.414",
-  "versionCode": 1790881318,
-  "publishedUtc": "2026-10-01T19:01:58Z",
-  "commit": "67285393bc3ec25b709b89613f3752b7f015d095",
-  "patchNotes": "Add premium modern Humidifier IR template"
+  "version": "1.0.415",
+  "versionCode": 1790881338,
+  "publishedUtc": "2026-10-01T19:02:18Z",
+  "commit": "dd52a4d1a3704bcac2e2215f752ecb10e7c00235",
+  "patchNotes": "Add premium modern LaserDisc IR template"
 }
