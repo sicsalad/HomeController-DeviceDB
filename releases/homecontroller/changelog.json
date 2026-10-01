@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1415",
-                         "versionCode":  1789408724,
-                         "publishedUtc":  "2026-09-14T18:03:41Z",
-                         "notes":  "Fix Samsung probe page build error"
-                     },
-                     {
                          "version":  "1.0.1416",
                          "versionCode":  1789409462,
                          "publishedUtc":  "2026-09-14T18:15:54Z",
@@ -1199,6 +1193,12 @@
                          "version":  "1.0.1505",
                          "versionCode":  1790803534,
                          "publishedUtc":  "2026-09-30T21:33:44Z",
+                         "notes":  "Make video pinch zoom continuous and pan unrestricted"
+                     },
+                     {
+                         "version":  "1.0.1506",
+                         "versionCode":  1790883434,
+                         "publishedUtc":  "2026-10-01T19:46:36Z",
                          "notes":  "Make video pinch zoom continuous and pan unrestricted"
                      }
                  ]
