@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.383",
-  "versionCode": 1790879171,
-  "publishedUtc": "2026-10-01T18:26:11Z",
-  "commit": "def2181555a8e4dfc9f0ef133973acaadc5a634f",
-  "patchNotes": "Generate learning UI templates in DeviceDB pipeline"
+  "version": "1.0.384",
+  "versionCode": 1790879183,
+  "publishedUtc": "2026-10-01T18:26:23Z",
+  "commit": "f380793c3a171fe5e9357fd0c31a24d13e008528",
+  "patchNotes": "Commit generated learning UI templates from workflow"
 }

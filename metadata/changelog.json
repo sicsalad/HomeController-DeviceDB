@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.105",
-      "versionCode": 1788002228,
-      "publishedUtc": "2026-08-29T11:17:08Z",
-      "notes": "Register SilverCrest fan codeset in IR catalog"
-    },
-    {
       "version": "1.0.106",
       "versionCode": 1788200589,
       "publishedUtc": "2026-08-31T18:23:09Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1790879171,
       "publishedUtc": "2026-10-01T18:26:11Z",
       "notes": "Generate learning UI templates in DeviceDB pipeline"
+    },
+    {
+      "version": "1.0.384",
+      "versionCode": 1790879183,
+      "publishedUtc": "2026-10-01T18:26:23Z",
+      "notes": "Commit generated learning UI templates from workflow"
     }
   ]
 }
