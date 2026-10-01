@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.378",
-  "versionCode": 1790811975,
-  "publishedUtc": "2026-09-30T23:46:15Z",
-  "commit": "84d22973b5f0ebbbbae1fe18781d0ec70ef6e53b",
-  "patchNotes": "Preserve learning feature order and append new catalog features"
+  "version": "1.0.380",
+  "versionCode": 1790813041,
+  "publishedUtc": "2026-10-01T00:04:01Z",
+  "commit": "4f0a459d285cb0919c4a294b0a2e5006982ac9e2",
+  "patchNotes": "Add complete DeviceDB generation pipeline"
 }

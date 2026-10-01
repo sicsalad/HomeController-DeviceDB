@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.100",
-      "versionCode": 1788000592,
-      "publishedUtc": "2026-08-29T10:49:52Z",
-      "notes": "Add SilverCrest SSVS 85 A1 IR fan"
-    },
-    {
       "version": "1.0.102",
       "versionCode": 1788000617,
       "publishedUtc": "2026-08-29T10:50:17Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1790811975,
       "publishedUtc": "2026-09-30T23:46:15Z",
       "notes": "Preserve learning feature order and append new catalog features"
+    },
+    {
+      "version": "1.0.380",
+      "versionCode": 1790813041,
+      "publishedUtc": "2026-10-01T00:04:01Z",
+      "notes": "Add complete DeviceDB generation pipeline"
     }
   ]
 }
