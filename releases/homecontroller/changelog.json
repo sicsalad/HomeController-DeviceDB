@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1416",
-                         "versionCode":  1789409462,
-                         "publishedUtc":  "2026-09-14T18:15:54Z",
-                         "notes":  "Continue Samsung H-series WebSocket devices to command test"
-                     },
-                     {
                          "version":  "1.0.1417",
                          "versionCode":  1789411727,
                          "publishedUtc":  "2026-09-14T18:53:39Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790883434,
                          "publishedUtc":  "2026-10-01T19:46:36Z",
                          "notes":  "Make video pinch zoom continuous and pan unrestricted"
+                     },
+                     {
+                         "version":  "1.0.1507",
+                         "versionCode":  1790897393,
+                         "publishedUtc":  "2026-10-01T23:39:22Z",
+                         "notes":  "Select best available IR template when adding devices"
                      }
                  ]
 }
