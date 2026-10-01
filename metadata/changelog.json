@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.112",
-      "versionCode": 1788207202,
-      "publishedUtc": "2026-08-31T20:13:22Z",
-      "notes": "feat: allow hidden device types in catalog"
-    },
-    {
       "version": "1.0.113",
       "versionCode": 1788207216,
       "publishedUtc": "2026-08-31T20:13:36Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1790880413,
       "publishedUtc": "2026-10-01T18:46:53Z",
       "notes": "Add rich projector remote template"
+    },
+    {
+      "version": "1.0.390",
+      "versionCode": 1790880431,
+      "publishedUtc": "2026-10-01T18:47:11Z",
+      "notes": "Add rich set-top box remote template"
     }
   ]
 }
