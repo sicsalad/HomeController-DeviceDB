@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.426",
-  "versionCode": 1790881875,
-  "publishedUtc": "2026-10-01T19:11:15Z",
-  "commit": "f1a0beb766f2fca92fdce4fda4b40d40b35f0b19",
-  "patchNotes": "Expand heater modern template with curated controls"
+  "version": "1.0.427",
+  "versionCode": 1790895917,
+  "publishedUtc": "2026-10-01T23:05:17Z",
+  "commit": "8bc05b6c5dbb660e11a01e62799fe6910f459f3e",
+  "patchNotes": "Keep UI template index synchronized with generated templates"
 }

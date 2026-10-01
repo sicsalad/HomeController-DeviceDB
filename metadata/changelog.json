@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.148",
-      "versionCode": 1788532088,
-      "publishedUtc": "2026-09-04T14:28:08Z",
-      "notes": "Publish PC Agent 1.0.22"
-    },
-    {
       "version": "1.0.149",
       "versionCode": 1788532169,
       "publishedUtc": "2026-09-04T14:29:29Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1790881875,
       "publishedUtc": "2026-10-01T19:11:15Z",
       "notes": "Expand heater modern template with curated controls"
+    },
+    {
+      "version": "1.0.427",
+      "versionCode": 1790895917,
+      "publishedUtc": "2026-10-01T23:05:17Z",
+      "notes": "Keep UI template index synchronized with generated templates"
     }
   ]
 }
