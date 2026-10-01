@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.425",
-  "versionCode": 1790881862,
-  "publishedUtc": "2026-10-01T19:11:02Z",
-  "commit": "c4a3970c5adeafbdaaba3e92340f220453540f8e",
-  "patchNotes": "Filter noisy heater command classification"
+  "version": "1.0.426",
+  "versionCode": 1790881875,
+  "publishedUtc": "2026-10-01T19:11:15Z",
+  "commit": "f1a0beb766f2fca92fdce4fda4b40d40b35f0b19",
+  "patchNotes": "Expand heater modern template with curated controls"
 }
