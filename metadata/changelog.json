@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.107",
-      "versionCode": 1788200711,
-      "publishedUtc": "2026-08-31T18:25:11Z",
-      "notes": "refactor: use portable device type icon glyphs"
-    },
-    {
       "version": "1.0.108",
       "versionCode": 1788201287,
       "publishedUtc": "2026-08-31T18:34:47Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1790879658,
       "publishedUtc": "2026-10-01T18:34:18Z",
       "notes": "Generate only stable command-list templates"
+    },
+    {
+      "version": "1.0.386",
+      "versionCode": 1790880127,
+      "publishedUtc": "2026-10-01T18:42:07Z",
+      "notes": "Restrict learning groups to canonical DeviceDB device types"
     }
   ]
 }

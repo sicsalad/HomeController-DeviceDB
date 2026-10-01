@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.385",
-  "versionCode": 1790879658,
-  "publishedUtc": "2026-10-01T18:34:18Z",
-  "commit": "4b1bf5fb32c4ef491c1e5b93e70945e69ff35ced",
-  "patchNotes": "Generate only stable command-list templates"
+  "version": "1.0.386",
+  "versionCode": 1790880127,
+  "publishedUtc": "2026-10-01T18:42:07Z",
+  "commit": "75666f23d32f6dbcec2e50114f37d9a6eac044cc",
+  "patchNotes": "Restrict learning groups to canonical DeviceDB device types"
 }
