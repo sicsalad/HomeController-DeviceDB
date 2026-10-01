@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.428",
-  "versionCode": 1790896680,
-  "publishedUtc": "2026-10-01T23:18:00Z",
-  "commit": "6690e0cf93c790f37c02ec1ef54cb1175cdc5a39",
-  "patchNotes": "Fix generated UI template index paths"
+  "version": "1.0.429",
+  "versionCode": 1790896692,
+  "publishedUtc": "2026-10-01T23:18:12Z",
+  "commit": "543587a17dda2a00260a583b9e8fe69508a90632",
+  "patchNotes": "Keep mobile DeviceDB version marker current"
 }

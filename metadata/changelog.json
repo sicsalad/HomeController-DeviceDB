@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.163",
-      "versionCode": 1788543441,
-      "publishedUtc": "2026-09-04T17:37:21Z",
-      "notes": "Add centralized Bluetooth image"
-    },
-    {
       "version": "1.0.170",
       "versionCode": 1788543489,
       "publishedUtc": "2026-09-04T17:38:09Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1790896680,
       "publishedUtc": "2026-10-01T23:18:00Z",
       "notes": "Fix generated UI template index paths"
+    },
+    {
+      "version": "1.0.429",
+      "versionCode": 1790896692,
+      "publishedUtc": "2026-10-01T23:18:12Z",
+      "notes": "Keep mobile DeviceDB version marker current"
     }
   ]
 }
