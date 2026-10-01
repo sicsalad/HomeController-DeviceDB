@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.390",
-  "versionCode": 1790880431,
-  "publishedUtc": "2026-10-01T18:47:11Z",
-  "commit": "bd6e814cd18a396ef2061b66c357ac37179cdd8d",
-  "patchNotes": "Add rich set-top box remote template"
+  "version": "1.0.391",
+  "versionCode": 1790880464,
+  "publishedUtc": "2026-10-01T18:47:44Z",
+  "commit": "db05bddc5927f14a25bbe71d6c666bee5e315096",
+  "patchNotes": "Register rich device-specific IR templates"
 }
