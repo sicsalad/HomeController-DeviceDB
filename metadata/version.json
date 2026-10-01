@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.395",
-  "versionCode": 1790880685,
-  "publishedUtc": "2026-10-01T18:51:25Z",
-  "commit": "3aa5ef6e1c2c85d70c0b3d2106f6109bcdab1be8",
-  "patchNotes": "Add modern streaming device IR template"
+  "version": "1.0.396",
+  "versionCode": 1790880694,
+  "publishedUtc": "2026-10-01T18:51:34Z",
+  "commit": "1dd754f2932866d63123b0a21067e83affca7781",
+  "patchNotes": "Add modern fireplace IR template"
 }
