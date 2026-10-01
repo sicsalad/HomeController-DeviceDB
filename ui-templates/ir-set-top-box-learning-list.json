@@ -1,0 +1,269 @@
+{
+  "id": "ir-set-top-box-learning-list",
+  "name": "Set Top Box - Command List",
+  "deviceType": "set-top-box",
+  "transport": "ir",
+  "generatedBy": "generated-learning-list-v2",
+  "style": {
+    "backgroundColor": "#101114",
+    "foregroundColor": "#F5F7FA",
+    "buttonColor": "#252932",
+    "buttonTextColor": "#F5F7FA",
+    "accentColor": "#4DA3FF",
+    "cornerRadius": 12,
+    "spacing": 8
+  },
+  "sections": [
+    {
+      "title": "Commands",
+      "rows": [
+        [
+          {
+            "type": "button",
+            "label": "Blue",
+            "feature": "Blue"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cc",
+            "feature": "Cc"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Channel Down",
+            "feature": "ChannelDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Channel Up",
+            "feature": "ChannelUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit0",
+            "feature": "Digit0"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit1",
+            "feature": "Digit1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit2",
+            "feature": "Digit2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit3",
+            "feature": "Digit3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit4",
+            "feature": "Digit4"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit5",
+            "feature": "Digit5"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit6",
+            "feature": "Digit6"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit7",
+            "feature": "Digit7"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit8",
+            "feature": "Digit8"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit9",
+            "feature": "Digit9"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dot",
+            "feature": "Dot"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Down",
+            "feature": "Down"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Esc",
+            "feature": "ESC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Exit",
+            "feature": "Exit"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Green",
+            "feature": "Green"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Info",
+            "feature": "Info"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Left",
+            "feature": "Left"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "M",
+            "feature": "M"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Menu",
+            "feature": "Menu"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mute",
+            "feature": "Mute"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ok",
+            "feature": "Ok"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Power",
+            "feature": "Power",
+            "style": "danger"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Red",
+            "feature": "Red"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Right",
+            "feature": "Right"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Setup",
+            "feature": "Setup"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Signal",
+            "feature": "SIGNAL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tv Radio",
+            "feature": "TvRadio"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Up",
+            "feature": "Up"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Volume Down",
+            "feature": "VolumeDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Yellow",
+            "feature": "Yellow"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Zap",
+            "feature": "ZAP"
+          }
+        ]
+      ]
+    }
+  ]
+}

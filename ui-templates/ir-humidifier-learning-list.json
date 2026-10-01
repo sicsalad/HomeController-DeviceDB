@@ -1,0 +1,73 @@
+{
+  "id": "ir-humidifier-learning-list",
+  "name": "Humidifier - Command List",
+  "deviceType": "humidifier",
+  "transport": "ir",
+  "generatedBy": "generated-learning-list-v2",
+  "style": {
+    "backgroundColor": "#101114",
+    "foregroundColor": "#F5F7FA",
+    "buttonColor": "#252932",
+    "buttonTextColor": "#F5F7FA",
+    "accentColor": "#4DA3FF",
+    "cornerRadius": 12,
+    "spacing": 8
+  },
+  "sections": [
+    {
+      "title": "Commands",
+      "rows": [
+        [
+          {
+            "type": "button",
+            "label": "Heater",
+            "feature": "Heater"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Humidityset",
+            "feature": "HUMIDITYSET"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ionizer",
+            "feature": "Ionizer"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mistlvl",
+            "feature": "MISTLVL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Night Mode",
+            "feature": "NightMode"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Power",
+            "feature": "Power",
+            "style": "danger"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Timer",
+            "feature": "Timer"
+          }
+        ]
+      ]
+    }
+  ]
+}

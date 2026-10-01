@@ -1,0 +1,2238 @@
+{
+  "id": "ir-fan-learning-list",
+  "name": "Fan - Command List",
+  "deviceType": "fan",
+  "transport": "ir",
+  "generatedBy": "generated-learning-list-v2",
+  "style": {
+    "backgroundColor": "#101114",
+    "foregroundColor": "#F5F7FA",
+    "buttonColor": "#252932",
+    "buttonTextColor": "#F5F7FA",
+    "accentColor": "#4DA3FF",
+    "cornerRadius": 12,
+    "spacing": 8
+  },
+  "sections": [
+    {
+      "title": "Commands",
+      "rows": [
+        [
+          {
+            "type": "button",
+            "label": "01",
+            "feature": "01"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "1 H",
+            "feature": "1H"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "1 Hr",
+            "feature": "1HR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "3 H",
+            "feature": "3H"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "3 Hr",
+            "feature": "3HR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "4k",
+            "feature": "4k"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "6 H",
+            "feature": "6H"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "6 Hr",
+            "feature": "6HR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Air Flow",
+            "feature": "AirFlow"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Airflow Direction",
+            "feature": "AirflowDirection"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Angle",
+            "feature": "Angle"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Apps",
+            "feature": "Apps"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Audio",
+            "feature": "Audio"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Auto",
+            "feature": "Auto"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Auto Mode",
+            "feature": "AutoMode"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Back",
+            "feature": "Back"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Band",
+            "feature": "Band"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Beep",
+            "feature": "Beep"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Blast",
+            "feature": "Blast"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Boost",
+            "feature": "BOOST"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Breeze",
+            "feature": "Breeze"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Breeze Sleep",
+            "feature": "BreezeSleep"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Broswer",
+            "feature": "BROSWER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Brumisateur",
+            "feature": "Brumisateur"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Brzmode",
+            "feature": "BRZMODE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Channel Down",
+            "feature": "ChannelDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Circulate",
+            "feature": "Circulate"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Clear",
+            "feature": "Clear"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Clock",
+            "feature": "Clock"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cmskip",
+            "feature": "CMSkip"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cold",
+            "feature": "Cold"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cool",
+            "feature": "Cool"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cooler",
+            "feature": "Cooler"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cooling",
+            "feature": "COOLING"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cool Mode",
+            "feature": "CoolMode"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Copy",
+            "feature": "COPY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Decrease",
+            "feature": "Decrease"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Decrease Fan Speed",
+            "feature": "DecreaseFanSpeed"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Decrescendo",
+            "feature": "Decrescendo"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit0",
+            "feature": "Digit0"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit1",
+            "feature": "Digit1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit2",
+            "feature": "Digit2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit3",
+            "feature": "Digit3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit4",
+            "feature": "Digit4"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit5",
+            "feature": "Digit5"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit6",
+            "feature": "Digit6"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit7",
+            "feature": "Digit7"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit8",
+            "feature": "Digit8"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit9",
+            "feature": "Digit9"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dim",
+            "feature": "Dim"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dimmer",
+            "feature": "Dimmer"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Direct",
+            "feature": "Direct"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Direction",
+            "feature": "Direction"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Down",
+            "feature": "Down"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dry15m",
+            "feature": "Dry15m"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dry1h",
+            "feature": "Dry1h"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dry30m",
+            "feature": "Dry30m"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dry3h",
+            "feature": "Dry3h"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dry5m",
+            "feature": "Dry5m"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dry Clothing",
+            "feature": "DryClothing"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dry On",
+            "feature": "DryOn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dx",
+            "feature": "Dx"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dyson Am0630",
+            "feature": "DysonAm0630"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Economy",
+            "feature": "Economy"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Edit",
+            "feature": "Edit"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Exit",
+            "feature": "Exit"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fan",
+            "feature": "Fan"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fan Dn",
+            "feature": "FanDn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fan Dwn",
+            "feature": "FanDwn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fan High",
+            "feature": "FanHigh"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fanlevel",
+            "feature": "FANLEVEL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fan Low",
+            "feature": "FanLow"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fan Mode",
+            "feature": "FanMode"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fan Off",
+            "feature": "FanOFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fan Power",
+            "feature": "FanPower"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fan Speed",
+            "feature": "FanSpeed"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fan Speed Auto",
+            "feature": "FanSpeedAuto"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fan Speed Down",
+            "feature": "FanSpeedDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fan Speed Up",
+            "feature": "FanSpeedUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Faster",
+            "feature": "Faster"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Favorite",
+            "feature": "Favorite"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Frio",
+            "feature": "FRIO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fullon",
+            "feature": "FULLON"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fwd",
+            "feature": "Fwd"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Goto",
+            "feature": "GOTO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Hdmiin",
+            "feature": "HDMIIn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Heat",
+            "feature": "Heat"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Heat15m",
+            "feature": "Heat15m"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Heat1h",
+            "feature": "Heat1h"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Heat30m",
+            "feature": "Heat30m"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Heat3h",
+            "feature": "Heat3h"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Heat5m",
+            "feature": "Heat5m"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Heat Down",
+            "feature": "HeatDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Heat Dry15m",
+            "feature": "HeatDry15m"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Heat Dry1h",
+            "feature": "HeatDry1h"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Heat Dry30m",
+            "feature": "HeatDry30m"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Heat Dry3h",
+            "feature": "HeatDry3h"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Heat Dry5m",
+            "feature": "HeatDry5m"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Heat Hi",
+            "feature": "HeatHi"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Heat Lo",
+            "feature": "HeatLo"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Heat Up",
+            "feature": "HeatUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "High",
+            "feature": "High"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Home",
+            "feature": "Home"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Horizontal",
+            "feature": "Horizontal"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Horizontal Move",
+            "feature": "HorizontalMove"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Humidify",
+            "feature": "Humidify"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Increase",
+            "feature": "Increase"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Increase Fan Speed",
+            "feature": "IncreaseFanSpeed"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Info",
+            "feature": "Info"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Info Menu",
+            "feature": "InfoMenu"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Instant Replay",
+            "feature": "InstantReplay"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Invert Flow",
+            "feature": "InvertFlow"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ion",
+            "feature": "Ion"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ionizer",
+            "feature": "Ionizer"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Lamp",
+            "feature": "Lamp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Lap",
+            "feature": "Lap"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Lasko Osc",
+            "feature": "LaskoOsc"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Lasko Power",
+            "feature": "LaskoPower"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Lasko Speed",
+            "feature": "LaskoSpeed"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Lasko Therm",
+            "feature": "LaskoTherm"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Lasko Timer",
+            "feature": "LaskoTimer"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Led",
+            "feature": "LED"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Led Color",
+            "feature": "LedColor"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ledpowercolour",
+            "feature": "LEDPOWERColour"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Led Toggle",
+            "feature": "LedToggle"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Left",
+            "feature": "Left"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Light",
+            "feature": "Light"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Light Down",
+            "feature": "LightDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Light Off",
+            "feature": "LightOFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Light On Off",
+            "feature": "LightOnOff"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Light Power",
+            "feature": "LightPOWER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Light Up",
+            "feature": "LightUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Low",
+            "feature": "Low"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Lower",
+            "feature": "Lower"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Low Mode",
+            "feature": "LowMode"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "M",
+            "feature": "M"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Menu",
+            "feature": "Menu"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Menusetup",
+            "feature": "MENUSETUP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mid",
+            "feature": "Mid"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Minus",
+            "feature": "Minus"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Minus Speed",
+            "feature": "MinusSpeed"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mist",
+            "feature": "Mist"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mod",
+            "feature": "Mod"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mode",
+            "feature": "Mode"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mode1",
+            "feature": "Mode1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Modus",
+            "feature": "Modus"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Moist",
+            "feature": "Moist"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Moon",
+            "feature": "Moon"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Motion",
+            "feature": "Motion"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mouse",
+            "feature": "Mouse"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Moustic",
+            "feature": "Moustic"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Music",
+            "feature": "Music"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mute",
+            "feature": "Mute"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Narrow",
+            "feature": "Narrow"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Natural",
+            "feature": "Natural"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Natural Breeze",
+            "feature": "NaturalBreeze"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Next",
+            "feature": "Next"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Night",
+            "feature": "Night"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Night Mode",
+            "feature": "NightMode"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ocilate",
+            "feature": "Ocilate"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Off On",
+            "feature": "OffOn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Off Timer",
+            "feature": "OffTimer"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ok",
+            "feature": "Ok"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "On Speed",
+            "feature": "OnSpeed"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "On Timer",
+            "feature": "OnTimer"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Options",
+            "feature": "Options"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Osc",
+            "feature": "OSC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Osc Horiz",
+            "feature": "OscHoriz"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Oscil",
+            "feature": "Oscil"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Oscilate",
+            "feature": "Oscilate"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Oscilation",
+            "feature": "Oscilation"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Osc Vert",
+            "feature": "OscVert"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Oscx",
+            "feature": "Oscx"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Oscy",
+            "feature": "Oscy"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Out",
+            "feature": "Out"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "P0w",
+            "feature": "P0w"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Page",
+            "feature": "Page"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pan",
+            "feature": "Pan"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pause",
+            "feature": "Pause"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Play",
+            "feature": "Play"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Plus",
+            "feature": "Plus"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Plus Speed",
+            "feature": "PlusSpeed"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Power",
+            "feature": "Power",
+            "style": "danger"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Power Fan",
+            "feature": "PowerFan"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Power Off",
+            "feature": "PowerOff",
+            "style": "danger"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Power On",
+            "feature": "PowerOn",
+            "style": "danger"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Powerspeed",
+            "feature": "POWERSPEED"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Presets",
+            "feature": "Presets"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Prev",
+            "feature": "Prev"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pwr",
+            "feature": "Pwr"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Raise",
+            "feature": "Raise"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Raise Fan",
+            "feature": "RaiseFan"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Random",
+            "feature": "Random"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Record",
+            "feature": "Record"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Repeat",
+            "feature": "Repeat"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Repeatab",
+            "feature": "REPEATAB"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rev",
+            "feature": "Rev"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Reverse",
+            "feature": "Reverse"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Reverse Fan",
+            "feature": "ReverseFan"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rewind",
+            "feature": "Rewind"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Right",
+            "feature": "Right"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rotate",
+            "feature": "Rotate"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rotate Toggle",
+            "feature": "RotateToggle"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rotatevert",
+            "feature": "ROTATEVERT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rotation",
+            "feature": "Rotation"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Save",
+            "feature": "Save"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Set",
+            "feature": "SET"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Setup",
+            "feature": "Setup"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Shift",
+            "feature": "SHIFT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Shutdown",
+            "feature": "Shutdown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Silent",
+            "feature": "Silent"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Silentnight",
+            "feature": "SILENTNIGHT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Skew",
+            "feature": "SKEW"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sleep",
+            "feature": "Sleep"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sleep Mode",
+            "feature": "SleepMode"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sleep Timer",
+            "feature": "SleepTimer"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Slim Flow",
+            "feature": "SlimFlow"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Slower",
+            "feature": "Slower"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sofis Aan",
+            "feature": "SofisAan"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Soft Wind",
+            "feature": "SoftWind"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sound",
+            "feature": "Sound"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Source",
+            "feature": "Source"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Spd",
+            "feature": "SPD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Speed0",
+            "feature": "Speed0"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Speed1",
+            "feature": "SPEED1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Speed2",
+            "feature": "SPEED2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Speed3",
+            "feature": "SPEED3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Speed4",
+            "feature": "Speed4"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Speed5",
+            "feature": "Speed5"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Speed Cycle",
+            "feature": "SpeedCycle"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Speed Decrease",
+            "feature": "SpeedDecrease"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Speed Dn",
+            "feature": "SpeedDn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Speed Down",
+            "feature": "SpeedDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Speed Dwn",
+            "feature": "SpeedDwn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Speed High",
+            "feature": "SpeedHigh"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Speed Increase",
+            "feature": "SpeedIncrease"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Speed Low",
+            "feature": "SpeedLow"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Speed Max",
+            "feature": "SpeedMax"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Speed Med",
+            "feature": "SpeedMed"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Speed Medium",
+            "feature": "SpeedMedium"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Speed Step",
+            "feature": "SpeedStep"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Speed Up",
+            "feature": "SpeedUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Spin",
+            "feature": "Spin"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Spped",
+            "feature": "SPPED"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Spread",
+            "feature": "Spread"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Start",
+            "feature": "Start"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Step",
+            "feature": "Step"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Stereo",
+            "feature": "Stereo"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Stop",
+            "feature": "Stop"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Strength",
+            "feature": "Strength"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Strength Down",
+            "feature": "StrengthDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Strength Up",
+            "feature": "StrengthUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Style",
+            "feature": "Style"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Subtitle",
+            "feature": "Subtitle"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Swing",
+            "feature": "Swing"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Swing2",
+            "feature": "Swing2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Swivel",
+            "feature": "Swivel"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Temp Dn",
+            "feature": "TempDn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Temperature Down",
+            "feature": "TemperatureDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Temperature Up",
+            "feature": "TemperatureUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tiempo",
+            "feature": "TIEMPO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Time",
+            "feature": "Time"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Time Down",
+            "feature": "TimeDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Timeout",
+            "feature": "Timeout"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Timer",
+            "feature": "Timer"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Timer1",
+            "feature": "Timer1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Timer1h",
+            "feature": "Timer1h"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Timer1 Hr",
+            "feature": "Timer1Hr"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Timer2",
+            "feature": "Timer2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Timer2h",
+            "feature": "Timer2h"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Timer3",
+            "feature": "Timer3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Timer3 Hr",
+            "feature": "Timer3Hr"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Timer4",
+            "feature": "Timer4"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Timer4h",
+            "feature": "Timer4h"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Timer6 Hr",
+            "feature": "Timer6Hr"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Timer Decrease",
+            "feature": "TimerDecrease"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Timer Down",
+            "feature": "TimerDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Timerdwn",
+            "feature": "Timerdwn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Timer Increase",
+            "feature": "TimerIncrease"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Timer Length",
+            "feature": "TimerLength"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Timer Up",
+            "feature": "TimerUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Time Up",
+            "feature": "TimeUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Timing",
+            "feature": "Timing"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tools",
+            "feature": "Tools"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tune",
+            "feature": "Tune"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Turboboost",
+            "feature": "TURBOBOOST"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Turn",
+            "feature": "Turn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvsys",
+            "feature": "TVSYS"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvsystem",
+            "feature": "TVSYSTEM"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Unknown",
+            "feature": "UNKNOWN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Up",
+            "feature": "Up"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Velocidad",
+            "feature": "VELOCIDAD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vent15m",
+            "feature": "Vent15m"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vent1h",
+            "feature": "Vent1h"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vent30m",
+            "feature": "Vent30m"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vent3h",
+            "feature": "Vent3h"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vent5m",
+            "feature": "Vent5m"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ventilateur",
+            "feature": "Ventilateur"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vent On",
+            "feature": "VentOn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vent On Off",
+            "feature": "VentOnOff"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vertical",
+            "feature": "Vertical"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vertical Move",
+            "feature": "VerticalMove"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videofine",
+            "feature": "VIDEOFINE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vitesse",
+            "feature": "Vitesse"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Volume Down",
+            "feature": "VolumeDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Volume Up",
+            "feature": "VolumeUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Whoosh",
+            "feature": "Whoosh"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Wide",
+            "feature": "Wide"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Wide Flow",
+            "feature": "WideFlow"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Wind",
+            "feature": "Wind"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Windtype",
+            "feature": "WINDTYPE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Xbmc",
+            "feature": "XBMC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Youtube",
+            "feature": "Youtube"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Zoom",
+            "feature": "Zoom"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Zoom In",
+            "feature": "ZoomIn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Zoom Out",
+            "feature": "ZoomOut"
+          }
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,479 @@
+{
+  "id": "ir-minidisc-learning-list",
+  "name": "Minidisc - Command List",
+  "deviceType": "minidisc",
+  "transport": "ir",
+  "generatedBy": "generated-learning-list-v2",
+  "style": {
+    "backgroundColor": "#101114",
+    "foregroundColor": "#F5F7FA",
+    "buttonColor": "#252932",
+    "buttonTextColor": "#F5F7FA",
+    "accentColor": "#4DA3FF",
+    "cornerRadius": 12,
+    "spacing": 8
+  },
+  "sections": [
+    {
+      "title": "Commands",
+      "rows": [
+        [
+          {
+            "type": "button",
+            "label": "10",
+            "feature": "10"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "100",
+            "feature": "100"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "100 Mark",
+            "feature": "100Mark"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "2 Abc",
+            "feature": "2ABC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "3 Def",
+            "feature": "3DEF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "4 Ghi",
+            "feature": "4GHI"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "5 Jkl",
+            "feature": "5JKL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "6 Mno",
+            "feature": "6MNO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "7 Pqrs",
+            "feature": "7PQRS"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "8 Tuv",
+            "feature": "8TUV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "9 Wxyz",
+            "feature": "9WXYZ"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ab",
+            "feature": "AB"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cdsync Start",
+            "feature": "CDSyncStart"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cdsync Stby",
+            "feature": "CDSyncStby"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cdsync Stop",
+            "feature": "CDSyncStop"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Check",
+            "feature": "Check"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Clear",
+            "feature": "Clear"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit1",
+            "feature": "Digit1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit2",
+            "feature": "Digit2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit3",
+            "feature": "Digit3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit4",
+            "feature": "Digit4"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit5",
+            "feature": "Digit5"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit6",
+            "feature": "Digit6"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit7",
+            "feature": "Digit7"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit8",
+            "feature": "Digit8"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit9",
+            "feature": "Digit9"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Disp Chara",
+            "feature": "DispChara"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Edit No",
+            "feature": "EditNo"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Eject",
+            "feature": "Eject"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fader",
+            "feature": "Fader"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fast Forward",
+            "feature": "FastForward"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fast Reverse",
+            "feature": "FastReverse"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Grp On Off",
+            "feature": "GrpOnOff"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Grp Skip",
+            "feature": "GrpSkip"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Gt10",
+            "feature": "Gt10"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Hi Lite",
+            "feature": "HiLite"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Info",
+            "feature": "Info"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Level Dn",
+            "feature": "LevelDn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Level Up",
+            "feature": "LevelUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Medley",
+            "feature": "Medley"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Menu No",
+            "feature": "MenuNo"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Music Sync",
+            "feature": "MusicSync"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Name",
+            "feature": "Name"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Name Clip",
+            "feature": "NameClip"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Name Edit Sel",
+            "feature": "NameEditSel"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Next",
+            "feature": "Next"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ok",
+            "feature": "Ok"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pause",
+            "feature": "Pause"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pgm",
+            "feature": "PGM"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Play",
+            "feature": "Play"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Play Mode",
+            "feature": "PlayMode"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Power",
+            "feature": "Power",
+            "style": "danger"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Prev",
+            "feature": "Prev"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Random",
+            "feature": "Random"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rec Mode",
+            "feature": "RecMode"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Record",
+            "feature": "Record"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Repeat",
+            "feature": "Repeat"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rewind",
+            "feature": "Rewind"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Scroll",
+            "feature": "Scroll"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Source",
+            "feature": "Source"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Stop",
+            "feature": "Stop"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Synchro Rec",
+            "feature": "SynchroRec"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Time Skip",
+            "feature": "TimeSkip"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Trec",
+            "feature": "TRec"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Yes",
+            "feature": "Yes"
+          }
+        ]
+      ]
+    }
+  ]
+}

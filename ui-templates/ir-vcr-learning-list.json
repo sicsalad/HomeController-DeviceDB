@@ -1,0 +1,9147 @@
+{
+  "id": "ir-vcr-learning-list",
+  "name": "Vcr - Command List",
+  "deviceType": "vcr",
+  "transport": "ir",
+  "generatedBy": "generated-learning-list-v2",
+  "style": {
+    "backgroundColor": "#101114",
+    "foregroundColor": "#F5F7FA",
+    "buttonColor": "#252932",
+    "buttonTextColor": "#F5F7FA",
+    "accentColor": "#4DA3FF",
+    "cornerRadius": 12,
+    "spacing": 8
+  },
+  "sections": [
+    {
+      "title": "Commands",
+      "rows": [
+        [
+          {
+            "type": "button",
+            "label": "0 Aux",
+            "feature": "0AUX"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "0 Repeat",
+            "feature": "0REPEAT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "0 Repeataux",
+            "feature": "0REPEATAUX"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "10",
+            "feature": "10"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "100",
+            "feature": "100"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "11",
+            "feature": "11"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "12",
+            "feature": "12"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "13",
+            "feature": "13"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "14",
+            "feature": "14"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "1 Abc",
+            "feature": "1Abc"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "1 Am",
+            "feature": "1AM"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "1 Progclock",
+            "feature": "1PROGCLOCK"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "1 Start",
+            "feature": "1START"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "1 Sun",
+            "feature": "1SUN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "2 Def",
+            "feature": "2Def"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "2 Mon",
+            "feature": "2MON"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "2 Nd",
+            "feature": "2ND"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "2 Pm",
+            "feature": "2PM"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "2 Stop",
+            "feature": "2STOP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "2 Trk",
+            "feature": "2TRK"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "30",
+            "feature": "30"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "3 Date",
+            "feature": "3DATE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "3 Ghi",
+            "feature": "3Ghi"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "3 Selectcmemory",
+            "feature": "3SELECTCMEMORY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "3 Trk",
+            "feature": "3TRK"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "3 Tue",
+            "feature": "3TUE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "4 Jkl",
+            "feature": "4Jkl"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "4 Start",
+            "feature": "4START"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "4 Timer",
+            "feature": "4TIMER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "4 Wed",
+            "feature": "4WED"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "5 Mno",
+            "feature": "5Mno"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "5 Picture",
+            "feature": "5PICTURE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "5 Stop",
+            "feature": "5STOP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "5 Thu",
+            "feature": "5THU"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "6 Date",
+            "feature": "6DATE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "6 Fri",
+            "feature": "6FRI"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "6 Picture",
+            "feature": "6PICTURE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "6 Pqr",
+            "feature": "6Pqr"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "7 Dbs",
+            "feature": "7DBS"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "7 Sat",
+            "feature": "7SAT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "7 Stu",
+            "feature": "7Stu"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "7 Wkldly",
+            "feature": "7WKLDLY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "81 St2 Nd",
+            "feature": "81ST2ND"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "82 Nd",
+            "feature": "82ND"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "8 Am",
+            "feature": "8AM"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "8 Daily",
+            "feature": "8DAILY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "8 Dailymf",
+            "feature": "8DAILYMF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "8 Mf",
+            "feature": "8MF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "8 Mm",
+            "feature": "8MM"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "8 Mmvhs",
+            "feature": "8MMVHS"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "8 Slow",
+            "feature": "8SLOW"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "8 Vwxdaily",
+            "feature": "8VWXDAILY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "8 Vwxdailymf",
+            "feature": "8VWXDAILYMF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "9 Daily",
+            "feature": "9DAILY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "9 Pm",
+            "feature": "9PM"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "9 Slow",
+            "feature": "9SLOW"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "9 Weekly",
+            "feature": "9WEEKLY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "9 Yzweekly",
+            "feature": "9YZWEEKLY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "A",
+            "feature": "A"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "A0",
+            "feature": "A0"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "A1",
+            "feature": "A1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "A2",
+            "feature": "A2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "A3",
+            "feature": "A3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "A4",
+            "feature": "A4"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "A5",
+            "feature": "A5"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "A6",
+            "feature": "A6"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "A7",
+            "feature": "A7"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "A8",
+            "feature": "A8"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "A9",
+            "feature": "A9"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Aampm",
+            "feature": "AAMPM"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Action",
+            "feature": "Action"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Add",
+            "feature": "Add"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Adddel",
+            "feature": "ADDDEL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Add Delete",
+            "feature": "AddDelete"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Add Dlt",
+            "feature": "AddDLT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Addressenter",
+            "feature": "ADDRESSENTER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Addresssearch",
+            "feature": "ADDRESSSEARCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Addresssearchdivid",
+            "feature": "ADDRESSSEARCHDIVID"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Adisplay",
+            "feature": "ADISPLAY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Adjust",
+            "feature": "Adjust"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Adjustdown",
+            "feature": "ADJUSTDOWN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Adjustscan",
+            "feature": "ADJUSTSCAN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Adjustup",
+            "feature": "ADJUSTUP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Adjustv",
+            "feature": "ADJUSTV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Aenter",
+            "feature": "AENTER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Aerase",
+            "feature": "AERASE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Affwd",
+            "feature": "AFFwd"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Aft Vps",
+            "feature": "AftVps"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Agoto",
+            "feature": "AGOTO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Aindex",
+            "feature": "AIndex"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Aintro",
+            "feature": "AINTRO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Amenu",
+            "feature": "AMENU"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Amonitor",
+            "feature": "AMonitor"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Amonitortvvideo",
+            "feature": "AMONITORTVVIDEO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ampm",
+            "feature": "AMPM"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Antvcr",
+            "feature": "ANTVCR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Apausestill",
+            "feature": "APAUSESTILL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Aplayx2",
+            "feature": "APLAYX2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Apowervideo",
+            "feature": "APOWERVIDEO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Arecplayx2",
+            "feature": "ARECPLAYX2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Arew",
+            "feature": "ARew"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Arrow Down",
+            "feature": "ArrowDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Arrow Left",
+            "feature": "ArrowLeft"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Arrow Right",
+            "feature": "ArrowRight"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Arrow Up",
+            "feature": "ArrowUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Art",
+            "feature": "ART"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Aselect",
+            "feature": "ASELECT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Askip",
+            "feature": "ASKIP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Askipsearch",
+            "feature": "ASKIPSEARCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Aspep",
+            "feature": "ASPEP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Astop",
+            "feature": "AStop"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Atimer",
+            "feature": "ATIMER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Atr",
+            "feature": "ATR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Atracking",
+            "feature": "ATRACKING"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Atvch",
+            "feature": "ATVCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Atvmonitor",
+            "feature": "ATVMONITOR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Atvpower",
+            "feature": "ATVPOWER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Atvvideo",
+            "feature": "ATVVIDEO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Atvvol",
+            "feature": "ATVVOL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Audio",
+            "feature": "Audio"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Audio Down",
+            "feature": "AudioDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Audio Dub",
+            "feature": "AudioDub"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Audiodubplay",
+            "feature": "AUDIODUBPLAY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Audiomode",
+            "feature": "AUDIOMODE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Audiomonitor",
+            "feature": "AUDIOMONITOR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Audio Mute",
+            "feature": "AudioMute"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Audio Out",
+            "feature": "AudioOut"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Audiopower",
+            "feature": "AUDIOPOWER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Audio Up",
+            "feature": "AudioUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Audiov",
+            "feature": "AUDIOV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Audiovideo",
+            "feature": "AUDIOVIDEO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Auto",
+            "feature": "Auto"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Automanualtracking",
+            "feature": "AUTOMANUALTRACKING"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Auto Track",
+            "feature": "AutoTrack"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Autotracking",
+            "feature": "AUTOTRACKING"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Autotrackingdown",
+            "feature": "AUTOTRACKINGDOWN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Autotrackingup",
+            "feature": "AUTOTRACKINGUP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Auxinput",
+            "feature": "AUXINPUT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Avarsrch",
+            "feature": "AVARSRCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Avideoch",
+            "feature": "AVIDEOCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Avideoreject",
+            "feature": "AVIDEOREJECT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Avkanaler",
+            "feature": "AVKANALER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "B",
+            "feature": "B"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "B0",
+            "feature": "B0"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "B1",
+            "feature": "B1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "B2",
+            "feature": "B2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "B3",
+            "feature": "B3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "B4",
+            "feature": "B4"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "B5",
+            "feature": "B5"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "B6",
+            "feature": "B6"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "B7",
+            "feature": "B7"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "B8",
+            "feature": "B8"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "B9",
+            "feature": "B9"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bampm",
+            "feature": "BAMPM"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Band",
+            "feature": "Band"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bch",
+            "feature": "BCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bdisplay",
+            "feature": "BDISPLAY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Begin",
+            "feature": "BEGIN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Beject",
+            "feature": "BEJECT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Benter",
+            "feature": "BENTER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Berase",
+            "feature": "BERASE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bff",
+            "feature": "BFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bgoto",
+            "feature": "BGOTO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bindex",
+            "feature": "BIndex"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bintro",
+            "feature": "BINTRO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Blank",
+            "feature": "Blank"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Blanksearch",
+            "feature": "BLANKSEARCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bmark",
+            "feature": "BMARK"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bmenu",
+            "feature": "BMENU"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bpausestill",
+            "feature": "BPAUSESTILL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bplayx2",
+            "feature": "BPLAYX2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bpowervideo",
+            "feature": "BPOWERVIDEO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Brecplayx2",
+            "feature": "BRECPLAYX2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Brew",
+            "feature": "BRew"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bselect",
+            "feature": "BSELECT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bskip",
+            "feature": "BSKIP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bskipsearch",
+            "feature": "BSKIPSEARCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bspep",
+            "feature": "BSPEP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bstop",
+            "feature": "BStop"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Btimer",
+            "feature": "BTIMER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Btracking",
+            "feature": "BTRACKING"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Btvmonitor",
+            "feature": "BTVMONITOR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Btvvideo",
+            "feature": "BTVVIDEO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bvariablesearch",
+            "feature": "BVARIABLESEARCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bypass",
+            "feature": "BYPASS"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Call",
+            "feature": "CALL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cancel",
+            "feature": "Cancel"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cancelcounterreset",
+            "feature": "CANCELCOUNTERRESET"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cancelcreset",
+            "feature": "CANCELCRESET"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cancelcresetchskip",
+            "feature": "CANCELCRESETCHSKIP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cancelcresetskip",
+            "feature": "CANCELCRESETSKIP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cancelreset",
+            "feature": "CANCELRESET"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cancelskip",
+            "feature": "CANCELSKIP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Caskip",
+            "feature": "CASKIP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cd",
+            "feature": "CD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cd1",
+            "feature": "CD1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cd2",
+            "feature": "CD2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cd3",
+            "feature": "CD3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cd4",
+            "feature": "CD4"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cd5",
+            "feature": "CD5"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cd6",
+            "feature": "CD6"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cd7 P",
+            "feature": "CD7P"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cddisc",
+            "feature": "CDDisc"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cdpause",
+            "feature": "CDPause"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cdplay",
+            "feature": "CDPLAY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cdplay Pause",
+            "feature": "CDPlayPause"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cdstop",
+            "feature": "CDStop"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cear",
+            "feature": "CEAR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Chaneldn",
+            "feature": "CHANELDN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Chanel Up",
+            "feature": "ChanelUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Channel Down",
+            "feature": "ChannelDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Channeldownv",
+            "feature": "CHANNELDOWNV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Channelscan",
+            "feature": "CHANNELSCAN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Channelselect",
+            "feature": "CHANNELSELECT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Channelset",
+            "feature": "CHANNELSET"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Channeltracking",
+            "feature": "CHANNELTRACKING"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Channel Up",
+            "feature": "ChannelUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Channelv",
+            "feature": "CHANNELV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Channelvset",
+            "feature": "CHANNELVSET"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Child Lock",
+            "feature": "ChildLock"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Chnl",
+            "feature": "CHNL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Chprogauto",
+            "feature": "CHPROGAUTO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Chscan",
+            "feature": "CHSCAN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Chscanv",
+            "feature": "CHSCANV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Chset",
+            "feature": "CHSet"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Chsetv",
+            "feature": "CHSETV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Chtrack",
+            "feature": "CHTRACK"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Chtracking",
+            "feature": "CHTRACKING"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Chtrackingv",
+            "feature": "CHTRACKINGV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Chv",
+            "feature": "CHV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Chvscanv",
+            "feature": "CHVSCANV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Chvset",
+            "feature": "CHVSET"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Clear",
+            "feature": "Clear"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Clear Reset",
+            "feature": "ClearReset"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cleartimer",
+            "feature": "CLEARTIMER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Clk Cnt",
+            "feature": "ClkCnt"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Clkctr",
+            "feature": "CLKCTR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Clockcounter",
+            "feature": "CLOCKCOUNTER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cmemory",
+            "feature": "CMEMORY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cmemoryadd",
+            "feature": "CMEMORYADD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cmemoryaddstart",
+            "feature": "CMEMORYADDSTART"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cmskip",
+            "feature": "CMSkip"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cncl",
+            "feature": "CNCL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Commercialpass",
+            "feature": "COMMERCIALPASS"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Commpass",
+            "feature": "COMMPASS"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Copy",
+            "feature": "COPY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Copytape",
+            "feature": "COPYTAPE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Counter",
+            "feature": "Counter"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Counter Clock",
+            "feature": "CounterClock"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Counter Display",
+            "feature": "CounterDisplay"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Countermemory",
+            "feature": "COUNTERMEMORY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Counter Remain",
+            "feature": "CounterRemain"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Counter Reset",
+            "feature": "CounterReset"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Counterselect",
+            "feature": "COUNTERSELECT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Counterzerostop",
+            "feature": "COUNTERZEROSTOP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cur Down",
+            "feature": "CurDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cur Left",
+            "feature": "CurLeft"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cur Right",
+            "feature": "CurRight"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Curserdn",
+            "feature": "CURSERDN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Curserdown",
+            "feature": "CURSERDOWN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Curserleft",
+            "feature": "CURSERLEFT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Curserright",
+            "feature": "CURSERRIGHT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Curserup",
+            "feature": "CURSERUP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cursor",
+            "feature": "CURSOR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cursorback",
+            "feature": "CURSORBACK"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cursordn",
+            "feature": "CURSORDN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cursorenterok",
+            "feature": "CURSORENTEROK"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cursorlf",
+            "feature": "CURSORLF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cursorner",
+            "feature": "CURSORNER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cursornext",
+            "feature": "CURSORNEXT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cursorok",
+            "feature": "CURSOROK"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cursorrt",
+            "feature": "CURSORRT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cursorselect",
+            "feature": "CURSORSELECT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cursorupp",
+            "feature": "CURSORUPP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cursorv",
+            "feature": "CURSORV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cur Up",
+            "feature": "CurUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Daily",
+            "feature": "DAILY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Data Code",
+            "feature": "DataCode"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dataonscreen",
+            "feature": "DATAONSCREEN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Date",
+            "feature": "Date"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Day",
+            "feature": "DAY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Day Down",
+            "feature": "DayDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Day Up",
+            "feature": "DayUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Deck1",
+            "feature": "DECK1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Deck2",
+            "feature": "DECK2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Deckselect",
+            "feature": "DECKSELECT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dial",
+            "feature": "DIAL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit0",
+            "feature": "Digit0"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit1",
+            "feature": "Digit1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit2",
+            "feature": "Digit2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit3",
+            "feature": "Digit3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit4",
+            "feature": "Digit4"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit5",
+            "feature": "Digit5"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit6",
+            "feature": "Digit6"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit7",
+            "feature": "Digit7"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit8",
+            "feature": "Digit8"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit9",
+            "feature": "Digit9"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digitalmem",
+            "feature": "DIGITALMEM"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digitalmemory",
+            "feature": "DIGITALMEMORY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digitalnr",
+            "feature": "DIGITALNR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digitaloff",
+            "feature": "DIGITALOFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dn",
+            "feature": "Dn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Down",
+            "feature": "Down"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Down Arrow",
+            "feature": "DownArrow"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dspl",
+            "feature": "DSPL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dsr",
+            "feature": "DSR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Eexit",
+            "feature": "EEXIT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Eject",
+            "feature": "Eject"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ejectcd",
+            "feature": "EJECTCD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "End",
+            "feature": "END"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Enter100",
+            "feature": "ENTER100"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Enteradd",
+            "feature": "ENTERADD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Entermenu",
+            "feature": "ENTERMENU"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Enter Ok",
+            "feature": "EnterOk"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Enterosd",
+            "feature": "ENTEROSD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Enterselect",
+            "feature": "ENTERSELECT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Enterslowfradv",
+            "feature": "ENTERSLOWFRADV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Entrcl",
+            "feature": "ENTRCL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Epsp",
+            "feature": "EPSP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Erase",
+            "feature": "Erase"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Execute",
+            "feature": "EXECUTE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Exit",
+            "feature": "Exit"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fademute",
+            "feature": "FADEMUTE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fadv",
+            "feature": "FADV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fadvskip",
+            "feature": "FADVSKIP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fan Speed",
+            "feature": "FanSpeed"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fast Forward",
+            "feature": "FastForward"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fastplay",
+            "feature": "FASTPLAY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fastplayx2",
+            "feature": "FASTPLAYX2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ffadjust",
+            "feature": "FFADJUST"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ffadvance",
+            "feature": "FFADVANCE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ffbrowse",
+            "feature": "FFBROWSE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ffpicturesrch",
+            "feature": "FFPICTURESRCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ffrightarrow",
+            "feature": "FFRIGHTARROW"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ffsearch",
+            "feature": "FFSEARCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ffshutsrch",
+            "feature": "FFSHUTSRCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ffshuttle",
+            "feature": "FFSHUTTLE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ffshuttlesrch",
+            "feature": "FFSHUTTLESRCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ffsrch",
+            "feature": "FFSRCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ffw",
+            "feature": "FFW"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ffwd",
+            "feature": "FFWD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ffwdsfwd",
+            "feature": "FFWDSFWD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ffwdshutsrch",
+            "feature": "FFWDSHUTSRCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ffwdvisrch",
+            "feature": "FFWDVISRCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fmam",
+            "feature": "FMAM"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fmam1",
+            "feature": "FMAM1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fmam10",
+            "feature": "FMAM10"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fmam2",
+            "feature": "FMAM2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fmam3",
+            "feature": "FMAM3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fmam4",
+            "feature": "FMAM4"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fmam5",
+            "feature": "FMAM5"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fmam6",
+            "feature": "FMAM6"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fmam7 P",
+            "feature": "FMAM7P"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fmam8",
+            "feature": "FMAM8"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fmam9",
+            "feature": "FMAM9"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Forward1",
+            "feature": "FORWARD1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Forward15",
+            "feature": "FORWARD15"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Forward2",
+            "feature": "FORWARD2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Forward3",
+            "feature": "FORWARD3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Forwardx2",
+            "feature": "FORWARDX2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fradv",
+            "feature": "Fradv"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fradvslow",
+            "feature": "FRADVSLOW"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Frame",
+            "feature": "FRAME"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Frameadvance",
+            "feature": "FRAMEADVANCE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Freeze",
+            "feature": "Freeze"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fri",
+            "feature": "FRI"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fs",
+            "feature": "FS"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Functionaudio",
+            "feature": "FUNCTIONAUDIO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Functionvideo",
+            "feature": "FUNCTIONVIDEO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fwd",
+            "feature": "Fwd"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ger",
+            "feature": "GER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Goback",
+            "feature": "GOBACK"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Goto",
+            "feature": "GOTO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Guide",
+            "feature": "Guide"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Hifinorm",
+            "feature": "HIFINORM"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Highspeedrewind",
+            "feature": "HIGHSPEEDREWIND"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Highspeedrr",
+            "feature": "HIGHSPEEDRR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Hispeedrewind",
+            "feature": "HISPEEDREWIND"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Hsstdspep",
+            "feature": "HSSTDSPEP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Index",
+            "feature": "Index"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Indexenter",
+            "feature": "INDEXENTER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Index Erase",
+            "feature": "IndexErase"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Indexff",
+            "feature": "INDEXFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Index Left",
+            "feature": "IndexLeft"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Index Mark",
+            "feature": "IndexMark"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Indexmaskip",
+            "feature": "INDEXMASKIP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Index Right",
+            "feature": "IndexRight"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Indexrr",
+            "feature": "INDEXRR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Indexsearch",
+            "feature": "INDEXSEARCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Indexsearchback",
+            "feature": "INDEXSEARCHBACK"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Indexsearchforward",
+            "feature": "INDEXSEARCHFORWARD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Indexsearchslow",
+            "feature": "INDEXSEARCHSLOW"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Indexsrch",
+            "feature": "INDEXSRCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Info",
+            "feature": "Info"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Input1",
+            "feature": "Input1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Input1 Vtr1",
+            "feature": "INPUT1VTR1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Input1 Vtr3",
+            "feature": "INPUT1VTR3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Input2",
+            "feature": "Input2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Input Down",
+            "feature": "InputDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Input Select",
+            "feature": "InputSelect"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputsystem",
+            "feature": "INPUTSYSTEM"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputtoggle",
+            "feature": "INPUTTOGGLE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Input Tuner",
+            "feature": "InputTuner"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Input Up",
+            "feature": "InputUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputx2",
+            "feature": "INPUTX2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Insertaudio",
+            "feature": "INSERTAUDIO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Insertvideo",
+            "feature": "INSERTVIDEO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Intro",
+            "feature": "INTRO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Iselect",
+            "feature": "ISELECT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Jogadjust",
+            "feature": "JOGADJUST"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Jogfwd",
+            "feature": "JOGFWD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Jogrev",
+            "feature": "JOGREV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Jogshuttleff",
+            "feature": "JOGSHUTTLEFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Jogshuttlerev",
+            "feature": "JOGSHUTTLEREV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Lcv",
+            "feature": "LCV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Lcvchange",
+            "feature": "LCVCHANGE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Left",
+            "feature": "Left"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Levelmode",
+            "feature": "LEVELMODE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Line",
+            "feature": "Line"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Line1",
+            "feature": "Line1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Line2",
+            "feature": "Line2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Line In",
+            "feature": "LineIn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "List",
+            "feature": "LIST"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ljud",
+            "feature": "LJUD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Lpsp",
+            "feature": "LPSP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Lt",
+            "feature": "Lt"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mark",
+            "feature": "Mark"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mem",
+            "feature": "Mem"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Memo",
+            "feature": "MEMO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Memory",
+            "feature": "MEMORY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Memorycounter",
+            "feature": "MEMORYCOUNTER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Menu",
+            "feature": "Menu"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Menudown",
+            "feature": "MENUDOWN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Menuleft",
+            "feature": "MENULEFT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Menuright",
+            "feature": "MENURIGHT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Menuup",
+            "feature": "MENUUP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mmeny",
+            "feature": "MMENY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mon",
+            "feature": "MON"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Monitor",
+            "feature": "Monitor"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Monitortvvideo",
+            "feature": "MONITORTVVIDEO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Multilvlctrl",
+            "feature": "MULTILVLCTRL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Multilvlctrlv",
+            "feature": "MULTILVLCTRLV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Multiscreen",
+            "feature": "MULTISCREEN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mute",
+            "feature": "Mute"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Muteselect",
+            "feature": "MUTESELECT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Natsl",
+            "feature": "NATSL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Navigation",
+            "feature": "NAVIGATION"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Navok",
+            "feature": "NAVOK"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Nb",
+            "feature": "NB"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Nster",
+            "feature": "NSTER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Offtotr",
+            "feature": "OFFTOTR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ok",
+            "feature": "Ok"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Okenterosd",
+            "feature": "OKENTEROSD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Okstatus",
+            "feature": "OKSTATUS"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Once",
+            "feature": "ONCE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Onofftimer",
+            "feature": "ONOFFTIMER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Onscreen",
+            "feature": "ONSCREEN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Oooo",
+            "feature": "OOOO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Operate",
+            "feature": "OPERATE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Osd",
+            "feature": "OSD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Osdenter",
+            "feature": "OSDENTER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Osdprgm",
+            "feature": "OSDPRGM"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Otr",
+            "feature": "OTR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Otr Length",
+            "feature": "OtrLength"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Otroff",
+            "feature": "OTROFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Otron",
+            "feature": "OTRON"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Otrrecordtime",
+            "feature": "OTRRECORDTIME"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Otr Start",
+            "feature": "OtrStart"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Outputsystem",
+            "feature": "OUTPUTSYSTEM"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Page Down",
+            "feature": "PageDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Page Up",
+            "feature": "PageUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Palscamntsc1 Ntsc2",
+            "feature": "PALSCAMNTSC1NTSC2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pause",
+            "feature": "Pause"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pauseii",
+            "feature": "PAUSEII"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pause Slow",
+            "feature": "PauseSlow"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pause Still",
+            "feature": "PauseStill"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pcall",
+            "feature": "PCALL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pcallv",
+            "feature": "PCALLV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Phono",
+            "feature": "Phono"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pictctrl",
+            "feature": "PICTCTRL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Picture",
+            "feature": "Picture"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pip",
+            "feature": "Pip"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pipsource",
+            "feature": "PIPSOURCE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Play",
+            "feature": "Play"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Playatr",
+            "feature": "PLAYATR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Playload",
+            "feature": "PLAYLOAD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Play Pause",
+            "feature": "PlayPause"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Playr",
+            "feature": "PLAYR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Playspeeddown",
+            "feature": "PLAYSPEEDDOWN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Playspeedup",
+            "feature": "PLAYSPEEDUP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Play Stop",
+            "feature": "PlayStop"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Playuparrow",
+            "feature": "PLAYUPARROW"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Playx2",
+            "feature": "PLAYX2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Power",
+            "feature": "Power",
+            "style": "danger"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Power Off",
+            "feature": "PowerOff",
+            "style": "danger"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Poweroffalt",
+            "feature": "POWEROFFALT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Poweroffvtr1",
+            "feature": "POWEROFFVTR1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Poweroffvtr3",
+            "feature": "POWEROFFVTR3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Power On",
+            "feature": "PowerOn",
+            "style": "danger"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Poweronalt",
+            "feature": "POWERONALT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Poweronvtr1",
+            "feature": "POWERONVTR1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Poweronvtr3",
+            "feature": "POWERONVTR3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Powertimerrecord",
+            "feature": "POWERTIMERRECORD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Power Tv",
+            "feature": "PowerTv"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Powervcr",
+            "feature": "POWERVCR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Preset",
+            "feature": "PRESET"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Previous Channel",
+            "feature": "PreviousChannel"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Prgmcheck",
+            "feature": "PRGMCHECK"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Print",
+            "feature": "Print"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Prog",
+            "feature": "Prog"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Prog Check",
+            "feature": "ProgCheck"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Progchk",
+            "feature": "PROGCHK"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Progclockchset",
+            "feature": "PROGCLOCKCHSET"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Proglistonoff",
+            "feature": "PROGLISTONOFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Prognbr",
+            "feature": "PROGNBR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Program",
+            "feature": "PROGRAM"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Programcheck",
+            "feature": "PROGRAMCHECK"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Progreconoff",
+            "feature": "PROGRECONOFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Progvcr",
+            "feature": "PROGVCR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ps",
+            "feature": "PS"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pushjog",
+            "feature": "PUSHJOG"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pwr",
+            "feature": "Pwr"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pwr Off",
+            "feature": "PwrOff"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pwr On",
+            "feature": "PwrOn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Qpdaily8",
+            "feature": "QPDAILY8"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Qpdate3",
+            "feature": "QPDATE3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Qpdate6",
+            "feature": "QPDATE6"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Qpro",
+            "feature": "QPro"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Qpspeed",
+            "feature": "QPSPEED"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Qpstart1",
+            "feature": "QPSTART1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Qpstart4",
+            "feature": "QPSTART4"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Qpstop2",
+            "feature": "QPSTOP2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Qpstop5",
+            "feature": "QPSTOP5"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Qpweekly9",
+            "feature": "QPWEEKLY9"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Quickprogram",
+            "feature": "QUICKPROGRAM"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Quickprogramvcr",
+            "feature": "QUICKPROGRAMVCR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Quicktimer",
+            "feature": "QUICKTIMER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Quit",
+            "feature": "QUIT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Qv",
+            "feature": "QV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Realnormcounter",
+            "feature": "REALNORMCOUNTER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Realsearch",
+            "feature": "REALSEARCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Recall",
+            "feature": "Recall"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rec Mode",
+            "feature": "RecMode"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Record",
+            "feature": "Record"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Recordmute",
+            "feature": "RECORDMUTE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Recordotr",
+            "feature": "RECORDOTR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Recordpause",
+            "feature": "RECORDPAUSE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Recordspeed",
+            "feature": "RECORDSPEED"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Recordstandby",
+            "feature": "RECORDSTANDBY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Recordtime",
+            "feature": "RECORDTIME"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rec Pause",
+            "feature": "RecPause"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Recpausestill",
+            "feature": "RECPAUSESTILL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rec Play",
+            "feature": "RecPlay"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Recplayx2",
+            "feature": "RECPLAYX2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Recqtr",
+            "feature": "RECQTR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Recstandby",
+            "feature": "RECSTANDBY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rec Time",
+            "feature": "RecTime"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Reord",
+            "feature": "REORD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Repeat",
+            "feature": "Repeat"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Repeatcmemoryadd",
+            "feature": "REPEATCMEMORYADD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Reset",
+            "feature": "Reset"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Resetcounter",
+            "feature": "RESETCOUNTER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Resettimecounter",
+            "feature": "RESETTIMECOUNTER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rev",
+            "feature": "Rev"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Reverse1",
+            "feature": "REVERSE1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Reverse15",
+            "feature": "REVERSE15"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Reverse2",
+            "feature": "REVERSE2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Reverse3",
+            "feature": "REVERSE3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Reverseplay",
+            "feature": "REVERSEPLAY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Reversex2",
+            "feature": "REVERSEX2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Re View",
+            "feature": "ReView"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rewadjust",
+            "feature": "REWADJUST"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rewbrowse",
+            "feature": "REWBROWSE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rewind",
+            "feature": "Rewind"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rewleftarrow",
+            "feature": "REWLEFTARROW"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rewpicturesrch",
+            "feature": "REWPICTURESRCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rewsearch",
+            "feature": "REWSEARCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rewshutsrch",
+            "feature": "REWSHUTSRCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rewshuttle",
+            "feature": "REWSHUTTLE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rewshuttlesrch",
+            "feature": "REWSHUTTLESRCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rewsrch",
+            "feature": "REWSRCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rewsrev",
+            "feature": "REWSREV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rewvisrch",
+            "feature": "REWVISRCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Right",
+            "feature": "Right"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rplay",
+            "feature": "RPLAY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rr",
+            "feature": "RR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rs",
+            "feature": "RS"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rt",
+            "feature": "RT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Saphi Fi",
+            "feature": "SAPHiFi"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sat",
+            "feature": "Sat"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Scan",
+            "feature": "Scan"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Scanch",
+            "feature": "SCANCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Scanchv",
+            "feature": "SCANCHV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Scandownchv",
+            "feature": "SCANDOWNCHV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Scanrevnew",
+            "feature": "SCANREVNEW"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Scanupch",
+            "feature": "SCANUPCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Scanvchv",
+            "feature": "SCANVCHV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Scanx2",
+            "feature": "SCANX2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Scene",
+            "feature": "SCENE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Scroll Down",
+            "feature": "ScrollDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Search",
+            "feature": "Search"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Searchfwd",
+            "feature": "SEARCHFWD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Searchindex",
+            "feature": "SEARCHINDEX"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Searchmaskipent",
+            "feature": "SEARCHMASKIPENT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Searchrev",
+            "feature": "SEARCHREV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Searchselect",
+            "feature": "SEARCHSELECT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Searchtimecounter",
+            "feature": "SEARCHTIMECOUNTER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Selectcmemory",
+            "feature": "SELECTCMEMORY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Selectdigitalcle",
+            "feature": "SELECTDIGITALCLE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Selectenter",
+            "feature": "SELECTENTER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Selectfwd",
+            "feature": "SELECTFWD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Selectinout",
+            "feature": "SELECTINOUT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Selectquad",
+            "feature": "SELECTQUAD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Selectrev",
+            "feature": "SELECTREV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Set",
+            "feature": "SET"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Setfwd",
+            "feature": "SETFWD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Set Minus",
+            "feature": "SetMinus"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Set Plus",
+            "feature": "SetPlus"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Setrev",
+            "feature": "SETREV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Settimecounter",
+            "feature": "SETTIMECOUNTER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Shift",
+            "feature": "SHIFT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Showview",
+            "feature": "Showview"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Shtlfwdtvvol",
+            "feature": "SHTLFWDTVVOL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Shtlrewtvvol",
+            "feature": "SHTLREWTVVOL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Shuttle",
+            "feature": "SHUTTLE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Shuttlebegin",
+            "feature": "SHUTTLEBEGIN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Shuttledown",
+            "feature": "SHUTTLEDOWN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Shuttleend",
+            "feature": "SHUTTLEEND"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Shuttlefwdfs",
+            "feature": "SHUTTLEFWDFS"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Shuttleleft",
+            "feature": "SHUTTLELEFT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Shuttlerevfs",
+            "feature": "SHUTTLEREVFS"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Shuttleright",
+            "feature": "SHUTTLERIGHT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Shuttleup",
+            "feature": "SHUTTLEUP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Skip",
+            "feature": "Skip"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Skipblank",
+            "feature": "SKIPBLANK"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Skip Left",
+            "feature": "SkipLeft"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Skip Right",
+            "feature": "SkipRight"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Skip Search",
+            "feature": "SkipSearch"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Skipsrch",
+            "feature": "SKIPSRCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Skipzerortn",
+            "feature": "SKIPZERORTN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Slow",
+            "feature": "Slow"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Slowfradv",
+            "feature": "SLOWFRADV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Slowframeadv",
+            "feature": "SLOWFRAMEADV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Slowframeadvance",
+            "feature": "SLOWFRAMEADVANCE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Slowmotion",
+            "feature": "SLOWMOTION"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Slowplay",
+            "feature": "SLOWPLAY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Slowrewind",
+            "feature": "SLOWREWIND"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Slowv",
+            "feature": "SLOWV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Smartcue",
+            "feature": "SMARTCUE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Smartfile",
+            "feature": "SMARTFILE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Smartpicture",
+            "feature": "SMARTPICTURE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Smartque",
+            "feature": "SMARTQUE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Source",
+            "feature": "Source"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Spatializer",
+            "feature": "SPATIALIZER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sp Ep",
+            "feature": "SpEp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Speprecordmode",
+            "feature": "SPEPRECORDMODE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Splp",
+            "feature": "SPLP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Splpep",
+            "feature": "SPLPEP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Spslp",
+            "feature": "SPSLP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sr",
+            "feature": "SR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sspeed",
+            "feature": "SSPEED"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Start",
+            "feature": "Start"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Startcmemoryadd",
+            "feature": "STARTCMEMORYADD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Status",
+            "feature": "Status"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Stilladjustdown",
+            "feature": "STILLADJUSTDOWN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Stilladjustup",
+            "feature": "STILLADJUSTUP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Stilladv",
+            "feature": "STILLADV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Stilladvance",
+            "feature": "STILLADVANCE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Stillpause",
+            "feature": "STILLPAUSE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Stillstrobe",
+            "feature": "STILLSTROBE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Stop",
+            "feature": "Stop"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Stopdownarrow",
+            "feature": "STOPDOWNARROW"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Stopej",
+            "feature": "STOPEJ"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Stop Eject",
+            "feature": "StopEject"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Stopp",
+            "feature": "STOPP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Stracking",
+            "feature": "STRACKING"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Strobe",
+            "feature": "Strobe"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Strobespeed",
+            "feature": "STROBESPEED"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Stsap",
+            "feature": "STSAP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Summer Time",
+            "feature": "SummerTime"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sun",
+            "feature": "SUN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Superimpose",
+            "feature": "SUPERIMPOSE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Surrcentermode",
+            "feature": "SURRCENTERMODE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Surrdelay",
+            "feature": "SURRDELAY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Surrmode",
+            "feature": "SURRMODE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Surrrearonoff",
+            "feature": "SURRREARONOFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Surrtest",
+            "feature": "SURRTEST"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Swap",
+            "feature": "Swap"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Syncedit",
+            "feature": "SYNCEDIT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "T",
+            "feature": "T"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tape",
+            "feature": "TAPE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tape2",
+            "feature": "TAPE2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tapea",
+            "feature": "TAPEA"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tape Aplay",
+            "feature": "TapeAPlay"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tapearec",
+            "feature": "TAPEAREC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tapearevplay",
+            "feature": "TAPEAREVPLAY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tape Astop",
+            "feature": "TapeAStop"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tapeb",
+            "feature": "TAPEB"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tape Bplay",
+            "feature": "TapeBPlay"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tapebrec",
+            "feature": "TAPEBREC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tapebrevplay",
+            "feature": "TAPEBREVPLAY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tape Bstop",
+            "feature": "TapeBStop"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tapecounter",
+            "feature": "TAPECOUNTER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tapeguide",
+            "feature": "TAPEGUIDE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tapemanager",
+            "feature": "TAPEMANAGER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tape Pause",
+            "feature": "TapePause"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tapeplay",
+            "feature": "TAPEPLAY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tape Position",
+            "feature": "TapePosition"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tapereturn",
+            "feature": "TAPERETURN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tape Speed",
+            "feature": "TapeSpeed"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tapestop",
+            "feature": "TAPESTOP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Test Tone",
+            "feature": "TestTone"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Theme",
+            "feature": "THEME"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Thur",
+            "feature": "THUR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Time",
+            "feature": "Time"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Timer",
+            "feature": "Timer"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Timerclear",
+            "feature": "TIMERCLEAR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Timercounter",
+            "feature": "TIMERCOUNTER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Timermode",
+            "feature": "TIMERMODE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Timeronoff",
+            "feature": "TIMERONOFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Timerrec",
+            "feature": "TIMERREC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Timerrecclear",
+            "feature": "TIMERRECCLEAR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Timerreconoff",
+            "feature": "TIMERRECONOFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Timescandown",
+            "feature": "TIMESCANDOWN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Timescanleft",
+            "feature": "TIMESCANLEFT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Timescanright",
+            "feature": "TIMESCANRIGHT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Timescanup",
+            "feature": "TIMESCANUP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Timesearch",
+            "feature": "TIMESEARCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Timr",
+            "feature": "TIMR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Track",
+            "feature": "TRACK"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tracking",
+            "feature": "Tracking"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Trackingautoman",
+            "feature": "TRACKINGAUTOMAN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tracking Auto Manual",
+            "feature": "TrackingAutoManual"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tracking Down",
+            "feature": "TrackingDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tracking Left",
+            "feature": "TrackingLeft"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Trackingmenu",
+            "feature": "TRACKINGMENU"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Trackingmenuv",
+            "feature": "TRACKINGMENUV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Trackingnormal",
+            "feature": "TRACKINGNORMAL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tracking Right",
+            "feature": "TrackingRight"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Trackingslow",
+            "feature": "TRACKINGSLOW"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Trackingspeed",
+            "feature": "TRACKINGSPEED"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tracking Up",
+            "feature": "TrackingUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Trackingv",
+            "feature": "TRACKINGV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Trans",
+            "feature": "TRANS"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Trck Auto",
+            "feature": "TrckAuto"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Trck Fine Minus",
+            "feature": "TrckFineMinus"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Trck Fine Plus",
+            "feature": "TrckFinePlus"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Trec",
+            "feature": "TRec"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Trkmenu",
+            "feature": "TRKMENU"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Trkmenuv",
+            "feature": "TRKMENUV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tspeed",
+            "feature": "TSPEED"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tues",
+            "feature": "TUES"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tuner",
+            "feature": "Tuner"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Turbotimer",
+            "feature": "TURBOTIMER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tv",
+            "feature": "TV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tv0",
+            "feature": "TV0"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tv0 Aux",
+            "feature": "TV0AUX"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tv1",
+            "feature": "TV1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tv10",
+            "feature": "TV10"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tv1 Abc",
+            "feature": "TV1ABC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tv1 Amsun",
+            "feature": "TV1AMSUN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tv2",
+            "feature": "TV2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tv2 Def",
+            "feature": "TV2DEF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tv2 Pmmon",
+            "feature": "TV2PMMON"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tv3",
+            "feature": "TV3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tv3 Ghi",
+            "feature": "TV3GHI"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tv3 Tue",
+            "feature": "TV3TUE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tv4",
+            "feature": "TV4"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tv4 Jkl",
+            "feature": "TV4JKL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tv4 Wed",
+            "feature": "TV4WED"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tv5",
+            "feature": "TV5"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tv5 Mno",
+            "feature": "TV5MNO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tv5 Thu",
+            "feature": "TV5THU"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tv6",
+            "feature": "TV6"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tv6 Fri",
+            "feature": "TV6FRI"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tv6 Pqr",
+            "feature": "TV6PQR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tv7",
+            "feature": "TV7"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tv7 P",
+            "feature": "TV7P"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tv7 Sat",
+            "feature": "TV7SAT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tv7 Stu",
+            "feature": "TV7STU"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tv8",
+            "feature": "TV8"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tv8 Daily",
+            "feature": "TV8DAILY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tv8 Dailymf",
+            "feature": "TV8DAILYMF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tv8 Vwx",
+            "feature": "TV8VWX"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tv9",
+            "feature": "TV9"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tv9 Weekly",
+            "feature": "TV9WEEKLY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvadjust",
+            "feature": "TVADJUST"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvadjustv",
+            "feature": "TVADJUSTV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvantab",
+            "feature": "TVANTAB"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvantaux",
+            "feature": "TVANTAUX"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvaudio",
+            "feature": "TVAudio"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvaudiomonitor",
+            "feature": "TVAUDIOMONITOR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvaudiov",
+            "feature": "TVAUDIOV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvaudiovideo",
+            "feature": "TVAUDIOVIDEO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvcancel",
+            "feature": "TVCANCEL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvcancelcresetch",
+            "feature": "TVCANCELCRESETCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvch",
+            "feature": "TVCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvch2 Set",
+            "feature": "TVCH2SET"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvchannel",
+            "feature": "TVCHANNEL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvchannelv",
+            "feature": "TVCHANNELV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvchset",
+            "feature": "TVCHSET"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvchtvprog",
+            "feature": "TVCHTVPROG"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvchv",
+            "feature": "TVCHV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvcmemoryadd",
+            "feature": "TVCMEMORYADD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvdataonscreen",
+            "feature": "TVDATAONSCREEN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvdisplay",
+            "feature": "TVDISPLAY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tventer",
+            "feature": "TVENTER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tventerexch",
+            "feature": "TVENTEREXCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvfuncaudio",
+            "feature": "TVFUNCAUDIO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvfuncvideo",
+            "feature": "TVFUNCVIDEO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvhome",
+            "feature": "TVHOME"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvinfo",
+            "feature": "TVINFO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvinput",
+            "feature": "TVINPUT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvjogadjinsrch",
+            "feature": "TVJOGADJINSRCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvmenu",
+            "feature": "TVMENU"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvmenuraedit",
+            "feature": "TVMENURAEDIT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvmonitor",
+            "feature": "TVMONITOR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvmonitortvvideo",
+            "feature": "TVMONITORTVVIDEO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tv Mute",
+            "feature": "TvMUTE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvofftotr",
+            "feature": "TVOFFTOTR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvoperate",
+            "feature": "TVOPERATE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvpip",
+            "feature": "TVPIP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvpipch",
+            "feature": "TVPIPCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvpipchv",
+            "feature": "TVPIPCHV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tv Power",
+            "feature": "TvPower"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvprog2 Set",
+            "feature": "TVPROG2SET"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvprogch",
+            "feature": "TVPROGCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvqv",
+            "feature": "TVQV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvrecall",
+            "feature": "TVRECALL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvscanch",
+            "feature": "TVSCANCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvscanvchv",
+            "feature": "TVSCANVCHV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvselectinout",
+            "feature": "TVSELECTINOUT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvsleep",
+            "feature": "TVSLEEP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvsound",
+            "feature": "TVSOUND"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvsource",
+            "feature": "TVSOURCE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvsqv",
+            "feature": "TVSQV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvtape",
+            "feature": "TVTAPE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvtimer",
+            "feature": "TVTIMER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvtvvcr",
+            "feature": "TVTVVCR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvtvvideo",
+            "feature": "TVTVVIDEO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvvcr",
+            "feature": "TVVCR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tv Vcr Scart Sw",
+            "feature": "TvVcrScartSw"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvvcrtv",
+            "feature": "TVVCRTV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tv Video",
+            "feature": "TvVideo"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvvideomonitor",
+            "feature": "TVVIDEOMONITOR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvvideotv",
+            "feature": "TVVIDEOTV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvvideov",
+            "feature": "TVVIDEOV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvvol",
+            "feature": "TVVOL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tv Volume",
+            "feature": "TvVolume"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvvolumev",
+            "feature": "TVVOLUMEV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvvolv",
+            "feature": "TVVOLV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvvtr",
+            "feature": "TVVTR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Twinpicture",
+            "feature": "TWINPICTURE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "U1",
+            "feature": "U1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "U2",
+            "feature": "U2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "U3",
+            "feature": "U3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "U4",
+            "feature": "U4"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Unknown",
+            "feature": "UNKNOWN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Up",
+            "feature": "Up"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Up Arrow",
+            "feature": "UpArrow"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Variablesearch",
+            "feature": "VARIABLESEARCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Variablesrch",
+            "feature": "VARIABLESRCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Varplay",
+            "feature": "VARPLAY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Var Search",
+            "feature": "VarSearch"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Varsearchfwd",
+            "feature": "VARSEARCHFWD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Varsearchrev",
+            "feature": "VARSEARCHREV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Varslow",
+            "feature": "VARSLOW"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Varsrchfwd",
+            "feature": "VARSRCHFWD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Varsrchrev",
+            "feature": "VARSRCHREV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcbrinput",
+            "feature": "VCBRINPUT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcr",
+            "feature": "VCR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcr0",
+            "feature": "VCR0"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcr0 Aux",
+            "feature": "VCR0AUX"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcr1",
+            "feature": "VCR1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcr1 Amsun",
+            "feature": "VCR1AMSUN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcr2",
+            "feature": "VCR2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcr2 Pmmon",
+            "feature": "VCR2PMMON"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcr3",
+            "feature": "VCR3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcr3 Tue",
+            "feature": "VCR3TUE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcr4",
+            "feature": "VCR4"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcr4 Wed",
+            "feature": "VCR4WED"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcr5",
+            "feature": "VCR5"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcr5 Thu",
+            "feature": "VCR5THU"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcr6",
+            "feature": "VCR6"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcr6 Fri",
+            "feature": "VCR6FRI"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcr7",
+            "feature": "VCR7"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcr7 Sat",
+            "feature": "VCR7SAT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcr8",
+            "feature": "VCR8"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcr8 Daily",
+            "feature": "VCR8DAILY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcr8 Dailymf",
+            "feature": "VCR8DAILYMF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcr9",
+            "feature": "VCR9"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcr9 Weekly",
+            "feature": "VCR9WEEKLY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcra",
+            "feature": "VCRA"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcra0",
+            "feature": "VCRA0"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcra0 Aux",
+            "feature": "VCRA0AUX"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcra1",
+            "feature": "VCRA1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcra1 Abc",
+            "feature": "VCRA1ABC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcra2",
+            "feature": "VCRA2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcra2 Def",
+            "feature": "VCRA2DEF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcra3",
+            "feature": "VCRA3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcra3 Ghi",
+            "feature": "VCRA3GHI"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcra4",
+            "feature": "VCRA4"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcra4 Jkl",
+            "feature": "VCRA4JKL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcra5",
+            "feature": "VCRA5"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcra5 Mno",
+            "feature": "VCRA5MNO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcra6",
+            "feature": "VCRA6"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcra6 Pqr",
+            "feature": "VCRA6PQR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcra7",
+            "feature": "VCRA7"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcra7 Stu",
+            "feature": "VCRA7STU"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcra8",
+            "feature": "VCRA8"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcra8 Dailymf",
+            "feature": "VCRA8DAILYMF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcra8 Vwx",
+            "feature": "VCRA8VWX"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcra9",
+            "feature": "VCRA9"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcra9 Weekly",
+            "feature": "VCRA9WEEKLY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcraadjust",
+            "feature": "VCRAADJUST"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcraadjustjog",
+            "feature": "VCRAADJUSTJOG"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcraadjustv",
+            "feature": "VCRAADJUSTV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcraantab",
+            "feature": "VCRAANTAB"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcraaudio",
+            "feature": "VCRAAUDIO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcraaudiov",
+            "feature": "VCRAAUDIOV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcracancel",
+            "feature": "VCRACANCEL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcracancelchskip",
+            "feature": "VCRACANCELCHSKIP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcracancelcreset",
+            "feature": "VCRACANCELCRESET"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrach",
+            "feature": "VCRACH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrachannel",
+            "feature": "VCRACHANNEL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrachannelv",
+            "feature": "VCRACHANNELV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrachset",
+            "feature": "VCRACHSET"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrachv",
+            "feature": "VCRACHV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcracmemory",
+            "feature": "VCRACMEMORY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcracmemoryadd",
+            "feature": "VCRACMEMORYADD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcradataonscreen",
+            "feature": "VCRADATAONSCREEN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcradd",
+            "feature": "VCRADD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcradderase",
+            "feature": "VCRADDERASE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcradisplay",
+            "feature": "VCRADISPLAY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcradjust",
+            "feature": "VCRADJUST"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcradjustfwd",
+            "feature": "VCRADJUSTFWD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcradjustrev",
+            "feature": "VCRADJUSTREV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcradjustv",
+            "feature": "VCRADJUSTV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcraeject",
+            "feature": "VCRAEJECT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcraenter",
+            "feature": "VCRAENTER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcraenterexch",
+            "feature": "VCRAENTEREXCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcraenterosd",
+            "feature": "VCRAENTEROSD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcraff",
+            "feature": "VCRAFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrafffwd",
+            "feature": "VCRAFFFWD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcraffsrch",
+            "feature": "VCRAFFSRCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcraffwd",
+            "feature": "VCRAFFWD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrafuncaudio",
+            "feature": "VCRAFUNCAUDIO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrafuncvideo",
+            "feature": "VCRAFUNCVIDEO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcraindex",
+            "feature": "VCRAINDEX"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcraindexsearch",
+            "feature": "VCRAINDEXSEARCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrainfo",
+            "feature": "VCRAINFO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrainoutstartc",
+            "feature": "VCRAINOUTSTARTC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrainput",
+            "feature": "VCRAINPUT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrainputselect",
+            "feature": "VCRAINPUTSELECT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrajog",
+            "feature": "VCRAJOG"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrajogfwd",
+            "feature": "VCRAJOGFWD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrajogrev",
+            "feature": "VCRAJOGREV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrajogshuttle",
+            "feature": "VCRAJOGSHUTTLE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcramenu",
+            "feature": "VCRAMENU"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrantaux",
+            "feature": "VCRANTAUX"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcraofftotr",
+            "feature": "VCRAOFFTOTR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcraok",
+            "feature": "VCRAOK"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrapause",
+            "feature": "VCRAPAUSE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrapausestill",
+            "feature": "VCRAPAUSESTILL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcraplay",
+            "feature": "VCRAPLAY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrapower",
+            "feature": "VCRAPOWER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcraquickprmvcr",
+            "feature": "VCRAQUICKPRMVCR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcraquickprogram",
+            "feature": "VCRAQUICKPROGRAM"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcraqv",
+            "feature": "VCRAQV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrarec",
+            "feature": "VCRAREC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrarecord",
+            "feature": "VCRARECORD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrarepeat",
+            "feature": "VCRAREPEAT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrareview",
+            "feature": "VCRAREVIEW"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrarew",
+            "feature": "VCRAREW"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrarewrev",
+            "feature": "VCRAREWREV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrarewsrch",
+            "feature": "VCRAREWSRCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrascanch",
+            "feature": "VCRASCANCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrascanvchv",
+            "feature": "VCRASCANVCHV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcraselect",
+            "feature": "VCRASELECT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrasfhspsrch",
+            "feature": "VCRASFHSPSRCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrasfspsrch",
+            "feature": "VCRASFSPSRCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrashufwdnormal",
+            "feature": "VCRASHUFWDNORMAL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrashutplus",
+            "feature": "VCRASHUTPLUS"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrashutplusv",
+            "feature": "VCRASHUTPLUSV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrashuttle",
+            "feature": "VCRASHUTTLE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrashuttlefwd",
+            "feature": "VCRASHUTTLEFWD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrashuttlerew",
+            "feature": "VCRASHUTTLEREW"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcraskipsearch",
+            "feature": "VCRASKIPSEARCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcraskipsrch",
+            "feature": "VCRASKIPSRCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrasleep",
+            "feature": "VCRASLEEP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcraspep",
+            "feature": "VCRASPEP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrasquickview",
+            "feature": "VCRASQUICKVIEW"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrasqvqv",
+            "feature": "VCRASQVQV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrasrchindex",
+            "feature": "VCRASRCHINDEX"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrasrchskip",
+            "feature": "VCRASRCHSKIP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrasrchvariable",
+            "feature": "VCRASRCHVARIABLE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrasreplayback",
+            "feature": "VCRASREPLAYBACK"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrasrespsrch",
+            "feature": "VCRASRESPSRCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrasrfastpb",
+            "feature": "VCRASRFASTPB"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrasrhspsrch",
+            "feature": "VCRASRHSPSRCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrastop",
+            "feature": "VCRASTOP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcratimer",
+            "feature": "VCRATIMER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcratvvideo",
+            "feature": "VCRATVVIDEO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcraudio",
+            "feature": "VCRAUDIO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcraudiovideo",
+            "feature": "VCRAUDIOVIDEO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcravcrtv",
+            "feature": "VCRAVCRTV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcravideo",
+            "feature": "VCRAVIDEO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcravideotv",
+            "feature": "VCRAVIDEOTV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcravideov",
+            "feature": "VCRAVIDEOV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrb",
+            "feature": "VCRB"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrb0",
+            "feature": "VCRB0"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrb0 Aux",
+            "feature": "VCRB0AUX"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrb1",
+            "feature": "VCRB1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrb1 Abc",
+            "feature": "VCRB1ABC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrb2",
+            "feature": "VCRB2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrb2 Def",
+            "feature": "VCRB2DEF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrb3",
+            "feature": "VCRB3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrb3 Ghi",
+            "feature": "VCRB3GHI"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrb4",
+            "feature": "VCRB4"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrb4 Jkl",
+            "feature": "VCRB4JKL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrb5",
+            "feature": "VCRB5"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrb5 Mno",
+            "feature": "VCRB5MNO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrb6",
+            "feature": "VCRB6"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrb6 Pqr",
+            "feature": "VCRB6PQR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrb7",
+            "feature": "VCRB7"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrb7 Stu",
+            "feature": "VCRB7STU"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrb8",
+            "feature": "VCRB8"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrb8 Dailymf",
+            "feature": "VCRB8DAILYMF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrb8 Vwx",
+            "feature": "VCRB8VWX"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrb9",
+            "feature": "VCRB9"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrb9 Weekly",
+            "feature": "VCRB9WEEKLY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrback",
+            "feature": "VCRBACK"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbadjust",
+            "feature": "VCRBADJUST"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbadjustjog",
+            "feature": "VCRBADJUSTJOG"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbadjustv",
+            "feature": "VCRBADJUSTV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbantab",
+            "feature": "VCRBANTAB"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbaudio",
+            "feature": "VCRBAUDIO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbaudiov",
+            "feature": "VCRBAUDIOV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbcancel",
+            "feature": "VCRBCANCEL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbcancelchskip",
+            "feature": "VCRBCANCELCHSKIP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbcancelcreset",
+            "feature": "VCRBCANCELCRESET"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbch",
+            "feature": "VCRBCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbchannel",
+            "feature": "VCRBCHANNEL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbchannelv",
+            "feature": "VCRBCHANNELV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbchset",
+            "feature": "VCRBCHSET"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbchv",
+            "feature": "VCRBCHV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbcmemory",
+            "feature": "VCRBCMEMORY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbcmemoryadd",
+            "feature": "VCRBCMEMORYADD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbdataonscreen",
+            "feature": "VCRBDATAONSCREEN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbdisplay",
+            "feature": "VCRBDISPLAY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbeject",
+            "feature": "VCRBEJECT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbenter",
+            "feature": "VCRBENTER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbenterexch",
+            "feature": "VCRBENTEREXCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbenterosd",
+            "feature": "VCRBENTEROSD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbff",
+            "feature": "VCRBFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbfffwd",
+            "feature": "VCRBFFFWD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbffsrch",
+            "feature": "VCRBFFSRCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbffwd",
+            "feature": "VCRBFFWD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbfuncaudio",
+            "feature": "VCRBFUNCAUDIO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbfuncvideo",
+            "feature": "VCRBFUNCVIDEO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbindex",
+            "feature": "VCRBINDEX"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbindexsearch",
+            "feature": "VCRBINDEXSEARCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbinfo",
+            "feature": "VCRBINFO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbinoutstartc",
+            "feature": "VCRBINOUTSTARTC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbinput",
+            "feature": "VCRBINPUT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbinputselect",
+            "feature": "VCRBINPUTSELECT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbjog",
+            "feature": "VCRBJOG"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbjogfwd",
+            "feature": "VCRBJOGFWD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbjogrev",
+            "feature": "VCRBJOGREV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbjogshuttle",
+            "feature": "VCRBJOGSHUTTLE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbmenu",
+            "feature": "VCRBMENU"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbofftotr",
+            "feature": "VCRBOFFTOTR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbok",
+            "feature": "VCRBOK"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbpause",
+            "feature": "VCRBPAUSE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbpausestill",
+            "feature": "VCRBPAUSESTILL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbplay",
+            "feature": "VCRBPLAY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbpower",
+            "feature": "VCRBPOWER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbquickprgvcr",
+            "feature": "VCRBQUICKPRGVCR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbquickprogram",
+            "feature": "VCRBQUICKPROGRAM"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbqv",
+            "feature": "VCRBQV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbrec",
+            "feature": "VCRBREC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbrecord",
+            "feature": "VCRBRECORD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbrepeat",
+            "feature": "VCRBREPEAT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbreview",
+            "feature": "VCRBREVIEW"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbrew",
+            "feature": "VCRBREW"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbrewrev",
+            "feature": "VCRBREWREV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbrewsrch",
+            "feature": "VCRBREWSRCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbscanch",
+            "feature": "VCRBSCANCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbscanvchv",
+            "feature": "VCRBSCANVCHV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbselect",
+            "feature": "VCRBSELECT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbsfhspsrch",
+            "feature": "VCRBSFHSPSRCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbsfspsrch",
+            "feature": "VCRBSFSPSRCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbshufwdnormal",
+            "feature": "VCRBSHUFWDNORMAL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbshutplus",
+            "feature": "VCRBSHUTPLUS"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbshutplusv",
+            "feature": "VCRBSHUTPLUSV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbshuttle",
+            "feature": "VCRBSHUTTLE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbshuttlefwd",
+            "feature": "VCRBSHUTTLEFWD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbshuttlerev",
+            "feature": "VCRBSHUTTLEREV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbshuttlerew",
+            "feature": "VCRBSHUTTLEREW"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbskipsearch",
+            "feature": "VCRBSKIPSEARCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbskipsrch",
+            "feature": "VCRBSKIPSRCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbsleep",
+            "feature": "VCRBSLEEP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbspep",
+            "feature": "VCRBSPEP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbsquichview",
+            "feature": "VCRBSQUICHVIEW"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbsqvqv",
+            "feature": "VCRBSQVQV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbsrchindex",
+            "feature": "VCRBSRCHINDEX"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbsrchskip",
+            "feature": "VCRBSRCHSKIP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbsrchvariable",
+            "feature": "VCRBSRCHVARIABLE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbsreplayback",
+            "feature": "VCRBSREPLAYBACK"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbsrespsrch",
+            "feature": "VCRBSRESPSRCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbsrfastpb",
+            "feature": "VCRBSRFASTPB"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbsrhspsrch",
+            "feature": "VCRBSRHSPSRCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbstop",
+            "feature": "VCRBSTOP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbtimer",
+            "feature": "VCRBTIMER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbtvvideo",
+            "feature": "VCRBTVVIDEO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbvcrtv",
+            "feature": "VCRBVCRTV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbvideo",
+            "feature": "VCRBVIDEO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbvideotv",
+            "feature": "VCRBVIDEOTV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrbvideov",
+            "feature": "VCRBVIDEOV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrcancel",
+            "feature": "VCRCANCEL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrcancelchskip",
+            "feature": "VCRCANCELCHSKIP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrcancelcrstcs",
+            "feature": "VCRCANCELCRSTCS"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrch",
+            "feature": "VCRCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrch2 Set",
+            "feature": "VCRCH2SET"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrchannel",
+            "feature": "VCRCHANNEL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrchannelv",
+            "feature": "VCRCHANNELV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrchsearch",
+            "feature": "VCRCHSEARCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrchset",
+            "feature": "VCRCHSET"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrchtvprog",
+            "feature": "VCRCHTVPROG"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrchv",
+            "feature": "VCRCHV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrchvset",
+            "feature": "VCRCHVSET"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrclockcounter",
+            "feature": "VCRCLOCKCOUNTER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrcountermemory",
+            "feature": "VCRCOUNTERMEMORY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrcounterreset",
+            "feature": "VCRCOUNTERRESET"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrcountertimer",
+            "feature": "VCRCOUNTERTIMER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrdisplay",
+            "feature": "VCRDISPLAY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrdsr",
+            "feature": "VCRDSR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcreject",
+            "feature": "VCREJECT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrenter",
+            "feature": "VCRENTER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrenterfwdfsp",
+            "feature": "VCRENTERFWDFSP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrenterosd",
+            "feature": "VCRENTEROSD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrenterrevfsp",
+            "feature": "VCRENTERREVFSP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrfadv",
+            "feature": "VCRFADV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrff",
+            "feature": "VCRFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrffsrch",
+            "feature": "VCRFFSRCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrffwd",
+            "feature": "VCRFFWD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrfuncaudio",
+            "feature": "VCRFUNCAUDIO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrfuncvideo",
+            "feature": "VCRFUNCVIDEO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrfwd",
+            "feature": "VCRFWD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrindex",
+            "feature": "VCRINDEX"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrinput",
+            "feature": "VCRINPUT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrinputx2",
+            "feature": "VCRINPUTX2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrjogadjindsrc",
+            "feature": "VCRJOGADJINDSRC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrjogindexs",
+            "feature": "VCRJOGINDEXS"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrmenu",
+            "feature": "VCRMENU"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrmonitor",
+            "feature": "VCRMONITOR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcr Ok",
+            "feature": "VcrOk"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcronscreen",
+            "feature": "VCRONSCREEN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcroperate",
+            "feature": "VCROPERATE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrpause",
+            "feature": "VCRPAUSE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrpausestill",
+            "feature": "VCRPAUSESTILL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrplay",
+            "feature": "VCRPLAY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrplaystop",
+            "feature": "VCRPLAYSTOP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrplaystopenter",
+            "feature": "VCRPLAYSTOPENTER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrplayx2",
+            "feature": "VCRPLAYX2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrplus",
+            "feature": "VCRPLUS"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrplusdaily",
+            "feature": "VCRPLUSDAILY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrplusonce",
+            "feature": "VCRPLUSONCE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrplusweekly",
+            "feature": "VCRPLUSWEEKLY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrpower",
+            "feature": "VCRPower"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrprog",
+            "feature": "VCRPROG"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrqprogvcrplus",
+            "feature": "VCRQPROGVCRPLUS"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrquipgmplus",
+            "feature": "VCRQUIPGMPLUS"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrqv",
+            "feature": "VCRQV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrraeditmenu",
+            "feature": "VCRRAEDITMENU"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrrec",
+            "feature": "VCRREC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrrecmode",
+            "feature": "VCRRECMODE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrrecord",
+            "feature": "VCRRECORD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrrecplayx2",
+            "feature": "VCRRECPLAYX2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrrepeat",
+            "feature": "VCRREPEAT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrreset",
+            "feature": "VCRRESET"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrreview",
+            "feature": "VCRREVIEW"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrrew",
+            "feature": "VCRREW"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrrewsrch",
+            "feature": "VCRREWSRCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrscanch",
+            "feature": "VCRSCANCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrscanvchv",
+            "feature": "VCRSCANVCHV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrsearch",
+            "feature": "VCRSEARCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcr Select",
+            "feature": "VcrSelect"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrselectinout",
+            "feature": "VCRSELECTINOUT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrshift",
+            "feature": "VCRSHIFT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrskipsearch",
+            "feature": "VCRSKIPSEARCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrslow",
+            "feature": "VCRSLOW"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrslowv",
+            "feature": "VCRSLOWV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrspep",
+            "feature": "VCRSPEP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrsr",
+            "feature": "VCRSR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrstilladv",
+            "feature": "VCRSTILLADV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrstop",
+            "feature": "VCRSTOP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrtimer",
+            "feature": "VCRTIMER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrtimermode",
+            "feature": "VCRTIMERMODE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrtimerrec",
+            "feature": "VCRTIMERREC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrtimerrecord",
+            "feature": "VCRTIMERRECORD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrtimesearch",
+            "feature": "VCRTIMESEARCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrtracking",
+            "feature": "VCRTRACKING"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrtv",
+            "feature": "VCRTV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrtvvcr",
+            "feature": "VCRTVVCR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrtvvideo",
+            "feature": "VCRTVVIDEO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrvarsrch",
+            "feature": "VCRVARSRCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrvcrtv",
+            "feature": "VCRVCRTV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrvideo",
+            "feature": "VCRVIDEO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrvol",
+            "feature": "VCRVOL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vcrx2",
+            "feature": "VCRX2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vhs",
+            "feature": "VHS"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vida3 Selectcmem",
+            "feature": "VIDA3SELECTCMEM"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vida4 Transchsrch",
+            "feature": "VIDA4TRANSCHSRCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vida5 Timerch",
+            "feature": "VIDA5TIMERCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vidaaudiomonitor",
+            "feature": "VIDAAUDIOMONITOR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vidacancel",
+            "feature": "VIDACANCEL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vidadisplay",
+            "feature": "VIDADISPLAY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vidareview",
+            "feature": "VIDAREVIEW"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vidaspep",
+            "feature": "VIDASPEP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vidatvprog",
+            "feature": "VIDATVPROG"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vidavarsearch",
+            "feature": "VIDAVARSEARCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vidb3 Selectcmem",
+            "feature": "VIDB3SELECTCMEM"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vidb4 Transchsrch",
+            "feature": "VIDB4TRANSCHSRCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vidb5 Timerch",
+            "feature": "VIDB5TIMERCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Video",
+            "feature": "Video"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Video1",
+            "feature": "Video1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Video2",
+            "feature": "Video2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Video3",
+            "feature": "Video3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Video4",
+            "feature": "VIDEO4"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Video5",
+            "feature": "VIDEO5"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videoa",
+            "feature": "VIDEOA"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videoa0 Aux",
+            "feature": "VIDEOA0AUX"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videoa1",
+            "feature": "VIDEOA1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videoa2",
+            "feature": "VIDEOA2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videoa3",
+            "feature": "VIDEOA3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videoa4",
+            "feature": "VIDEOA4"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videoa5",
+            "feature": "VIDEOA5"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videoa6",
+            "feature": "VIDEOA6"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videoa7",
+            "feature": "VIDEOA7"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videoa8 Daily",
+            "feature": "VIDEOA8DAILY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videoa9 Weekly",
+            "feature": "VIDEOA9WEEKLY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videoaoperate",
+            "feature": "VIDEOAOPERATE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videoapause",
+            "feature": "VIDEOAPAUSE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videoaplay",
+            "feature": "VIDEOAPLAY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videoarec",
+            "feature": "VIDEOAREC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videoastop",
+            "feature": "VIDEOASTOP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videoatvvideo",
+            "feature": "VIDEOATVVIDEO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videob",
+            "feature": "VIDEOB"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videob0 Aux",
+            "feature": "VIDEOB0AUX"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videob1",
+            "feature": "VIDEOB1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videob2",
+            "feature": "VIDEOB2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videob3",
+            "feature": "VIDEOB3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videob4",
+            "feature": "VIDEOB4"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videob5",
+            "feature": "VIDEOB5"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videob6",
+            "feature": "VIDEOB6"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videob7",
+            "feature": "VIDEOB7"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videob8 Daily",
+            "feature": "VIDEOB8DAILY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videob9 Weekly",
+            "feature": "VIDEOB9WEEKLY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videobaudiomonito",
+            "feature": "VIDEOBAUDIOMONITO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videobcancel",
+            "feature": "VIDEOBCANCEL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videobdisplay",
+            "feature": "VIDEOBDISPLAY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videoboperate",
+            "feature": "VIDEOBOPERATE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videobpause",
+            "feature": "VIDEOBPAUSE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videobplay",
+            "feature": "VIDEOBPLAY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videobrec",
+            "feature": "VIDEOBREC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videobreview",
+            "feature": "VIDEOBREVIEW"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videobspep",
+            "feature": "VIDEOBSPEP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videobstop",
+            "feature": "VIDEOBSTOP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videobtvprog",
+            "feature": "VIDEOBTVPROG"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videobtvvideo",
+            "feature": "VIDEOBTVVIDEO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videobvarsrch",
+            "feature": "VIDEOBVARSRCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videochback",
+            "feature": "VIDEOCHBACK"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videochnext",
+            "feature": "VIDEOCHNEXT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videodown",
+            "feature": "VIDEODOWN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videopower",
+            "feature": "VIDEOPOWER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videotv",
+            "feature": "VIDEOTV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videoup",
+            "feature": "VIDEOUP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videov",
+            "feature": "VIDEOV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "View",
+            "feature": "View"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vissfwd",
+            "feature": "VISSFWD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vissrev",
+            "feature": "VISSREV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vlocktracking",
+            "feature": "VLOCKTRACKING"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vlocktrackingv",
+            "feature": "VLOCKTRACKINGV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Volumectrl",
+            "feature": "VOLUMECTRL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Volumectrlv",
+            "feature": "VOLUMECTRLV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Volume Down",
+            "feature": "VolumeDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Volume Up",
+            "feature": "VolumeUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Volumev",
+            "feature": "VOLUMEV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vprognbr",
+            "feature": "VPROGNBR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vtr",
+            "feature": "VTR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Wed",
+            "feature": "WED"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Weekly",
+            "feature": "WEEKLY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "X2",
+            "feature": "X2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "X2 Fast",
+            "feature": "X2FAST"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "X2 Play",
+            "feature": "X2PLAY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Zeroback",
+            "feature": "ZEROBACK"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Zero Caskip",
+            "feature": "ZeroCASkip"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Zero Return",
+            "feature": "ZeroReturn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Zerortn",
+            "feature": "ZERORTN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Zerostop",
+            "feature": "ZEROSTOP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Zerostoptimecou",
+            "feature": "ZEROSTOPTIMECOU"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Zoom Up",
+            "feature": "ZoomUp"
+          }
+        ]
+      ]
+    }
+  ]
+}

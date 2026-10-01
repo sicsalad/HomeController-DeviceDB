@@ -1,0 +1,269 @@
+{
+  "id": "ir-dvb-t-learning-list",
+  "name": "Dvb T - Command List",
+  "deviceType": "dvb-t",
+  "transport": "ir",
+  "generatedBy": "generated-learning-list-v2",
+  "style": {
+    "backgroundColor": "#101114",
+    "foregroundColor": "#F5F7FA",
+    "buttonColor": "#252932",
+    "buttonTextColor": "#F5F7FA",
+    "accentColor": "#4DA3FF",
+    "cornerRadius": 12,
+    "spacing": 8
+  },
+  "sections": [
+    {
+      "title": "Commands",
+      "rows": [
+        [
+          {
+            "type": "button",
+            "label": "Audio",
+            "feature": "Audio"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Blue",
+            "feature": "Blue"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit0",
+            "feature": "Digit0"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit1",
+            "feature": "Digit1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit2",
+            "feature": "Digit2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit3",
+            "feature": "Digit3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit4",
+            "feature": "Digit4"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit5",
+            "feature": "Digit5"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit6",
+            "feature": "Digit6"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit7",
+            "feature": "Digit7"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit8",
+            "feature": "Digit8"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit9",
+            "feature": "Digit9"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Down",
+            "feature": "Down"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Exit",
+            "feature": "Exit"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fast Forward",
+            "feature": "FastForward"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fav",
+            "feature": "Fav"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Green",
+            "feature": "Green"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Info",
+            "feature": "Info"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Left",
+            "feature": "Left"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Menu",
+            "feature": "Menu"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mute",
+            "feature": "Mute"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Navi",
+            "feature": "NAVI"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ok",
+            "feature": "Ok"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Play",
+            "feature": "Play"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Power",
+            "feature": "Power",
+            "style": "danger"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Record",
+            "feature": "Record"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Red",
+            "feature": "Red"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rewind",
+            "feature": "Rewind"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Right",
+            "feature": "Right"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Subtitle",
+            "feature": "Subtitle"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Teletext Mix",
+            "feature": "TeletextMix"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tv",
+            "feature": "TV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Unused",
+            "feature": "UNUSED"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Up",
+            "feature": "Up"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Yellow",
+            "feature": "Yellow"
+          }
+        ]
+      ]
+    }
+  ]
+}

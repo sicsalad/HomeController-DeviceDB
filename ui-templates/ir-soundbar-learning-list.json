@@ -1,0 +1,3153 @@
+{
+  "id": "ir-soundbar-learning-list",
+  "name": "Soundbar - Command List",
+  "deviceType": "soundbar",
+  "transport": "ir",
+  "generatedBy": "generated-learning-list-v2",
+  "style": {
+    "backgroundColor": "#101114",
+    "foregroundColor": "#F5F7FA",
+    "buttonColor": "#252932",
+    "buttonTextColor": "#F5F7FA",
+    "accentColor": "#4DA3FF",
+    "cornerRadius": 12,
+    "spacing": 8
+  },
+  "sections": [
+    {
+      "title": "Commands",
+      "rows": [
+        [
+          {
+            "type": "button",
+            "label": "3 D",
+            "feature": "3D"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "3 Dsound Plus",
+            "feature": "3DSoundPlus"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "3 Dsurr",
+            "feature": "3DSURR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "3 Dsurround",
+            "feature": "3DSURROUND"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "51 Ch",
+            "feature": "51Ch"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Aisound",
+            "feature": "AISound"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Alarm",
+            "feature": "Alarm"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Album",
+            "feature": "Album"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Album Dwn",
+            "feature": "AlbumDwn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Album Up",
+            "feature": "AlbumUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ambeo",
+            "feature": "Ambeo"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Analog",
+            "feature": "Analog"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Anynet",
+            "feature": "ANYNET"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Apricot",
+            "feature": "Apricot"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Aquamarine",
+            "feature": "Aquamarine"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Arc",
+            "feature": "ARC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ascmode",
+            "feature": "ASCMode"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Audio",
+            "feature": "Audio"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Audio In",
+            "feature": "AudioIn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Audiosync",
+            "feature": "AUDIOSYNC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Audio Sync Down",
+            "feature": "AudioSyncDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Audio Sync Up",
+            "feature": "AudioSyncUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Auto",
+            "feature": "Auto"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Autopower",
+            "feature": "AUTOPOWER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Autopower Off",
+            "feature": "AutopowerOff"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Autopower On",
+            "feature": "AutopowerOn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Auto Pwr",
+            "feature": "AutoPwr"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Auto Sound",
+            "feature": "AutoSound"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Auto Vol",
+            "feature": "AutoVol"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Autovolume",
+            "feature": "AUTOVOLUME"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Aux",
+            "feature": "AUX"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Aux2",
+            "feature": "AUX2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Auxva",
+            "feature": "AUXVA"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Avdelay",
+            "feature": "AVDelay"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Avdelay Down",
+            "feature": "AVDelayDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Avdelay Up",
+            "feature": "AVDelayUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Avsync",
+            "feature": "AVSYNC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Baby Blue",
+            "feature": "BabyBlue"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Back",
+            "feature": "Back"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Back Track",
+            "feature": "BackTrack"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Balance Left",
+            "feature": "BalanceLeft"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Balance Right",
+            "feature": "BalanceRight"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Baseextension",
+            "feature": "BASEEXTENSION"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bass",
+            "feature": "Bass"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bass Boost",
+            "feature": "BassBoost"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bass Dn",
+            "feature": "BassDn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bass Down",
+            "feature": "BassDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bassdwn",
+            "feature": "BASSdwn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bass Ext",
+            "feature": "BassExt"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bass Mx",
+            "feature": "BassMX"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bass Up",
+            "feature": "BassUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bassvol Dn",
+            "feature": "BASSVolDn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bassvol Up",
+            "feature": "BASSVolUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bkwd",
+            "feature": "Bkwd"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Blue",
+            "feature": "Blue"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bluedown",
+            "feature": "BLUEDOWN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bluetooth",
+            "feature": "Bluetooth"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bluetooth Input",
+            "feature": "BluetoothInput"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bluetooth Mode",
+            "feature": "BluetoothMode"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bluetooth Power",
+            "feature": "BluetoothPOWER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bluetoothstandby",
+            "feature": "BLUETOOTHSTANDBY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Blueup",
+            "feature": "BLUEUP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bt",
+            "feature": "BT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bt Back",
+            "feature": "BtBack"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bt Next",
+            "feature": "BtNext"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Btpair",
+            "feature": "BTPair"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Btpairing",
+            "feature": "BTPairing"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bt Play Pause",
+            "feature": "BtPlayPause"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Btrx Tx",
+            "feature": "BTRxTx"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bt Stop",
+            "feature": "BtStop"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Carnation",
+            "feature": "Carnation"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cd",
+            "feature": "CD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Center Down",
+            "feature": "CenterDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Center Up",
+            "feature": "CenterUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Change Input",
+            "feature": "ChangeInput"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Chapter Dwn",
+            "feature": "ChapterDwn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Chapter Up",
+            "feature": "ChapterUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ch Next",
+            "feature": "ChNext"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ch Prev",
+            "feature": "ChPrev"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cinema",
+            "feature": "Cinema"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cinemamode",
+            "feature": "CINEMAMODE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cinema Sound",
+            "feature": "CinemaSound"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Clearaudio",
+            "feature": "CLEARAUDIO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Clearvoice",
+            "feature": "CLEARVOICE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Clock",
+            "feature": "Clock"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Coax",
+            "feature": "COAX"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Coax In",
+            "feature": "CoaxIN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Computer",
+            "feature": "Computer"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Concert",
+            "feature": "CONCERT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Connect",
+            "feature": "CONNECT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dbdvd",
+            "feature": "DBDVD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dialog",
+            "feature": "Dialog"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dialog Enh",
+            "feature": "DialogEnh"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dialog High",
+            "feature": "DialogHigh"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dialog Low",
+            "feature": "DialogLow"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dialog Med",
+            "feature": "DialogMed"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dialogue",
+            "feature": "Dialogue"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit0",
+            "feature": "Digit0"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit1",
+            "feature": "Digit1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit2",
+            "feature": "Digit2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit3",
+            "feature": "Digit3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit4",
+            "feature": "Digit4"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit5",
+            "feature": "Digit5"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit6",
+            "feature": "Digit6"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit7",
+            "feature": "Digit7"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit8",
+            "feature": "Digit8"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit9",
+            "feature": "Digit9"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digital",
+            "feature": "DIGITAL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dim",
+            "feature": "Dim"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dimmer",
+            "feature": "Dimmer"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Din",
+            "feature": "DIN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Disc",
+            "feature": "Disc"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Distance",
+            "feature": "DISTANCE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Diy1",
+            "feature": "DIY1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Diy2",
+            "feature": "DIY2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Diy3",
+            "feature": "DIY3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Diy4",
+            "feature": "DIY4"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Diy5",
+            "feature": "DIY5"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Diy6",
+            "feature": "DIY6"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Down",
+            "feature": "Down"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dpad Down",
+            "feature": "DPadDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dpad Left",
+            "feature": "DPadLeft"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dpad Right",
+            "feature": "DPadRight"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dpad Up",
+            "feature": "DpadUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Drc",
+            "feature": "DRC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dtsvirtual X",
+            "feature": "DTSVirtualX"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Eco Off",
+            "feature": "EcoOff"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Eco On",
+            "feature": "EcoOn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Eco Power Off",
+            "feature": "EcoPowerOff"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Eco Power On",
+            "feature": "EcoPowerOn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ecopwroff",
+            "feature": "ECOPWROFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ecopwron",
+            "feature": "ECOPWRON"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Eq",
+            "feature": "EQ"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Eqdirect",
+            "feature": "EQDirect"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Eqgame",
+            "feature": "EQGame"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Eqmovie",
+            "feature": "EQMovie"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Eqmusic",
+            "feature": "EQMusic"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Eqnews",
+            "feature": "EQNews"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "F",
+            "feature": "F"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fade3",
+            "feature": "Fade3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fade7",
+            "feature": "Fade7"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fast Forward",
+            "feature": "FastForward"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fast Rewind",
+            "feature": "FastRewind"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Feedback",
+            "feature": "Feedback"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ffw",
+            "feature": "FFW"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Flash",
+            "feature": "Flash"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fm",
+            "feature": "Fm"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Folder",
+            "feature": "Folder"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Foward",
+            "feature": "Foward"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Frwd",
+            "feature": "FRWD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Func",
+            "feature": "Func"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Function",
+            "feature": "Function"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fwd",
+            "feature": "Fwd"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Game",
+            "feature": "Game"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Gaming",
+            "feature": "Gaming"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Green",
+            "feature": "Green"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Green Down",
+            "feature": "GreenDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Green Up",
+            "feature": "GreenUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Groove",
+            "feature": "Groove"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Guide",
+            "feature": "Guide"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Hdmi",
+            "feature": "HDMI"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Hdmi1",
+            "feature": "Hdmi1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Hdmi2",
+            "feature": "Hdmi2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Hdmi3",
+            "feature": "HDMI3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Hdmi4",
+            "feature": "Hdmi4"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Hdmi5",
+            "feature": "Hdmi5"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Hdmiarc",
+            "feature": "HDMIARC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Hdmiearc",
+            "feature": "HDMIEARC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Hdmiin",
+            "feature": "HDMIIn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Hdmithru",
+            "feature": "HDMIThru"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Hdmitv",
+            "feature": "HDMITV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Height Lvl",
+            "feature": "HeightLvl"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Height Off",
+            "feature": "HeightOff"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Height On",
+            "feature": "HeightOn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Home",
+            "feature": "Home"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Indicator",
+            "feature": "Indicator"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Info",
+            "feature": "Info"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputaux",
+            "feature": "INPUTAUX"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputbluetooth",
+            "feature": "INPUTBLUETOOTH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Input Bt",
+            "feature": "InputBT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Input Choice",
+            "feature": "InputChoice"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Input Line",
+            "feature": "InputLine"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputoptical",
+            "feature": "INPUTOPTICAL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Input Src",
+            "feature": "InputSrc"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputsrch",
+            "feature": "INPUTSRCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Input Usb",
+            "feature": "InputUSB"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ipad Pwr",
+            "feature": "IpadPwr"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ipod",
+            "feature": "IPod"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Jump3",
+            "feature": "Jump3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Jump7",
+            "feature": "Jump7"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Last Input",
+            "feature": "LastInput"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Lavender",
+            "feature": "Lavender"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Led",
+            "feature": "LED"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Leddim",
+            "feature": "LEDDim"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Leddimmer",
+            "feature": "LEDDimmer"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Left",
+            "feature": "Left"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Left Previous",
+            "feature": "LeftPrevious"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Lgtv",
+            "feature": "LGTV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Light",
+            "feature": "Light"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Light Down",
+            "feature": "LightDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Light Up",
+            "feature": "LightUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Lime",
+            "feature": "Lime"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Line",
+            "feature": "Line"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Line In",
+            "feature": "LineIn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Link Enable",
+            "feature": "LinkEnable"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "M",
+            "feature": "M"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mem",
+            "feature": "Mem"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Memory Dwn",
+            "feature": "MemoryDwn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Memory Up",
+            "feature": "MemoryUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Menu",
+            "feature": "Menu"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Minus",
+            "feature": "Minus"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mirroring",
+            "feature": "Mirroring"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mode",
+            "feature": "Mode"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Modemovie",
+            "feature": "MODEMOVIE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Modemusic",
+            "feature": "MODEMUSIC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mode Tv",
+            "feature": "ModeTV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Monostereo",
+            "feature": "MONOSTEREO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Movie",
+            "feature": "Movie"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Music",
+            "feature": "Music"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mute",
+            "feature": "Mute"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mute Mic",
+            "feature": "MuteMic"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Neutral",
+            "feature": "Neutral"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "News",
+            "feature": "NEWS"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Next",
+            "feature": "Next"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Next Track",
+            "feature": "NextTrack"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Next Trck",
+            "feature": "NextTrck"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Night",
+            "feature": "Night"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Night Mode",
+            "feature": "NightMode"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Night Mode Off",
+            "feature": "NightModeOff"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Night Mode On",
+            "feature": "NightModeOn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Nightoff",
+            "feature": "NIGHTOFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Nighton",
+            "feature": "NIGHTON"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ok",
+            "feature": "Ok"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Olympic",
+            "feature": "Olympic"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Onscreen",
+            "feature": "ONSCREEN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Op",
+            "feature": "Op"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Opical In",
+            "feature": "OpicalIN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Opt",
+            "feature": "OPT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Optical",
+            "feature": "Optical"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Optical Audio",
+            "feature": "OpticalAudio"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Option",
+            "feature": "OPTION"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Orange",
+            "feature": "Orange"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Other",
+            "feature": "Other"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pair",
+            "feature": "Pair"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pairing",
+            "feature": "PAIRING"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pause",
+            "feature": "Pause"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pause Mute",
+            "feature": "PauseMute"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pause Play",
+            "feature": "PausePlay"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pink",
+            "feature": "Pink"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Play",
+            "feature": "Play"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Playlist Dwn",
+            "feature": "PlaylistDwn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Playlist Up",
+            "feature": "PlaylistUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Play Mode",
+            "feature": "PlayMode"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Play Pa",
+            "feature": "PlayPa"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Play Pause",
+            "feature": "PlayPause"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Playpauseenter",
+            "feature": "PLAYPAUSEENTER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Play Pause Pair",
+            "feature": "PlayPausePair"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Plus",
+            "feature": "Plus"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pop Up Menu",
+            "feature": "PopUpMenu"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Power",
+            "feature": "Power",
+            "style": "danger"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Power Ledoff",
+            "feature": "PowerLEDOff"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Power Ledon",
+            "feature": "PowerLEDOn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ppl",
+            "feature": "PPL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Preset",
+            "feature": "PRESET"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Preset1",
+            "feature": "Preset1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Preset2",
+            "feature": "Preset2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Preset3",
+            "feature": "Preset3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Preset Eq",
+            "feature": "PresetEQ"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Prev",
+            "feature": "Prev"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Prev Track",
+            "feature": "PrevTrack"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Prev Trck",
+            "feature": "PrevTrck"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Profile Movie",
+            "feature": "ProfileMovie"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Profile Music",
+            "feature": "ProfileMusic"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Profile Voice",
+            "feature": "ProfileVoice"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Prologic",
+            "feature": "Prologic"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pure",
+            "feature": "PURE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Purple",
+            "feature": "Purple"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pwrledoff",
+            "feature": "PWRLEDOFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pwrledon",
+            "feature": "PWRLEDON"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Quick",
+            "feature": "Quick"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Quick1",
+            "feature": "Quick1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Quick2",
+            "feature": "Quick2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Quick3",
+            "feature": "Quick3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rca",
+            "feature": "RCA"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rear",
+            "feature": "Rear"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Record",
+            "feature": "Record"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Red",
+            "feature": "Red"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Red Down",
+            "feature": "RedDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Red Up",
+            "feature": "RedUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Repeat",
+            "feature": "Repeat"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Reset",
+            "feature": "Reset"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Resetall",
+            "feature": "RESETALL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Reverse",
+            "feature": "Reverse"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rewind",
+            "feature": "Rewind"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Right",
+            "feature": "Right"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Right Next",
+            "feature": "RightNext"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rmtah411 Upwr",
+            "feature": "RMTAH411UPwr"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rstaudio",
+            "feature": "RSTAUDIO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Scan",
+            "feature": "Scan"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sea Green",
+            "feature": "SeaGreen"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sel Play Pause",
+            "feature": "SelPlayPause"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Setup Info",
+            "feature": "SetupInfo"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sfx",
+            "feature": "SFX"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Shuffle",
+            "feature": "Shuffle"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Silence",
+            "feature": "Silence"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Skip",
+            "feature": "Skip"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Skip Back",
+            "feature": "SkipBack"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Skip Forward",
+            "feature": "SkipForward"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sleep",
+            "feature": "Sleep"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Slow",
+            "feature": "Slow"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Smart Volume",
+            "feature": "SmartVolume"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Snd Field",
+            "feature": "SndField"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sonic1",
+            "feature": "SONIC1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sonic2",
+            "feature": "SONIC2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sonic3",
+            "feature": "SONIC3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sonicoff",
+            "feature": "SONICOFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sound",
+            "feature": "Sound"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sound Adj",
+            "feature": "SoundAdj"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sound Control",
+            "feature": "SoundControl"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Soundefect",
+            "feature": "SOUNDEFECT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sound Effect",
+            "feature": "SoundEffect"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Soundmode",
+            "feature": "SOUNDMODE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Soundshare",
+            "feature": "SOUNDSHARE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Source",
+            "feature": "Source"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Source Down",
+            "feature": "SourceDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Source Up",
+            "feature": "SourceUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Speaker",
+            "feature": "Speaker"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Speaker Test",
+            "feature": "SpeakerTest"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Spkrtest",
+            "feature": "SPKRTEST"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sport",
+            "feature": "SPORT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Src Arc",
+            "feature": "SrcARC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Srcaux",
+            "feature": "SRCAUX"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Src Bt",
+            "feature": "SrcBT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Src Dig Audio",
+            "feature": "SrcDigAudio"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Src Hdmiin",
+            "feature": "SrcHDMIIn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Srcoptical",
+            "feature": "SRCOPTICAL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Src Usb",
+            "feature": "SrcUSB"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Srnddual",
+            "feature": "SRNDDUAL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Srndfrnt",
+            "feature": "SRNDFRNT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Srndoff",
+            "feature": "SRNDOFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Srndon",
+            "feature": "SRNDON"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sson Off",
+            "feature": "SSOnOff"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Standard",
+            "feature": "Standard"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Standard Mode",
+            "feature": "StandardMode"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Stereo",
+            "feature": "Stereo"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Stop",
+            "feature": "Stop"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sub Dn",
+            "feature": "SubDn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sub Minus",
+            "feature": "SubMinus"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sub Plus",
+            "feature": "SubPlus"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Subtitle",
+            "feature": "Subtitle"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Subup",
+            "feature": "SUBUP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Subwf Down",
+            "feature": "SubwfDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Subwf Up",
+            "feature": "SubwfUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Subwoof",
+            "feature": "SUBWOOF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Subwoofer",
+            "feature": "SUBWOOFER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Surrbal",
+            "feature": "SURRBAL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Surr Bal Down",
+            "feature": "SurrBalDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Surr Bal Up",
+            "feature": "SurrBalUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Surr Dual",
+            "feature": "SurrDual"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Surr Lvl",
+            "feature": "SurrLvl"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Surroff",
+            "feature": "SURROFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Surr On",
+            "feature": "SurrOn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Surround",
+            "feature": "Surround"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Surround Level",
+            "feature": "SurroundLevel"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Surroundmode",
+            "feature": "SURROUNDMODE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Surr Vol Down",
+            "feature": "SurrVolDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Surr Vol Up",
+            "feature": "SurrVolUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sw",
+            "feature": "SW"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Swdown",
+            "feature": "SWDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sw Left",
+            "feature": "SwLeft"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Swlevel Left",
+            "feature": "SWLevelLeft"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Swlevel Right",
+            "feature": "SWLevelRight"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sw Right",
+            "feature": "SwRight"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Swup",
+            "feature": "SWUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tangerine",
+            "feature": "Tangerine"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tape",
+            "feature": "TAPE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Teal",
+            "feature": "Teal"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Test Tone",
+            "feature": "TestTone"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tools",
+            "feature": "Tools"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Track Back",
+            "feature": "TrackBack"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Track Fwd",
+            "feature": "TrackFwd"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Treb",
+            "feature": "Treb"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Trebble Dwn",
+            "feature": "TrebbleDwn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Trebble Up",
+            "feature": "TrebbleUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Trebdown",
+            "feature": "TREBDOWN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Trebel",
+            "feature": "Trebel"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Treble",
+            "feature": "Treble"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Treble Dn",
+            "feature": "TrebleDn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Treble Down",
+            "feature": "TrebleDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Treble Up",
+            "feature": "TrebleUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Trebup",
+            "feature": "TREBUP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "True Vol Off",
+            "feature": "TrueVolOff"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "True Vol On",
+            "feature": "TrueVolOn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tru Vol Off",
+            "feature": "TruVolOff"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tru Vol On",
+            "feature": "TruVolOn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tshd",
+            "feature": "TSHD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tuner Band",
+            "feature": "TunerBand"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tuning",
+            "feature": "TUNING"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tv",
+            "feature": "TV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvch",
+            "feature": "TVCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tv Ch Down",
+            "feature": "TvChDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvchup",
+            "feature": "TVCHUP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvinfo",
+            "feature": "TVINFO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tv Mute",
+            "feature": "TvMUTE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvol",
+            "feature": "TVOL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tv Power",
+            "feature": "TvPower"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvpre Ch",
+            "feature": "TVPreCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvsource",
+            "feature": "TVSOURCE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvvol",
+            "feature": "TVVOL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tv Vol Down",
+            "feature": "TvVolDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tv Vol Up",
+            "feature": "TvVolUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Up",
+            "feature": "Up"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Usb",
+            "feature": "USB"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Usbrandom",
+            "feature": "USBRandom"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vdwn",
+            "feature": "Vdwn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Video",
+            "feature": "Video"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Video Md",
+            "feature": "VideoMD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Violet",
+            "feature": "Violet"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Virtual Surround",
+            "feature": "VirtualSurround"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Virt Xoff",
+            "feature": "VirtXOff"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Virt Xon",
+            "feature": "VirtXOn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Voice",
+            "feature": "Voice"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vol Min",
+            "feature": "VolMin"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vol Minus",
+            "feature": "VolMinus"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Volmute",
+            "feature": "VOLMUTE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vol Plus",
+            "feature": "VolPlus"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Volume Down",
+            "feature": "VolumeDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Volume Up",
+            "feature": "VolumeUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vrti X",
+            "feature": "VRTiX"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vrtxoff",
+            "feature": "VRTXOFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vrtxon",
+            "feature": "VRTXON"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vup",
+            "feature": "Vup"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vztvoff",
+            "feature": "VZTVOFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vztvon",
+            "feature": "VZTVON"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vztvrem Off",
+            "feature": "VZTVRemOff"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vztvrem On",
+            "feature": "VZTVRemOn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "White",
+            "feature": "White"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Woof Down",
+            "feature": "WoofDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Woofer",
+            "feature": "WOOFER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Woofer Dn",
+            "feature": "WooferDn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Woofer Down",
+            "feature": "WooferDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Wooferlevel",
+            "feature": "WOOFERLEVEL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Woofer Up",
+            "feature": "WooferUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Woof Up",
+            "feature": "WoofUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Yamaha Power",
+            "feature": "YamahaPOWER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Yellow",
+            "feature": "Yellow"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Yit",
+            "feature": "YIT"
+          }
+        ]
+      ]
+    }
+  ]
+}

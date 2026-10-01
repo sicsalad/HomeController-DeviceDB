@@ -1,0 +1,22 @@
+{
+  "id": "ir-cd-player-learning-list",
+  "name": "Cd Player - Command List",
+  "deviceType": "cd-player",
+  "transport": "ir",
+  "generatedBy": "generated-learning-list-v2",
+  "style": {
+    "backgroundColor": "#101114",
+    "foregroundColor": "#F5F7FA",
+    "buttonColor": "#252932",
+    "buttonTextColor": "#F5F7FA",
+    "accentColor": "#4DA3FF",
+    "cornerRadius": 12,
+    "spacing": 8
+  },
+  "sections": [
+    {
+      "title": "Commands",
+      "rows": []
+    }
+  ]
+}

@@ -1,0 +1,9245 @@
+{
+  "id": "ir-projector-learning-list",
+  "name": "Projector - Command List",
+  "deviceType": "projector",
+  "transport": "ir",
+  "generatedBy": "generated-learning-list-v2",
+  "style": {
+    "backgroundColor": "#101114",
+    "foregroundColor": "#F5F7FA",
+    "buttonColor": "#252932",
+    "buttonTextColor": "#F5F7FA",
+    "accentColor": "#4DA3FF",
+    "cornerRadius": 12,
+    "spacing": 8
+  },
+  "sections": [
+    {
+      "title": "Commands",
+      "rows": [
+        [
+          {
+            "type": "button",
+            "label": "0 Dvi2",
+            "feature": "0DVI2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "0 Index",
+            "feature": "0Index"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "10",
+            "feature": "10"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "123 Lsetting",
+            "feature": "123LSetting"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "169",
+            "feature": "169"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "169 Resize",
+            "feature": "169RESIZE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "1 Abc",
+            "feature": "1Abc"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "1 Composite1",
+            "feature": "1COMPOSITE1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "1 Index",
+            "feature": "1Index"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "1 Switcher",
+            "feature": "1Switcher"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "2 Composite2",
+            "feature": "2COMPOSITE2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "2 Def",
+            "feature": "2Def"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "2 Index",
+            "feature": "2Index"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "2 Switcher",
+            "feature": "2Switcher"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "2 X4 X",
+            "feature": "2X4X"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "3 Beammode",
+            "feature": "3BEAMMODE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "3 D",
+            "feature": "3D"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "3 Ghi",
+            "feature": "3Ghi"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "3 Index",
+            "feature": "3Index"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "3 Svideo1",
+            "feature": "3SVIDEO1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "3 Switcher",
+            "feature": "3Switcher"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "43",
+            "feature": "43"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "43 Resize",
+            "feature": "43RESIZE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "4 Index",
+            "feature": "4Index"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "4 Jkl",
+            "feature": "4Jkl"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "4 Svideo2",
+            "feature": "4SVIDEO2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "4 Switcher",
+            "feature": "4Switcher"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "4 X3",
+            "feature": "4X3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "5 Beammode",
+            "feature": "5BEAMMODE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "5 Chstereo",
+            "feature": "5CHSTEREO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "5 Component1",
+            "feature": "5COMPONENT1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "5 Index",
+            "feature": "5Index"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "5 Mno",
+            "feature": "5Mno"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "5 Switcher",
+            "feature": "5Switcher"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "6 Component2",
+            "feature": "6COMPONENT2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "6 Index",
+            "feature": "6Index"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "6 Pqr",
+            "feature": "6Pqr"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "6 Switcher",
+            "feature": "6Switcher"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "7 Auto",
+            "feature": "7Auto"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "7 Index",
+            "feature": "7Index"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "7 Rgb1",
+            "feature": "7RGB1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "7 Stu",
+            "feature": "7Stu"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "7 Switcher",
+            "feature": "7Switcher"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "8 Aspect",
+            "feature": "8Aspect"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "8 Index",
+            "feature": "8Index"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "8 Rgb2",
+            "feature": "8RGB2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "8 Switcher",
+            "feature": "8Switcher"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "8 Vwx",
+            "feature": "8VWX"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "9 Color Mode",
+            "feature": "9ColorMode"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "9 Dvi1",
+            "feature": "9DVI1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "9 Index",
+            "feature": "9Index"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "9 Yz",
+            "feature": "9YZ"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "A",
+            "feature": "A"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Activepicture",
+            "feature": "ACTIVEPICTURE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Address",
+            "feature": "Address"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Adj",
+            "feature": "ADJ"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Adj B",
+            "feature": "AdjB"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Adj Bow",
+            "feature": "AdjBow"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Adj G",
+            "feature": "AdjG"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Adj Key",
+            "feature": "AdjKey"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Adj R",
+            "feature": "AdjR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Adj Skew",
+            "feature": "AdjSkew"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Adjtoggle",
+            "feature": "ADJTOGGLE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Adjust",
+            "feature": "Adjust"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Adjustment",
+            "feature": "ADJUSTMENT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Advanced Iris",
+            "feature": "AdvancedIris"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Afocusf",
+            "feature": "AFOCUSF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Afocusn",
+            "feature": "AFOCUSN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Afwd",
+            "feature": "AFWD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Aindex",
+            "feature": "AIndex"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Airisclose",
+            "feature": "AIRISCLOSE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Airisopen",
+            "feature": "AIRISOPEN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Alampoff",
+            "feature": "ALAMPOFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Alampon",
+            "feature": "ALAMPON"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Allume",
+            "feature": "Allume"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Alt",
+            "feature": "Alt"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Anamorphic",
+            "feature": "ANAMORPHIC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Anamorrphic",
+            "feature": "ANAMORRPHIC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ant",
+            "feature": "ANT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Apa",
+            "feature": "Apa"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ar",
+            "feature": "AR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Arev",
+            "feature": "AREV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Arrowdn",
+            "feature": "ARROWDN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Arrow Down",
+            "feature": "ArrowDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Arrow Left",
+            "feature": "ArrowLeft"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Arrow Right",
+            "feature": "ArrowRight"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Arrow Up",
+            "feature": "ArrowUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Aspect",
+            "feature": "Aspect"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Aspectauto",
+            "feature": "ASPECTAUTO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Aspectcin169 Zoom",
+            "feature": "ASPECTCIN169ZOOM"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Aspectcinemazoom",
+            "feature": "ASPECTCINEMAZOOM"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Aspectcinsqueeze",
+            "feature": "ASPECTCINSQUEEZE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Aspectfull",
+            "feature": "ASPECTFULL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Aspectnormal",
+            "feature": "ASPECTNORMAL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Aspect Ratio",
+            "feature": "AspectRatio"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Aspectsmartzoom",
+            "feature": "ASPECTSMARTZOOM"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Aspectsqueeze",
+            "feature": "ASPECTSQUEEZE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Aspectthrough",
+            "feature": "ASPECTTHROUGH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Aspectthrusqueeze",
+            "feature": "ASPECTTHRUSQUEEZE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Aspecttoggle",
+            "feature": "ASPECTTOGGLE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Aspectzoom",
+            "feature": "ASPECTZOOM"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Aspectzoomtitle",
+            "feature": "ASPECTZOOMTITLE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Aswitcher",
+            "feature": "ASwitcher"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Audioinput",
+            "feature": "AUDIOINPUT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Audio Mute",
+            "feature": "AudioMute"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Audiomuting",
+            "feature": "AUDIOMUTING"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Auto",
+            "feature": "Auto"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Auto Adjust",
+            "feature": "AutoAdjust"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Auto Focus",
+            "feature": "AutoFocus"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Auto Image",
+            "feature": "AutoImage"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Autointellibeam",
+            "feature": "AUTOINTELLIBEAM"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Auto Pc",
+            "feature": "AutoPC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Autosearch",
+            "feature": "AUTOSEARCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Autosetup",
+            "feature": "AUTOSETUP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Auto Sync",
+            "feature": "AutoSync"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Autotracking",
+            "feature": "AUTOTRACKING"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Autpimage",
+            "feature": "AUTPIMAGE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Avmute",
+            "feature": "AVMute"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Avmuting",
+            "feature": "AVMUTING"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Azeroresetfwd",
+            "feature": "AZERORESETFWD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Azeroresetrev",
+            "feature": "AZERORESETREV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Azoomtele",
+            "feature": "AZOOMTELE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Azoomwide",
+            "feature": "AZOOMWIDE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "B",
+            "feature": "B"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Back",
+            "feature": "Back"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Back Button",
+            "feature": "BackButton"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Background",
+            "feature": "Background"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Back Left Clk",
+            "feature": "BackLeftClk"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Backlight",
+            "feature": "Backlight"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Balance",
+            "feature": "Balance"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bass",
+            "feature": "Bass"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Beam",
+            "feature": "BEAM"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Beam3 Beam",
+            "feature": "BEAM3BEAM"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Beam5 Beam",
+            "feature": "BEAM5BEAM"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Beammybeamauto",
+            "feature": "BEAMMYBEAMAUTO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Beamst3 Beam",
+            "feature": "BEAMST3BEAM"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Beamstereo",
+            "feature": "BEAMSTEREO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Beamtarget",
+            "feature": "BEAMTARGET"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bfocusf",
+            "feature": "BFOCUSF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bfocusn",
+            "feature": "BFOCUSN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bfwd",
+            "feature": "BFWD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bindex",
+            "feature": "BIndex"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Birisclose",
+            "feature": "BIRISCLOSE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Birisopen",
+            "feature": "BIRISOPEN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Black Screen",
+            "feature": "BlackScreen"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Blampoff",
+            "feature": "BLAMPOFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Blampon",
+            "feature": "BLAMPON"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Blank",
+            "feature": "Blank"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Blanking",
+            "feature": "BLANKING"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Blank Screen",
+            "feature": "BlankScreen"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Blkg",
+            "feature": "BLKG"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Blue",
+            "feature": "Blue"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bluetooth",
+            "feature": "Bluetooth"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bmute",
+            "feature": "BMUTE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bow",
+            "feature": "BOW"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Break Timer",
+            "feature": "BreakTimer"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Brev",
+            "feature": "BREV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bright",
+            "feature": "Bright"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Brightness",
+            "feature": "Brightness"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Brightness Down",
+            "feature": "BrightnessDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Brightness Up",
+            "feature": "BrightnessUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Brightv",
+            "feature": "BRIGHTV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Brite",
+            "feature": "BRITE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Britedown",
+            "feature": "BRITEDOWN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Briteup",
+            "feature": "BRITEUP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Brt Cine",
+            "feature": "BrtCine"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Brt Tv",
+            "feature": "BrtTV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bswitcher",
+            "feature": "BSwitcher"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bzeroresetfwd",
+            "feature": "BZERORESETFWD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bzeroresetrev",
+            "feature": "BZERORESETREV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bzoomtele",
+            "feature": "BZOOMTELE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Bzoomwide",
+            "feature": "BZOOMWIDE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "C",
+            "feature": "C"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Calibrate Auto",
+            "feature": "CalibrateAuto"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Call",
+            "feature": "CALL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Caption",
+            "feature": "Caption"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Capture",
+            "feature": "CAPTURE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cc",
+            "feature": "Cc"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cenema",
+            "feature": "CENEMA"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Centerblue",
+            "feature": "CENTERBLUE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Centerred",
+            "feature": "CENTERRED"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Centr",
+            "feature": "CENTR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cha",
+            "feature": "CHA"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Change",
+            "feature": "CHANGE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Channel Down",
+            "feature": "ChannelDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Channel Up",
+            "feature": "ChannelUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Channelv",
+            "feature": "CHANNELV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Chcontrol",
+            "feature": "CHCONTROL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ch Level",
+            "feature": "ChLevel"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ch Next",
+            "feature": "ChNext"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ch P",
+            "feature": "ChP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ch Prev",
+            "feature": "ChPrev"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Chv",
+            "feature": "CHV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cindex",
+            "feature": "CIndex"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cinema",
+            "feature": "Cinema"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cinema1",
+            "feature": "CINEMA1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cinema2",
+            "feature": "CINEMA2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cinemadspmoviet",
+            "feature": "CINEMADSPMOVIET"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cinemadspmusict",
+            "feature": "CINEMADSPMUSICT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cinemadspoff",
+            "feature": "CINEMADSPOFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cinemadspsports",
+            "feature": "CINEMADSPSPORTS"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cinema Master",
+            "feature": "CinemaMaster"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cinemamode",
+            "feature": "CINEMAMODE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cin Master",
+            "feature": "CinMaster"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Clear",
+            "feature": "Clear"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Click Enter",
+            "feature": "ClickEnter"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Coarse",
+            "feature": "COARSE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Color",
+            "feature": "Color"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Color Dn",
+            "feature": "ColorDn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Color Manage",
+            "feature": "ColorManage"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Color Mode",
+            "feature": "ColorMode"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Color Space",
+            "feature": "ColorSpace"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Color Temp",
+            "feature": "ColorTemp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Colortempd65",
+            "feature": "COLORTEMPD65"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Colortempuncorrect",
+            "feature": "COLORTEMPUNCORRECT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Color Up",
+            "feature": "ColorUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Colorv",
+            "feature": "COLORV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Colour",
+            "feature": "Colour"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Colourtemp",
+            "feature": "COLOURTEMP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Comp",
+            "feature": "COMP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Comp1",
+            "feature": "COMP1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Comphdtv",
+            "feature": "COMPHDTV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Compint",
+            "feature": "COMPINT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Component",
+            "feature": "COMPONENT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Component3",
+            "feature": "COMPONENT3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Componentinput",
+            "feature": "COMPONENTINPUT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Composit",
+            "feature": "Composit"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Composite",
+            "feature": "Composite"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Composite1",
+            "feature": "COMPOSITE1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Composite2",
+            "feature": "COMPOSITE2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Composite3",
+            "feature": "COMPOSITE3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Compositeinput",
+            "feature": "COMPOSITEINPUT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Computemodule",
+            "feature": "COMPUTEMODULE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Computer",
+            "feature": "Computer"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Computer1",
+            "feature": "Computer1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Computer2",
+            "feature": "Computer2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cont",
+            "feature": "CONT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Contrast",
+            "feature": "Contrast"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Contrastdown",
+            "feature": "CONTRASTDOWN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Contrast Enhancer",
+            "feature": "ContrastEnhancer"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Contrast Up",
+            "feature": "ContrastUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Contrastv",
+            "feature": "CONTRASTV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Contv",
+            "feature": "CONTV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Crtb",
+            "feature": "CRTB"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Crtg",
+            "feature": "CRTG"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Crtr",
+            "feature": "CRTR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cswitcher",
+            "feature": "CSwitcher"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctemp",
+            "feature": "CTEMP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctl",
+            "feature": "CTL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctl0",
+            "feature": "CTL0"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctl10",
+            "feature": "CTL10"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctl1 Abc",
+            "feature": "CTL1ABC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctl2 Def",
+            "feature": "CTL2DEF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctl3 Ghi",
+            "feature": "CTL3GHI"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctl4 Jkl",
+            "feature": "CTL4JKL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctl5 Mno",
+            "feature": "CTL5MNO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctl6 Pqr",
+            "feature": "CTL6PQR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctl7 Stu",
+            "feature": "CTL7STU"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctl8 Vwx",
+            "feature": "CTL8VWX"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctl9 Yz",
+            "feature": "CTL9YZ"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctlb",
+            "feature": "CTLB"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctlbright",
+            "feature": "CTLBRIGHT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctlbrightv",
+            "feature": "CTLBRIGHTV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctlcaption",
+            "feature": "CTLCAPTION"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctlclear",
+            "feature": "CTLCLEAR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctlcontrast",
+            "feature": "CTLCONTRAST"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctlcontrastv",
+            "feature": "CTLCONTRASTV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctldisplay",
+            "feature": "CTLDISPLAY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctlend",
+            "feature": "CTLEND"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctlenter",
+            "feature": "CTLENTER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctlexpand",
+            "feature": "CTLEXPAND"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctlfocus",
+            "feature": "CTLFOCUS"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctlfocuspat",
+            "feature": "CTLFOCUSPAT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctllock",
+            "feature": "CTLLOCK"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctlmenu",
+            "feature": "CTLMENU"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctlmuteaudio",
+            "feature": "CTLMUTEAUDIO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctlmutepicture",
+            "feature": "CTLMUTEPICTURE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctlnormal",
+            "feature": "CTLNORMAL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctloperate",
+            "feature": "CTLOPERATE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctlpicturemute",
+            "feature": "CTLPICTUREMUTE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctlpower",
+            "feature": "CTLPOWER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctlpoweroff",
+            "feature": "CTLPOWEROFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctlpoweron",
+            "feature": "CTLPOWERON"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctlr",
+            "feature": "CTLR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctlrgb",
+            "feature": "CTLRGB"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctlsetup",
+            "feature": "CTLSETUP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctlsoundmute",
+            "feature": "CTLSOUNDMUTE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctlstatic",
+            "feature": "CTLSTATIC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctlsvideo",
+            "feature": "CTLSVIDEO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctlv",
+            "feature": "CTLV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctlvideo",
+            "feature": "CTLVIDEO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctlvolume",
+            "feature": "CTLVOLUME"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctlvolumev",
+            "feature": "CTLVOLUMEV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctlzoomt",
+            "feature": "CTLZOOMT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctlzoomw",
+            "feature": "CTLZOOMW"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ctr",
+            "feature": "CTR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cur Down",
+            "feature": "CurDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cur Left",
+            "feature": "CurLeft"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cur Left Btn",
+            "feature": "CurLeftBtn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cur Right",
+            "feature": "CurRight"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cur Right Btn",
+            "feature": "CurRightBtn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Curserdown",
+            "feature": "CURSERDOWN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Curserenter",
+            "feature": "CURSERENTER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Curserleft",
+            "feature": "CURSERLEFT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Curserup",
+            "feature": "CURSERUP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cursor",
+            "feature": "CURSOR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cursordown3",
+            "feature": "CURSORDOWN3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cursor Enter",
+            "feature": "CursorEnter"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cursorenterlcd",
+            "feature": "CURSORENTERLCD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cursorleft4",
+            "feature": "CURSORLEFT4"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cursorright2",
+            "feature": "CURSORRight2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cursorselect",
+            "feature": "CURSORSELECT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cursorup1",
+            "feature": "CURSORUP1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cur Up",
+            "feature": "CurUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Custom",
+            "feature": "Custom"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cut Off B",
+            "feature": "CutOffB"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cut Off Cent",
+            "feature": "CutOffCent"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cut Off G",
+            "feature": "CutOffG"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cut Off Lin",
+            "feature": "CutOffLin"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cut Off R",
+            "feature": "CutOffR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Cut Off Size",
+            "feature": "CutOffSize"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "D",
+            "feature": "D"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "D4",
+            "feature": "D4"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Db",
+            "feature": "DB"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Default",
+            "feature": "Default"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Del",
+            "feature": "Del"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Demo1 Off",
+            "feature": "DEMO1OFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Demo1 On",
+            "feature": "DEMO1ON"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Demo2 Off",
+            "feature": "DEMO2OFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Demo2 On",
+            "feature": "DEMO2ON"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Det Enhance",
+            "feature": "DetEnhance"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Diganalog",
+            "feature": "DIGANALOG"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit0",
+            "feature": "Digit0"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit1",
+            "feature": "Digit1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit2",
+            "feature": "Digit2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit3",
+            "feature": "Digit3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit4",
+            "feature": "Digit4"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit5",
+            "feature": "Digit5"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit6",
+            "feature": "Digit6"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit7",
+            "feature": "Digit7"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit8",
+            "feature": "Digit8"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digit9",
+            "feature": "Digit9"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Digitalzoom",
+            "feature": "Digitalzoom"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dindex",
+            "feature": "DIndex"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Disney",
+            "feature": "Disney"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Disney Plus",
+            "feature": "DisneyPlus"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dispaly Port",
+            "feature": "DispalyPort"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Displaymute",
+            "feature": "DISPLAYMUTE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dispmode",
+            "feature": "DISPMODE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dn",
+            "feature": "Dn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Down",
+            "feature": "Down"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Down Arrow",
+            "feature": "DownArrow"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Downdpad",
+            "feature": "DOWNDPAD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Down Keystone",
+            "feature": "DownKeystone"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Down Trapez",
+            "feature": "DownTrapez"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Downv",
+            "feature": "Downv"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dp1",
+            "feature": "DP1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dp2",
+            "feature": "DP2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dpad Down",
+            "feature": "DPadDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dpad Left",
+            "feature": "DPadLeft"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dpad Right",
+            "feature": "DPadRight"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dpad Up",
+            "feature": "DpadUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dspadventure",
+            "feature": "DSPADVENTURE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dspbm3 Beam",
+            "feature": "DSPBM3BEAM"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dspbm5 Beam",
+            "feature": "DSPBM5BEAM"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dspbm5 Chstereo",
+            "feature": "DSPBM5CHSTEREO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dspbmmybeam",
+            "feature": "DSPBMMYBEAM"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dspbmmysurr",
+            "feature": "DSPBMMYSURR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dspbmst3 Bea",
+            "feature": "DSPBMST3BEA"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dspbmstereotog",
+            "feature": "DSPBMSTEREOTOG"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dspcdspoff",
+            "feature": "DSPCDSPOFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dspcdspsports",
+            "feature": "DSPCDSPSPORTS"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dspconcerthall",
+            "feature": "DSPCONCERTHALL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dspconchall",
+            "feature": "DSPCONCHALL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dspjazzclub",
+            "feature": "DSPJAZZCLUB"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dspleveltoggle",
+            "feature": "DSPLEVELTOGGLE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dspmenhanoff",
+            "feature": "DSPMENHANOFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dspmenhanon",
+            "feature": "DSPMENHANON"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dspmenhantog",
+            "feature": "DSPMENHANTOG"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dspmovietog",
+            "feature": "DSPMOVIETOG"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dspmusictog",
+            "feature": "DSPMUSICTOG"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dspmusicvideo",
+            "feature": "DSPMUSICVIDEO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dspneo6 Cin",
+            "feature": "DSPNEO6CIN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dspneo6 Movie",
+            "feature": "DSPNEO6MOVIE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dspneo6 Mus",
+            "feature": "DSPNEO6MUS"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dspneo6 Music",
+            "feature": "DSPNEO6MUSIC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dspneural",
+            "feature": "DSPNEURAL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dspnightcinema",
+            "feature": "DSPNIGHTCINEMA"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dspnightmusic",
+            "feature": "DSPNIGHTMUSIC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dspnighttvmoff",
+            "feature": "DSPNIGHTTVMOFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dspoff",
+            "feature": "DSPOFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dsppliigame",
+            "feature": "DSPPLIIGAME"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dsppliimovie",
+            "feature": "DSPPLIIMOVIE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dsppliimusic",
+            "feature": "DSPPLIIMUSIC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dspprologic",
+            "feature": "DSPPROLOGIC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dspscifi",
+            "feature": "DSPSCIFI"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dspspectacle",
+            "feature": "DSPSPECTACLE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dspsports",
+            "feature": "DSPSPORTS"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dsptbassoff",
+            "feature": "DSPTBASSOFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dsptbassondeep",
+            "feature": "DSPTBASSONDEEP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dsptbassonmid",
+            "feature": "DSPTBASSONMID"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dsptbasstogg",
+            "feature": "DSPTBASSTOGG"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dsptcdspmovie",
+            "feature": "DSPTCDSPMOVIE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dsptcdspmusic",
+            "feature": "DSPTCDSPMUSIC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dsptmusicenha",
+            "feature": "DSPTMUSICENHA"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dsptsurround",
+            "feature": "DSPTSURROUND"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dsptvmodeon",
+            "feature": "DSPTVMODEON"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dspvolmodetog",
+            "feature": "DSPVOLMODETOG"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dsub",
+            "feature": "DSub"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dswitcher",
+            "feature": "DSwitcher"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Duallamps",
+            "feature": "DUALLAMPS"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dvdhd",
+            "feature": "DVDHD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dvi",
+            "feature": "DVI"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dvi1",
+            "feature": "DVI1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dvid",
+            "feature": "DVID"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dvirgbpc",
+            "feature": "DVIRGBPC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dvirgbtv",
+            "feature": "DVIRGBTV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dwn",
+            "feature": "Dwn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dynamic",
+            "feature": "Dynamic"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dynamicblack",
+            "feature": "DYNAMICBLACK"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dynamic Iris",
+            "feature": "DynamicIris"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dynamic Mode",
+            "feature": "DynamicMode"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dyn Iris",
+            "feature": "DynIris"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dzoom",
+            "feature": "DZoom"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dzoom Dn",
+            "feature": "DZoomDn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dzoom Down",
+            "feature": "DZoomDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Dzoom Up",
+            "feature": "DZoomUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "E",
+            "feature": "E"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Eco Bank",
+            "feature": "EcoBank"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ecoblank",
+            "feature": "ECOBLANK"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Economy",
+            "feature": "Economy"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Eco Quiet",
+            "feature": "EcoQuiet"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Edge Mask",
+            "feature": "EdgeMask"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Edit",
+            "feature": "Edit"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "End",
+            "feature": "END"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Enhance",
+            "feature": "Enhance"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Enhancer",
+            "feature": "ENHANCER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ent",
+            "feature": "ENT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Enterdpad",
+            "feature": "ENTERDPAD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Enter Lc",
+            "feature": "EnterLC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Esc",
+            "feature": "ESC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Escape",
+            "feature": "ESCAPE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Esc Rc",
+            "feature": "EscRC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Esc Right Clk",
+            "feature": "EscRightClk"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Exit",
+            "feature": "Exit"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Expand",
+            "feature": "EXPAND"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ezoom",
+            "feature": "Ezoom"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ezoom Down",
+            "feature": "EZoomDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ezoom In",
+            "feature": "EzoomIn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ezoom Out",
+            "feature": "EzoomOut"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ezoom Up",
+            "feature": "EZoomUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "F",
+            "feature": "F"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Factory",
+            "feature": "FACTORY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fast Ba",
+            "feature": "FastBa"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fast Fo",
+            "feature": "FastFo"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fast Forward",
+            "feature": "FastForward"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fast Rewind",
+            "feature": "FastRewind"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fav",
+            "feature": "Fav"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Film1",
+            "feature": "Film1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Film2",
+            "feature": "Film2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fine",
+            "feature": "Fine"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fine Tune",
+            "feature": "FineTune"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Flashbk",
+            "feature": "FLASHBK"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fleft",
+            "feature": "FLeft"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Flip",
+            "feature": "Flip"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fmae",
+            "feature": "FMAE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fmdown",
+            "feature": "FMDOWN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fmmemory",
+            "feature": "FMMEMORY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fmpresettune",
+            "feature": "FMPRESETTUNE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fmsearch",
+            "feature": "FMSEARCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fmup",
+            "feature": "FMUP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fmxm0",
+            "feature": "FMXM0"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fmxm1",
+            "feature": "FMXM1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fmxm2",
+            "feature": "FMXM2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fmxm3",
+            "feature": "FMXM3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fmxm4",
+            "feature": "FMXM4"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fmxm5",
+            "feature": "FMXM5"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fmxm6",
+            "feature": "FMXM6"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fmxm7",
+            "feature": "FMXM7"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fmxm8",
+            "feature": "FMXM8"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fmxm9",
+            "feature": "FMXM9"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fmxmautosrch",
+            "feature": "FMXMAUTOSRCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fmxmmemory",
+            "feature": "FMXMMEMORY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fmxmpagea",
+            "feature": "FMXMPAGEA"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fmxmpageb",
+            "feature": "FMXMPAGEB"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fmxmpagec",
+            "feature": "FMXMPAGEC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fmxmpaged",
+            "feature": "FMXMPAGED"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fmxmpagee",
+            "feature": "FMXMPAGEE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fmxmpgcat",
+            "feature": "FMXMPGCAT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fmxmpreset",
+            "feature": "FMXMPRESET"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fmxmprestune",
+            "feature": "FMXMPRESTUNE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fmxmsrchmdall",
+            "feature": "FMXMSRCHMDALL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fmxmsrchmode",
+            "feature": "FMXMSRCHMODE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fmxmsrchmpres",
+            "feature": "FMXMSRCHMPRES"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fmxmtunpre",
+            "feature": "FMXMTUNPRE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fmxmxmdisplay",
+            "feature": "FMXMXMDISPLAY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fmxmxmenter",
+            "feature": "FMXMXMENTER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Focus",
+            "feature": "Focus"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Focus Dn",
+            "feature": "FocusDn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Focus Down",
+            "feature": "FocusDOWN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Focus Dwn",
+            "feature": "FocusDwn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Focus Far",
+            "feature": "FocusFar"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Focusin",
+            "feature": "FOCUSIN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Focus Lens",
+            "feature": "FocusLens"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Focus Mg Focus",
+            "feature": "FocusMgFocus"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Focus Minus",
+            "feature": "FocusMinus"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Focus Near",
+            "feature": "FocusNear"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Focusout",
+            "feature": "FOCUSOUT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Focuspat",
+            "feature": "FOCUSPAT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Focuspattern",
+            "feature": "FOCUSPATTERN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Focus Plus",
+            "feature": "FocusPlus"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Focus Up",
+            "feature": "FocusUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Focusv",
+            "feature": "FOCUSV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Foreward",
+            "feature": "FOREWARD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Format",
+            "feature": "Format"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Freeze",
+            "feature": "Freeze"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Freeze Esc",
+            "feature": "FreezeEsc"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Frezze",
+            "feature": "Frezze"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fright",
+            "feature": "FRight"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Full",
+            "feature": "Full"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fullaspect",
+            "feature": "FULLASPECT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fullsqueeze",
+            "feature": "FULLSQUEEZE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Func",
+            "feature": "Func"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Function",
+            "feature": "Function"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Funtion1",
+            "feature": "FUNTION1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Funtion2",
+            "feature": "FUNTION2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Fwd",
+            "feature": "Fwd"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "G",
+            "feature": "G"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Game",
+            "feature": "Game"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Gamma",
+            "feature": "Gamma"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Gamma Correction",
+            "feature": "GammaCorrection"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Gamme",
+            "feature": "Gamme"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Geometry",
+            "feature": "Geometry"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Gmute",
+            "feature": "GMUTE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Goback",
+            "feature": "GOBACK"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Grab",
+            "feature": "GRAB"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Green",
+            "feature": "Green"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Group",
+            "feature": "Group"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Guide",
+            "feature": "Guide"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Guide Channel",
+            "feature": "GuideChannel"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Hamburger",
+            "feature": "Hamburger"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Hdbase T",
+            "feature": "HDBaseT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Hdmi",
+            "feature": "HDMI"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Hdmi1",
+            "feature": "Hdmi1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Hdmi2",
+            "feature": "Hdmi2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Hdmi3",
+            "feature": "HDMI3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Hdmianal",
+            "feature": "HDMIANAL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Hdmiauto",
+            "feature": "HDMIAUTO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Hdmicomponent",
+            "feature": "HDMICOMPONENT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Hdmirgbtv",
+            "feature": "HDMIRGBTV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Hdmivideo",
+            "feature": "HDMIVideo"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Hdr",
+            "feature": "HDR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Hdtv",
+            "feature": "HDTV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Help",
+            "feature": "Help"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Hide",
+            "feature": "HIDE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Hideoff",
+            "feature": "HIDEOFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Hideon",
+            "feature": "HIDEON"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Hidetog",
+            "feature": "HIDETOG"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Hkeystonedown",
+            "feature": "HKEYSTONEDOWN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Hkeystoneup",
+            "feature": "HKEYSTONEUP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Home",
+            "feature": "Home"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Horizoffsetleft",
+            "feature": "HORIZOFFSETLEFT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Horizoffsetright",
+            "feature": "HORIZOFFSETRIGHT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Horizontal",
+            "feature": "Horizontal"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Hpulse",
+            "feature": "HPULSE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Hue",
+            "feature": "HUE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Hue Dn",
+            "feature": "HueDn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Hue Up",
+            "feature": "HueUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Hyson",
+            "feature": "HYSON"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Id",
+            "feature": "ID"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Idselect",
+            "feature": "IDSELECT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Idtv1",
+            "feature": "IDTV1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Idtv2",
+            "feature": "IDTV2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Idtv3",
+            "feature": "IDTV3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Idtv4",
+            "feature": "IDTV4"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Idtv5",
+            "feature": "IDTV5"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Image",
+            "feature": "Image"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Imagecinema",
+            "feature": "IMAGECINEMA"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Imagedynamic",
+            "feature": "IMAGEDYNAMIC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Imageflip",
+            "feature": "IMAGEFLIP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Imagenatural",
+            "feature": "IMAGENATURAL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Imageuser1",
+            "feature": "IMAGEUSER1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Imageuser2",
+            "feature": "IMAGEUSER2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Imageuser3",
+            "feature": "IMAGEUSER3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Info",
+            "feature": "Info"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Information",
+            "feature": "Information"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Informationosd",
+            "feature": "INFORMATIONOSD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inkey",
+            "feature": "INKEY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inpin",
+            "feature": "INPIN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Input1 A",
+            "feature": "INPUT1A"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Input A",
+            "feature": "InputA"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputacompnent",
+            "feature": "INPUTACOMPNENT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputacomponent",
+            "feature": "INPUTACOMPONENT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputargbpc",
+            "feature": "INPUTARGBPC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputargbtv",
+            "feature": "INPUTARGBTV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputaux",
+            "feature": "INPUTAUX"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputaux1",
+            "feature": "INPUTAUX1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputaux2",
+            "feature": "INPUTAUX2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputaux3",
+            "feature": "INPUTAUX3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Input B",
+            "feature": "InputB"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputbcomponent",
+            "feature": "INPUTBCOMPONENT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputbdb15",
+            "feature": "INPUTBDB15"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputbnc",
+            "feature": "INPUTBNC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputbrgbpc",
+            "feature": "INPUTBRGBPC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputbrgbtv",
+            "feature": "INPUTBRGBTV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Input C",
+            "feature": "InputC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputcomp",
+            "feature": "INPUTCOMP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputcomponent",
+            "feature": "INPUTCOMPONENT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputcomposite",
+            "feature": "INPUTCOMPOSITE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Input D",
+            "feature": "InputD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputd4",
+            "feature": "INPUTD4"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputd4 Scart",
+            "feature": "INPUTD4SCART"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Input Down",
+            "feature": "InputDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputdsub",
+            "feature": "INPUTDSUB"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Input Dvd",
+            "feature": "InputDVD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputdvi",
+            "feature": "INPUTDVI"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputdvisat",
+            "feature": "INPUTDVISAT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Input E",
+            "feature": "InputE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Input F",
+            "feature": "InputF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Input Fm",
+            "feature": "InputFM"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputhdmi",
+            "feature": "INPUTHDMI"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Input Hdmi1",
+            "feature": "InputHdmi1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Input Hdmi2",
+            "feature": "InputHdmi2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputlist",
+            "feature": "INPUTLIST"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputmode",
+            "feature": "INPUTMODE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Input Mode Analog",
+            "feature": "InputModeAnalog"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Input Mode Auto",
+            "feature": "InputModeAuto"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Input Mode Dts",
+            "feature": "InputModeDTS"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputmodetog",
+            "feature": "INPUTMODETOG"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputmodetoggle",
+            "feature": "INPUTMODETOGGLE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Input Next",
+            "feature": "InputNext"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Input Pc",
+            "feature": "InputPC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputrca",
+            "feature": "INPUTRCA"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputrgb",
+            "feature": "INPUTRGB"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Input Select",
+            "feature": "InputSelect"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Input Select Select",
+            "feature": "InputSelectSelect"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Input Select Video",
+            "feature": "InputSelectVideo"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputstb",
+            "feature": "INPUTSTB"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputsvideo",
+            "feature": "INPUTSVIDEO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputsvideo2",
+            "feature": "INPUTSVIDEO2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputtog",
+            "feature": "INPUTTOG"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputtv",
+            "feature": "INPUTTV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputtvstb",
+            "feature": "INPUTTVSTB"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Input Up",
+            "feature": "InputUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputvcr",
+            "feature": "INPUTVCR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputvga",
+            "feature": "INPUTVGA"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputvideo",
+            "feature": "INPUTVIDEO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputvideo1",
+            "feature": "INPUTVIDEO1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputvideo2",
+            "feature": "INPUTVIDEO2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputxm",
+            "feature": "INPUTXM"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputxmfm",
+            "feature": "INPUTXMFM"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Inputyc",
+            "feature": "INPUTYC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Intellibeamstart",
+            "feature": "INTELLIBEAMSTART"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Interactive",
+            "feature": "Interactive"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Invert",
+            "feature": "Invert"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Iris",
+            "feature": "Iris"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Irisdown",
+            "feature": "IRISDOWN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Irisup",
+            "feature": "IRISUP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Key",
+            "feature": "KEY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Keyst D",
+            "feature": "KeystD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Keystone",
+            "feature": "Keystone"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Keystone Dn",
+            "feature": "KeystoneDn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Keystone Down",
+            "feature": "KeystoneDOWN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Keystone Up",
+            "feature": "KeystoneUP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Keyst Up",
+            "feature": "KeystUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "L",
+            "feature": "L"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Lamp",
+            "feature": "Lamp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Lamp1",
+            "feature": "LAMP1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Lamp2",
+            "feature": "LAMP2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Lamp Control",
+            "feature": "LampControl"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Lan",
+            "feature": "Lan"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Lbx",
+            "feature": "LBX"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Lcd Focus Dn",
+            "feature": "LcdFocusDn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Lcd Focus Up",
+            "feature": "LcdFocusUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Lcd Shift Dn",
+            "feature": "LcdShiftDn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Lcd Shift Up",
+            "feature": "LcdShiftUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Lcd Zoom Dn",
+            "feature": "LcdZoomDn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Lcd Zoom Up",
+            "feature": "LcdZoomUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Lclick",
+            "feature": "LClick"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Left",
+            "feature": "Left"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Left Arrow",
+            "feature": "LeftArrow"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Left Click",
+            "feature": "LeftClick"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Leftdpad",
+            "feature": "LEFTDPAD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Leftkey",
+            "feature": "LEFTKEY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Left Vol Down",
+            "feature": "LeftVolDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Left Vol Dwn",
+            "feature": "LeftVolDwn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Lens",
+            "feature": "LENS"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Lensap",
+            "feature": "LENSAP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Lens Dn",
+            "feature": "LensDn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Lens Shift",
+            "feature": "LensShift"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Lens Up",
+            "feature": "LensUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Letterbox",
+            "feature": "LETTERBOX"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Letterboxresize",
+            "feature": "LETTERBOXRESIZE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Level",
+            "feature": "Level"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Leveltog",
+            "feature": "LEVELTOG"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Levelv",
+            "feature": "LEVELV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Light",
+            "feature": "Light"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Light Mode",
+            "feature": "LightMode"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Light Off",
+            "feature": "LightOFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Light On",
+            "feature": "LightON"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Lil Down",
+            "feature": "LilDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Lil Up",
+            "feature": "LilUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Linclilin",
+            "feature": "LINCLILIN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Lintblr",
+            "feature": "LINTBLR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "List",
+            "feature": "LIST"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Liteshow",
+            "feature": "LITESHOW"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Live",
+            "feature": "Live"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Lock",
+            "feature": "Lock"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Lt",
+            "feature": "Lt"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Lumi Expert",
+            "feature": "LumiExpert"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Lumiexpertboost",
+            "feature": "LUMIEXPERTBOOST"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "M",
+            "feature": "M"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Magnify",
+            "feature": "Magnify"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Magnify Off",
+            "feature": "MagnifyOff"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Magnify On",
+            "feature": "MagnifyOn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Magnifyreduce",
+            "feature": "MAGNIFYREDUCE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mediaplayer",
+            "feature": "MEDIAPLAYER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mem1",
+            "feature": "Mem1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mem2",
+            "feature": "Mem2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mem3",
+            "feature": "Mem3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mem4",
+            "feature": "Mem4"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mem5",
+            "feature": "MEM5"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mem6",
+            "feature": "MEM6"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Memlist",
+            "feature": "MEMLIST"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mem Load",
+            "feature": "MemLoad"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Memory",
+            "feature": "MEMORY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Memory1",
+            "feature": "Memory1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Memory2",
+            "feature": "Memory2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Memory3",
+            "feature": "Memory3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Memory4",
+            "feature": "Memory4"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Memory5",
+            "feature": "MEMORY5"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Memory6",
+            "feature": "MEMORY6"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Memoryloaduser1",
+            "feature": "MEMORYLOADUSER1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Memoryloaduser2",
+            "feature": "MEMORYLOADUSER2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Memoryloaduser3",
+            "feature": "MEMORYLOADUSER3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Memorysaveuser1",
+            "feature": "MEMORYSAVEUSER1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Memorysaveuser2",
+            "feature": "MEMORYSAVEUSER2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Memorysaveuser3",
+            "feature": "MEMORYSAVEUSER3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Menu",
+            "feature": "Menu"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Menu1",
+            "feature": "MENU1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Menu2",
+            "feature": "MENU2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Menudown",
+            "feature": "MENUDOWN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Menuedit",
+            "feature": "MENUEDIT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Menuenter",
+            "feature": "MENUENTER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Menu Exit",
+            "feature": "MenuExit"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Menu Help",
+            "feature": "MenuHelp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Menulclickunder",
+            "feature": "MENULCLICKUNDER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Menuleft",
+            "feature": "MENULEFT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Menumouseeast",
+            "feature": "MENUMOUSEEAST"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Menumousenorth",
+            "feature": "MENUMOUSENORTH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Menumousesouth",
+            "feature": "MENUMOUSESOUTH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Menumousewest",
+            "feature": "MENUMOUSEWEST"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Menuoff",
+            "feature": "MENUOFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Menuon",
+            "feature": "MENUON"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Menuonscreenmgr",
+            "feature": "MENUONSCREENMGR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Menuright",
+            "feature": "MENURIGHT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Menutog",
+            "feature": "MENUTOG"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Menuup",
+            "feature": "MENUUP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mhl",
+            "feature": "MHL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mic",
+            "feature": "Mic"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Minus",
+            "feature": "Minus"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Miracast",
+            "feature": "Miracast"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mode",
+            "feature": "Mode"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mode Enter",
+            "feature": "ModeEnter"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Motion Flow",
+            "feature": "MotionFlow"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mouse",
+            "feature": "Mouse"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mouse Down",
+            "feature": "MouseDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mouse Left",
+            "feature": "MouseLeft"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mouse Mode",
+            "feature": "MouseMode"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mouse Right",
+            "feature": "MouseRight"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mouse Up",
+            "feature": "MouseUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Msslide",
+            "feature": "MSSLIDE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mts",
+            "feature": "MTS"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Multi",
+            "feature": "MULTI"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Multipictureonoff",
+            "feature": "MULTIPICTUREONOFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Musicenhanceroff",
+            "feature": "MUSICENHANCEROFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Musicenhanceron",
+            "feature": "MUSICENHANCERON"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Musicenhancertoggl",
+            "feature": "MUSICENHANCERTOGGL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mute",
+            "feature": "Mute"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mute20",
+            "feature": "MUTE20"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mute20 Db",
+            "feature": "MUTE20DB"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Muteaudio",
+            "feature": "MUTEAUDIO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Muteoff",
+            "feature": "MUTEOFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Muteon",
+            "feature": "MUTEON"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mutepicture",
+            "feature": "MUTEPICTURE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mutesrc",
+            "feature": "MUTESRC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mutetog",
+            "feature": "MUTETOG"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Mute Toggle",
+            "feature": "MuteToggle"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Muting",
+            "feature": "Muting"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Muting Audio",
+            "feature": "MutingAUDIO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Muting Pic",
+            "feature": "MutingPIC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Native",
+            "feature": "Native"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Nativeresize",
+            "feature": "NATIVERESIZE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Natural",
+            "feature": "Natural"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Naturalmode",
+            "feature": "NATURALMODE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Naturalwide",
+            "feature": "NATURALWIDE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Naturalwideresize",
+            "feature": "NATURALWIDERESIZE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Neo6 Movie",
+            "feature": "NEO6Movie"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Neo6 Music",
+            "feature": "NEO6Music"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Netflix",
+            "feature": "Netflix"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Network",
+            "feature": "Network"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Neuralsurround",
+            "feature": "NEURALSURROUND"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Next",
+            "feature": "Next"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Nightmodecinema",
+            "feature": "NIGHTMODECINEMA"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Nightmodemus",
+            "feature": "NIGHTMODEMUS"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Nightmodemusic",
+            "feature": "NIGHTMODEMUSIC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Night Mode Off",
+            "feature": "NightModeOff"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Night Mode On",
+            "feature": "NightModeOn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Nighttog",
+            "feature": "NIGHTTOG"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Nighttvmodeoff",
+            "feature": "NIGHTTVMODEOFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Noisereduction",
+            "feature": "NOISEREDUCTION"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Normal",
+            "feature": "Normal"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "No Show",
+            "feature": "NoShow"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Nr",
+            "feature": "NR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Off On",
+            "feature": "OffOn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Off Timer",
+            "feature": "OffTimer"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ok",
+            "feature": "Ok"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Onscreenmgr",
+            "feature": "ONSCREENMGR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Operate",
+            "feature": "OPERATE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Operatemenu",
+            "feature": "OPERATEMENU"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Option",
+            "feature": "OPTION"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Optionmenu",
+            "feature": "OPTIONMENU"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Options",
+            "feature": "Options"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Orientleft",
+            "feature": "ORIENTLEFT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Orientright",
+            "feature": "ORIENTRIGHT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Osd Msg",
+            "feature": "OsdMsg"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Overscan",
+            "feature": "Overscan"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "P0wer",
+            "feature": "P0wer"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Page",
+            "feature": "Page"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Page Back",
+            "feature": "PageBack"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Page Dn",
+            "feature": "PageDn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Page Down",
+            "feature": "PageDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Page Dwn",
+            "feature": "PageDwn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Page Nex T",
+            "feature": "PageNexT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Page Prev",
+            "feature": "PagePrev"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Page Up",
+            "feature": "PageUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Passthrough",
+            "feature": "PASSTHROUGH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Passthru",
+            "feature": "PASSTHRU"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Patt",
+            "feature": "PATT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pattern",
+            "feature": "Pattern"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Patternoff",
+            "feature": "PATTERNOFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Patternon",
+            "feature": "PATTERNON"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Patterntog",
+            "feature": "PATTERNTOG"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pause",
+            "feature": "Pause"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pause Play",
+            "feature": "PausePlay"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pby P",
+            "feature": "PbyP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pc",
+            "feature": "PC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pc1 Analog",
+            "feature": "PC1ANALOG"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pc1 Digital",
+            "feature": "PC1DIGITAL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pchdtv",
+            "feature": "PCHDTV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pcvga",
+            "feature": "PCVGA"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pg Down",
+            "feature": "PgDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pgdwn",
+            "feature": "PGDWN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pg Up",
+            "feature": "PgUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Phase",
+            "feature": "Phase"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Photo",
+            "feature": "Photo"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pic",
+            "feature": "Pic"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pic Adj",
+            "feature": "PicAdj"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pic Mode",
+            "feature": "PicMode"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Picmode1",
+            "feature": "PICMODE1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Picmode2",
+            "feature": "PICMODE2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Picmode3",
+            "feature": "PICMODE3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Picmodefreeze",
+            "feature": "PICMODEFREEZE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pic Mute",
+            "feature": "PicMUTE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Picmuting",
+            "feature": "PICMUTING"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Picture",
+            "feature": "Picture"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Picturemode",
+            "feature": "PICTUREMODE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Picturemute",
+            "feature": "PICTUREMUTE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Picturemuting",
+            "feature": "PICTUREMUTING"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Picturereset",
+            "feature": "PICTURERESET"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pictureshift",
+            "feature": "PICTURESHIFT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Picturev",
+            "feature": "PICTUREV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pin",
+            "feature": "PIN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pip",
+            "feature": "Pip"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pip On Off",
+            "feature": "PipOnOff"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pippos",
+            "feature": "PIPPOS"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pipposition",
+            "feature": "PIPPOSITION"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pipsize",
+            "feature": "PIPSIZE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pipsource",
+            "feature": "PIPSOURCE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Play",
+            "feature": "Play"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Play Ipause",
+            "feature": "PlayIPause"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Play Lpause",
+            "feature": "PlayLPause"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Play Pa",
+            "feature": "PlayPa"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Play Pause",
+            "feature": "PlayPause"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pliigame",
+            "feature": "PLIIGAME"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pliimovie",
+            "feature": "PLIIMovie"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pliimusic",
+            "feature": "PLIIMusic"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Plus",
+            "feature": "Plus"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pointer",
+            "feature": "Pointer"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Position",
+            "feature": "Position"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Position Dn",
+            "feature": "PositionDn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Positionmouseeast",
+            "feature": "POSITIONMOUSEEAST"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Positionmousene",
+            "feature": "POSITIONMOUSENE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Positionmousenorth",
+            "feature": "POSITIONMOUSENORTH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Positionmousenw",
+            "feature": "POSITIONMOUSENW"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Positionmousese",
+            "feature": "POSITIONMOUSESE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Positionmousesouth",
+            "feature": "POSITIONMOUSESOUTH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Positionmousesw",
+            "feature": "POSITIONMOUSESW"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Positionmousewest",
+            "feature": "POSITIONMOUSEWEST"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Positionoff",
+            "feature": "POSITIONOFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Position Up",
+            "feature": "PositionUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Positionv",
+            "feature": "POSITIONV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Power",
+            "feature": "Power",
+            "style": "danger"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Power Id2",
+            "feature": "PowerId2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Power Id3",
+            "feature": "PowerId3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Power Id4",
+            "feature": "PowerId4"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Power Off",
+            "feature": "PowerOff",
+            "style": "danger"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Poweroffsend2 X",
+            "feature": "POWEROFFSEND2X"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Poweroffstandby2",
+            "feature": "POWEROFFSTANDBY2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Power On",
+            "feature": "PowerOn",
+            "style": "danger"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Poweron2",
+            "feature": "POWERON2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Poweronb",
+            "feature": "POWERONB"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Poweron Off Toggle",
+            "feature": "POWEROnOffToggle"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Powerstandby",
+            "feature": "POWERSTANDBY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Power Tog",
+            "feature": "PowerTog"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pp",
+            "feature": "PP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Present",
+            "feature": "Present"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Preset",
+            "feature": "PRESET"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Presetacategory",
+            "feature": "PRESETACATEGORY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Presetbcategory",
+            "feature": "PRESETBCATEGORY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Presetccategory",
+            "feature": "PRESETCCATEGORY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Presetdcategory",
+            "feature": "PRESETDCATEGORY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Presetecategory",
+            "feature": "PRESETECATEGORY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Presetmemorya",
+            "feature": "PRESETMEMORYA"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Presetmemoryb",
+            "feature": "PRESETMEMORYB"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Presetmemoryc",
+            "feature": "PRESETMEMORYC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Presetrecalla",
+            "feature": "PRESETRECALLA"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Presetrecallb",
+            "feature": "PRESETRECALLB"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Presetrecallc",
+            "feature": "PRESETRECALLC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Presets",
+            "feature": "Presets"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Presettunemode",
+            "feature": "PRESETTUNEMODE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Prev",
+            "feature": "Prev"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Prev Ch",
+            "feature": "PrevCh"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Prevv",
+            "feature": "PREVV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Prime",
+            "feature": "Prime"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Prime Video",
+            "feature": "PrimeVideo"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Prog",
+            "feature": "Prog"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Projection",
+            "feature": "Projection"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Prologic",
+            "feature": "Prologic"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pst1",
+            "feature": "PST1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pst2",
+            "feature": "PST2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pst3",
+            "feature": "PST3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pst4",
+            "feature": "PST4"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ptimer",
+            "feature": "PTimer"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pwr",
+            "feature": "Pwr"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pwr Off",
+            "feature": "PwrOff"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pwr On",
+            "feature": "PwrOn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Pwrtoggle",
+            "feature": "PWRTOGGLE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Qmenu",
+            "feature": "QMenu"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Quickalign",
+            "feature": "QUICKALIGN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Quit",
+            "feature": "QUIT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "R",
+            "feature": "R"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ratio",
+            "feature": "Ratio"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ratiodown",
+            "feature": "RATIODOWN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ratioup",
+            "feature": "RATIOUP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Raw3",
+            "feature": "RAW3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rclick",
+            "feature": "RClick"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Reality Creation",
+            "feature": "RealityCreation"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rearleftcorner",
+            "feature": "REARLEFTCORNER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rearrightcorner",
+            "feature": "REARRIGHTCORNER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Recall",
+            "feature": "Recall"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Red",
+            "feature": "Red"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ref",
+            "feature": "Ref"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Reset",
+            "feature": "Reset"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Resize",
+            "feature": "Resize"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Re Sync",
+            "feature": "ReSync"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Return Arrow",
+            "feature": "ReturnArrow"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Reverse",
+            "feature": "Reverse"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rewind",
+            "feature": "Rewind"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rgb",
+            "feature": "RGB"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rgb1",
+            "feature": "RGB1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rgb2",
+            "feature": "RGB2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rgb3",
+            "feature": "RGB3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rgb6",
+            "feature": "RGB6"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rgb7",
+            "feature": "RGB7"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rgb8",
+            "feature": "RGB8"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rgb9",
+            "feature": "RGB9"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rgbcmy",
+            "feature": "RGBCMY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rgbmode",
+            "feature": "RGBMODE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rgbpc",
+            "feature": "RGBPC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rgbshift",
+            "feature": "RGBSHIFT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rgbsize",
+            "feature": "RGBSIZE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Right",
+            "feature": "Right"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Right Arrow",
+            "feature": "RightArrow"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Right Click",
+            "feature": "RightClick"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rightdpad",
+            "feature": "RIGHTDPAD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rightkey",
+            "feature": "RIGHTKEY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Right Vol Up",
+            "feature": "RightVolUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rmute",
+            "feature": "RMUTE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rotate",
+            "feature": "Rotate"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rsync",
+            "feature": "RSYNC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Rt",
+            "feature": "RT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "S",
+            "feature": "S"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Samsung Tv",
+            "feature": "SamsungTV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Samsung Tv Plus",
+            "feature": "SamsungTvPlus"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Scanpower",
+            "feature": "SCANPOWER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Screen Cast",
+            "feature": "ScreenCast"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Screenr",
+            "feature": "SCREENR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Screen S",
+            "feature": "ScreenS"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Screenw",
+            "feature": "SCREENW"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Scribble",
+            "feature": "SCRIBBLE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sdi",
+            "feature": "Sdi"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Searchmodeallch",
+            "feature": "SEARCHMODEALLCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Searchmodeprest",
+            "feature": "SEARCHMODEPREST"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sel",
+            "feature": "SEL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Selectenter",
+            "feature": "SELECTENTER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Selectv",
+            "feature": "SELECTV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Setcursordown",
+            "feature": "SETCURSORDOWN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Setcursorleft",
+            "feature": "SETCURSORLEFT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Setcursorright",
+            "feature": "SETCURSORRIGHT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Setcursorup",
+            "feature": "SETCURSORUP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Setenter",
+            "feature": "SETENTER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Setibmstarttrigg",
+            "feature": "SETIBMSTARTTRIGG"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Set Menu",
+            "feature": "SetMenu"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Setmenudown",
+            "feature": "SETMENUDOWN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Setmenuenter",
+            "feature": "SETMENUENTER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Setmenuleft",
+            "feature": "SETMENULEFT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Setmenureturn",
+            "feature": "SETMENURETURN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Setmenuright",
+            "feature": "SETMENURIGHT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Setmenuselect",
+            "feature": "SETMENUSELECT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Setmenutog",
+            "feature": "SETMENUTOG"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Setmenuup",
+            "feature": "SETMENUUP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Setpointzoom",
+            "feature": "SETPOINTZOOM"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Setreturn",
+            "feature": "SETRETURN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Setsetmenu",
+            "feature": "SETSETMENU"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Settingbrightness",
+            "feature": "SETTINGBRIGHTNESS"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Settingcolortemp",
+            "feature": "SETTINGCOLORTEMP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Settingcontrast",
+            "feature": "SETTINGCONTRAST"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Settingiris",
+            "feature": "SETTINGIRIS"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Setup",
+            "feature": "Setup"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Setuponscrnmgr",
+            "feature": "SETUPONSCRNMGR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Shape",
+            "feature": "SHAPE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sharp",
+            "feature": "Sharp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sharp Dn",
+            "feature": "SharpDn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sharpness",
+            "feature": "Sharpness"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sharpnessv",
+            "feature": "SHARPNESSV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sharp Up",
+            "feature": "SharpUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Shift",
+            "feature": "SHIFT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Shutter",
+            "feature": "Shutter"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sideshot",
+            "feature": "SIDESHOT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Singwm",
+            "feature": "SINGWM"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Size",
+            "feature": "Size"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Skew",
+            "feature": "SKEW"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Skip",
+            "feature": "Skip"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Skip Back",
+            "feature": "SkipBack"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Skipbackwards",
+            "feature": "Skipbackwards"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Skip Forward",
+            "feature": "SkipForward"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sleep",
+            "feature": "Sleep"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sleep120",
+            "feature": "Sleep120"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sleep120 Min",
+            "feature": "SLEEP120MIN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sleep30",
+            "feature": "Sleep30"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sleep30 Min",
+            "feature": "SLEEP30MIN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sleep60",
+            "feature": "Sleep60"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sleep60 Min",
+            "feature": "SLEEP60MIN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sleep90",
+            "feature": "Sleep90"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sleep90 Min",
+            "feature": "SLEEP90MIN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sleep Off",
+            "feature": "SleepOff"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sleep Timer",
+            "feature": "SleepTimer"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sleeptimer120 Min",
+            "feature": "SLEEPTIMER120MIN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sleeptimer30 Min",
+            "feature": "SLEEPTIMER30MIN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sleeptimer60 Min",
+            "feature": "SLEEPTIMER60MIN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sleeptimer90 Min",
+            "feature": "SLEEPTIMER90MIN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sleeptog",
+            "feature": "SLEEPTOG"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sleeptoggle",
+            "feature": "SLEEPTOGGLE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sltim",
+            "feature": "SLTIM"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Smooth",
+            "feature": "Smooth"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sorce",
+            "feature": "Sorce"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Souce",
+            "feature": "Souce"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Soundmode",
+            "feature": "SOUNDMODE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Soundmute",
+            "feature": "SOUNDMUTE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Source",
+            "feature": "Source"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Source1",
+            "feature": "Source1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Source2",
+            "feature": "Source2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Source3",
+            "feature": "Source3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Source4",
+            "feature": "Source4"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sourced4",
+            "feature": "SOURCED4"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sourceinputa",
+            "feature": "SOURCEINPUTA"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sourceinputb",
+            "feature": "SOURCEINPUTB"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Source Lock",
+            "feature": "SourceLock"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sources",
+            "feature": "SOURCES"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Source Search",
+            "feature": "SourceSearch"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Source Src",
+            "feature": "SourceSRC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sourcesvideo",
+            "feature": "SOURCESVIDEO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sourcevideo",
+            "feature": "SOURCEVIDEO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sourseselect",
+            "feature": "SOURSESELECT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Special",
+            "feature": "SPECIAL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Split",
+            "feature": "Split"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Splitscreen",
+            "feature": "Splitscreen"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Spot",
+            "feature": "Spot"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Src",
+            "feature": "Src"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Src Computer",
+            "feature": "SrcComputer"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Src Hdmi",
+            "feature": "SrcHDMI"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Src Lan",
+            "feature": "SrcLAN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Src Search",
+            "feature": "SrcSearch"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Src Usb",
+            "feature": "SrcUSB"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Srs",
+            "feature": "SRS"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Srstrubass",
+            "feature": "SRSTRUBASS"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "St3 Beammode",
+            "feature": "ST3BEAMMODE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Stage",
+            "feature": "STAGE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Standard",
+            "feature": "Standard"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Standbyb",
+            "feature": "STANDBYB"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Standbypower",
+            "feature": "STANDBYPOWER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Standbypoweroff",
+            "feature": "STANDBYPOWEROFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Star",
+            "feature": "Star"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Start",
+            "feature": "Start"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Static",
+            "feature": "STATIC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Status",
+            "feature": "Status"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Status Off",
+            "feature": "StatusOFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Status On",
+            "feature": "StatusON"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Stereo",
+            "feature": "Stereo"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Stereo5 Chstereo",
+            "feature": "STEREO5CHSTEREO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Still",
+            "feature": "STILL"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Stilloff",
+            "feature": "STILLOFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Stillon",
+            "feature": "STILLON"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Stillonoff",
+            "feature": "STILLONOFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Stilltog",
+            "feature": "STILLTOG"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Stone",
+            "feature": "STONE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Stop",
+            "feature": "Stop"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Store",
+            "feature": "Store"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Storememory",
+            "feature": "STOREMEMORY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sub Menu",
+            "feature": "SubMenu"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Subtitle",
+            "feature": "Subtitle"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sur3 Beam",
+            "feature": "SUR3BEAM"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sur5 Beam",
+            "feature": "SUR5BEAM"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Surae",
+            "feature": "SURAE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Surdecode",
+            "feature": "SURDECODE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Surmovie",
+            "feature": "SURMOVIE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Surmusic",
+            "feature": "SURMUSIC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Surmybeam",
+            "feature": "SURMYBEAM"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Surmysur",
+            "feature": "SURMYSUR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Surner",
+            "feature": "SURNER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Suroff",
+            "feature": "SUROFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Surroundtog",
+            "feature": "SURROUNDTOG"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sursports",
+            "feature": "SURSPORTS"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Surst3 Beam",
+            "feature": "SURST3BEAM"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Surstereo",
+            "feature": "SURSTEREO"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Surupp",
+            "feature": "SURUPP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Svhs",
+            "feature": "SVHS"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Svhs4",
+            "feature": "SVHS4"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Svid",
+            "feature": "SVID"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Svideo",
+            "feature": "SVideo"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Svideoinput",
+            "feature": "SVIDEOINPUT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sw1",
+            "feature": "SW1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sw2",
+            "feature": "SW2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sw3",
+            "feature": "SW3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sw4",
+            "feature": "SW4"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sw5",
+            "feature": "SW5"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sw6",
+            "feature": "SW6"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sw7",
+            "feature": "SW7"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Sw8",
+            "feature": "SW8"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Swap",
+            "feature": "Swap"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Switch",
+            "feature": "SWITCH"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Switcher1",
+            "feature": "SWITCHER1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Switcher2",
+            "feature": "SWITCHER2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Switcher3",
+            "feature": "SWITCHER3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Switcher4",
+            "feature": "SWITCHER4"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Switcher5",
+            "feature": "SWITCHER5"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Switcher6",
+            "feature": "SWITCHER6"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Switcher7",
+            "feature": "SWITCHER7"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Switcher8",
+            "feature": "SWITCHER8"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Teletext Mix",
+            "feature": "TeletextMix"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Test",
+            "feature": "Test"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Testdolby",
+            "feature": "TESTDOLBY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Test Mode",
+            "feature": "TestMode"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Testmodetog",
+            "feature": "TESTMODETOG"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Testoff",
+            "feature": "TESTOFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Teston",
+            "feature": "TESTON"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Test Pattern",
+            "feature": "TestPattern"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Testtoggle",
+            "feature": "TESTTOGGLE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Time",
+            "feature": "Time"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Timer",
+            "feature": "Timer"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tint",
+            "feature": "Tint"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tintv",
+            "feature": "TINTV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tlkey",
+            "feature": "TLKEY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tlpin",
+            "feature": "TLPIN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tls",
+            "feature": "TLS"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tools",
+            "feature": "Tools"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Treble",
+            "feature": "Treble"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Trubassdeep",
+            "feature": "TRUBASSDEEP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Trubassmid",
+            "feature": "TRUBASSMID"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Trubassoff",
+            "feature": "TRUBASSOFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Trubasstog",
+            "feature": "TRUBASSTOG"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tuningpreset",
+            "feature": "TUNINGPRESET"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tv",
+            "feature": "TV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvequalvolon",
+            "feature": "TVEQUALVOLON"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvmodeon",
+            "feature": "TVMODEON"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Tvvcr",
+            "feature": "TVVCR"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Twin",
+            "feature": "Twin"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Txt",
+            "feature": "TXT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Unknown",
+            "feature": "UNKNOWN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Unknown1",
+            "feature": "Unknown1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Unknown2",
+            "feature": "Unknown2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Unknown3",
+            "feature": "Unknown3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Unknown4",
+            "feature": "Unknown4"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Unknown5",
+            "feature": "Unknown5"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Unknown6",
+            "feature": "Unknown6"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Unknown7",
+            "feature": "Unknown7"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Up",
+            "feature": "Up"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Up Arrow",
+            "feature": "UpArrow"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Updpad",
+            "feature": "UPDPAD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Up Keystone",
+            "feature": "UpKeystone"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Upleftcorner",
+            "feature": "UPLEFTCORNER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Uprightcorner",
+            "feature": "UPRIGHTCORNER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Up Trapez",
+            "feature": "UpTrapez"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Usb",
+            "feature": "USB"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Usbpc",
+            "feature": "USBPC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "User",
+            "feature": "User"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "User1",
+            "feature": "User1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "User2",
+            "feature": "User2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "User3",
+            "feature": "User3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Userpreset1",
+            "feature": "USERPRESET1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Userpreset2",
+            "feature": "USERPRESET2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Userpreset3",
+            "feature": "USERPRESET3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "V",
+            "feature": "V"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Value",
+            "feature": "VALUE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vdown",
+            "feature": "VDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vdwn",
+            "feature": "Vdwn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vertical",
+            "feature": "Vertical"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vertoffsetdown",
+            "feature": "VERTOFFSETDOWN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vertoffsetup",
+            "feature": "VERTOFFSETUP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vga",
+            "feature": "VGA"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vga1",
+            "feature": "VGA1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vga2",
+            "feature": "VGA2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Video",
+            "feature": "Video"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Video1",
+            "feature": "Video1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Video2",
+            "feature": "Video2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videoa",
+            "feature": "VIDEOA"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videob",
+            "feature": "VIDEOB"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videoinput",
+            "feature": "VIDEOINPUT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videomem1",
+            "feature": "VIDEOMEM1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videomem2",
+            "feature": "VIDEOMEM2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videomem3",
+            "feature": "VIDEOMEM3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videomem4",
+            "feature": "VIDEOMEM4"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videomem5",
+            "feature": "VIDEOMEM5"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videomem6",
+            "feature": "VIDEOMEM6"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videomemory1",
+            "feature": "VIDEOMEMORY1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videomemory10",
+            "feature": "VIDEOMEMORY10"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videomemory2",
+            "feature": "VIDEOMEMORY2"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videomemory3",
+            "feature": "VIDEOMEMORY3"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videomemory4",
+            "feature": "VIDEOMEMORY4"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videomemory5",
+            "feature": "VIDEOMEMORY5"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videomemory6",
+            "feature": "VIDEOMEMORY6"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videomemory7",
+            "feature": "VIDEOMEMORY7"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videomemory8",
+            "feature": "VIDEOMEMORY8"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videomemory9",
+            "feature": "VIDEOMEMORY9"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videomemoryoff",
+            "feature": "VIDEOMEMORYOFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Video Mode",
+            "feature": "VideoMode"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Video Mute",
+            "feature": "VideoMute"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videomuting",
+            "feature": "VIDEOMUTING"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videos",
+            "feature": "VIDEOS"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Videoselectvids",
+            "feature": "VIDEOSELECTVIDS"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vidmemoff",
+            "feature": "VIDMEMOFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Viera Link",
+            "feature": "VieraLink"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vkeystone",
+            "feature": "VKeystone"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vkeystonedown",
+            "feature": "VKEYSTONEDOWN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vkeystoneup",
+            "feature": "VKEYSTONEUP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vmode",
+            "feature": "VMode"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vmute",
+            "feature": "VMUTE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vol D",
+            "feature": "VolD"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vol Dwn",
+            "feature": "VolDwn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Volmode",
+            "feature": "VOLMODE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vol U",
+            "feature": "VolU"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Volume Down",
+            "feature": "VolumeDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Volume M",
+            "feature": "VolumeM"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Volumememorya",
+            "feature": "VOLUMEMEMORYA"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Volumememoryb",
+            "feature": "VOLUMEMEMORYB"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Volumememoryc",
+            "feature": "VOLUMEMEMORYC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Volumemode",
+            "feature": "VOLUMEMODE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Volume P",
+            "feature": "VolumeP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Volumerecalla",
+            "feature": "VOLUMERECALLA"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Volumerecallb",
+            "feature": "VOLUMERECALLB"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Volumerecallc",
+            "feature": "VOLUMERECALLC"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Volume Up",
+            "feature": "VolumeUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Volumev",
+            "feature": "VOLUMEV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Volv",
+            "feature": "VOLV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vpos",
+            "feature": "VPOS"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vposdown",
+            "feature": "VPOSDOWN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vposup",
+            "feature": "VPOSUP"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vstretchoff",
+            "feature": "VSTRETCHOFF"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vstretchon",
+            "feature": "VSTRETCHON"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Vup",
+            "feature": "Vup"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Waveform",
+            "feature": "Waveform"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Wb Bias",
+            "feature": "WbBias"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Wb Gain",
+            "feature": "WbGain"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Wb Pin",
+            "feature": "WbPin"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Wb Zone",
+            "feature": "WbZone"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Wide",
+            "feature": "Wide"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Wideenhanced",
+            "feature": "WIDEENHANCED"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Widemode",
+            "feature": "WIDEMODE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Widescreen",
+            "feature": "WIDESCREEN"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Window",
+            "feature": "WINDOW"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Windowv",
+            "feature": "WINDOWV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Wireless",
+            "feature": "Wireless"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Xmcategory",
+            "feature": "XMCATEGORY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Xmdisplay",
+            "feature": "XMDISPLAY"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Xmenter",
+            "feature": "XMENTER"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ycrcb",
+            "feature": "YCRCB"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Yellow",
+            "feature": "Yellow"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Ypb Pr",
+            "feature": "YPbPr"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Zoom",
+            "feature": "Zoom"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Zoomaspect",
+            "feature": "ZOOMASPECT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Zoom Dn",
+            "feature": "ZoomDn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Zoom Down",
+            "feature": "ZoomDown"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Zoom Dwn",
+            "feature": "ZoomDwn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Zoom In",
+            "feature": "ZoomIn"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Zoom Minus",
+            "feature": "ZoomMinus"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Zoom Moins",
+            "feature": "ZoomMoins"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Zoomnarrow",
+            "feature": "ZOOMNARROW"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Zoom Out",
+            "feature": "ZoomOut"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Zoom Plus",
+            "feature": "ZoomPlus"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Zoom T",
+            "feature": "ZoomT"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Zoom Up",
+            "feature": "ZoomUp"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Zoomv",
+            "feature": "ZOOMV"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Zoom W",
+            "feature": "ZoomW"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Zoomwide",
+            "feature": "ZOOMWIDE"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Zoomzoom1",
+            "feature": "ZOOMZOOM1"
+          }
+        ],
+        [
+          {
+            "type": "button",
+            "label": "Zooomt",
+            "feature": "ZOOOMT"
+          }
+        ]
+      ]
+    }
+  ]
+}
