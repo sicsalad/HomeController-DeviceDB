@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.380",
-  "versionCode": 1790813041,
-  "publishedUtc": "2026-10-01T00:04:01Z",
-  "commit": "4f0a459d285cb0919c4a294b0a2e5006982ac9e2",
-  "patchNotes": "Add complete DeviceDB generation pipeline"
+  "version": "1.0.381",
+  "versionCode": 1790813053,
+  "publishedUtc": "2026-10-01T00:04:13Z",
+  "commit": "8a2a0b0b161de5c3d07db86ebe3fbe47ec67514f",
+  "patchNotes": "Run complete DeviceDB generation pipeline"
 }
