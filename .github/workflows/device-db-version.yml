@@ -5,6 +5,7 @@ on:
     branches:
       - main
     paths-ignore:
+      - 'version.json'
       - 'metadata/version.json'
       - 'metadata/changelog.json'
       - 'releases/homecontroller/**'
@@ -45,6 +46,11 @@ jobs:
           commit = "${GITHUB_SHA}"
           note = os.environ.get("PATCH_NOTE", "DeviceDB content updated.").strip()
 
+          # HomeController currently checks /version.json. Keep that marker in
+          # lockstep with the richer metadata version so cached UI templates are
+          # invalidated whenever DeviceDB content changes.
+          Path("version.json").write_text(json.dumps({"schemaVersion": 1, "version": version}, indent=2) + "\n", encoding="utf-8")
+
           Path("metadata").mkdir(parents=True, exist_ok=True)
           info = {
               "schemaVersion": 1,
@@ -62,12 +68,7 @@ jobs:
           except Exception:
               catalog = {"schemaVersion": 1, "releases": []}
           releases = catalog.setdefault("releases", [])
-          releases.append({
-              "version": version,
-              "versionCode": code,
-              "publishedUtc": published,
-              "notes": note
-          })
+          releases.append({"version": version, "versionCode": code, "publishedUtc": published, "notes": note})
           releases[:] = sorted(releases, key=lambda x: int(x.get("versionCode", 0)))[-200:]
           catalog["schemaVersion"] = 1
           p.write_text(json.dumps(catalog, indent=2) + "\n", encoding="utf-8")
@@ -75,6 +76,6 @@ jobs:
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add metadata/version.json metadata/changelog.json
+          git add version.json metadata/version.json metadata/changelog.json
           git commit -m "Version DeviceDB ${VERSION} [skip ci]" || exit 0
           git push
