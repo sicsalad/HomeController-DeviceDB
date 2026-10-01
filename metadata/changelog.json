@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.140",
-      "versionCode": 1788392072,
-      "publishedUtc": "2026-09-02T23:34:32Z",
-      "notes": "Publish PC Agent 1.0.5"
-    },
-    {
       "version": "1.0.141",
       "versionCode": 1788433388,
       "publishedUtc": "2026-09-03T11:03:08Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1790881297,
       "publishedUtc": "2026-10-01T19:01:37Z",
       "notes": "Add premium modern Dust Collector IR template"
+    },
+    {
+      "version": "1.0.414",
+      "versionCode": 1790881318,
+      "publishedUtc": "2026-10-01T19:01:58Z",
+      "notes": "Add premium modern Humidifier IR template"
     }
   ]
 }
