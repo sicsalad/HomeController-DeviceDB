@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.145",
-      "versionCode": 1788526235,
-      "publishedUtc": "2026-09-04T12:50:35Z",
-      "notes": "Publish PC Agent 1.0.19"
-    },
-    {
       "version": "1.0.146",
       "versionCode": 1788527569,
       "publishedUtc": "2026-09-04T13:12:49Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1790881423,
       "publishedUtc": "2026-10-01T19:03:43Z",
       "notes": "Add premium modern Vacuum IR template"
+    },
+    {
+      "version": "1.0.424",
+      "versionCode": 1790881450,
+      "publishedUtc": "2026-10-01T19:04:10Z",
+      "notes": "Register additional premium modern IR templates"
     }
   ]
 }

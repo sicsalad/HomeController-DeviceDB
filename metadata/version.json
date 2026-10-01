@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.423",
-  "versionCode": 1790881423,
-  "publishedUtc": "2026-10-01T19:03:43Z",
-  "commit": "6967065e806f9714afaa46bde31063c7e7656eb2",
-  "patchNotes": "Add premium modern Vacuum IR template"
+  "version": "1.0.424",
+  "versionCode": 1790881450,
+  "publishedUtc": "2026-10-01T19:04:10Z",
+  "commit": "59f4f8af95510562db9b85d9edfe0250e1612691",
+  "patchNotes": "Register additional premium modern IR templates"
 }
