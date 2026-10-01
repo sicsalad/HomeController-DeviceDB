@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.415",
-  "versionCode": 1790881338,
-  "publishedUtc": "2026-10-01T19:02:18Z",
-  "commit": "dd52a4d1a3704bcac2e2215f752ecb10e7c00235",
-  "patchNotes": "Add premium modern LaserDisc IR template"
+  "version": "1.0.417",
+  "versionCode": 1790881358,
+  "publishedUtc": "2026-10-01T19:02:38Z",
+  "commit": "af0b6ceff9a0337afbb51cd1c62c733ec7c488c3",
+  "patchNotes": "Add premium modern Monitor IR template"
 }

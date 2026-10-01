@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.142",
-      "versionCode": 1788433441,
-      "publishedUtc": "2026-09-03T11:04:01Z",
-      "notes": "Publish PC Agent 1.0.7"
-    },
-    {
       "version": "1.0.143",
       "versionCode": 1788450921,
       "publishedUtc": "2026-09-03T15:55:21Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1790881338,
       "publishedUtc": "2026-10-01T19:02:18Z",
       "notes": "Add premium modern LaserDisc IR template"
+    },
+    {
+      "version": "1.0.417",
+      "versionCode": 1790881358,
+      "publishedUtc": "2026-10-01T19:02:38Z",
+      "notes": "Add premium modern Monitor IR template"
     }
   ]
 }
