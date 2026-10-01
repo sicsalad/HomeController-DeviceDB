@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.411",
-  "versionCode": 1790881287,
-  "publishedUtc": "2026-10-01T19:01:27Z",
-  "commit": "76d5a55fe9e2cb4d18b84de6e68d06420a639a05",
-  "patchNotes": "Add premium modern Digital Sign IR template"
+  "version": "1.0.412",
+  "versionCode": 1790881297,
+  "publishedUtc": "2026-10-01T19:01:37Z",
+  "commit": "969d9e2036b3a6a15bcf204f235f14ac7946fed1",
+  "patchNotes": "Add premium modern Dust Collector IR template"
 }

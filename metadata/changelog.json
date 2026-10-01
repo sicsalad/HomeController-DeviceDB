@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.138",
-      "versionCode": 1788369506,
-      "publishedUtc": "2026-09-02T17:18:26Z",
-      "notes": "Run UI localization migration once"
-    },
-    {
       "version": "1.0.140",
       "versionCode": 1788392072,
       "publishedUtc": "2026-09-02T23:34:32Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1790881287,
       "publishedUtc": "2026-10-01T19:01:27Z",
       "notes": "Add premium modern Digital Sign IR template"
+    },
+    {
+      "version": "1.0.412",
+      "versionCode": 1790881297,
+      "publishedUtc": "2026-10-01T19:01:37Z",
+      "notes": "Add premium modern Dust Collector IR template"
     }
   ]
 }
