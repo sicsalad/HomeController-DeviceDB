@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
-"""Generate learning feature IDs grouped by device type.
+"""Generate learning feature IDs grouped by canonical DeviceDB device type.
 
-The order of feature IDs for every device type follows learning-feature-order.json.
-Features tagged with deviceTypes=["all"] are included for every known device type.
-Each device type is deliberately written on one JSON line for easy review/editing.
+Only IDs declared in device-types.json are emitted. Raw/source-specific type names in
+the function catalog are evidence, not UI device types.
 """
 from __future__ import annotations
 import json
@@ -15,34 +14,19 @@ LEARNING_ORDER = ROOT / "learning-feature-order.json"
 OUTPUT = ROOT / "learning-features-by-device-type.json"
 
 
-def collect_known_device_types(order: list[dict]) -> list[str]:
+def canonical_device_types() -> list[str]:
+    payload = json.loads(DEVICE_TYPES.read_text(encoding="utf-8"))
+    candidates = payload if isinstance(payload, list) else payload.get("deviceTypes", [])
     result: list[str] = []
     seen: set[str] = set()
-
-    if DEVICE_TYPES.exists():
-        payload = json.loads(DEVICE_TYPES.read_text(encoding="utf-8"))
-        candidates = payload if isinstance(payload, list) else payload.get("deviceTypes", [])
-        for item in candidates:
-            if isinstance(item, str):
-                device_type = item.strip()
-            elif isinstance(item, dict):
-                device_type = str(item.get("id") or item.get("type") or item.get("name") or "").strip()
-            else:
-                device_type = ""
-            key = device_type.lower()
-            if device_type and key != "all" and key not in seen:
-                seen.add(key)
-                result.append(device_type)
-
-    # Never lose a type merely because device-types.json uses a different schema.
-    for feature in order:
-        for raw_type in feature.get("deviceTypes") or ["all"]:
-            device_type = str(raw_type).strip()
-            key = device_type.lower()
-            if device_type and key != "all" and key not in seen:
-                seen.add(key)
-                result.append(device_type)
-
+    for item in candidates:
+        device_type = item.strip() if isinstance(item, str) else str(item.get("id") or "").strip() if isinstance(item, dict) else ""
+        key = device_type.lower()
+        if device_type and key != "all" and key not in seen:
+            seen.add(key)
+            result.append(device_type)
+    if not result:
+        raise SystemExit("device-types.json contains no canonical device type IDs")
     return result
 
 
@@ -51,7 +35,8 @@ def main() -> int:
     if not isinstance(order, list):
         raise SystemExit("learning-feature-order.json must contain a JSON array")
 
-    device_types = collect_known_device_types(order)
+    device_types = canonical_device_types()
+    canonical_by_key = {value.lower(): value for value in device_types}
     grouped: dict[str, list[str]] = {device_type: [] for device_type in device_types}
 
     for feature in order:
@@ -59,10 +44,13 @@ def main() -> int:
         if not feature_id:
             continue
         feature_types = [str(value).strip() for value in (feature.get("deviceTypes") or ["all"])]
-        applies_to_all = any(value.lower() == "all" for value in feature_types)
-        allowed = {value.lower() for value in feature_types}
-        for device_type in device_types:
-            if applies_to_all or device_type.lower() in allowed:
+        if any(value.lower() == "all" for value in feature_types):
+            for device_type in device_types:
+                grouped[device_type].append(feature_id)
+            continue
+        for raw_type in feature_types:
+            device_type = canonical_by_key.get(raw_type.lower())
+            if device_type is not None:
                 grouped[device_type].append(feature_id)
 
     with OUTPUT.open("w", encoding="utf-8", newline="\n") as handle:
@@ -72,7 +60,7 @@ def main() -> int:
             handle.write(json.dumps(device_type, ensure_ascii=False) + ":" + json.dumps(grouped[device_type], ensure_ascii=False, separators=(",", ":")) + suffix + "\n")
         handle.write("}\n")
 
-    print(f"Wrote {len(device_types)} device types to {OUTPUT}")
+    print(f"Wrote {len(device_types)} canonical device types to {OUTPUT}")
     return 0
 
 
