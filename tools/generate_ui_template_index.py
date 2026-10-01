@@ -1,11 +1,5 @@
 #!/usr/bin/env python3
-"""Synchronize ui-templates/index.json with every DeviceDB UI template.
-
-The index is derived from the JSON template files in ui-templates/.  This keeps
-hand-authored/premium templates and generated learning-list templates equally
-discoverable.  Existing index metadata is preserved when possible; missing
-entries are created from the template's own id/name/deviceType/transport data.
-"""
+"""Synchronize ui-templates/index.json with every DeviceDB UI template."""
 from __future__ import annotations
 import json
 from pathlib import Path
@@ -49,22 +43,32 @@ def main() -> int:
             raise SystemExit(f"Duplicate UI template id {template_id}: {path.name}")
         entry = dict(existing.get(template_id, {}))
         entry["id"] = template_id
+        # HomeController's UiTemplateIndexEntry consumes `path`; `file` is only
+        # optional descriptive metadata. Missing path makes the whole catalog
+        # refresh fail and leaves the mobile app on its previous cached index.
+        entry["path"] = path.name
         entry["file"] = path.name
-        for field in ("name", "deviceType", "transport"):
-            if template.get(field) is not None:
-                entry[field] = template[field]
+        entry.setdefault("status", "stable")
+        if template.get("access") is not None:
+            entry["access"] = template["access"]
+        else:
+            entry.setdefault("access", "free" if "learning-list" in template_id else "premium")
+        if template.get("name") is not None:
+            entry["name"] = template["name"]
+        if template.get("deviceTypeId") is not None:
+            entry["deviceType"] = template["deviceTypeId"]
+        if template.get("connections"):
+            connections = template["connections"]
+            if isinstance(connections, list) and connections:
+                entry["transport"] = "ir" if str(connections[0]).lower() == "infrared" else str(connections[0]).lower()
         discovered[template_id] = entry
-
-    stale = sorted(set(existing) - set(discovered))
-    if stale:
-        print("Removing stale index entries: " + ", ".join(stale))
 
     new_entries = [discovered[k] for k in sorted(discovered, key=str.lower)]
     output = new_entries if container is None else dict(container[0])
     if container is not None:
         output[container[1]] = new_entries
     INDEX_FILE.write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"Indexed {len(new_entries)} UI templates ({len(set(discovered) - set(existing))} added)")
+    print(f"Indexed {len(new_entries)} UI templates; every entry has a loadable path.")
     return 0
 
 
