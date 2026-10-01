@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.394",
-  "versionCode": 1790880665,
-  "publishedUtc": "2026-10-01T18:51:05Z",
-  "commit": "2eb81ee17b222c010b260144cfd4128718640609",
-  "patchNotes": "Add modern DVD IR template"
+  "version": "1.0.395",
+  "versionCode": 1790880685,
+  "publishedUtc": "2026-10-01T18:51:25Z",
+  "commit": "3aa5ef6e1c2c85d70c0b3d2106f6109bcdab1be8",
+  "patchNotes": "Add modern streaming device IR template"
 }
