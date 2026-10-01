@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.103",
-      "versionCode": 1788000631,
-      "publishedUtc": "2026-08-29T10:50:31Z",
-      "notes": "Register infrared fan UI template"
-    },
-    {
       "version": "1.0.104",
       "versionCode": 1788002089,
       "publishedUtc": "2026-08-29T11:14:49Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1790813053,
       "publishedUtc": "2026-10-01T00:04:13Z",
       "notes": "Run complete DeviceDB generation pipeline"
+    },
+    {
+      "version": "1.0.382",
+      "versionCode": 1790879151,
+      "publishedUtc": "2026-10-01T18:25:51Z",
+      "notes": "Generate learning UI templates for every device type"
     }
   ]
 }
