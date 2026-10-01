@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.122",
-      "versionCode": 1788220975,
-      "publishedUtc": "2026-09-01T00:02:55Z",
-      "notes": "Validate Hue and simple IR renderers"
-    },
-    {
       "version": "1.0.128",
       "versionCode": 1788290398,
       "publishedUtc": "2026-09-01T19:19:58Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1790880725,
       "publishedUtc": "2026-10-01T18:52:05Z",
       "notes": "Add modern camera IR template"
+    },
+    {
+      "version": "1.0.400",
+      "versionCode": 1790880738,
+      "publishedUtc": "2026-10-01T18:52:18Z",
+      "notes": "Add modern CCTV IR template"
     }
   ]
 }
