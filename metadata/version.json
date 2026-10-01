@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.418",
-  "versionCode": 1790881374,
-  "publishedUtc": "2026-10-01T19:02:54Z",
-  "commit": "b2a4c01cc50f14bef519a35cc2fcfb7d3a372cec",
-  "patchNotes": "Add premium modern MiniDisc IR template"
+  "version": "1.0.423",
+  "versionCode": 1790881423,
+  "publishedUtc": "2026-10-01T19:03:43Z",
+  "commit": "6967065e806f9714afaa46bde31063c7e7656eb2",
+  "patchNotes": "Add premium modern Vacuum IR template"
 }
