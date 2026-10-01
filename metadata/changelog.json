@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.104",
-      "versionCode": 1788002089,
-      "publishedUtc": "2026-08-29T11:14:49Z",
-      "notes": "Add SilverCrest SSVS 85 A1 fan IR codeset"
-    },
-    {
       "version": "1.0.105",
       "versionCode": 1788002228,
       "publishedUtc": "2026-08-29T11:17:08Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1790879151,
       "publishedUtc": "2026-10-01T18:25:51Z",
       "notes": "Generate learning UI templates for every device type"
+    },
+    {
+      "version": "1.0.383",
+      "versionCode": 1790879171,
+      "publishedUtc": "2026-10-01T18:26:11Z",
+      "notes": "Generate learning UI templates in DeviceDB pipeline"
     }
   ]
 }
