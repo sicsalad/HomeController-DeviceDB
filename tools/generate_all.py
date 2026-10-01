@@ -10,6 +10,7 @@ STEPS = [
     "generate_function_catalog.py",
     "generate_learning_feature_order.py",
     "generate_learning_features_by_device_type.py",
+    "generate_learning_ui_templates.py",
 ]
 
 
@@ -18,7 +19,7 @@ def main() -> int:
         path = TOOLS / script
         print(f"\n=== Running {script} ===", flush=True)
         subprocess.run([sys.executable, str(path)], check=True)
-    print("\nAll DeviceDB generated files are up to date.")
+    print("\nAll DeviceDB generated files and learning UI templates are up to date.")
     return 0
 
 
