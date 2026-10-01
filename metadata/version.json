@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.398",
-  "versionCode": 1790880715,
-  "publishedUtc": "2026-10-01T18:51:55Z",
-  "commit": "92f27e831ab13a949067d7fe6aeba8b72fec1a41",
-  "patchNotes": "Add modern air purifier IR template"
+  "version": "1.0.399",
+  "versionCode": 1790880725,
+  "publishedUtc": "2026-10-01T18:52:05Z",
+  "commit": "0e5c56b844148be2b6de8a6174e54f73a87c9357",
+  "patchNotes": "Add modern camera IR template"
 }
