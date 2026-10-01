@@ -2,7 +2,23 @@ name: Function catalog - DeviceDB
 on:
   push:
     branches: [ main ]
-    paths: ['ui-templates/**','ir/**','wifi/**','codesets/**','devices/**','generated/**','protocols/**','database.json','catalog-v2.json','curated-database.json','device-types.json','tools/generate_function_catalog.py']
+    paths:
+      - 'ui-templates/**'
+      - 'ir/**'
+      - 'wifi/**'
+      - 'codesets/**'
+      - 'devices/**'
+      - 'generated/**'
+      - 'protocols/**'
+      - 'database.json'
+      - 'catalog-v2.json'
+      - 'curated-database.json'
+      - 'device-types.json'
+      - 'learning-feature-order.json'
+      - 'tools/generate_function_catalog.py'
+      - 'tools/generate_learning_feature_order.py'
+      - 'tools/generate_learning_features_by_device_type.py'
+      - 'tools/generate_all.py'
   workflow_dispatch:
 permissions: { contents: write }
 jobs:
@@ -13,18 +29,33 @@ jobs:
         with: { fetch-depth: 0 }
       - uses: actions/setup-python@v5
         with: { python-version: '3.12' }
-      - name: Scan local DeviceDB only
-        run: python tools/generate_function_catalog.py
-      - name: Verify local coverage
+      - name: Generate complete DeviceDB learning data
+        run: python tools/generate_all.py
+      - name: Verify generated coverage
         run: |
           python - <<'PY'
           import json
-          d=json.load(open('function-catalog.json',encoding='utf-8')); by={x['id']:x for x in d['functions']}
-          for required in ('VolumeUp','Turbo','FootballMode'): assert required in by, f'{required} missing'
+
+          catalog=json.load(open('function-catalog.json',encoding='utf-8'))
+          order=json.load(open('learning-feature-order.json',encoding='utf-8'))
+          by_device=json.load(open('learning-features-by-device-type.json',encoding='utf-8'))
+
+          by={x['id']:x for x in catalog['functions']}
+          for required in ('VolumeUp','Turbo','FootballMode'):
+              assert required in by, f'{required} missing'
           assert 'air-conditioner' in by['Turbo']['deviceTypes']
+
+          catalog_ids={x['id'].lower() for x in catalog['functions']}
+          order_ids=[x['id'].lower() for x in order]
+          assert len(order_ids) == len(set(order_ids)), 'duplicate ID in learning-feature-order.json'
+          assert set(order_ids) == catalog_ids, 'learning-feature-order.json is not a complete catalog projection'
+          assert isinstance(by_device, dict) and by_device, 'learning-features-by-device-type.json is empty'
           PY
-      - name: Commit generated catalog
+      - name: Commit generated DeviceDB files
         run: |
-          if git diff --quiet -- function-catalog.json; then exit 0; fi
-          git config user.name 'github-actions[bot]'; git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add function-catalog.json; git commit -m 'Regenerate DeviceDB function catalog'; git push
+          if git diff --quiet -- function-catalog.json learning-feature-order.json learning-features-by-device-type.json; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add function-catalog.json learning-feature-order.json learning-features-by-device-type.json
+          git commit -m 'Regenerate DeviceDB generated catalogs'
+          git push
