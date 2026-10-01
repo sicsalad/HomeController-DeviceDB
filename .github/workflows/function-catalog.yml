@@ -19,6 +19,7 @@ on:
       - 'tools/generate_learning_feature_order.py'
       - 'tools/generate_learning_features_by_device_type.py'
       - 'tools/generate_learning_ui_templates.py'
+      - 'tools/generate_ui_template_index.py'
       - 'tools/generate_all.py'
   workflow_dispatch:
 permissions: { contents: write }
@@ -30,12 +31,12 @@ jobs:
         with: { fetch-depth: 0 }
       - uses: actions/setup-python@v5
         with: { python-version: '3.12' }
-      - name: Generate complete DeviceDB learning data and templates
+      - name: Generate complete DeviceDB learning data, templates and index
         run: python tools/generate_all.py
       - name: Verify generated coverage
         run: |
           python - <<'PY'
-          import glob, json
+          import glob, json, os
 
           catalog=json.load(open('function-catalog.json',encoding='utf-8'))
           order=json.load(open('learning-feature-order.json',encoding='utf-8'))
@@ -54,6 +55,18 @@ jobs:
 
           lists=glob.glob('ui-templates/ir-*-learning-list.json')
           assert len(lists) == len(by_device), f'expected {len(by_device)} list templates, got {len(lists)}'
+
+          raw_index=json.load(open('ui-templates/index.json',encoding='utf-8'))
+          entries=raw_index if isinstance(raw_index,list) else next((raw_index[k] for k in ('templates','items','entries') if isinstance(raw_index.get(k),list)),None)
+          assert entries is not None, 'ui-templates/index.json has no template array'
+          index_ids={str(x['id']) for x in entries if isinstance(x,dict) and x.get('id')}
+          files=[p for p in glob.glob('ui-templates/*.json') if not p.endswith('/index.json')]
+          template_ids=set()
+          for p in files:
+              obj=json.load(open(p,encoding='utf-8'))
+              if isinstance(obj,dict) and obj.get('id'):
+                  template_ids.add(str(obj['id']))
+          assert index_ids == template_ids, f'ui-templates/index.json coverage mismatch: missing={sorted(template_ids-index_ids)}, stale={sorted(index_ids-template_ids)}'
           PY
       - name: Commit generated DeviceDB files
         run: |
@@ -61,5 +74,5 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add function-catalog.json learning-feature-order.json learning-features-by-device-type.json ui-templates/
-          git commit -m 'Regenerate DeviceDB catalogs and learning templates'
+          git commit -m 'Regenerate DeviceDB catalogs, learning templates and template index'
           git push
