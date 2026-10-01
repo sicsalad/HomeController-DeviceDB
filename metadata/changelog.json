@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.149",
-      "versionCode": 1788532169,
-      "publishedUtc": "2026-09-04T14:29:29Z",
-      "notes": "Publish PC Agent 1.0.23"
-    },
-    {
       "version": "1.0.163",
       "versionCode": 1788543441,
       "publishedUtc": "2026-09-04T17:37:21Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1790895917,
       "publishedUtc": "2026-10-01T23:05:17Z",
       "notes": "Keep UI template index synchronized with generated templates"
+    },
+    {
+      "version": "1.0.428",
+      "versionCode": 1790896680,
+      "publishedUtc": "2026-10-01T23:18:00Z",
+      "notes": "Fix generated UI template index paths"
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.427",
-  "versionCode": 1790895917,
-  "publishedUtc": "2026-10-01T23:05:17Z",
-  "commit": "8bc05b6c5dbb660e11a01e62799fe6910f459f3e",
-  "patchNotes": "Keep UI template index synchronized with generated templates"
+  "version": "1.0.428",
+  "versionCode": 1790896680,
+  "publishedUtc": "2026-10-01T23:18:00Z",
+  "commit": "6690e0cf93c790f37c02ec1ef54cb1175cdc5a39",
+  "patchNotes": "Fix generated UI template index paths"
 }
