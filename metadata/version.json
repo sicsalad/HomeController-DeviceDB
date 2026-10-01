@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.407",
-  "versionCode": 1790881247,
-  "publishedUtc": "2026-10-01T19:00:47Z",
-  "commit": "6726b48990bf2b7b3355436c6a69aea143cfe703",
-  "patchNotes": "Add premium modern Clock IR template"
+  "version": "1.0.411",
+  "versionCode": 1790881287,
+  "publishedUtc": "2026-10-01T19:01:27Z",
+  "commit": "76d5a55fe9e2cb4d18b84de6e68d06420a639a05",
+  "patchNotes": "Add premium modern Digital Sign IR template"
 }

@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.136",
-      "versionCode": 1788368617,
-      "publishedUtc": "2026-09-02T17:03:37Z",
-      "notes": "Publish dynamic Hubitat and dashboard templates"
-    },
-    {
       "version": "1.0.138",
       "versionCode": 1788369506,
       "publishedUtc": "2026-09-02T17:18:26Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1790881247,
       "publishedUtc": "2026-10-01T19:00:47Z",
       "notes": "Add premium modern Clock IR template"
+    },
+    {
+      "version": "1.0.411",
+      "versionCode": 1790881287,
+      "publishedUtc": "2026-10-01T19:01:27Z",
+      "notes": "Add premium modern Digital Sign IR template"
     }
   ]
 }
