@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.384",
-  "versionCode": 1790879183,
-  "publishedUtc": "2026-10-01T18:26:23Z",
-  "commit": "f380793c3a171fe5e9357fd0c31a24d13e008528",
-  "patchNotes": "Commit generated learning UI templates from workflow"
+  "version": "1.0.385",
+  "versionCode": 1790879658,
+  "publishedUtc": "2026-10-01T18:34:18Z",
+  "commit": "4b1bf5fb32c4ef491c1e5b93e70945e69ff35ced",
+  "patchNotes": "Generate only stable command-list templates"
 }

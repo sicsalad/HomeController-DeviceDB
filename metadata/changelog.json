@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.106",
-      "versionCode": 1788200589,
-      "publishedUtc": "2026-08-31T18:23:09Z",
-      "notes": "feat: add device type vector icon pack"
-    },
-    {
       "version": "1.0.107",
       "versionCode": 1788200711,
       "publishedUtc": "2026-08-31T18:25:11Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1790879183,
       "publishedUtc": "2026-10-01T18:26:23Z",
       "notes": "Commit generated learning UI templates from workflow"
+    },
+    {
+      "version": "1.0.385",
+      "versionCode": 1790879658,
+      "publishedUtc": "2026-10-01T18:34:18Z",
+      "notes": "Generate only stable command-list templates"
     }
   ]
 }
