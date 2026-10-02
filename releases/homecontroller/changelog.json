@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1417",
-                         "versionCode":  1789411727,
-                         "publishedUtc":  "2026-09-14T18:53:39Z",
-                         "notes":  "Add encrypted Samsung H-series pairing and remote protocol"
-                     },
-                     {
                          "version":  "1.0.1418",
                          "versionCode":  1789412093,
                          "publishedUtc":  "2026-09-14T18:59:45Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790897393,
                          "publishedUtc":  "2026-10-01T23:39:22Z",
                          "notes":  "Select best available IR template when adding devices"
+                     },
+                     {
+                         "version":  "1.0.1508",
+                         "versionCode":  1790976140,
+                         "publishedUtc":  "2026-10-02T21:31:48Z",
+                         "notes":  "Isolate legacy ad frame and preserve premium design"
                      }
                  ]
 }
