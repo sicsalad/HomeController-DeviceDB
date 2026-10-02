@@ -1,10 +1,11 @@
 {
-  "version": 1,
+  "version": 2,
   "codes": [
     {
       "guid": "5b03d0d1-0177-453c-9b7e-5063865db764",
       "type": "days",
       "value": 30,
+      "product": "premium_complete",
       "maxActivations": 1,
       "description": "Initial HomeController premium test code"
     },
@@ -12,6 +13,7 @@
       "guid": "ad9a318c-2a54-491e-b288-680eaacbf883",
       "type": "permanent",
       "value": 0,
+      "product": "premium_complete",
       "maxActivations": 1,
       "description": "Permanent HomeController premium code"
     }
