@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.170",
-      "versionCode": 1788543489,
-      "publishedUtc": "2026-09-04T17:38:09Z",
-      "notes": "Add centralized pin action image"
-    },
-    {
       "version": "1.0.171",
       "versionCode": 1788543508,
       "publishedUtc": "2026-09-04T17:38:28Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1790896692,
       "publishedUtc": "2026-10-01T23:18:12Z",
       "notes": "Keep mobile DeviceDB version marker current"
+    },
+    {
+      "version": "1.0.430",
+      "versionCode": 1790974519,
+      "publishedUtc": "2026-10-02T20:55:19Z",
+      "notes": "Add premium product type to activation codes"
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.429",
-  "versionCode": 1790896692,
-  "publishedUtc": "2026-10-01T23:18:12Z",
-  "commit": "543587a17dda2a00260a583b9e8fe69508a90632",
-  "patchNotes": "Keep mobile DeviceDB version marker current"
+  "version": "1.0.430",
+  "versionCode": 1790974519,
+  "publishedUtc": "2026-10-02T20:55:19Z",
+  "commit": "76fae2032d088fd489c10f182a02b88b57e42c52",
+  "patchNotes": "Add premium product type to activation codes"
 }
