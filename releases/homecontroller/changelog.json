@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1428",
-                         "versionCode":  1789423441,
-                         "publishedUtc":  "2026-09-14T22:09:14Z",
-                         "notes":  "Add canonical semantic model for integration devices"
-                     },
-                     {
                          "version":  "1.0.1429",
                          "versionCode":  1789423835,
                          "publishedUtc":  "2026-09-14T22:17:37Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1791039719,
                          "publishedUtc":  "2026-10-03T15:09:57Z",
                          "notes":  "Show BLE sensor values in aligned three-column reference table"
+                     },
+                     {
+                         "version":  "1.0.1519",
+                         "versionCode":  1791042551,
+                         "publishedUtc":  "2026-10-03T15:57:06Z",
+                         "notes":  "Fix ambiguous Device type in sensor history page"
                      }
                  ]
 }
