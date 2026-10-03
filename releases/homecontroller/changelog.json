@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1436",
-                         "versionCode":  1789451868,
-                         "publishedUtc":  "2026-09-15T06:02:40Z",
-                         "notes":  "Route H-series commands through proven encrypted transport"
-                     },
-                     {
                          "version":  "1.0.1437",
                          "versionCode":  1789452967,
                          "publishedUtc":  "2026-09-15T06:20:59Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1791062618,
                          "publishedUtc":  "2026-10-03T21:33:56Z",
                          "notes":  "Fix ad grid overlap after premium state changes"
+                     },
+                     {
+                         "version":  "1.0.1527",
+                         "versionCode":  1791064179,
+                         "publishedUtc":  "2026-10-03T22:05:45Z",
+                         "notes":  "Keep Home layout stable during background refresh"
                      }
                  ]
 }
