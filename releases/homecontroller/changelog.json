@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1435",
-                         "versionCode":  1789450460,
-                         "publishedUtc":  "2026-09-15T05:39:14Z",
-                         "notes":  "Add websocket namespace for H-Series retry"
-                     },
-                     {
                          "version":  "1.0.1436",
                          "versionCode":  1789451868,
                          "publishedUtc":  "2026-09-15T06:02:40Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1791061405,
                          "publishedUtc":  "2026-10-03T21:12:12Z",
                          "notes":  "Add table and line/point modes to sensor history"
+                     },
+                     {
+                         "version":  "1.0.1526",
+                         "versionCode":  1791062618,
+                         "publishedUtc":  "2026-10-03T21:33:56Z",
+                         "notes":  "Fix ad grid overlap after premium state changes"
                      }
                  ]
 }
