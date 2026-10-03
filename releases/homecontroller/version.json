@@ -11,6 +11,6 @@
     "developmentVersionCode":  1790986184,
     "developmentCommit":  "340b231d2cca9844b5b98a214a80a4da20f6e52f",
     "developmentBranch":  "feature/device-db-v1",
-    "developmentUpdatedUtc":  "2026-10-03T00:09:44Z",
-    "buildStatus":  "building"
+    "developmentUpdatedUtc":  "2026-10-03T00:13:00Z",
+    "buildStatus":  "failed"
 }
