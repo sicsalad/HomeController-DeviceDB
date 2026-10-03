@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1433",
-                         "versionCode":  1789448999,
-                         "publishedUtc":  "2026-09-15T05:14:44Z",
-                         "notes":  "Fix default multi-audio local playback sound"
-                     },
-                     {
                          "version":  "1.0.1434",
                          "versionCode":  1789449356,
                          "publishedUtc":  "2026-09-15T05:20:52Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1791050556,
                          "publishedUtc":  "2026-10-03T18:11:02Z",
                          "notes":  "Fix initial home ad/device layout overlap"
+                     },
+                     {
+                         "version":  "1.0.1524",
+                         "versionCode":  1791052955,
+                         "publishedUtc":  "2026-10-03T18:50:36Z",
+                         "notes":  "Fix MAUI build errors in home layout commit"
                      }
                  ]
 }
