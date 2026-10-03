@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1420",
-                         "versionCode":  1789415588,
-                         "publishedUtc":  "2026-09-14T19:58:22Z",
-                         "notes":  "Fix Samsung H-series command socket timing"
-                     },
-                     {
                          "version":  "1.0.1421",
                          "versionCode":  1789415976,
                          "publishedUtc":  "2026-09-14T20:04:33Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1791022287,
                          "publishedUtc":  "2026-10-03T10:19:44Z",
                          "notes":  "Restore missing scoped style merge helper"
+                     },
+                     {
+                         "version":  "1.0.1511",
+                         "versionCode":  1791029806,
+                         "publishedUtc":  "2026-10-03T12:24:32Z",
+                         "notes":  "Fix stale device navigation cache reference"
                      }
                  ]
 }
