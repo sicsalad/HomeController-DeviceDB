@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1425",
-                         "versionCode":  1789418865,
-                         "publishedUtc":  "2026-09-14T20:51:54Z",
-                         "notes":  "Ignore optional H-series companion startService 404"
-                     },
-                     {
                          "version":  "1.0.1426",
                          "versionCode":  1789420201,
                          "publishedUtc":  "2026-09-14T21:14:56Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1791037103,
                          "publishedUtc":  "2026-10-03T14:28:22Z",
                          "notes":  "Fix startup ad overlap and scrolling crash by making ad layout idempotent"
+                     },
+                     {
+                         "version":  "1.0.1516",
+                         "versionCode":  1791037779,
+                         "publishedUtc":  "2026-10-03T14:38:13Z",
+                         "notes":  "Rebuild home screen after device drag drop"
                      }
                  ]
 }
