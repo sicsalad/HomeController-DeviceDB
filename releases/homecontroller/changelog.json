@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1431",
-                         "versionCode":  1789426686,
-                         "publishedUtc":  "2026-09-14T23:06:03Z",
-                         "notes":  "Expose writable Google Home volume capability from media traits"
-                     },
-                     {
                          "version":  "1.0.1432",
                          "versionCode":  1789448473,
                          "publishedUtc":  "2026-09-15T05:06:43Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1791047936,
                          "publishedUtc":  "2026-10-03T17:27:32Z",
                          "notes":  "Make premium home layout cached and drag-safe"
+                     },
+                     {
+                         "version":  "1.0.1522",
+                         "versionCode":  1791048526,
+                         "publishedUtc":  "2026-10-03T17:36:50Z",
+                         "notes":  "Keep premium products independent in activation panel"
                      }
                  ]
 }
