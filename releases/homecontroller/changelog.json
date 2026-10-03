@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1438",
-                         "versionCode":  1789501581,
-                         "publishedUtc":  "2026-09-15T19:52:18Z",
-                         "notes":  "docs: add video player troubleshooting history"
-                     },
-                     {
                          "version":  "1.0.1439",
                          "versionCode":  1789502011,
                          "publishedUtc":  "2026-09-15T19:57:31Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1791066018,
                          "publishedUtc":  "2026-10-03T22:29:53Z",
                          "notes":  "Install DeviceDB only from explicit Settings refresh"
+                     },
+                     {
+                         "version":  "1.0.1529",
+                         "versionCode":  1791068081,
+                         "publishedUtc":  "2026-10-03T23:09:37Z",
+                         "notes":  "Fix home screen bottom scrolling"
                      }
                  ]
 }
