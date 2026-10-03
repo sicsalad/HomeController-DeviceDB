@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1426",
-                         "versionCode":  1789420201,
-                         "publishedUtc":  "2026-09-14T21:14:56Z",
-                         "notes":  "Fix Samsung H-series build error in websocket receive"
-                     },
-                     {
                          "version":  "1.0.1427",
                          "versionCode":  1789420816,
                          "publishedUtc":  "2026-09-14T21:27:00Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1791037779,
                          "publishedUtc":  "2026-10-03T14:38:13Z",
                          "notes":  "Rebuild home screen after device drag drop"
+                     },
+                     {
+                         "version":  "1.0.1517",
+                         "versionCode":  1791039164,
+                         "publishedUtc":  "2026-10-03T15:00:44Z",
+                         "notes":  "Render home devices and ads as one final layout pass"
                      }
                  ]
 }
