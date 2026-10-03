@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1427",
-                         "versionCode":  1789420816,
-                         "publishedUtc":  "2026-09-14T21:27:00Z",
-                         "notes":  "Align Samsung H-series command sender with encrypted v1 protocol"
-                     },
-                     {
                          "version":  "1.0.1428",
                          "versionCode":  1789423441,
                          "publishedUtc":  "2026-09-14T22:09:14Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1791039164,
                          "publishedUtc":  "2026-10-03T15:00:44Z",
                          "notes":  "Render home devices and ads as one final layout pass"
+                     },
+                     {
+                         "version":  "1.0.1518",
+                         "versionCode":  1791039719,
+                         "publishedUtc":  "2026-10-03T15:09:57Z",
+                         "notes":  "Show BLE sensor values in aligned three-column reference table"
                      }
                  ]
 }
