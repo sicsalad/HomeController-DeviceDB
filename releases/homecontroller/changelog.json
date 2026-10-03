@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1429",
-                         "versionCode":  1789423835,
-                         "publishedUtc":  "2026-09-14T22:17:37Z",
-                         "notes":  "Preserve Cast controls in semantic Google Home UI"
-                     },
-                     {
                          "version":  "1.0.1430",
                          "versionCode":  1789426113,
                          "publishedUtc":  "2026-09-14T22:56:50Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1791042551,
                          "publishedUtc":  "2026-10-03T15:57:06Z",
                          "notes":  "Fix ambiguous Device type in sensor history page"
+                     },
+                     {
+                         "version":  "1.0.1520",
+                         "versionCode":  1791045854,
+                         "publishedUtc":  "2026-10-03T16:53:13Z",
+                         "notes":  "Hide home grid until deterministic layout is ready"
                      }
                  ]
 }
