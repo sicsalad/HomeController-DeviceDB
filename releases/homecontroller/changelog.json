@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1419",
-                         "versionCode":  1789414601,
-                         "publishedUtc":  "2026-09-14T19:41:42Z",
-                         "notes":  "Fix Samsung H-series identity storage on Android"
-                     },
-                     {
                          "version":  "1.0.1420",
                          "versionCode":  1789415588,
                          "publishedUtc":  "2026-09-14T19:58:22Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1790981432,
                          "publishedUtc":  "2026-10-02T22:59:52Z",
                          "notes":  "Fix SettingsService build error"
+                     },
+                     {
+                         "version":  "1.0.1510",
+                         "versionCode":  1791022287,
+                         "publishedUtc":  "2026-10-03T10:19:44Z",
+                         "notes":  "Restore missing scoped style merge helper"
                      }
                  ]
 }
