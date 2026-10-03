@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1432",
-                         "versionCode":  1789448473,
-                         "publishedUtc":  "2026-09-15T05:06:43Z",
-                         "notes":  "Fix multi-audio playback and Cast audio compatibility"
-                     },
-                     {
                          "version":  "1.0.1433",
                          "versionCode":  1789448999,
                          "publishedUtc":  "2026-09-15T05:14:44Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1791048526,
                          "publishedUtc":  "2026-10-03T17:36:50Z",
                          "notes":  "Keep premium products independent in activation panel"
+                     },
+                     {
+                         "version":  "1.0.1523",
+                         "versionCode":  1791050556,
+                         "publishedUtc":  "2026-10-03T18:11:02Z",
+                         "notes":  "Fix initial home ad/device layout overlap"
                      }
                  ]
 }
