@@ -8,9 +8,9 @@
     "releaseNotes":  "Latest signed HomeController Android build from feature/device-db-v1.",
     "sha256":  "2c24d299931c9d8259141afc7c4984b4f8c34941e0f85ae0de1c2d096d94cfdf",
     "developmentVersion":  "1.0.1510",
-    "developmentVersionCode":  1791007023,
+    "developmentVersionCode":  1791007217,
     "developmentCommit":  "37588ec3f36f701f150bc80c5ca2ed6717064c1a",
     "developmentBranch":  "feature/device-db-v1",
-    "developmentUpdatedUtc":  "2026-10-03T05:59:05Z",
-    "buildStatus":  "failed"
+    "developmentUpdatedUtc":  "2026-10-03T06:00:17Z",
+    "buildStatus":  "building"
 }
