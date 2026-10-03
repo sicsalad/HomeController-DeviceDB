@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1422",
-                         "versionCode":  1789416714,
-                         "publishedUtc":  "2026-09-14T20:16:50Z",
-                         "notes":  "Fix Samsung H-series encrypted command transport and DUID handshake"
-                     },
-                     {
                          "version":  "1.0.1423",
                          "versionCode":  1789417940,
                          "publishedUtc":  "2026-09-14T20:37:14Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1791032305,
                          "publishedUtc":  "2026-10-03T13:06:26Z",
                          "notes":  "Stabilize ad layout and reduce ad density to one per two devices"
+                     },
+                     {
+                         "version":  "1.0.1513",
+                         "versionCode":  1791032860,
+                         "publishedUtc":  "2026-10-03T13:15:31Z",
+                         "notes":  "Reconnect saved BLE profiles before reporting offline"
                      }
                  ]
 }
