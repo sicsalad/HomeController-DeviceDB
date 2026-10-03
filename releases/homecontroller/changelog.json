@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1423",
-                         "versionCode":  1789417940,
-                         "publishedUtc":  "2026-09-14T20:37:14Z",
-                         "notes":  "Route Samsung H-series TV UI commands through editable bindings"
-                     },
-                     {
                          "version":  "1.0.1424",
                          "versionCode":  1789418308,
                          "publishedUtc":  "2026-09-14T20:43:28Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1791032860,
                          "publishedUtc":  "2026-10-03T13:15:31Z",
                          "notes":  "Reconnect saved BLE profiles before reporting offline"
+                     },
+                     {
+                         "version":  "1.0.1514",
+                         "versionCode":  1791034324,
+                         "publishedUtc":  "2026-10-03T13:40:24Z",
+                         "notes":  "Automatically rediscover BLE device when fast refresh fails"
                      }
                  ]
 }
