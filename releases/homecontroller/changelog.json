@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1430",
-                         "versionCode":  1789426113,
-                         "publishedUtc":  "2026-09-14T22:56:50Z",
-                         "notes":  "Route Google Home volume commands through isolated bridge"
-                     },
-                     {
                          "version":  "1.0.1431",
                          "versionCode":  1789426686,
                          "publishedUtc":  "2026-09-14T23:06:03Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1791045854,
                          "publishedUtc":  "2026-10-03T16:53:13Z",
                          "notes":  "Hide home grid until deterministic layout is ready"
+                     },
+                     {
+                         "version":  "1.0.1521",
+                         "versionCode":  1791047936,
+                         "publishedUtc":  "2026-10-03T17:27:32Z",
+                         "notes":  "Make premium home layout cached and drag-safe"
                      }
                  ]
 }
