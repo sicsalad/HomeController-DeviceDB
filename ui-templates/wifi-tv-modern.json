@@ -1,3 +1,91 @@
 {
-  "$schema":"../schemas/device-ui-template-v2.schema.json","schemaVersion":2,"id":"wifi-tv-modern","name":"Wi-Fi TV Modern","deviceTypeId":"television","connections":["wifi"],"renderer":"builtin-ir-tv","access":"free","columns":3,"useFullWidth":true,"horizontalSpacing":10,"verticalSpacing":10,"buttonCornerRadius":14,"sectionCornerRadius":16,"buttonHeight":54,"sections":[]
+  "$schema":"../schemas/device-ui-template-v2.schema.json",
+  "schemaVersion":2,
+  "id":"wifi-tv-modern",
+  "name":"Samsung Tizen Smart Remote",
+  "deviceTypeId":"television",
+  "connections":["wifi"],
+  "renderer":"declarative",
+  "access":"free",
+  "columns":4,
+  "useFullWidth":true,
+  "horizontalSpacing":8,
+  "verticalSpacing":9,
+  "screenMarginLeft":12,
+  "screenMarginTop":12,
+  "screenMarginRight":12,
+  "screenMarginBottom":18,
+  "backgroundMode":"vertical-gradient",
+  "backgroundColor":"#070B14",
+  "backgroundColor2":"#111827",
+  "foregroundColor":"#F8FAFC",
+  "mutedTextColor":"#94A3B8",
+  "surfaceColor":"#111827",
+  "accentColor":"#38BDF8",
+  "buttonColor":"#1E293B",
+  "buttonTextColor":"#F8FAFC",
+  "borderColor":"#334155",
+  "buttonCornerRadius":18,
+  "sectionCornerRadius":22,
+  "buttonHeight":54,
+  "buttonFontSize":12,
+  "iconFontSize":22,
+  "sections":[
+    {"title":"Quick access","controls":[
+      {"type":"button","label":"Power","icon":"⏻","command":"Power"},
+      {"type":"button","label":"Home","icon":"⌂","command":"Home"},
+      {"type":"button","label":"Source","icon":"▣","command":"Source"},
+      {"type":"button","label":"Apps","icon":"▦","command":"Apps"},
+      {"type":"button","label":"Netflix","command":"Netflix"},
+      {"type":"button","label":"Prime","command":"AmazonPrime"},
+      {"type":"button","label":"YouTube","command":"YouTube"},
+      {"type":"button","label":"Guide","command":"Guide"}
+    ]},
+    {"title":"Navigation","controls":[
+      {"type":"button","label":"Menu","icon":"☰","command":"Menu"},
+      {"type":"button","label":"Up","icon":"▲","command":"Up"},
+      {"type":"button","label":"Tools","icon":"⚙","command":"Tools"},
+      {"type":"button","label":"Info","icon":"ⓘ","command":"Info"},
+      {"type":"button","label":"Left","icon":"◀","command":"Left"},
+      {"type":"button","label":"OK","icon":"●","command":"Ok"},
+      {"type":"button","label":"Right","icon":"▶","command":"Right"},
+      {"type":"button","label":"Back","icon":"↩","command":"Back"},
+      {"type":"button","label":"Exit","command":"Exit"},
+      {"type":"button","label":"Down","icon":"▼","command":"Down"},
+      {"type":"button","label":"Search","icon":"⌕","command":"Search"},
+      {"type":"button","label":"Contents","command":"Contents"}
+    ]},
+    {"title":"Volume & channels","controls":[
+      {"type":"button","label":"VOL −","command":"VolumeDown"},
+      {"type":"button","label":"Mute","icon":"◉","command":"Mute"},
+      {"type":"button","label":"VOL +","command":"VolumeUp"},
+      {"type":"button","label":"CH +","command":"ChannelUp"},
+      {"type":"button","label":"CH list","command":"ChannelList"},
+      {"type":"button","label":"CH −","command":"ChannelDown"},
+      {"type":"button","label":"Previous","command":"PreviousChannel"}
+    ]},
+    {"title":"Playback","controls":[
+      {"type":"button","label":"Rewind","icon":"⏪","command":"Rewind"},
+      {"type":"button","label":"Play","icon":"▶","command":"Play"},
+      {"type":"button","label":"Pause","icon":"Ⅱ","command":"Pause"},
+      {"type":"button","label":"Forward","icon":"⏩","command":"FastForward"},
+      {"type":"button","label":"Stop","icon":"■","command":"Stop"},
+      {"type":"button","label":"Record","icon":"●","command":"Record"},
+      {"type":"button","label":"Subtitle","command":"Subtitle"},
+      {"type":"button","label":"Caption","command":"Caption"}
+    ]},
+    {"title":"Numbers","controls":[
+      {"type":"button","label":"1","command":"Digit1"},{"type":"button","label":"2","command":"Digit2"},{"type":"button","label":"3","command":"Digit3"},{"type":"button","label":"4","command":"Digit4"},
+      {"type":"button","label":"5","command":"Digit5"},{"type":"button","label":"6","command":"Digit6"},{"type":"button","label":"7","command":"Digit7"},{"type":"button","label":"8","command":"Digit8"},
+      {"type":"button","label":"9","command":"Digit9"},{"type":"button","label":"0","command":"Digit0"}
+    ]},
+    {"title":"Inputs & picture","controls":[
+      {"type":"button","label":"HDMI","command":"Hdmi"},{"type":"button","label":"HDMI 1","command":"Hdmi1"},{"type":"button","label":"HDMI 2","command":"Hdmi2"},{"type":"button","label":"HDMI 3","command":"Hdmi3"},
+      {"type":"button","label":"HDMI 4","command":"Hdmi4"},{"type":"button","label":"Picture size","command":"PictureSize"},{"type":"button","label":"Picture mode","command":"PictureMode"},{"type":"button","label":"Game mode","command":"GameMode"}
+    ]},
+    {"title":"More","controls":[
+      {"type":"button","label":"Red","command":"Red"},{"type":"button","label":"Green","command":"Green"},{"type":"button","label":"Yellow","command":"Yellow"},{"type":"button","label":"Blue","command":"Blue"},
+      {"type":"button","label":"Teletext","command":"Teletext"},{"type":"button","label":"Audio desc.","command":"AudioDescription"},{"type":"button","label":"E-Manual","command":"EManual"}
+    ]}
+  ]
 }
