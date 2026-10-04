@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1442",
-                         "versionCode":  1789506012,
-                         "publishedUtc":  "2026-09-15T21:07:13Z",
-                         "notes":  "docs(video): record mux timeout and cancellation failure"
-                     },
-                     {
                          "version":  "1.0.1443",
                          "versionCode":  1789507751,
                          "publishedUtc":  "2026-09-15T21:34:48Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1791140032,
                          "publishedUtc":  "2026-10-04T19:02:00Z",
                          "notes":  "Fix Tizen pairing handshake and persist pairings before device creation"
+                     },
+                     {
+                         "version":  "1.0.1533",
+                         "versionCode":  1791143285,
+                         "publishedUtc":  "2026-10-04T19:55:48Z",
+                         "notes":  "Fix Samsung Tizen authorization flow"
                      }
                  ]
 }
