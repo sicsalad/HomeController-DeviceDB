@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.431",
-  "versionCode": 1791147065,
-  "publishedUtc": "2026-10-04T20:51:05Z",
-  "commit": "7f554424ca4059182c092d03ffa1dd041815e26c",
-  "patchNotes": "Expand Samsung Tizen commands and smart remote UI"
+  "version": "1.0.432",
+  "versionCode": 1791147124,
+  "publishedUtc": "2026-10-04T20:52:04Z",
+  "commit": "7ce26584e714ec9184d9a109941a429a4c504604",
+  "patchNotes": "Publish Samsung Tizen driver v3"
 }

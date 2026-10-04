@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.172",
-      "versionCode": 1788543527,
-      "publishedUtc": "2026-09-04T17:38:47Z",
-      "notes": "Document remote image asset architecture"
-    },
-    {
       "version": "1.0.173",
       "versionCode": 1788543570,
       "publishedUtc": "2026-09-04T17:39:30Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1791147065,
       "publishedUtc": "2026-10-04T20:51:05Z",
       "notes": "Expand Samsung Tizen commands and smart remote UI"
+    },
+    {
+      "version": "1.0.432",
+      "versionCode": 1791147124,
+      "publishedUtc": "2026-10-04T20:52:04Z",
+      "notes": "Publish Samsung Tizen driver v3"
     }
   ]
 }
