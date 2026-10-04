@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1446",
-                         "versionCode":  1789513355,
-                         "publishedUtc":  "2026-09-15T23:10:12Z",
-                         "notes":  "feat(video): add primary LibVLC and legacy fallback preference"
-                     },
-                     {
                          "version":  "1.0.1447",
                          "versionCode":  1789513889,
                          "publishedUtc":  "2026-09-15T23:20:15Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1791146742,
                          "publishedUtc":  "2026-10-04T20:53:28Z",
                          "notes":  "Complete Wi-Fi command routing for dynamic devices"
+                     },
+                     {
+                         "version":  "1.0.1537",
+                         "versionCode":  1791147282,
+                         "publishedUtc":  "2026-10-04T21:02:41Z",
+                         "notes":  "Upgrade saved Wi-Fi devices to latest compatible driver manifest"
                      }
                  ]
 }
