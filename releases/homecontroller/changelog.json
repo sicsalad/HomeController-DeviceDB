@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1443",
-                         "versionCode":  1789507751,
-                         "publishedUtc":  "2026-09-15T21:34:48Z",
-                         "notes":  "restore unified media viewer after build-fix edit"
-                     },
-                     {
                          "version":  "1.0.1444",
                          "versionCode":  1789512220,
                          "publishedUtc":  "2026-09-15T22:49:06Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1791143285,
                          "publishedUtc":  "2026-10-04T19:55:48Z",
                          "notes":  "Fix Samsung Tizen authorization flow"
+                     },
+                     {
+                         "version":  "1.0.1534",
+                         "versionCode":  1791144556,
+                         "publishedUtc":  "2026-10-04T20:17:01Z",
+                         "notes":  "Handle Android Keystore failures for Tizen pairing"
                      }
                  ]
 }
