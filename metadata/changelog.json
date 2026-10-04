@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.171",
-      "versionCode": 1788543508,
-      "publishedUtc": "2026-09-04T17:38:28Z",
-      "notes": "Add runtime image asset catalog"
-    },
-    {
       "version": "1.0.172",
       "versionCode": 1788543527,
       "publishedUtc": "2026-09-04T17:38:47Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1790974519,
       "publishedUtc": "2026-10-02T20:55:19Z",
       "notes": "Add premium product type to activation codes"
+    },
+    {
+      "version": "1.0.431",
+      "versionCode": 1791147065,
+      "publishedUtc": "2026-10-04T20:51:05Z",
+      "notes": "Expand Samsung Tizen commands and smart remote UI"
     }
   ]
 }
