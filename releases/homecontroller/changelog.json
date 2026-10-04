@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1445",
-                         "versionCode":  1789512620,
-                         "publishedUtc":  "2026-09-15T22:55:14Z",
-                         "notes":  "docs(video): record cast lifecycle and Media3 mapping fixes"
-                     },
-                     {
                          "version":  "1.0.1446",
                          "versionCode":  1789513355,
                          "publishedUtc":  "2026-09-15T23:10:12Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1791146195,
                          "publishedUtc":  "2026-10-04T20:44:28Z",
                          "notes":  "Route Wi-Fi remote commands through device dispatcher"
+                     },
+                     {
+                         "version":  "1.0.1536",
+                         "versionCode":  1791146742,
+                         "publishedUtc":  "2026-10-04T20:53:28Z",
+                         "notes":  "Complete Wi-Fi command routing for dynamic devices"
                      }
                  ]
 }
