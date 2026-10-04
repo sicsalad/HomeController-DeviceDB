@@ -8,7 +8,7 @@
     { "id": "panasonic-comfort-cloud", "version": 1, "path": "protocols/panasonic-comfort-cloud.json", "sha256": "", "status": "experimental" },
     { "id": "fujitsu-fglair", "version": 1, "path": "protocols/fujitsu-fglair.json", "sha256": "", "status": "experimental" },
     { "id": "tuya-cloud-generic", "version": 1, "path": "protocols/tuya-cloud-generic.json", "sha256": "", "status": "experimental" },
-    { "id": "samsung-tizen-tv", "version": 2, "path": "protocols/samsung-tizen-tv.json", "sha256": "", "status": "experimental" },
+    { "id": "samsung-tizen-tv", "version": 3, "path": "protocols/samsung-tizen-tv.json", "sha256": "", "status": "experimental" },
     { "id": "samsung-legacy-tv", "version": 2, "path": "protocols/samsung-legacy-tv.json", "sha256": "", "status": "experimental" },
     { "id": "vestel-smartcenter-tv", "version": 1, "path": "protocols/vestel-smartcenter-tv.json", "sha256": "", "status": "experimental" },
     { "id": "android-tv-remote-v2", "version": 1, "path": "protocols/android-tv-remote-v2.json", "sha256": "", "status": "experimental" },
