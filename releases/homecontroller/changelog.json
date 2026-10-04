@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1441",
-                         "versionCode":  1789505451,
-                         "publishedUtc":  "2026-09-15T20:58:56Z",
-                         "notes":  "fix(video): safe cancellable mux with real progress"
-                     },
-                     {
                          "version":  "1.0.1442",
                          "versionCode":  1789506012,
                          "publishedUtc":  "2026-09-15T21:07:13Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1791138697,
                          "publishedUtc":  "2026-10-04T18:39:23Z",
                          "notes":  "Fix pairing settings build integration"
+                     },
+                     {
+                         "version":  "1.0.1532",
+                         "versionCode":  1791140032,
+                         "publishedUtc":  "2026-10-04T19:02:00Z",
+                         "notes":  "Fix Tizen pairing handshake and persist pairings before device creation"
                      }
                  ]
 }
