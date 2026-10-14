@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1449",
-                         "versionCode":  1789514872,
-                         "publishedUtc":  "2026-09-15T23:33:03Z",
-                         "notes":  "docs: add HomeController performance optimization plan"
-                     },
-                     {
                          "version":  "1.0.1450",
                          "versionCode":  1789515318,
                          "publishedUtc":  "2026-09-15T23:40:23Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1792016076,
                          "publishedUtc":  "2026-10-14T22:32:20Z",
                          "notes":  "fix: stop media and reset navigation before app exit to prevent automatic video replay"
+                     },
+                     {
+                         "version":  "1.0.1540",
+                         "versionCode":  1792019923,
+                         "publishedUtc":  "2026-10-14T23:39:13Z",
+                         "notes":  "fix: avoid black integration child page background when template has unresolved black color"
                      }
                  ]
 }
