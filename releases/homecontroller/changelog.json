@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1448",
-                         "versionCode":  1789514488,
-                         "publishedUtc":  "2026-09-15T23:26:39Z",
-                         "notes":  "docs(video): record full LibVLC primary integration"
-                     },
-                     {
                          "version":  "1.0.1449",
                          "versionCode":  1789514872,
                          "publishedUtc":  "2026-09-15T23:33:03Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1792013345,
                          "publishedUtc":  "2026-10-14T21:45:36Z",
                          "notes":  "fix: use registered diagnostics service in ONVIF camera setup to unblock Android release build"
+                     },
+                     {
+                         "version":  "1.0.1539",
+                         "versionCode":  1792016076,
+                         "publishedUtc":  "2026-10-14T22:32:20Z",
+                         "notes":  "fix: stop media and reset navigation before app exit to prevent automatic video replay"
                      }
                  ]
 }
