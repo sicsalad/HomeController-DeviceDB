@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.432",
-  "versionCode": 1791147124,
-  "publishedUtc": "2026-10-04T20:52:04Z",
-  "commit": "7ce26584e714ec9184d9a109941a429a4c504604",
-  "patchNotes": "Publish Samsung Tizen driver v3"
+  "version": "1.0.433",
+  "versionCode": 1792007040,
+  "publishedUtc": "2026-10-14T19:44:00Z",
+  "commit": "92c62a682c89fc5b94d35904642cfd505a79b300",
+  "patchNotes": "feat: establish evidence-based supported device verification registry"
 }
