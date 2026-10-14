@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "description": "Device verification is based on actual device testing. Entries may only be marked verified after evidence-based end-to-end testing.",
+  "statusValues": [
+    "experimental",
+    "in_progress",
+    "supported",
+    "verified"
+  ],
+  "devices": []
+}
