@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.177",
-      "versionCode": 1788545972,
-      "publishedUtc": "2026-09-04T18:19:32Z",
-      "notes": "Add shared action SVG icon set"
-    },
-    {
       "version": "1.0.178",
       "versionCode": 1788546045,
       "publishedUtc": "2026-09-04T18:20:45Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1792275359,
       "publishedUtc": "2026-10-17T22:15:59Z",
       "notes": "Publish PC Agent 1.0.29"
+    },
+    {
+      "version": "1.0.437",
+      "versionCode": 1792277520,
+      "publishedUtc": "2026-10-17T22:52:00Z",
+      "notes": "Publish PC Agent 1.0.30"
     }
   ]
 }
