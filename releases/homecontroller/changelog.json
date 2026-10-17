@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1451",
-                         "versionCode":  1789515696,
-                         "publishedUtc":  "2026-09-15T23:47:56Z",
-                         "notes":  "fix(video): use MAUI LibVLC initialization path and add diagnostics"
-                     },
-                     {
                          "version":  "1.0.1452",
                          "versionCode":  1789517243,
                          "publishedUtc":  "2026-09-16T00:13:06Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1792272340,
                          "publishedUtc":  "2026-10-17T21:34:25Z",
                          "notes":  "Fix PC Remote cursor visibility control and preserve continuous stream"
+                     },
+                     {
+                         "version":  "1.0.1542",
+                         "versionCode":  1792274218,
+                         "publishedUtc":  "2026-10-17T22:05:06Z",
+                         "notes":  "Fix MAUI PC Remote cursor shadow brush compile error"
                      }
                  ]
 }
