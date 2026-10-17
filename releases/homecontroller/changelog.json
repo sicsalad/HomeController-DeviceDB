@@ -2,12 +2,6 @@
     "schemaVersion":  1,
     "releases":  [
                      {
-                         "version":  "1.0.1452",
-                         "versionCode":  1789517243,
-                         "publishedUtc":  "2026-09-16T00:13:06Z",
-                         "notes":  "Fix Android Matter cancellation compile ambiguity"
-                     },
-                     {
                          "version":  "1.0.1453",
                          "versionCode":  1789592051,
                          "publishedUtc":  "2026-09-16T20:59:27Z",
@@ -1200,6 +1194,12 @@
                          "versionCode":  1792274218,
                          "publishedUtc":  "2026-10-17T22:05:06Z",
                          "notes":  "Fix MAUI PC Remote cursor shadow brush compile error"
+                     },
+                     {
+                         "version":  "1.0.1543",
+                         "versionCode":  1792275361,
+                         "publishedUtc":  "2026-10-17T22:23:45Z",
+                         "notes":  "Reduce PC Remote JPEG stream load and make mobile cursor prominent"
                      }
                  ]
 }
