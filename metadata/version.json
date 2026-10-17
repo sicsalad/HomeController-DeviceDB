@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.433",
-  "versionCode": 1792007040,
-  "publishedUtc": "2026-10-14T19:44:00Z",
-  "commit": "92c62a682c89fc5b94d35904642cfd505a79b300",
-  "patchNotes": "feat: establish evidence-based supported device verification registry"
+  "version": "1.0.434",
+  "versionCode": 1792272339,
+  "publishedUtc": "2026-10-17T21:25:39Z",
+  "commit": "2ca8d50abf04e9308bd3a5c96b7be8478a1b19a9",
+  "patchNotes": "Publish PC Agent 1.0.27"
 }
