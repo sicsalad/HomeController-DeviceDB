@@ -2,12 +2,6 @@
   "schemaVersion": 1,
   "releases": [
     {
-      "version": "1.0.178",
-      "versionCode": 1788546045,
-      "publishedUtc": "2026-09-04T18:20:45Z",
-      "notes": "Add state and numeric remote SVG icon set"
-    },
-    {
       "version": "1.0.179",
       "versionCode": 1788546141,
       "publishedUtc": "2026-09-04T18:22:21Z",
@@ -1200,6 +1194,12 @@
       "versionCode": 1792277520,
       "publishedUtc": "2026-10-17T22:52:00Z",
       "notes": "Publish PC Agent 1.0.30"
+    },
+    {
+      "version": "1.0.438",
+      "versionCode": 1792537537,
+      "publishedUtc": "2026-10-20T23:05:37Z",
+      "notes": "Publish PC Agent 1.0.31"
     }
   ]
 }
