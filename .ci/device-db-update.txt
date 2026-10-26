@@ -1,4 +1,4 @@
 HomeController DeviceDB update
-UTC: 2026-10-19T08:47:39Z
-Commit tested: 05646fb10d524b545d7f14e31b620dbc8d7bf110
+UTC: 2026-10-26T08:50:09Z
+Commit tested: e754b1a220463074e81a8cd0fedb3fe31c047216
 STATUS: SUCCESS
